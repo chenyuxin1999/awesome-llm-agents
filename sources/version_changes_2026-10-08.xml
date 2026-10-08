@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/haMaGbgy/Fllx5uM8w64voVEcg8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2607.12815,2607.27599,2607.28627&amp;start=0&amp;max_results=10</title>
+  <updated>2026-10-08T08:17:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2607.12815,2607.27599,2607.28627" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2607.28627v2</id>
+    <title>ReToken: Improving Long-Context VLMs with Visual Retrieval Token</title>
+    <updated>2026-10-06T22:51:13Z</updated>
+    <link href="https://arxiv.org/abs/2607.28627v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.28627v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long visual contexts challenge vision-language models: performance degrades as the number of distractors grows, and processing all tokens at once can exceed GPU memory limits. We present RETOKEN, a single learnable embedding that extracts retrieval signals from the VLM's internal representations to select query-relevant visual tokens from the pre-filled KV cache. This enables retrieval within the answering VLM, without a separate retriever or re-encoding. Despite being trained on only a small image-QA dataset, RETOKEN generalizes across image and video benchmarks. On Visual Haystacks, it improves Qwen3VL-8B by 13.4 points and InternVL3.5 by 12.4 points (&gt;20% relative). On LVBench, it transfers zero-shot to long video and improves Qwen3VL-8B by 8.0 points. Thanks to its lightweight design, both training and long-video inference fit on a single H100. Code is available at: https://github.com/avaxiao/ReToken</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-30T17:59:56Z</published>
+    <arxiv:comment>Accepted to NeurIPS 2026. Code: https://github.com/avaxiao/ReToken</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yao Xiao</name>
+    </author>
+    <author>
+      <name>Reuben Tan</name>
+    </author>
+    <author>
+      <name>Zhen Zhu</name>
+    </author>
+    <author>
+      <name>Yuqun Wu</name>
+    </author>
+    <author>
+      <name>Jianfeng Gao</name>
+    </author>
+    <author>
+      <name>Derek Hoiem</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.27599v2</id>
+    <title>World Action Planner: Generalizable Robot Decision-Making with Action-Conditioned World Models</title>
+    <updated>2026-10-02T17:25:59Z</updated>
+    <link href="https://arxiv.org/abs/2607.27599v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.27599v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Building generalizable robot agents for diverse applications remains a fundamental challenge. While imitation learning-based policies can perform well in familiar training environments, they often struggle to generalize to novel scenes, layouts, and task compositions. To this end, we present World Action Planner, an agentic robot planning system in which the agent searches for and composes executable action plans through imagination with an action-conditioned world model. The search proceeds in a coarse-to-fine manner. First, the agent performs global action optimization by reasoning over imagined world-model rollouts to identify potential failures and refine the proposed action plan. It then performs local action search, comparing the imagined future outcomes of neighboring candidates to select the best action for execution. Across compositional long-horizon tasks, novel object layouts, and real-robot planning on novel tasks without expert demonstrations, World Action Planner consistently outperforms state-of-the-art end-to-end generalist policy models and VLM planners, demonstrating the effectiveness of world-model-based action search for generalizable robot decision making. Qualitative results and videos are available at https://worldactionplanner.github.io/</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-30T02:41:52Z</published>
+    <arxiv:comment>Project page at worldactionplanner.github.io</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Xiangcheng Zhang</name>
+    </author>
+    <author>
+      <name>Runhan Huang</name>
+    </author>
+    <author>
+      <name>Yilun Du</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.12815v3</id>
+    <title>What Keeps Vision-Language Models Looking at the Image?</title>
+    <updated>2026-10-04T09:34:10Z</updated>
+    <link href="https://arxiv.org/abs/2607.12815v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.12815v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When do vision-language models need direct access to the image while generating an answer? We study image dependence during answer generation by examining how the visual information needed for the current question becomes available in context. We intervene on direct image access while retaining previously computed states. Across real-image and synthetic tasks, we show that, depending on the generation process, direct access can continue to support accuracy after question processing. Supplying the required attributes as text in the context weakens this dependence. On synthetic tasks, we also examine how dependence changes as the model itself states the required attributes. Before attribute expression, severing access reduces accuracy, and replacing image-side states shifts answers toward the counterfactual content. After sufficient expression, both interventions have smaller effects. Even with an identical generated prefix, dependence differs according to whether image access was available during question processing. Thus, both the visible text and the preceding image access matter. Several of these patterns hold across model families, including Qwen2.5-VL-32B and InternVL3-14B. These findings offer a view of image dependence in terms of the information needed for the current question and the history of image access, beyond generation position alone. This perspective provides a basis for deciding when to reduce visual access during an answer and which visual information to retain for subsequent questions.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-14T14:27:58Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Hiroto Osaka</name>
+    </author>
+    <author>
+      <name>Shohei Taniguchi</name>
+    </author>
+    <author>
+      <name>Gouki Minegishi</name>
+    </author>
+    <author>
+      <name>Kai Yamashita</name>
+    </author>
+    <author>
+      <name>Masahiro Suzuki</name>
+    </author>
+    <author>
+      <name>Yutaka Matsuo</name>
+    </author>
+  </entry>
+</feed>

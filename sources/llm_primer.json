@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://arxiv.org/abs/1508.07909",
+    "checked_at": "2026-10-08T07:57:29.503630+00:00",
+    "scope": "metadata_and_reachability_only",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/abs/1508.07909",
+    "sha256": "6306ad74ed5e1e3d23271e029b630e38a4a396316d0bc61876d5b3bac195630e",
+    "title": "Neural Machine Translation of Rare Words with Subword Units",
+    "published": "2015/08/31",
+    "arxiv_id": "1508.07909",
+    "status": "metadata_fetched"
+  },
+  {
+    "url": "https://arxiv.org/abs/1706.03762",
+    "checked_at": "2026-10-08T07:57:29.504454+00:00",
+    "scope": "metadata_and_reachability_only",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/abs/1706.03762",
+    "sha256": "29e42a996471db9c019f1122825cdac0e6d64c96767d9ee5c0b8891de6204bee",
+    "title": "Attention Is All You Need",
+    "published": "2017/06/12",
+    "arxiv_id": "1706.03762",
+    "status": "metadata_fetched"
+  },
+  {
+    "url": "https://arxiv.org/abs/2001.08361",
+    "checked_at": "2026-10-08T07:57:29.504876+00:00",
+    "scope": "metadata_and_reachability_only",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/abs/2001.08361",
+    "sha256": "44f1df7bd62aaf763ba82e0478327135793398e7cd0e10d714b0492bfe92af98",
+    "title": "Scaling Laws for Neural Language Models",
+    "published": "2020/01/23",
+    "arxiv_id": "2001.08361",
+    "status": "metadata_fetched"
+  },
+  {
+    "url": "https://arxiv.org/abs/2005.11401",
+    "checked_at": "2026-10-08T07:57:29.505179+00:00",
+    "scope": "metadata_and_reachability_only",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/abs/2005.11401",
+    "sha256": "8fe67b6e6cba908511e7a7bb688a6306cd15309ae9096b4e57970469dce23e55",
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "published": "2020/05/22",
+    "arxiv_id": "2005.11401",
+    "status": "metadata_fetched"
+  },
+  {
+    "url": "https://arxiv.org/abs/2005.14165",
+    "checked_at": "2026-10-08T07:57:30.126624+00:00",
+    "scope": "metadata_and_reachability_only",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/abs/2005.14165",
+    "sha256": "7cbed08f240c4deba3d4c3c653221a2c93a414ef1796e905e06335f30ec56672",
+    "title": "Language Models are Few-Shot Learners",
+    "published": "2020/05/28",
+    "arxiv_id": "2005.14165",
+    "status": "metadata_fetched"
+  },
+  {
+    "url": "https://arxiv.org/abs/2106.09685",
+    "checked_at": "2026-10-08T07:57:30.134515+00:00",
+    "scope": "metadata_and_reachability_only",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/abs/2106.09685",
+    "sha256": "70bb70b4fd6d41b8a0f53fc5148017bf6ef5b73acba822027397f861aee135c6",
+    "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+    "published": "2021/06/17",
+    "arxiv_id": "2106.09685",
+    "status": "metadata_fetched"
+  },
+  {
+    "url": "https://arxiv.org/abs/2203.02155",
+    "checked_at": "2026-10-08T07:57:30.408249+00:00",
+    "scope": "metadata_and_reachability_only",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/abs/2203.02155",
+    "sha256": "44041210f5bfd20233118b305160785f14161f1cf026ff6efa372e3b3f30b7c4",
+    "title": "Training language models to follow instructions with human feedback",
+    "published": "2022/03/04",
+    "arxiv_id": "2203.02155",
+    "status": "metadata_fetched"
+  },
+  {
+    "url": "https://arxiv.org/abs/2203.15556",
+    "checked_at": "2026-10-08T07:57:30.713497+00:00",
+    "scope": "metadata_and_reachability_only",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/abs/2203.15556",
+    "sha256": "bc4809d5c487933ab6aed4ea233d1281b3e0b14ffba026cf441688f35d8ed146",
+    "title": "Training Compute-Optimal Large Language Models",
+    "published": "2022/03/29",
+    "arxiv_id": "2203.15556",
+    "status": "metadata_fetched"
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.18290",
+    "checked_at": "2026-10-08T07:57:30.759577+00:00",
+    "scope": "metadata_and_reachability_only",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/abs/2305.18290",
+    "sha256": "c213a47bb5c67ad1983741bec43fc5e6ab252ae9737bd3e6c8daa2edbf5a3fe3",
+    "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+    "published": "2023/05/29",
+    "arxiv_id": "2305.18290",
+    "status": "metadata_fetched"
+  },
+  {
+    "url": "https://arxiv.org/abs/2307.03172",
+    "checked_at": "2026-10-08T07:57:30.977301+00:00",
+    "scope": "metadata_and_reachability_only",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/abs/2307.03172",
+    "sha256": "af63ac4b31d2d47748f3ad62081349ff820ca488c577888c8b0289545915c275",
+    "title": "Lost in the Middle: How Language Models Use Long Contexts",
+    "published": "2023/07/06",
+    "arxiv_id": "2307.03172",
+    "status": "metadata_fetched"
+  }
+]

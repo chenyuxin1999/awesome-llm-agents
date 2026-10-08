@@ -1,0 +1,743 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hoZWJGrAjNW0toiXg9nYZsmdhuU</id>
+  <title>arXiv Query: search_query=all:agent&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-10-08T07:41:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:agent&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>81841</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2610.10527v1</id>
+    <title>Decentralized SGD under Heavy-Tailed Noise: Optimal Convergence Rates and the Role of Gradient Clipping</title>
+    <updated>2026-10-07T17:57:58Z</updated>
+    <link href="https://arxiv.org/abs/2610.10527v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.10527v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Heavy-tailed noise has been widely observed in modern machine learning, motivating the use of methods like gradient clipping and normalization. While these methods are well understood in centralized settings, much less is known in decentralized ones, where applying a nonlinearity to local gradients affects both optimization and consensus. Recent works on decentralized non-convex optimization have studied both clipping and normalization under heavy-tailed noise, with clipping yielding suboptimal rates and normalization needing local momentum or mini-batches to converge. This raises the question: can a baseline decentralized method using a nonlinearity achieve optimal convergence rates under heavy-tailed noise? We answer affirmatively with clipped decentralized SGD ($\mathtt{DSGD}$). For smooth non-convex costs under bounded $p$-th moment noise, $p \in (1,2]$, we show that clipped $\mathtt{DSGD}$ achieves order-optimal rates both with high probability and in expectation. Moreover, we establish a linear speed-up in the number of agents, which, to our knowledge, has not been shown for decentralized methods with clipping. The key technical ingredient is a sharp analysis of the consensus gap that exploits the structure of clipping, relegating network effects to higher-order terms. Our results highlight an important distinction between clipping and normalization in decentralized settings: while normalized $\mathtt{DSGD}$ can fail to converge, clipping retains magnitude information, enabling $\mathtt{DSGD}$ to be convergent and order-optimal. Numerical experiments validate our theory.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-07T17:57:58Z</published>
+    <arxiv:comment>36 pages, 5 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Aleksandar Armacki</name>
+    </author>
+    <author>
+      <name>Haoyuan Cai</name>
+    </author>
+    <author>
+      <name>Ali H. Sayed</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.10521v1</id>
+    <title>Trend formation with sparse global sampling</title>
+    <updated>2026-10-07T17:56:21Z</updated>
+    <link href="https://arxiv.org/abs/2610.10521v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.10521v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Achieving global coordination without a central controller or dense global communication is a defining challenge for both biological collectives and engineered swarms. We introduce and analyze a minimal model in which self-propelled agents in a bounded domain periodically reorient their motions toward the centroid of a small, randomly chosen subset of their peers, with no direct sensing of any individual neighbor's position or heading. We show that this sparse, non-local sampling rule reliably drives an initially disordered population to a globally aligned, nematic state, and that shrinking the sampled subset -- down to the minimum of two agents -- accelerates ordering rather than impeding it: the resulting estimation noise, filtered through a geometric turning rule, is itself the engine of symmetry breaking. We derive an analytical criterion, in quantitative agreement with simulation, that predicts when this ordering succeeds as a function of the sampling size and sampling frequency. We confirm the mechanism experimentally in a swarm of up to fifteen differential-drive robots. These results identify sparse random sampling as an information-efficient route to collective coordination, with implications for understanding animal collectives and for designing communication-limited robotic swarms.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-07T17:56:21Z</published>
+    <arxiv:comment>6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>Sarath Sankar</name>
+    </author>
+    <author>
+      <name>Abhijit Sinha</name>
+    </author>
+    <author>
+      <name>Shankar Ghosh</name>
+    </author>
+    <author>
+      <name>Vikram Tripathi</name>
+    </author>
+    <author>
+      <name>Amitava Bhattacharya</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.10515v1</id>
+    <title>RoboJEPA: Scaling Robotic Latent World Models</title>
+    <updated>2026-10-07T17:54:42Z</updated>
+    <link href="https://arxiv.org/abs/2610.10515v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.10515v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Latent world models have shown a remarkable ability to predict future states and to plan in the real world. In practice, however, we lack a principled way to estimate how their capabilities scale with model size, data, and compute, an open problem that slows progress in the field. In this work we present RoboJEPA, a world model based on the Joint Embedding Predictive Architecture (JEPA) and trained on a large-scale dataset spanning 12 robotic embodiments. We show that RoboJEPA's imagination error, the error of its latent rollouts, follows a second-order power law in compute, allowing us to predict model quality well beyond the scale at which the law is fit. We further show that downstream robotic planning performance improves predictably with compute, and that imagination error is strongly correlated with it, making it a reliable proxy for real-robot evaluation. Finally, we demonstrate that latent world models can be deployed zero-shot as robotic agents, planning toward a single goal image to solve tasks requiring long-horizon planning on real hardware. We release all model checkpoints together with our training and robot deployment code. To our knowledge, this is the first work to establish scaling laws for multi-embodiment robotic world models trained on real robot data, and RoboJEPA, at 8B parameters, is the largest JEPA predictor model trained to date.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-07T17:54:42Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Artem Zholus</name>
+    </author>
+    <author>
+      <name>Nicolas Beltran-Velez</name>
+    </author>
+    <author>
+      <name>Jianhao Yuan</name>
+    </author>
+    <author>
+      <name>Sarath Chandar</name>
+    </author>
+    <author>
+      <name>Tushar Nagarajan</name>
+    </author>
+    <author>
+      <name>Daniel Severo</name>
+    </author>
+    <author>
+      <name>Koustuv Sinha</name>
+    </author>
+    <author>
+      <name>Michal Drozdzal</name>
+    </author>
+    <author>
+      <name>Adriana Romero Soriano</name>
+    </author>
+    <author>
+      <name>Jeannette Bohg</name>
+    </author>
+    <author>
+      <name>Nicolas Ballas</name>
+    </author>
+    <author>
+      <name>Mahmoud Assran</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.10513v1</id>
+    <title>SciExam for ENSO: Can AI Agents Build Climate Models?</title>
+    <updated>2026-10-07T17:52:52Z</updated>
+    <link href="https://arxiv.org/abs/2610.10513v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.10513v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Language-model agents are increasingly asked to carry out open-ended scientific research, yet their results are usually graded against a known answer, a rubric, or a language-model reviewer, none of which can tell whether a new scientific model is valid. The AI Science Exam for El Nino-Southern Oscillation (SciExam for ENSO) is a benchmark in which agents build low-order stochastic models of ENSO, the dominant mode of interannual climate variability, from real observations. Within a six-hour budget, agents process the observations, write their own diagnostics, which are then frozen, and develop a model using only these diagnostics as feedback. Hidden graders then test whether the model reproduces ENSO's statistics, recovers unobserved variables, and forecasts held-out years, and score a published model in the same way. Across twelve agent systems, six produce models that score higher than the published model, mainly through better reconstruction and forecasting. The simplified forms of the stronger models are each compatible with one of the two competing explanations of ENSO's warm-cold asymmetry, an open debate that the task never mentions. Controlled runs of the top system under varied information suggest that its scores do not come from recalling the dated observational record and that the information it receives shapes how it builds its model. SciExam for ENSO can thus evaluate agent research where no answer is known, and the results suggest that agents can already build competitive models whose structures bear on questions that scientists still debate.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ao-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-07T17:52:52Z</published>
+    <arxiv:comment>28 pages, 5 figures, 8 tables. Code: https://github.com/ylzhang2447/SciExam-ENSO-code</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yinling Zhang</name>
+    </author>
+    <author>
+      <name>Langchen Liu</name>
+    </author>
+    <author>
+      <name>Dongbin Xiu</name>
+    </author>
+    <author>
+      <name>Xueyan Zou</name>
+    </author>
+    <author>
+      <name>Xu Kuang</name>
+    </author>
+    <author>
+      <name>Mengdi Wang</name>
+    </author>
+    <author>
+      <name>Shilong Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.10507v1</id>
+    <title>RECAST: Learning to Compute the Right Context through Adaptive Evidence Routing</title>
+    <updated>2026-10-07T17:51:08Z</updated>
+    <link href="https://arxiv.org/abs/2610.10507v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.10507v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models are increasingly applied to tasks grounded in long, heterogeneous information sources. Conventional Retrieval-Augmented Generation (RAG) relies on fixed similarity-based retrieval, while agentic variants adapt queries and tool use but remain largely retrieval-centric. However, in many tasks, the evidence required for a solution is not explicitly present in any single source item. Instead, it must be derived through filtering, aggregation, or computation across multiple source items. In this work, we introduce RECAST (Routing Evidence through Computation, Access, and Synthesized Tools), a learned framework that formulates evidence construction as a sequential decision process over heterogeneous retrieval and computation operations, allowing evidence to be actively derived rather than merely retrieved. A lightweight RouterLM iteratively selects and formulates primitive operations or specifies customized operations for a frozen CompilerLM to translate into executable code. Once it judges the evidence sufficient, RouterLM passes the accepted evidence to a frozen AnswerLM to produce the final solution. We train RouterLM with supervised fine-tuning (SFT) followed by group relative policy optimization (GRPO). Across six heterogeneous benchmark families, RECAST achieves a mean success rate of 75.6%, outperforming the strongest large-model baseline by 15.9%. Moreover, training enables the Qwen3.5-9B RouterLM to outperform a training-free Gemini 3.5 Flash RouterLM by 5.0%. On three held-out benchmarks, RECAST improves over the strongest baseline by 15.0% on average, demonstrating strong zero-shot generalization across tasks and heterogeneous source representations.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-07T17:51:08Z</published>
+    <arxiv:comment>35 pages, 2 figures, 13 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yilun Hao</name>
+    </author>
+    <author>
+      <name>Krishna Sayana</name>
+    </author>
+    <author>
+      <name>Isabella Ye</name>
+    </author>
+    <author>
+      <name>James S Ren</name>
+    </author>
+    <author>
+      <name>Sukhdeep Sodhi</name>
+    </author>
+    <author>
+      <name>Craig Boutilier</name>
+    </author>
+    <author>
+      <name>Chuchu Fan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.10498v1</id>
+    <title>EmbodiedRSI: Active Continual Robot Learning Through Hypothesis-Guided Co-Evolution</title>
+    <updated>2026-10-07T17:48:02Z</updated>
+    <link href="https://arxiv.org/abs/2610.10498v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.10498v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Robot foundation models provide strong visuomotor control, yet their performance can degrade when object positions or task instructions change. Further improvements often require post-training on substantial robot data, which can be costly to collect through methods such as teleoperation. Agentic harnesses can adapt around the model, but current self-evolving harnesses use robot trials inefficiently when deciding which code and skill changes to pursue. We introduce EmbodiedRSI, a self-evolving agentic harness that autonomously decides where to explore next and turns the resulting physical interaction into improved code and skills. EmbodiedRSI realizes this through a Fast-Slow Dual-System Architecture, in which competing code and skill hypotheses are maintained in a Hypothesis Graph. Value-of-Information Experiment Selection chooses physical experiments that can distinguish these hypotheses. Their outcomes guide Code-Skill Co-Evolution. The Slow System builds Hierarchical Memory, and Reward-Grounded Memory Learning selects effective memory according to their value for later Fast-System improvement. On RoboCasa365, EmbodiedRSI reaches 77.0% overall success and 71.3% on Composite-Unseen, compared with 40.1% for the best baseline. EmbodiedRSI also reaches 86.8% overall success on LIBERO-Pro. Beyond benchmark performance, EmbodiedRSI transfers zero-shot to real-world robot, achieving 71.3% overall success across multiple challenging tasks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-07T17:48:02Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Python Song</name>
+    </author>
+    <author>
+      <name>Zhixuan Liang</name>
+    </author>
+    <author>
+      <name>Kelsey Fu</name>
+    </author>
+    <author>
+      <name>Mengdi Wang</name>
+    </author>
+    <author>
+      <name>Junfeng Yang</name>
+    </author>
+    <author>
+      <name>Shilong Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.10487v1</id>
+    <title>LOCAA: An Agentic System for Automated Lossy Compressor Tuning</title>
+    <updated>2026-10-07T17:44:31Z</updated>
+    <link href="https://arxiv.org/abs/2610.10487v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.10487v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large-scale scientific simulations generate substantial data volumes, making lossy compression essential for reducing storage and data movement costs. However, users configure compressors through numerical error bounds (EBs) while often evaluating results using quality metrics and end-to-end performance. Because the relationship between an EB and these outcomes varies across datasets and compressors, identifying a suitable configuration typically requires exhaustive search, which can be time-consuming and computationally demanding. We present LOCAA, an Large language model-based scientific lossy compression auto-tuning agent that performs compression-in-the-loop search using tool-integrated execution, compressor-aware guidance, and persistent memory. LOCAA supports user-defined objectives and constraints without requiring a specialized search strategy. We evaluate LOCAA across three scientific applications, five compressors, and three use cases: fixed-ratio compression, compression tuning under multiple quality constraints, and compression tuning under quality and time constraints. For fixed-ratio search across twelve fields from two applications, LOCAA requires 1.98x fewer evaluation trials than binary search and 5.03x fewer than FRaZ on average. For compression ratio maximization under joint Peak Signal-to-Noise Ratio (PSNR) and Structural Similarity Index Measure constraints across six fields from the Community Earth System Model application, LOCAA reduces the average evaluation trials from 61.5 using binary search to 17, corresponding to a 72.4% reduction. Persistent memory further reduces the average number of trials by 27.9% across multiple timesteps of the same field. These results demonstrate the potential of tool-augmented LLM agents to provide flexible and efficient compressor tuning across diverse scientific data and user-defined objectives.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-07T17:44:31Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Khondoker Mirazul Mumenin</name>
+    </author>
+    <author>
+      <name>Dong Dai</name>
+    </author>
+    <author>
+      <name>Sheng Di</name>
+    </author>
+    <author>
+      <name>Franck Cappello</name>
+    </author>
+    <author>
+      <name>Jinzhen Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.10482v1</id>
+    <title>Truecell reproduces R Seurat's single-cell analysis outputs natively in the Python ecosystem</title>
+    <updated>2026-10-07T17:38:28Z</updated>
+    <link href="https://arxiv.org/abs/2610.10482v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.10482v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Single-cell RNA-sequencing analyses predominantly use either Seurat (R) or Scanpy (Python), with the choice often driven by programming language preference. However, by default, these tools produce divergent variable features, neighbour graphs, clusters, and marker genes. Laboratories requiring Python, which supports most deep-learning, foundation-model, and agent tools, must re-implement Seurat analyses in a framework that does not replicate Seurat's results. Truecell was developed as a Python implementation of the Seurat interface, preserving function names, arguments, default settings, and the object model to facilitate seamless transfer of analyses. In eighteen paired end-to-end evaluations against R Seurat, deterministic outputs matched to floating-point precision, and fold-change order was identical across all nine differential expression tests. In a three-arm benchmark on three datasets, with fixed user parameters and 20 seeds per tool, Truecell more closely reproduced Seurat's clustering than a Seurat-configured Scanpy in all 12 combinations of dataset and resolution settings. Truecell's marker genes and enriched pathways were also closer to Seurat's than Scanpy's were, and pseudobulk DESeq2 reproduced Seurat's gene lists with a Jaccard index ranging from 0.95 to 1.00. This agreement reflects fidelity to Seurat rather than biological correctness.</summary>
+    <category term="q-bio.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-07T17:38:28Z</published>
+    <arxiv:primary_category term="q-bio.GN"/>
+    <author>
+      <name>Nuzla Ismail</name>
+    </author>
+    <author>
+      <name>Shanika Amarasoma</name>
+    </author>
+    <author>
+      <name>Michelle Galeas-Pena</name>
+    </author>
+    <author>
+      <name>Sarah C. Glover</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.10479v1</id>
+    <title>Agentic RSR: Real-to-Sim-to-Real through Scene Reconstruction and Execution-Grounded Robot Policies</title>
+    <updated>2026-10-07T17:37:20Z</updated>
+    <link href="https://arxiv.org/abs/2610.10479v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.10479v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A simulation of a real robot workspace must preserve task-relevant interactions, while policies developed in it must operate on observations available to the real robot. Yet scene reconstruction and policy development are often treated separately. We present Agentic Real-to-Sim-to-Real (Agentic RSR), a framework that links scene reconstruction, policy development, and real-robot execution through the same manipulation task. Given a workspace video, a task description, and a known robot model, an agent recovers metric scale, iteratively refines the scene using visual feedback, and checks task-relevant interactions in MuJoCo. A coding agent then develops an executable policy, progressing from privileged object poses to visual observations and randomized simulation. The policy can interleave multiple observations and actions within one invocation, while the agent uses execution feedback to continue, retry, or revise its approach. A shared task-level interface carries the policy and accumulated experience to the real robot, where fresh observations and safety checks guide execution. Across 18 reconstructed scenes involving two robots, the mean four-view Depth MAE against reference depth estimates is 0.1057 m, the mean Lab $ΔE_{76}$ is 11.04, and the mean grayscale SSIM is 0.6990. In real-robot experiments, the aggregate task success rate reaches 80% of the simulation task success rate, indicating substantial retention of simulated performance on hardware. Code and reconstructed scene data will be made publicly available.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-07T17:37:20Z</published>
+    <arxiv:comment>25 pages including appendices, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yihan Li</name>
+    </author>
+    <author>
+      <name>Yating Feng</name>
+    </author>
+    <author>
+      <name>Shengjiu Sun</name>
+    </author>
+    <author>
+      <name>Jianing Chen</name>
+    </author>
+    <author>
+      <name>Hao Ren</name>
+    </author>
+    <author>
+      <name>Bowen Yang</name>
+    </author>
+    <author>
+      <name>Weisheng Xu</name>
+    </author>
+    <author>
+      <name>Qiwei Wu</name>
+    </author>
+    <author>
+      <name>Hui Cheng</name>
+    </author>
+    <author>
+      <name>Renjing Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.10478v1</id>
+    <title>Before They Can Solve: Predicting Post-Training Coding-Agent Performance from Base Models</title>
+    <updated>2026-10-07T17:37:19Z</updated>
+    <link href="https://arxiv.org/abs/2610.10478v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.10478v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>How can we predict which base checkpoint is worth an expensive round of agentic post-training? End-to-end pass@$K$ tests whether successful behavior already appears in a base model's distribution, but it is a poor fit for agentic coding: many base checkpoints cannot reliably produce the well-formed tool invocation required to complete a task end-to-end. Single-shot or short-horizon tasks avoid these tool-calling failures by collapsing a multi-step interaction into a fixed prompt and a single patch, but they sidestep the core capability we care about: maintaining coherent state over many tool-using steps as the repository evolves. To bridge this gap, we treat successful post-trained agent trajectories as a lookahead signal of base-model potential. Replaying each trajectory and rerunning tests after every code-changing step identifies the decisive step: the first step whose cumulative patch flips the repository from failing to passing, certifying that the recorded action solves the task given the prior context. Motivated by a coverage principle for agentic traces, we build three screens at this step that do not require a base checkpoint to drive the harness from a cold start: (i) Decisive-Action BPB (bits per byte) measures the probability mass on the certified action, (ii) Patch MCQ tests the checkpoint's choice between that action and alternatives rejected by the same verifier, and (iii) prefix-conditioned pass@$K$ evaluates support for functionally-correct generations and credits any continuation that the tests accept. Across ten pairs of public base and post-trained models, all three screens rank the cohort in close agreement with post-trained SWE-bench Verified pass@$1$. As our methods need only a benchmark's successful trajectories and its verifier, they can be applied to turn future agentic coding benchmarks into base-model evaluations.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-07T17:37:19Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Tan Yu</name>
+    </author>
+    <author>
+      <name>Alexander Bukharin</name>
+    </author>
+    <author>
+      <name>Khushi Bhardwaj</name>
+    </author>
+    <author>
+      <name>Jennifer Williams</name>
+    </author>
+    <author>
+      <name>Zirui Liu</name>
+    </author>
+    <author>
+      <name>Jonathan Lingjie Li</name>
+    </author>
+    <author>
+      <name>Soumye Singhal</name>
+    </author>
+    <author>
+      <name>Joseph Jennings</name>
+    </author>
+    <author>
+      <name>Sanjeev Satheesh</name>
+    </author>
+    <author>
+      <name>Yash Jain</name>
+    </author>
+    <author>
+      <name>Ashish Vaswani</name>
+    </author>
+    <author>
+      <name>Venkat Krishna Srinivasan</name>
+    </author>
+    <author>
+      <name>Matthew Papakipos</name>
+    </author>
+    <author>
+      <name>Hyunwoo Kim</name>
+    </author>
+    <author>
+      <name>Jian Zhang</name>
+    </author>
+    <author>
+      <name>Oleksii Kuchaiev</name>
+    </author>
+    <author>
+      <name>Markus Kliegl</name>
+    </author>
+    <author>
+      <name>Mostofa Patwary</name>
+    </author>
+    <author>
+      <name>Mohammad Shoeybi</name>
+    </author>
+    <author>
+      <name>Bryan Catanzaro</name>
+    </author>
+    <author>
+      <name>Jonathan Cohen</name>
+    </author>
+    <author>
+      <name>Jiantao Jiao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.10473v1</id>
+    <title>Label-free cell counting and viability prediction with brightfield imaging and deep learning</title>
+    <updated>2026-10-07T17:34:54Z</updated>
+    <link href="https://arxiv.org/abs/2610.10473v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.10473v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Cell viability assessment is a core requirement in cell culture systems, with critical applications in biopharmaceutical manufacturing and drug development. Conventionally, it is measured by adding membrane-impermeable dyes to a sample (a process called staining), which allows compromised cell membranes to be distinguished from intact ones. However, staining has several limitations: (a) chemical agents can perturb normal cellular processes of the cells being measured, (b) it is often ambiguous to assign viability to individual cells whose membrane integrity is only partially compromised. (c) photobleaching can undermine measurement accuracy over time when using fluorescent stains, and (d) staining cannot be performed in situ or in real time. Here, we show that (1) stained cells captured under brightfield imaging contain sufficient information to distinguish live and dead cells, and (2) cells captured under unstained brightfield imaging exhibit similar image features to their stained counterparts, enabling models trained on stained cells to generalize to unstained ones. We then report the development and validation of ViabiLens, an AI-assisted software for label-free cell viability analysis. The ViabiLens combines a cell detection model for localizing individual cells with a convolutional neural network (CNN) classifier for live/dead prediction, paired with an interactive UMAP-based viewer for visualizing and exploring individual cells across the sample. Evaluated on Chinese Hamster Ovary (CHO) cells spanning a wide range of viability conditions, ViabiLens achieves a mean absolute error of 2.68\% on unstained samples against fluorescence-based reference measurements. We also release a benchmark dataset for label-free cell viability analysis to facilitate future research, available at https://amirrezavazifeh.github.io/ViabiLens-Project-Page/.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.CB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-07T17:34:54Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Amir Reza Vazifeh</name>
+    </author>
+    <author>
+      <name>Christian Zeigler</name>
+    </author>
+    <author>
+      <name>Sornanathan Meyyappan</name>
+    </author>
+    <author>
+      <name>Richard Jeske</name>
+    </author>
+    <author>
+      <name>Jason W. Fleischer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.10468v1</id>
+    <title>A Society of Researchers: Designing Institutions for Populations of Autonomous Research Agents</title>
+    <updated>2026-10-07T17:30:45Z</updated>
+    <link href="https://arxiv.org/abs/2610.10468v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.10468v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deployments of research agents are moving to populations of thousands that share one pool of compute, while most current systems organize one project at a time or leave the population unorganized. We argue that such a population will acquire an organization whether or not its designers provide one, so designers should provide it explicitly, and that the multi-agent systems community holds the tools to do so. We propose a society of agents, a population of persistent agents under explicit institutions, and develop it for science as a society of researchers built on six principles. Principal investigators compete for compute through requests for proposals, independent review, and grants; a human governor, the mayor, allocates resources and assigns no tasks. In a running society of ten thousand researchers, asked only to improve the pretraining of language models, one lab reported a way to reach the same quality with about 30% less compute, a result the labs that tested it do not yet agree on. We close with six open problems for the agents community.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-07T17:30:45Z</published>
+    <arxiv:comment>4 pages. Short version of A Society of Researchers: Institutional Design for Populations of Autonomous Scientific Agents, doi:10.5281/zenodo.22922325</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Ali Asaria</name>
+    </author>
+    <author>
+      <name>Deep Gandhi</name>
+    </author>
+    <author>
+      <name>Tony Salomone</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.10456v1</id>
+    <title>Risk-minimizing GUE-implementations of truthful reporting in a Dynamic Social Choice Problem</title>
+    <updated>2026-10-07T17:25:27Z</updated>
+    <link href="https://arxiv.org/abs/2610.10456v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.10456v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Guaranteed Utility Mechanism (GUM) was introduced to implement efficiency in Guaranteed Utility Equilibrium (GUE) in dynamic social choice problems. We show that this mechanism also has a previously unknown connection to risk minimization. Fixing an efficient decision policy, we study variance-minimizing budget-balanced transfer rules in the class of GUE-implementations of truthful reporting. A symmetrized version of GUM (sym-GUM) minimizes the sum of the agents' utility variances under truthful reporting when there is no public state. When a public state is present, a slight modification of this rule yields the minimizer for the same objective. Sym-GUM, however, does not minimize transfer risk. The minimizer for that problem is instead the symmetrized version of a closely related GUM-like transfer rule. In both problems, the minimizing truthful total transfers are unique up to agent-specific constants summing to zero and events of probability zero.</summary>
+    <category term="econ.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-07T17:25:27Z</published>
+    <arxiv:primary_category term="econ.TH"/>
+    <author>
+      <name>Endre Csóka</name>
+    </author>
+    <author>
+      <name>Máté Viczián</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.10444v1</id>
+    <title>RunningTab: Direct Workspace Interaction with Environment-Side Tabs</title>
+    <updated>2026-10-07T17:16:56Z</updated>
+    <link href="https://arxiv.org/abs/2610.10444v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.10444v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Much knowledge work produces new deliverables from files a workspace already holds, and LLM agents are beginning to take such work over. Through direct corpus interaction, an agent can search and read any of those files from a terminal with no indexing, and producing a deliverable from many of them in this way is what we call direct workspace interaction (DWI). Reaching the files, however, is only half the task: nothing keeps track of what the task asks for, what has been read, and what was listed but never opened, all of which slip through the context window without leaving a trace, so an agent may extract a figure and still deliver a report without it. To address this, we present RunningTab, a framework that equips direct workspace interaction with an environment-side tab: a per-task record of what the task still owes, kept by the environment alongside the agent. Specifically, the agent adds its requirements, while the environment records every file read as an excerpt with its provenance and every listed but unopened file as a candidate; the agent can then see each requirement beside its best-matching excerpts and top unopened candidates, resolve it against matching content or set it aside with a reason, and, should it try to finish with requirements still open, receive them in a finish check. We validate RunningTab on three benchmarks with three LLMs, where it consistently outperforms plain DWI and baselines that keep the record in the model, while its tab usually holds the values a deliverable needs once seen.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-07T17:16:56Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jinheon Baek</name>
+    </author>
+    <author>
+      <name>Soyeong Jeong</name>
+    </author>
+    <author>
+      <name>Yumin Choi</name>
+    </author>
+    <author>
+      <name>Dongsu Han</name>
+    </author>
+    <author>
+      <name>Sung Ju Hwang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.10438v1</id>
+    <title>ECHO: Embodied Camera Observations of Human Object Carrying</title>
+    <updated>2026-10-07T17:15:27Z</updated>
+    <link href="https://arxiv.org/abs/2610.10438v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.10438v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Embodied and assistive agents must do more than recognize objects: they must reason about where an object belongs given the layout of an environment and the habits of the people who live in it. Progress on this problem has been limited, in part because no dedicated benchmark or dataset exists to define and evaluate it. Existing RGB-D scan datasets reconstruct static rooms without human activity, while human-object-interaction datasets capture motion without a navigable, fully reconstructed scene or a ground-truth notion of an object's natural destination. We introduce contextual object placement as a benchmark task: predicting an object's destination during an observed object-carrying episode. To support this task, we present Embodied Camera observations of Human Object carrying (ECHO), a large-scale synthetic dataset that pairs dense RGB-D scans of indoor scenes with recordings of an embodied human carrying everyday objects to context-appropriate destinations. ECHO is the first publicly available dataset to combine reconstructed scenes, human activity, natural language, and contextual-placement annotations. It comprises 3,805 human-annotated episodes across 159 floors of 115 HM3D scenes, involving 198 distinct objects. Each floor includes a complete RGB-D scan with human-annotated room labels and a surface list. Each episode provides synchronized RGB-D encounter clips; 6-DoF camera, human, and object trajectories; start and destination surfaces; an action caption; and a human-written context: a single sentence describing the inhabitant's routine that implies the destination without naming it. We evaluate contextual object placement using input-masked probes and an end-to-end baseline. Results show that no single input modality is sufficient, highlighting the need to jointly reason over scene structure, human activity, and contextual knowledge.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-07T17:15:27Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Xuefei Sun</name>
+    </author>
+    <author>
+      <name>Lorin Achey</name>
+    </author>
+    <author>
+      <name>Kali Hamilton</name>
+    </author>
+    <author>
+      <name>Alberto Speranzon</name>
+    </author>
+    <author>
+      <name>Gregory Grebe</name>
+    </author>
+    <author>
+      <name>Yonatan Bisk</name>
+    </author>
+    <author>
+      <name>Christoffer Heckman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.10426v1</id>
+    <title>CoTrace: Data Recipes for Training Terminal Agents with Harness-Model Co-Evolution</title>
+    <updated>2026-10-07T17:06:59Z</updated>
+    <link href="https://arxiv.org/abs/2610.10426v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.10426v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Terminal-agent capability depends jointly on model weights and the runtime harness that formats prompts, binds tools, and handles error recovery. Existing harness-model co-evolution approaches improve both components, yet often treat trajectories produced during harness search as an undifferentiated replay buffer. This practice overlooks that a trajectory's value for model training depends on the harness under which it was generated. To systematically analyze this interface, we establish an alternating co-evolution framework that decouples harness search and policy training through component-wise promotion decisions. Within this framework, we introduce CoTrace, a harness-aware data recipe that explicitly governs trajectory routing, provenance matching, and curriculum refresh. Under CoTrace, recurring execution failures guide harness synthesis, while policy training is strictly conditioned on verified rollouts matched to the adopted runtime for supervised fine-tuning (SFT) or fresh online interactions for reinforcement learning (RL). On the Tmax promotion split, CoTrace advances Qwen3.5-9B from 78 to 88 solved tasks under supervised fine-tuning while an online reinforcement variant reaches 90. Specifically, a compact harness-matched corpus produces steady model gains at substantially lower compute than much larger corpora pooled across sibling harnesses. Furthermore, evaluations on Terminal-Bench 2.1 and SWE-bench Lite show that out-of-distribution transfer depends fundamentally on harness compatibility, where maintaining consistency between training and evaluation runtimes prevents procedural execution breakdowns observed under foreign scaffolds.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-07T17:06:59Z</published>
+    <arxiv:comment>Preprint. 32 pages, 7 figures, 17 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jixuan Chen</name>
+    </author>
+    <author>
+      <name>Jiaxin Zhang</name>
+    </author>
+    <author>
+      <name>Qinyuan Ye</name>
+    </author>
+    <author>
+      <name>Yada Pruksachatkun</name>
+    </author>
+    <author>
+      <name>Haoxiang Zhang</name>
+    </author>
+    <author>
+      <name>Jingming Zhuo</name>
+    </author>
+    <author>
+      <name>Yifan Zhang</name>
+    </author>
+    <author>
+      <name>Yutong Dai</name>
+    </author>
+    <author>
+      <name>Juntao Tan</name>
+    </author>
+    <author>
+      <name>Xiangyu Peng</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Zeyuan Chen</name>
+    </author>
+    <author>
+      <name>Lianhui Qin</name>
+    </author>
+    <author>
+      <name>Chien-Sheng Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.10421v1</id>
+    <title>AirGroundVLN: A Large-Scale Benchmark for Goal-Oriented Air-Ground Collaborative Vision-and-Language Navigation</title>
+    <updated>2026-10-07T17:01:20Z</updated>
+    <link href="https://arxiv.org/abs/2610.10421v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.10421v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Goal-oriented Vision-and-Language Navigation (VLN) requires agents to locate and reach targets described in natural language without prescribed routes. Air--ground collaboration is valuable for tasks requiring both wide-area search and fine-grained localization. However, systematic study of goal-oriented air--ground collaborative VLN remains limited by the lack of large-scale, diverse benchmarks and two core challenges: 1) substantial differences between aerial and ground views, together with useful observations becoming unavailable as navigation proceeds, make it difficult to maintain spatially consistent context across platforms and over time; and 2) asymmetric spatial observability makes ground perception locally detailed but spatially limited and aerial perception broad but locally coarse, limiting the reliability of single-platform planning. To address these limitations, we introduce AirGroundVLN, a benchmark containing 10,281 navigation episodes and 955 target instances across 19 Unreal Engine environments, with seen/unseen splits and an aerial-visibility protocol for systematic evaluation. Alongside the benchmark, we propose AG-CoNAV, a trainable reference framework comprising two key components: Spatiotemporally Anchored Collaborative Memory (SACM) and Aerial-Guided Regional-to-Local Planning (AGRLP). SACM maintains and retrieves spatially consistent historical context across aerial and ground observations. Meanwhile, AGRLP combines regional aerial guidance with fine-grained ground navigation. Extensive experiments demonstrate the effectiveness of AG-CoNAV and establish AirGroundVLN as a comprehensive benchmark for future exploration.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-07T17:01:20Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Zhenxuan Zeng</name>
+    </author>
+    <author>
+      <name>Qingle Wu</name>
+    </author>
+    <author>
+      <name>Wei Suo</name>
+    </author>
+    <author>
+      <name>Maojia Wu</name>
+    </author>
+    <author>
+      <name>Bairong Zhang</name>
+    </author>
+    <author>
+      <name>Hangzheng Yu</name>
+    </author>
+    <author>
+      <name>Peng Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.10409v1</id>
+    <title>RobotWorld: Benchmarking Multimodal Agents for Robot Use Across Diverse Tasks and Embodiments</title>
+    <updated>2026-10-07T16:55:24Z</updated>
+    <link href="https://arxiv.org/abs/2610.10409v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.10409v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>General-purpose agents increasingly write code, use tools, and complete complex digital tasks, raising the question of how far these capabilities carry into the physical world. To investigate this, we introduce RobotWorld, a challenging simulation testbed for robot use: turning instructions and observations into physical task execution through robot interfaces. Its 84 tasks span manipulation, mobile manipulation, locomotion, driving, and aerial control, with explicit interaction budgets and executable success checks. By analysing task outcomes alongside execution traces, we identify both the capabilities that transfer and the gaps that prevent reliable completion. Furthermore, we find that current agents can construct sophisticated perception and control workflows, including image segmentation, camera calibration, spatial estimation, and dynamics-based computation. These capabilities, however, do not consistently compose into successful behaviour: agents lose task-relevant object states despite reaching commanded poses, fail to correct ineffective actions, recover too late, or mistake unfinished tasks for completion. This uneven transfer also differs across models: Astra succeeds more often on spatial and constrained-contact goals, whereas Opus 5.5 succeeds more often on continuous-balance and timed-interaction goals. By linking these outcomes to execution behaviour, RobotWorld provides both a rigorous proving ground and an empirical account of the remaining capability gaps, thereby establishing concrete targets for training and designing more reliable physical-world agents.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-07T16:55:24Z</published>
+    <arxiv:comment>62 pages, 25 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Zhiqin Yang</name>
+    </author>
+    <author>
+      <name>Chenxin Li</name>
+    </author>
+    <author>
+      <name>Xiaomeng Hu</name>
+    </author>
+    <author>
+      <name>Yibin Liu</name>
+    </author>
+    <author>
+      <name>Weidong Huang</name>
+    </author>
+    <author>
+      <name>Jiankai Sun</name>
+    </author>
+    <author>
+      <name>Haitao Li</name>
+    </author>
+    <author>
+      <name>Zijian Wu</name>
+    </author>
+    <author>
+      <name>Yuzhi Huang</name>
+    </author>
+    <author>
+      <name>Fanding Huang</name>
+    </author>
+    <author>
+      <name>Hanwen Sun</name>
+    </author>
+    <author>
+      <name>Jiashun Liu</name>
+    </author>
+    <author>
+      <name>Jingqi Tong</name>
+    </author>
+    <author>
+      <name>Mingxin Huang</name>
+    </author>
+    <author>
+      <name>Shaoli Hu</name>
+    </author>
+    <author>
+      <name>Shijue Huang</name>
+    </author>
+    <author>
+      <name>Tianyi Bai</name>
+    </author>
+    <author>
+      <name>Xinyuan Wang</name>
+    </author>
+    <author>
+      <name>Yunlong Lin</name>
+    </author>
+    <author>
+      <name>Zhengyang Tang</name>
+    </author>
+    <author>
+      <name>Zhexin Zhang</name>
+    </author>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Xierui Song</name>
+    </author>
+    <author>
+      <name>Juntao Dai</name>
+    </author>
+    <author>
+      <name>Boyuan Chen</name>
+    </author>
+    <author>
+      <name>Jiaming Ji</name>
+    </author>
+    <author>
+      <name>Fangneng Zhan</name>
+    </author>
+    <author>
+      <name>Mengkang Hu</name>
+    </author>
+    <author>
+      <name>Wei Xue</name>
+    </author>
+    <author>
+      <name>Yonggang Zhang</name>
+    </author>
+    <author>
+      <name>Han Hu</name>
+    </author>
+    <author>
+      <name>Tsung-Yi Ho</name>
+    </author>
+    <author>
+      <name>Yike Guo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.10407v1</id>
+    <title>SOTA: Stock Options Trading Agents Guided by Option-Implied Return Distributions</title>
+    <updated>2026-10-07T16:55:05Z</updated>
+    <link href="https://arxiv.org/abs/2610.10407v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.10407v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As option markets grow and AI advances, agentic systems for option trading are gaining increasing attention. Language-model-based agents can reason over contextual information such as news, but option trading presents a particularly challenging decision problem: a single stock can have thousands of contracts, and the agent must decide both which contracts to trade and how to combine them. Existing approaches often sidestep this complexity by restricting the policy to a fixed strategy structure, such as a straddle, limiting their ability to switch strategies as market conditions change. We present SOTA (Stock Options Trading Agents), an agentic trading framework for structured option-strategy selection. SOTA abstracts the large option universe into strategy-level decisions while deterministic resolvers handle portfolio implementation. We develop SOTA by post-training Qwen3.8-27B with supervised fine-tuning followed by reinforcement learning. SOTA is evaluated on options on nine large-cap U.S. equities and SPY against rule-based and machine-learning strategy selectors in the same trading environment. Over a six-month out-of-sample period, SOTA earns an 18.3% total return with a Sharpe ratio of 1.60 and a maximum drawdown of 8.96%. We also document an asymmetric role of news: news improves frontier-teacher trajectories, but retaining news during reinforcement learning reduces out-of-sample return from 18.3% to -2.7%.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.PM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-07T16:55:05Z</published>
+    <arxiv:comment>Accepted at the NeurIPS 2026 Agenthon Workshop</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yizhen Xie</name>
+    </author>
+    <author>
+      <name>Mengyang Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.10394v1</id>
+    <title>Kernel Autoresearch for Open-Ended Model Discovery</title>
+    <updated>2026-10-07T16:48:45Z</updated>
+    <link href="https://arxiv.org/abs/2610.10394v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.10394v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Kernels encode the inductive bias of a wide range of machine learning models, yet automated kernel design faces a fundamental dilemma. A fixed grammar of base kernels and operators guarantees validity but limits the search to structures expressible by those building blocks. Conversely, unrestricted programs remove this limitation but no longer guarantee validity. In our stress tests, 22-58% of LLM-generated kernels that pass numerical checks on random inputs fail when evaluated at different scales or dimensions. We propose Kernel Autoresearch (Kernaut), which treats kernel design as open-ended model discovery. Coding agents write kernels as programs, while construction contracts ensure that every accepted kernel is valid. A quality-diversity archive retains high-performing kernels with distinct behaviors, and novelty screening steers agents toward functionally new candidates. Our experiments demonstrate that the discovered kernels encode reusable inductive biases that generalize to unseen tasks. On held-out black-box optimization families, a discovered kernel outperforms a meta-learned deep kernel trained on the same episodes. Furthermore, kernels discovered from ten enzyme-kinetic rate laws achieve lower error than tuned ARD and deep kernel baselines on five unseen mechanisms. The discovered kernels are also interpretable programs that human researchers can refine: a human-refined version of one further reduces the held-out predictive error by 5.7% and optimization regret by 7.8%.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-07T16:48:45Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Richard Cornelius Suwandi</name>
+    </author>
+    <author>
+      <name>Feng Yin</name>
+    </author>
+    <author>
+      <name>Kevin Murphy</name>
+    </author>
+  </entry>
+</feed>

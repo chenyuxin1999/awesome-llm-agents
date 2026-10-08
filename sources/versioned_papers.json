@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2607.12815v1",
+    "checked_at": "2026-10-08T08:18:49.490697+00:00",
+    "scope": "metadata_and_reachability_only",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/abs/2607.12815v1",
+    "sha256": "d7e968b4bcb3322c5a2506be815ec3e72a14ab435c3064f8a734fa343a6d9deb",
+    "title": "Visual Access Boundaries in Vision-Language Model Reasoning",
+    "published": "2026/07/14",
+    "arxiv_id": "2607.12815",
+    "status": "metadata_fetched"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.12815v3",
+    "checked_at": "2026-10-08T08:18:49.491503+00:00",
+    "scope": "metadata_and_reachability_only",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/abs/2607.12815v3",
+    "sha256": "41cadff8a8a5f36475834c693f1812eeb9551005c2b2319903377f8ffcc788e0",
+    "title": "What Keeps Vision-Language Models Looking at the Image?",
+    "published": "2026/07/14",
+    "arxiv_id": "2607.12815",
+    "status": "metadata_fetched"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.27599v1",
+    "checked_at": "2026-10-08T08:18:49.491913+00:00",
+    "scope": "metadata_and_reachability_only",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/abs/2607.27599v1",
+    "sha256": "9f5853385dc24aa6ecbefcd97b6a4125c1b6de6b10b250cb4b7acd60caca16fd",
+    "title": "World Action Planner: Generalizable Decision-Making with Action-Conditioned World Models",
+    "published": "2026/07/30",
+    "arxiv_id": "2607.27599",
+    "status": "metadata_fetched"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.27599v2",
+    "checked_at": "2026-10-08T08:18:49.492250+00:00",
+    "scope": "metadata_and_reachability_only",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/abs/2607.27599v2",
+    "sha256": "d1bd8f35fe429f40eabfbee4a1a7d7f0410840c51fcc789d10c506b0d24846b1",
+    "title": "World Action Planner: Generalizable Robot Decision-Making with Action-Conditioned World Models",
+    "published": "2026/07/30",
+    "arxiv_id": "2607.27599",
+    "status": "metadata_fetched"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.28627v1",
+    "checked_at": "2026-10-08T08:18:50.017230+00:00",
+    "scope": "metadata_and_reachability_only",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/abs/2607.28627v1",
+    "sha256": "d3bd204a0b3b3350b9448c62f2abcc7611fa730c58a477b02aa1db5bf517f830",
+    "title": "ReToken: One Token to Improve Vision-Language Models for Visual Retrieval",
+    "published": "2026/07/30",
+    "arxiv_id": "2607.28627",
+    "status": "metadata_fetched"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.28627v2",
+    "checked_at": "2026-10-08T08:18:50.023933+00:00",
+    "scope": "metadata_and_reachability_only",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/abs/2607.28627v2",
+    "sha256": "a651f6a52d3130c0e7c4d84dfff322501120d47ccc9526ab5b6fc93122b91ec6",
+    "title": "ReToken: Improving Long-Context VLMs with Visual Retrieval Token",
+    "published": "2026/07/30",
+    "arxiv_id": "2607.28627",
+    "status": "metadata_fetched"
+  }
+]

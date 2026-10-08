@@ -1,0 +1,193 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2607.24653",
+    "retrieval_url": "https://arxiv.org/html/2607.24653",
+    "checked_at": "2026-10-08T17:33:05.688007+00:00",
+    "status": "reviewed_selected_sections",
+    "title": "Kimi K3: Open Frontier Intelligence",
+    "scope": "architecture, context, post-training, agent environments and serving sections",
+    "sha256": "8413ace971c97c8ae5fda01b53585c29710042f109ef23ad4ab2824a5300dcad",
+    "retrieval_method": "official_source_response"
+  },
+  {
+    "url": "https://github.com/MoonshotAI/Kimi-K3",
+    "retrieval_url": "https://raw.githubusercontent.com/MoonshotAI/Kimi-K3/main/README.md",
+    "checked_at": "2026-10-08T17:34:25.759641+00:00",
+    "status": "reviewed_selected_sections",
+    "title": "Kimi K3",
+    "scope": "official README: model overview, weights and evaluation links",
+    "sha256": "849a303d849486aac61d1f0c253e3a1148ca59e801be807151c2dc3cce57ccb2",
+    "retrieval_method": "official_source_response"
+  },
+  {
+    "url": "https://huggingface.co/zai-org/GLM-5.3",
+    "retrieval_url": "https://huggingface.co/zai-org/GLM-5.3/raw/main/README.md",
+    "checked_at": "2026-10-08T17:34:24.990644+00:00",
+    "status": "reviewed_selected_sections",
+    "title": "GLM-5.3",
+    "scope": "model card: base-model continuity, post-training, coding and cyber evaluations",
+    "sha256": "ed1c0a4563c437a32f8953d637a1db9bd831de1b24bd3062a5ace9e04340b1cf",
+    "retrieval_method": "official_source_response"
+  },
+  {
+    "url": "https://arxiv.org/abs/2602.15763",
+    "retrieval_url": "https://arxiv.org/html/2602.15763",
+    "checked_at": "2026-10-08T17:39:04.187366+00:00",
+    "status": "reviewed_selected_sections",
+    "title": "GLM-5: from Vibe Coding to Agentic Engineering",
+    "scope": "family foundation: architecture and asynchronous reinforcement learning; not a GLM-5.3 report",
+    "sha256": "ebd19883728b36b656c2ae497c7de9ec4be43390ef3a691b762ae590c219526c",
+    "retrieval_method": "official_source_response"
+  },
+  {
+    "url": "https://github.com/zai-org/GLM-5",
+    "retrieval_url": "https://raw.githubusercontent.com/zai-org/GLM-5/main/README.md",
+    "checked_at": "2026-10-08T17:34:25.054644+00:00",
+    "status": "reviewed_selected_sections",
+    "title": "GLM-5 series",
+    "scope": "official series README and version context",
+    "sha256": "78ebb1936e94a4c4412bca2abc1c9cbe599455df12fb1373e75c495cb043651e",
+    "retrieval_method": "official_source_response"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.19969",
+    "retrieval_url": "https://arxiv.org/html/2609.19969",
+    "checked_at": "2026-10-08T17:32:59.335037+00:00",
+    "status": "reviewed_selected_sections",
+    "title": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+    "scope": "causal encoder-decoder, compressed attention, persistent cache and post-training sections",
+    "sha256": "673159286782f296f5761e66153147f099a9970b9ca695781f3bf06b3f2d61f5",
+    "retrieval_method": "official_source_response"
+  },
+  {
+    "url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/",
+    "retrieval_url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/",
+    "checked_at": "2026-10-08T17:37:36.532767+00:00",
+    "status": "reviewed_selected_sections",
+    "title": "Introducing DeepSeek-V4.1-Flash: smarter, faster, more efficient.",
+    "scope": "release body: model identity, multimodality, smaller member of the new architecture family",
+    "sha256": "c72624891fe36659dc3cd88421e5d425486f413bdf7cca11ea7b48277066cde9",
+    "retrieval_method": "official_source_response"
+  },
+  {
+    "url": "https://github.com/QwenLM/Qwen3.8",
+    "retrieval_url": "https://raw.githubusercontent.com/QwenLM/Qwen3.8/main/README.md",
+    "checked_at": "2026-10-08T17:34:25.069644+00:00",
+    "status": "reviewed_selected_sections",
+    "title": "Qwen3.8",
+    "scope": "official series README: capabilities, reasoning controls and preserved thinking",
+    "sha256": "a71ec46607f81d6056336fb0a8431a26a1c7d8db6ac568a0c021c36f1ed3c92e",
+    "retrieval_method": "official_source_response"
+  },
+  {
+    "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+    "retrieval_url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B/raw/main/README.md",
+    "checked_at": "2026-10-08T17:40:17.391030+00:00",
+    "status": "reviewed_selected_sections",
+    "title": "Qwen3.8-2.4T-A95B",
+    "scope": "architecture and explicit distinction between open checkpoint and Qwen3.8-Max hosted service",
+    "sha256": "7690c680c2d6eb284179ef5dd4db63260d248531cae9087b09b2c2200230f331",
+    "retrieval_method": "official_source_response"
+  },
+  {
+    "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL",
+    "retrieval_url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL/raw/main/README.md",
+    "checked_at": "2026-10-08T17:37:35.784770+00:00",
+    "status": "reviewed_selected_sections",
+    "title": "MiMo-V2.6-Pro-RL",
+    "scope": "flagship checkpoint identity, modalities and official report link",
+    "sha256": "bf373f444efcd309534804edd1fadadd1eb0ad64f7b0474c96fdac946614c13e",
+    "retrieval_method": "official_source_response"
+  },
+  {
+    "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL/resolve/main/MiMo_V2_6_technical_report.pdf",
+    "retrieval_url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL/resolve/main/MiMo_V2_6_technical_report.pdf",
+    "checked_at": "2026-10-08T17:37:37.387763+00:00",
+    "status": "reviewed_selected_sections",
+    "title": "MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement",
+    "scope": "PDF: mixed-task RL, groupwise grading, fixed router, reward-hacking defenses and post-RL distillation",
+    "sha256": "fb81e6e083801b3358f084ed6be953dc23b0d2e434690f4541d5eae03e01e7af",
+    "retrieval_method": "official_source_response"
+  },
+  {
+    "url": "https://openai.com/index/gpt-6-astra/",
+    "retrieval_url": "https://r.jina.ai/https://openai.com/index/gpt-6-astra/",
+    "checked_at": "2026-10-08T17:41:42.037642+00:00",
+    "status": "reviewed_selected_sections",
+    "title": "GPT-6 Astra: A new generation of intelligence",
+    "scope": "reader-extracted official blog body: computer use, engineering, science and deployment controls",
+    "sha256": "542ada1b0eb4cd1783cbb1c118b7887424e6ef7d6f390254488437a53507f29f",
+    "retrieval_method": "third_party_reader_of_official_page",
+    "notes": "Direct article requests returned HTTP 403. Article identity and URL were also checked against the official OpenAI RSS feed. The body was read through Jina Reader; the hash covers that reader response, not original HTML."
+  },
+  {
+    "url": "https://openai.com/index/gpt-6-astra-next-generation-work/",
+    "retrieval_url": "https://r.jina.ai/https://openai.com/index/gpt-6-astra-next-generation-work/",
+    "checked_at": "2026-10-08T17:41:43.316637+00:00",
+    "status": "reviewed_selected_sections",
+    "title": "GPT-6 Astra: The next generation in intelligence for work",
+    "scope": "reader-extracted official blog body: writing, design, judgment and professional workflows",
+    "sha256": "22affd5db36c98133695b07351e04a3614a3d21810dac83ab7e3afcf8a6eb966",
+    "retrieval_method": "third_party_reader_of_official_page",
+    "notes": "Direct article requests returned HTTP 403. Article identity and URL were also checked against the official OpenAI RSS feed. The body was read through Jina Reader; the hash covers that reader response, not original HTML."
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/gpt-6-astra",
+    "retrieval_url": "https://deploymentsafety.openai.com/gpt-6-astra",
+    "checked_at": "2026-10-08T17:37:36.731766+00:00",
+    "status": "reviewed_selected_sections",
+    "title": "GPT-6 Astra System Card",
+    "scope": "official safety hub: selected capability, authorization and deployment-risk discussions",
+    "sha256": "b35328185542aebc64f7ad8ff307b1fc6196d713655be366c667db741d332964",
+    "retrieval_method": "official_source_response"
+  },
+  {
+    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+    "retrieval_url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+    "checked_at": "2026-10-08T17:37:35.671771+00:00",
+    "status": "reviewed_selected_sections",
+    "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+    "scope": "release body: long-horizon work, reasoning effort, caching and safeguards",
+    "sha256": "1161c21cd9508c5a96a6bb5718b628cc98599a3457de2d672bee51abdad49b8e",
+    "retrieval_method": "official_source_response"
+  },
+  {
+    "url": "https://www.anthropic.com/claude-fable-5-1-mythos-5-1-system-card",
+    "retrieval_url": "https://www.anthropic.com/claude-fable-5-1-mythos-5-1-system-card",
+    "checked_at": "2026-10-08T17:39:06.058357+00:00",
+    "status": "reviewed_selected_sections",
+    "title": "System Card: Claude Fable 5.1 & Claude Mythos 5.1",
+    "scope": "PDF: overview and safeguards, including shared underlying model and evaluation conditions on page 59",
+    "sha256": "b0d59edc7a60eef32a879c13d713cce60c3fefd7e6b5183afdc8b835af3c8c39",
+    "retrieval_method": "official_source_response"
+  },
+  {
+    "url": "https://www.anthropic.com/claude-opus-5-5",
+    "retrieval_url": "https://www.anthropic.com/claude-opus-5-5",
+    "checked_at": "2026-10-08T17:37:36.053769+00:00",
+    "status": "reviewed_selected_sections",
+    "title": "Introducing Claude Opus 5.5",
+    "scope": "release body: engineering, efficiency, communication and behavior",
+    "sha256": "a7e6fac611194712d325ed9405078556f07534ed0f560477fa137204176d5045",
+    "retrieval_method": "official_source_response"
+  },
+  {
+    "url": "https://www.anthropic.com/claude-opus-5-5-system-card",
+    "retrieval_url": "https://www.anthropic.com/claude-opus-5-5-system-card",
+    "checked_at": "2026-10-08T17:39:06.410355+00:00",
+    "status": "reviewed_selected_sections",
+    "title": "System Card: Claude Opus 5.5",
+    "scope": "PDF: overview, behavioral audit and prompt-injection findings; impossible-task section identified",
+    "sha256": "7311c9c6bbb16d012f1c12c7418b05949fcf7ae3e30d2c40f22050074b2a7378",
+    "retrieval_method": "official_source_response"
+  },
+  {
+    "url": "https://openai.com/news/rss.xml",
+    "retrieval_url": "https://openai.com/news/rss.xml",
+    "checked_at": "2026-10-08T17:39:04.004366+00:00",
+    "status": "metadata_fetched",
+    "title": "OpenAI News RSS",
+    "scope": "Astra article titles, original URLs and publication dates only",
+    "sha256": "fd60bd30100201bb5815c97177b2ce068880f90508b58af014874ecf78e038b6"
+  }
+]

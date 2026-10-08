@@ -1,0 +1,65 @@
+[
+  {
+    "url": "https://arxiv.org/abs/1606.06565",
+    "checked_at": "2026-10-08T16:53:14.691014+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "06ca8a23f403396e8ef11fd3bc1668a141fc1cdb81fa0f936512ecb15039ee44",
+    "title": "Concrete Problems in AI Safety",
+    "published": "2016/06/21"
+  },
+  {
+    "url": "https://arxiv.org/abs/1906.01820",
+    "checked_at": "2026-10-08T16:53:13.682018+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "acb57dc618441ee457e9b928c1a523a2851ee2ba555db9d0b6ffb6a91bad256a",
+    "title": "Risks from Learned Optimization in Advanced Machine Learning Systems",
+    "published": "2019/06/05"
+  },
+  {
+    "url": "https://arxiv.org/abs/2209.13085",
+    "checked_at": "2026-10-08T16:53:13.648018+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "502be703e6c4d4b26deaaa65e4a1f0d8c430c8c70fc112b43e8b5c864b75c06c",
+    "title": "Defining and Characterizing Reward Hacking",
+    "published": "2022/09/27"
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.10760",
+    "checked_at": "2026-10-08T16:53:13.744018+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "f4cdf6942a0fcecd0d2124c705be98fa6b6136a5172e8e097fb10364916daa73",
+    "title": "Scaling Laws for Reward Model Overoptimization",
+    "published": "2022/10/19"
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.06942",
+    "checked_at": "2026-10-08T16:53:15.185011+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "cb95f7b355ed9774a77cba55285e08528b81785a02f512d9dfa95b0f433dceab",
+    "title": "AI Control: Improving Safety Despite Intentional Subversion",
+    "published": "2023/12/12"
+  },
+  {
+    "url": "https://arxiv.org/abs/2401.05566",
+    "checked_at": "2026-10-08T16:53:13.724018+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "c8ea6cec97d4a2419928822e792b146bc5f5dd7fba7150a974b7629d3934c525",
+    "title": "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training",
+    "published": "2024/01/10"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.29429",
+    "checked_at": "2026-10-08T16:47:02.720722+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "52daeb12e3f626bb615726fc3efa1dfc43ea4af2bb6c8c93217e50c0cfade5e5",
+    "title": "Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures",
+    "published": "2026/09/24"
+  }
+]

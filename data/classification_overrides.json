@@ -1,0 +1,872 @@
+{
+  "schema_version": 1,
+  "review_scope": "显式逐条校正由编码助手核对本地元数据完成；不是人类专家审核，不代表全量2050篇人工审阅或论文事实核验。",
+  "overrides": [
+    {
+      "id": "2608.06370",
+      "expected_old": "18_Unassigned",
+      "expected_title": "The Bitter Lesson of Tool Calling",
+      "new": "01_basics",
+      "secondary_tags": ["06_evaluation", "13_efficiency"],
+      "reason": "逐条读取摘要后确认，核心比较程序式与原生JSON工具调用接口，属于工具使用与执行方式；不能因旧库未分配而继续留待复核。基准比较和执行成本作为副标签。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_abstract",
+          "quote": "we empirically compare programmatic tool calling (PTC) to native JSON tool calling across 14 language models on BFCL v4."
+        }
+      ]
+    },
+    {
+      "id": "2609.19969",
+      "expected_old": "06_Frontier_Tech_Reports",
+      "expected_title": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+      "new": "13_efficiency",
+      "secondary_tags": [
+        "15_frontier_reports"
+      ],
+      "reason": "标题主问题是 KV Cache Compression，不应仅因模型名称冻结在技术报告类；报告属性保留为副标签。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_title",
+          "quote": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression"
+        }
+      ]
+    },
+    {
+      "id": "2609.recurrent-looped-transformer",
+      "expected_old": "06_Frontier_Tech_Reports",
+      "expected_title": "Recurrent Looped Transformer",
+      "new": "13_efficiency",
+      "secondary_tags": [],
+      "reason": "研究对象是循环Transformer的计算组织与参数复用，按第13章循环计算架构归类，不是前沿发布或第14章表征科学。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_title",
+          "quote": "Recurrent Looped Transformer"
+        }
+      ]
+    },
+    {
+      "id": "2609.navier-stokes",
+      "expected_old": "06_Frontier_Tech_Reports",
+      "expected_title": "Finite Time Blowup for Navier–Stokes",
+      "new": "90_adjacent",
+      "secondary_tags": [],
+      "reason": "本地描述是带外力流体方程有限时爆破数学命题，未给出 AI 方法；保留为纯数学相邻研究，不认可或核验其结论。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_one_line",
+          "quote": "For every positive viscosity, a smooth compactly forced flow can develop infinite velocity in finite time while its kinetic energy remains bounded."
+        }
+      ]
+    },
+    {
+      "id": "2609.navier-stokes-solution",
+      "expected_old": "06_Frontier_Tech_Reports",
+      "expected_title": "On the Navier–Stokes Millennium Prize Problem",
+      "new": "12_science",
+      "secondary_tags": [
+        "08_collaboration"
+      ],
+      "reason": "与同名纯数学条目区分：本地一句话明确多Agent搜索及 Lean 形式化，因此归数学AI应用；仅分类，不确认所声称解答成立。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_one_line",
+          "quote": "A coordinated multiagent search produced a proposed resolution and Lean formalization, giving researchers artifacts to inspect, verify, and build upon."
+        }
+      ]
+    },
+    {
+      "id": "2609.reinforcing-agents-collective-skills",
+      "expected_old": "06_Frontier_Tech_Reports",
+      "expected_title": "Skill2Env: Reinforcing Agents with Collective Skills",
+      "new": "04_training_data",
+      "secondary_tags": [
+        "03_skills_and_self_improvement",
+        "05_rl_and_distillation"
+      ],
+      "reason": "将专家工作流转为可验证训练环境是主要产出，技能与强化学习为交叉标签，不是模型报告。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_one_line",
+          "quote": "Turning practitioner-authored workflows into verified training environments helps agents learn to handle diverse real-world tasks and follow expert guidance."
+        }
+      ]
+    },
+    {
+      "id": "2609.tokenization-survey-modern-nlp",
+      "expected_old": "06_Frontier_Tech_Reports",
+      "expected_title": "Tokenization: A Survey for Modern NLP",
+      "new": "14_model_science",
+      "secondary_tags": [],
+      "reason": "主题是分词综述及模型输入表示，不是前沿模型技术报告。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_title",
+          "quote": "Tokenization: A Survey for Modern NLP"
+        }
+      ]
+    },
+    {
+      "id": "2609.flashreinforce-asynchronous-rl-agentic-models",
+      "expected_old": "06_Frontier_Tech_Reports",
+      "expected_title": "FlashREINFORCE: Critic-Free Single-Rollout Asynchronous RL for Agentic Language Models",
+      "new": "05_rl_and_distillation",
+      "secondary_tags": [
+        "13_efficiency"
+      ],
+      "reason": "明确是 Agentic Language Models 的异步强化学习算法，非模型发布报告。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_title",
+          "quote": "FlashREINFORCE: Critic-Free Single-Rollout Asynchronous RL for Agentic Language Models"
+        }
+      ]
+    },
+    {
+      "id": "2610.looped-models-fixed-points",
+      "expected_old": "06_Frontier_Tech_Reports",
+      "expected_title": "Towards Looped Models Done Right Part II: Rethinking at Fixed Points",
+      "new": "13_efficiency",
+      "secondary_tags": [],
+      "reason": "固定点训练用于looped模型的终端注意力缓存共享与解码内存节约，主问题是循环架构及计算效率，按第13章归类。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_one_line",
+          "quote": "Training looped language models to settle into fixed points enables terminal attention-cache sharing with little accuracy loss, reducing decoding memory as recurrence depth grows."
+        }
+      ]
+    },
+    {
+      "id": "2609.ai-agents-discover-reverse-transcriptases",
+      "expected_old": "06_Frontier_Tech_Reports",
+      "expected_title": "Autonomous AI Agents Discover Reverse Transcriptases with Tandem Repeat Arrays",
+      "new": "12_science",
+      "secondary_tags": [],
+      "reason": "明确为自主AI发现逆转录酶的科学应用，不是通用前沿模型报告。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_title",
+          "quote": "Autonomous AI Agents Discover Reverse Transcriptases with Tandem Repeat Arrays"
+        }
+      ]
+    },
+    {
+      "id": "2609.language-model-shape",
+      "expected_old": "06_Frontier_Tech_Reports",
+      "expected_title": "Language Model \"Shape\"",
+      "new": "14_model_science",
+      "secondary_tags": [
+        "01_basics",
+        "02_memory"
+      ],
+      "reason": "内容是面向Agent工作流的模型设计、历史保留与注意力组织，不是发布报告。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_one_line",
+          "quote": "Designing language models around agent workflows could let them retain useful history while focusing detailed attention on recent observations."
+        }
+      ]
+    },
+    {
+      "id": "2609.why-are-ai-agents-lying-cheating-and-coordinating",
+      "expected_old": "06_Frontier_Tech_Reports",
+      "expected_title": "Why are AI agents lying, cheating and coordinating?",
+      "new": "07_safety",
+      "secondary_tags": [
+        "08_collaboration"
+      ],
+      "reason": "本地描述围绕奖励优化产生欺骗、协调和失控风险，应归安全。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_one_line",
+          "quote": "The post develops a framework hypothesizing how reward optimization, imitation, and conflicting goals could produce deception, coordination, and escalating loss-of-control risks."
+        }
+      ]
+    },
+    {
+      "id": "2609.stable-unstable-singularities-navier-stokes",
+      "expected_old": "06_Frontier_Tech_Reports",
+      "expected_title": "Stable and Unstable Singularities in Navier-Stokes?",
+      "new": "90_adjacent",
+      "secondary_tags": [],
+      "reason": "流体方程奇点问题，没有标题级AI/Agent研究对象，不能继承前沿报告类。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_title",
+          "quote": "Stable and Unstable Singularities in Navier-Stokes?"
+        }
+      ]
+    },
+    {
+      "id": "2609.invent-a-dataset-zero-seed",
+      "expected_old": "06_Frontier_Tech_Reports",
+      "expected_title": "Invent a Dataset: Measuring Dataset Generation Abilities with Zero Seed Data",
+      "new": "06_evaluation",
+      "secondary_tags": [
+        "04_training_data"
+      ],
+      "reason": "标题明确 Measuring Dataset Generation Abilities，以数据生成能力测量为主；训练数据为副标签。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_title",
+          "quote": "Invent a Dataset: Measuring Dataset Generation Abilities with Zero Seed Data"
+        }
+      ]
+    },
+    {
+      "id": "2609.ier-opd",
+      "expected_old": "06_Frontier_Tech_Reports",
+      "expected_title": "1% of Tokens Can Be Enough: On Gradient Estimation in On-Policy Distillation",
+      "new": "05_rl_and_distillation",
+      "secondary_tags": [
+        "13_efficiency"
+      ],
+      "reason": "一句话明确推理任务的 on-policy 蒸馏梯度估计与 token 节约，不是前沿模型发布。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_one_line",
+          "quote": "Selecting tokens with reliable gradient estimates lets on-policy distillation match full supervision on reasoning tasks using only tiny token budgets."
+        }
+      ]
+    },
+    {
+      "id": "2609.endpoint-constrained-trajectory-optimization",
+      "expected_old": "06_Frontier_Tech_Reports",
+      "expected_title": "Guiding End-to-End Driving Models with Endpoint-Constrained Trajectory Optimization",
+      "new": "11_embodied",
+      "secondary_tags": [],
+      "reason": "研究端到端驾驶模型与轨迹约束，归具身/驾驶而非通用模型报告。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_title",
+          "quote": "Guiding End-to-End Driving Models with Endpoint-Constrained Trajectory Optimization"
+        }
+      ]
+    },
+    {
+      "id": "2609.yolo27-dual-scale-query-based-vision",
+      "expected_old": "06_Frontier_Tech_Reports",
+      "expected_title": "YOLO27: An Overview of Dual-Scale Architecture and Query-Based Real-Time Computer Vision",
+      "new": "90_adjacent",
+      "secondary_tags": [],
+      "reason": "标题对象为实时计算机视觉架构，未显示 Agent 交互，作为纯视觉相邻方向保留。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_title",
+          "quote": "YOLO27: An Overview of Dual-Scale Architecture and Query-Based Real-Time Computer Vision"
+        }
+      ]
+    },
+    {
+      "id": "2609.reagent-agent-training-scenario-design",
+      "expected_old": "06_Frontier_Tech_Reports",
+      "expected_title": "ReAgent: Rethinking Agent Training Through Scenario Co-Design",
+      "new": "04_training_data",
+      "secondary_tags": [],
+      "reason": "标题明确 Agent 训练场景共设计，应归训练数据与环境。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_title",
+          "quote": "ReAgent: Rethinking Agent Training Through Scenario Co-Design"
+        }
+      ]
+    },
+    {
+      "id": "2609.recurrence-looped-transformer-evaluation",
+      "expected_old": "06_Frontier_Tech_Reports",
+      "expected_title": "Does Recurrence Pay? A Controlled Evaluation of the Recurrent Looped Transformer",
+      "new": "13_efficiency",
+      "secondary_tags": [
+        "06_evaluation"
+      ],
+      "reason": "虽采用受控评估，研究问题是循环Transformer的计算收益；按第13章循环架构为主，第06章评测为副标签。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_title",
+          "quote": "Does Recurrence Pay? A Controlled Evaluation of the Recurrent Looped Transformer"
+        }
+      ]
+    },
+    {
+      "id": "2609.kl-regularized-policy-optimization-agentic-rl",
+      "expected_old": "06_Frontier_Tech_Reports",
+      "expected_title": "KL-Regularized Policy Optimization for Critic-Free Agentic Reinforcement Learning",
+      "new": "05_rl_and_distillation",
+      "secondary_tags": [],
+      "reason": "标题明确 KL 正则策略优化与 Agentic RL，属于算法后训练而非模型报告。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_title",
+          "quote": "KL-Regularized Policy Optimization for Critic-Free Agentic Reinforcement Learning"
+        }
+      ]
+    },
+    {
+      "id": "2609.jepa-ttt",
+      "expected_old": "06_Frontier_Tech_Reports",
+      "expected_title": "JEPA-TTT: Persistent Test-Time Training of Latent World Models for Planning under Dynamics Shifts",
+      "new": "10_world_models",
+      "secondary_tags": [],
+      "reason": "标题明确 Latent World Models 及动力学变化下规划，归世界模型。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_title",
+          "quote": "JEPA-TTT: Persistent Test-Time Training of Latent World Models for Planning under Dynamics Shifts"
+        }
+      ]
+    },
+    {
+      "id": "2607.language-model-harnesses",
+      "expected_old": "06_Frontier_Tech_Reports",
+      "expected_title": "Language model harnesses are compositional generalizers",
+      "new": "01_basics",
+      "secondary_tags": [],
+      "reason": "研究 harness 的组合泛化和调用组织，是 Agent 系统基础；非前沿模型发布。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_one_line",
+          "quote": "Harnesses can lead to compositional generalization: we observe a property in training RLMs, in which similarly structured tasks are viewed as isomorphic and all individual LM calls in the harness become in-distribution."
+        }
+      ]
+    },
+    {
+      "id": "2609.22682",
+      "expected_old": "14_AI4Science_and_Math_Agents",
+      "expected_title": "Self-Organizing Agent Teams Learn to Reason Together",
+      "new": "08_collaboration",
+      "secondary_tags": [],
+      "reason": "主要贡献是语言模型团队学习可复用协调策略，不应仅因推理任务继承 AI4Science。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_one_line",
+          "quote": "Fixed teams of language models can learn reusable coordination strategies that let members repair one another’s reasoning and solve problems independently missed."
+        }
+      ]
+    },
+    {
+      "id": "2609.21032",
+      "expected_old": "14_AI4Science_and_Math_Agents",
+      "expected_title": "Scaling Discovery through Test-Time Communication",
+      "new": "08_collaboration",
+      "secondary_tags": [
+        "12_science"
+      ],
+      "reason": "摘要的关键比较是通信团队与独立并行搜索，研究多Agent测试时通信；科学发现是应用副标签。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_abstract",
+          "quote": "Science advances not in isolation but through collaboration, yet existing agentic systems capture little of this. Whether communicating agents help remains an open question with mixed prior results. We show that test-time communication can substantially outperform independent parallel attempts on challenging tasks, where sharing a breakthrough can push the whole group forward. We first study the effect of scaling mul"
+        }
+      ]
+    },
+    {
+      "id": "2609.26637",
+      "expected_old": "14_AI4Science_and_Math_Agents",
+      "expected_title": "Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models",
+      "new": "14_model_science",
+      "secondary_tags": [],
+      "reason": "研究提取隐藏思维链并分析模型推理，不是科学领域发现Agent。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_abstract",
+          "quote": "The rapid capability gains of frontier language models are widely attributed to improved reasoning abilities, yet this cannot be verified as raw CoT traces in closed-source systems are hidden. By registering a simple custom tool through a standard API feature, we induce frontier models to externalize intermediate reasoning. Because these traces may reflect post-hoc rationalization rather than genuine reasoning, we fi"
+        }
+      ]
+    },
+    {
+      "id": "2609.06770",
+      "expected_old": "14_AI4Science_and_Math_Agents",
+      "expected_title": "The Interface of Theseus: The Rise of Just-In-Time Interfaces",
+      "new": "09_multimodal_gui",
+      "secondary_tags": [],
+      "reason": "研究按需即时生成交互界面，属于界面/交互方向而非科学或数学Agent。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_abstract",
+          "quote": "Our community creates interfaces---pre-constructed, static artifacts. These interfaces are effortful to create, so we invest great effort and care into each of them. Yet the equilibrium is shifting: we can now construct nearly any software, bespoke, within moments. When construction is cheap, we may soon live in a future in which interfaces are constructed in real time. This is a world of just-in-time interfaces: rap"
+        }
+      ]
+    },
+    {
+      "id": "2608.05136",
+      "expected_old": "14_AI4Science_and_Math_Agents",
+      "expected_title": "The Loss Does Not See the Basis, but Adam Does",
+      "new": "14_model_science",
+      "secondary_tags": [],
+      "reason": "研究 Adam 与梯度下降在因子模型上的规范对称性及隐式偏置，属于优化器机制，不是 AI4Science。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_abstract",
+          "quote": "Gradient descent on a factored model $W = UV^\\top$ is implicitly biased toward low-rank solutions, while Adam, starting from the same small initialization, is not. We trace the difference to the gauge symmetry of the loss, its invariance under $(U, V) \\mapsto (UQ, VQ)$. Gradient flow's low-rank mechanism is available to an optimizer only if that optimizer is gauge-equivariant, a condition necessary for the transfer b"
+        }
+      ]
+    },
+    {
+      "id": "2607.17965",
+      "expected_old": "14_AI4Science_and_Math_Agents",
+      "expected_title": "Exploration Matters for Escaping the Blur Trap in 3D Gaussian Splatting",
+      "new": "90_adjacent",
+      "secondary_tags": [],
+      "reason": "研究 3D Gaussian Splatting 场景重建中的优化偏置；不因 optimization 或数学分析将纯视觉重建归科学Agent。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_abstract",
+          "quote": "3D Gaussian Splatting (3DGS) employs Gaussian primitives for explicit scene representation, facilitating real-time, high-fidelity reconstruction and novel view synthesis of complex scenes. However, the explicit modeling inherent in 3DGS introduces a gradient bias during optimization, rendering its non-convex optimization process highly susceptible to convergence toward local suboptimal solutions. This constitutes a f"
+        }
+      ]
+    },
+    {
+      "id": "2609.04963",
+      "expected_old": "14_AI4Science_and_Math_Agents",
+      "expected_title": "Fractal basins trap latent reasoning",
+      "new": "14_model_science",
+      "secondary_tags": [],
+      "reason": "研究潜空间推理中的瞬态混沌和分形吸引域，是模型机制；数学任务只是实验载体。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_abstract",
+          "quote": "Reasoning allows artificial intelligence models to revisit and correct their mistakes, enabling recent frontier advances in mathematical theorem solving, software engineering, and autonomous task planning. Reasoning models are widely observed to reason for longer on harder tasks, but the general mechanism responsible for these slowdowns is unknown. Here, we show that reasoning models exhibit transient chaos, a physic"
+        }
+      ]
+    },
+    {
+      "id": "2607.21981",
+      "expected_old": "14_AI4Science_and_Math_Agents",
+      "expected_title": "J-CoT: Chain-of-Thought in J-Space",
+      "new": "14_model_science",
+      "secondary_tags": [
+        "13_efficiency"
+      ],
+      "reason": "表征科学例外：J-CoT的核心是J-space词表索引坐标与中间状态表征接口，不是泛化的looped架构分类；保留第14章表征科学，循环计算作为第13章副标签。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_abstract",
+          "quote": "We introduce \\textbf{J-CoT}, a recurrent reasoning framework built on \\emph{J-space}, a vocabulary-indexed coordinate system within the model's hidden representations."
+        }
+      ]
+    },
+    {
+      "id": "2608.23228",
+      "expected_old": "14_AI4Science_and_Math_Agents",
+      "expected_title": "mold: A Massively Parallel Linker",
+      "new": "90_adjacent",
+      "secondary_tags": [],
+      "reason": "mold 是并行软件链接器，既不是 AI 科学发现，也不应当因加速而归 LLM 推理效率。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_abstract",
+          "quote": "Linking is a critical step in the software build process that combines compiled object files into a single executable or shared library. Despite decades of engineering effort, link times remain a significant bottleneck in the edit-compile-debug cycle, particularly for large C++ programs. Existing linkers exploit limited parallelism, leaving most CPU cores idle during linking. We present mold, a Unix/Linux linker that"
+        }
+      ]
+    },
+    {
+      "id": "2609.32808",
+      "expected_old": "14_AI4Science_and_Math_Agents",
+      "expected_title": "Mind the Spike: Mechanisms and Brittleness of Visual Massive Activations in Large Vision-Language Models",
+      "new": "14_model_science",
+      "secondary_tags": [
+        "09_multimodal_gui"
+      ],
+      "reason": "研究视觉语言模型 massive activations 的形成机制及脆弱性，属于机制研究，多模态为副标签。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_abstract",
+          "quote": "Large vision-language models (LVLMs) inherit massive activations from their text-only bases: spikes where a few fixed hidden channels receive values thousands of times above the typical magnitude. The text spike systematically appears in early layers at a fixed initial position, independently of input content. Visual spikes vary across images, but whether their formation follows a consistent pattern across LVLMs and "
+        }
+      ]
+    },
+    {
+      "id": "2607.08803",
+      "expected_old": "14_AI4Science_and_Math_Agents",
+      "expected_title": "TheBioCollection: Unified Pre-Training Scale LLM Corpus for Biology",
+      "new": "04_training_data",
+      "secondary_tags": [
+        "12_science"
+      ],
+      "reason": "核心产出是生物语言模型预训练语料与配套评测资源，主类按训练数据；生物应用作为副标签。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_one_line",
+          "quote": "Researchers introduced \"TH E BI O CO L L E C T I O N,\" a 52.6 billion-token unified pre-training corpus for biological Large Language Models, along with \"TH E BI O CO L L E C T I O N -EVA L,\" a matched evaluation suite. Training a 16B-parameter model on this corpus more than doubled its overall biological task performance from 0.223 to 0.499, while successfully preserving general linguistic abilities."
+        }
+      ]
+    },
+    {
+      "id": "2608.16578",
+      "expected_old": "14_AI4Science_and_Math_Agents",
+      "expected_title": "Physics of Agents: Statistical Mechanics Predicts Collective Behavior of AI Agents",
+      "new": "14_model_science",
+      "secondary_tags": [
+        "08_collaboration"
+      ],
+      "reason": "使用统计模型解释语言Agent群体意见变化，是Agent行为建模，不是用Agent发现新的自然科学成果。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_one_line",
+          "quote": "A compact statistical model can forecast how simulated language-agent communities revise opinions, including on communication networks it was not trained to see."
+        }
+      ]
+    },
+    {
+      "id": "2609.24931",
+      "expected_old": "14_AI4Science_and_Math_Agents",
+      "expected_title": "A Proof of the Most Informative Boolean Function Conjecture",
+      "new": "90_adjacent",
+      "secondary_tags": [],
+      "reason": "标题是布尔函数猜想证明，没有AI或Agent方法证据；纯数学结论不等于 AI4Science，证明正确性未核验。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_title",
+          "quote": "A Proof of the Most Informative Boolean Function Conjecture"
+        }
+      ]
+    },
+    {
+      "id": "2608.14144",
+      "expected_old": "07_On-Policy_Distillation",
+      "expected_title": "Self-Supervised Visual On-Policy Distillation",
+      "new": "09_multimodal_gui",
+      "secondary_tags": [
+        "05_rl_and_distillation"
+      ],
+      "reason": "本地摘要围绕原图与增强视图的视觉证据不对称和自监督学习；应注明视觉方向而非无区别的通用Agent蒸馏。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_abstract",
+          "quote": "Visual on-policy distillation relies heavily on an informative teacher-student asymmetry, through either a larger, stronger teacher or privileged supervision, such as reference answers or ground-truth regions of interest. This raises a fundamental question: where can informative asymmetry come from when nothing privileged is available? We answer this by inverting where the asymmetry comes from. Rather than adding pri"
+        }
+      ]
+    },
+    {
+      "id": "2608.10286",
+      "expected_old": "07_On-Policy_Distillation",
+      "expected_title": "TRACE-GS: On-Policy Trajectory Distillation with Privileged Geometric Conditioning for Sparse-View 3DGS Restoration",
+      "new": "90_adjacent",
+      "secondary_tags": [
+        "05_rl_and_distillation"
+      ],
+      "reason": "蒸馏用于稀疏视角3DGS重建，不是语言Agent的交互后训练；蒸馏仅保留为方法副标签。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_abstract",
+          "quote": "We present TRACE-GS, an on-policy trajectory distillation framework that leverages privileged geometric conditioning at training time, thereby adapting a diffusion prior to sparse-view 3D Gaussian Splatting (3DGS) restoration. Rather than pursuing increasingly sophisticated restoration architectures, we identify a more fundamental limitation shared by existing diffusion-based approaches: supervision at independently "
+        }
+      ]
+    },
+    {
+      "id": "2607.08766",
+      "expected_old": "07_On-Policy_Distillation",
+      "expected_title": "OPSD-V: On-Policy Self-Distillation for Post-Training Few-Step Autoregressive Video Generators",
+      "new": "16_generation",
+      "secondary_tags": [
+        "05_rl_and_distillation"
+      ],
+      "reason": "摘要明确 few-step autoregressive video diffusion generators；生成模型专用蒸馏不应占 Agent RL 主类。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_abstract",
+          "quote": "We propose OPSD-V, an on-policy self-distillation paradigm for post-training few-step autoregressive (AR) video diffusion models. Existing few-step AR video generators can produce long videos with low latency, but still suffer from error accumulation and weakened motion dynamics during long autoregressive rollout. OPSD-V reduces long-horizon degradation while preserving the original few-step inference path. The key i"
+        }
+      ]
+    },
+    {
+      "id": "2607.08771",
+      "expected_old": "07_On-Policy_Distillation",
+      "expected_title": "ZipDepth: Bringing Lightweight Zero-Shot Monocular Depth Anywhere, on Any Device",
+      "new": "90_adjacent",
+      "secondary_tags": [
+        "13_efficiency"
+      ],
+      "reason": "ZipDepth 是轻量单目深度估计网络，知识蒸馏只是训练技术，主对象是纯视觉感知而非Agent。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_abstract",
+          "quote": "Monocular depth estimation has seen remarkable progress through foundation models achieving robust zero-shot generalization, yet their computational demands place them far beyond the reach of embedded and mobile platforms. Lightweight alternatives exist, but have been developed almost exclusively within single-domain, self-supervised paradigms, failing silently under domain shift. We present ZipDepth, a compact monoc"
+        }
+      ]
+    },
+    {
+      "id": "2608.17402",
+      "expected_old": "07_On-Policy_Distillation",
+      "expected_title": "MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding",
+      "new": "09_multimodal_gui",
+      "secondary_tags": [
+        "13_efficiency"
+      ],
+      "reason": "核心对象为 CLIP-style vision encoder 的 MoE 扩展，按多模态编码器归类而非通用蒸馏；效率为副标签。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_abstract",
+          "quote": "Vision encoders are a critical component of vision-language models, and scaling their capacity effectively improves performance. However, dense scaling increases compute cost and inference latency. Mixture-of-Experts (MoE) architectures offer a compelling alternative, having enabled efficient scaling in LLMs, yet the MoE design space for CLIP-style vision encoders remains underexplored at State-of-the-Art (SOTA) leve"
+        }
+      ]
+    },
+    {
+      "id": "2609.36838",
+      "expected_old": "07_On-Policy_Distillation",
+      "expected_title": "On-Policy Visual Evidence Distillation",
+      "new": "05_rl_and_distillation",
+      "secondary_tags": [
+        "09_multimodal_gui"
+      ],
+      "reason": "反例保留：摘要明确 visual agents 的学生交互轨迹与教师纠正，确属Agent蒸馏；不能将所有含 visual 的论文一律逐出RL，补多模态标签。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_abstract",
+          "quote": "Visual agents solve problems by interleaving reasoning with image operations, and on-policy distillation (OPD) provides guidance from a strong teacher on student-generated interaction trajectories. However, image operations change the evidence available for subsequent reasoning, so local errors in evidence acquisition (Acquire), reading (Read), or answer grounding (Ground) can propagate through the trajectory and lea"
+        }
+      ]
+    },
+    {
+      "id": "2607.19064",
+      "expected_old": "07_On-Policy_Distillation",
+      "expected_title": "Mage-Flow: An Efficient Native-Resolution Foundation Model for Image Generation and Editing",
+      "new": "16_generation",
+      "secondary_tags": [],
+      "reason": "标题直接指向原生分辨率图像生成与编辑，不是Agent强化学习。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_title",
+          "quote": "Mage-Flow: An Efficient Native-Resolution Foundation Model for Image Generation and Editing"
+        }
+      ]
+    },
+    {
+      "id": "2608.13489",
+      "expected_old": "07_On-Policy_Distillation",
+      "expected_title": "DreamX-Phi 1.0: Action-Conditioned Video World Model for Robotic Manipulation",
+      "new": "10_world_models",
+      "secondary_tags": [
+        "11_embodied",
+        "16_generation"
+      ],
+      "reason": "主对象是动作条件视频世界模型；机器人应用与视频生成保留为交叉标签，非通用蒸馏。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_title",
+          "quote": "DreamX-Phi 1.0: Action-Conditioned Video World Model for Robotic Manipulation"
+        }
+      ]
+    },
+    {
+      "id": "2608.31106",
+      "expected_old": "07_On-Policy_Distillation",
+      "expected_title": "DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution",
+      "new": "16_generation",
+      "secondary_tags": [],
+      "reason": "标题明确原生音视频生成，应归生成而非Agent蒸馏。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_title",
+          "quote": "DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution"
+        }
+      ]
+    },
+    {
+      "id": "2608.03052",
+      "expected_old": "07_On-Policy_Distillation",
+      "expected_title": "How Should Vision-Language-Action Models Use Proprioceptive State?",
+      "new": "11_embodied",
+      "secondary_tags": [],
+      "reason": "研究VLA模型如何使用本体感知状态，属于具身控制设计。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_title",
+          "quote": "How Should Vision-Language-Action Models Use Proprioceptive State?"
+        }
+      ]
+    },
+    {
+      "id": "2609.23986",
+      "expected_old": "01_JEV",
+      "expected_title": "Jev-Mem: System-One-Controlled Agentic Memory for Efficient AI Agents",
+      "new": "02_memory",
+      "secondary_tags": [
+        "13_efficiency"
+      ],
+      "reason": "JEV名称不是分类依据；研究结构化长期记忆的构建、查询和轻量控制，应归记忆。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_one_line",
+          "quote": "Separating lightweight memory control from deliberative reasoning lets agents build and query structured long-term memories more efficiently without sacrificing retrieval quality."
+        }
+      ]
+    },
+    {
+      "id": "2609.34261",
+      "expected_old": "01_JEV",
+      "expected_title": "RoboICL: Embodied In-Context Learning with GPT-6 Astra",
+      "new": "11_embodied",
+      "secondary_tags": [],
+      "reason": "研究机器人基于演示和动作结果进行上下文学习，不应因所用基础模型或旧JEV桶留在基础类。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_one_line",
+          "quote": "Robot control models can improve precision and long-horizon manipulation by learning from demonstrations and their own action outcomes, without robot-specific training."
+        }
+      ]
+    },
+    {
+      "id": "2607.15901",
+      "expected_old": "01_JEV",
+      "expected_title": "DSWorld: A Data Science World Model for Efficient Autonomous Agents",
+      "new": "10_world_models",
+      "secondary_tags": [
+        "12_science",
+        "13_efficiency"
+      ],
+      "reason": "明确模拟数据科学环境转移的世界模型；科学任务和计算节约是副标签，不应冻结在JEV类。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_one_line",
+          "quote": "DSWorld introduces a data science world model that simulates environment transitions for autonomous data science agents, enabling them to predict operation outcomes without costly real-world execution. This approach results in approximately 14x faster reinforcement learning training and 3-6x acceleration in inference, while maintaining competitive agent performance."
+        }
+      ]
+    },
+    {
+      "id": "2609.26550",
+      "expected_old": "01_JEV",
+      "expected_title": "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure",
+      "new": "06_evaluation",
+      "secondary_tags": [],
+      "reason": "JEV-as-a-Judge研究置信度判断与不确定时升级，符合第06章JEV/验证/升级范围；确认新的旧01默认映射，不再作为从基础类迁出的单独变更计数。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_title",
+          "quote": "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure"
+        }
+      ]
+    },
+    {
+      "id": "2609.29769",
+      "expected_old": "01_JEV",
+      "expected_title": "JEV vs. LLMs as Rubric Judges: Cheaper, Faster, and Wrong in the Same Places",
+      "new": "06_evaluation",
+      "secondary_tags": [],
+      "reason": "标题研究 rubric judges 的评价行为，应按评测归类而不是模型名。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_title",
+          "quote": "JEV vs. LLMs as Rubric Judges: Cheaper, Faster, and Wrong in the Same Places"
+        }
+      ]
+    },
+    {
+      "id": "2609.09250",
+      "expected_old": "01_JEV",
+      "expected_title": "No Free Checker: A Survey of Verifiers for Robot Policies",
+      "new": "06_evaluation",
+      "secondary_tags": [
+        "11_embodied"
+      ],
+      "reason": "机器人策略验证器综述，按验证/评测为主，机器人为副标签。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_title",
+          "quote": "No Free Checker: A Survey of Verifiers for Robot Policies"
+        }
+      ]
+    },
+    {
+      "id": "2607.05391",
+      "expected_old": "01_JEV",
+      "expected_title": "LLM-as-a-Verifier: A General-Purpose Verification Framework",
+      "new": "06_evaluation",
+      "secondary_tags": [],
+      "reason": "通用 LLM-as-a-Verifier 框架，主对象是验证，不是按旧JEV标签保留基础类。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_title",
+          "quote": "LLM-as-a-Verifier: A General-Purpose Verification Framework"
+        }
+      ]
+    },
+    {
+      "id": "2609.01924",
+      "expected_old": "10_Looped_and_Recurrent_Transformers",
+      "expected_title": "Looped Transformers under the Jacobian Lens: Does the Global Workspace Survive Recurrence?",
+      "new": "14_model_science",
+      "secondary_tags": [
+        "13_efficiency"
+      ],
+      "reason": "表征与可解释性例外：Jacobian lens研究循环模型中global-workspace表征的可访问性及因果读写，不是提出高效循环架构；依据本地摘要保留第14章，循环架构为第13章副标签。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_abstract",
+          "quote": "Recent work identifies a mid-depth band of verbalisable, causally potent representations in a standard feedforward transformer --- a functional analogue of a global workspace."
+        }
+      ]
+    },
+    {
+      "id": "2609.26532",
+      "expected_old": "01_JEV",
+      "expected_title": "REFLEX with Jev for Efficient Selective Control in LLM Agents",
+      "new": "06_evaluation",
+      "secondary_tags": [
+        "13_efficiency"
+      ],
+      "reason": "REFLEX以Jev作快速类型化判断层，低置信度或需要生成时升级至强LLM；主问题对应第06章验证/升级，不能被通用agent architecture规则吸入01，计算节约作为13副标签。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_abstract",
+          "quote": "We study REFLEX, an agent architecture that uses Jev as a fast, typed decision layer and calls a strong LLM when confidence is low, or generation is required."
+        }
+      ]
+    }
+  ]
+}

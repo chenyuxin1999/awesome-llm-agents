@@ -1,0 +1,590 @@
+[
+  {
+    "url": "https://export.arxiv.org/api/query?search_query=ti%3Asurvey+AND+%28ti%3Arecursive+OR+ti%3Ahorizon+OR+ti%3Aevolving+OR+ti%3Aevolution%29&sortBy=submittedDate&sortOrder=descending&max_results=25",
+    "query": "ti:survey AND (ti:recursive OR ti:horizon OR ti:evolving OR ti:evolution)",
+    "checked_at": "2026-10-08T12:46:13.500590+00:00",
+    "status": "metadata_fetched",
+    "sha256": "51547b216bc1f4cc18f642651b8cb088cf28440c2e5e249af8cb647c8ffbefea",
+    "entries": [
+      {
+        "id": "http://arxiv.org/abs/2609.39036v1",
+        "published": "2026-09-30T05:41:04Z",
+        "updated": "2026-09-30T05:41:04Z",
+        "title": "The \"Fork\" Geometry in the DESI Main Survey DR1: Implications of Target Selection for Galaxy Evolution Studies",
+        "summary": "The Dark Energy Spectroscopic Instrument (DESI) Main Survey Data Release 1 (DR1) provides an unprecedented spectroscopic view of galaxies and quasars across a large fraction of the observable Universe. However, the survey's tracer-dependent targeting strategy introduces complex observational selection effects that strongly influence the apparent distribution of galaxies in the redshift-luminosity plane. In this work, we investigate the origin of the characteristic \"fork\" geometry observed in DESI DR1 and show that the observed distribution is consistent with an interpretation in which it arises from the combined action of intrinsic galaxy bimodality and the survey's redshift-dependent selection function. We show that the observed underdensity separating the dominant galaxy populations is influenced not only by the physical Green Valley but also by survey selection effects, since it is further shaped by magnitude limits, surface-brightness selection, and structural incompleteness. Using DESI DR1 spectroscopy together with Legacy Survey photometry, we analyze the roles of the BGS, LRG, ELG, and QSO target classes in producing the observed distribution and assess their impact on luminosity-function measurements. Our results indicate that both target selection and observational biases significantly affect the observed galaxy distribution and the evolutionary trends inferred from it. We summarize practical observational considerations aimed at minimizing these effects and enabling more robust studies of galaxy evolution with DESI.",
+        "url": "https://arxiv.org/abs/2609.39036v1",
+        "checked_at": "2026-10-08T12:46:13.500590+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2609.26794v1",
+        "published": "2026-09-22T17:59:47Z",
+        "updated": "2026-09-22T17:59:47Z",
+        "title": "The First Blind Survey of Intervening NaI Absorbers: Incidence and Cosmic Evolution with DESI",
+        "summary": "We present the first blind statistical survey of intervening NaI absorbers over the last $\\simeq3$~Gyr using quasar spectra from the Dark Energy Spectroscopic Instrument Data Release~1. We identify 3636 NaI D doublets at $0.01\\lesssim z_{\\rm abs}\\lesssim0.27$ along 214,035 quasar sightlines. We quantify the survey selection function through end-to-end injection--recovery tests and estimate the residual contamination from visual inspection. The completeness reaches 50% at a rest-equivalent width of the NaI $\\lambda5891$ line, $W_{5891}\\simeq0.95$ Angstrom, and the catalog-weighted purity is $\\simeq77\\%$. For the fiducial sample with $0.95<W_{5891}<3.5$ Angstrom, we measure the equivalent-width distribution ($f(W_r)$), absorber incidence ($dN/dX$), and cosmic NaI mass density ($Ω_{\\rm Na\\,I}$). From $z\\simeq0.25$ to $z\\simeq0.03$, $dN/dX$ rises by a factor of $\\simeq3.4$ in both rest-equivalent-width subsamples, split at the median $W_{5891}=1.41$ Angstrom, while $Ω_{\\rm Na\\,I}$ increases by a similar factor. This corresponds to a smooth increase in the product of the comoving number density of NaI-absorbing hosts ($n_{\\rm com}$) and the cross-section of the NaI-bearing gas ($σ_{\\rm eff}$) with cosmic time. The similar evolution of $Ω_{\\rm Na\\,I}$ and $dN/dX$ indicates little change in the mean measured NaI column density per absorber. We also find preliminary evidence that NaI absorbers are associated with foreground galaxies at relatively small projected separations and that their quasar sightlines are redder than matched controls. These results support a picture in which NaI traces dense neutral gas in and around galaxies. Dedicated galaxy surveys and CGM/ISM simulations can test the inferred incidence and cross-section, while spectral stacking can probe the associated gas and dust.",
+        "url": "https://arxiv.org/abs/2609.26794v1",
+        "checked_at": "2026-10-08T12:46:13.500590+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2609.21604v1",
+        "published": "2026-09-18T10:34:12Z",
+        "updated": "2026-09-18T10:34:12Z",
+        "title": "ALMA Chemical Evolution (ACE) survey: an overview -- extending dust and gas inference to low metallicities at cosmic noon",
+        "summary": "The baryon cycle governs the exchange of gas, metals, and dust between galaxies and their environments, but simultaneous constraints on these constituents remain scarce beyond z~1. The ALMA Chemical Evolution (ACE) survey is a Cycle 11 ALMA Large Program designed to address this by studying the molecular gas, dust, and metal content of sub-solar metallicity at cosmic noon. ACE consists of CO(3-2) and dust continuum observations of 25 galaxies at z=2.0-2.5 with robust gas-phase metallicity measurements spanning ~35% to 83% of solar metallicity. The survey approximately doubles the number of unlensed main-sequence galaxies at z>1 with CO, dust-continuum and metallicity measurements and extends such studies to almost an order of magnitude lower stellar masses and metallicities than previous surveys. The ACE observations yield 17 CO detections and 17 Band 7 continuum (rest-frame ~270um) detections. CO detectability correlates most strongly with metallicity and stellar mass, while dust continuum detectability is more closely linked to star formation rate (SFR) and infrared luminosity. Using the ACE measurements, we derive a new empirical scaling relation linking CO(3-2) luminosity to stellar mass, SFR, and metallicity, providing a practical benchmark for estimating molecular gas content in low-mass, low-metallicity galaxies. The survey reveals several particularly intriguing systems, including some of the lowest-metallicity CO and dust detections currently known at z>1, galaxies with extreme gas and dust fractions, and systems exhibiting offsets between stellar, dust, and molecular gas emission. ACE provides the first comprehensive view of the interplay between molecular gas, dust, metals, and star formation in sub-solar metallicity galaxies at cosmic noon, enabling direct tests of models for baryon cycling, chemical enrichment, and dust evolution during the peak epoch of galaxy assembly.",
+        "url": "https://arxiv.org/abs/2609.21604v1",
+        "checked_at": "2026-10-08T12:46:13.500590+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2609.21072v1",
+        "published": "2026-09-17T20:49:35Z",
+        "updated": "2026-09-17T20:49:35Z",
+        "title": "ALMA Chemical Evolution (ACE) Survey: Molecular gas properties of low-mass, low-metallicity galaxies at cosmic noon",
+        "summary": "Molecular gas plays a central role in regulating star formation and galaxy evolution, yet observational constraints at cosmic noon remain biased toward massive, metal-rich systems. We present ALMA Band 3 observations of the CO J=3-2 transition in 26 unlensed star-forming galaxies from the ALMA Chemical Evolution (ACE) Large Program at z~2-2.5, probing stellar masses of $10^{9} < M_\\star < 10^{10.5}\\,\\mathrm{M}_{\\odot}$ and sub-solar metallicities (8.2 < 12 + log(O/H) < 8.6). We derived molecular gas masses using a metallicity-dependent CO-to-H$_2$ conversion factor and alongside analysed stacking measurements and a homogenized literature compilation spanning both local and high-redshift galaxies. We find that the ACE galaxies extend established molecular-gas scaling relations to an order of magnitude lower stellar masses than previously explored at cosmic noon. The molecular gas mass ($M_{\\rm mol}$) correlates tightly with star formation rate (SFR), while molecular gas fractions show a strong dependence on specific star formation rate (sSFR) and offset from the star-forming main sequence. In contrast, molecular gas fractions show only weak trends with stellar mass and no significant dependence on metallicity. Molecular gas depletion times are ~1 Gyr and vary little with stellar mass or metallicity, and weakly with sSFR and offset from the star-forming main sequence. Together this further reinforces that the availability of molecular gas is the primary driver of the SFR in galaxies, with changes in star-formation efficiency playing a secondary role. Leveraging the expanded parameter space probed by the ACE and literature samples, we derive a new empirical prescription for predicting $M_{\\rm mol}$ as a function of SFR and sSFR. The persistence of the observed scaling relations suggests a largely universal framework governing the molecular gas-star formation cycle across cosmic time.",
+        "url": "https://arxiv.org/abs/2609.21072v1",
+        "checked_at": "2026-10-08T12:46:13.500590+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2609.21040v1",
+        "published": "2026-09-17T19:58:09Z",
+        "updated": "2026-09-17T19:58:09Z",
+        "title": "ALMA Chemical Evolution (ACE) survey: the dust content of subsolar metallicity galaxies at cosmic noon",
+        "summary": "Dust plays a key role in galaxy evolution by influencing star formation and shaping the observed spectrum of galaxies. However, at z~2 (cosmic noon) our knowledge of the dust mass budget is currently limited to the most massive, metal-rich systems, which are not representative of the bulk galaxy population. Here, we probe the lower mass, subsolar metallicity regime by measuring the dust mass of 25 galaxies at z~2.3 from the ALMA Chemical Evolution (ACE) Large Program. The sample contains star-forming galaxies in the COSMOS field with robust strong-line metallicities down to ~0.3 $Z_\\odot$. Using the dust continuum emission detected at 873micron or 1.3mm we constrain the dust mass by assuming an optically thin single-temperature modified blackbody. The resulting dust masses average $10^{8}\\,\\mathrm{M}_\\odot$, and they are three to nine times larger than those of z=0 galaxies at a matched metallicity and stellar mass. We also find positive correlations between dust mass and stellar mass, metallicity, and star formation rate (SFR). In contrast, we find that the $M_\\mathrm{dust}/M_\\mathrm{stars}$ (DtS) ratio scatters around $10^{-2.2}$ but shows no evidence of correlation with metallicity. This result is consistent with dust evolution models that predict a constant DtS once the ISM reaches the critical metallicity, at which metal accretion onto grains becomes the main mode of dust buildup. The correlation between $M_\\mathrm{dust}/\\mathrm{SFR}$ and metallicity also suggest that ACE galaxies have already surpassed the critical metallicity. Finally, we find that the DtS ratio is correlated to the specific SFR (sSFR). Since the sSFR are high ($> 10^{-8}\\,\\mathrm{yr}^{-1}$) this explains the DtS excess over z~0 galaxies. In turn, both sSFR and DtS are likely driven by the molecular gas fraction, as supported by CO(3-2) measurements taken as part of ACE.",
+        "url": "https://arxiv.org/abs/2609.21040v1",
+        "checked_at": "2026-10-08T12:46:13.500590+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2609.20930v1",
+        "published": "2026-09-17T18:00:05Z",
+        "updated": "2026-09-17T18:00:05Z",
+        "title": "The Galactic Phosphorus Survey. I. Chemical Evolution across the Galactic Disk from $\\sim$750 FGK Stars",
+        "summary": "Phosphorus (P) is an odd-$Z$ element produced primarily in massive stars and is also important for planetary chemistry as an element essential to life. However, its evolution over cosmic time remains poorly constrained because precise and homogeneous stellar P measurements are scarce. We determine the relationship between [P/Fe] and [Fe/H] over a range of metallicities across the Galactic disk and assess its variation between different stellar populations using the largest uniformly analyzed sample to date, comprising $\\sim$750 FGK stars with high-resolution near-infrared spectra. Stellar parameters are determined through a spectro-photometric approach and P abundances are derived by fitting synthetic spectra to the P~I 10529.52~Å absorption feature. We confirm that [P/Fe] increases toward lower metallicities down to [Fe/H] $\\sim$ -1.0 dex, where it appears to peak, broadly resembling the rise seen in $α$-element abundance ratios over the same metallicity range and supporting a dominant contribution from massive stars on short core-collapse supernova timescales. When separating the sample into Galactic disk populations, thick-disk stars are systematically enhanced in [P/Fe] relative to the thin disk by $\\sim$0.08 dex at fixed metallicity. We also measure a radial [P/Fe] gradient of $-0.124 \\pm 0.006$ dex kpc$^{-1}$ and a vertical gradient of $+0.052 \\pm 0.007$ dex kpc$^{-1}$. Although current chemical evolution models struggle to reproduce the observed trends, this survey increases the number of homogeneously measured stellar P abundances by approximately a factor of three, providing a new benchmark for Galactic chemical evolution models and the phosphorus inventory available to planetary systems.",
+        "url": "https://arxiv.org/abs/2609.20930v1",
+        "checked_at": "2026-10-08T12:46:13.500590+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2609.20926v1",
+        "published": "2026-09-17T18:00:03Z",
+        "updated": "2026-09-17T18:00:03Z",
+        "title": "ALMA Chemical Evolution (ACE) survey: dust-to-gas ratios in sub-solar metallicity galaxies at cosmic noon",
+        "summary": "Dust is a fundamental component of the interstellar medium and provides a key tracer of the baryon cycle that regulates galaxy evolution. The dust-to-gas ratio links metals in the gas phase to those locked into dust grains, making it a sensitive diagnostic of dust production, grain growth, and destruction. We present measurements of the dust-to-molecular-gas ratio ($\\rm DGR_{mol}$), for typical star-forming galaxies ($\\log M_\\star \\approx 10$) at sub-solar metallicites, at $z\\simeq2-2.5$ from the ALMA Chemical Evolution (ACE) survey. By combining ALMA CO and dust-continuum observations with robust gas-phase metallicity measurements, ACE extends direct dust and molecular-gas measurements to lower stellar masses and lower metallicities than previously available at this epoch, reaching down to $0.4\\,Z_{\\odot}$. This enables the first constraints on the $\\rm DGR_{mol}$--metallicity relation for typical unlensed galaxies at cosmic noon. We find that $\\rm DGR_{mol}$ increases with metallicity, with a log-space slope of $1.2 \\pm 0.7$, indicating that metal-poor galaxies have systematically lower $\\rm DGR_{mol}$ than their more metal-rich counterparts. For the detected ACE galaxies, we measure a mean value of $\\log_{10}(M_{\\rm dust}/M_{\\rm mol})=-2.37\\pm0.05$ for a mean metallicity of 12+$\\log (\\rm O/H) = 8.45 \\pm 0.02$. We find agreement with $\\rm DGR_{mol}$ in the local Universe at fixed metallicities, indicating that the same dust-growth physics, likely grain growth in the ISM, dominates at metallicities of $8.3 \\leq 12+\\log(\\rm O/H) \\leq 8.7$ at cosmic noon. These measurements provide novel empirical constraints for models of dust enrichment and galaxy evolution during the peak epoch of cosmic star formation. Additionally, ACE provides a sub-solar metallicity reference for the calibration of dust continuum as tracer of molecular gas, essential for studying metal-poor, high-redshift systems.",
+        "url": "https://arxiv.org/abs/2609.20926v1",
+        "checked_at": "2026-10-08T12:46:13.500590+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2609.20921v2",
+        "published": "2026-09-17T18:00:01Z",
+        "updated": "2026-10-07T08:55:27Z",
+        "title": "ALMA Chemical Evolution (ACE) survey: The gas fundamental metallicity relation at cosmic noon",
+        "summary": "Chemical enrichment shapes how galaxies form and evolve. The gas-phase metallicity is directly linked to the stellar mass, star formation rate, and cold gas of the interstellar medium. Thus, the cold gas fundamental metallicity relation (GFMR) is a powerful tool for probing galaxy evolution, bridging large-scale gas flows modulating the cold gas reservoir and small-scale metal enrichment tracing the cumulative impact of star formation. Constraining all these properties for the same representative sample of galaxies remains challenging yet essential. Using CO(3--2) band 3 observations from the Atacama Large Millimeter/submillimeter Array Chemical Evolution (ACE) survey, we investigated the GFMR in a sample of 26 main-sequence (log(M_*, med)=9.96), subsolar-metallicity (12+log(O/H)_med=8.44) star-forming galaxies (SFGs) at z~2. With 17/26 CO detections, including some of the lowest-metallicity CO detections at cosmic noon, we find that the stellar mass remains the primary driver of the chemical evolution in our sample (sigmaMZR~0.10). Whereas the molecular gas likely plays a secondary role (sigmaGFMR~0.11) similar to that of the star formation rate (sigmaFMR~0.13). This likely reflects our sensitivity to only the CO-bright component of the molecular reservoir. Our results remain consistent with gas-regulator models and suggest the existence of efficient molecular outflows, with an average mass loading factor of eta~4, regulating star formation and chemical enrichment.",
+        "url": "https://arxiv.org/abs/2609.20921v2",
+        "checked_at": "2026-10-08T12:46:13.500590+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2609.20155v1",
+        "published": "2026-09-17T12:45:44Z",
+        "updated": "2026-09-17T12:45:44Z",
+        "title": "Thermal Evolution of Lava Planets Across System Ages: Predictions for Hell of a Survey",
+        "summary": "Ultra-short-period (USP) rocky exoplanets can have dayside temperatures high enough to maintain permanent magma oceans, sitting at the intersection of interior geophysics and atmospheric chemistry. Coupled feedbacks between the molten surface and outgassed atmosphere can sustain or enhance a volatile envelope, while stellar interactions can erode it. Understanding which outcome prevails, and its observable imprint, requires a multi-target approach across planets at different stages of thermal evolution. We present predictions for the five targets of JWST Cycle 4 program 8864: TOI-1807 b, TOI-2260 b, TOI-431 b, TOI-6255 b, and TOI-2431 b. Using the PROTEUS coupled interior-atmosphere framework, we construct a simulation grid and classify outcomes into six categories, defined by the final interior melt state and by whether the planet retains a detectable atmosphere thick enough to redistribute heat to the nightside. For targets retaining a non-negligible volatile envelope, our models predict higher partial pressures for most species when the surface is molten, except for S$_{2}$, whose enhancement in the solid regime suggests it may serve as a tracer of interior melt state. Despite some targets showing outcomes across multiple scenarios, most tend toward a bare-rock end-member, with global melt fraction $\\leq$ 20\\% and atmospheric retention sensitive to escape efficiency. Our analysis reveals a minimum escape efficiency threshold below which volatile envelopes survive under energy-limited escape, constraining the conditions required for atmosphere survival on irradiated rocky planets. These predictions will guide interpretation of MIRI-LRS phase curve observations and identify which targets and features best discriminate between competing geophysical states.",
+        "url": "https://arxiv.org/abs/2609.20155v1",
+        "checked_at": "2026-10-08T12:46:13.500590+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.00093v1",
+        "published": "2026-09-08T05:04:40Z",
+        "updated": "2026-09-08T05:04:40Z",
+        "title": "Safety in Self-Evolving Agents: A Survey",
+        "summary": "Large language models (LLMs) exhibit strong general capabilities, yet their parameters typically remain fixed after deployment, limiting learning from new interactions. In open-ended environments, this motivates self-evolving agents that continually update reusable state-including model parameters, memories, tool definitions, skills, and workflows-from data, feedback, and accumulated experience. This shift changes the safety problem: once experience becomes reusable state, past events become future causes, and information harmless in one context may later influence decisions with greater persistence, authority, or scope. Self-evolving agent safety therefore asks not only whether a response is aligned or an action authorized, but whether safety properties survive the accumulation, generalization, and cross-context reuse of locally useful experience. We introduce SAVER, a transition-centered framework in which Substrate locates reusable influence, Adaptation captures how it changes, Violation identifies compromised safety attributes, Exposure marks where failures become observable, and Response assesses containment, repair, or revocation. Our survey reveals that failures need not originate from harmful information: legitimate state can become unsafe when adaptation expands its persistence, authority, or scope beyond the conditions under which it was valid. Existing work provides comparatively strong evidence for admission, retrieval, activation, exposure, and local containment, but much less for descendant repair and evaluation after adaptation resumes. We therefore argue for longitudinal evaluation that traces unsafe influence to its originating transition, verifies repair across descendants, and tests whether it can re-emerge under continued evolution.",
+        "url": "https://arxiv.org/abs/2610.00093v1",
+        "checked_at": "2026-10-08T12:46:13.500590+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2609.00938v1",
+        "published": "2026-09-01T08:57:54Z",
+        "updated": "2026-09-01T08:57:54Z",
+        "title": "X-shooter survey Across Regions and Ages to probe Disk Evolution (ARADE): Accretion properties in Orion A and their relation with disk masses",
+        "summary": "We present a homogeneous VLT/X-Shooter study of accretion in young stellar objects spanning the entire Orion A complex. Our sample includes 91 pre-main-sequence stars hosting a protoplanetary disk according to Spitzer photometry, of which 34 have complementary ALMA dust mass measurements. We derived stellar and accretion properties using a self-consistent multi-component fitting procedure. Our sample encompasses spectral types from K3 down to M5, corresponding to stellar masses within $\\sim$0.8-0.1 $M_{\\odot}$. The accretion-stellar luminosity ($L_{acc}-L_{\\star}$) and the mass accretion rate-stellar mass ($\\dot{M}_{acc}-M_{\\star}$) scaling relations in Orion A are consistent with those of other star-forming regions (SFRs) that span a range of stellar densities, far-ultraviolet (FUV) irradiation fields, and ages, with all regions occupying the same locus in parameter space. For the 34 sources with complementary dust mass measurements, we present the first investigation of the $\\dot{M}_{acc}$ and disk mass ($M_{disk}$) correlation in Orion A, recovering a spread consistent with that reported for other regions. Despite our sample spanning nearly five orders of magnitude in local FUV field strength, we find no statistically significant correlation between $\\dot{M}_{acc}$ and FUV irradiation. However, by combining our sample with literature measurements in Lupus, the Orion Nebula Cluster, and $σ$ Orionis, we find a tentative population-level decrease of the inferred disk lifetime $t_{\\rm disk} =M_{disk}/\\dot{M}_{acc}$ toward stronger FUV environments, though large intrinsic scatter and limited sample sizes at intermediate and high FUV fields prevent firm conclusions. The homogeneous $\\dot{M}_{acc}$ measurements reported here provide a solid foundation for future studies of accretion and disk evolution across the diverse environments of Orion A and other SFRs.",
+        "url": "https://arxiv.org/abs/2609.00938v1",
+        "checked_at": "2026-10-08T12:46:13.500590+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2608.25957v1",
+        "published": "2026-08-26T16:17:32Z",
+        "updated": "2026-08-26T16:17:32Z",
+        "title": "Exploring Late Stellar Evolution in the Era of Large Surveys: Machine Learning Prospects for Hot Subdwarfs and White Dwarfs",
+        "summary": "The rapid growth of large-scale astronomical surveys and advances in data-driven analysis techniques have transformed the study of late-stage stellar evolution. Modern facilities are producing large volumes of photometric, spectroscopic, and astrometric data, enabling systematic investigations of compact stellar populations across the Milky Way. Among the most important tracers of these advanced evolutionary phases are hot subdwarfs and white dwarfs: hot subdwarfs are core-helium-burning tracers of late, binary-driven stellar evolution, while white dwarfs represent the final evolutionary endpoint of low- and intermediate-mass stars. These compact objects provide important laboratories for studying stellar interiors, binary evolution, and the long-term fate of planetary systems. This paper explores how recent advances in machine learning are being applied to the detection, characterization, and, when combined with follow-up spectroscopy and modeling, the physical interpretation of hot subdwarfs and white dwarfs. By combining photometric, spectroscopic, and time-domain observations with these computational tools, it is now possible to efficiently discover rare objects, detect stellar variability, and probe the internal structure and evolutionary pathways of compact stars. Ultimately, these developments highlight the growing role of advanced algorithms in supporting the study of the final stages of stellar evolution, provided their outputs are validated against physical observables.",
+        "url": "https://arxiv.org/abs/2608.25957v1",
+        "checked_at": "2026-10-08T12:46:13.500590+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2608.21115v2",
+        "published": "2026-08-21T13:59:15Z",
+        "updated": "2026-08-24T14:12:51Z",
+        "title": "The GASKAP-HI Survey towards the Magellanic Clouds: Cold Atomic Gas Survival and Evolution in the Large Magellanic Cloud",
+        "summary": "We use atomic hydrogen (HI) absorption detections from the GASKAP-HI survey to investigate the properties of cold atomic gas in the Large Magellanic Cloud (LMC). Using the radiative transfer method, we decompose 155 sightlines into 330 cold neutral medium (CNM), 2 thermally unstable neutral medium (UNM), and 310 warm neutral medium (WNM) components. We find that the CNM in the LMC exhibits higher optical depths (median 0.46), lower spin temperatures (median $\\sim$37 K), broader linewidths (median $\\sim$4.9 km s$^{-1}$), and slightly lower CNM fractions (median $\\sim$23%) than in the Milky Way. We examine the connection between the CNM, molecular gas, and star formation, finding that CNM correlates more closely with molecular gas than WNM, while molecular gas shows a tighter relation with star formation. Molecular hydrogen (H$_2$) formation begins near $N{_\\mathrm{HI,CNM}}\\sim10^{20}~\\mathrm{cm^{-2}}$, and nearly all sightlines with $N_{\\mathrm{HI,CNM}}>10^{21}~\\mathrm{cm^{-2}}$ contain molecular gas. The CNM fraction increases with visual extinction ($A_V$), and the LMC maintains CNM fractions comparable to those in the Milky Way at substantially lower $A_V$, likely due to higher local densities and a longer line-of-sight depth. Sightlines near expanding shells tend to show higher CNM fractions, although this is partly driven by higher total HI column densities. Finally, the CNM kinematics generally follow the HI disk rotation, with about 7% of components showing velocity offsets greater than $25~\\mathrm{km~s^{-1}}$, likely tracing inflows or outflows driven by stellar feedback or large-scale interactions within the Magellanic System.",
+        "url": "https://arxiv.org/abs/2608.21115v2",
+        "checked_at": "2026-10-08T12:46:13.500590+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2608.14900v1",
+        "published": "2026-08-14T21:14:13Z",
+        "updated": "2026-08-14T21:14:13Z",
+        "title": "VAPOLA - A multiyear, multiband polarization survey of AGNs and Sgr A* at millimeter wavelengths with ALMA II. Spectropolarimetric properties and their evolution from 2017 to 2023",
+        "summary": "We present a systematic analysis of the spectropolarimetric properties of a sample of 39 active galactic nuclei and Sagittarius A* observed with the Atacama Large Millimeter/submillimeter Array during five VLBI campaigns between 2017 and 2023. We characterize the compact cores in total intensity and polarization, focusing on the behavior or the linear polarization fraction (LP), electric vector position angle (EVPA), and Faraday rotation measure (RM) over time and spectral domains. We investigate both individual objects--such as M87, Sgr A*, 3C273, and 3C279--and ensemble properties of different source classes, including flat-spectrum radio quasars, BLLac objects, and other active galaxies. While total intensity and spectral index are generally stable on weekly timescales, polarization properties often exhibit strong variability, with significant day-to-day changes in LP, EVPA, and RM. Several sources display large EVPA rotations accompanied by variations in LP and RM, in some cases coinciding with flaring activity. We observe that the magnitude of RM increases with observing frequency for all sources for which we have reliable multi-band measurements, consistent with Faraday rotation arising in a magnetized sheath surrounding the relativistic jet, although an origin in the accretion flow--particularly in the case of Sgr A*--cannot be ruled out.",
+        "url": "https://arxiv.org/abs/2608.14900v1",
+        "checked_at": "2026-10-08T12:46:13.500590+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2608.02898v1",
+        "published": "2026-08-03T21:30:59Z",
+        "updated": "2026-08-03T21:30:59Z",
+        "title": "Tracing luminous infrared galaxy populations through cluster evolution in a cosmological mock redshift survey",
+        "summary": "We present GARDENS-Wide, a new 100 square degree mock redshift survey of the dusty star-forming galaxy population based on the MultiDark-Planck 2 dark-matter halo simulation. The mock reproduces observed multiwavelength number counts at 500 $μ$m, 1.1, 1.4 and 2.0 mm. The large simulated area enables us to identify gravitationally bound systems, trace their assembly histories, and quantify the redshift evolution of their galaxy content and structural extent. We find strong evolution in the fractional contribution of galaxy populations within cluster progenitors. Star-forming galaxies account for ~35 per cent of members at low redshift, increasing to 60-65 per cent at $z\\sim2$ and declining to ~20 per cent by $z\\sim5$. LIRGs contribute ~20-40 per cent, peaking near $z\\sim2$, while ULIRGs remain subdominant and HyLIRGs are rare. We measure proto-cluster radii as the maximum 3D comoving distance from the central halo to the most distant member halo. Proto-clusters contract significantly over cosmic time, from >20 comoving Mpc at high redshift to a few Mpc at $z\\sim0$. ULIRGs become increasingly centrally concentrated at $z>1.5$ in rich proto-clusters. We provide observational predictions for the TolTEC Large-Scale Structure survey.",
+        "url": "https://arxiv.org/abs/2608.02898v1",
+        "checked_at": "2026-10-08T12:46:13.500590+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2608.07535v1",
+        "published": "2026-07-27T20:18:25Z",
+        "updated": "2026-07-27T20:18:25Z",
+        "title": "Evolving Safety Landscape of Multi-modal Large Language Models: A Survey of Emerging Threats and Safeguards",
+        "summary": "Multi-modal large language models (MLLMs) integrate heterogeneous modalities through modality alignment and fusion, enabling stronger understanding and reasoning. However, this architectural shift reshapes the safety landscape of machine learning. Increased model complexity and cross-modal interactions give rise to novel threats, including compromised modality integration, modality misalignment, and fused safety risks, reflecting shifts in threat modeling beyond uni-modal assumptions. These shifts, in turn, impose new constraints on safety solutions not captured by existing frameworks rooted in uni-modal learning. Motivated by these challenges, this survey provides a systematic analysis of the evolving safety landscape of MLLMs. We first propose a multimodal grounded taxonomy of safety threats and analyze shifts in threat models, covering adversarial attacks, data poisoning, jailbreaks, and hallucinations. We then summarize updated safety assumptions and organize recent advances in MLLM safety strategies accordingly. Finally, we discuss open challenges and future directions to inform the development of more principled and scalable safety mechanisms for multimodal systems.",
+        "url": "https://arxiv.org/abs/2608.07535v1",
+        "checked_at": "2026-10-08T12:46:13.500590+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2607.21650v1",
+        "published": "2026-07-22T08:36:12Z",
+        "updated": "2026-07-22T08:36:12Z",
+        "title": "Service Ecosystem Evolution: A Comprehensive Survey from Complex Network Perspectives",
+        "summary": "Digital society increasingly relies on complex service ecosystems, formed by interconnected services from technology giants. However, the growing scale and intricate dependencies of these ecosystems pose significant challenges to their evolution, frequently leading to systemic failures during upgrades or restructuring. To address these challenges, current research is shifting from the perspective of single services to the ecosystem. Drawing upon the synthesis and induction of current research, we present a comprehensive survey focused on the study of service ecosystem evolution, employing a novel three-stage analytical framework. This framework structures the evolutionary lifecycle and provides a systematic way to organize and review existing research, filling the gap caused by the lack of surveys specifically focused on service ecosystem evolution. Additionally, we pioneer the application of complex network theory to analyze service ecosystem evolution, providing a novel perspective to capture the inherent connectivity, dynamics, and emergent properties often missed by traditional approaches. Building on our analysis, we point out critical research gaps and propose three specific future directions. We provide a robust theoretical foundation and methodological guidance for understanding and guiding the sustainable evolution of modern service ecosystems.",
+        "url": "https://arxiv.org/abs/2607.21650v1",
+        "checked_at": "2026-10-08T12:46:13.500590+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2607.19473v1",
+        "published": "2026-07-21T18:00:05Z",
+        "updated": "2026-07-21T18:00:05Z",
+        "title": "The GOLIATH Survey: OVI Absorption Reveals CGM Evolution through the Starburst-to-Quiescent Transition in Massive Galaxies",
+        "summary": "We present the GOLIATH survey (Galaxies, Outflows, and the Lifecycle of Immense, Active, Transforming Halos), a study of the multiphase circumgalactic medium (CGM) of massive ($\\langle\\log M_\\star/M_\\odot\\rangle \\approx 11$), blue ($u-r < 1.65$) starburst and post-starburst galaxies at $\\langle z\\rangle \\approx$ 0.43. This work characterizes the warm-hot CGM through OVI absorption in the inner halo ($R/R_{\\rm vir} \\leq 0.6$) of these rare systems. Across the star-forming population, OVI column density rises by nearly 1~dex from $\\log M_\\star/M_{\\odot} \\sim 8$ to $\\sim 11.5$ and increases with specific star-formation rate (sSFR). Two GOLIATH galaxies with the highest sSFR show the strongest CGM OVI absorption ($\\log N_{\\rm O\\,VI}[\\rm cm^{-2}] \\gtrsim 15$). In the $\\log M_\\star/M_{\\odot} = [11,12)$ inner-CGM region, massive star-forming galaxies exceed quiescent galaxies on average by a factor of $\\sim 3$ in OVI column density and $\\sim 1.5$~dex in CGM OVI mass ($\\log(M_{\\rm O\\, VI}/M_\\odot) \\approx 7.3$ versus $\\approx 5.8$), with covering fractions roughly three times higher (62.5% versus 24% at $\\log N_{\\rm O\\,VI}[\\rm cm^{-2}] \\geq 14$). The OVI line widths and column densities are consistent with feedback-driven radiative cooling, in which outflow shocks heat the CGM and the gas cools back through the OVI window; the short cooling time, $t_{\\rm cool} \\sim 10$-$100$~Myr, requires continuous replenishment by active feedback to sustain this reservoir. The residual OVI in quiescent systems may arise from ambient gas at the high-temperature end of the cooling curve. OVI thus traces feedback on short timescales and probes the star-forming--quiescent transition at $\\log M_\\star/M_{\\odot} \\gtrsim 11$.",
+        "url": "https://arxiv.org/abs/2607.19473v1",
+        "checked_at": "2026-10-08T12:46:13.500590+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2607.16170v1",
+        "published": "2026-07-17T17:49:14Z",
+        "updated": "2026-07-17T17:49:14Z",
+        "title": "Morphologies of SAGAbg low-mass galaxies in Legacy Survey multi-band imaging: dependence on stellar masses, star-formation rates and low-redshift evolution",
+        "summary": "The optical morphologies of low-mass galaxies can be used to directly trace their assembly and constrain models of galaxy evolution. We select a sample of 6211 low-mass ($7\\lesssim {\\rm log}(M_{\\ast}/M_{\\odot})\\lesssim 10$) star-forming galaxies from the SAGAbg catalog that has high-completeness at low-redshifts ($z<0.1$). We obtain their galaxy maps in the $griz$ - bands of the Legacy Surveys and apply STATMORPH to calculate non-parametric morphological measures including the Gini index, $M_{20}$ measure, and CAS parameters. We study how resolution and signal-to-noise affect the morphology measures and find that the bulge strength measurements are the most reliable. The sequence in Gini$-M_{20}$ space is directly linked to the star-forming sequence of galaxies and is dominated by Sb/Sc/Ir morphologies. The $g$-band light distributions are the least concentrated among all the bands. The systematic trends of $M_{20}$ with respect to stellar mass and GALEX NUV-derived specific star formation rate (sSFR) strongly indicate that the galaxies with flatter light profiles are less massive with higher sSFR and vice-versa. We statistically infer that star-forming low-mass galaxies predominantly have disk morphologies with bulges becoming more prominent in quenched systems at higher masses (${\\rm log}(M_{\\ast}/M_{\\odot})\\gtrsim 9$).",
+        "url": "https://arxiv.org/abs/2607.16170v1",
+        "checked_at": "2026-10-08T12:46:13.500590+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2607.10113v1",
+        "published": "2026-07-11T04:29:28Z",
+        "updated": "2026-07-11T04:29:28Z",
+        "title": "Dynamic Agent Skills: A Lifecycle Survey and Taxonomy of Evolving Skill Libraries",
+        "summary": "Large language model agents increasingly store reusable procedures outside the model. These reusable procedures are often called \\emph{skills}: they may be code functions, natural-language instructions, SKILL.md packages, workflow graphs, or learned adapters that a future agent can retrieve and invoke. This taxonomy-driven survey asks how such skill libraries change over time. Across a $124$-paper $2023$--$2026$ audit set, we synthesize dynamic skill systems as \\emph{lifecycle-managed, verified, evolving artifact stores}: agents collect evidence from interaction, propose skill updates, verify and admit candidates, organize them for retrieval and composition, repair or prune stale entries, and govern sharing through provenance and rollback. We organize the literature around three survey tools. First, a $\\text{six}$-sense taxonomy distinguishes the structurally different artifacts called ``skills'' in current papers. Second, an $\\text{eight}$-stage lifecycle architecture identifies the recurring design decisions behind evidence acquisition, proposal, verification/admission, storage, retrieval/composition, maintenance, distillation/portability, and governance. Third, a lightweight skill-record schema and $\\text{ten}$-operator vocabulary provide common terms for comparing library updates without elevating them into a separate method contribution. Using this structure, we synthesize evidence-graded patterns with explicit caveats: admission and repair are repeatedly important, verifier quality materially affects skill-aware RL, flat retrieval can degrade as libraries grow, and current benchmarks still under-report library trajectories, usage--utility gaps, and safety surfaces. We close with concrete reporting standards and open problems for evaluating dynamic skills as changing libraries rather than static prompt or tool collections.",
+        "url": "https://arxiv.org/abs/2607.10113v1",
+        "checked_at": "2026-10-08T12:46:13.500590+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2607.02605v1",
+        "published": "2026-07-01T13:24:25Z",
+        "updated": "2026-07-01T13:24:25Z",
+        "title": "A Survey of LLM-Driven Penetration Testing: Taxonomy, Co-Evolution, and Open Challenges",
+        "summary": "Agents4Pentest, an emerging class of LLM-based autonomous penetration testing systems, has become a rapidly growing area in security research. Despite this growth, the field still lacks a unified taxonomy, a systematic understanding of how agent architectures and evaluation benchmarks have co-evolved, and a clear characterization of remaining capability and reliability gaps. This survey addresses these gaps through a systematic analysis of 81 papers between 2023 and 2026. We organize the literature into six categories: evaluation benchmarks, general-purpose systems, domain-specific frameworks, CTF-based systems, defense-oriented research, and surveys. We further trace a four-phase architectural evolution from text-only reasoning agents to agents trained with Reinforcement Learning with Verifiable Rewards (RLVR), showing that each transition is driven by a distinct capability bottleneck. Our analysis yields several key findings. First, RLVR marks a shift in capability acquisition from imitation of expert demonstrations to reward-driven self-improvement, enabling agents to discover previously undocumented attack strategies. Second, CTF platforms have evolved from evaluation testbeds into dual-purpose infrastructure for both agent evaluation and RL training. Third, domain-specific frameworks improve efficiency through recurring specialization mechanisms, but their gains remain largely confined to narrow task classes and are difficult to compare across domains because existing evaluations rely on different benchmarks. Fourth, the field is expanding beyond offensive automation toward adversarial defense and security compliance. Across these categories, we identify three structurally linked open challenges: evaluation reliability, limited performance on multi-stage attack scenarios, and scarcity of high-quality training data.",
+        "url": "https://arxiv.org/abs/2607.02605v1",
+        "checked_at": "2026-10-08T12:46:13.500590+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2606.26219v1",
+        "published": "2026-06-24T18:00:00Z",
+        "updated": "2026-06-24T18:00:00Z",
+        "title": "Connecting Stellar Population Surveys to Stellar Evolution with Delay-time Distributions: Application to LMC Classical Cepheids",
+        "summary": "The progenitors of many stellar-origin phenomena such as supernovae, evolved giants and supergiants, planetary nebulae, AGB stars and other post-main-sequence exotica remain poorly understood due to stellar evolution uncertainties such as mass-loss, binary evolution, rotation, mixing, and overshooting. A promising technique for investigating stellar progenitor scenarios with resolved stellar population surveys of galaxies is the delay-time distribution (DTD). Given a survey of stellar phenomena of interest, the DTD extracts the progenitor age distribution and production rates of the phenomena from star-formation history (SFH) maps of galaxies. Here we test the potential of DTDs as a stellar evolution diagnostic by applying to stars with known ages -- Classical Cepheids in the LMC. We use the high-completeness OGLE-IV survey of Cepheids, and LMC SFH maps from optical and near-infrared surveys. The measured DTDs from optical SFH maps show significant detections at ages of 20-200 Myr for FU Cepheids, and 125-200 Myr for FO Cepheids. These are consistent with independently measured ages from the period-age-color relations, with the DTD peak being more consistent with relations from non-canonical models that include effects of overshooting, rotational mixing etc. An outlier population of 0.5-0.8 Gyr of FU Cepheids is also detected in the DTD, though its veracity is debatable given the brightness and pulsation periods of FU Cepheids, and because the signal is not recovered with DTDs derived from near-infrared SFH. For upcoming surveys (e.g. with Roman), DTDs of stars with well-constrained progenitors such as Cepheids and RR Lyrae can provide independent verification of the derived SFHs.",
+        "url": "https://arxiv.org/abs/2606.26219v1",
+        "checked_at": "2026-10-08T12:46:13.500590+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2606.26196v1",
+        "published": "2026-06-24T15:20:32Z",
+        "updated": "2026-06-24T15:20:32Z",
+        "title": "From Structure to Synergy: A Survey of Vision-Language Perception Paradigm Evolution in Multimodal Large Language Models",
+        "summary": "Multimodal Large Language Models (MLLMs) have recently made remarkable progress in unifying vision-language understanding and reasoning, especially following the introduction of models such as OpenAI's O-series and DeepSeek's R-series, which have driven a paradigm shift toward perception-centric intelligence. However, there remains a lack of systematic surveys that examine perception from a truly unified vision-language perspective -- one that treats vision and language as an inseparable modality. Existing reviews are often fragmented, focusing separately on either vision or language, and thus rarely capture the cross-modal evolution of perception as an integrated capability. To bridge this gap, we present the first systematic survey of unified vision-language perception in MLLMs. Specifically, we (1) formalize MLLM perception as an intrinsic, unified vision-language capability analogous to human innate perception, (2) introduce a five-stage taxonomy tracing the paradigm evolution of MLLM perception and survey representative methods and milestones at each phase, and (3) identify open challenges and outline promising research directions toward truly general, unified multimodal intelligence. We hope our study will provide both a foundational understanding and an actionable roadmap to foster further innovation on the path toward artificial general intelligence (AGI).",
+        "url": "https://arxiv.org/abs/2606.26196v1",
+        "checked_at": "2026-10-08T12:46:13.500590+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2606.24802v1",
+        "published": "2026-06-23T16:52:43Z",
+        "updated": "2026-06-23T16:52:43Z",
+        "title": "Opening new parameter space windows on galaxy/AGN co-evolution with SKA radio continuum surveys",
+        "summary": "In this chapter we provide an overview of the science enabled by the SKAO, focusing on galaxy/AGN co-evolution studies. In particular we discuss a number of radio continuum `reference' surveys with the SKAO, highlighting the role they can play in advancing this research field with respect to the pre-SKAO era. Alongside well-explored scenarios for wedding cake-like, tiered extragalactic surveys at specific frequencies, we also address the scope for complementary efforts to obtain deep multi-frequency imaging over parts of (an) extragalactic field(s). In addition to providing key information on the physical properties of the emitting sources, such multi-frequency imaging will make important contributions to the calibration of observables from surveys with sparser radio spectral coverage. In this context, we explore possible pathways that can fully exploit the SKAO from initial (AA*) to baseline capabilities (AA4). Finally, we highlight observational synergies with other major facilities -- for wide field and targeted follow-up science -- that will be operational in the 2030s, and for which joint coverage of extragalactic fields will generate significant legacy value",
+        "url": "https://arxiv.org/abs/2606.24802v1",
+        "checked_at": "2026-10-08T12:46:13.500590+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2606.19756v1",
+        "published": "2026-06-18T03:36:47Z",
+        "updated": "2026-06-18T03:36:47Z",
+        "title": "Evolution of starless cores in massive clumps seen by the ALMA ASHES and QUARKS surveys",
+        "summary": "We present a systematic comparative analysis of 324 starless cores in early-phase infrared-dark clouds (IRDCs; ASHES survey) and evolved-phase infrared-bright clouds (IRBCs; QUARKS survey) using 1.3 mm continuum and line data by the Atacama Large Millimeter/submillimeter Array (ALMA). Despite having comparable sizes ($\\sim$2500 au),starless cores in IRBCs exhibit systematically higher median mass ($1.5\\,M_{\\odot}$ vs. $0.6\\,M_{\\odot}$), number density, and surface density--enhancements of approximately a factor of two relative to starless cores in IRDCs. Starless cores in IRBCs also display relatively stronger non-thermal motions ($\\rmσ\\sim 0.5\\,km\\,s^{-1}$ vs. $\\rm0.3\\,km\\,s^{-1}$), higher total virial parameters (median $α_{\\mathrm{vir,tot}} \\sim$ 2.3 vs. 1.0), and steeper density profiles, indicating more centrally concentrated structures in feedback-driven, turbulence-enhanced environments. These findings support a dual evolutionary origin: (i) new core formation in evolved IRBCs under altered initial conditions, and (ii) subsequent dynamical mass growth via accretion from extended reservoirs. The prevalence of low-mass starless cores--even in late-stage IRBC environments--challenges models requiring massive prestellar cores and instead favors competitive-like dynamical mass accretion scenarios for high-mass star formation.",
+        "url": "https://arxiv.org/abs/2606.19756v1",
+        "checked_at": "2026-10-08T12:46:13.500590+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      }
+    ]
+  },
+  {
+    "url": "https://export.arxiv.org/api/query?search_query=all%3A%22recursive+self+improvement%22+AND+%28ti%3Asurvey+OR+ti%3Areview+OR+ti%3Aperspective%29&sortBy=submittedDate&sortOrder=descending&max_results=25",
+    "query": "all:\"recursive self improvement\" AND (ti:survey OR ti:review OR ti:perspective)",
+    "checked_at": "2026-10-08T12:46:12.678014+00:00",
+    "status": "metadata_fetched",
+    "sha256": "780cb30352146ee52db92b9ba9066c6551ff836f280993af59f4eff9084b26fe",
+    "entries": [
+      {
+        "id": "http://arxiv.org/abs/2601.12538v2",
+        "published": "2026-01-18T18:58:23Z",
+        "updated": "2026-09-20T19:16:30Z",
+        "title": "A Survey of Agentic Reasoning for Large Language Models: Towards Recursively Self-Improving and Collective Agents",
+        "summary": "Reasoning is a fundamental cognitive process underlying inference, problem-solving, and decision-making. While large language models (LLMs) demonstrate strong reasoning capabilities in closed-world settings, they struggle in open-ended and dynamic environments. Agentic reasoning marks a paradigm shift by reframing LLMs as autonomous agents that plan, act, and learn through continual interaction. In this survey, we organize agentic reasoning along three complementary dimensions. First, we characterize environmental dynamics through three layers: foundational agentic reasoning, which establishes core single-agent capabilities including planning, tool use, and search in stable environments; self-evolving agentic reasoning, which studies how agents refine these capabilities through feedback, memory, and adaptation; and collective multi-agent reasoning, which extends intelligence to collaborative settings involving coordination, knowledge sharing, and shared goals. Across these layers, we distinguish in-context reasoning, which scales test-time interaction through structured orchestration, from post-training reasoning, which optimizes behaviors via reinforcement learning and supervised fine-tuning. We further review representative agentic reasoning frameworks across real-world applications and benchmarks, including science, robotics, healthcare, autonomous research, and mathematics. This survey synthesizes agentic reasoning methods into a unified roadmap bridging thought and action, and outlines open challenges and future directions, including personalization, long-horizon interaction, world modeling, scalable multi-agent training, and governance for real-world deployment.",
+        "url": "https://arxiv.org/abs/2601.12538v2",
+        "checked_at": "2026-10-08T12:46:12.678014+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      }
+    ]
+  },
+  {
+    "url": "https://export.arxiv.org/api/query?search_query=ti%3A%22long-horizon%22+AND+all%3Aagent&sortBy=submittedDate&sortOrder=descending&max_results=25",
+    "query": "ti:\"long-horizon\" AND all:agent",
+    "checked_at": "2026-10-08T12:46:13.006053+00:00",
+    "status": "metadata_fetched",
+    "sha256": "e5226acf3ba674cb30b555da2a82e86577799dcee700789ac1b36b3509db51c2",
+    "entries": [
+      {
+        "id": "http://arxiv.org/abs/2610.10263v1",
+        "published": "2026-10-07T15:35:22Z",
+        "updated": "2026-10-07T15:35:22Z",
+        "title": "When Sub-Agents Work in Parallel: The Promises and Pitfalls of Dynamic Concurrency in Long-Horizon Coding Tasks",
+        "summary": "As coding agents advance from bounded software engineering tasks toward long horizon development, dynamic concurrency offers a promising way to scale complex development tasks. Under this policy, agents decide during execution whether and how to spawn concurrent sub-agents. Model capability largely determines outcomes on shorter tasks, whereas long horizon development makes orchestration central to task completion. Existing work, focused on coding agent failures on shorter tasks or collaboration in predefined multiagent workflows, offers little insight into dynamic concurrency in frontier agents across task complexity. We study dynamic concurrency as an execution policy through controlled comparisons of matched Codex, Claude Code, and Kimi Code executions with the policy enabled or disabled. Across 354 tasks and 2,124 executions spanning a range of task complexities and execution horizons, we evaluate its end to end effects and scheduling behavior, and analyze matched trajectories to characterize 13 concurrency specific failure modes, 28 observable patterns, and the conditions under which it provides an advantage.",
+        "url": "https://arxiv.org/abs/2610.10263v1",
+        "checked_at": "2026-10-08T12:46:13.006053+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.10120v1",
+        "published": "2026-10-07T14:04:45Z",
+        "updated": "2026-10-07T14:04:45Z",
+        "title": "RewardWeaver: Long-Horizon Interactive Learning for Language Agents via Self-Evolving Reward Adaptation",
+        "summary": "Reinforcement learning with verifiable rewards (RLVR) has driven substantial progress in domains where task outcomes can be reliably evaluated, but long-horizon interaction remains challenging due to sparse terminal feedback and difficult credit assignment. Process rewards provide denser supervision, yet the capabilities most relevant for training can change as the policy evolves: a behavior that is easy to evaluate or frequently deficient need not be the bottleneck currently limiting task success. We introduce RewardWeaver, a self-evolving reward adaptation framework for language agents in long-horizon interaction. RewardWeaver maintains a validated capability space in which the semantics of admitted Rubrics remain fixed, and closes the loop between policy optimization, task evaluation, failure attribution, and reward adaptation. After each training stage, it performs outcome-grounded backward attribution on low-outcome trajectories, aggregates recurrent and policy-controlled capability bottlenecks, and dynamically selects the corresponding process rewards for the next stage. Recurrent failures not covered by the existing capability space trigger a separate, controlled expansion procedure. We evaluate REWARDWEAVER on SOTOPIA, Amazon?HistoryPrice, and a newly constructed Sales Benchmark. Across social interaction, bilateral bargaining, and domain-specific sales, REWARDWEAVER establishes new state-of-the-art (SOTA) results. Ablations further demonstrate the importance of dynamic reward allocation, failure-grounded attribution, and stable semantics for admitted capabilities.",
+        "url": "https://arxiv.org/abs/2610.10120v1",
+        "checked_at": "2026-10-08T12:46:13.006053+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.09074v1",
+        "published": "2026-10-06T20:18:17Z",
+        "updated": "2026-10-06T20:18:17Z",
+        "title": "TAP: Efficient Long-Horizon Agent Pruning via Trajectory-Anchored Recovery",
+        "summary": "Emerging long-horizon agentic tasks require repeated model calls, worsening the inference cost of already-costly language models. While narrow agentic tasks suggest potential for aggressive model pruning without performance drop, empirical results show existing methods proposed for question answering tasks severely degrade task performance when applied to agentic models. We trace this failure to two decisions: what to prune and how to recover. For pruning, one-shot importance estimates fail to track how the pruned model adapts. For recovery, offline distillation covers only teacher prefixes, while full-trajectory on-policy distillation causes student errors to compound across turns. In this work, we propose Trajectory-Anchored Pruning (TAP), the first structural pruning framework for reinforcement learning (RL)-trained agents. TAP couples structural pruning with efficient on-policy recovery, anchoring interactions to teacher trajectories while allowing the student to generate each reasoning-action response. A frozen dense teacher supervises the student's response prefixes, addressing within-response training-inference mismatch while preventing student-induced deviations from propagating across training turns. Instead of one-shot pruning, TAP re-scores channels using gradients of the recovery objective on the recovered student, connecting iterative channel selection to the evolving policy. With 60% of FFN channels removed, TAP retains 99.2% and 88.0% of the dense 7B agents' task success rates on ALFWorld and WebShop, respectively, while reducing GPU time per successful task by approximately 22% and 17%. These results demonstrate effective structural compression of long-horizon agents under a limited recovery budget.",
+        "url": "https://arxiv.org/abs/2610.09074v1",
+        "checked_at": "2026-10-08T12:46:13.006053+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.08364v1",
+        "published": "2026-10-06T13:52:15Z",
+        "updated": "2026-10-06T13:52:15Z",
+        "title": "Transect: Retaining Observability for Long-Horizon LLM Agent Evaluations",
+        "summary": "Frontier AI evaluations increasingly use open-ended, agentic, long-horizon tasks whose transcripts can span hundreds of pages of outputs and actions from complex multi-agent networks. The observability envelop-the range of what evaluators can reliably infer about an agent's behaviours-is therefore narrowing. Language model assistants can help classify and interpret agent behaviour but also afford human evaluators significant analytical degrees of freedom, threatening the reproducibility and auditability of language-model-based transcript analysis. Transect is an open source package built on Inspect Scout to help evaluators understand how a long agent run unfolded, identify behaviour worth investigating, and check interpretations against the transcript. Users specify task context and behavioural vocabulary in a reusable evaluation-family configuration, with judge models and analysis settings supplied separately. Transect's navigable reports align recorded events, token use, sub-agent activity, and model-generated behavioural labels on a common turn-based timeline. Reviewers can quickly grasp a run's narrative, trace any label or event to its source turns, and export the underlying data tables for cross-run analysis. We demonstrate the workflow on an AI R&D evaluation that generated almost 13 million tokens, dividing the agents' work into behavioural phases aligned with research-skill classifications, sub-agent delegations and interactions, and token use. The combined view shows a focus on operational work and manuscript production, with little evidence of a sustained hypothesis generation stage-arguably a necessary component for high-quality scientific outputs. Transect's flexible, customisable transcript-analysis pipeline will enable evaluators to keep pace with longer, more complex, more frequent AI evaluations while supporting scientific rigour, transparency, and reproducibility.",
+        "url": "https://arxiv.org/abs/2610.08364v1",
+        "checked_at": "2026-10-08T12:46:13.006053+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.08138v1",
+        "published": "2026-10-06T10:53:25Z",
+        "updated": "2026-10-06T10:53:25Z",
+        "title": "Test-Time Agent Evolution for Long-Horizon Legal Reasoning",
+        "summary": "Legal intelligence aims to support reliable decision-making across long-horizon legal processes involving evolving case states and multiple roles. However, real-world legal deployment exhibits substantial case heterogeneity in facts, evidence, and procedural contexts, exposing the limitations of static agent strategies. Moreover, legal reasoning is inherently interdependent across roles and procedural stages, making global reliability fundamentally different from isolated role competence. To address these challenges, we study training-free test-time agent adaptation, where agents continuously exploit deployment-time signals from preceding cases and ongoing interactions without updating model parameters. We propose \\method, which introduces \\emph{Test-Time Memory Evolution} to retrieve reusable experience from previous cases, adapt it to the current factual and procedural context, and consolidate accumulated experience for subsequent decision-making. Further, \\emph{Rubric-Aligned Collaboration} verifies and revises role-specific actions according to behavioral and procedural requirements, enabling coordinated decision-making across roles and stages. Extensive experiments on J1-EVAL and LegalWorld across five backbone models demonstrate consistent improvements over representative reasoning and agent baselines with reasonable interaction and computational costs. Ablation and case studies further show that the two components provide complementary benefits in experience adaptation and cross-role coordination, improving the reliability and efficiency of long-horizon legal reasoning.",
+        "url": "https://arxiv.org/abs/2610.08138v1",
+        "checked_at": "2026-10-08T12:46:13.006053+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.07898v1",
+        "published": "2026-10-06T07:44:12Z",
+        "updated": "2026-10-06T07:44:12Z",
+        "title": "FC-SWE: Failure-Conditioned RL for Long-Horizon Software Engineering Agents",
+        "summary": "Repository-level software engineering (SWE) is a challenging long-horizon setting: agents must reason over extended interactions, use tools, and adapt to stateful environments. Recent work trains SWE agents with reinforcement learning methods such as Group Relative Policy Optimization (GRPO), which independently sample multiple trajectories per issue, test the resulting patches, and compare terminal rewards within a fixed group. However, this training setup does not reuse verifier feedback from failed patches as context for subsequent attempts, even though this feedback contains valuable diagnostic information about what went wrong. Training on recovery trajectories is challenging because the preceding outcome determines whether the next trajectory is generated, while the failed execution determines its conditioning context. We introduce FC-SWE, a failure-conditioned RL framework that incorporates recovery attempts into policy training. After a patch fails verification, FC-SWE restores the repository to its original task state and uses the failed patch and verifier feedback as context for a recovery trajectory. FC-SWE adapts GRPO to these chains of complete, multi-turn tool-use trajectories through two mechanisms. Trajectory-local rewards preserve each attempt's verifier outcome, preventing recovery success from rewarding an earlier failed patch. Active-set advantage estimation forms a comparison group from all initial and recovery trajectories actually executed for the same issue, so failed attempts remain in the group while unexecuted attempts are excluded. On all 500 SWE-bench Verified tasks under a verifier-assisted protocol, FC-SWE with Qwen3.5-4B and SWE-agent achieves 41.7% Resolved@1 and 52.8% Resolved@2, compared with 38.9% and 48.5% for GRPO. Although trained with at most two attempts per chain, FC-SWE reaches 70.7% Resolved@11 under an eleven-attempt test-time budget.",
+        "url": "https://arxiv.org/abs/2610.07898v1",
+        "checked_at": "2026-10-08T12:46:13.006053+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.07863v1",
+        "published": "2026-10-06T07:09:54Z",
+        "updated": "2026-10-06T07:09:54Z",
+        "title": "ReFold: Training-Free Reversible Inter-Turn Context Folding for Long-Horizon Agents",
+        "summary": "Long-horizon LLM agents act on an append-only interaction history that is re-sent to the model at every step, so the context and its cost grow with steps until the sessions exceed the context window. Existing methods manage the context through context requirement prediction, relying on additional model calls, heuristic rules, or trained policies. However, these predictive approaches introduce runtime overhead, invalidate prefix caches, and permanently discard content with no guarantee of recovery. To overcome these limitations, we introduce ReFold: a training-free rendering layer that preserves the underlying interaction history while compressing only the model's rendered context. It removes two kinds of inter-turn redundancy without an auxiliary predictor: content an earlier turn already displayed, replaced by a stub, and turns the agent itself reports finished, folded into a one-line note. Both operators use chunked rendering, rewriting the cached prefix once every few steps rather than at every step. Every removal is strictly reversible, a wrong removal costs one restore from the history rather than permanent content loss. Because it operates at the rendering layer, ReFold is plug-and-play across standard ReAct-style harnesses. Evaluations across five long-horizon benchmarks and two frontier LLMs demonstrate that ReFold reduces token consumption by up to 2.5x and halves the KV-cache memory per session without degrading task success rates. Under capped context budgets, it avoids up to 92% of forced compactions. Under concurrent serving workloads, it reduces request queuing delays by up to 100%, accelerating inference by up to 1.7x, while cutting inference costs by up to 3.4x.",
+        "url": "https://arxiv.org/abs/2610.07863v1",
+        "checked_at": "2026-10-08T12:46:13.006053+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.07785v1",
+        "published": "2026-10-06T05:29:18Z",
+        "updated": "2026-10-06T05:29:18Z",
+        "title": "Attacca: Goal-Directed Control under State Continuity for Long-Horizon Embodied Agents",
+        "summary": "A central capability of embodied agents is to accomplish complex objectives through sequences of interdependent tasks. Yet existing visual goal-conditioned policies underlying these agents are typically evaluated on isolated interactions where the target is already visible, and thus do not capture the conditions that arise during continuous long-horizon task execution. In such settings, each task begins from the state left by the previous one: the agent may end at a different position and orientation, the world may have been modified, and the next interaction target may lie outside the current field of view. As a result, agents relying on such policies may struggle to proceed to the next task when they cannot ground their target in the current observation. To address this challenge, we propose Attacca, a new approach that trains visual goal-conditioned policies on complete search-to-interact trajectories using goal images decoupled from the execution environment. Attacca uses context-decoupled goal sampling to pair each demonstration with a class-compatible masked goal image from another world, removing direct scene and pose correspondence. It learns dense current-view grounding through a target-mask prediction head, providing auxiliary supervision beyond action imitation. We further introduce behavioral-phase conditioning that teaches the policy to distinguish Search, Approach, and Interact stages and adapt its control as execution progresses. We evaluate Attacca on multiple short- and long-horizon embodied tasks in Minecraft. Our method achieves 39.0-47.5% clean success, improving over the strongest baseline by 1.7-2.4x. On long-horizon tasks, it attains 54%, 30%, and 28% completion, yielding up to a 7x improvement.",
+        "url": "https://arxiv.org/abs/2610.07785v1",
+        "checked_at": "2026-10-08T12:46:13.006053+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.07625v1",
+        "published": "2026-10-06T02:17:32Z",
+        "updated": "2026-10-06T02:17:32Z",
+        "title": "Stateless Language Agents: Scaling Long-Horizon Automated Research",
+        "summary": "Automated research systems increasingly run LLM agents over long horizons, but more inference does not by itself produce more progress: agents replay growing histories, duplicate one another's work, or stop experimenting while token consumption continues. Yet most evaluations use short budgets or benchmarks that saturate early, leaving these failure modes untested. We trace these failures to two choices: where research state lives and who decides what to try next. We introduce Stateless Language Agents (SLAs), built on the principle of stateful search with stateless agents: no agent carries its conversation across invocations; instead, the harness owns the research state (candidate solutions and measured outcomes) and reconstructs a fresh and role-specific context for every invocation. What each agent sees becomes an explicit design choice rather than a history that grows with the run. We implement this principle in the SLA framework, where a stateless Advisor reads harness-summarized evidence across search directions and assigns concrete experiments to parallel Workers. We evaluate SLA against three recent frameworks on software engineering, kernel optimization, and algorithm design at budgets of up to one billion tokens. SLA achieves the best final result on every task and reaches the strongest kernel baseline's final performance with over 84% fewer tokens. Ablations from shared checkpoints show that focused contexts and explicit assignments each contribute to SLA's progress, with effects that can compound over full runs, while the Advisor consumes less than 0.6% of tokens. These results argue for SLAs, which keep durable research state out of agent conversations, and show that short evaluation horizons can misjudge research systems and their components.",
+        "url": "https://arxiv.org/abs/2610.07625v1",
+        "checked_at": "2026-10-08T12:46:13.006053+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.07557v1",
+        "published": "2026-10-06T00:42:45Z",
+        "updated": "2026-10-06T00:42:45Z",
+        "title": "CheckerBench: Can Long-Horizon Agents Synthesize Static-Analysis Checkers?",
+        "summary": "Static-analysis checker synthesis requires agents to interpret a defect specification, inspect a repository, implement analyzer-specific logic, and refine the checker through repeated compilation and analysis feedback. Existing coding-agent benchmarks focus on tasks such as patch generation or vulnerability detection and rarely assess whether an agent can develop a working checker in a repository from start to finish. We introduce CheckerBench, an executable benchmark of 300 tasks derived from 297 CVEs across 167 repositories, 85 CWEs, and five language ecosystems. Each task includes vulnerable and fixed revisions, a pinned analysis environment, and a checker scaffold. We further introduce CheckerLab, a common evaluation framework that independently rebuilds submitted checkers and measures vulnerable-fixed diagnostic contrast, patch localization, false positives, and tool use. Across 21 model-harness configurations and three independent repeats per configuration, mean Pass@1 is 32.30%, while the best reaches 45.33%. These results show that reliable, reusable checker development remains challenging for current coding agents.",
+        "url": "https://arxiv.org/abs/2610.07557v1",
+        "checked_at": "2026-10-08T12:46:13.006053+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.07349v1",
+        "published": "2026-10-05T20:19:04Z",
+        "updated": "2026-10-05T20:19:04Z",
+        "title": "RELACE: retrospective likelihood-based action credit estimation for long-horizon language agents",
+        "summary": "Group Relative Policy Optimization (GRPO) avoids a separate critic by estimating advantages from rollout groups. For multi-turn agents, however, trajectory-level supervision provides coarse, noisy credit: terminal rewards do not locate errors and can penalize useful actions alongside mistakes. Group-in-Group Policy Optimization (GiGPO) and subsequent methods refine supervision through state-conditioned comparisons, but their credit estimates remain sensitive to downstream decisions and outcomes. We introduce RELACE, Retrospective Likelihood-based Action, a critic-free framework that integrates retrospective action assessment with state-conditioned advantage estimation. RELACE evaluates executed actions through teacher-forced likelihood scoring under both their original contexts and outcome-augmented contexts. Comparing these likelihoods yields a trajectory-normalized retrospective factor that captures outcome-dependent changes in action plausibility, rather than hindsight plausibility alone. We use this factor to reweight discounted task returns and construct local advantages by comparing weighted returns among actions from equivalent states within a task. This couples retrospective relevance with observed reward, producing fine-grained credit that complements trajectory-level GRPO supervision. Temporal smoothing and success-protecting masking further stabilize the local signal. RELACE requires neither auxiliary value nor reward models nor additional autoregressive rollouts for credit estimation. Experiments on ALFWorld and WebShop with Qwen2.5-1.5B-Instruct and Qwen2.5-7B-Instruct demonstrate substantial improvements over GRPO, GiGPO, and HCAPO. With the 1.5B model, RELACE achieves $96.35\\%$ success on ALFWorld and $79.43\\%$ on WebShop, surpassing GiGPO by $5.47$ and $5.60$ percentage points, respectively.",
+        "url": "https://arxiv.org/abs/2610.07349v1",
+        "checked_at": "2026-10-08T12:46:13.006053+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.07335v1",
+        "published": "2026-10-05T20:09:48Z",
+        "updated": "2026-10-05T20:09:48Z",
+        "title": "Selective Critique for Cost-Aware LLM Agents in Long-Horizon Decision Making",
+        "summary": "Improving the reliability of large language model (LLM) agents in long-horizon decision-making remains a key challenge. When deployed as autonomous agents interacting with complex environments, early mistakes can propagate through trajectories and cause cascading failures. Recent approaches improve reliability by incorporating external critique or deliberation, but invoking these mechanisms at every step substantially increases token consumption and latency, limiting practical deployment. We propose SAG (Self-improving Agent with Gated critique), a cost-aware framework that formulates critique invocation as a step-wise decision problem during long-horizon interaction. SAG introduces a lightweight, training-free gating mechanism that estimates the utility of critique using action-level ambiguity signals--global entropy and local top-2 margin--computed over admissible actions. From a decision-theoretic perspective, this mechanism approximates the Value of Information (VoI) of critique, enabling the agent to selectively allocate expensive feedback only when its expected benefit justifies the cost. SAG further incorporates online bootstrapped self-improvement, allowing the actor to internalize critic-assisted behaviors and progressively reduce reliance on critique. Across three long-horizon interactive benchmarks and multiple backbone models, SAG substantially improves the performance-cost trade-off compared with both no-critique and always-on critique agents. On ALFWorld, SAG increases task success from 24.6% to 78.4% while maintaining a token budget comparable to ReAct, yielding a $3.1\\times$ improvement in normalized token efficiency. Moreover, a 7B actor with a lightweight 3B critic achieves performance comparable to a 14B actor without critique, showing that selective critique can recover most of the reliability benefits of deliberation while dramatically reducing inference cost.",
+        "url": "https://arxiv.org/abs/2610.07335v1",
+        "checked_at": "2026-10-08T12:46:13.006053+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.07118v1",
+        "published": "2026-10-05T17:11:07Z",
+        "updated": "2026-10-05T17:11:07Z",
+        "title": "AMBER: Training Long-Horizon Web Agents through Append-Only Memory",
+        "summary": "Modern language-model agents increasingly interact with external environments over long-horizon, multi-step trajectories, where the accumulated interaction history can quickly exceed practical context budgets. To ensure reliability, agents must maintain factual information over long horizons, remember execution errors and corrective feedback, and track progress across actions. Several approaches have been proposed to achieve this without the need for maintaining the entire execution history in context, such as using the reasoning and action history, learning to maintain a fixed-size memory through an overwrite mechanism, and periodic summarization. Although overwrite memory can in principle retain anything an append-only memory can, it must learn to carry each fact through every subsequent rewrite, which is difficult to learn from sparse outcome rewards; for interactive applications like web agents, we find that trained overwrite memories delete key information required by the trajectory, as well as corrective feedback received from the environment. We introduce AMBER (Append-only Memory Bank for Evidence Retention) - a simple and scalable framework where an agent jointly learns to reason, act, and write free-form memory, while an append-only rule guarantees retention by construction. This allows AMBER to be trained end-to-end with reinforcement learning from outcome rewards without the need for extensive curated SFT data. On WebArena Lite, AMBER improves average success over overwrite-based memory by 4.09 percentage points, increases the fraction of tasks solved in five repeated runs by 4.8 percentage points, and matches an overwrite baseline trained on substantially more expensive curated supervision. AMBER achieves these improvements while maintaining a practical token budget, providing a strong balance between context efficiency, task performance, and reliable long-horizon execution.",
+        "url": "https://arxiv.org/abs/2610.07118v1",
+        "checked_at": "2026-10-08T12:46:13.006053+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.06637v1",
+        "published": "2026-10-05T16:25:44Z",
+        "updated": "2026-10-05T16:25:44Z",
+        "title": "Long-Horizon Textual World Modeling through Structured Reasoning",
+        "summary": "World models must predict how an environment evolves under sequences of actions, enabling agents to compare possible futures and reason about counterfactual actions before acting. Long-horizon prediction is commonly obtained by recursively applying a one-step transition model, but intermediate errors can compound over time. Multi-step dynamics models instead condition on a sequence of future actions and predict their consequences directly, but become harder to learn as horizon grows: the model must track interacting state changes across the trajectory, endpoint supervision provides weak credit assignment, and intermediate predictions can remain plausible while losing information needed for later states. We show that these challenges can be addressed by casting the internal evolution of a multi-step transition as structured reasoning over textual world states: reasoning over sparse state changes reduces the burden of state tracking, a predictive-gain objective rewards the learned state for improving over a matched predictor that conditions on raw history instead, and intermediate predictive rewards supervise each state along the trajectory. Because these intermediate states are explicit textual representations of the world, they provide semantically meaningful targets that can be inspected, scored, and corrected during training. Across ScienceWorld, Jericho, and CEO-Bench, our approach achieves the strongest average long-horizon performance against recursive and non-recursive baselines that condition directly on raw history, with gains increasing at longer horizons. In a controlled counterfactual study, our model is also the only one with statistically significant sensitivity to future actions.",
+        "url": "https://arxiv.org/abs/2610.06637v1",
+        "checked_at": "2026-10-08T12:46:13.006053+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.06406v1",
+        "published": "2026-10-05T14:25:16Z",
+        "updated": "2026-10-05T14:25:16Z",
+        "title": "What Did the Agent Actually Do? Evidence-Grounded Oversight for Long-Horizon Agents",
+        "summary": "As agents take on long-horizon tasks, users shift from making individual decisions to overseeing autonomous execution. Yet the volume of agent activity and the fragmentation of supporting evidence make it difficult to determine which decisions warrant user verification. We study monitors that identify consequential decisions and locate evidence to help users assess their implications. We introduce AgentMonBench, a software-engineering benchmark comprising three subsets that cover two complementary dimensions: alignment between requirements and behavior, and awareness of consequential autonomous decisions for verification. To support these judgments, we propose the Evidence-Grounded Behavior Graph (EBG), a training-free method that groups source-linked evidence into behaviors and organizes their relationships into a graph. EBG presents task-oriented views of this graph to help monitors interpret behavior in context. Experiments across eight models show that EBG improves decision identification and evidence localization in most settings compared with direct access to the original context. Further experiments show that EBG's evidence-localization gains persist across input scales and hyperparameter settings, while real-world applications illustrate its practical value for human oversight.",
+        "url": "https://arxiv.org/abs/2610.06406v1",
+        "checked_at": "2026-10-08T12:46:13.006053+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.06044v1",
+        "published": "2026-10-05T09:41:58Z",
+        "updated": "2026-10-05T09:41:58Z",
+        "title": "RocketAgent: A Long-Horizon Engineering Agent for Multidisciplinary Design of Liquid-Rocket Thrust Chambers",
+        "summary": "Liquid-rocket thrust-chamber design involves interdependent analyses in which downstream constraints can require earlier design decisions to be revisited. Managing these dependencies across heterogeneous tools requires consistent design information and coordinated updates throughout the workflow. We present RocketAgent, a long-horizon engineering agent for multidisciplinary preliminary design of liquid-rocket thrust chambers. A single plan-owning Coding Agent coordinates engineering skills for performance sizing, subsystem optimization, geometry generation, and multiphysics assessment. A provenance-aware knowledge graph supports method selection, while a typed Design Intermediate Representation maintains shared parameters, artifacts, and decisions. Revision-aware checks invalidate affected results and block superseded inputs, with consequential changes subject to engineering approval. In a representative simulation-based design, RocketAgent continued from an infeasible cooling search through an engineer-authorized operating-point revision, identified feasible subsystem designs, and coordinated subsequent geometry generation and multiphysics assessment to support final configuration selection. Separate module tests assessed surrogate predictions and nozzle adaptation. A two-configuration comparison across three controlled scenarios verified the expected dependency invalidations and superseded-input blocking before solver execution. The representative case demonstrates sustained coordination across a multidisciplinary design workflow, while the controlled tests establish the behavior of the revision mechanisms supporting that execution.",
+        "url": "https://arxiv.org/abs/2610.06044v1",
+        "checked_at": "2026-10-08T12:46:13.006053+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.05831v1",
+        "published": "2026-10-05T05:35:28Z",
+        "updated": "2026-10-05T05:35:28Z",
+        "title": "Selecting Long-Horizon Trajectories for Reliable and Efficient Terminal-Agent Training",
+        "summary": "Terminal agents are commonly trained by imitating long teacher trajectories, yet how much of each trajectory to supervise remains unexplored. We study the \\emph{supervision horizon}, the number of trajectory tokens retained for training, and show that it is a key design axis for reliability and cost. Reliability improves with longer horizons but saturates: on Terminal-Bench, a 12K-token horizon solves more tasks than 16K ($29\\pm0.7$ vs.\\ $26\\pm0.8$) while requiring 30\\% less training time. The horizon also shapes agent behavior: short horizons cause premature termination, intermediate horizons yield productive error recovery, and long horizons induce over-persistence. We analyze this saturation through a bias--complexity bound, in which longer supervision reduces temporal supervision bias but increases finite-sample estimation error from more heterogeneous late-stage histories. Guided by this analysis, we propose \\emph{selective long-horizon refinement}, which first trains on short prefixes and then refines only on continuations that are most likely under the warm-start model. It consistently outperforms full long-horizon training. At 16K, it raises successful attempts from $110\\pm2.7$ to $126\\pm2.1$ and tasks solved in at least six of eight attempts from $9\\pm0.7$ to $14\\pm0.6$; with half of the long-horizon data, it still reaches $122\\pm2.4$ while cutting training time by 23\\%. The gains transfer across benchmarks, from $64\\pm2.6$ to $73\\pm2.1$ on Terminal-Bench v2.0 and from $137\\pm2.7$ to $155\\pm2.2$ on OpenThoughts-TBLite. For long-horizon supervision, selecting the right trajectories matters more than training on all of them.",
+        "url": "https://arxiv.org/abs/2610.05831v1",
+        "checked_at": "2026-10-08T12:46:13.006053+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.05383v1",
+        "published": "2026-10-04T17:14:41Z",
+        "updated": "2026-10-04T17:14:41Z",
+        "title": "Sibyl: An Efficient Small-large Model Collaboration Framework for Long-horizon Tasks",
+        "summary": "Small language models (SLMs) offer a promising foundation for on-device agents through low-latency, resource-efficient inference, yet limited reasoning and planning capabilities constrain their performance on long-horizon tasks requiring multi-step interaction with the environment. Step-level collaboration between SLMs and larger cloud-hosted models can bridge this gap, but identifying states that warrant cloud assistance remains challenging: the contribution of each cloud call is entangled with subsequent actions and can be assessed only from the final task outcome. Compounding this challenge, the SLM must balance two competing objectives: maximizing task success and minimizing cloud calls. To address this, we propose Sibyl, an algorithm that trains SLM agents to selectively consult cloud models at the step level and internalize their guidance for subsequent decisions, achieving strong task performance with minimal cloud reliance. Sibyl follows a three-stage training pipeline that (1) builds a robust base policy through consultation-free self-evolving reinforcement learning (RL); (2) cold-starts consultation behavior via decisive-disagreement state mining; and (3) jointly optimizes consultation decisions and guidance internalization through consultation-aware RL. Experiments on ALFWorld and WebShop demonstrate that Sibyl, using only a 0.6B-parameter model, outperforms state-of-the-art baselines, including agent training and routing methods, by 95.2% and 80.4% in success rate while averaging only 0.8 and 3.9 cloud calls per trajectory, respectively.",
+        "url": "https://arxiv.org/abs/2610.05383v1",
+        "checked_at": "2026-10-08T12:46:13.006053+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.05382v1",
+        "published": "2026-10-04T17:14:24Z",
+        "updated": "2026-10-04T17:14:24Z",
+        "title": "Harness-Search: Guiding Long-Horizon Search through Multi-Agent Coordination",
+        "summary": "Long-horizon search requires agents to gather evidence across multiple steps and synthesize it into well-supported answers. The recent agent harnesses provide a natural and promising framework to support such long-running search processes. As interaction histories grow, one single agent in harnesses might get stuck and cause the policy to lose track of unresolved questions, overlook useful evidence, or terminate before sufficient support has been collected. One of promising way is to decouple three distinct responsibilities of proposing retrieval actions, updating persistent state, and deciding when to stop rather than concentrating them within a single policy. Targeted at it, we introduce Harness-Search, a multi-agent search harness to reduce the local errors propagating across subsequent exploration, evidence curation, and termination decisions. In particular, Harness-Search assigns these responsibilities to three permission-bounded authorities: a Retrieval Policy that proposes search operations, a Memory Operator that validates and commits persistent-state updates, and a Summary Auditor that accepts or rejects termination based on the sufficiency of the curated evidence. Together, these roles form a Propose-Commit-Audit loop in which actions are proposed, persistent evidence is selectively committed, and stopping decisions are subjected to an explicit sufficiency check. Across seven long-horizon search benchmarks, Harness-Search improves both retrieval and answer generation under the same policy backbone, increasing Recall by 4.60-27.92 points and Final-Answer Recall by 12.34-30.13 points over the strongest harness-based baseline on each evidence-retrieval benchmark. Moreover, trajectory-level analyses show that Harness-Search continues to accumulate useful evidence and expand evidence coverage with less redundant retrieval as the search history grows.",
+        "url": "https://arxiv.org/abs/2610.05382v1",
+        "checked_at": "2026-10-08T12:46:13.006053+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.05303v1",
+        "published": "2026-10-04T15:27:20Z",
+        "updated": "2026-10-04T15:27:20Z",
+        "title": "ASCENT: Online Test-Time Training of Long-Horizon Agents via Self-Distillation of Verified Experience",
+        "summary": "A large language model (LLM) agent solves long-horizon tasks through many reasoning-action turns, with one verification signal at termination. Deployed agents face streams of related tasks, making their trajectories a natural resource for improvement. In-context adaptation agents store reflections, memories, or skills as text, so reuse depends on retrieving the right experience and on a frozen policy executing it. We study Online Agentic Test-Time Training (OaTTT), which trains the LLM's weights on its own execution trajectories during deployment. The agent executes each task once, in one pass over the stream, and the executed trajectory with its verification result is the only learning signal for weight updates that persist across tasks. Directly imitating or reinforcing the generated tokens of this single attempt destabilizes the policy. We introduce ASCENT (Agentic Self-distillation for Cross-task EvolutioN at Test-time), which instead self-distills verified experience. A stable version of the LLM, its frozen initial copy, receives the verified trajectory as privileged information and predicts next-token distributions along it with this hindsight. Distilling them into persistent LoRA fast weights updates the agent for later tasks, without an external reference solution or stronger teacher. By further removing invalid-action turns, ASCENT distills enhanced privileged experience for more efficient execution. We characterize its population target and the limits of sparse outcome selection. Across ALFWorld, WebShop, and AppWorld at varied model scales, ASCENT improves task success and interaction efficiency as experience accumulates, outperforms online adaptation methods, and transfers to held-out scenes, showing that an agent can consolidate verified experience into its weights without a separate training phase or memory retrieval. Project page: https://artificer-ai-lab.github.io/ASCENT",
+        "url": "https://arxiv.org/abs/2610.05303v1",
+        "checked_at": "2026-10-08T12:46:13.006053+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.05163v1",
+        "published": "2026-10-04T12:14:19Z",
+        "updated": "2026-10-04T12:14:19Z",
+        "title": "Blocking at the Boundary: Auditing Long-Horizon Agents against Staged Prompt Injection",
+        "summary": "Long-horizon agents consume external content, invoke tools, and modify persistent state. Indirect prompt injection can exploit task-specific context, propagate across causally connected stages, and alter a consequential action while the workflow continues; we term this staged prompt injection. We build an automated, feedback-guided attack generation pipeline and apply it to Claude Code and Codex in their native runtimes. The confirmed attacks span eight workflow scenarios, seven attack goals, and six injection surfaces, showing that production agents are vulnerable to context-aware, multi-step injection over long horizons. Stopping such attacks requires a decision before each consequential action: input screening and completed-run evaluation cannot locate the intervention point, and existing pre-action methods use incompatible units and labels. We therefore formulate boundary action auditing: given initial context, a trajectory prefix, and a fully specified pending message or tool call, an auditor predicts Pass or Block before its effect occurs. Pairing attacked and benign executions yields a 479-pair, 3,112-unit benchmark. We further propose Path-Aligned Attribution (PAA), a training-free auditor that decomposes pending actions into operative elements and traces what supplied each value and guided each decision. PAA blocks only when the model attributes an unwarranted, material effect on an element to an attacker-reachable source that either provides unqualified steering or conflicts with visible evidence. Under full-benchmark fail-open scoring with Claude Sonnet 5, PAA reaches 86% Block recall at a 6-8% false-block rate (FBR), whereas ARGUS reaches 44-47% recall at 16-33% FBR. Under the same backend, on the tool calls that all three auditors natively support, PAA has higher recall and lower FBR than VIGIL and ARGUS; all paired 95% confidence intervals exclude zero.",
+        "url": "https://arxiv.org/abs/2610.05163v1",
+        "checked_at": "2026-10-08T12:46:13.006053+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.05119v1",
+        "published": "2026-10-04T10:53:20Z",
+        "updated": "2026-10-04T10:53:20Z",
+        "title": "LexiHorizon: Stabilizing Reinforcement Learning for Long-Horizon Deep Search",
+        "summary": "Deep search agents tackle complex knowledge tasks through iterative retrieval, multi-hop reasoning, and evidence synthesis across multiple sources. Existing approaches typically assume relatively stable retrieval systems and operate over short-horizon tool interaction. However, when retrieval is sensitive to query formulation, even a semantically appropriate query may fail to surface critical evidence because of mismatched entity names, aliases, or keyword combinations. Recovering from such failures requires repeated query reformulation and longer interaction trajectories. This setting poses a distinct training challenge, as the policy must sustain long-horizon query exploration while managing an expanding volume of retrieved content. We propose LexiHorizon, a framework for training search agents over long horizons that expands the trajectory context budget, manages accumulated retrieval content using a window over recent tool observations while preserving the reasoning history, and introduces an outcome-gated search-effort reward that provides a bounded bonus for tool invocations to trajectories with nonzero answer reward. Experiments on XBench, WebWalkerQA, and BrowseComp-ZH show that the resulting 9B model consistently outperforms both its base model and MiroThinker-1.7-mini, with maximum absolute gains of 8.7 and 23.8 percentage points, respectively. These results suggest that combining an extended context budget with reasoning-preserving context management benefits long-horizon deep search agents.",
+        "url": "https://arxiv.org/abs/2610.05119v1",
+        "checked_at": "2026-10-08T12:46:13.006053+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.05013v1",
+        "published": "2026-10-04T07:14:05Z",
+        "updated": "2026-10-04T07:14:05Z",
+        "title": "EMBER-Bench: Benchmarking Cross-Event Causal Memory in Long-Horizon Embodied Tasks",
+        "summary": "Lifelong physical agents must reason over extended interactions where past events continue to shape the world long after they disappear from view. Beyond recalling what happened, agents must infer how history changes the current state and constrains future actions. Yet existing embodied and video-memory benchmarks largely focus on historical retrieval and summary, leaving such history-dependent causal reasoning underexplored. We introduce EMBER-Bench, an egocentric benchmark for cross-event causal reasoning in long-horizon embodied tasks, for which we newly created the task design, video recording, and data annotation. It contains 189 household tasks and 699 QA pairs, spanning task progress, failure recovery, external interventions, and compound long-horizon tasks with distant dependencies and prerequisites, with fine-grained event and causal-chain annotations. EMBER-Bench evaluates reasoning in both directions: next-action prediction selects the next action from history, and causal traceback, given that action, identifies the historical event that makes it necessary. Input ablations that add action logs or privileged cause-and-consequence annotations to the video indicate which kind of historical information models fail to use. Among the 16 evaluated models, the highest overall accuracy is 61.2%, compared with a mean of 98.3% across two human evaluators. At paired decision points, correct traceback is not associated with correct next-action prediction. Adding action logs yields a gain of 1.6 points, whereas cause-and-consequence annotations yield an additional gain of 13.0 points on top of that. These results suggest that extracting causal information from past events and converting it into constraints on current actions remains a key difficulty for long-horizon embodied agents. Project Page: https://zhaoalexgoat.github.io/EMBER-Bench/",
+        "url": "https://arxiv.org/abs/2610.05013v1",
+        "checked_at": "2026-10-08T12:46:13.006053+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.04975v1",
+        "published": "2026-10-04T05:43:47Z",
+        "updated": "2026-10-04T05:43:47Z",
+        "title": "Runtime Authorization of Self-Generated Subgoals in Long-Horizon Tool-Using AI Agents",
+        "summary": "Long-horizon tool-using AI agents create subgoals, replan, delegate work, and compose sibling results. Per-tool permission checks cannot establish that a changing goal graph remains within the principal-approved task. We address this authorization gap in a finite structured domain with one principal and one authorization root. Each proposed goal-graph mutation carries a version-bound witness that its continuation traces, resources, obligations, invariants, and closing condition refine the active root contract; every protected effect is rechecked at an atomic commit boundary. Free-form goal text supplies no authority. We prove trace-policy and modeled forbidden-state preservation under explicit mediation, abstraction, freshness, and atomicity assumptions, plus conditional root-success preservation, a separation result for memoryless allowlists, exact finite-domain decidability, and universal-safety monotonicity under sound abstraction refinement. An executable model explores 340 states and 419 transitions. Across 96 matched cases covering 25 structural schemas, the complete mechanism commits zero forbidden states in 48 drifted cases and completes all 48 benign counterparts. Two public upstream runtime paths execute 258 native dispatches across 32 cases, with every case-level decision and receipt chain matching. A frozen host-local study covers 129 synthetic one-factor-at-a-time cells, all matching fixed decisions and reasons. A history-aware continuation comparator blocks every modeled bad trace prefix but commits all operations in 11 cases whose violations lie in typed resources, freshness, or explicit-join evidence outside its trace projection. Within the registered structured domains, runtime authorization preserves useful replanning while preventing self-generated subgoals from becoming a source of new authority.",
+        "url": "https://arxiv.org/abs/2610.04975v1",
+        "checked_at": "2026-10-08T12:46:13.006053+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.04906v1",
+        "published": "2026-10-04T03:36:14Z",
+        "updated": "2026-10-04T03:36:14Z",
+        "title": "Scaling Verifiable Environments for Long-horizon Work Agents",
+        "summary": "Work agents operate over digital artifacts to execute professional knowledge-intensive work, requiring training environments that support long-horizon interaction and trustworthy verification. However, hand-crafted environments incur prohibitive engineering overhead that prevents environment scaling, whereas synthesis methods sacrifice workspace complexity, realism, or grounded verifiability. To bridge this gap, we introduce WorkForge, a scalable synthesis framework for constructing verifiable work-agent environments from real-world resources. Starting from expert workflows, WorkForge first identifies the resources, decisions, and deliverables required by each workflow. It then retrieves relevant real-world files and organizes them into a workspace. WorkForge inspects the workspace to extract concrete, checkable facts about its content. These factual anchors fix which task types the workspace can support and how their outcomes can be verified. Therefore, WorkForge derives each task's instructions, solution plan, and complementary programmatic and semantic verifiers directly from these factual anchors, keeping verification traceable to observable workspace evidence. Furthermore, we construct 16.7K verifiable environments across 40 professional domains, with workspaces collectively covering 60 file types. Post-training Qwen3.5-35B-A3B-Base improves GDPVal from 45.5 to 73.6 and APEX Score from 5.0 to 21.3, while enabling Qwen3.5-27B to achieve highly competitive performance and outperform strong competitors. Our analyses confirm the efficacy of the proposed method and reveal consistent scaling behaviors across both data volume and interaction horizons.",
+        "url": "https://arxiv.org/abs/2610.04906v1",
+        "checked_at": "2026-10-08T12:46:13.006053+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      }
+    ]
+  }
+]

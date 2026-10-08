@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2608.06370",
+    "checked_at": "2026-10-08T07:09:00.625355+00:00",
+    "scope": "metadata_and_reachability_only",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/abs/2608.06370",
+    "sha256": "caac1b71a4495731e10f2bc6188bb6b1dbc84f6d2f42099b8db41be3ce68f1f7",
+    "title": "The Bitter Lesson of Tool Calling",
+    "published": "2026/08/06",
+    "arxiv_id": "2608.06370",
+    "status": "metadata_fetched"
+  },
+  {
+    "url": "https://arxiv.org/abs/2608.18171",
+    "checked_at": "2026-10-08T07:09:00.626143+00:00",
+    "scope": "metadata_and_reachability_only",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/abs/2608.18171",
+    "sha256": "ab56a781ebaa0dd27f5072d0300b6353cb6704218a2933f6472b31003d999e42",
+    "title": "Looped Language Models Improve Compositional Tool Calling",
+    "published": "2026/08/17",
+    "arxiv_id": "2608.18171",
+    "status": "metadata_fetched"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.17306",
+    "checked_at": "2026-10-08T07:09:00.626558+00:00",
+    "scope": "metadata_and_reachability_only",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/abs/2609.17306",
+    "sha256": "01db0b23665be6d4905d71dd91c3f14ddca8b6ac42f2cc846dfdb44c8993fe11",
+    "title": "Mo' Models, Mo' Problems: How to best select model pools when designing Multi-Agent Systems",
+    "published": "2026/09/15",
+    "arxiv_id": "2609.17306",
+    "status": "metadata_fetched"
+  }
+]

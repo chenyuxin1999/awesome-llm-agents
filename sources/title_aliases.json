@@ -1,0 +1,16 @@
+{
+  "2609.32457": {
+    "local_title": "Write Back the \nΔ\nΔ: Revisiting the Same Tokens with Fresh Representations",
+    "online_title": "Write Back the $\\Delta$: Revisiting the Same Tokens with Fresh Representations",
+    "url": "https://arxiv.org/abs/2609.32457",
+    "checked_at": "2026-10-08",
+    "reason": "输入抓取重复保留数学符号Δ及其替代文本。线上题名仅含一个Δ；保留原始元数据，显式记录已核对的渲染别名。"
+  },
+  "2608.10860": {
+    "local_title": "Flex-\n𝜋\nπ: A Multi-Stream World-Action Model with Compute Flexibility",
+    "online_title": "Flex-$\\pi$: A Multi-Stream World-Action Model with Compute Flexibility",
+    "url": "https://arxiv.org/abs/2608.10860",
+    "checked_at": "2026-10-08",
+    "reason": "输入抓取把同一个π的数学字体与替代文本同时保留，形成换行重复。已核对线上题名；原始title不覆盖，身份匹配采用这一条显式别名，不对所有题名做宽松近似匹配。"
+  }
+}

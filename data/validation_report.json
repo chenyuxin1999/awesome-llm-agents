@@ -1,0 +1,95 @@
+{
+  "checked_at": "2026-10-08T18:44:23.509810+00:00",
+  "status": "passed",
+  "paper_count": 2050,
+  "unique_paper_ids": 2050,
+  "chapter_count": 18,
+  "thematic_chapter_count": 16,
+  "supplemental_chapter_count": 2,
+  "markdown_files": 55,
+  "relative_links_checked": 615,
+  "external_urls_including_catalog": 2896,
+  "source_records": 1719,
+  "source_status_counts": {
+    "metadata_fetched": 700,
+    "primary_page_reachable": 29,
+    "primary_arxiv_metadata_verified": 292,
+    "verified_local_title_match": 52,
+    "blocked_client_challenge": 1,
+    "search_no_usable_output": 2,
+    "local_abstract_only": 250,
+    "local_one_line_only": 17,
+    "web_open_no_extractable_body": 1,
+    "source_title_retrieved": 23,
+    "title_verified": 102,
+    "excluded_irrelevant": 1,
+    "abstract_unavailable": 1,
+    "no_content_returned": 1,
+    "verified_title_and_abstract": 98,
+    "reviewed_selected_sections": 35,
+    "official_resource_page_verified": 4,
+    "fetch_failed": 4,
+    "local_one_line_only_not_web_verified": 2,
+    "local_abstract_only_not_web_verified": 96,
+    "blocked_challenge_page": 3,
+    "web_run_no_readable_content": 3,
+    "unspecified": 2
+  },
+  "unavailable_source_attempts": [
+    {
+      "url": "https://www.nature.com/articles/s41586-021-03819-2",
+      "status": "blocked_client_challenge"
+    },
+    {
+      "url": "https://dl.acm.org/doi/10.1145/1553374.1553380",
+      "status": "fetch_failed"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/BF00992696",
+      "status": "blocked_challenge_page"
+    },
+    {
+      "url": "https://dl.acm.org/doi/10.1145/1553374.1553380",
+      "status": "fetch_failed"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/BF00992696",
+      "status": "blocked_challenge_page"
+    },
+    {
+      "url": "https://dl.acm.org/doi/10.1145/1553374.1553380",
+      "status": "fetch_failed"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/BF00992696",
+      "status": "blocked_challenge_page"
+    },
+    {
+      "url": "https://www.alphaxiv.org/abs/2609.ai-agents-discover-reverse-transcriptases",
+      "status": "fetch_failed"
+    }
+  ],
+  "distinct_corpus_titles_matched_online": 639,
+  "known_versioned_title_changes": [
+    "2607.12815",
+    "2607.27599",
+    "2607.28627"
+  ],
+  "editorial_urls": 869,
+  "editorial_urls_with_online_metadata": 866,
+  "editorial_urls_local_only_or_unverified": [
+    "https://dl.acm.org/doi/10.1145/1553374.1553380",
+    "https://link.springer.com/article/10.1007/BF00992696",
+    "https://www.alphaxiv.org/abs/2609.ai-agents-discover-reverse-transcriptases"
+  ],
+  "unchecked_editorial_urls": [],
+  "catalog_check_output": "{\n  \"mode\": \"check\",\n  \"records\": 2050,\n  \"unique_ids\": 2050,\n  \"lost\": 0,\n  \"duplicate_primary\": 0,\n  \"primary_counts\": {\n    \"01_basics\": 12,\n    \"02_memory\": 147,\n    \"03_skills_and_self_improvement\": 191,\n    \"04_training_data\": 25,\n    \"05_rl_and_distillation\": 159,\n    \"06_evaluation\": 249,\n    \"07_safety\": 58,\n    \"08_collaboration\": 22,\n    \"09_multimodal_gui\": 38,\n    \"10_world_models\": 205,\n    \"11_embodied\": 303,\n    \"12_science\": 15,\n    \"13_efficiency\": 96,\n    \"14_model_science\": 75,\n    \"15_frontier_reports\": 43,\n    \"16_generation\": 120,\n    \"90_adjacent\": 94,\n    \"99_review\": 198\n  },\n  \"classification_status\": {\n    \"rule_assigned_unreviewed\": 882,\n    \"legacy_mapped_unreviewed\": 916,\n    \"local_override_reviewed\": 54,\n    \"needs_review\": 198\n  },\n  \"override_primary_changes\": 48,\n  \"generated_files\": 21,\n  \"compact_metadata_sha256\": \"ab91ce715bc558094bd5d7f45b971d4022e3b7b0a7156542aa35bb341c64a0a4\"\n}",
+  "classification_status_counts": {
+    "rule_assigned_unreviewed": 882,
+    "legacy_mapped_unreviewed": 916,
+    "local_override_reviewed": 54,
+    "needs_review": 198
+  },
+  "errors": [],
+  "warnings": []
+}

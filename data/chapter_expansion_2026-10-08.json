@@ -1,0 +1,218 @@
+{
+  "date": "2026-10-08",
+  "scope": "本轮对原16个专题的增量；综述入口章单独计数；引用不代表逐篇全文审阅",
+  "prior_unique_local_ids": 594,
+  "current_unique_local_ids": 651,
+  "added_chapter_citations": 64,
+  "added_visible_chinese_characters": 21372,
+  "chapters": [
+    {
+      "chapter": "01_basics",
+      "path": "chapters/01_basics.md",
+      "added_chinese_characters": 1389,
+      "added_local_ids": [
+        "2607.06906",
+        "2607.07548",
+        "2607.07702",
+        "2607.08938"
+      ],
+      "prior_local_count": 36,
+      "current_local_count": 40
+    },
+    {
+      "chapter": "02_memory",
+      "path": "chapters/02_memory.md",
+      "added_chinese_characters": 1346,
+      "added_local_ids": [
+        "2607.07707",
+        "2607.09415",
+        "2607.11487",
+        "2607.18213"
+      ],
+      "prior_local_count": 35,
+      "current_local_count": 39
+    },
+    {
+      "chapter": "03_skills_and_self_improvement",
+      "path": "chapters/03_skills_and_self_improvement.md",
+      "added_chinese_characters": 1552,
+      "added_local_ids": [
+        "2607.05297",
+        "2607.08124",
+        "2607.08716",
+        "2607.11399"
+      ],
+      "prior_local_count": 40,
+      "current_local_count": 44
+    },
+    {
+      "chapter": "04_training_data",
+      "path": "chapters/04_training_data.md",
+      "added_chinese_characters": 1423,
+      "added_local_ids": [
+        "2607.05339",
+        "2607.07820",
+        "2607.10891",
+        "2607.14552"
+      ],
+      "prior_local_count": 31,
+      "current_local_count": 35
+    },
+    {
+      "chapter": "05_rl_and_distillation",
+      "path": "chapters/05_rl_and_distillation.md",
+      "added_chinese_characters": 1395,
+      "added_local_ids": [
+        "2607.06855",
+        "2607.11506",
+        "2607.13124",
+        "2607.13394"
+      ],
+      "prior_local_count": 44,
+      "current_local_count": 48
+    },
+    {
+      "chapter": "06_evaluation",
+      "path": "chapters/06_evaluation.md",
+      "added_chinese_characters": 1319,
+      "added_local_ids": [
+        "2607.08093",
+        "2607.08758",
+        "2607.08768",
+        "2607.12227"
+      ],
+      "prior_local_count": 52,
+      "current_local_count": 56
+    },
+    {
+      "chapter": "07_safety",
+      "path": "chapters/07_safety.md",
+      "added_chinese_characters": 1327,
+      "added_local_ids": [
+        "2608.06862",
+        "2608.09885",
+        "2608.25776",
+        "2609.02786"
+      ],
+      "prior_local_count": 37,
+      "current_local_count": 41
+    },
+    {
+      "chapter": "08_collaboration",
+      "path": "chapters/08_collaboration.md",
+      "added_chinese_characters": 1227,
+      "added_local_ids": [
+        "2607.15257",
+        "2607.22465",
+        "2609.31590",
+        "2609.34754"
+      ],
+      "prior_local_count": 27,
+      "current_local_count": 31
+    },
+    {
+      "chapter": "09_multimodal_gui",
+      "path": "chapters/09_multimodal_gui.md",
+      "added_chinese_characters": 1276,
+      "added_local_ids": [
+        "2607.13027",
+        "2607.27180",
+        "2608.15869",
+        "2609.10321"
+      ],
+      "prior_local_count": 40,
+      "current_local_count": 44
+    },
+    {
+      "chapter": "10_world_models",
+      "path": "chapters/10_world_models.md",
+      "added_chinese_characters": 1369,
+      "added_local_ids": [
+        "2607.06216",
+        "2607.06558",
+        "2607.06559",
+        "2607.06988"
+      ],
+      "prior_local_count": 40,
+      "current_local_count": 44
+    },
+    {
+      "chapter": "11_embodied",
+      "path": "chapters/11_embodied.md",
+      "added_chinese_characters": 1484,
+      "added_local_ids": [
+        "2607.06370",
+        "2607.06442",
+        "2607.06655",
+        "2607.08341"
+      ],
+      "prior_local_count": 54,
+      "current_local_count": 58
+    },
+    {
+      "chapter": "12_science",
+      "path": "chapters/12_science.md",
+      "added_chinese_characters": 1388,
+      "added_local_ids": [
+        "2607.08332",
+        "2607.15901",
+        "2608.09696",
+        "2608.13060"
+      ],
+      "prior_local_count": 26,
+      "current_local_count": 30
+    },
+    {
+      "chapter": "13_efficiency",
+      "path": "chapters/13_efficiency.md",
+      "added_chinese_characters": 1230,
+      "added_local_ids": [
+        "2607.08186",
+        "2607.08215",
+        "2607.13095",
+        "2607.19223"
+      ],
+      "prior_local_count": 38,
+      "current_local_count": 42
+    },
+    {
+      "chapter": "14_model_science",
+      "path": "chapters/14_model_science.md",
+      "added_chinese_characters": 1224,
+      "added_local_ids": [
+        "2607.14943",
+        "2607.18433",
+        "2608.02585",
+        "2608.16578"
+      ],
+      "prior_local_count": 38,
+      "current_local_count": 42
+    },
+    {
+      "chapter": "15_frontier_reports",
+      "path": "chapters/15_frontier_reports.md",
+      "added_chinese_characters": 1277,
+      "added_local_ids": [
+        "2607.07370",
+        "2607.09424",
+        "2607.11562",
+        "2607.13095"
+      ],
+      "prior_local_count": 43,
+      "current_local_count": 47
+    },
+    {
+      "chapter": "16_generation",
+      "path": "chapters/16_generation.md",
+      "added_chinese_characters": 1146,
+      "added_local_ids": [
+        "2607.06173",
+        "2607.06856",
+        "2607.08763",
+        "2607.08766"
+      ],
+      "prior_local_count": 40,
+      "current_local_count": 44
+    }
+  ]
+}

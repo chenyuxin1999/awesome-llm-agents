@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2609.11873v3",
+    "checked_at": "2026-10-08T16:05:50.200272+00:00",
+    "scope": "metadata_and_reachability_only",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/abs/2609.11873v3",
+    "sha256": "97ef6de76dff027df31f6b7e84061320b326cd044bd4a50d22a9e7b4f47ae051",
+    "title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
+    "published": "2026/09/10",
+    "arxiv_id": "2609.11873",
+    "status": "metadata_fetched"
+  },
+  {
+    "url": "https://long-horizon-agents.github.io/",
+    "checked_at": "2026-10-08T16:05:50.201078+00:00",
+    "scope": "metadata_and_reachability_only",
+    "http_status": 200,
+    "final_url": "https://long-horizon-agents.github.io/",
+    "sha256": "9209949fccac28597eb55d84cbcf1a9b3ad98498f2be5ff48a0100c3f8be512e",
+    "title": "Towards Long-Horizon Agents: A Survey",
+    "published": "",
+    "arxiv_id": "",
+    "status": "metadata_fetched"
+  }
+]

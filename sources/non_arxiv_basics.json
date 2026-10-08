@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://www.alphaxiv.org/abs/2607.language-model-harnesses",
+    "checked_at": "2026-10-08T07:47:25.779591+00:00",
+    "scope": "metadata_and_reachability_only",
+    "http_status": 200,
+    "final_url": "https://www.alphaxiv.org/abs/2607.language-model-harnesses",
+    "sha256": "3fa53baac88c1ea2dccd6c6dca30cdee93f571c05bafd5620850366821b7fa66",
+    "title": "Language model harnesses are compositional generalizers | alphaXiv",
+    "published": "",
+    "arxiv_id": "",
+    "status": "metadata_fetched"
+  },
+  {
+    "url": "https://www.alphaxiv.org/abs/2608.spec-ptc",
+    "checked_at": "2026-10-08T07:47:25.780407+00:00",
+    "scope": "metadata_and_reachability_only",
+    "http_status": 200,
+    "final_url": "https://www.alphaxiv.org/abs/2608.spec-ptc",
+    "sha256": "3779331124c40e2b8154918dff58539ff67029af83befc147ca8951c8789b5bb",
+    "title": "Speculative Programmatic Tool Calling | alphaXiv",
+    "published": "",
+    "arxiv_id": "",
+    "status": "metadata_fetched"
+  },
+  {
+    "url": "https://www.alphaxiv.org/abs/2609.evolution-ai-office-agents",
+    "checked_at": "2026-10-08T07:47:25.780825+00:00",
+    "scope": "metadata_and_reachability_only",
+    "http_status": 200,
+    "final_url": "https://www.alphaxiv.org/abs/2609.evolution-ai-office-agents",
+    "sha256": "ce0ef6302b625631c09d85de88565d54276c87454bb401eb90ed017ecb175a49",
+    "title": "The Evolution of AI Office: From Passive Assistants to Goal-Driven Agents",
+    "published": "",
+    "arxiv_id": "",
+    "status": "metadata_fetched"
+  }
+]

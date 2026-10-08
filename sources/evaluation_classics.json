@@ -1,0 +1,155 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2009.03300",
+    "checked_at": "2026-10-08T16:53:15.813009+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "ffb542b1cf065c035f978c04346b0fd159498856223020214a0193499c7f6460",
+    "title": "Measuring Massive Multitask Language Understanding",
+    "published": "2020/09/07"
+  },
+  {
+    "url": "https://arxiv.org/abs/2010.03768",
+    "checked_at": "2026-10-08T16:53:14.339015+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "ddea1d56c39dd15f356f6f33c393ac52a70e9d2b1a9ef721519216f1cfc60967",
+    "title": "ALFWorld: Aligning Text and Embodied Environments for Interactive Learning",
+    "published": "2020/10/08"
+  },
+  {
+    "url": "https://arxiv.org/abs/2107.03374",
+    "checked_at": "2026-10-08T16:53:17.041003+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "a3c4f548b0712ae6efeb3a4af3ebce52a8296274c35cf293fef8ca28d04fbd15",
+    "title": "Evaluating Large Language Models Trained on Code",
+    "published": "2021/07/07"
+  },
+  {
+    "url": "https://arxiv.org/abs/2207.01206",
+    "checked_at": "2026-10-08T16:53:16.058007+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "d532e3ac4b424e9313c1e503adc51ad5da6835003bbc657ae4742850a430d8a0",
+    "title": "WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents",
+    "published": "2022/07/04"
+  },
+  {
+    "url": "https://arxiv.org/abs/2307.13854",
+    "checked_at": "2026-10-08T16:53:15.028012+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "0b4da71dfd2bee8c145a946e171e2774d3fbb8de5fc07dbe83dae0a3ba7691ea",
+    "title": "WebArena: A Realistic Web Environment for Building Autonomous Agents",
+    "published": "2023/07/25"
+  },
+  {
+    "url": "https://arxiv.org/abs/2308.03688",
+    "checked_at": "2026-10-08T16:53:14.358015+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "22e40fdd7063a73e52408054c0a3b3930d1bbfb428a23ad602f7acbe265ade8d",
+    "title": "AgentBench: Evaluating LLMs as Agents",
+    "published": "2023/08/07"
+  },
+  {
+    "url": "https://arxiv.org/abs/2310.06770",
+    "checked_at": "2026-10-08T16:53:14.926013+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "cd170cab3a56f891ee94070d5748d923685f2a84a91201d6336a221436fd0f9f",
+    "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+    "published": "2023/10/10"
+  },
+  {
+    "url": "https://arxiv.org/abs/2311.12983",
+    "checked_at": "2026-10-08T16:53:15.252011+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "fcebc315ea72ccad1c615e354c5218f6d34ef6ad1d5bfa0fafc15b04fa435e9e",
+    "title": "GAIA: a benchmark for General AI Assistants",
+    "published": "2023/11/21"
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.07972",
+    "checked_at": "2026-10-08T16:53:15.562010+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "b647fbf05a6cf37e69afee5ab99152ca57d1af31020cc33a65d1d27a2fe34ede",
+    "title": "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
+    "published": "2024/04/11"
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.12045",
+    "checked_at": "2026-10-08T16:53:15.582010+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "d82d45164e1bc9743a8d56201542a17d023b151d510f04aa024b6af25bd07ad3",
+    "title": "$\\tau$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+    "published": "2024/06/17"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.08964",
+    "checked_at": "2026-10-08T16:47:04.507714+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "fa10d5fe7b95b82510da7d2d3e3e8b3d0a92dffd3854354e4b54e54e49c90529",
+    "title": "Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading",
+    "published": "2026/07/09"
+  },
+  {
+    "url": "https://arxiv.org/abs/2608.10875",
+    "checked_at": "2026-10-08T16:47:04.541714+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "f7d4423b54d944b04b67126b482ba4d459d1a9cdeca2eb7f498e0e2944a1f19e",
+    "title": "VibeLifeBench: Can Your Life Agent Be Proactive and Persistent in a Living World?",
+    "published": "2026/08/11"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.24965",
+    "checked_at": "2026-10-08T16:47:02.211725+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "b7a54cb58b368c6accaea758bb654f2967cd4d374e3b5d6f1b9d29e96dc0b6f9",
+    "title": "Jev for Scientific Decisions: Evaluating Semantic Choices and Their Consequences",
+    "published": "2026/09/21"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.25845",
+    "checked_at": "2026-10-08T16:47:02.143725+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "2853c3d1a7c88d91be6958f729038930e1363358391ed9de6f724a1309816dec",
+    "title": "Visual Jev: Accurate and Efficient Decisions from Shared Visual Context",
+    "published": "2026/09/22"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.26532",
+    "checked_at": "2026-10-08T16:47:02.194725+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "2ccba62fb32d529c1947c11b87ff7b657cdedab3bf3b18fdcdfa555839e43356",
+    "title": "REFLEX with Jev for Efficient Selective Control in LLM Agents",
+    "published": "2026/09/22"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.26550",
+    "checked_at": "2026-10-08T16:47:03.327720+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "5b6bc290fa0e6c50ce01740ea34871bcaa027a8a8fec7d7b503c93476a0494ee",
+    "title": "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure",
+    "published": "2026/09/22"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.29769",
+    "checked_at": "2026-10-08T16:47:02.754722+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "0a4286d2b01681f0d095c76fc6812d3bd1e7f6b37d9491200e2b8f7a28d244d2",
+    "title": "JEV vs. LLMs as Rubric Judges: Cheaper, Faster, and Wrong in the Same Places",
+    "published": "2026/09/24"
+  }
+]

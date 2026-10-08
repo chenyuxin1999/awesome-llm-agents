@@ -1,0 +1,731 @@
+[
+  {
+    "url": "https://export.arxiv.org/api/query?search_query=ti%3Asurvey+AND+%28all%3A%22long-horizon%22+OR+all%3A%22long+horizon%22%29&sortBy=submittedDate&sortOrder=descending&max_results=20",
+    "query": "ti:survey AND (all:\"long-horizon\" OR all:\"long horizon\")",
+    "checked_at": "2026-10-08T12:45:11.945950+00:00",
+    "status": "metadata_fetched",
+    "sha256": "a47e352f69c3ff236bd945c35dd84aec53aa7927567a2853d154aeabbc2ba38d",
+    "entries": [
+      {
+        "id": "http://arxiv.org/abs/2610.00812v1",
+        "published": "2026-09-30T23:13:08Z",
+        "updated": "2026-09-30T23:13:08Z",
+        "title": "Video Generation Models: A Survey of Post-Training and Alignment",
+        "summary": "Video generation has rapidly progressed from short, low-quality clips to high-resolution, long-duration sequences with complex spatiotemporal dynamics. Despite strong generative priors learned through large-scale pretraining, pretrained video models often fail to reliably follow human intent, maintain temporal coherence, or satisfy physical and safety constraints. Compared with image and text generation, alignment in video generation presents unique challenges, including error accumulation over time, motion-appearance coupling, multi-objective trade-offs, and limited supervision for temporal properties. These challenges motivate systematic post-training strategies that adapt pretrained models without retraining them from scratch. In this survey, we present the first comprehensive review of post-training and alignment in video generation models. We frame post-training as a unifying framework and distinguish between implicit alignment and explicit alignment based on how alignment signals are enforced. From this perspective, we organize existing approaches into four broad categories: supervised fine-tuning methods, self-training and distillation methods, preference- and reward-based methods, and inference-time methods. This taxonomy provides a coherent view of how alignment signals shape model behavior across both training and deployment. Beyond methodological advances, we review commonly used datasets, benchmarks, and evaluation practices, and discuss open challenges such as scalable reward design, long-horizon temporal consistency, stability-expressiveness trade-offs, and safety-aware generation. This survey aims to provide a structured conceptual foundation and practical guidance for advancing controllable and reliable video generation models.",
+        "url": "https://arxiv.org/abs/2610.00812v1",
+        "checked_at": "2026-10-08T12:45:11.945950+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2609.16074v1",
+        "published": "2026-09-13T16:35:56Z",
+        "updated": "2026-09-13T16:35:56Z",
+        "title": "World-Action Models for Robot Learning and Control: A Survey",
+        "summary": "Robots operating in open environments act under partial observability, physical constraints, and dynamic task contexts. Beyond mapping observations and language instructions to actions, they must anticipate how candidate actions may affect future states and task-relevant outcomes. Recent advances in world models, video generation, and Vision-Language-Action (VLA) policies have motivated the development of World-Action Models (WAMs), which couple future world prediction with executable action generation. This survey provides a robotics-oriented review of WAMs. We clarify their scope relative to conventional world models, model-based reinforcement learning, action-conditioned video generation, and reactive VLA policies, and organize existing methods through a unified taxonomy covering representations, transition modeling, action interfaces, architectures, training pipelines, data modalities, and scaling strategies. We further review applications of WAMs in manipulation, navigation, and autonomous driving, and we summarize the datasets, benchmarks, metrics, and protocols used to evaluate WAM systems. Finally, we discuss key challenges in action alignment, world-action factorization, spatial and multi-view consistency, long-horizon memory, neural simulation for closed-loop policy learning, and efficient inference. Taken together, this survey aims to provide a concise technical foundation for integrating predictive world modeling with action generation, toward more reliable embodied robot intelligence. Project page: https://rcl-robotics.github.io/Awesome-World-Action-Models.",
+        "url": "https://arxiv.org/abs/2609.16074v1",
+        "checked_at": "2026-10-08T12:45:11.945950+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2609.12012v1",
+        "published": "2026-09-10T06:20:22Z",
+        "updated": "2026-09-10T06:20:22Z",
+        "title": "Test-Driven Approaches to Software Engineering with Large Language Models: A Survey of Phases, Tasks, and Agent Skills",
+        "summary": "Tests increasingly participate in the decisions made by large language models and software engineering agents. They specify intended behavior, guide program construction and repair, select candidates, constrain transformations, and provide execution evidence for software analysis. These uses draw on test-driven development, yet differ substantially in test order, oracle availability, editable artifacts, and the role of execution. We present a structured scoping survey organized around the question of what decision a test changes. The review integrates 87 research and supporting records, with method- or protocol-level extraction for 83 records, alongside a separate collection of five practice resources. We distinguish the Red--Green--Refactor cycle from test-conditioned generation, execution-guided refinement, test-mediated analysis, and evaluation-only testing. We then compare code generation, repair, translation, refactoring, clone detection, code search, localization, training-data construction, and formal-specification validation. A dedicated analysis examines how agent workflows and reusable skills encode testing procedures and how their effects are evaluated. Across these tasks, the evidence supports treating test availability, test validity, feedback use, and evaluation independence as separate properties. Test passing alone does not establish behavioral equivalence, effective feedback, or process adherence; aggregate improvements can also conceal different outcomes across models, tasks, and denominators. We synthesize these distinctions into a mechanism taxonomy, a cross-task comparison, and a protocol-sensitive evidence analysis, and identify research directions in oracle validation, causal evaluation, long-horizon maintenance, and reusable test-driven agent capabilities",
+        "url": "https://arxiv.org/abs/2609.12012v1",
+        "checked_at": "2026-10-08T12:45:11.945950+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2608.29596v2",
+        "published": "2026-08-30T06:36:42Z",
+        "updated": "2026-09-28T17:25:01Z",
+        "title": "A Systematic Survey of Agentic Skills: Architecture, Lifecycle, and Security",
+        "summary": "Autonomous large language model (LLM) agents increasingly face reliability, context consumption, and execution stability bottlenecks when deployed on complex, long-horizon tasks. While monolithic prompt engineering and stateless tool-calling paradigms struggle to scale, the field is rapidly converging toward \\emph{agentic skills}: modular procedural abstractions that externalize execution knowledge into reusable, executable, and portable artifacts. This paper establishes a unified systems foundation and reference architecture for the agentic skills ecosystem. We formalize skills as externalized procedural knowledge bridging high-level cognitive planning with deterministic execution environments, and systematically delineate the architecture across a nine-stage lifecycle: autonomous discovery, authoring and representation formats, memory storage, dynamic retrieval and routing, composition and orchestration, execution and repair, lifelong adaptation, empirical evaluation, and security governance. We further examine marketplace dynamics, public registries, and emerging adversarial threat vectors, alongside runtime verification and defense mechanisms. Finally, we categorize system implementations across software engineering, operating system navigation, embodied robotics, and scientific discovery, while highlighting critical open challenges in continual learning and benchmark realism. This work establishes agentic skills as a foundational paradigm for building scalable, robust, and verifiable autonomous language agents.",
+        "url": "https://arxiv.org/abs/2608.29596v2",
+        "checked_at": "2026-10-08T12:45:11.945950+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2606.31639v1",
+        "published": "2026-06-30T13:21:43Z",
+        "updated": "2026-06-30T13:21:43Z",
+        "title": "A Lifecycle and Application-Stack Survey of Large Language Model Vulnerabilities: Attacks, Risks, Defenses, and Open Problems",
+        "summary": "Large language models are no longer only text generators. They are increasingly embedded in retrieval pipelines, enterprise assistants, coding environments, robotic systems, security-operation workflows, and autonomous agents that can read private data, call tools, write files, execute code, and act across organizational boundaries. This shift changes the security problem: risks do not arise from the model weights alone, but from the full lifecycle and application stack through which data, prompts, model outputs, tools, memories, and user authority interact. This paper systematizes the literature on vulnerabilities in large language model systems through a lifecycle and application-stack lens. We organize attacks across eight stages: data collection, pretraining, post-training alignment, model packaging and supply chain, retrieval and memory, prompting and inference, tool/agent execution, and deployment/maintenance. For each stage, we analyze attacker capabilities, affected security objectives, representative attacks, practical risks, evaluation practices, and defenses. We further map LLM-specific vulnerabilities to confidentiality, integrity, availability, safety, privacy, fairness, accountability, and agency-control objectives. Unlike taxonomies that list isolated attack names, the proposed systematization emphasizes where trust boundaries fail, how untrusted data becomes executable instruction, how delegated authority amplifies model errors, and why point defenses rarely compose. We close with a research agenda for secure LLM systems, including compositional security, provenance-aware retrieval, tool-call containment, long-horizon agent evaluation, privacy-preserving adaptation, realistic red teaming, and deployment-grade incident response.",
+        "url": "https://arxiv.org/abs/2606.31639v1",
+        "checked_at": "2026-10-08T12:45:11.945950+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2606.20683v1",
+        "published": "2026-06-14T05:40:16Z",
+        "updated": "2026-06-14T05:40:16Z",
+        "title": "From Question Answering to Task Completion: A Survey on Agent System and Harness Design",
+        "summary": "LLM-based agents mark a shift from passive question answering to active task completion: they perceive environments, invoke tools, maintain state, and act over extended horizons. As agent systems have evolved from prompt engineering to workflows and context engineering, harness engineering, and agent-native training with co-evolution, a central question has become increasingly important: where does the bottleneck in agent performance reside, in the foundation model, in the execution harness, or in the coupling between them? This survey examines LLM-based agents through a model-harness lens. We first clarify the functional definition of agents and the implementation view of an LLM-based agent as a foundation model coupled with an execution harness. We then analyze the limits of model-centric scaling, trace four paradigms of agent engineering, and decompose the execution harness into six coupled runtime responsibilities: observation, context, control, action, state, and verification. Using this decomposition, we map task properties and domain pressures to harness configurations, review benchmark and evaluation practices, and synthesize model-harness evidence on how runtime design affects long-horizon task completion, efficiency, and reliability. Finally, we identify open challenges in value-aware evaluation, safety, harness generalization, and model-harness co-evolution. Rather than treating agents as models with auxiliary tools, this survey argues that agent quality -- including success, efficiency, safety, and generalization -- emerges from the interaction between model capability, runtime infrastructure, task structure, and evaluation design. A collection of papers discussed in this survey is provided in https://github.com/ggjy/Awesome-Agent-Engineering.",
+        "url": "https://arxiv.org/abs/2606.20683v1",
+        "checked_at": "2026-10-08T12:45:11.945950+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2605.23989v1",
+        "published": "2026-05-17T10:26:37Z",
+        "updated": "2026-05-17T10:26:37Z",
+        "title": "Towards trustworthy agentic AI: a comprehensive survey of safety, robustness, privacy, and system security",
+        "summary": "Agentic AI systems -- Large Language Models (LLMs) augmented with planning, tool use, memory, and long-horizon interactions -- can execute complex tasks autonomously, but their multi-step trajectories introduce new failure modes that challenge trustworthiness. This survey provides a focused examination of trustworthy agentic AI through two core dimensions that are critical for high-risk deployments: Safety and Robustness, and Privacy and System Security. For each dimension, we clarify key concepts, identify where risks emerge along the agent workflow, and summarize stage-targeted mitigation strategies. Other trustworthiness aspects (value alignment, transparency, fairness, and accountability) are discussed as relevant context rather than parallel chapters. To support consistent comparison and deployment decisions, we consolidate evaluation into a unified metrics-and-benchmarks hub, emphasizing both outcome and process signals (e.g., constraint violations, trace completeness, and adversarial success rates) and offering scenario-to-metric guidance for release gating. We conclude by outlining open challenges such as self-evolving agents, runtime monitoring and verification, privacy-preserving personalization, and the trust-utility trade-off, and present a case study of real-world security failures in open-source agentic systems. Our goal is to serve as a practical reference for researchers and practitioners building trustworthy agentic systems in high-stakes environments.",
+        "url": "https://arxiv.org/abs/2605.23989v1",
+        "checked_at": "2026-10-08T12:45:11.945950+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2604.23338v2",
+        "published": "2026-04-25T14:57:15Z",
+        "updated": "2026-05-06T17:17:02Z",
+        "title": "A Systematic Survey of Security Threats and Defenses in LLM-Based AI Agents: A Layered Attack Surface Framework",
+        "summary": "Agentic AI systems introduce a security surface that is qualitatively different from that of stateless LLMs. They persist memory, invoke external tools, coordinate with peer agents, and operate across sessions, allowing attacks to emerge not only at the prompt interface but also through architectural state, delegated authority, and long-horizon interactions. Existing security taxonomies, however, primarily organize threats by attack type, such as prompt injection or jailbreaking, and therefore obscure where in the agentic stack a threat arises and over what timescale it manifests. We propose the Layered Attack Surface Model (\\lasm), a structural taxonomy for agentic AI security. \\lasm decomposes the agentic stack into seven layers -- Foundation, Cognitive, Memory, Tool Execution, Multi-Agent Coordination, Ecosystem, and Governance -- and augments them with a four-class temporality axis covering instantaneous, session-persistent, cross-session cumulative, and sub-session-stack threats. We use this 7$\\times$4 framework to analyze 116 papers from 2021--2026. The resulting map reveals that the upper layers of the agentic stack remain sharply under-explored, especially for long-horizon and stack-propagating threats; multiple documented attack regions have no corresponding defenses; and current benchmarks provide no coverage for cross-session or sub-session-stack failure modes. We further derive a cross-layer defense taxonomy, defense recipes for canonical attack classes, and a dependency DAG that separates near-term engineering gaps from fundamental research challenges. We release the per-paper coding, robustness scripts, and a reference Agent Bill of Materials schema to support reproducible analysis.",
+        "url": "https://arxiv.org/abs/2604.23338v2",
+        "checked_at": "2026-10-08T12:45:11.945950+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2604.23001v1",
+        "published": "2026-04-24T20:41:59Z",
+        "updated": "2026-04-24T20:41:59Z",
+        "title": "Vision-Language-Action in Robotics: A Survey of Datasets, Benchmarks, and Data Engines",
+        "summary": "Despite remarkable progress in Vision--Language--Action (VLA) models, a central bottleneck remains underexamined: the data infrastructure that underlies embodied learning. In this survey, we argue that future advances in VLA will depend less on model architecture and more on the co-design of high-fidelity data engines and structured evaluation protocols. To this end, we present a systematic, data-centric analysis of VLA research organized around three pillars: datasets, benchmarks, and data engines. For datasets, we categorize real-world and synthetic corpora along embodiment diversity, modality composition, and action space formulation, revealing a persistent fidelity-cost trade-off that fundamentally constrains large-scale collection. For benchmarks, we analyze task complexity and environment structure jointly, exposing structural gaps in compositional generalization and long-horizon reasoning evaluation that existing protocols fail to address. For data engines, we examine simulation-based, video-reconstruction, and automated task-generation paradigms, identifying their shared limitations in physical grounding and sim-to-real transfer. Synthesizing these analyses, we distill four open challenges: representation alignment, multimodal supervision, reasoning assessment, and scalable data generation. Addressing them, we argue, requires treating data infrastructure as a first-class research problem rather than a background concern.",
+        "url": "https://arxiv.org/abs/2604.23001v1",
+        "checked_at": "2026-10-08T12:45:11.945950+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2602.04071v1",
+        "published": "2026-02-03T23:14:25Z",
+        "updated": "2026-02-03T23:14:25Z",
+        "title": "Agentic AI-Empowered Dynamic Survey Framework",
+        "summary": "Survey papers play a central role in synthesizing and organizing scientific knowledge, yet they are increasingly strained by the rapid growth of research output. As new work continues to appear after publication, surveys quickly become outdated, contributing to redundancy and fragmentation in the literature. We reframe survey writing as a long-horizon maintenance problem rather than a one-time generation task, treating surveys as living documents that evolve alongside the research they describe. We propose an agentic Dynamic Survey Framework that supports the continuous updating of existing survey papers by incrementally integrating new work while preserving survey structure and minimizing unnecessary disruption. Using a retrospective experimental setup, we demonstrate that the proposed framework effectively identifies and incorporates emerging research while preserving the coherence and structure of existing surveys.",
+        "url": "https://arxiv.org/abs/2602.04071v1",
+        "checked_at": "2026-10-08T12:45:11.945950+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2601.12538v2",
+        "published": "2026-01-18T18:58:23Z",
+        "updated": "2026-09-20T19:16:30Z",
+        "title": "A Survey of Agentic Reasoning for Large Language Models: Towards Recursively Self-Improving and Collective Agents",
+        "summary": "Reasoning is a fundamental cognitive process underlying inference, problem-solving, and decision-making. While large language models (LLMs) demonstrate strong reasoning capabilities in closed-world settings, they struggle in open-ended and dynamic environments. Agentic reasoning marks a paradigm shift by reframing LLMs as autonomous agents that plan, act, and learn through continual interaction. In this survey, we organize agentic reasoning along three complementary dimensions. First, we characterize environmental dynamics through three layers: foundational agentic reasoning, which establishes core single-agent capabilities including planning, tool use, and search in stable environments; self-evolving agentic reasoning, which studies how agents refine these capabilities through feedback, memory, and adaptation; and collective multi-agent reasoning, which extends intelligence to collaborative settings involving coordination, knowledge sharing, and shared goals. Across these layers, we distinguish in-context reasoning, which scales test-time interaction through structured orchestration, from post-training reasoning, which optimizes behaviors via reinforcement learning and supervised fine-tuning. We further review representative agentic reasoning frameworks across real-world applications and benchmarks, including science, robotics, healthcare, autonomous research, and mathematics. This survey synthesizes agentic reasoning methods into a unified roadmap bridging thought and action, and outlines open challenges and future directions, including personalization, long-horizon interaction, world modeling, scalable multi-agent training, and governance for real-world deployment.",
+        "url": "https://arxiv.org/abs/2601.12538v2",
+        "checked_at": "2026-10-08T12:45:11.945950+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2602.06052v4",
+        "published": "2026-01-14T07:38:38Z",
+        "updated": "2026-08-04T20:54:45Z",
+        "title": "A Survey of Agent Memory in the Second Half: Towards Self-Evolving and Long-Horizon Agents",
+        "summary": "Research in artificial intelligence is shifting from model innovations and benchmark scores towards problem definition and rigorous real-world evaluation. As the field enters the \"second half,\" the central challenge becomes real utility in long-horizon, dynamic, and user-dependent settings such as agentic coding, deep research, and computer use, where LLM-based agents face context explosion beyond fixed context windows and must continuously accumulate, manage, and selectively reuse information across extended interactions. Memory, with hundreds of papers released in 2025, therefore emerges as the critical solution to fill this utility gap. Beyond passive storage, memory is increasingly the substrate through which agents self-evolve: short-term memory gates which experiences are perceived and abstracted during execution, while long-term memory consolidates them into reusable knowledge and skills, forming the loop through which agents improve from their own experience. In this survey, we provide a unified view of foundation agent memory along three dimensions: memory substrate (internal parametric state and external retrieval-augmented stores), cognitive mechanism (sensory, working, episodic, semantic, and procedural), and memory subject (user-centric personalization and agent-centric experience). We then analyze how memory is operated under single- and multi-agent topologies and highlight learning policies over memory operations, showing how memory management itself is becoming a trainable capability spanning reinforcement-learned context curation, experience consolidation at decision time, and the emerging ecosystem of portable, shareable agent skills. Finally, we review evaluation benchmarks and metrics for memory utility, and outline open challenges and future directions.",
+        "url": "https://arxiv.org/abs/2602.06052v4",
+        "checked_at": "2026-10-08T12:45:11.945950+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2512.22256v2",
+        "published": "2025-12-24T08:05:10Z",
+        "updated": "2026-08-06T05:17:26Z",
+        "title": "Agentic Software Issue Resolution with Large Language Models: A Survey",
+        "summary": "Software issue resolution aims to address real-world issues in software repositories based on natural language descriptions provided by users, and represents a key aspect of software maintenance. With the rapid development of large language models (LLMs) in reasoning and generation, LLM-based approaches have made significant progress in automated software issue resolution. However, resolving real-world software issues is inherently complex and requires long-horizon reasoning, iterative exploration, and feedback-driven decision-making, which demand agentic capabilities beyond conventional single-step approaches. Recently, LLM-based agentic systems have emerged as a promising research direction for software issue resolution, accompanied by rapid growth in the relevant literature. Advances in agentic software issue resolution can not only greatly improve the efficiency and quality of software maintenance, but also provide a realistic environment for evaluating the reasoning, planning, and execution capabilities of agentic systems, thereby bridging artificial intelligence and software engineering. This work presents a systematic survey of 242 recent studies at the forefront of research on LLM-based agentic software issue resolution. It outlines the general workflow of the task and establishes a taxonomy across three dimensions: benchmarks, techniques, and empirical studies. Furthermore, it highlights reinforcement learning as an increasingly important training paradigm for agentic systems in software engineering. Finally, it summarizes key challenges and outlines promising directions for future research.",
+        "url": "https://arxiv.org/abs/2512.22256v2",
+        "checked_at": "2026-10-08T12:45:11.945950+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2510.16732v3",
+        "published": "2025-10-19T07:12:32Z",
+        "updated": "2026-06-25T19:54:02Z",
+        "title": "A Comprehensive Survey on World Models for Embodied AI",
+        "summary": "Embodied AI requires agents that perceive, act, and anticipate how actions reshape future world states. World models serve as internal simulators that capture environment dynamics, enabling forward and counterfactual rollouts to support perception, prediction, and decision making. This survey presents a unified framework for world models in embodied AI. Specifically, we formalize the problem setting and learning objectives, and propose a three-axis taxonomy encompassing: (1) Functionality, Decision-Coupled vs. General-Purpose; (2) Temporal Modeling, Sequential Simulation and Inference vs. Global Difference Prediction; (3) Spatial Representation, Global Latent Vector, Token Feature Sequence, Spatial Latent Grid, and Decomposed Rendering Representation. We systematize data resources and metrics across robotics, autonomous driving, and general video settings, covering pixel prediction quality, state-level understanding, and task performance. Furthermore, we offer a quantitative comparison of state-of-the-art models and distill key open challenges, including the scarcity of unified datasets and the need for evaluation metrics that assess physical consistency over pixel fidelity, the trade-off between model performance and the computational efficiency required for real-time control, and the core modeling difficulty of achieving long-horizon temporal consistency while mitigating error accumulation. Finally, we maintain a curated bibliography at https://github.com/Li-Zn-H/AwesomeWorldModels.",
+        "url": "https://arxiv.org/abs/2510.16732v3",
+        "checked_at": "2026-10-08T12:45:11.945950+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2510.16720v2",
+        "published": "2025-10-19T05:23:43Z",
+        "updated": "2025-10-26T09:00:38Z",
+        "title": "Beyond Pipelines: A Survey of the Paradigm Shift toward Model-Native Agentic AI",
+        "summary": "The rapid evolution of agentic AI marks a new phase in artificial intelligence, where Large Language Models (LLMs) no longer merely respond but act, reason, and adapt. This survey traces the paradigm shift in building agentic AI: from Pipeline-based systems, where planning, tool use, and memory are orchestrated by external logic, to the emerging Model-native paradigm, where these capabilities are internalized within the model's parameters. We first position Reinforcement Learning (RL) as the algorithmic engine enabling this paradigm shift. By reframing learning from imitating static data to outcome-driven exploration, RL underpins a unified solution of LLM + RL + Task across language, vision and embodied domains. Building on this, the survey systematically reviews how each capability -- Planning, Tool use, and Memory -- has evolved from externally scripted modules to end-to-end learned behaviors. Furthermore, it examines how this paradigm shift has reshaped major agent applications, specifically the Deep Research agent emphasizing long-horizon reasoning and the GUI agent emphasizing embodied interaction. We conclude by discussing the continued internalization of agentic capabilities like Multi-agent collaboration and Reflection, alongside the evolving roles of the system and model layers in future agentic AI. Together, these developments outline a coherent trajectory toward model-native agentic AI as an integrated learning and interaction framework, marking the transition from constructing systems that apply intelligence to developing models that grow intelligence through experience.",
+        "url": "https://arxiv.org/abs/2510.16720v2",
+        "checked_at": "2026-10-08T12:45:11.945950+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2510.10991v1",
+        "published": "2025-10-13T04:07:01Z",
+        "updated": "2025-10-13T04:07:01Z",
+        "title": "A Survey on Agentic Multimodal Large Language Models",
+        "summary": "With the recent emergence of revolutionary autonomous agentic systems, research community is witnessing a significant shift from traditional static, passive, and domain-specific AI agents toward more dynamic, proactive, and generalizable agentic AI. Motivated by the growing interest in agentic AI and its potential trajectory toward AGI, we present a comprehensive survey on Agentic Multimodal Large Language Models (Agentic MLLMs). In this survey, we explore the emerging paradigm of agentic MLLMs, delineating their conceptual foundations and distinguishing characteristics from conventional MLLM-based agents. We establish a conceptual framework that organizes agentic MLLMs along three fundamental dimensions: (i) Agentic internal intelligence functions as the system's commander, enabling accurate long-horizon planning through reasoning, reflection, and memory; (ii) Agentic external tool invocation, whereby models proactively use various external tools to extend their problem-solving capabilities beyond their intrinsic knowledge; and (iii) Agentic environment interaction further situates models within virtual or physical environments, allowing them to take actions, adapt strategies, and sustain goal-directed behavior in dynamic real-world scenarios. To further accelerate research in this area for the community, we compile open-source training frameworks, training and evaluation datasets for developing agentic MLLMs. Finally, we review the downstream applications of agentic MLLMs and outline future research directions for this rapidly evolving field. To continuously track developments in this rapidly evolving field, we will also actively update a public repository at https://github.com/HJYao00/Awesome-Agentic-MLLMs.",
+        "url": "https://arxiv.org/abs/2510.10991v1",
+        "checked_at": "2026-10-08T12:45:11.945950+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2510.03847v1",
+        "published": "2025-10-04T15:48:04Z",
+        "updated": "2025-10-04T15:48:04Z",
+        "title": "Small Language Models for Agentic Systems: A Survey of Architectures, Capabilities, and Deployment Trade offs",
+        "summary": "Small language models (SLMs; 1-12B params, sometimes up to 20B) are sufficient and often superior for agentic workloads where the objective is schema- and API-constrained accuracy rather than open-ended generation. We synthesize recent evidence across open and proprietary SLMs (Phi-4-Mini, Qwen-2.5-7B, Gemma-2-9B, Llama-3.2-1B/3B, Ministral-3B/8B, Apple on-device 3B, DeepSeek-R1-Distill) and connect it to modern evaluations (BFCL v3/v4, StableToolBench) and serving stacks (vLLM, SGLang, TensorRT-LLM) paired with guided decoding libraries (XGrammar, Outlines). We formalize SLM-default, LLM-fallback systems with uncertainty-aware routing and verifier cascades, and propose engineering metrics that reflect real production goals: cost per successful task (CPS), schema validity rate, executable call rate, p50/p95 latency, and energy per request. Guided decoding, strict JSON Schema outputs, and validator-first tool execution close much of the capability gap with larger models and often let SLMs match or surpass LLMs on tool use, function calling, and RAG at 10x-100x lower token cost with materially better latency and energy. We provide design patterns for agent stacks that prioritize SLMs: schema-first prompting, type-safe function registries, confidence scoring with verifier rollups, and lightweight adaptation via LoRA/QLoRA. We also delineate limits where fallback remains valuable (open-domain reasoning and some long-horizon planning). The result is a practical blueprint for building fast, inexpensive, and reliable agents that default to SLMs while preserving headroom with targeted LLM assistance. Keywords: small language models, agents, function calling, structured outputs, JSON Schema, guided decoding, LoRA/QLoRA, routing, energy efficiency, edge inference",
+        "url": "https://arxiv.org/abs/2510.03847v1",
+        "checked_at": "2026-10-08T12:45:11.945950+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2509.11575v3",
+        "published": "2025-09-15T04:39:50Z",
+        "updated": "2026-06-10T07:42:17Z",
+        "title": "A Survey of Reasoning and Agentic Systems in Time Series with Large Language Models",
+        "summary": "Time series reasoning treats time as a first-class axis and incorporates intermediate evidence directly into the answer. This survey defines the problem and organizes the literature by reasoning topology with three families: direct reasoning in one step, linear chain reasoning with explicit intermediates, and branch-structured reasoning that explores, revises, and aggregates. The topology is crossed with the main objectives of the field, including traditional time series analysis, explanation and understanding, causal inference and decision making, and time series generation, while a compact tag set spans these axes and captures decomposition and verification, ensembling, tool use, knowledge access, multimodality, agent loops, and LLM alignment regimes. Methods and systems are reviewed across domains, showing what each topology enables and where it breaks down in faithfulness or robustness, along with curated datasets, benchmarks, and resources that support study and deployment (https://github.com/blacksnail789521/Time-Series-Reasoning-Survey). Evaluation practices that keep evidence visible and temporally aligned are highlighted, and guidance is distilled on matching topology to uncertainty, grounding with observable artifacts, planning for shift and streaming, and treating cost and latency as design budgets. We emphasize that reasoning structures must balance capacity for grounding and self-correction against computational cost and reproducibility, while future progress will likely depend on benchmarks that tie reasoning quality to utility and on closed-loop testbeds that trade off cost and risk under shift-aware, streaming, and long-horizon settings. Taken together, these directions mark a shift from narrow accuracy toward reliability at scale, enabling systems that not only analyze but also understand, explain, and act on dynamic worlds with traceable evidence and credible outcomes.",
+        "url": "https://arxiv.org/abs/2509.11575v3",
+        "checked_at": "2026-10-08T12:45:11.945950+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2509.06733v2",
+        "published": "2025-09-08T14:27:23Z",
+        "updated": "2025-11-05T15:14:29Z",
+        "title": "Reinforcement Learning Foundations for Deep Research Systems: A Survey",
+        "summary": "Deep research systems, agentic AI that solve complex, multi-step tasks by coordinating reasoning, search across the open web and user files, and tool use, are moving toward hierarchical deployments with a Planner, Coordinator, and Executors. In practice, training entire stacks end-to-end remains impractical, so most work trains a single planner connected to core tools such as search, browsing, and code. While SFT imparts protocol fidelity, it suffers from imitation and exposure biases and underuses environment feedback. Preference alignment methods such as DPO are schema and proxy-dependent, off-policy, and weak for long-horizon credit assignment and multi-objective trade-offs. A further limitation of SFT and DPO is their reliance on human defined decision points and subskills through schema design and labeled comparisons. Reinforcement learning aligns with closed-loop, tool-interaction research by optimizing trajectory-level policies, enabling exploration, recovery behaviors, and principled credit assignment, and it reduces dependence on such human priors and rater biases. This survey is, to our knowledge, the first dedicated to the RL foundations of deep research systems. It systematizes recent work along three axes: (i) data synthesis and curation; (ii) RL methods for agentic research covering stability, sample efficiency, long context handling, reward and credit design, multi-objective optimization, and multimodal integration; and (iii) agentic RL training systems and frameworks. We also cover agent architecture and coordination, as well as evaluation and benchmarks, including recent QA, VQA, long-form synthesis, and domain-grounded, tool-interaction tasks. We distill recurring patterns, surface infrastructure bottlenecks, and offer practical guidance for training robust, transparent deep research agents with RL.",
+        "url": "https://arxiv.org/abs/2509.06733v2",
+        "checked_at": "2026-10-08T12:45:11.945950+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2507.21504v1",
+        "published": "2025-07-29T04:57:02Z",
+        "updated": "2025-07-29T04:57:02Z",
+        "title": "Evaluation and Benchmarking of LLM Agents: A Survey",
+        "summary": "The rise of LLM-based agents has opened new frontiers in AI applications, yet evaluating these agents remains a complex and underdeveloped area. This survey provides an in-depth overview of the emerging field of LLM agent evaluation, introducing a two-dimensional taxonomy that organizes existing work along (1) evaluation objectives -- what to evaluate, such as agent behavior, capabilities, reliability, and safety -- and (2) evaluation process -- how to evaluate, including interaction modes, datasets and benchmarks, metric computation methods, and tooling. In addition to taxonomy, we highlight enterprise-specific challenges, such as role-based access to data, the need for reliability guarantees, dynamic and long-horizon interactions, and compliance, which are often overlooked in current research. We also identify future research directions, including holistic, more realistic, and scalable evaluation. This work aims to bring clarity to the fragmented landscape of agent evaluation and provide a framework for systematic assessment, enabling researchers and practitioners to evaluate LLM agents for real-world deployment.",
+        "url": "https://arxiv.org/abs/2507.21504v1",
+        "checked_at": "2026-10-08T12:45:11.945950+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      }
+    ]
+  },
+  {
+    "url": "https://export.arxiv.org/api/query?search_query=ti%3Asurvey+AND+%28all%3A%22recursive+self-improvement%22+OR+all%3ARSI%29&sortBy=submittedDate&sortOrder=descending&max_results=20",
+    "query": "ti:survey AND (all:\"recursive self-improvement\" OR all:RSI)",
+    "checked_at": "2026-10-08T12:45:10.448872+00:00",
+    "status": "metadata_fetched",
+    "sha256": "3e1469fec3c6f5b5623420684cdf3b22f994398fa8bb3e4f5cd5a55fb86daf58",
+    "entries": [
+      {
+        "id": "http://arxiv.org/abs/2601.12538v2",
+        "published": "2026-01-18T18:58:23Z",
+        "updated": "2026-09-20T19:16:30Z",
+        "title": "A Survey of Agentic Reasoning for Large Language Models: Towards Recursively Self-Improving and Collective Agents",
+        "summary": "Reasoning is a fundamental cognitive process underlying inference, problem-solving, and decision-making. While large language models (LLMs) demonstrate strong reasoning capabilities in closed-world settings, they struggle in open-ended and dynamic environments. Agentic reasoning marks a paradigm shift by reframing LLMs as autonomous agents that plan, act, and learn through continual interaction. In this survey, we organize agentic reasoning along three complementary dimensions. First, we characterize environmental dynamics through three layers: foundational agentic reasoning, which establishes core single-agent capabilities including planning, tool use, and search in stable environments; self-evolving agentic reasoning, which studies how agents refine these capabilities through feedback, memory, and adaptation; and collective multi-agent reasoning, which extends intelligence to collaborative settings involving coordination, knowledge sharing, and shared goals. Across these layers, we distinguish in-context reasoning, which scales test-time interaction through structured orchestration, from post-training reasoning, which optimizes behaviors via reinforcement learning and supervised fine-tuning. We further review representative agentic reasoning frameworks across real-world applications and benchmarks, including science, robotics, healthcare, autonomous research, and mathematics. This survey synthesizes agentic reasoning methods into a unified roadmap bridging thought and action, and outlines open challenges and future directions, including personalization, long-horizon interaction, world modeling, scalable multi-agent training, and governance for real-world deployment.",
+        "url": "https://arxiv.org/abs/2601.12538v2",
+        "checked_at": "2026-10-08T12:45:10.448872+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2505.15147v3",
+        "published": "2025-05-21T06:02:57Z",
+        "updated": "2026-09-15T00:58:27Z",
+        "title": "From Pixels to Images: A Structural Survey of Deep Learning Paradigms in Remote Sensing Image Semantic Segmentation",
+        "summary": "Remote sensing images (RSIs) capture both natural and human-induced changes on the Earth's surface. Semantic segmentation (SS) of RSIs enables the fine-grained interpretation of surface features, making it a critical task in RS analysis. With the increasing diversity and volume of RSIs collected by sensors on various platforms, traditional processing methods struggle to maintain efficiency and accuracy. In response, deep learning (DL) has emerged as a transformative approach, enabling substantial advances in remote sensing image semantic segmentation (RSISS). As researchers continue to explore end-to-end SS, DL-based RSISS has undergone a structural evolution from pixel-level and patch-based classification to tile-level and image-level segmentation. However, existing reviews often focus on individual components, such as supervision strategies or fusion stages, and lack a unified operational perspective aligned with segmentation granularity and the training/inference pipeline. This paper provides a comprehensive review by organizing DL-based RSISS into a pixel-patch-tile-image hierarchy, covering early pixel-based methods, prevailing patch-based and tile-based techniques, and emerging image-based approaches. Specifically, the survey analyzes four supervision strategies, eleven feature extraction strategies, and six information fusion strategies, revealing the field's progression from local to global feature extraction, from traditional DL architectures to foundation models, and from unimodal to multimodal segmentation. This review offers a holistic and structured understanding of DL-based RSISS, highlighting representative datasets, comparative insights, and open challenges related to data scale, model efficiency, domain robustness, and multimodal integration. Furthermore, to facilitate reproducible research, curated code collections are provided at: https://github.com/quanweiliu/RSISS.",
+        "url": "https://arxiv.org/abs/2505.15147v3",
+        "checked_at": "2026-10-08T12:45:10.448872+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2502.02835v1",
+        "published": "2025-02-05T02:36:09Z",
+        "updated": "2025-02-05T02:36:09Z",
+        "title": "A Survey of Sample-Efficient Deep Learning for Change Detection in Remote Sensing: Tasks, Strategies, and Challenges",
+        "summary": "In the last decade, the rapid development of deep learning (DL) has made it possible to perform automatic, accurate, and robust Change Detection (CD) on large volumes of Remote Sensing Images (RSIs). However, despite advances in CD methods, their practical application in real-world contexts remains limited due to the diverse input data and the applicational context. For example, the collected RSIs can be time-series observations, and more informative results are required to indicate the time of change or the specific change category. Moreover, training a Deep Neural Network (DNN) requires a massive amount of training samples, whereas in many cases these samples are difficult to collect. To address these challenges, various specific CD methods have been developed considering different application scenarios and training resources. Additionally, recent advancements in image generation, self-supervision, and visual foundation models (VFMs) have opened up new approaches to address the 'data-hungry' issue of DL-based CD. The development of these methods in broader application scenarios requires further investigation and discussion. Therefore, this article summarizes the literature methods for different CD tasks and the available strategies and techniques to train and deploy DL-based CD methods in sample-limited scenarios. We expect that this survey can provide new insights and inspiration for researchers in this field to develop more effective CD methods that can be applied in a wider range of contexts.",
+        "url": "https://arxiv.org/abs/2502.02835v1",
+        "checked_at": "2026-10-08T12:45:10.448872+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      }
+    ]
+  },
+  {
+    "url": "https://export.arxiv.org/api/query?search_query=ti%3Asurvey+AND+%28all%3A%22self-evolving%22+OR+all%3A%22self-evolution%22+OR+all%3A%22self-improvement%22%29&sortBy=submittedDate&sortOrder=descending&max_results=20",
+    "query": "ti:survey AND (all:\"self-evolving\" OR all:\"self-evolution\" OR all:\"self-improvement\")",
+    "checked_at": "2026-10-08T12:45:10.504212+00:00",
+    "status": "metadata_fetched",
+    "sha256": "62b623a16b7974e7c6cdbd2bedb2af6d73c48e8f56c5ad1653ba656b287bfebf",
+    "entries": [
+      {
+        "id": "http://arxiv.org/abs/2610.00093v1",
+        "published": "2026-09-08T05:04:40Z",
+        "updated": "2026-09-08T05:04:40Z",
+        "title": "Safety in Self-Evolving Agents: A Survey",
+        "summary": "Large language models (LLMs) exhibit strong general capabilities, yet their parameters typically remain fixed after deployment, limiting learning from new interactions. In open-ended environments, this motivates self-evolving agents that continually update reusable state-including model parameters, memories, tool definitions, skills, and workflows-from data, feedback, and accumulated experience. This shift changes the safety problem: once experience becomes reusable state, past events become future causes, and information harmless in one context may later influence decisions with greater persistence, authority, or scope. Self-evolving agent safety therefore asks not only whether a response is aligned or an action authorized, but whether safety properties survive the accumulation, generalization, and cross-context reuse of locally useful experience. We introduce SAVER, a transition-centered framework in which Substrate locates reusable influence, Adaptation captures how it changes, Violation identifies compromised safety attributes, Exposure marks where failures become observable, and Response assesses containment, repair, or revocation. Our survey reveals that failures need not originate from harmful information: legitimate state can become unsafe when adaptation expands its persistence, authority, or scope beyond the conditions under which it was valid. Existing work provides comparatively strong evidence for admission, retrieval, activation, exposure, and local containment, but much less for descendant repair and evaluation after adaptation resumes. We therefore argue for longitudinal evaluation that traces unsafe influence to its originating transition, verifies repair across descendants, and tests whether it can re-emerge under continued evolution.",
+        "url": "https://arxiv.org/abs/2610.00093v1",
+        "checked_at": "2026-10-08T12:45:10.504212+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2609.01679v1",
+        "published": "2026-09-01T11:41:39Z",
+        "updated": "2026-09-01T11:41:39Z",
+        "title": "A Survey on Self-Improving Test-Time Intelligence: Feedback-Driven Adapting, Learning, and Scaling at Inference",
+        "summary": "The ability of AI systems to improve their behavior during deployment is becoming increasingly important. As inference moves beyond the static execution of a fixed trained model, a growing body of work studies how models can refine their behavior on the fly by exploiting test-time information and additional computation. These developments have largely evolved along two directions: methods that modify the model's state using test-time signals, and methods that improve predictions through extra inference-time resources such as more sampling and tool use. However, these directions are often studied in separate communities with different terminology, making their connections harder to see. In this survey, we present feedback-driven Test-Time Intelligence (TTI) as a unified perspective for understanding such deployment-time improvement. We use this view to relate test-time adaptation, test-time learning, and test-time scaling, highlighting both their distinctions and their growing overlap in hybrid systems. This unified framework helps connect previously fragmented ideas and provides a clearer conceptual foundation for studying inference-time self-improvement. We review major methodological paradigms, representative applications, and open challenges across vision, language, multimodal learning, generative models, robotics, and healthcare. Our goal is to provide a coherent foundation and research roadmap for the study of self-improving AI systems at test time.",
+        "url": "https://arxiv.org/abs/2609.01679v1",
+        "checked_at": "2026-10-08T12:45:10.504212+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2608.27505v2",
+        "published": "2026-08-27T05:21:07Z",
+        "updated": "2026-08-31T06:06:09Z",
+        "title": "A Survey on Rubric-Guided Reinforcement Learning for Language Models",
+        "summary": "Reinforcement learning from human feedback (RLHF) has become the dominant paradigm for aligning large language models (LLMs) with human preferences. However, traditional RLHF relies on scalar reward signals that lack interpretability and fail to capture the multifaceted nature of response quality. Rubric-guided reinforcement learning addresses these limitations by introducing structured, interpretable evaluation criteria, or rubrics, as the backbone of reward design, feedback generation, and policy optimization. In this survey, we introduce a Bayesian framework that defines constitutions as prior distributions $P(R)$ over evaluation criteria and rubrics as conditional instantiations $R_x \\sim P(R|x)$. Under this unified view, we present a taxonomy of rubric-guided RL along the prior-posterior axis, covering constitutional AI, instance-specific rubrics, process-level supervision, self-evolving rubrics, and their agentic and multimodal extensions. Furthermore, as rubrics are natural-language artifacts, we present a linguistic analysis of how granularity trade-offs, semantic drift, and linguistic reward hacking impact alignment reliability, identifying key open problems for future research.",
+        "url": "https://arxiv.org/abs/2608.27505v2",
+        "checked_at": "2026-10-08T12:45:10.504212+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2608.01851v1",
+        "published": "2026-08-03T07:58:35Z",
+        "updated": "2026-08-03T07:58:35Z",
+        "title": "Weights or Skills? A Survey of Robot-Learning Techniques: from Action-Predicting Weights to Robots that Write their Own Skills",
+        "summary": "Robot learning is splitting into two bets: policies that bake competence into frozen weights (vision-language-action, or VLA, models), and agents that write and refine their own executable skills as code. This survey organises the field around that axis of weights versus skills. Its central analytical contribution is a deep-dive that arranges code-as-policy methods by their degree of self-improvement, from zero-shot program synthesis, through closed-loop self-repair and persistent skill memory, to the sparsely populated cell in which execution feedback, skill memory, and evolutionary search combine into one open-ended loop; only a few very recent systems (for example ASPIRE, ENPIRE, and RoboClaw) occupy that cell. We map the complementary \"skills\" pole, from unsupervised reinforcement-learning skill discovery to large-language-model skill libraries, and show that the word \"skill\" is used in at least five distinct senses, of which only the code sense self-improves without gradient updates. We then connect the taxonomy to the emerging skill economy: commercial robot-skill marketplaces now distribute one-tap skills across robots but ship only static playback, which surfaces open problems of adaptation, cross-embodiment portability, provenance, safety verification, composition, and standardisation. This is a deliberately focused survey. Rather than cataloguing the field exhaustively, it examines 77 representative systems across six technique families through one taxonomy and a set of contrast tables, and it supplies operational definitions of the self-improvement mechanisms together with a statement of what each family cannot do.",
+        "url": "https://arxiv.org/abs/2608.01851v1",
+        "checked_at": "2026-10-08T12:45:10.504212+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2607.13104v1",
+        "published": "2026-07-14T09:12:57Z",
+        "updated": "2026-07-14T09:12:57Z",
+        "title": "Self-Improvements in Modern Agentic Systems: A Survey",
+        "summary": "Self-improving autonomous agents are moving from research prototypes to deployed systems. The primary goal is controllable evolution, or adaptation, from experience with minimal or even no human input. This survey frames modern self-improving agents as adaptive systems that convert experience into accumulated capability gains. We offer a system-level framework that represents a modern agent as a configuration coupling a foundation model with an operational scaffold of prompts, memory, tools, and control logic. Within this framework, self-improvement is formalized as a self-induced update operator that obtains and commits updates to model parameters or scaffold components. We organize prior work by update target and by the signals that drive change, then review applications and discuss evaluation, before closing with open problems and future directions. For convenience, we track technical updates on https://github.com/selfimproving-agent/awesome-Self-Improving-Agents.",
+        "url": "https://arxiv.org/abs/2607.13104v1",
+        "checked_at": "2026-10-08T12:45:10.504212+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2607.02605v1",
+        "published": "2026-07-01T13:24:25Z",
+        "updated": "2026-07-01T13:24:25Z",
+        "title": "A Survey of LLM-Driven Penetration Testing: Taxonomy, Co-Evolution, and Open Challenges",
+        "summary": "Agents4Pentest, an emerging class of LLM-based autonomous penetration testing systems, has become a rapidly growing area in security research. Despite this growth, the field still lacks a unified taxonomy, a systematic understanding of how agent architectures and evaluation benchmarks have co-evolved, and a clear characterization of remaining capability and reliability gaps. This survey addresses these gaps through a systematic analysis of 81 papers between 2023 and 2026. We organize the literature into six categories: evaluation benchmarks, general-purpose systems, domain-specific frameworks, CTF-based systems, defense-oriented research, and surveys. We further trace a four-phase architectural evolution from text-only reasoning agents to agents trained with Reinforcement Learning with Verifiable Rewards (RLVR), showing that each transition is driven by a distinct capability bottleneck. Our analysis yields several key findings. First, RLVR marks a shift in capability acquisition from imitation of expert demonstrations to reward-driven self-improvement, enabling agents to discover previously undocumented attack strategies. Second, CTF platforms have evolved from evaluation testbeds into dual-purpose infrastructure for both agent evaluation and RL training. Third, domain-specific frameworks improve efficiency through recurring specialization mechanisms, but their gains remain largely confined to narrow task classes and are difficult to compare across domains because existing evaluations rely on different benchmarks. Fourth, the field is expanding beyond offensive automation toward adversarial defense and security compliance. Across these categories, we identify three structurally linked open challenges: evaluation reliability, limited performance on multi-stage attack scenarios, and scarcity of high-quality training data.",
+        "url": "https://arxiv.org/abs/2607.02605v1",
+        "checked_at": "2026-10-08T12:45:10.504212+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2608.18104v1",
+        "published": "2026-06-10T10:22:56Z",
+        "updated": "2026-06-10T10:22:56Z",
+        "title": "Self-Evolving Agents as Dynamic Graph Transformation: A Survey and New Perspective",
+        "summary": "Large language model (LLM)-based agents are increasingly becoming self-evolving systems that persist across interactions, maintain memories, use tools, acquire skills, refine workflows, and coordinate with other agents. These capabilities make agent states structural and dynamic: entities, relations, attributes, dependencies, and execution structures change with new evidence, feedback, and environmental conditions. Existing graph-agent surveys typically treat graphs as support structures for agent functions rather than as evolving substrates, while self-evolving-agent surveys focus on agent-level mechanisms and rarely discuss graph topology evolution. Thus, the coupling between evolving agent state and dynamic graph topology remains underexplored. This survey connects these two research lines by framing \\textit{agent evolution as dynamic graph transformation}. We model agent state as a dynamic graph, where memories, tools, skills, workflows, and inter-agent relations are represented as typed nodes, edges, and subgraphs updated through schema-constrained rewrites. Based on this formulation, we organize existing dynamic-graph-based methods for self-evolving agents into four taxonomies: node/feature evolution, edge/topology evolution, subgraph activation, and cross-component co-evolution. Building on this taxonomy, we propose dynamic graph learning as reusable infrastructure for self-evolving agents and map nine dynamic-graph-learning subfields to agent-evolution capabilities, discussing their adaptations and possible failure modes. Finally, we discuss five types of graph-aware evaluation and governance protocols from a dynamic-graph perspective, which complement end-task evaluation. The goal is to provide a compact structural lens for designing and governing self-evolving agents.",
+        "url": "https://arxiv.org/abs/2608.18104v1",
+        "checked_at": "2026-10-08T12:45:10.504212+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2605.23989v1",
+        "published": "2026-05-17T10:26:37Z",
+        "updated": "2026-05-17T10:26:37Z",
+        "title": "Towards trustworthy agentic AI: a comprehensive survey of safety, robustness, privacy, and system security",
+        "summary": "Agentic AI systems -- Large Language Models (LLMs) augmented with planning, tool use, memory, and long-horizon interactions -- can execute complex tasks autonomously, but their multi-step trajectories introduce new failure modes that challenge trustworthiness. This survey provides a focused examination of trustworthy agentic AI through two core dimensions that are critical for high-risk deployments: Safety and Robustness, and Privacy and System Security. For each dimension, we clarify key concepts, identify where risks emerge along the agent workflow, and summarize stage-targeted mitigation strategies. Other trustworthiness aspects (value alignment, transparency, fairness, and accountability) are discussed as relevant context rather than parallel chapters. To support consistent comparison and deployment decisions, we consolidate evaluation into a unified metrics-and-benchmarks hub, emphasizing both outcome and process signals (e.g., constraint violations, trace completeness, and adversarial success rates) and offering scenario-to-metric guidance for release gating. We conclude by outlining open challenges such as self-evolving agents, runtime monitoring and verification, privacy-preserving personalization, and the trust-utility trade-off, and present a case study of real-world security failures in open-source agentic systems. Our goal is to serve as a practical reference for researchers and practitioners building trustworthy agentic systems in high-stakes environments.",
+        "url": "https://arxiv.org/abs/2605.23989v1",
+        "checked_at": "2026-10-08T12:45:10.504212+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2605.14892v2",
+        "published": "2026-05-14T14:36:13Z",
+        "updated": "2026-05-15T09:12:41Z",
+        "title": "Beyond Individual Intelligence: Surveying Collaboration, Failure Attribution, and Self-Evolution in LLM-based Multi-Agent Systems",
+        "summary": "LLM-based autonomous agents have demonstrated strong capabilities in reasoning, planning, and tool use, yet remain limited when tasks require sustained coordination across roles, tools, and environments. Multi-agent systems address this through structured collaboration among specialized agents, but tighter coordination also amplifies a less explored risk: errors can propagate across agents and interaction rounds, producing failures that are difficult to diagnose and rarely translate into structural self-improvement. Existing surveys cover individual agent capabilities, multi-agent collaboration, or agent self-evolution separately, leaving the causal dependencies among them unexamined. This survey provides a unified review organized around four causally linked stages, which we term the LIFE progression: Lay the capability foundation, Integrate agents through collaboration, Find faults through attribution, and Evolve through autonomous self-improvement. For each stage, we provide systematic taxonomies and formally characterize the dependencies between adjacent stages, revealing how each stage both depends on and constrains the next. Beyond synthesizing existing work, we identify open challenges at stage boundaries and propose a cross-stage research agenda for closed-loop multi-agent systems capable of continuously diagnosing failures, reorganizing structures, and refining agent behaviors, extending current coordination frameworks toward more self-organizing forms of collective intelligence. By bridging these previously fragmented research threads, this survey aims to offer both a systematic reference and a conceptual roadmap toward autonomous, self-improving multi-agent intelligence.",
+        "url": "https://arxiv.org/abs/2605.14892v2",
+        "checked_at": "2026-10-08T12:45:10.504212+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2605.02913v1",
+        "published": "2026-04-08T00:53:29Z",
+        "updated": "2026-04-08T00:53:29Z",
+        "title": "Generate, Filter, Control, Replay: A Comprehensive Survey of Rollout Strategies for LLM Reinforcement Learning",
+        "summary": "Reinforcement learning (RL) has become a central post-training tool for improving the reasoning abilities of large language models (LLMs). In these systems, the rollout, the trajectory sampled from a prompt to termination, including intermediate reasoning steps and optional tool or environment interactions, determines the data the optimizer learns from, yet rollout design is often underreported. This survey provides an optimizer-agnostic view of rollout strategies for RL-based post-training of reasoning LLMs. We formalize rollout pipelines with unified notation and introduce Generate-Filter-Control-Replay (GFCR), a lifecycle taxonomy that decomposes rollout pipelines into four modular stages: Generate proposes candidate trajectories and topologies; Filter constructs intermediate signals via verifiers, judges, critics; Control allocates compute and makes continuation/branching/stopping decisions under budgets; and Replay retains and reuses artifacts across rollouts without weight updates, including self-evolving curricula that autonomously generate new training tasks. We complement GFCR with a criterion taxonomy of reliability, coverage, and cost sensitivity that characterizes rollout trade-offs. Using this framework, we synthesize methods spanning RL with verifiable rewards, process supervision, judge-based gating, guided and tree/segment rollouts, adaptive compute allocation, early-exit and partial rollouts, throughput optimization, and replay/recomposition for self-improvement. We ground the framework with case studies in math, code/SQL, multimodal reasoning, tool-using agents, and agentic skill benchmarks that evaluate skill induction, reuse, and cross-task transfer. Finally, we provide a diagnostic index that maps common rollout pathologies to GFCR modules and mitigation levers, alongside open challenges for building reproducible, compute-efficient, and trustworthy rollout pipelines.",
+        "url": "https://arxiv.org/abs/2605.02913v1",
+        "checked_at": "2026-10-08T12:45:10.504212+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2601.12538v2",
+        "published": "2026-01-18T18:58:23Z",
+        "updated": "2026-09-20T19:16:30Z",
+        "title": "A Survey of Agentic Reasoning for Large Language Models: Towards Recursively Self-Improving and Collective Agents",
+        "summary": "Reasoning is a fundamental cognitive process underlying inference, problem-solving, and decision-making. While large language models (LLMs) demonstrate strong reasoning capabilities in closed-world settings, they struggle in open-ended and dynamic environments. Agentic reasoning marks a paradigm shift by reframing LLMs as autonomous agents that plan, act, and learn through continual interaction. In this survey, we organize agentic reasoning along three complementary dimensions. First, we characterize environmental dynamics through three layers: foundational agentic reasoning, which establishes core single-agent capabilities including planning, tool use, and search in stable environments; self-evolving agentic reasoning, which studies how agents refine these capabilities through feedback, memory, and adaptation; and collective multi-agent reasoning, which extends intelligence to collaborative settings involving coordination, knowledge sharing, and shared goals. Across these layers, we distinguish in-context reasoning, which scales test-time interaction through structured orchestration, from post-training reasoning, which optimizes behaviors via reinforcement learning and supervised fine-tuning. We further review representative agentic reasoning frameworks across real-world applications and benchmarks, including science, robotics, healthcare, autonomous research, and mathematics. This survey synthesizes agentic reasoning methods into a unified roadmap bridging thought and action, and outlines open challenges and future directions, including personalization, long-horizon interaction, world modeling, scalable multi-agent training, and governance for real-world deployment.",
+        "url": "https://arxiv.org/abs/2601.12538v2",
+        "checked_at": "2026-10-08T12:45:10.504212+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2602.06052v4",
+        "published": "2026-01-14T07:38:38Z",
+        "updated": "2026-08-04T20:54:45Z",
+        "title": "A Survey of Agent Memory in the Second Half: Towards Self-Evolving and Long-Horizon Agents",
+        "summary": "Research in artificial intelligence is shifting from model innovations and benchmark scores towards problem definition and rigorous real-world evaluation. As the field enters the \"second half,\" the central challenge becomes real utility in long-horizon, dynamic, and user-dependent settings such as agentic coding, deep research, and computer use, where LLM-based agents face context explosion beyond fixed context windows and must continuously accumulate, manage, and selectively reuse information across extended interactions. Memory, with hundreds of papers released in 2025, therefore emerges as the critical solution to fill this utility gap. Beyond passive storage, memory is increasingly the substrate through which agents self-evolve: short-term memory gates which experiences are perceived and abstracted during execution, while long-term memory consolidates them into reusable knowledge and skills, forming the loop through which agents improve from their own experience. In this survey, we provide a unified view of foundation agent memory along three dimensions: memory substrate (internal parametric state and external retrieval-augmented stores), cognitive mechanism (sensory, working, episodic, semantic, and procedural), and memory subject (user-centric personalization and agent-centric experience). We then analyze how memory is operated under single- and multi-agent topologies and highlight learning policies over memory operations, showing how memory management itself is becoming a trainable capability spanning reinforcement-learned context curation, experience consolidation at decision time, and the emerging ecosystem of portable, shareable agent skills. Finally, we review evaluation benchmarks and metrics for memory utility, and outline open challenges and future directions.",
+        "url": "https://arxiv.org/abs/2602.06052v4",
+        "checked_at": "2026-10-08T12:45:10.504212+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2601.02907v2",
+        "published": "2026-01-06T10:45:53Z",
+        "updated": "2026-03-12T16:50:45Z",
+        "title": "Beyond the Black Box: A Survey on the Theory and Mechanism of Large Language Models",
+        "summary": "The rapid emergence of Large Language Models (LLMs) has precipitated a profound paradigm shift in Artificial Intelligence, delivering monumental engineering successes that increasingly impact modern society. However, a critical paradox persists within the current field: despite the empirical efficacy, our theoretical understanding of LLMs remains disproportionately nascent, forcing these systems to be treated largely as ``black boxes''. To address this theoretical fragmentation, this survey proposes a unified lifecycle-based taxonomy that organizes the research landscape into six distinct stages: Data Preparation, Model Preparation, Training, Alignment, Inference, and Evaluation. Within this framework, we provide a systematic review of the foundational theories and internal mechanisms driving LLM performance. Specifically, we analyze core theoretical issues such as the mathematical justification for data mixtures, the representational limits of various architectures, and the optimization dynamics of alignment algorithms. Moving beyond current best practices, we identify critical frontier challenges, including the theoretical limits of synthetic data self-improvement, the mathematical bounds of safety guarantees, and the mechanistic origins of emergent intelligence. By connecting empirical observations with rigorous scientific inquiry, this work provides a structured roadmap for transitioning LLM development from engineering heuristics toward a principled scientific discipline.",
+        "url": "https://arxiv.org/abs/2601.02907v2",
+        "checked_at": "2026-10-08T12:45:10.504212+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2510.27126v2",
+        "published": "2025-10-31T03:03:55Z",
+        "updated": "2025-11-07T06:59:45Z",
+        "title": "AURA: A Reinforcement Learning Framework for AI-Driven Adaptive Conversational Surveys",
+        "summary": "Conventional online surveys provide limited personalization, often resulting in low engagement and superficial responses. Although AI survey chatbots improve convenience, most are still reactive: they rely on fixed dialogue trees or static prompt templates and therefore cannot adapt within a session to fit individual users, which leads to generic follow-ups and weak response quality. We address these limitations with AURA (Adaptive Understanding through Reinforcement Learning for Assessment), a reinforcement learning framework for AI-driven adaptive conversational surveys. AURA quantifies response quality using a four-dimensional LSDE metric (Length, Self-disclosure, Emotion, and Specificity) and selects follow-up question types via an epsilon-greedy policy that updates the expected quality gain within each session. Initialized with priors extracted from 96 prior campus-climate conversations (467 total chatbot-user exchanges), the system balances exploration and exploitation across 10-15 dialogue exchanges, dynamically adapting to individual participants in real time. In controlled evaluations, AURA achieved a +0.076 mean gain in response quality and a statistically significant improvement over non-adaptive baselines (p=0.044, d=0.66), driven by a 63% reduction in specification prompts and a 10x increase in validation behavior. These results demonstrate that reinforcement learning can give survey chatbots improved adaptivity, transforming static questionnaires into interactive, self-improving assessment systems.",
+        "url": "https://arxiv.org/abs/2510.27126v2",
+        "checked_at": "2026-10-08T12:45:10.504212+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2510.25817v1",
+        "published": "2025-10-29T17:01:55Z",
+        "updated": "2025-10-29T17:01:55Z",
+        "title": "A Survey on Efficient Large Language Model Training: From Data-centric Perspectives",
+        "summary": "Post-training of Large Language Models (LLMs) is crucial for unlocking their task generalization potential and domain-specific capabilities. However, the current LLM post-training paradigm faces significant data challenges, including the high costs of manual annotation and diminishing marginal returns on data scales. Therefore, achieving data-efficient post-training has become a key research question. In this paper, we present the first systematic survey of data-efficient LLM post-training from a data-centric perspective. We propose a taxonomy of data-efficient LLM post-training methods, covering data selection, data quality enhancement, synthetic data generation, data distillation and compression, and self-evolving data ecosystems. We summarize representative approaches in each category and outline future research directions. By examining the challenges in data-efficient LLM post-training, we highlight open problems and propose potential research avenues. We hope our work inspires further exploration into maximizing the potential of data utilization in large-scale model training. Paper List: https://github.com/luo-junyu/Awesome-Data-Efficient-LLM",
+        "url": "https://arxiv.org/abs/2510.25817v1",
+        "checked_at": "2026-10-08T12:45:10.504212+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2510.16724v2",
+        "published": "2025-10-19T06:04:53Z",
+        "updated": "2025-10-27T19:23:17Z",
+        "title": "A Comprehensive Survey on Reinforcement Learning-based Agentic Search: Foundations, Roles, Optimizations, Evaluations, and Applications",
+        "summary": "The advent of large language models (LLMs) has transformed information access and reasoning through open-ended natural language interaction. However, LLMs remain limited by static knowledge, factual hallucinations, and the inability to retrieve real-time or domain-specific information. Retrieval-Augmented Generation (RAG) mitigates these issues by grounding model outputs in external evidence, but traditional RAG pipelines are often single turn and heuristic, lacking adaptive control over retrieval and reasoning. Recent advances in agentic search address these limitations by enabling LLMs to plan, retrieve, and reflect through multi-step interaction with search environments. Within this paradigm, reinforcement learning (RL) offers a powerful mechanism for adaptive and self-improving search behavior. This survey provides the first comprehensive overview of \\emph{RL-based agentic search}, organizing the emerging field along three complementary dimensions: (i) What RL is for (functional roles), (ii) How RL is used (optimization strategies), and (iii) Where RL is applied (scope of optimization). We summarize representative methods, evaluation protocols, and applications, and discuss open challenges and future directions toward building reliable and scalable RL driven agentic search systems. We hope this survey will inspire future research on the integration of RL and agentic search. Our repository is available at https://github.com/ventr1c/Awesome-RL-based-Agentic-Search-Papers.",
+        "url": "https://arxiv.org/abs/2510.16724v2",
+        "checked_at": "2026-10-08T12:45:10.504212+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2510.09988v1",
+        "published": "2025-10-11T03:29:18Z",
+        "updated": "2025-10-11T03:29:18Z",
+        "title": "Unifying Tree Search Algorithm and Reward Design for LLM Reasoning: A Survey",
+        "summary": "Deliberative tree search is a cornerstone of modern Large Language Model (LLM) research, driving the pivot from brute-force scaling toward algorithmic efficiency. This single paradigm unifies two critical frontiers: \\textbf{Test-Time Scaling (TTS)}, which deploys on-demand computation to solve hard problems, and \\textbf{Self-Improvement}, which uses search-generated data to durably enhance model parameters. However, this burgeoning field is fragmented and lacks a common formalism, particularly concerning the ambiguous role of the reward signal -- is it a transient heuristic or a durable learning target? This paper resolves this ambiguity by introducing a unified framework that deconstructs search algorithms into three core components: the \\emph{Search Mechanism}, \\emph{Reward Formulation}, and \\emph{Transition Function}. We establish a formal distinction between transient \\textbf{Search Guidance} for TTS and durable \\textbf{Parametric Reward Modeling} for Self-Improvement. Building on this formalism, we introduce a component-centric taxonomy, synthesize the state-of-the-art, and chart a research roadmap toward more systematic progress in creating autonomous, self-improving agents.",
+        "url": "https://arxiv.org/abs/2510.09988v1",
+        "checked_at": "2026-10-08T12:45:10.504212+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2510.09721v3",
+        "published": "2025-10-10T06:56:50Z",
+        "updated": "2025-10-23T05:08:22Z",
+        "title": "A Comprehensive Survey on Benchmarks and Solutions in Software Engineering of LLM-Empowered Agentic System",
+        "summary": "The integration of Large Language Models (LLMs) into software engineering has driven a transition from traditional rule-based systems to autonomous agentic systems capable of solving complex problems. However, systematic progress is hindered by a lack of comprehensive understanding of how benchmarks and solutions interconnect. This survey addresses this gap by providing the first holistic analysis of LLM-powered software engineering, offering insights into evaluation methodologies and solution paradigms. We review over 150 recent papers and propose a taxonomy along two key dimensions: (1) Solutions, categorized into prompt-based, fine-tuning-based, and agent-based paradigms, and (2) Benchmarks, including tasks such as code generation, translation, and repair. Our analysis highlights the evolution from simple prompt engineering to sophisticated agentic systems incorporating capabilities like planning, reasoning, memory mechanisms, and tool augmentation. To contextualize this progress, we present a unified pipeline illustrating the workflow from task specification to deliverables, detailing how different solution paradigms address various complexity levels. Unlike prior surveys that focus narrowly on specific aspects, this work connects 50+ benchmarks to their corresponding solution strategies, enabling researchers to identify optimal approaches for diverse evaluation criteria. We also identify critical research gaps and propose future directions, including multi-agent collaboration, self-evolving systems, and formal verification integration. This survey serves as a foundational guide for advancing LLM-driven software engineering. We maintain a GitHub repository that continuously updates the reviewed and related papers at https://github.com/lisaGuojl/LLM-Agent-SE-Survey.",
+        "url": "https://arxiv.org/abs/2510.09721v3",
+        "checked_at": "2026-10-08T12:45:10.504212+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2510.02665v1",
+        "published": "2025-10-03T01:48:26Z",
+        "updated": "2025-10-03T01:48:26Z",
+        "title": "Self-Improvement in Multimodal Large Language Models: A Survey",
+        "summary": "Recent advancements in self-improvement for Large Language Models (LLMs) have efficiently enhanced model capabilities without significantly increasing costs, particularly in terms of human effort. While this area is still relatively young, its extension to the multimodal domain holds immense potential for leveraging diverse data sources and developing more general self-improving models. This survey is the first to provide a comprehensive overview of self-improvement in Multimodal LLMs (MLLMs). We provide a structured overview of the current literature and discuss methods from three perspectives: 1) data collection, 2) data organization, and 3) model optimization, to facilitate the further development of self-improvement in MLLMs. We also include commonly used evaluations and downstream applications. Finally, we conclude by outlining open challenges and future research directions.",
+        "url": "https://arxiv.org/abs/2510.02665v1",
+        "checked_at": "2026-10-08T12:45:10.504212+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2510.01925v3",
+        "published": "2025-10-02T11:42:17Z",
+        "updated": "2026-08-03T11:37:46Z",
+        "title": "Enhancing Large Language Model Reasoning with Reward Models: An Analytical Survey",
+        "summary": "Reward models (RMs) play a critical role in enhancing the reasoning performance of LLMs. For example, they can provide training signals to finetune LLMs during reinforcement learning (RL) and help select the best answer from multiple candidates during inference. In this paper, we provide a systematic introduction to RMs, along with a comprehensive survey of their applications in LLM reasoning. We first review fundamental concepts of RMs, including their architectures, training methodologies, and evaluation techniques. Then, we explore their key applications: (1) guiding generation and selecting optimal outputs during LLM inference, (2) facilitating data synthesis and iterative self-improvement for LLMs, and (3) providing training signals in RL-based finetuning. Finally, we discuss critical open questions regarding the selection, generalization, evaluation, and enhancement of RMs, based on existing research and our own empirical findings. Our analysis aims to provide actionable insights for the effective deployment and advancement of RMs for LLM reasoning.",
+        "url": "https://arxiv.org/abs/2510.01925v3",
+        "checked_at": "2026-10-08T12:45:10.504212+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      }
+    ]
+  },
+  {
+    "url": "https://export.arxiv.org/api/query?search_query=ti%3Asurvey+AND+all%3Aagent&sortBy=submittedDate&sortOrder=descending&max_results=20",
+    "query": "ti:survey AND all:agent",
+    "checked_at": "2026-10-08T12:45:10.597958+00:00",
+    "status": "metadata_fetched",
+    "sha256": "a4b43c48630bb30749e6fc9a4f18fada6293aeac8602c43cf292ee07f78a2a45",
+    "entries": [
+      {
+        "id": "http://arxiv.org/abs/2610.09466v1",
+        "published": "2026-10-07T05:22:51Z",
+        "updated": "2026-10-07T05:22:51Z",
+        "title": "LLM-Enabled UAV Dispatch: A System-Level Survey and Taxonomy",
+        "summary": "Unmanned aerial vehicle (UAV) dispatch is beginning to move beyond isolated path planning and optimization-driven resource allocation toward system-level coordination supported by semantic reasoning and LLM-based interfaces. This survey provides a unified characterization of LLM-enabled UAV dispatch systems that bridges semantic intent, symbolic decision-making, and physical UAV execution. Rather than treating LLMs as standalone add-ons, we conceptualize them as a cross-layer semantic orchestration layer connecting human instructions, external solvers, and distributed control modules. We organize the literature into four representative dispatch paradigms: pipeline dispatch, global assignment dispatch, decentralized agentic dispatch, and divide-and-conquer dispatch. For each paradigm, we analyze its decision logic, system structure, control flow, representative methods, and potential LLM roles. We further examine how LLMs support semantic parsing, retrieval-grounded planning, solver orchestration, local agent reasoning, multi-agent coordination, safety assessment, and human-facing explanation. We discuss the implications of these paradigms for scalability, robustness, coordination burden, and verification requirements, and identify open challenges including latency-aware reasoning, grounding reliability, physical feasibility guarantees, edge deployment, privacy protection, and distributed consistency. This survey provides a system-level taxonomy and design perspective for integrating LLMs into safety-critical UAV dispatch systems.",
+        "url": "https://arxiv.org/abs/2610.09466v1",
+        "checked_at": "2026-10-08T12:45:10.597958+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.07065v1",
+        "published": "2026-10-05T08:01:48Z",
+        "updated": "2026-10-05T08:01:48Z",
+        "title": "A Technosignature Survey Of The Anti-Solar Point: The SETI Institute's Largest-Ever Campaign With The Allen Telescope Array",
+        "summary": "The ATA-ASP campaign is a radio technosignature survey of the Anti-Solar Point as a \"Schelling point\", using the Allen Telescope Array (ATA) in the Search for Extraterrestrial Intelligence (SETI). We borrow from game theory the concept of Schelling points to hypothesize spacetime coordinates where both we and an extraterrestrial agent might send and search for a signal. From the perspective opposite the Sun, an extraterrestrial agent could detect Earth transiting within the habitable zone, thus this Anti-Solar Point (ASP) poses a shared and salient Schelling point. This campaign uses the ATA, tuned to 2356-3700 MHz, to observe Earth's ecliptic, and searches for sky-localized, narrowband, Doppler-drifting signals. Analysis is conducted using the Allen Telescope Survey Agnostic Technosignature pipeline (ATSAT), which integrates software packages bliss and NBeamAnalysis with radio frequency interference removal and outputs spectrograms. Narrowband signals and their Doppler-drift rates indicate technological and distant origin, while comparing beamformed beams localizes signals to the ASP. The plots are visually inspected and cataloged into six signal morphologies to distinguish potential signals-of-interest and radio frequency interference. To date, the survey has observed approximately 12% of the projected coordinate coverage over 126 observations; 67% of sessions have been analyzed, producing more than 11,000 plots, all of which have been inspected and 75% labeled. 25 of these labeled spectrograms contain narrowband drifting signals sky-localized to the ASP, and the 10 corresponding coordinates will be re-observed. Although SETI literature has long proposed searching for beacons at the ASP, this campaign provides the first observational coverage. Observing Earth's ecliptic will require a multi-year effort and produce over 11 petabytes of data, making it the ATA's largest survey ever.",
+        "url": "https://arxiv.org/abs/2610.07065v1",
+        "checked_at": "2026-10-08T12:45:10.597958+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.05828v2",
+        "published": "2026-10-05T05:30:27Z",
+        "updated": "2026-10-06T07:14:13Z",
+        "title": "Data-Driven Personas for Survey Simulation: Insights into Simulation Alignment Across Data-Access Regimes",
+        "summary": "Large language models (LLMs) offer new opportunities for public opinion research by enabling early prediction of survey responses, potentially reducing the cost and time of traditional surveys. However, many existing steering approaches rely on target-domain human data for fine-tuning or prompting that is costly to collect and raises privacy concerns. In this paper, we study demographic group-level survey simulation, where personas induced from heterogeneous, anonymized public behavioral data condition agents that simulate responses of individuals from specific demographic groups. We examine whether representative personas can be induced from diverse sources and analyze how the domain, scale, and granularity of the source data affect survey simulation alignment. We find that personas induced from out-of-domain sources rarely outperform simulations conditioned only on basic demographic information, largely due to population mismatch. However, when personas are accurately assigned to the target demographic groups, alignment improves substantially. Finally, personas induced from target-domain survey data generalize better as more survey question history becomes available, suggesting that richer behavioral evidence enables more stable persona trait inference that transfers to better unseen questions simulation alignment.",
+        "url": "https://arxiv.org/abs/2610.05828v2",
+        "checked_at": "2026-10-08T12:45:10.597958+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.03895v1",
+        "published": "2026-10-02T18:10:21Z",
+        "updated": "2026-10-02T18:10:21Z",
+        "title": "A Path-Dependent Agent-Based Microsimulation of Crime and Violence Reduction Policy Portfolios in Bolivia: Survey Calibration, Adaptive Emulator Ensembles, Global Sensitivity, Tempered MCMC, and Multi-Objective Policy Analysis",
+        "summary": "This study develops a survey-calibrated, path-dependent agent-based microsimulation for evaluating crime and violence reduction policies in Bolivia. A synthetic population is constructed from the 2025 Household Survey and the fourth-quarter 2025 Continuous Employment Survey using official expansion weights and cross-survey donor matching. The model combines heterogeneous agents, place-based risk, criminal adaptation, institutional capacity, community organization, and multiple policy channels. Uncertainty is propagated through adaptive Gaussian-process and tree-ensemble emulators, global sensitivity analysis, tempered ensemble MCMC, and predictive meta-calibration. Simulated portfolios include focused policing, community control, Guardabosques-type incentives, social prevention, environmental interventions, justice reforms, investigation, rehabilitation, and financial-network disruption. Results are interpreted as structural policy scenarios rather than causal forecasts, with explicit attention to displacement, distributional effects, implementation capacity, and multi-objective trade-offs.",
+        "url": "https://arxiv.org/abs/2610.03895v1",
+        "checked_at": "2026-10-08T12:45:10.597958+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2609.36732v1",
+        "published": "2026-09-29T05:06:32Z",
+        "updated": "2026-09-29T05:06:32Z",
+        "title": "Deep Learning Latency Attacks and Defenses: A Cross-Domain Survey of Availability Threats",
+        "summary": "Adversarial machine learning has focused mainly on integrity, but availability is an increasingly consequential complement. Latency attacks (also energy-latency attacks) increase inference-time work, energy, or response time, causing deadline misses, throughput collapse, or resource exhaustion in vehicle controllers, interactive services, or battery-powered sensors, sometimes while preserving the nominal prediction. This survey unifies a fragmented literature spanning perception pipelines (including physical attacks on autonomous-driving detection and tracking), input-adaptive neural inference (sponge examples, dynamic networks), and autoregressive and agentic systems (output-length, verbose-image, and reasoning denial-of-service attacks on LLMs, VLMs, mixture-of-experts models, and tool-using agents). We organize attacks by exploited computational bottleneck rather than formulation, separating what makes a computation expensive from how the attacker triggers it; the delivery channel (input, prompt or retrieved content, message, poisoning, or weight tampering) is an orthogonal attribute. Many attacks share one mechanism, intermediate-work amplification, motivating a work-budget defense abstraction; we distinguish caps on the work entering an expensive stage from caps on the results leaving it. We further analyze when a model-level cost increase becomes a system-level availability failure, which depends on critical-path share, slack, existing ceilings, accumulation, resource sharing, and fallback policy, not on the amplification factor alone. We also provide a threat-model taxonomy, consolidated quantitative comparisons, a defense review by control mechanism, and open challenges such as standardized evaluation, physical realizability, and whole-system availability. Companion website: https://github.com/guzonghua/awesome-latency-attacks.",
+        "url": "https://arxiv.org/abs/2609.36732v1",
+        "checked_at": "2026-10-08T12:45:10.597958+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2609.25186v1",
+        "published": "2026-09-21T16:58:17Z",
+        "updated": "2026-09-21T16:58:17Z",
+        "title": "From Pattern Recognizers to Personalized Companions: A Survey of Large Language Models in Mental Health",
+        "summary": "The rising global prevalence of mental health conditions, together with longstanding barriers in traditional healthcare, such as limited resources, high cost, stigma, and privacy concerns, has created an urgent need for accessible and scalable support. Large Language Models (LLMs) have emerged as a transformative technology with strong potential to democratize mental health support through advanced natural language understanding and generation. However, the rapidly expanding, fragmented body of work in this area lacks a coherent evolutionary narrative, making it difficult to contextualize current progress and identify future directions. This survey addresses this gap by organizing and analyzing the literature around a central thesis: the role of LLMs in mental health is evolving through three distinct, increasingly sophisticated phases. We trace this trajectory from Phase I, in which LLMs act primarily as passive Information Tools and Pattern Recognizers for assessment; through Phase II, where they function as Empathetic Conversationalists for in-the-moment, stateless interactions; to the current frontier, Phase III, which seeks Longitudinal, Personalized Companions implemented as stateful cognitive agents. To support this framework, we systematically review core technologies, agent architectures (Profile, Memory, Reasoning, and Planning), and the critical infrastructure of datasets and benchmarks, highlighting how their evolution underpins this developmental path. Viewing the field through this developmental lens, we provide a comprehensive synthesis of existing work, an insightful narrative of its trajectory, and a clear roadmap for future innovation in responsible, effective, and human-centered AI for mental healthcare. A curated collection of the resources reviewed in this survey is available at our project repository: https://github.com/Emo-gml/Awesome-Mental-Health-LLMs.",
+        "url": "https://arxiv.org/abs/2609.25186v1",
+        "checked_at": "2026-10-08T12:45:10.597958+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2609.31713v1",
+        "published": "2026-09-21T02:58:10Z",
+        "updated": "2026-09-21T02:58:10Z",
+        "title": "Agentic Video Understanding: A Survey",
+        "summary": "As large language models (LLMs) become capable of processing increasingly diverse modalities and longer temporal contexts, an emerging line of work is moving beyond fixed video-language inference toward agentic systems that actively decide what information to inspect, retain, verify, and act upon. This survey reviews video understanding agents: systems that use video as the primary information source and solve understanding tasks through adaptive state construction and action selection. We first formalize an agent loop for video understanding, then address a central question: why do agents matter for video understanding? To answer this, we organize the literature through a challenge-to-design taxonomy, linking context bottlenecks to hierarchical evidence memory, evidence sparsity to active evidence acquisition, temporal causality to state and process tracking, and multimodal ambiguity to role-specialized coordination. We further review state space paradigms, learning paradigms, supervision signals, benchmarks, and evaluation protocols. Finally, we identify open directions toward agentic-native temporal modeling and video-native agents. Project page: https://github.com/DXY0711/Awesome-Agentic-Video-Understanding",
+        "url": "https://arxiv.org/abs/2609.31713v1",
+        "checked_at": "2026-10-08T12:45:10.597958+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2609.17317v1",
+        "published": "2026-09-15T15:27:04Z",
+        "updated": "2026-09-15T15:27:04Z",
+        "title": "Towards Detecting AI-Assisted Responses in Online Surveys",
+        "summary": "The use of LLMs to complete online surveys impacts the validity of survey-based research, but detecting such usage remains underexplored. We introduce an initial benchmark dataset, namely ASURRE, for AI-assisted survey participation to capture usage strategies ranging from full generation and revision to persona-grounded agentic completion. Controlled by these strategies, LLM-assisted survey responses are generated using multiple LLMs on three real-world surveys in different disciplines, paired with genuine human responses. Our evaluation of existing machine-generated text (MGT) detectors shows that naive AI usage is readily detectable, whereas persona-grounded agents that mimic entire respondents push detector performance toward chance. We further show that agentic completion cannot fully replicate respondent-level behaviour and leaves distinctive behavioural traces. While individual cues can be circumvented by targeted prompting, a simple few-shot, training-free aggregator over these cues improves mean AUROC by +0.14 over the best existing detector across agentic settings. Our project is available at https://github.com/mike-qz-wang/ASURRE.",
+        "url": "https://arxiv.org/abs/2609.17317v1",
+        "checked_at": "2026-10-08T12:45:10.597958+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2609.16599v1",
+        "published": "2026-09-15T03:50:12Z",
+        "updated": "2026-09-15T03:50:12Z",
+        "title": "Large Language Models in the Loop: A Stability- and Network-Aware Survey in Networked Control, Cyber-Physical, and Multi-Agent Systems",
+        "summary": "Modern networked control systems (NCSs), cyber-physical systems (CPSs), and complex multi-agent network systems (CNSs) increasingly rely on large language models (LLMs) for high-level decision-making. However, the slow, stochastic nature of LLMs directly conflicts with the strict stability and safety guarantees required by these physical systems. This survey presents a unified analysis of how LLMs can be admitted into the control loop of NCS, CPS, and CNS without compromising closed-loop guarantees. We organize this around a core principle: the LLM operates as a slow supervisor adjusting high-level goals and constraints, while a fast, certified inner loop maintains physical stability. Under this framework, LLM integration maps directly to classical networked control challenges, where inference latency acts as delay, API failures as packet dropouts, tokenization as quantization, and hallucinations as bounded disturbances. We assess current developments across all these three domains, highlighting that rising model capabilities are frequently accompanied by a drop in formal safety assurances. Finally, we propose concrete future research directions, identifying the widespread lack of formal stability proofs as the field's central open problem.",
+        "url": "https://arxiv.org/abs/2609.16599v1",
+        "checked_at": "2026-10-08T12:45:10.597958+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2609.13731v1",
+        "published": "2026-09-12T05:51:27Z",
+        "updated": "2026-09-12T05:51:27Z",
+        "title": "Trustworthy Agentic AI: A Comprehensive Cybersecurity and Systems Survey on Threat Landscapes, Defense Architectures, and Open Challenges",
+        "summary": "The transition from passive foundation models to autonomous, goal-directed agentic AI systems has introduced unprecedented capabilities by coupling recursive cognitive reasoning loops, persistent memory architectures, live tool execution planes, and multi-agent collaboration topologies. However, granting probabilistic neural cores execution authority across filesystems, networks, and cloud infrastructure dissolves classical security perimeters: natural language simultaneously serves as input data, internal control code, and communication protocols, exposing a Turing-complete blast radius where untrusted data represents executable instructions. This survey delivers a comprehensive systems-security reference framework for trustworthy agentic AI, synthesizing 206 foundational studies and regulatory standards. We formalize the general agent architecture as a stateful 5-tuple and establish a 6-dimensional trustworthiness taxonomy covering security, safety, privacy, explainability, fairness, and accountability. We systematically analyze threat surfaces across intra-execution loops and interaction planes, formulate a multi-layered zero-trust defense-in-depth architecture integrating Dual-LLM isolation, Capability-Based Access Control, kernel eBPF probes, and sandboxed runtimes, review standardized evaluation benchmarks, and map technical controls to international AI governance frameworks.",
+        "url": "https://arxiv.org/abs/2609.13731v1",
+        "checked_at": "2026-10-08T12:45:10.597958+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2609.12012v1",
+        "published": "2026-09-10T06:20:22Z",
+        "updated": "2026-09-10T06:20:22Z",
+        "title": "Test-Driven Approaches to Software Engineering with Large Language Models: A Survey of Phases, Tasks, and Agent Skills",
+        "summary": "Tests increasingly participate in the decisions made by large language models and software engineering agents. They specify intended behavior, guide program construction and repair, select candidates, constrain transformations, and provide execution evidence for software analysis. These uses draw on test-driven development, yet differ substantially in test order, oracle availability, editable artifacts, and the role of execution. We present a structured scoping survey organized around the question of what decision a test changes. The review integrates 87 research and supporting records, with method- or protocol-level extraction for 83 records, alongside a separate collection of five practice resources. We distinguish the Red--Green--Refactor cycle from test-conditioned generation, execution-guided refinement, test-mediated analysis, and evaluation-only testing. We then compare code generation, repair, translation, refactoring, clone detection, code search, localization, training-data construction, and formal-specification validation. A dedicated analysis examines how agent workflows and reusable skills encode testing procedures and how their effects are evaluated. Across these tasks, the evidence supports treating test availability, test validity, feedback use, and evaluation independence as separate properties. Test passing alone does not establish behavioral equivalence, effective feedback, or process adherence; aggregate improvements can also conceal different outcomes across models, tasks, and denominators. We synthesize these distinctions into a mechanism taxonomy, a cross-task comparison, and a protocol-sensitive evidence analysis, and identify research directions in oracle validation, causal evaluation, long-horizon maintenance, and reusable test-driven agent capabilities",
+        "url": "https://arxiv.org/abs/2609.12012v1",
+        "checked_at": "2026-10-08T12:45:10.597958+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2610.00093v1",
+        "published": "2026-09-08T05:04:40Z",
+        "updated": "2026-09-08T05:04:40Z",
+        "title": "Safety in Self-Evolving Agents: A Survey",
+        "summary": "Large language models (LLMs) exhibit strong general capabilities, yet their parameters typically remain fixed after deployment, limiting learning from new interactions. In open-ended environments, this motivates self-evolving agents that continually update reusable state-including model parameters, memories, tool definitions, skills, and workflows-from data, feedback, and accumulated experience. This shift changes the safety problem: once experience becomes reusable state, past events become future causes, and information harmless in one context may later influence decisions with greater persistence, authority, or scope. Self-evolving agent safety therefore asks not only whether a response is aligned or an action authorized, but whether safety properties survive the accumulation, generalization, and cross-context reuse of locally useful experience. We introduce SAVER, a transition-centered framework in which Substrate locates reusable influence, Adaptation captures how it changes, Violation identifies compromised safety attributes, Exposure marks where failures become observable, and Response assesses containment, repair, or revocation. Our survey reveals that failures need not originate from harmful information: legitimate state can become unsafe when adaptation expands its persistence, authority, or scope beyond the conditions under which it was valid. Existing work provides comparatively strong evidence for admission, retrieval, activation, exposure, and local containment, but much less for descendant repair and evaluation after adaptation resumes. We therefore argue for longitudinal evaluation that traces unsafe influence to its originating transition, verifies repair across descendants, and tests whether it can re-emerge under continued evolution.",
+        "url": "https://arxiv.org/abs/2610.00093v1",
+        "checked_at": "2026-10-08T12:45:10.597958+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2609.07141v1",
+        "published": "2026-09-07T07:42:38Z",
+        "updated": "2026-09-07T07:42:38Z",
+        "title": "How Well Do LLMs Simulate Survey Responses Following a Breast Cancer Screening Intervention?",
+        "summary": "Collecting survey data is laborious and limited by privacy constraints. Large language models (LLMs) have shown promise as predictive social simulations. It is unclear whether they can replicate population-level response distributions before and after a healthcare intervention. Using information derived from 4125 women aged 35-59 years, we evaluate whether agents informed solely by pre-intervention profile information can reproduce post-intervention response distributions. Groups of LLM agents (n=50) were created with Gemma 4 E4B and Qwen3.5 9B; conditions ranged from zero-shot prompting to agent profiles enriched with aggregate or individual-level demographic characteristics and pre-intervention questionnaire responses. We compared predicted and observed response distributions with Total Variation Distance (TVD) and Normalized Wasserstein Distance (NWD). Across both LLMs, profile-based agents improved distributional accuracy relative to zero-shot and random baselines. Nevertheless, direct sampling of 50 real participants remained more accurate. Prediction errors were also higher among participants aged 55-59 years and those living in private property. Errors also varied by question theme and LLM model, with the highest errors observed for cancer fatalism and post intervention attitudes toward genetics. Sensitivity analyses showed that performance was influenced by prompt template changes and temperature hyperparameter. Our results show the potential of LLM-based agents to model behavioral responses to interventions in silico. However, profiles containing additional information beyond demographics did not consistently outperform simpler ones. Certain cultural constructs and population groups also remain inadequately represented by the LLM models evaluated. Future work may include building behaviorally grounded and locally validated virtual populations.",
+        "url": "https://arxiv.org/abs/2609.07141v1",
+        "checked_at": "2026-10-08T12:45:10.597958+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2609.05938v1",
+        "published": "2026-09-05T07:03:47Z",
+        "updated": "2026-09-05T07:03:47Z",
+        "title": "SurveyAgent-HKA: A multi-agent framework for scientific survey generation with LLMs and human knowledge augmentation",
+        "summary": "Automatic scientific survey generation has become an important task in scientific document processing. The common approach of retrieving literature from a single source (e.g., arXiv) and generating surveys through a one-pass large language model (LLM) call often leads to limited reference coverage and, more importantly, fails to replicate the expert-driven revision process that is crucial for writing high-quality surveys. In this paper, we introduce SurveyAgent-HKA, a multi-agent framework that improves end-to-end scientific survey generation by incorporating knowledge derived from published surveys and peer-review comments. The framework decomposes survey generation into well-defined sub-tasks handled by LLM-powered agent. It first retrieves relevant papers from multiple sources and identifies key topics through clustering to construct an initial outline, which is then refined using outlines from related human-written surveys. Based on the refined outline, topic-focused papers are retrieved and re-ranked to select for drafting a well-grounded survey. Then, we identify common issues raised by experts in peer-review comments from published surveys to guide the revisions and finalize the survey. Experiments on two domains show that our approach outperforms mainstream baselines in citation quality, structural consistency, and content quality. Furthermore, our framework is efficient in both time and cost, making it a practical solution for broader AI-assisted scientific writing applications.",
+        "url": "https://arxiv.org/abs/2609.05938v1",
+        "checked_at": "2026-10-08T12:45:10.597958+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2609.02984v1",
+        "published": "2026-09-02T13:49:46Z",
+        "updated": "2026-09-02T13:49:46Z",
+        "title": "From Euclidean to Graph-Structured Data: A Survey of Collaborative Learning",
+        "summary": "The conventional approach to machine learning, that is, collecting data, training models, and performing inference in a single location, faces fundamental limitations, including scalability and privacy, that restrict its applicability. To address these challenges, recent research has explored collaborative learning approaches, including federated learning and decentralized learning, where individual agents perform training and inference locally, with limited collaboration. Most collaborative learning research focuses on Euclidean data with regular, grid-like structure (e.g., images, text). However, these approaches fail to capture the relational patterns in many real-world applications, best represented by graphs. Learning on graphs relies on message-passing mechanisms to propagate information between connected nodes, making it conceptually well-suited for collaborative environments where agents must exchange information. Yet, the opportunities and challenges of learning on graph-structured data in collaborative settings remain largely underexplored. This survey provides a comprehensive investigation of collaborative learning from Euclidean to graph-structured data, aiming to consolidate this emerging field. We begin by reviewing its foundational principles for Euclidean data, organizing them along three core dimensions: learning effectiveness, efficiency, and privacy preservation. We then extend the discussion to graph-structured data, introducing a taxonomy of graph distribution scenarios, characterizing associated statistical heterogeneities, and developing standardized problem formulations and algorithmic frameworks. Finally, we systematically identify open challenges and promising research directions.",
+        "url": "https://arxiv.org/abs/2609.02984v1",
+        "checked_at": "2026-10-08T12:45:10.597958+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2609.02309v1",
+        "published": "2026-09-02T08:54:58Z",
+        "updated": "2026-09-02T08:54:58Z",
+        "title": "Efficient GUI Agents: A Systems Survey of Observation, Memory, Action, and Runtime Optimization",
+        "summary": "GUI agents increasingly operate across websites, mobile apps, and desktop environments, yet the field still reports progress primarily through task success. We argue that practical deployment depends equally on efficiency: how much context, computation, action budget, and runtime overhead an agent consumes while succeeding. This survey studies efficient GUI agents through an end-to-end systems lens that preserves the current technical axes of observation efficiency, context and memory efficiency, action efficiency, and planner-side/system efficiency. For each subsection, we expand the seed literature through targeted search plus backward and forward citation chaining, then synthesize the dominant mechanisms, reported efficiency signals, and new overheads they introduce. Across the literature, recent progress converges on a small set of recurring ideas: selective reading instead of full-context ingestion, global-to-local visual allocation, recoverable memory rather than raw history replay, verification-aware control, and hybrid runtimes that can switch between GUI and non-GUI execution. We conclude by identifying the main open problems, including honest accounting of verifier cost, cross-benchmark comparability, and co-design of observation, memory, and execution layers under real latency and privacy constraints.",
+        "url": "https://arxiv.org/abs/2609.02309v1",
+        "checked_at": "2026-10-08T12:45:10.597958+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2609.01659v1",
+        "published": "2026-08-31T18:16:11Z",
+        "updated": "2026-08-31T18:16:11Z",
+        "title": "Beyond Textual Chain-of-Thought: A Survey on Action-Grounded Reasoning in Autonomous Driving",
+        "summary": "Chain-of-thought (CoT) reasoning powers generative models by eliciting intermediate steps before producing an answer. In autonomous driving, the answer is a continuous action. Thus its reasoning must share the same spatiotemporal structure as the physical world. This survey studies the resulting shift from textual CoT to action-grounded reasoning. Surveying 171 papers, including 130 method papers and 41 benchmarks, datasets, surveys, and analysis papers, we propose a representation-centered taxonomy that treats the form of the intermediate state as the organizing axis. We systematize the 130 methods into four categories: language-based, visual-spatial, latent-dynamic, and externalized reasoning, further divided into 13 subtypes tied to distinct regions of interests. Our synthesis shows that the open frontier of reasoning in driving agents lies in intermediate representations that can be grounded in the real world, coupled to real-time action, and verified under safety-critical systems. Project page: https://github.com/tangzhengxu/awesome-av-cot.",
+        "url": "https://arxiv.org/abs/2609.01659v1",
+        "checked_at": "2026-10-08T12:45:10.597958+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2608.31041v1",
+        "published": "2026-08-31T16:19:09Z",
+        "updated": "2026-08-31T16:19:09Z",
+        "title": "Agentic Quantitative Trading: A Survey of Workflows, Systems, and Evaluation",
+        "summary": "Quantitative trading is moving from isolated predictive models toward agentic workflows that combine reasoning, tool use, memory, and feedback. This survey reviews agentic quantitative trading across five stages: factor mining, signal discovery, portfolio construction, order execution, and risk management. We further examine agentic quant trading systems through architecture, coordination, and adaptation, while comparing benchmarks across strategy construction, offline trading, live market evaluation, and reliability assessment. Our review finds that current systems remain concentrated on signal discovery, while complete integration with portfolio construction, execution, and risk control is still uncommon. Multi-agent systems also rely heavily on aggregation despite increasingly diverse workflow structures. Benchmark evidence further shows that strong model or forecasting capability does not reliably translate into trading performance under live market conditions and reliability controls. We conclude with future directions for more complete trading workflows, stronger coordination, and evaluation matched to the capability being assessed.",
+        "url": "https://arxiv.org/abs/2608.31041v1",
+        "checked_at": "2026-10-08T12:45:10.597958+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2609.29669v1",
+        "published": "2026-08-30T11:36:32Z",
+        "updated": "2026-08-30T11:36:32Z",
+        "title": "Do World Models Make Better Robots? A Survey of Evaluation Benchmarks for Predictive Embodied Intelligence",
+        "summary": "Robot learning now advances along two tracks that rarely meet. On one side, direct Vision-Language-Action (VLA) policies map observations to actions and are scored by closed-loop task success. On the other, predictive and generative world models forecast future observations and are scored by open-loop prediction or generation quality. A natural question sits between them: does world modelling earn a measurable, closed-loop advantage over a direct policy, and for which robotic capabilities? We argue that the field cannot yet answer this question, and that the reason is a gap in how it is measured, not in the models themselves. World-model benchmarks score prediction without ever executing it, while task-success suites host a single policy and never build a world-model versus VLA contrast. This survey maps the evaluation landscape around that gap. We catalogue 160 web-verified benchmarks spanning 2017 to 2026 and organise them by evaluation mode, robotic capability, and model family into four lanes: policy suites, embodied agents, world model evaluation, and prediction-to-action bridges. Across the corpus, 138 of 160 benchmarks are model-agnostic and only 11 (7%) build an explicit VLA-versus-world-model contrast; counterfactual capability is almost entirely unmeasured, and only four benchmarks turn prediction into executed action. We contribute an operational taxonomy, a coverage comparison against the eight closest surveys (ours is the only one to cross capability with model family), an evaluation loop that isolates the advantage of prediction, and an actionable protocol of four advantage-aware metrics anchored on named testbeds. The organising claim is not that world models help or do not help, but that answering the question requires benchmarks built to ask it.",
+        "url": "https://arxiv.org/abs/2609.29669v1",
+        "checked_at": "2026-10-08T12:45:10.597958+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      },
+      {
+        "id": "http://arxiv.org/abs/2608.29596v2",
+        "published": "2026-08-30T06:36:42Z",
+        "updated": "2026-09-28T17:25:01Z",
+        "title": "A Systematic Survey of Agentic Skills: Architecture, Lifecycle, and Security",
+        "summary": "Autonomous large language model (LLM) agents increasingly face reliability, context consumption, and execution stability bottlenecks when deployed on complex, long-horizon tasks. While monolithic prompt engineering and stateless tool-calling paradigms struggle to scale, the field is rapidly converging toward \\emph{agentic skills}: modular procedural abstractions that externalize execution knowledge into reusable, executable, and portable artifacts. This paper establishes a unified systems foundation and reference architecture for the agentic skills ecosystem. We formalize skills as externalized procedural knowledge bridging high-level cognitive planning with deterministic execution environments, and systematically delineate the architecture across a nine-stage lifecycle: autonomous discovery, authoring and representation formats, memory storage, dynamic retrieval and routing, composition and orchestration, execution and repair, lifelong adaptation, empirical evaluation, and security governance. We further examine marketplace dynamics, public registries, and emerging adversarial threat vectors, alongside runtime verification and defense mechanisms. Finally, we categorize system implementations across software engineering, operating system navigation, embodied robotics, and scientific discovery, while highlighting critical open challenges in continual learning and benchmark realism. This work establishes agentic skills as a foundational paradigm for building scalable, robust, and verifiable autonomous language agents.",
+        "url": "https://arxiv.org/abs/2608.29596v2",
+        "checked_at": "2026-10-08T12:45:10.597958+00:00",
+        "status": "primary_arxiv_metadata_verified",
+        "scope": "official_api_title_and_abstract_only"
+      }
+    ]
+  }
+]

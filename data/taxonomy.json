@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "expected_paper_count": 2050,
+  "categories": [
+    {
+      "key": "01_basics",
+      "name": "Agent 基础与系统框架",
+      "chapter": "chapters/01_basics.md",
+      "scope": "Agent 定义、控制循环、工具调用、harness 与系统组织；JEV判断、验证及低置信度升级归06，不因系统框架用语吸入基础。"
+    },
+    {
+      "key": "02_memory",
+      "name": "记忆与上下文",
+      "chapter": "chapters/02_memory.md",
+      "scope": "Agent 记忆、经验存储、上下文管理；KV cache 工程优先效率。"
+    },
+    {
+      "key": "03_skills_and_self_improvement",
+      "name": "技能与自我改进",
+      "chapter": "chapters/03_skills_and_self_improvement.md",
+      "scope": "技能库、技能复用、递归自我改进；机器人执行优先具身。"
+    },
+    {
+      "key": "04_training_data",
+      "name": "训练数据与环境",
+      "chapter": "chapters/04_training_data.md",
+      "scope": "Agent 训练数据、合成数据、训练环境与轨迹构建。"
+    },
+    {
+      "key": "05_rl_and_distillation",
+      "name": "强化学习与蒸馏",
+      "chapter": "chapters/05_rl_and_distillation.md",
+      "scope": "语言模型或 Agent 的 RL、后训练与蒸馏；不因 distillation 一词吸收视觉生成和纯视觉模型。"
+    },
+    {
+      "key": "06_evaluation",
+      "name": "评测与能力基准",
+      "chapter": "chapters/06_evaluation.md",
+      "scope": "围绕更长的任务链、更复杂的能力组合与更广的应用场景组织评测，覆盖软件、网页业务、多模态、科研与具身等方向。验证、评分、诊断与校准作为支撑方法。"
+    },
+    {
+      "key": "07_safety",
+      "name": "安全与对齐",
+      "chapter": "chapters/07_safety.md",
+      "scope": "欺骗、奖励投机、越狱、注入、对齐与失控风险。"
+    },
+    {
+      "key": "08_collaboration",
+      "name": "多 Agent 与人机协作",
+      "chapter": "chapters/08_collaboration.md",
+      "scope": "Agent 团队、通信、协调与人机协作；科学应用不自动覆盖协作机制。"
+    },
+    {
+      "key": "09_multimodal_gui",
+      "name": "多模态与 GUI Agent",
+      "chapter": "chapters/09_multimodal_gui.md",
+      "scope": "多模态推理、视觉语言理解、GUI 与计算机使用；纯视觉重建归相邻方向。"
+    },
+    {
+      "key": "10_world_models",
+      "name": "世界模型与规划",
+      "chapter": "chapters/10_world_models.md",
+      "scope": "显式世界模型、动作条件动力学及基于模型的规划；非所有视频模型。"
+    },
+    {
+      "key": "11_embodied",
+      "name": "具身智能与 VLA",
+      "chapter": "chapters/11_embodied.md",
+      "scope": "机器人、视觉语言动作模型、自动驾驶、具身控制。"
+    },
+    {
+      "key": "12_science",
+      "name": "科学与数学 Agent",
+      "chapter": "chapters/12_science.md",
+      "scope": "AI 科学发现、生物化学、数学发现与形式验证；纯数学结论不等于 AI4Science。"
+    },
+    {
+      "key": "13_efficiency",
+      "name": "效率与循环计算架构",
+      "chapter": "chapters/13_efficiency.md",
+      "scope": "循环/递归 Transformer、共享参数的深度扩展、推理计算组织，以及缓存、量化、通信与部署加速；looped架构默认归13，不能仅因研究循环机制归14。"
+    },
+    {
+      "key": "14_model_science",
+      "name": "模型科学与可解释性",
+      "chapter": "chapters/14_model_science.md",
+      "scope": "优化器、表征、可解释性、机制解释与模型行为科学；循环架构及计算效率归13。以表征接口或因果解释为核心的个别循环论文，须在override中注明例外证据。"
+    },
+    {
+      "key": "15_frontier_reports",
+      "name": "前沿模型报告",
+      "chapter": "chapters/15_frontier_reports.md",
+      "scope": "明确的模型发布、技术报告及系统卡；不根据来源域名、热度或非 arXiv ID 判断。"
+    },
+    {
+      "key": "16_generation",
+      "name": "多模态生成",
+      "chapter": "chapters/16_generation.md",
+      "scope": "图像、视频、音频生成与编辑及其专用蒸馏方法。"
+    },
+    {
+      "key": "90_adjacent",
+      "name": "相邻方向与非 Agent 研究",
+      "chapter": null,
+      "scope": "纯视觉、3D 重建、传统软件系统、纯数学与非 AI 科学；保留而非删除。"
+    },
+    {
+      "key": "99_review",
+      "name": "待复核",
+      "chapter": null,
+      "scope": "旧未分配、证据不足、未知映射或同优先级规则冲突；不是人工审核完成。"
+    }
+  ],
+  "legacy_mapping": {
+    "01_JEV": "06_evaluation",
+    "02_Recursive_Self-Improvement": "03_skills_and_self_improvement",
+    "03_Agent_Training_Data_and_Environment": "04_training_data",
+    "04_Long-Horizon_Agent_Benchmark": "06_evaluation",
+    "05_Multimodal_Agent_Benchmark": "06_evaluation",
+    "06_Frontier_Tech_Reports": "15_frontier_reports",
+    "07_On-Policy_Distillation": "05_rl_and_distillation",
+    "08_Memory_and_Context": "02_memory",
+    "09_World_Models": "10_world_models",
+    "10_Looped_and_Recurrent_Transformers": "13_efficiency",
+    "11_Agentic_RL_PostTraining": "05_rl_and_distillation",
+    "12_Safety_Deception_RewardHacking": "07_safety",
+    "13_Efficiency_and_Architecture": "13_efficiency",
+    "14_AI4Science_and_Math_Agents": "12_science",
+    "15_Multimodal_Generation": "16_generation",
+    "16_Non_AI_Science": "90_adjacent",
+    "17_Embodied_and_VLA": "11_embodied",
+    "18_Unassigned": "99_review",
+    "19_Interpretability_and_Metacognition": "14_model_science",
+    "20_Human_AI_Collaboration": "08_collaboration",
+    "21_Model_Science_and_Optimization": "14_model_science",
+    "22_Other_Areas": "99_review",
+    "23_Agent_Skill_Libraries": "03_skills_and_self_improvement"
+  },
+  "statuses": {
+    "local_override_reviewed": "逐条定点校正：编码助手核对本地元数据，不代表人类专家审核或论文真实性核验。",
+    "rule_assigned_unreviewed": "标题/one_line 特定规则自动分类，未人工审核。",
+    "legacy_mapped_unreviewed": "沿用旧类到新类的默认映射，未人工审核，可能继承旧错误。",
+    "needs_review": "证据不足或规则冲突，等待复核。"
+  },
+  "policy": {
+    "primary_field": "new",
+    "secondary_field": "secondary_tags",
+    "automatic_evidence_fields": [
+      "title",
+      "one_line"
+    ],
+    "precedence": "定点 override > 标题规则 > one_line 规则 > 有防护的旧映射；同层级最高 priority 的不同目标冲突进入 99_review。低优先级明确命中仅作 secondary_tags。摘要不参与自动匹配。",
+    "secondary_policy": "secondary_tags 使用相同分类键，去重并排除主类与 99_review；旧类映射不会无证据自动成为副标签。",
+    "scope_warning": "仅重组本地快照，不联网核验 ID、标题、日期、模型发布、科学结论或摘要真伪。"
+  },
+  "legacy_guards": [
+    {
+      "old": "06_Frontier_Tech_Reports",
+      "pattern": "technical report|system card|^introducing |frontier intelligence|frontier performance|our next era of frontier",
+      "reason": "旧06混有博客、方法和纯数学；无明确模型报告信号，不直接继承前沿报告类。"
+    },
+    {
+      "old": "07_On-Policy_Distillation",
+      "pattern": "\\bllms?\\b|language models?|language agents?|agentic|visual agents?",
+      "reason": "旧07可能仅因 distillation 命中；缺少语言模型或 Agent 对象证据，不能当作 Agent 蒸馏。"
+    },
+    {
+      "old": "14_AI4Science_and_Math_Agents",
+      "pattern": "scientific discovery|ai4math|ai4science|molecul|protein|biology|biolog|oncolog|scientific laws|mathematical discovery|lean verification|in silico cognitive",
+      "reason": "旧14混有协作、优化、视觉和纯数学；缺少 AI 科学应用证据时待审。"
+    }
+  ],
+  "rules": [
+    {
+      "id": "safety_explicit",
+      "target": "07_safety",
+      "priority": 130,
+      "fields": [
+        "title"
+      ],
+      "pattern": "jailbreak|prompt injection|reward.?hack|reward.seek|alignment failures?|misaligned|decepti|lying, cheating|agent.{0,25}security|security.{0,25}agent",
+      "reason": "标题明确研究安全攻击、欺骗、奖励投机或对齐失败。"
+    },
+    {
+      "id": "pure_math_specific",
+      "target": "90_adjacent",
+      "priority": 125,
+      "fields": [
+        "title"
+      ],
+      "pattern": "navier[– -]stokes|riemann|hankel[– -]stieltjes|qubit measurements|three-edge-coloring|boolean function conjecture|gy[őo]ri.lov[áa]sz",
+      "reason": "标题为明确的数学/物理问题；不因数学术语或来源而视为前沿模型报告。"
+    },
+    {
+      "id": "looped_architecture",
+      "target": "13_efficiency",
+      "priority": 121,
+      "fields": [
+        "title"
+      ],
+      "pattern": "\\blooped\\b|\\b(?:recurrent|recursive)[ -](?:language[ -])?(?:transformers?|models?)\\b|transformer.{0,35}recurrence",
+      "reason": "标题明确研究循环/递归模型、参数复用或深度计算架构，按第13章归类；仅经显式证据校正的表征/可解释性论文例外归14。"
+    },
+    {
+      "id": "model_mechanisms",
+      "target": "14_model_science",
+      "priority": 120,
+      "fields": [
+        "title"
+      ],
+      "pattern": "mechanistic|interpretability|latent reasoning|hidden chain-of-thought|massive activations|\\bJ-CoT\\b|\\bAdam\\b|\\bMuon\\b|optimizer|optimization dynamics|tokenization: a survey|language model [\"“]shape",
+      "reason": "标题直接指向优化器、表征、可解释性或模型行为科学；looped架构规则优先，不能仅凭循环术语归14。"
+    },
+    {
+      "id": "jev_verification_escalation",
+      "target": "06_evaluation",
+      "priority": 117,
+      "fields": [
+        "title"
+      ],
+      "pattern": "\\bJEV-as-a-Judge\\b|\\bJEV vs\\.|\\bJev in the Wild\\b|\\bVisual Jev\\b|\\bREFLEX with Jev\\b|\\bconfidence-based cascades?\\b|\\b(?:selective|confidence-based) escalation\\b",
+      "reason": "标题明确指向JEV判断、验证或不确定时升级；按第06章处理，优先于通用Agent框架规则，但不泛匹配JEV记忆等应用。"
+    },
+    {
+      "id": "evaluation_explicit",
+      "target": "06_evaluation",
+      "priority": 115,
+      "fields": [
+        "title"
+      ],
+      "pattern": "\\bbenchmark(?:s|ing)?\\b|\\b[a-z0-9-]*bench(?:-[a-z0-9]+)?\\b|\\bevaluat(?:ion|ing)\\b|\\bmeta-evaluation\\b|as.a.judge|rubric judges|as.a.verifier|survey of verifiers|calibration study|measuring.{0,35}(abilities|autonomous|reasoning|creativity)",
+      "reason": "标题明确以评测、基准、校准或验证器为研究对象。"
+    },
+    {
+      "id": "world_model_explicit",
+      "target": "10_world_models",
+      "priority": 110,
+      "fields": [
+        "title"
+      ],
+      "pattern": "world[ -](?:action[ -])?models?|world-action|latent dynamics",
+      "reason": "标题明确研究世界模型或动作条件潜动力学。"
+    },
+    {
+      "id": "embodied_explicit",
+      "target": "11_embodied",
+      "priority": 105,
+      "fields": [
+        "title"
+      ],
+      "pattern": "\\brobot(?:s|ic|ics)?\\b|\\brobotic manipulation\\b|vision[ -]language[ -]action|\\bVLA(?:s)?\\b|embodied|dexterous|humanoid|autonomous driving|end-to-end driving|proprioceptive|control a drone",
+      "reason": "标题明确以机器人、VLA、具身操作或驾驶控制为对象。"
+    },
+    {
+      "id": "visual_generation",
+      "target": "16_generation",
+      "priority": 100,
+      "fields": [
+        "title"
+      ],
+      "pattern": "(?:image|video|audio|audio-video|audio-visual|visual|multimodal|multi-shot video) (?:generation|generators?|creation|synthesis)|video diffusion|video distillation|diffusion distillation|image generation and editing|text-to-(?:image|video|audio)|text-guided video",
+      "reason": "标题明确面向视觉/音视频生成或其专用蒸馏，而非语言 Agent 蒸馏。"
+    },
+    {
+      "id": "pure_vision",
+      "target": "90_adjacent",
+      "priority": 98,
+      "fields": [
+        "title"
+      ],
+      "pattern": "3d gaussian splatting|3dgs restoration|monocular depth|sparse-view reconstruction|novel view synthesis|massively parallel linker|real-time computer vision",
+      "reason": "标题对象为纯视觉重建、深度估计或通用软件系统，作为相邻研究保留。"
+    },
+    {
+      "id": "collaboration_explicit",
+      "target": "08_collaboration",
+      "priority": 95,
+      "fields": [
+        "title"
+      ],
+      "pattern": "multi[ -]agent|agent teams|test-time communication|human[ -](?:ai|agent)|collective behavior of ai agents|agent coordination",
+      "reason": "标题明确研究 Agent 团队、跨 Agent 通信或人机协作。"
+    },
+    {
+      "id": "multimodal_gui",
+      "target": "09_multimodal_gui",
+      "priority": 90,
+      "fields": [
+        "title"
+      ],
+      "pattern": "\\bGUI\\b|computer[ -]use|visual agents?|visual on-policy|visual evidence distillation|video understanding|video reasoning|vision[ -]language models?|vision encoder|just-in-time interfaces|optical character grounded",
+      "reason": "标题明确指向多模态理解、视觉语言或 GUI 交互。"
+    },
+    {
+      "id": "science_application",
+      "target": "12_science",
+      "priority": 90,
+      "fields": [
+        "title"
+      ],
+      "pattern": "scientific discovery|scientific laws|ai4math|ai4science|agentic molecule|ai agents discover|protein binder design|lean verification|mathematical discovery|learning to discover.{0,15}mathematics|pre-training.{0,15}biology|in silico cognitive science",
+      "reason": "标题包含 AI 科学发现、数学发现或具体科学应用信号。"
+    },
+    {
+      "id": "efficiency_specific",
+      "target": "13_efficiency",
+      "priority": 85,
+      "fields": [
+        "title"
+      ],
+      "pattern": "kv cache|prefix cache|speculative decoding|gpu kernel|collective communication|weight transfer|quantization|binary and ternary|latency floor|speculative programmatic tool calling",
+      "reason": "标题明确研究缓存、解码加速、量化、通信或部署效率。"
+    },
+    {
+      "id": "training_resources",
+      "target": "04_training_data",
+      "priority": 80,
+      "fields": [
+        "title"
+      ],
+      "pattern": "training environments?|environments for training|training.{0,20}environments|training data|dataset generation|invent a dataset|scenario co-design|skill2env|llm corpus",
+      "reason": "标题明确研究数据、训练环境或场景构造。"
+    },
+    {
+      "id": "skill_improvement",
+      "target": "03_skills_and_self_improvement",
+      "priority": 75,
+      "fields": [
+        "title"
+      ],
+      "pattern": "skill librar|agent skills|skill refinement|skillrefiner|recursive self-improvement|self-improving agents|self-evolving agents|agentic skill",
+      "reason": "标题明确研究可复用技能或 Agent 自我改进。"
+    },
+    {
+      "id": "memory_specific",
+      "target": "02_memory",
+      "priority": 75,
+      "fields": [
+        "title"
+      ],
+      "pattern": "agentic memory|agent memory|memory for.{0,20}agents|jev-mem|episodic memory|long-term memory|context management|context engineering",
+      "reason": "标题明确研究 Agent 记忆或上下文管理。"
+    },
+    {
+      "id": "rl_language",
+      "target": "05_rl_and_distillation",
+      "priority": 70,
+      "fields": [
+        "title"
+      ],
+      "pattern": "agentic (?:rl|reinforcement learning)|reinforcement learning.{0,35}(?:language models|agents)|on-policy.{0,25}(?:language models|llms)|language models.{0,30}distillation|kl-regularized policy optimization|flashreinforce",
+      "reason": "标题把 RL/蒸馏与语言模型或 Agent 对象明确关联。"
+    },
+    {
+      "id": "agent_harness",
+      "target": "01_basics",
+      "priority": 65,
+      "fields": [
+        "title"
+      ],
+      "pattern": "language model harness|agent harness|goal-driven agents|agent architecture|agentic frameworks?",
+      "reason": "标题明确研究 Agent harness、系统框架或控制组织。"
+    },
+    {
+      "id": "model_report",
+      "target": "15_frontier_reports",
+      "priority": 60,
+      "fields": [
+        "title"
+      ],
+      "pattern": "technical report|system card|^introducing .*(?:claude|muse|laguna|k2)|frontier intelligence|our next era of frontier",
+      "reason": "标题明确标记模型技术报告、系统卡或发布；仅按本地标题分类，不验证发布事实。"
+    },
+    {
+      "id": "summary_world",
+      "target": "10_world_models",
+      "priority": 60,
+      "fields": [
+        "one_line"
+      ],
+      "pattern": "action-conditioned (?:video )?world model|latent world models for planning",
+      "reason": "one_line 明确描述动作条件世界模型；只在标题无命中时决定主类。"
+    },
+    {
+      "id": "summary_team",
+      "target": "08_collaboration",
+      "priority": 55,
+      "fields": [
+        "one_line"
+      ],
+      "pattern": "teams of (?:language models|ai agents)|multi-agent coordination|multiagent coordination",
+      "reason": "one_line 明确描述语言模型团队或多 Agent 协作。"
+    }
+  ]
+}

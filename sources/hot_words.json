@@ -1,0 +1,245 @@
+[
+  {
+    "url": "https://agentskills.io/specification",
+    "checked_at": "2026-10-08T16:44:02.914549+00:00",
+    "status": "reviewed_selected_sections",
+    "scope": "concept_origin_and_selected_method_descriptions",
+    "sha256": "9567c3b2e8b34d61d9753407119ba9bd9411d30eec264be8713845c4e63a9c27",
+    "title": "Specification - Agent Skills",
+    "published": ""
+  },
+  {
+    "url": "https://arxiv.org/abs/1011.0686",
+    "checked_at": "2026-10-08T16:47:05.199711+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "3fafd0970b2c891223e49d29326d6a48d91f48cebd342f943d788ed06f998432",
+    "title": "A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning",
+    "published": "2010/11/02"
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.16291",
+    "checked_at": "2026-10-08T16:47:03.369720+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "623da6dcf7bdc4c5fd8ec06df5fb3222e93df8529e058d8f44d3188253e961f6",
+    "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+    "published": "2023/05/25"
+  },
+  {
+    "url": "https://arxiv.org/abs/2310.08560",
+    "checked_at": "2026-10-08T16:47:03.909717+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "fa7328c6c6b801fa1b9b6a5dd76fb1d2a8afddfc6e33bb2dd58978462bc6906f",
+    "title": "MemGPT: Towards LLMs as Operating Systems",
+    "published": "2023/10/12"
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.20683",
+    "checked_at": "2026-10-08T16:47:04.162716+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "3ef0521c38187e9193753de807269fb91f77de8da84565b70b441f2d0e48aa6e",
+    "title": "From Question Answering to Task Completion: A Survey on Agent System and Harness Design",
+    "published": "2026/06/14"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.06906",
+    "checked_at": "2026-10-08T16:47:03.386719+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "ae20aa40d2ab4125b3ded9d64bcff8cccc92ec1ac7b855fd13b2adcffaf7993d",
+    "title": "The Harness Effect: How Orchestration Design Sets the Token Economics of Enterprise Agentic AI",
+    "published": "2026/07/08"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.07663v2",
+    "checked_at": "2026-10-08T16:47:04.743713+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "5872953ddbd60e4dc540a5aafdce743f0c62fb1a97984c5fe3ff98682ee54527",
+    "title": "Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops",
+    "published": "2026/07/08"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.08938",
+    "checked_at": "2026-10-08T16:47:03.344720+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "4e447ec88dffa076851b095f25a5e393df57809224ecba3096e616b8b47b6409",
+    "title": "Better Harnesses, Smaller Models: Building 90% Cheaper Agents via Automated Harness Adaptation",
+    "published": "2026/07/09"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.08964",
+    "checked_at": "2026-10-08T16:47:04.507714+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "fa10d5fe7b95b82510da7d2d3e3e8b3d0a92dffd3854354e4b54e54e49c90529",
+    "title": "Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading",
+    "published": "2026/07/09"
+  },
+  {
+    "url": "https://arxiv.org/abs/2608.10875",
+    "checked_at": "2026-10-08T16:47:04.541714+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "f7d4423b54d944b04b67126b482ba4d459d1a9cdeca2eb7f498e0e2944a1f19e",
+    "title": "VibeLifeBench: Can Your Life Agent Be Proactive and Persistent in a Living World?",
+    "published": "2026/08/11"
+  },
+  {
+    "url": "https://arxiv.org/abs/2608.19652",
+    "checked_at": "2026-10-08T16:47:03.987717+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "5de3bb8fd8f8bba6e20ab0e367be184a08353083cbbd014e46cedae1c8131110",
+    "title": "Can Agent Memory Systems Track Evolving State?",
+    "published": "2026/08/20"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.04108",
+    "checked_at": "2026-10-08T16:47:04.080716+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "873d51a2fbf55e50d6a7559a86f818dc85766de0e8af88c5beb18828f4d28343",
+    "title": "Sequential Beats Joint: On the Interplay between On-Policy Distillation and RLVR",
+    "published": "2026/09/03"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.11873v3",
+    "checked_at": "2026-10-08T16:47:04.723713+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "97ef6de76dff027df31f6b7e84061320b326cd044bd4a50d22a9e7b4f47ae051",
+    "title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
+    "published": "2026/09/10"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.23986",
+    "checked_at": "2026-10-08T16:47:02.107725+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "408aca6155e3849e249c7fb295aa6dffd7865882f67ac0249f2ee414ee3e1d12",
+    "title": "Jev-Mem: System-One-Controlled Agentic Memory for Efficient AI Agents",
+    "published": "2026/09/21"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.24965",
+    "checked_at": "2026-10-08T16:47:02.211725+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "b7a54cb58b368c6accaea758bb654f2967cd4d374e3b5d6f1b9d29e96dc0b6f9",
+    "title": "Jev for Scientific Decisions: Evaluating Semantic Choices and Their Consequences",
+    "published": "2026/09/21"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.25845",
+    "checked_at": "2026-10-08T16:47:02.143725+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "2853c3d1a7c88d91be6958f729038930e1363358391ed9de6f724a1309816dec",
+    "title": "Visual Jev: Accurate and Efficient Decisions from Shared Visual Context",
+    "published": "2026/09/22"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.26457",
+    "checked_at": "2026-10-08T16:47:04.665714+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "13f9787be57f7ebfeb851451c51b85a01685ef216c7841fd8b223a8c34808a5b",
+    "title": "Recursive self-improvement of AI research agents",
+    "published": "2026/09/22"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.26532",
+    "checked_at": "2026-10-08T16:47:02.194725+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "2ccba62fb32d529c1947c11b87ff7b657cdedab3bf3b18fdcdfa555839e43356",
+    "title": "REFLEX with Jev for Efficient Selective Control in LLM Agents",
+    "published": "2026/09/22"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.26550",
+    "checked_at": "2026-10-08T16:47:03.327720+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "5b6bc290fa0e6c50ce01740ea34871bcaa027a8a8fec7d7b503c93476a0494ee",
+    "title": "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure",
+    "published": "2026/09/22"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.28145",
+    "checked_at": "2026-10-08T16:47:04.040716+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "3b99c41de25959df4b35768740101789de5b9d27c9d613910ade083247377ef8",
+    "title": "RL Starts before RL: On Policy Distillation for Better Reinforcement Learning",
+    "published": "2026/09/23"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.29429",
+    "checked_at": "2026-10-08T16:47:02.720722+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "52daeb12e3f626bb615726fc3efa1dfc43ea4af2bb6c8c93217e50c0cfade5e5",
+    "title": "Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures",
+    "published": "2026/09/24"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.29769",
+    "checked_at": "2026-10-08T16:47:02.754722+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "0a4286d2b01681f0d095c76fc6812d3bd1e7f6b37d9491200e2b8f7a28d244d2",
+    "title": "JEV vs. LLMs as Rubric Judges: Cheaper, Faster, and Wrong in the Same Places",
+    "published": "2026/09/24"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.30216",
+    "checked_at": "2026-10-08T16:47:02.738722+00:00",
+    "status": "metadata_fetched",
+    "scope": "metadata_and_reachability_only",
+    "sha256": "12aa410de653db075b729817a576d0c5b2f0b09fb9aa0daad031302a17a39da7",
+    "title": "Jev in the Wild: A Data-Driven Analysis of the Jev Model's Functionality, Applications and Ecosystem",
+    "published": "2026/09/24"
+  },
+  {
+    "url": "https://docs.typesafe.ai/model-jaggedness/jev-1.13",
+    "checked_at": "2026-10-08T16:44:02.501550+00:00",
+    "status": "reviewed_selected_sections",
+    "scope": "concept_origin_and_selected_method_descriptions",
+    "sha256": "934a2144987e4967c5725ecee7a9642f7bf26912e83fabf09747220aa90af972",
+    "title": "Jev 1.13 jaggedness - TypeSafe AI",
+    "published": ""
+  },
+  {
+    "url": "https://long-horizon-agents.github.io/",
+    "checked_at": "2026-10-08T16:47:05.618709+00:00",
+    "status": "reviewed_selected_sections",
+    "scope": "concept_origin_and_selected_method_descriptions",
+    "sha256": "9209949fccac28597eb55d84cbcf1a9b3ad98498f2be5ff48a0100c3f8be512e",
+    "title": "Towards Long-Horizon Agents: A Survey",
+    "published": ""
+  },
+  {
+    "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+    "checked_at": "2026-10-08T16:46:16.873933+00:00",
+    "status": "reviewed_selected_sections",
+    "scope": "concept_origin_and_selected_method_descriptions",
+    "sha256": "4842feebc36f5484a396430a1fa7c580c1b096f1bd2d97aeb1e4a831ba43c74f",
+    "title": "Introducing System One Models & Jev - TypeSafe AI Blog",
+    "published": ""
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
+    "checked_at": "2026-10-08T16:44:02.657550+00:00",
+    "status": "reviewed_selected_sections",
+    "scope": "concept_origin_and_selected_method_descriptions",
+    "sha256": "3430647c2bcecc06ecf0a02b54d066d48a583c76bf17e2958513d35f70271f5a",
+    "title": "Equipping agents for the real world with Agent Skills \\ Anthropic",
+    "published": ""
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "2607.12815": {
+    "local_title": "Visual Access Boundaries in Vision-Language Model Reasoning",
+    "current_version": "3",
+    "versions": {
+      "1": "Visual Access Boundaries in Vision-Language Model Reasoning",
+      "3": "What Keeps Vision-Language Models Looking at the Image?"
+    },
+    "current_updated": "2026-10-04T09:34:10Z",
+    "checked_at": "2026-10-08",
+    "note": "v1与v3题名、摘要均有变化。正文旧样本解释固定到v1，不把新版干预结论并入旧版证据。"
+  },
+  "2607.27599": {
+    "local_title": "World Action Planner: Generalizable Decision-Making with Action-Conditioned World Models",
+    "current_version": "2",
+    "versions": {
+      "1": "World Action Planner: Generalizable Decision-Making with Action-Conditioned World Models",
+      "2": "World Action Planner: Generalizable Robot Decision-Making with Action-Conditioned World Models"
+    },
+    "current_updated": "2026-10-02T17:25:59Z",
+    "checked_at": "2026-10-08",
+    "note": "本地题名匹配v1；v2题名增加Robot，仍需按实际版本引用。"
+  },
+  "2607.28627": {
+    "local_title": "ReToken: One Token to Improve Vision-Language Models for Visual Retrieval",
+    "current_version": "2",
+    "versions": {
+      "1": "ReToken: One Token to Improve Vision-Language Models for Visual Retrieval",
+      "2": "ReToken: Improving Long-Context VLMs with Visual Retrieval Token"
+    },
+    "current_updated": "2026-10-06T22:51:13Z",
+    "checked_at": "2026-10-08",
+    "note": "本地题名匹配v1；v2重写题名和摘要表述，正文固定所用版本并提供新版入口。"
+  }
+}

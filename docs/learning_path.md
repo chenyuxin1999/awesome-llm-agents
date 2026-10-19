@@ -14,7 +14,7 @@
 
 主动发现问题、长期维持目标、协调异质工具和持续积累经验，都需要从愿景转化为可观察行为。关键是设计必须使用目标能力才能完成的任务，并排除扩大上下文、额外采样或固定流程等替代解释。能力定义应允许构造不同难度和不同表面条件，而不是绑定到某一个演示。
 
-这一方向连接[基础与规划](../chapters/01_basics.md)、[记忆](../chapters/02_memory.md)、[技能与自改进](../chapters/03_skills_and_self_improvement.md)及[评测](../chapters/06_evaluation.md)。对于递归改进，还要区分执行策略变化与改进机制变化，相关框架见[综述导读](../chapters/00_surveys.md)。
+这一方向连接[基础与规划](../chapters/01_basics.md)、[记忆](../chapters/02_memory.md)、[自我改进（RSI）](../chapters/03_skills_and_self_improvement.md)及[评测](../chapters/06_evaluation.md)。对于递归改进，还要区分执行策略变化与改进机制变化，相关框架见[综述导读](../chapters/00_surveys.md)。
 
 ## 3. 如何持续构造挑战前沿系统的复杂任务，同时保持可解性与可信反馈？
 

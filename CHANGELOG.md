@@ -1,10 +1,11 @@
 # 更新记录
 
-## 技能与自我改进章：以 blog 叙事为主线（样板）
+## 自我改进（RSI）章：以 blog 叙事为主线（样板）
 
 - 新增“先读这几篇”，以 DAIR.AI Self-Improving Agents 合集、知乎《万字长文带你读懂 RSI》、Lilian Weng《Harness Engineering for Self-Improvement》、Anthropic Agent Skills 与《When AI builds itself》作为阅读入口。
 - 重写发展脉络：按“被修改的对象”分为第 0 至第 4 级及边界，经典工作挂在各级之下；前沿分支标注主线位置。
 - 增加多维坐标表（进化结构、更新者、更新时机等），用于给新论文定位。
+- 03 章更名为“自我改进（RSI）”，技能作为 RSI 的一环；同步分类名、目录与各处链接文字，文件路径不变。
 - 补充来源记录 `sources/chapter03_mainline_2026-10-19.json`。
 
 ## 章节结构与概念说明

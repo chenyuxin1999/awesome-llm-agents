@@ -16,8 +16,8 @@ Agent 研究横跨系统设计、学习机制与应用场景，单篇方法论�
 | --- | --- | --- |
 | Agent 系统究竟由哪些部分组成？ | Agent System and Harness Design | [基础与工具](01_basics.md) |
 | 为什么任务一长就不可靠？ | Towards Long-Horizon Agents: A Survey | [记忆](02_memory.md) + [评测](06_evaluation.md) |
-| “自演化”到底更新什么？ | What, When, How, and Where to Evolve | [技能与自改进](03_skills_and_self_improvement.md) |
-| RSI 与普通自动优化有什么不同？ | Recursive Self-Improvement in AI | 本章第四节，再进入[技能与自改进](03_skills_and_self_improvement.md) |
+| “自演化”到底更新什么？ | What, When, How, and Where to Evolve | [自我改进（RSI）](03_skills_and_self_improvement.md) |
+| RSI 与普通自动优化有什么不同？ | Recursive Self-Improvement in AI | 本章第四节，再进入[自我改进（RSI）](03_skills_and_self_improvement.md) |
 | 技能库为什么不等于收藏提示词？ | Dynamic Agent Skills | [技能](03_skills_and_self_improvement.md) + [数据](04_training_data.md) |
 | 怎样判断新版本真的更好、更安全？ | Evaluation and Benchmarking，配合 Safety in Self-Evolving Agents | [评测](06_evaluation.md) + [安全](07_safety.md) |
 
@@ -67,7 +67,7 @@ Agent 研究横跨系统设计、学习机制与应用场景，单篇方法论�
 
 **[A Survey on Self-Improving Test-Time Intelligence: Feedback-Driven Adapting, Learning, and Scaling at Inference](https://arxiv.org/abs/2609.01679v1)｜2026-09-01。** 这篇把测试时适应、学习与计算扩展放在一起，帮助读者区分“多花预算得到更好的当前结果”和“利用反馈改变系统状态”。适合与前几篇对照：某项所谓自改进的收益到底来自更多采样、参数变化，还是记忆与策略更新？混合系统可以同时使用多条路线，但实验应尽量拆开它们的贡献。
 
-这些综述提供了互补的分析维度：更新对象与时机解释哪里发生变化，反馈框架解释变化怎样被选择，图结构解释组件如何联动，测试时视角则区分计算扩展与持续学习。具体方法见[技能与自改进](03_skills_and_self_improvement.md)和[强化学习与蒸馏](05_rl_and_distillation.md)，比较时可据此追踪更新对象、反馈来源和迁移效果。
+这些综述提供了互补的分析维度：更新对象与时机解释哪里发生变化，反馈框架解释变化怎样被选择，图结构解释组件如何联动，测试时视角则区分计算扩展与持续学习。具体方法见[自我改进（RSI）](03_skills_and_self_improvement.md)和[强化学习与蒸馏](05_rl_and_distillation.md)，比较时可据此追踪更新对象、反馈来源和迁移效果。
 
 ## 四、RSI：不仅改进任务系统，还改进“怎样改进”
 

@@ -1,0 +1,170 @@
+[
+  {
+    "url": "https://arxiv.org/abs/1506.02438",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "High-Dimensional Continuous Control Using Generalized Advantage Estimation",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.10760",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Scaling Laws for Reward Model Overoptimization",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.20050",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Let's Verify Step by Step",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2306.08543",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "MiniLLM: On-Policy Distillation of Large Language Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2306.13649",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "On-Policy Distillation of Language Models: Learning from Self-Generated Mistakes",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.15124",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Tulu 3: Pushing Frontiers in Open Language Model Post-Training",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2501.12948",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2503.11926",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2503.14476",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "DAPO: An Open-Source LLM Reinforcement Learning System at Scale",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2503.20783",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Understanding R1-Zero-Like Training: A Critical Perspective",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2504.13837",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2505.09388",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Qwen3 Technical Report",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2509.04259",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "RL's Razor: Why Online Reinforcement Learning Forgets Less",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://lilianweng.github.io/posts/2024-11-28-reward-hacking/",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Reward Hacking in Reinforcement Learning (Lilian Weng, Lil'Log, 2024-11-28)",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://lilianweng.github.io/posts/2025-05-01-thinking/",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Why We Think (Lilian Weng, Lil'Log, 2025-05-01)",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://magazine.sebastianraschka.com/p/state-of-llms-2025",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "The State Of LLMs 2025: Progress, Problems, and Predictions (Sebastian Raschka, 2025-12-30)",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://magazine.sebastianraschka.com/p/the-state-of-llm-reasoning-model-training",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "The State of Reinforcement Learning for LLM Reasoning (Sebastian Raschka, Ahead of AI, 2025-04-19)",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://rlhfbook.com/",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Reinforcement Learning from Human Feedback (Nathan Lambert, online book)",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://thinkingmachines.ai/blog/lora/",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "LoRA Without Regret (John Schulman and Thinking Machines Lab, 2025-09-29)",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://thinkingmachines.ai/blog/on-policy-distillation/",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "On-Policy Distillation (Kevin Lu and Thinking Machines Lab, 2025-10-27)",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://www.interconnects.ai/p/what-comes-next-with-reinforcement",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "What comes next with reinforcement learning (Nathan Lambert, Interconnects, 2025-06-09)",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  }
+]

@@ -10,14 +10,15 @@
 
 ## 先读这几篇
 
-这一章的主线不是我们自己从论文里归纳出来的，而是借了几篇写得很好的长文。建议按下面的顺序读，读完再回来看各分支的新论文会轻松很多。
+这一章的主线借自几篇写得很好的长文，而不是从论文分类里倒推出来的。建议按下面的顺序读，读完再回来看各分支的新论文会轻松很多。
 
 | 顺序 | 文章 | 为什么读 |
 |---|---|---|
 | 1 | DAIR.AI Academy，[Self-Improving Agents](https://academy.dair.ai/papers/collections/self-improving-agents)（2026-09） | 31 篇论文排成 8 段，从 Gödel Machine 一路讲到"循环在哪里断掉"，是本章发展脉络的骨架。它对自我改进的定义也最干净：系统用自己产生的反馈修改自身某个持久部分，并且只保留经过检验确实有用的修改。 |
-| 2 | Lilian Weng，[Harness Engineering for Self-Improvement](https://lilianweng.github.io/posts/2026-07-04-harness/)（2026-07） | 给出了"改什么"的阶梯：提示 → 结构化上下文 → 工作流 → harness 代码 → 优化器代码，最后和权重联合优化。本章用这条阶梯给新论文定位。文末列的七个瓶颈（评价器弱、负面结果少、多样性坍缩、reward hacking 等）也值得抄下来。 |
-| 3 | Anthropic，[Equipping agents for the real world with Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)（2025-10） | 技能这一半的工程起点：技能是一个以 SKILL.md 为中心的文件夹，启动时只读名字和描述，用到时再展开。文末那句"希望 agent 能自己创建、编辑和评估技能"，正好把技能和自我改进接在一起。 |
-| 4 | Anthropic，[When AI builds itself](https://www.anthropic.com/institute/recursive-self-improvement)（2026，9 月更新） | 从一家前沿实验室内部看递归自我改进走到了哪一步：AI 已经能执行定义清楚的实验，但选题和判断什么重要仍然靠人。适合读完技术部分后校准预期。 |
+| 2 | 南冥有一鱼，[万字长文带你读懂 RSI](https://zhuanlan.zhihu.com/p/2078900380323279524)（知乎，2026-09） | 中文读者最好的入口。它没有按时间讲，而是给了一套坐标系：进化对象、进化结构（链、树、图）、谁来更新、何时更新，再加验收标准、反馈来源等五个维度。每个维度配一篇 2025–2026 年的代表工作，读完能直接拿来给新论文归类。本章第二节最后的坐标表就来自这篇。 |
+| 3 | Lilian Weng，[Harness Engineering for Self-Improvement](https://lilianweng.github.io/posts/2026-07-04-harness/)（2026-07） | 给出了"改什么"的阶梯：提示 → 结构化上下文 → 工作流 → harness 代码 → 优化器代码，最后和权重联合优化。本章用这条阶梯给新论文定位。文末列的七个瓶颈（评价器弱、负面结果少、多样性坍缩、reward hacking 等）也值得抄下来。 |
+| 4 | Anthropic，[Equipping agents for the real world with Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)（2025-10） | 技能这一半的工程起点：技能是一个以 SKILL.md 为中心的文件夹，启动时只读名字和描述，用到时再展开。文末那句"希望 agent 能自己创建、编辑和评估技能"，正好把技能和自我改进接在一起。 |
+| 5 | Anthropic，[When AI builds itself](https://www.anthropic.com/institute/recursive-self-improvement)（2026，9 月更新） | 从一家前沿实验室内部看递归自我改进走到了哪一步：AI 已经能执行定义清楚的实验，但选题和判断什么重要仍然靠人。适合读完技术部分后校准预期。 |
 
 想多读一点：Silver & Sutton 的 [The Era of Experience](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf) 讲为什么智能体要从自己的经验里学；Sakana 的 [Darwin Gödel Machine 介绍](https://sakana.ai/dgm/) 是理解开放式自修改代码最直观的一篇。
 
@@ -74,6 +75,25 @@ Lilian Weng 的文章把这一级的意义讲得最清楚：harness 代码是一
 
 今天前沿的兴趣在于把第 2 级和第 4 级接起来：harness 产生的轨迹拿去训模型，模型变了再重新搜 harness。Lilian Weng 把这称为联合优化，三.4 和三.7 的新论文讨论的正是这件事。
 
+### 给新论文定位：一套多维坐标
+
+上面的梯子只回答了一个问题：改的是什么。知乎上那篇《万字长文带你读懂 RSI》补齐了其余几个维度，它把 RSI 定义为"Agent 与环境交互后，用轨迹和反馈通过更新机制修改自身状态，并让新状态参与后续任务"，再从下面几个方向拆开比较。它的"进化对象"一维（参数、上下文、记忆、Skill、Harness 代码）和本章的梯子基本对应，其余几维是梯子没有覆盖的：
+
+| 维度 | 取值 | 代表工作 |
+|---|---|---|
+| 进化结构 | 链：始终只有一个当前版本，错误会被下一轮继承 | [SkillFlow](https://arxiv.org/abs/2604.17308)：同一任务族里按顺序打 Skill patch |
+| | 树：保留多个历史版本，任意版本都能继续分叉 | [Darwin Gödel Machine](https://arxiv.org/abs/2505.22954)：低分版本也留在档案库里 |
+| | 图：一次修改同时参考多个任务或多条谱系的轨迹 | [Mendel Gödel Machine](https://arxiv.org/abs/2608.07645)：跨任务对照、跨谱系杂交 |
+| 谁来更新 | 自身：执行任务的 agent 自己改 | Reflexion、[ReasoningBank](https://arxiv.org/abs/2509.25140) |
+| | 教师：另一个 agent 或优化流程决定写回什么 | [Recuris](https://arxiv.org/abs/2608.24876)：Meta-Agent 汇总多任务失败后局部修补 Skill |
+| | 联合：两者都影响最终写回的内容 | [Evo-Harness](https://arxiv.org/abs/2608.15071)：Solver 提候选经验，Evolver 筛选编译 |
+| 更新时机 | 离线：训练任务上更新完，测试时冻结 | [GDPevo](https://arxiv.org/abs/2608.03764)：规则重组构造训练与测试任务 |
+| | 在线：边做任务边更新，前面的经验影响后面 | [FinEvo-Bench](https://arxiv.org/abs/2608.06144)：120 个金融任务的任务流，带状态重置对照组 |
+| | 混合：先离线建初始经验，上线后继续改 | Mem²Evolve |
+| 其他 | 验收标准、反馈来源、反馈类型（分数还是文字）、更新频率、经验作用范围（通用还是专用） | 见原文第 6 节 |
+
+读一篇新论文时，可以先在梯子上找到它改的层级，再用这张表补齐其余坐标。两篇论文只要有一个坐标不同，就不该直接比较分数，比如在线和离线更新的结果就没有可比性。原文还有一个细节值得注意：只给分数的模块不算"教师"，教师必须实际决定写回什么。另外，原文介绍的 SkillSmith（Skill 与工具共同进化）和本章三.1 收录的 SkillSmith（参数技能组合）是两篇同名的不同论文。
+
 ### 边界：循环在哪里断掉
 
 每往上爬一级，"怎么知道真的变好了"就更难回答。DAIR.AI 专门留了一节讲这个，几篇工作值得每个做这个方向的人读一遍：[Large Language Models Cannot Self-Correct Reasoning Yet](https://arxiv.org/abs/2310.01798)（2023）发现没有外部反馈时模型的自我纠错往往无效甚至有害；[The Curse of Recursion](https://arxiv.org/abs/2305.17493)（2023）说明反复用生成数据训练会让模型遗忘分布尾部；[Mind the Gap](https://arxiv.org/abs/2412.02674)（2024）用"生成-验证鸿沟"刻画自我改进能走多远；[Your Agent May Misevolve](https://arxiv.org/abs/2509.26354)（2025）展示了自我演化过程中出现的安全退化；[RE-Bench](https://arxiv.org/abs/2411.15114)（2024）则给出了 AI 做 AI 研发时和人类专家的真实差距。
@@ -84,7 +104,7 @@ Lilian Weng 列的瓶颈可以和这些论文对照着读：评价器弱或模�
 
 ## 三、前沿研究方向
 
-下面八个分支收录的是 2026 年的新论文。每个分支开头标了它在上面那架梯子上的位置。读新论文时建议先问两个问题：它改的是哪一级的对象？它怎么证明改进是真的？前一个问题决定它和哪些经典工作比较，后一个问题决定结论能信多少。
+下面八个分支收录的是 2026 年的新论文。每个分支第一段之后标了它在上面那架梯子上的位置，其余坐标可以用上一节的表格补齐。读新论文时建议先问两个问题：它改的是哪一级的对象？它怎么证明改进是真的？前一个问题决定它和哪些经典工作比较，后一个问题决定结论能信多少。
 
 ### 1. 怎样把经历和专家知识变成可以调用的技能？
 

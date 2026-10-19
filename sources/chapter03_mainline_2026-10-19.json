@@ -231,5 +231,53 @@
   "arxiv_id": "",
   "status": "metadata_fetched",
   "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2509.25140",
+  "checked_at": "2026-10-19T05:24:36.032467+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经检索结果与知乎原文参考文献核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.17308",
+  "checked_at": "2026-10-19T05:24:36.032467+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "SkillFlow: Benchmarking Lifelong Skill Discovery and Evolution for Autonomous Agents",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经检索结果与知乎原文参考文献核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.03764",
+  "checked_at": "2026-10-19T05:24:36.032467+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "GDPevo: Evaluating Agent Self-Evolution on Real Business Tasks",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经检索结果与知乎原文参考文献核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.06144",
+  "checked_at": "2026-10-19T05:24:36.032467+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "FinEvo-Bench: A Longitudinal Benchmark for Self-Evolving Agents in Professional Financial Workflows",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经检索结果与知乎原文参考文献核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.07645",
+  "checked_at": "2026-10-19T05:24:36.032467+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Mendel Gödel Machine: Recursive Self-Improving Coding Agents via Comparative Evolution",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经检索结果与知乎原文参考文献核对题名"
+ },
+ {
+  "url": "https://zhuanlan.zhihu.com/p/2078900380323279524",
+  "checked_at": "2026-10-19T05:24:36.032467+00:00",
+  "scope": "full_text_read",
+  "status": "fetch_failed",
+  "title": "万字长文带你读懂 RSI",
+  "notes": "知乎禁止机器抓取；2026-10-19 由维护者在浏览器导出 PDF 后全文阅读"
  }
 ]

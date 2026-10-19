@@ -150,5 +150,61 @@
     "status": "fetch_failed",
     "title": "The Attacker Moves Second: Stronger Adaptive Attacks Bypass Defenses Against LLM Jailbreaks and Prompt Injections",
     "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://www.anthropic.com/glasswing",
+    "checked_at": "2026-10-19T12:11:32.252356+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Project Glasswing",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 由项目「Interconnects 半年总结」线程整理，标题取自该线程资料（/mnt/project-files/interconnects/）"
+  },
+  {
+    "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+    "checked_at": "2026-10-19T12:11:32.252356+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "The Hugging Face incident and the road ahead",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 由项目「Interconnects 半年总结」线程整理，标题取自该线程资料（/mnt/project-files/interconnects/）"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
+    "checked_at": "2026-10-19T12:11:32.252356+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "OpenAI incident timeline (Simon Willison)",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 由项目「Interconnects 半年总结」线程整理，标题取自该线程资料（/mnt/project-files/interconnects/）"
+  },
+  {
+    "url": "https://epoch.ai/gradient-updates/openai-accidentally-hacked-hugging-face",
+    "checked_at": "2026-10-19T12:11:32.252356+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "OpenAI accidentally hacked Hugging Face (Epoch AI)",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 由项目「Interconnects 半年总结」线程整理，标题取自该线程资料（/mnt/project-files/interconnects/）"
+  },
+  {
+    "url": "https://www.interconnects.ai/p/lessons-from-the-hacks",
+    "checked_at": "2026-10-19T12:11:32.252356+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Lessons from the hacks",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 由项目「Interconnects 半年总结」线程整理，标题取自该线程资料（/mnt/project-files/interconnects/）"
+  },
+  {
+    "url": "https://www.interconnects.ai/p/claude-fable-5-and-new-ai-safety",
+    "checked_at": "2026-10-19T12:11:32.252356+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Claude Fable 5 and new AI safety fables",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 由项目「Interconnects 半年总结」线程整理，标题取自该线程资料（/mnt/project-files/interconnects/）"
+  },
+  {
+    "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
+    "checked_at": "2026-10-19T12:11:32.252356+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "The Cyber Risk Discourse is Broken",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 由项目「Interconnects 半年总结」线程整理，标题取自该线程资料（/mnt/project-files/interconnects/）"
   }
 ]

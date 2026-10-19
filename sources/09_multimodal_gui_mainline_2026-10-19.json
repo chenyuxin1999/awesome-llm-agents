@@ -1,0 +1,178 @@
+[
+  {
+    "url": "https://huyenchip.com/2023/10/10/multimodal.html",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Multimodality and Large Multimodal Models (LMMs)",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://magazine.sebastianraschka.com/p/understanding-multimodal-llms",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Understanding Multimodal LLMs",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://huggingface.co/blog/vlms-2025",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Vision Language Models (Better, faster, stronger)",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://www.anthropic.com/news/developing-computer-use",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Developing a computer use model",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://xlang.ai/blog/osworld-verified",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Introducing OSWorld-Verified",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://lilianweng.github.io/posts/2022-06-09-vlm/",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Generalized Visual Language Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://huggingface.co/blog/vlms",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Vision Language Models Explained",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://openai.com/index/computer-using-agent/",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Computer-Using Agent",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://epoch.ai/blog/what-does-osworld-tell-us-about-ais-ability-to-use-computers",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "What does OSWorld tell us about AI's ability to use computers?",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://huggingface.co/blog/smol2operator",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Smol2Operator: Post-Training GUI Agents for Computer Use",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2204.14198",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Flamingo: a Visual Language Model for Few-Shot Learning",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2301.12597",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.12191",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.08914",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "CogAgent: A Visual Language Model for GUI Agents",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2310.11441",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.05243",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2306.06070",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Mind2Web: Towards a Generalist Agent for the Web",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2401.01614",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "GPT-4V(ision) is a Generalist Web Agent, if Grounded",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.04454",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Aguvis: Unified Pure Vision Agents for Autonomous GUI Interaction",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2501.12326",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "UI-TARS: Pioneering Automated GUI Interaction with Native Agents",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2405.09818",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Chameleon: Mixed-Modal Early-Fusion Foundation Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.29537",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "OSWorld 2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  }
+]

@@ -1,0 +1,170 @@
+[
+ {
+  "url": "https://arxiv.org/abs/1503.03585",
+  "checked_at": "2026-10-19T07:20:45.106126+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Deep Unsupervised Learning using Nonequilibrium Thermodynamics",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/1711.00937",
+  "checked_at": "2026-10-19T07:20:45.107126+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Neural Discrete Representation Learning",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/1907.05600",
+  "checked_at": "2026-10-19T07:20:45.108126+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Generative Modeling by Estimating Gradients of the Data Distribution",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2011.13456",
+  "checked_at": "2026-10-19T07:20:45.109126+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Score-Based Generative Modeling through Stochastic Differential Equations",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2012.09841",
+  "checked_at": "2026-10-19T07:20:45.110126+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Taming Transformers for High-Resolution Image Synthesis",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2204.03458",
+  "checked_at": "2026-10-19T07:20:45.111126+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Video Diffusion Models",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2207.12598",
+  "checked_at": "2026-10-19T07:20:45.112126+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Classifier-Free Diffusion Guidance",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2303.01469",
+  "checked_at": "2026-10-19T07:20:45.113126+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Consistency Models",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2311.15127",
+  "checked_at": "2026-10-19T07:20:45.114126+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2311.18828",
+  "checked_at": "2026-10-19T07:20:45.115126+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "One-step Diffusion with Distribution Matching Distillation",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2410.06940",
+  "checked_at": "2026-10-19T07:20:45.116126+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2505.13447",
+  "checked_at": "2026-10-19T07:20:45.117126+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Mean Flows for One-step Generative Modeling",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2506.08009",
+  "checked_at": "2026-10-19T07:20:45.118126+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2510.11690",
+  "checked_at": "2026-10-19T07:20:45.119126+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Diffusion Transformers with Representation Autoencoders",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://lilianweng.github.io/posts/2021-07-11-diffusion-models/",
+  "checked_at": "2026-10-19T07:20:45.120126+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "What are Diffusion Models? (Lil'Log)",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://lilianweng.github.io/posts/2024-04-12-diffusion-video/",
+  "checked_at": "2026-10-19T07:20:45.121126+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Diffusion Models for Video Generation (Lil'Log)",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://sander.ai/2023/07/20/perspectives.html",
+  "checked_at": "2026-10-19T07:20:45.122126+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Perspectives on diffusion (Sander Dieleman blog)",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://sander.ai/2025/04/15/latents.html",
+  "checked_at": "2026-10-19T07:20:45.123126+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Generative modelling in latent space (Sander Dieleman blog)",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://sander.ai/2026/05/06/flow-maps.html",
+  "checked_at": "2026-10-19T07:20:45.124126+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Learning the integral of a diffusion model (Sander Dieleman blog)",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://www.krea.ai/blog/krea-realtime-14b",
+  "checked_at": "2026-10-19T07:20:45.125126+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Krea Realtime 14B: Real-Time, Long-Form AI Video Generation",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://yang-song.net/blog/2021/score/",
+  "checked_at": "2026-10-19T07:20:45.126126+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Generative Modeling by Estimating Gradients of the Data Distribution (Yang Song blog)",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ }
+]

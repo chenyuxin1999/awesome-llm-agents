@@ -18,7 +18,7 @@
 | 2608.16859 | [HarnessEval-W: Agentifying the Evaluation of Visual Worlds](https://www.alphaxiv.org/abs/2608.16859) | — |
 | 2609.02987 | [Tail-Likelihood Reinforcement Learning](https://www.alphaxiv.org/abs/2609.02987) | — |
 | 2608.05466 | [Recursive Synthesis for Long-Horizon Terminal Tasks](https://www.alphaxiv.org/abs/2608.05466) | — |
-| 2607.25886 | [RSIBench-Data: Benchmarking Data-Centric Research for Recursive Self-Improvement](https://www.alphaxiv.org/abs/2607.25886) | [技能与自我改进](03_skills_and_self_improvement.md) |
+| 2607.25886 | [RSIBench-Data: Benchmarking Data-Centric Research for Recursive Self-Improvement](https://www.alphaxiv.org/abs/2607.25886) | [自我改进（RSI）](03_skills_and_self_improvement.md) |
 | 2608.07418 | [ResidencyRL: Reinforcement Learning in Simulated Clinical Environments](https://www.alphaxiv.org/abs/2608.07418) | — |
 | 2607.13988 | [TRACE: Turn-level Reward Assignment via Credit Estimation for Long-Horizon Agents](https://www.alphaxiv.org/abs/2607.13988) | — |
 | 2608.06301 | [HarnessOpt-Bench: Evaluating LLMs at Harness Optimization](https://www.alphaxiv.org/abs/2608.06301) | — |
@@ -33,7 +33,7 @@
 | 2609.04173 | [Last Translation Benchmark](https://www.alphaxiv.org/abs/2609.04173) | — |
 | 2608.14905 | [How Do Agents Fail on AutoResearch: End-to-End Diagnostic Evaluation on 100 Real-World Frontier Research Tasks](https://www.alphaxiv.org/abs/2608.14905) | — |
 | 2608.30320 | [On the Design of Qwen3.8-Next Architecture: Evaluation, Efficiency, and Training Stability](https://www.alphaxiv.org/abs/2608.30320) | — |
-| 2608.20318 | [AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement](https://www.alphaxiv.org/abs/2608.20318) | [技能与自我改进](03_skills_and_self_improvement.md) |
+| 2608.20318 | [AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement](https://www.alphaxiv.org/abs/2608.20318) | [自我改进（RSI）](03_skills_and_self_improvement.md) |
 | 2607.27191 | [Can AI agents conduct open-ended AI research? Early evidence from two case studies](https://www.alphaxiv.org/abs/2607.27191) | — |
 | 2608.17271 | [ASI-Bench: At the Dawn of Artificial Superintelligence](https://www.alphaxiv.org/abs/2608.17271) | — |
 | 2608.13417 | [Beyond Final Scores: A Systematic Evaluation of Agents for Long-Horizon AI Research and Development](https://www.alphaxiv.org/abs/2608.13417) | — |
@@ -91,7 +91,7 @@
 | 2607.25537 | [Visual prompt engineering for video models](https://www.alphaxiv.org/abs/2607.25537) | — |
 | 2608.01186 | [QuerySplat: Decoupling Geometry and Appearance Representations in 3DGS Prediction](https://www.alphaxiv.org/abs/2608.01186) | — |
 | 2608.02711 | [Hunyuan3D-Buffalo 1.0: A Unified Multimodal Model for Scalable 3D Generation, Understanding, and Editing](https://www.alphaxiv.org/abs/2608.02711) | — |
-| 2608.04003 | [PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents](https://www.alphaxiv.org/abs/2608.04003) | [技能与自我改进](03_skills_and_self_improvement.md) |
+| 2608.04003 | [PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents](https://www.alphaxiv.org/abs/2608.04003) | [自我改进（RSI）](03_skills_and_self_improvement.md) |
 | 2608.12313 | [AVA-Encoder: Towards Agent-Native Video Representation Learning](https://www.alphaxiv.org/abs/2608.12313) | — |
 | 2607.19228 | [IGGT4D: Streaming 4D Instance-Grounded Geometry Transformer](https://www.alphaxiv.org/abs/2607.19228) | — |
 | 2608.15008 | [Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents](https://www.alphaxiv.org/abs/2608.15008) | — |
@@ -239,7 +239,7 @@
 | 2609.09030 | [Answer-Distribution Trajectories: A Stochastic-Dynamics View of LLM Reasoning](https://www.alphaxiv.org/abs/2609.09030) | — |
 | 2609.09250 | [No Free Checker: A Survey of Verifiers for Robot Policies](https://www.alphaxiv.org/abs/2609.09250) | [具身智能与 VLA](11_embodied.md) |
 | 2609.21190 | [SWE-Proof: Can Language Models Resolve Real-World Issues with Machine-Checked Proofs?](https://www.alphaxiv.org/abs/2609.21190) | — |
-| 2609.35596 | [SEABench: Benchmarking Endogenous Misalignment In Self-Evolving Agents](https://www.alphaxiv.org/abs/2609.35596) | [技能与自我改进](03_skills_and_self_improvement.md) |
+| 2609.35596 | [SEABench: Benchmarking Endogenous Misalignment In Self-Evolving Agents](https://www.alphaxiv.org/abs/2609.35596) | [自我改进（RSI）](03_skills_and_self_improvement.md) |
 | 2609.36126 | [Reasoning with Neural Cellular Automata](https://www.alphaxiv.org/abs/2609.36126) | — |
 | 2609.36219 | [LeRF: Learning Reference Coordinate Frames for Perspective Taking Reasoning](https://www.alphaxiv.org/abs/2609.36219) | — |
 | 2607.07033 | [AnchorPrune: Relevance-Anchored Contextual Expansion for Visual Token Pruning](https://www.alphaxiv.org/abs/2607.07033) | — |

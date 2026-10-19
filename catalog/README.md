@@ -14,7 +14,7 @@
 | --- | ---: | --- |
 | [Agent 基础与系统框架](01_basics.md) | 12 | [阅读](../chapters/01_basics.md) |
 | [记忆与上下文](02_memory.md) | 147 | [阅读](../chapters/02_memory.md) |
-| [技能与自我改进](03_skills_and_self_improvement.md) | 191 | [阅读](../chapters/03_skills_and_self_improvement.md) |
+| [自我改进（RSI）](03_skills_and_self_improvement.md) | 191 | [阅读](../chapters/03_skills_and_self_improvement.md) |
 | [训练数据与环境](04_training_data.md) | 25 | [阅读](../chapters/04_training_data.md) |
 | [强化学习与蒸馏](05_rl_and_distillation.md) | 159 | [阅读](../chapters/05_rl_and_distillation.md) |
 | [评测与能力基准](06_evaluation.md) | 249 | [阅读](../chapters/06_evaluation.md) |

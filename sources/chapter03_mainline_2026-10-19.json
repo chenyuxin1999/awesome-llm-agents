@@ -1,0 +1,283 @@
+[
+ {
+  "url": "https://academy.dair.ai/papers/collections/self-improving-agents",
+  "checked_at": "2026-10-19T05:04:36.010360+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "title": "Self-Improving Agents (DAIR.AI Academy collection)",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2305.17493",
+  "checked_at": "2026-10-19T05:04:36.011536+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "title": "The Curse of Recursion: Training on Generated Data Makes Models Forget",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2309.16797",
+  "checked_at": "2026-10-19T05:04:36.012239+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "title": "Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2310.01798",
+  "checked_at": "2026-10-19T05:04:36.012814+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "title": "Large Language Models Cannot Self-Correct Reasoning Yet",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2310.02304",
+  "checked_at": "2026-10-19T05:04:36.350016+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "title": "Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2401.10020",
+  "checked_at": "2026-10-19T05:04:36.370523+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "title": "Self-Rewarding Language Models",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2410.04444",
+  "checked_at": "2026-10-19T05:04:36.371816+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "title": "Gödel Agent: A Self-Referential Agent Framework for Recursive Self-Improvement",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2410.10762",
+  "checked_at": "2026-10-19T05:04:36.379712+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "title": "AFlow: Automating Agentic Workflow Generation",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2411.15114",
+  "checked_at": "2026-10-19T05:04:36.566381+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "title": "RE-Bench: Evaluating frontier AI R&D capabilities of language model agents against human experts",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2412.02674",
+  "checked_at": "2026-10-19T05:04:36.594557+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "title": "Mind the Gap: Examining the Self-Improvement Capabilities of Large Language Models",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2505.03335",
+  "checked_at": "2026-10-19T05:04:36.597883+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "title": "Absolute Zero: Reinforced Self-play Reasoning with Zero Data",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2506.10943",
+  "checked_at": "2026-10-19T05:04:36.600018+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "title": "Self-Adapting Language Models",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2506.13131",
+  "checked_at": "2026-10-19T05:04:36.794260+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "title": "AlphaEvolve: A coding agent for scientific and algorithmic discovery",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2509.26354",
+  "checked_at": "2026-10-19T05:04:36.807714+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "title": "Your Agent May Misevolve: Emergent Risks in Self-evolving LLM Agents",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2510.04618",
+  "checked_at": "2026-10-19T05:04:36.827448+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "title": "Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2510.21614",
+  "checked_at": "2026-10-19T05:04:36.828281+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "title": "Huxley-Gödel Machine: Human-Level Coding Agent Development by an Approximation of the Optimal Self-Improving Machine",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.04837",
+  "checked_at": "2026-10-19T05:04:37.001857+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "title": "Group-Evolving Agents: Open-Ended Self-Improvement via Experience Sharing",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.08640",
+  "checked_at": "2026-10-19T05:04:37.028554+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "title": "PostTrainBench: Can LLM Agents Automate LLM Post-Training?",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.19461",
+  "checked_at": "2026-10-19T05:04:37.068670+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "title": "Hyperagents",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.11873",
+  "checked_at": "2026-10-19T05:04:37.072219+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/cs/0309048",
+  "checked_at": "2026-10-19T05:04:37.227727+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "title": "Goedel Machines: Self-Referential Universal Problem Solvers Making Provably Optimal Self-Improvements",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+  "checked_at": "2026-10-19T05:04:37.245286+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "title": "Harness Engineering for Self-Improvement",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://sakana.ai/dgm/",
+  "checked_at": "2026-10-19T05:04:37.297400+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "title": "The Darwin Gödel Machine: AI that improves itself by rewriting its own code",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf",
+  "checked_at": "2026-10-19T05:04:37.309304+00:00",
+  "scope": "metadata_and_reachability_only",
+  "http_status": 200,
+  "final_url": "https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf",
+  "sha256": "af7c19261a953b194acd69d6c594f1ee64f8f5175a0df000212d8fb3cc409a63",
+  "title": "Welcome to the Era of Experience",
+  "published": "",
+  "arxiv_id": "",
+  "status": "reachable_without_title",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://www.anthropic.com/institute/recursive-self-improvement",
+  "checked_at": "2026-10-19T05:04:37.455654+00:00",
+  "scope": "metadata_and_reachability_only",
+  "http_status": 200,
+  "final_url": "https://www.anthropic.com/institute/recursive-self-improvement",
+  "sha256": "70bc540eee9c104376f0cfb8f11796500c9877e0f712a994a9465b08dcaa7aad",
+  "title": "When AI builds itself",
+  "published": "",
+  "arxiv_id": "",
+  "status": "metadata_fetched",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2509.25140",
+  "checked_at": "2026-10-19T05:24:36.032467+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经检索结果与知乎原文参考文献核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.17308",
+  "checked_at": "2026-10-19T05:24:36.032467+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "SkillFlow: Benchmarking Lifelong Skill Discovery and Evolution for Autonomous Agents",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经检索结果与知乎原文参考文献核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.03764",
+  "checked_at": "2026-10-19T05:24:36.032467+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "GDPevo: Evaluating Agent Self-Evolution on Real Business Tasks",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经检索结果与知乎原文参考文献核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.06144",
+  "checked_at": "2026-10-19T05:24:36.032467+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "FinEvo-Bench: A Longitudinal Benchmark for Self-Evolving Agents in Professional Financial Workflows",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经检索结果与知乎原文参考文献核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.07645",
+  "checked_at": "2026-10-19T05:24:36.032467+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Mendel Gödel Machine: Recursive Self-Improving Coding Agents via Comparative Evolution",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经检索结果与知乎原文参考文献核对题名"
+ },
+ {
+  "url": "https://zhuanlan.zhihu.com/p/2078900380323279524",
+  "checked_at": "2026-10-19T05:24:36.032467+00:00",
+  "scope": "full_text_read",
+  "status": "fetch_failed",
+  "title": "万字长文带你读懂 RSI",
+  "notes": "知乎禁止机器抓取；2026-10-19 由维护者在浏览器导出 PDF 后全文阅读"
+ }
+]

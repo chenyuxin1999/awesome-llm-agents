@@ -16,9 +16,9 @@
     },
     {
       "key": "03_skills_and_self_improvement",
-      "name": "技能与自我改进",
+      "name": "自我改进（RSI）",
       "chapter": "chapters/03_skills_and_self_improvement.md",
-      "scope": "技能库、技能复用、递归自我改进；机器人执行优先具身。"
+      "scope": "递归自我改进：参数、上下文、记忆、技能与 harness 代码的进化，技能库与技能复用是其中一环；机器人执行优先具身。"
     },
     {
       "key": "04_training_data",

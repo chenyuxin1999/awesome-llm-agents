@@ -34,7 +34,7 @@ Agent 系统尝试把其中一部分循环交给机器：读取项目，选择�
 
 ReAct 把“想下一步”和“执行下一步”串起来；Toolformer 探索工具调用如何成为学习目标。随后，Reflexion 把执行后的语言反馈用于后续尝试，Voyager 在 Minecraft 中积累可调用技能。它们分别说明：行动可以被组织、失败可以留下经验、成功程序可以复用；但并不意味着系统获得了无条件自我改进能力。[ReAct](https://arxiv.org/abs/2210.03629) · [Toolformer](https://arxiv.org/abs/2302.04761) · [Reflexion](https://arxiv.org/abs/2303.11366) · [Voyager](https://arxiv.org/abs/2305.16291)
 
-这条线引出[基础与工具](../chapters/01_basics.md)、[记忆](../chapters/02_memory.md)和[技能与自改进](../chapters/03_skills_and_self_improvement.md)。新手应先理解这三者：工具提供动作，记忆提供信息，技能提供可复用的过程，它们不是同义词。
+这条线引出[基础与工具](../chapters/01_basics.md)、[记忆](../chapters/02_memory.md)和[自我改进（RSI）](../chapters/03_skills_and_self_improvement.md)。新手应先理解这三者：工具提供动作，记忆提供信息，技能提供可复用的过程，它们不是同义词。
 
 ### 主线二：从任务演示到明确的评测，再到针对反馈的训练
 

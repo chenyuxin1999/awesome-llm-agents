@@ -1,5 +1,11 @@
 # 更新记录
 
+## 技能与自我改进章：以 blog 叙事为主线（样板）
+
+- 新增“先读这几篇”，以 DAIR.AI Self-Improving Agents 合集、Lilian Weng《Harness Engineering for Self-Improvement》、Anthropic Agent Skills 与《When AI builds itself》作为阅读入口。
+- 重写发展脉络：按“被修改的对象”分为第 0 至第 4 级及边界，经典工作挂在各级之下；前沿分支标注主线位置。
+- 补充来源记录 `sources/chapter03_mainline_2026-10-19.json`。
+
 ## 章节结构与概念说明
 
 - 合并记忆、技能、训练数据与协作章重复的开放问题，将问题背景、研究方向与检验方法连贯组织。

@@ -1,5 +1,13 @@
 # 更新记录
 
+## 新增第 18 章「Harness 工程」
+
+- 新增专题 `18_harness_engineering`，以 DAIR.AI Harness Engineering 合集为主线（V0 循环、静态 harness 扩展动作空间、让 harness 学习、2026 年发布的 harness、怎样知道它有效），补充 Lilian Weng、Anthropic、OpenAI 与 Manus 的长文。
+- 前沿部分按问题分为七个分支：部件设计、长程任务、自动优化、在线学习、harness 与权重、安全、评测与归因。
+- 分类：新增 `harness_core` 规则，把以 harness 为核心研究对象的 56 篇论文归入 18（原属 03、01、06）；把 harness 用作机器人、推荐、领域应用、记忆评测或 RL 训练载体的论文留在原类，并以副标签关联 18。
+- 同步 taxonomy、目录生成与覆盖审计脚本中的专题列表，首页专题表、总览、研究问题与术语表加入入口。
+- 补充来源记录 `sources/18_harness_engineering_mainline_2026-10-19.json`。
+
 ## 全部章节：以 blog 叙事为主线
 
 - 按自我改进（RSI）章的样板，改写 00、01、02、04 至 17 各章：每章新增“先读这几篇”，选 3 至 5 篇人写的 blog 或长文作为阅读入口，并以其中的叙事作为发展主线的骨架，经典论文挂在各阶段之下。

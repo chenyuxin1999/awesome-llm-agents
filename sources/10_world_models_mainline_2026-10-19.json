@@ -1,0 +1,114 @@
+[
+  {
+    "url": "https://chefrobotics.ai/post/world-models-and-world-action-models-an-accessible-and-comprehensive-survey",
+    "checked_at": "2026-10-19T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "World Models and World-Action Models: An Accessible and Comprehensive Survey",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://worldmodels.github.io/",
+    "checked_at": "2026-10-19T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "World Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://www.research.google/blog/introducing-dreamer-scalable-reinforcement-learning-using-world-models/",
+    "checked_at": "2026-10-19T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Introducing Dreamer: Scalable Reinforcement Learning Using World Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/",
+    "checked_at": "2026-10-19T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Genie 3: A new frontier for world models",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/",
+    "checked_at": "2026-10-19T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Introducing the V-JEPA 2 world model and new benchmarks for physical reasoning",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://openai.com/index/video-generation-models-as-world-simulators/",
+    "checked_at": "2026-10-19T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Video generation models as world simulators",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://www.eventual.ai/blog/vlas-are-dead-long-live-world-action-models",
+    "checked_at": "2026-10-19T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "VLAs are dead, long live World Action Models - a summary of Jim Fan's Robotics End Game talk",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://danijar.com/project/dreamerv3/",
+    "checked_at": "2026-10-19T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Mastering Diverse Control Tasks through World Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://openreview.net/forum?id=BZ5a1r-kVsf",
+    "checked_at": "2026-10-19T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "A Path Towards Autonomous Machine Intelligence",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2510.20668",
+    "checked_at": "2026-10-19T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "From Masks to Worlds: A Hitchhiker's Guide to World Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.00836",
+    "checked_at": "2026-10-19T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "From World Models to World Action Models: A Concise Tutorial for Robotics",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2010.02193",
+    "checked_at": "2026-10-19T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Mastering Atari with Discrete World Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2501.03575",
+    "checked_at": "2026-10-19T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Cosmos World Foundation Model Platform for Physical AI",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2506.09985",
+    "checked_at": "2026-10-19T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  }
+]

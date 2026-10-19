@@ -30,7 +30,7 @@
 | --- | ---: |
 | 文献记录 | 2050 |
 | 唯一标识 | 2050 |
-| 主分类 | 18 |
+| 主分类 | 19 |
 | 重复主归属 | 0 |
 
 生成器检查标识唯一性、主类与关联标签合法性、元数据保留及证据片段一致性。完整记录保存在 JSONL 中，网页目录仅展示阅读所需信息。
@@ -41,9 +41,9 @@
 
 | 状态字段 | 记录数 |
 | --- | ---: |
-| `local_override_reviewed` | 54 |
-| `rule_assigned_unreviewed` | 882 |
-| `legacy_mapped_unreviewed` | 916 |
+| `local_override_reviewed` | 64 |
+| `rule_assigned_unreviewed` | 921 |
+| `legacy_mapped_unreviewed` | 867 |
 | `needs_review` | 198 |
 
 ## 数据字段

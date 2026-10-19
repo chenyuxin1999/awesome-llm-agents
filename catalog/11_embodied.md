@@ -19,13 +19,13 @@
 | 2607.06403 | [From Foundation to Application: Improving VLA Models in Practice](https://www.alphaxiv.org/abs/2607.06403) | — |
 | 2607.11643 | [Xiaomi-Robotics-U0: Unified Embodied Synthesis with World Foundation Model](https://www.alphaxiv.org/abs/2607.11643) | — |
 | 2607.27205 | [TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with &lt;1 GB VRAM](https://www.alphaxiv.org/abs/2607.27205) | — |
-| 2609.10522 | [Show-Harness: Just a VLM Agent Can Play Robots](https://www.alphaxiv.org/abs/2609.10522) | — |
+| 2609.10522 | [Show-Harness: Just a VLM Agent Can Play Robots](https://www.alphaxiv.org/abs/2609.10522) | [Harness 工程](18_harness_engineering.md) |
 | 2607.15038 | [Video = World + Event Stream](https://www.alphaxiv.org/abs/2607.15038) | — |
 | 2609.01938 | [One Demonstration, Many Objects: Generalizing Manipulation via Local Contact Geometry](https://www.alphaxiv.org/abs/2609.01938) | — |
 | 2609.19138 | [In-Context Robot Learning with VLM Agents](https://www.alphaxiv.org/abs/2609.19138) | — |
 | 2608.02580 | [Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data](https://www.alphaxiv.org/abs/2608.02580) | — |
 | 2607.24744 | [Data Pyramid for Embodied Manipulation: A Survey](https://www.alphaxiv.org/abs/2607.24744) | — |
-| 2607.08448 | [Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents](https://www.alphaxiv.org/abs/2607.08448) | — |
+| 2607.08448 | [Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents](https://www.alphaxiv.org/abs/2607.08448) | [Harness 工程](18_harness_engineering.md) |
 | 2607.15330 | [Xiaomi-Robotics-1: Scaling Vision-Language-Action Models with over 100K Hours of Real-World Trajectories](https://www.alphaxiv.org/abs/2607.15330) | — |
 | 2608.02547 | [Why Does Action Chunking Improve Behavioral Cloning Performance in Robotic Control?](https://www.alphaxiv.org/abs/2608.02547) | — |
 | 2608.26545 | [Memory Anchors for Continual Robot Learning](https://www.alphaxiv.org/abs/2608.26545) | — |
@@ -34,7 +34,7 @@
 | 2608.15875 | [GigaBrain-0.7: Scaling Embodied Foundation Models to Emergent Capabilities with a Three-System Architecture](https://www.alphaxiv.org/abs/2608.15875) | — |
 | 2607.18236 | [Patch Policy: Efficient Embodied Control via Dense Visual Representations](https://www.alphaxiv.org/abs/2607.18236) | — |
 | 2608.30935 | [LightNav-0: Eliciting VLM Spatial Intelligence for Generalist Embodied Navigation](https://www.alphaxiv.org/abs/2608.30935) | — |
-| 2608.16590 | [Zetta 𝜁 ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence](https://www.alphaxiv.org/abs/2608.16590) | — |
+| 2608.16590 | [Zetta 𝜁 ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence](https://www.alphaxiv.org/abs/2608.16590) | [Harness 工程](18_harness_engineering.md) |
 | 2607.15163 | [Scaling Behavior Foundation Model for Humanoid Robots](https://www.alphaxiv.org/abs/2607.15163) | — |
 | 2608.19613 | [What Matters for Latent Actions in Robot Learning](https://www.alphaxiv.org/abs/2608.19613) | — |
 | 2608.03924 | [ETA: A New Agentic Paradigm for Embodied Tasks](https://www.alphaxiv.org/abs/2608.03924) | — |
@@ -75,7 +75,7 @@
 | 2607.26991 | [RL 2 2 -VLA: Adaptive RL Latent Compositional Steering with Test-Time Scaling for Vision-Language-Action Models](https://www.alphaxiv.org/abs/2607.26991) | — |
 | 2609.30249 | [RAPID: Robot Agentic Programming from Demonstrations](https://www.alphaxiv.org/abs/2609.30249) | — |
 | 2609.03199 | [RoboTok: A Scalable Data Engine for Internet Demonstration Video Retrieval and Dexterous Manipulation Learning](https://www.alphaxiv.org/abs/2609.03199) | — |
-| 2609.18620 | [DeformSmith: Physics Harness-Guided Hierarchical Generation of Deformable Assets for Robot Manipulation](https://www.alphaxiv.org/abs/2609.18620) | — |
+| 2609.18620 | [DeformSmith: Physics Harness-Guided Hierarchical Generation of Deformable Assets for Robot Manipulation](https://www.alphaxiv.org/abs/2609.18620) | [Harness 工程](18_harness_engineering.md) |
 | 2609.36720 | [T 2 2 Mem: Learning Test-Time Memory for Robotics](https://www.alphaxiv.org/abs/2609.36720) | — |
 | 2608.02326 | [ChainVLA: Chaining Vision-Language-Action Queries through a Unified Execution State for Long-Horizon Manipulation](https://www.alphaxiv.org/abs/2608.02326) | — |
 | 2609.01596 | [Facet-0: A Robotic Foundation Model for Contact-Rich Precise Manipulation](https://www.alphaxiv.org/abs/2609.01596) | — |
@@ -104,7 +104,7 @@
 | 2608.09771 | [SLIM-0.5B: Learning Action-Grounded Predictive Latents for Robot Manipulation](https://www.alphaxiv.org/abs/2608.09771) | — |
 | 2607.10369 | [VINE: Taming Generative Control Policies for Reinforcement Learning](https://www.alphaxiv.org/abs/2607.10369) | — |
 | 2607.21725 | [Addressing the Orchestration Gap in Generalist Robots via Physical Agency](https://www.alphaxiv.org/abs/2607.21725) | — |
-| 2608.11350 | [Self-Evolving Embodied Agents via Skill-Harness Evolution](https://www.alphaxiv.org/abs/2608.11350) | — |
+| 2608.11350 | [Self-Evolving Embodied Agents via Skill-Harness Evolution](https://www.alphaxiv.org/abs/2608.11350) | [Harness 工程](18_harness_engineering.md) |
 | 2608.17512 | [Embodied-Navigator: Point, Think, Memorize, and Align for Efficient Navigation](https://www.alphaxiv.org/abs/2608.17512) | — |
 | 2608.18948 | [RoboEdit: Turning Human Manipulation Videos into Scalable Robot Experience](https://www.alphaxiv.org/abs/2608.18948) | — |
 | 2609.06326 | [Rethinking Safety for Generalist Robots](https://www.alphaxiv.org/abs/2609.06326) | — |
@@ -115,7 +115,7 @@
 | 2609.01281 | [EmbodiedSkills: A Unified Framework for Orchestrating, Training, and Deploying VLA Agents](https://www.alphaxiv.org/abs/2609.01281) | — |
 | 2609.20820 | [Workspace Models: Lightweight Robotic Memory via Saliency-Driven Supervision](https://www.alphaxiv.org/abs/2609.20820) | — |
 | 2607.08877 | [FlowDAgger: Human-in-the-Loop Adaptation of Generative Robot Policies in Latent Space](https://www.alphaxiv.org/abs/2607.08877) | — |
-| 2607.18060 | [RoboHarness: Memory-Driven Orchestration of Heterogeneous Robot Policies for Long-Horizon Planning](https://www.alphaxiv.org/abs/2607.18060) | — |
+| 2607.18060 | [RoboHarness: Memory-Driven Orchestration of Heterogeneous Robot Policies for Long-Horizon Planning](https://www.alphaxiv.org/abs/2607.18060) | [Harness 工程](18_harness_engineering.md) |
 | 2607.19745 | [EgoRecovery: Acquiring Failure Recovery Ability Through Human Recovery Demonstration](https://www.alphaxiv.org/abs/2607.19745) | — |
 | 2608.25798 | [TacForcing: Streaming Action Generation with Execution-Time Tactile Feedback](https://www.alphaxiv.org/abs/2608.25798) | — |
 | 2608.27226 | [DINOcular: Self-Supervised Visuospatial Representations](https://www.alphaxiv.org/abs/2608.27226) | — |
@@ -133,7 +133,7 @@
 | 2609.20659 | [HIL-UMI: Bringing Human-in-the-Loop Post-Training of Vision-Language-Action Models to Universal Manipulation Interface](https://www.alphaxiv.org/abs/2609.20659) | — |
 | 2607.08182 | [LEEVLA: Seeing What Matters in Latent Environment Evolution for Vision-Language-Action](https://www.alphaxiv.org/abs/2607.08182) | — |
 | 2607.11481 | [Towards Human-level Dexterous Teleoperation](https://www.alphaxiv.org/abs/2607.11481) | — |
-| 2609.15195 | [HarnessVLN: Unifying Training-Free Embodied Navigation through an Agent Harness](https://www.alphaxiv.org/abs/2609.15195) | [Agent 基础与系统框架](01_basics.md) |
+| 2609.15195 | [HarnessVLN: Unifying Training-Free Embodied Navigation through an Agent Harness](https://www.alphaxiv.org/abs/2609.15195) | [Agent 基础与系统框架](01_basics.md) · [Harness 工程](18_harness_engineering.md) |
 | 2609.22966 | [Transferring the Intelligence of VLMs to Robotic Control](https://www.alphaxiv.org/abs/2609.22966) | — |
 | 2608.26583 | [SOLO: Stable Omni-terrain Long-Horizon Perceptive Humanoid Locomotion](https://www.alphaxiv.org/abs/2608.26583) | — |
 | 2607.08741 | [ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation](https://www.alphaxiv.org/abs/2607.08741) | — |
@@ -183,7 +183,7 @@
 | 2608.06374 | [DyPES-VLA: Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation](https://www.alphaxiv.org/abs/2608.06374) | — |
 | 2609.08224 | [3DWay: Generalizing Robot Manipulation via 3D Consistent Waypoints](https://www.alphaxiv.org/abs/2609.08224) | — |
 | 2609.22085 | [SeeQ: Training Generalist Value Functions for Long-Horizon Robotic Manipulation](https://www.alphaxiv.org/abs/2609.22085) | — |
-| 2609.29389 | [Robo-Harness K1: Harnessing Robot-Use Agents via Perception Augmentation](https://www.alphaxiv.org/abs/2609.29389) | — |
+| 2609.29389 | [Robo-Harness K1: Harnessing Robot-Use Agents via Perception Augmentation](https://www.alphaxiv.org/abs/2609.29389) | [Harness 工程](18_harness_engineering.md) |
 | 2609.30134 | [Training-free Behavior Cloning](https://www.alphaxiv.org/abs/2609.30134) | — |
 | 2608.11338 | [Better, Faster, Stronger: Programmatic Skill Learning Best Reduces Agent Cost](https://www.alphaxiv.org/abs/2608.11338) | — |
 | 2608.12179 | [Map-Det3D: Metric Feed-Forward 3D Reconstruction Prior for Multi-view 3D Object Detection from Streaming Inputs](https://www.alphaxiv.org/abs/2608.12179) | — |

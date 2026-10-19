@@ -26,7 +26,7 @@
 
 持续运行的系统会修改记忆、技能、参数和工作流程，新经验可能有用，也可能过时或污染未来决策。研究需要明确更新对象、接纳条件与撤销传播，并用独立任务流观察新能力和旧能力。可靠增长不仅要有更高分数，还要知道变化来自哪里、何时失效以及如何恢复。
 
-这一方向连接[记忆](../chapters/02_memory.md)、[自我改进](../chapters/03_skills_and_self_improvement.md)、[强化学习与蒸馏](../chapters/05_rl_and_distillation.md)、[安全](../chapters/07_safety.md)及[模型科学](../chapters/14_model_science.md)。
+这一方向连接[记忆](../chapters/02_memory.md)、[自我改进](../chapters/03_skills_and_self_improvement.md)、[Harness 工程](../chapters/18_harness_engineering.md)、[强化学习与蒸馏](../chapters/05_rl_and_distillation.md)、[安全](../chapters/07_safety.md)及[模型科学](../chapters/14_model_science.md)。
 
 ## 5. 如何让多模态预测、行动与科学探索在闭环中协同？
 

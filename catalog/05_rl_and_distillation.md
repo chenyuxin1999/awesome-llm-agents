@@ -57,7 +57,7 @@
 | 2608.09703 | [Matryoshka Language Model Suites](https://www.alphaxiv.org/abs/2608.09703) | — |
 | 2608.31119 | [PaperGym: Rubric-Centered Evolution for Research-Plan Generation](https://www.alphaxiv.org/abs/2608.31119) | — |
 | 2607.18082 | [CriPO: Enhancing Rubric-based RL via Self-Distillation](https://www.alphaxiv.org/abs/2607.18082) | — |
-| 2608.17393 | [LEGO-RL: Harness-Native Reinforcement Learning for Coding Agents](https://www.alphaxiv.org/abs/2608.17393) | — |
+| 2608.17393 | [LEGO-RL: Harness-Native Reinforcement Learning for Coding Agents](https://www.alphaxiv.org/abs/2608.17393) | [Harness 工程](18_harness_engineering.md) |
 | 2608.26481 | [Shared Actors Need Not Share Critics: Effects of Value Mismatch in Parallel Reinforcement Learning](https://www.alphaxiv.org/abs/2608.26481) | — |
 | 2609.05295 | [RISE: Recursive Improvement via Self-Extrapolating Policy Distillation](https://www.alphaxiv.org/abs/2609.05295) | — |
 | 2607.28076 | [Group-Reflective Self-Distillation for Agentic Reinforcement Learning](https://www.alphaxiv.org/abs/2607.28076) | — |

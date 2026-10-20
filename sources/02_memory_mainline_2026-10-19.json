@@ -118,5 +118,77 @@
     "status": "fetch_failed",
     "title": "Why Memory Isn't a Plugin",
     "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.23525",
+    "checked_at": "2026-10-20T06:28:11.416743+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Self-Compacting Language Model Agents",
+    "notes": "脚本访问被网络代理拦截；2026-10-20 由项目「Interconnects 半年总结」线程对照 arXiv 摘要与正文核对"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.00692",
+    "checked_at": "2026-10-20T06:28:11.416743+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Self-GC: Self-Governing Context for Long-Horizon LLM Agents",
+    "notes": "脚本访问被网络代理拦截；2026-10-20 由项目「Interconnects 半年总结」线程对照 arXiv 摘要与正文核对"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.08716",
+    "checked_at": "2026-10-20T06:28:11.416743+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents",
+    "notes": "脚本访问被网络代理拦截；2026-10-20 由项目「Interconnects 半年总结」线程对照 arXiv 摘要与正文核对"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.21461",
+    "checked_at": "2026-10-20T06:28:11.416743+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+    "notes": "脚本访问被网络代理拦截；2026-10-20 由项目「Interconnects 半年总结」线程对照 arXiv 摘要与正文核对"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.02163",
+    "checked_at": "2026-10-20T06:28:11.416743+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "AutoCompact",
+    "notes": "脚本访问被网络代理拦截；2026-10-20 由项目「Interconnects 半年总结」线程对照 arXiv 摘要与正文核对"
+  },
+  {
+    "url": "https://arxiv.org/abs/2608.11242",
+    "checked_at": "2026-10-20T06:28:11.416743+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Lost in Context Compaction",
+    "notes": "脚本访问被网络代理拦截；2026-10-20 由项目「Interconnects 半年总结」线程对照 arXiv 摘要与正文核对"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.00865",
+    "checked_at": "2026-10-20T06:28:11.416743+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "MemoryWalker",
+    "notes": "脚本访问被网络代理拦截；2026-10-20 由项目「Interconnects 半年总结」线程对照 arXiv 摘要与正文核对"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.29875",
+    "checked_at": "2026-10-20T06:28:11.416743+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "When Can Agents Forget Their Reasoning?",
+    "notes": "脚本访问被网络代理拦截；2026-10-20 由项目「Interconnects 半年总结」线程对照 arXiv 摘要与正文核对"
+  },
+  {
+    "url": "https://www.deeplearning.ai/the-batch/issue-370/",
+    "checked_at": "2026-10-20T06:28:11.416743+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "The Batch issue 370",
+    "notes": "脚本访问被网络代理拦截；2026-10-20 由项目「Interconnects 半年总结」线程对照 arXiv 摘要与正文核对"
   }
 ]

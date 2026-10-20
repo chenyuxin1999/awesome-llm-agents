@@ -118,5 +118,85 @@
   "status": "fetch_failed",
   "title": "Open and closed models are on different exponentials (Nathan Lambert, 2026-06-01)",
   "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://huggingface.co/blog/deepseekv4",
+  "checked_at": "2026-10-20T06:40:00+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "DeepSeek-V4: a million-token context that agents can actually use (Hugging Face, 2026-04-24)",
+  "notes": "脚本访问被网络代理拦截；2026-10-20 经网页阅读服务人工打开并核对题名与正文数字"
+ },
+ {
+  "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
+  "checked_at": "2026-10-20T06:40:00+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "GLM-5.2: Built for Long-Horizon Tasks (Z.ai on Hugging Face, 2026-06-17)",
+  "notes": "脚本访问被网络代理拦截；2026-10-20 经网页阅读服务人工打开并核对题名与正文数字"
+ },
+ {
+  "url": "https://huggingface.co/blog/thinkingmachines-inkling",
+  "checked_at": "2026-10-20T06:40:00+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Welcome Inkling by Thinking Machines (Hugging Face, 2026-07-15)",
+  "notes": "脚本访问被网络代理拦截；2026-10-20 经网页阅读服务人工打开并核对题名与正文数字"
+ },
+ {
+  "url": "https://huggingface.co/blog/muse-glimmer",
+  "checked_at": "2026-10-20T06:40:00+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source! (Hugging Face, 2026-08-10)",
+  "notes": "脚本访问被网络代理拦截；2026-10-20 经网页阅读服务人工打开并核对题名与正文数字"
+ },
+ {
+  "url": "https://huggingface.co/blog/meta-muse-spark-open",
+  "checked_at": "2026-10-20T06:40:00+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta (Hugging Face, 2026-10-15)",
+  "notes": "脚本访问被网络代理拦截；2026-10-20 经网页阅读服务人工打开并核对题名与正文数字"
+ },
+ {
+  "url": "https://huggingface.co/blog/reflection-beam",
+  "checked_at": "2026-10-20T06:40:00+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Welcome Beam: a 501B open model you can own, customize, and scale (Hugging Face, 2026-10-16)",
+  "notes": "脚本访问被网络代理拦截；2026-10-20 经网页阅读服务人工打开并核对题名与正文数字"
+ },
+ {
+  "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+  "checked_at": "2026-10-20T06:40:00+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "State of Open Models: Summer 2026 Observations (Hugging Face, 2026-08-14)",
+  "notes": "脚本访问被网络代理拦截；2026-10-20 经网页阅读服务人工打开并核对题名与正文数字"
+ },
+ {
+  "url": "https://x.com/jietang/status/2089941544581403107",
+  "checked_at": "2026-10-20T08:30:00+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Jie Tang, Thoughts About Scaling Law (X post, 2026-08-19)",
+  "notes": "脚本访问被网络代理拦截；2026-10-20 经 Latent Space AINews 的转载核对出处与日期，正文依据 Yuxin 提供的全文"
+ },
+ {
+  "url": "https://arxiv.org/abs/2001.08361",
+  "checked_at": "2026-10-20T08:30:00+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Scaling Laws for Neural Language Models",
+  "notes": "脚本访问被网络代理拦截；arXiv 经典论文，题名人工核对"
+ },
+ {
+  "url": "https://arxiv.org/abs/2203.15556",
+  "checked_at": "2026-10-20T08:30:00+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Training Compute-Optimal Large Language Models",
+  "notes": "脚本访问被网络代理拦截；arXiv 经典论文，题名人工核对"
  }
 ]

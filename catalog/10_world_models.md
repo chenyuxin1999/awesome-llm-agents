@@ -159,7 +159,7 @@
 | 2609.21748 | [World Modeling in Transformers](https://www.alphaxiv.org/abs/2609.21748) | — |
 | 2608.03682 | [PhyAI: Real-Time Physical AI at the Edge, Scalable Rollouts in the Cloud](https://www.alphaxiv.org/abs/2608.03682) | — |
 | 2608.06257 | [MASS: Multiplayer World Models with Authoritative Shared State](https://www.alphaxiv.org/abs/2608.06257) | — |
-| 2608.09516 | [HarnessWAM: Bridging Prediction and Deliberation in World Action Models](https://www.alphaxiv.org/abs/2608.09516) | — |
+| 2608.09516 | [HarnessWAM: Bridging Prediction and Deliberation in World Action Models](https://www.alphaxiv.org/abs/2608.09516) | [Harness 工程](18_harness_engineering.md) |
 | 2608.25956 | [4DGS-WAM: Bridging Past and Future with an Object-Centric World Action Model based on 4D Gaussian Splatting](https://www.alphaxiv.org/abs/2608.25956) | — |
 | 2609.08162 | [WorldAgen: Unified State-Action Prediction with Test-Time World Model Training](https://www.alphaxiv.org/abs/2609.08162) | — |
 | 2609.26293 | [Dual-Frontier: When Can an Agent Trust Its World Model?](https://www.alphaxiv.org/abs/2609.26293) | — |

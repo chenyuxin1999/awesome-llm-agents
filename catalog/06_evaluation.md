@@ -6,7 +6,7 @@
 
 [阅读专题导读](../chapters/06_evaluation.md)
 
-本方向收录 **249 条记录**。相关方向用于交叉检索，不重复计入各类数量。
+本方向收录 **243 条记录**。相关方向用于交叉检索，不重复计入各类数量。
 
 | ID | 文献 | 相关方向 |
 | --- | --- | --- |
@@ -15,18 +15,16 @@
 | 2609.26550 | [JEV-as-a-Judge: Accept When Confident, Escalate When Unsure](https://www.alphaxiv.org/abs/2609.26550) | — |
 | 2609.06986 | [Continual Learning Mechanisms Compose for Long-Horizon Memorization](https://www.alphaxiv.org/abs/2609.06986) | — |
 | 2609.04148 | [Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments](https://www.alphaxiv.org/abs/2609.04148) | — |
-| 2608.16859 | [HarnessEval-W: Agentifying the Evaluation of Visual Worlds](https://www.alphaxiv.org/abs/2608.16859) | — |
+| 2608.16859 | [HarnessEval-W: Agentifying the Evaluation of Visual Worlds](https://www.alphaxiv.org/abs/2608.16859) | [Harness 工程](18_harness_engineering.md) |
 | 2609.02987 | [Tail-Likelihood Reinforcement Learning](https://www.alphaxiv.org/abs/2609.02987) | — |
 | 2608.05466 | [Recursive Synthesis for Long-Horizon Terminal Tasks](https://www.alphaxiv.org/abs/2608.05466) | — |
 | 2607.25886 | [RSIBench-Data: Benchmarking Data-Centric Research for Recursive Self-Improvement](https://www.alphaxiv.org/abs/2607.25886) | [自我改进（RSI）](03_skills_and_self_improvement.md) |
 | 2608.07418 | [ResidencyRL: Reinforcement Learning in Simulated Clinical Environments](https://www.alphaxiv.org/abs/2608.07418) | — |
 | 2607.13988 | [TRACE: Turn-level Reward Assignment via Credit Estimation for Long-Horizon Agents](https://www.alphaxiv.org/abs/2607.13988) | — |
-| 2608.06301 | [HarnessOpt-Bench: Evaluating LLMs at Harness Optimization](https://www.alphaxiv.org/abs/2608.06301) | — |
 | 2608.04001 | [Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility](https://www.alphaxiv.org/abs/2608.04001) | — |
 | 2609.invent-a-dataset-zero-seed | [Invent a Dataset: Measuring Dataset Generation Abilities with Zero Seed Data](https://www.alphaxiv.org/abs/2609.invent-a-dataset-zero-seed) | [训练数据与环境](04_training_data.md) |
 | 2610.02202 | [ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research](https://www.alphaxiv.org/abs/2610.02202) | — |
 | 2609.07303 | [Long-Horizon Language Model Reinforcement Learning via Progressive Point Matching](https://www.alphaxiv.org/abs/2609.07303) | — |
-| 2607.12227 | [Rethinking the Evaluation of Harness Evolution for Agents](https://www.alphaxiv.org/abs/2607.12227) | — |
 | 2608.06867 | [LLMRouter: Unified Infrastructure for Developing, Evaluating, and Deploying LLM Routers](https://www.alphaxiv.org/abs/2608.06867) | — |
 | 2609.22068 | [CodeMidas: Scaling Agentic Coding RL Environments from Code Itself](https://www.alphaxiv.org/abs/2609.22068) | — |
 | 2608.09802 | [SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring](https://www.alphaxiv.org/abs/2608.09802) | — |
@@ -48,7 +46,6 @@
 | 2607.08093 | [CausalDS: Benchmarking Causal Reasoning in Data-Science Agents](https://www.alphaxiv.org/abs/2607.08093) | — |
 | 2609.13009 | [How Good Are Frontier Models at Physics? Expert Re-Grading Reveals Broken Evaluations and Near-Saturation of Leading Benchmarks](https://www.alphaxiv.org/abs/2609.13009) | — |
 | 2607.13188 | [Concurrent Image Understanding and Generation: Self-Correcting Coupled Markov Jump Processes](https://www.alphaxiv.org/abs/2607.13188) | — |
-| 2608.09096 | [Evo-Bench: Can Language Models Improve Agent Harness?](https://www.alphaxiv.org/abs/2608.09096) | [Agent 基础与系统框架](01_basics.md) |
 | 2608.17832 | [GenRec: Knowing Where to Reconstruct and Where to Generate](https://www.alphaxiv.org/abs/2608.17832) | — |
 | 2608.28122 | [Agentic Artifact Creation: Systems, Evaluation, Principles, and Opportunities](https://www.alphaxiv.org/abs/2608.28122) | — |
 | 2607.22534 | [SM4RT: Learning Structured Motion Geometry for 4D Reconstruction](https://www.alphaxiv.org/abs/2607.22534) | — |
@@ -94,7 +91,7 @@
 | 2608.04003 | [PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents](https://www.alphaxiv.org/abs/2608.04003) | [自我改进（RSI）](03_skills_and_self_improvement.md) |
 | 2608.12313 | [AVA-Encoder: Towards Agent-Native Video Representation Learning](https://www.alphaxiv.org/abs/2608.12313) | — |
 | 2607.19228 | [IGGT4D: Streaming 4D Instance-Grounded Geometry Transformer](https://www.alphaxiv.org/abs/2607.19228) | — |
-| 2608.15008 | [Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents](https://www.alphaxiv.org/abs/2608.15008) | — |
+| 2608.15008 | [Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents](https://www.alphaxiv.org/abs/2608.15008) | [Harness 工程](18_harness_engineering.md) |
 | 2609.05416 | [WorldSculpt: Generating Compositional Worlds from Grounded Videos](https://www.alphaxiv.org/abs/2609.05416) | — |
 | 2607.19339 | [OmniReasoner: Thinking with Long Audio-Video via Native Tool Use](https://www.alphaxiv.org/abs/2607.19339) | — |
 | 2608.05806 | [Hierarchical Latent Prediction for Language Models](https://www.alphaxiv.org/abs/2608.05806) | — |
@@ -119,12 +116,11 @@
 | 2606.gene-bench-pro | [GeneBench-Pro: Evaluating Multistage Statistical Reasoning in Genomics, Quantitative Biology, and Translational Biomedicine](https://www.alphaxiv.org/abs/2606.gene-bench-pro) | — |
 | 2607.12477 | [Self in Space: Benchmarking Self-Awareness and Spatial Cognition in UAV Embodied Intelligence](https://www.alphaxiv.org/abs/2607.12477) | [具身智能与 VLA](11_embodied.md) |
 | 2607.16401 | [Apple- 𝜋 π: Benchmarking Thinking with Video Towards Law-Grounded Physical Intelligence](https://www.alphaxiv.org/abs/2607.16401) | — |
-| 2608.15089 | [StateM: Reaching 95.3% Raw Accuracy, or a $15 Frontier Run, on Terminal-Bench 2.1 via Harness Scaling](https://www.alphaxiv.org/abs/2608.15089) | — |
 | 2609.02783 | [EarlyEval: Cheaper Agent Evaluation via Early Outcome Prediction](https://www.alphaxiv.org/abs/2609.02783) | — |
 | 2609.23980 | [MobileCybench: Evaluating Agent Vulnerability Discovery via Executable Probes](https://www.alphaxiv.org/abs/2609.23980) | — |
 | 2607.22531 | [Twins: Learn to Predict Unified Representations with Focal Loss](https://www.alphaxiv.org/abs/2607.22531) | — |
 | 2607.28609 | [OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models](https://www.alphaxiv.org/abs/2607.28609) | [多模态与 GUI Agent](09_multimodal_gui.md) |
-| 2608.11727 | [Harness-IF: Evaluating Instruction Following Across Instruction Surfaces in Coding Agents](https://www.alphaxiv.org/abs/2608.11727) | — |
+| 2608.11727 | [Harness-IF: Evaluating Instruction Following Across Instruction Surfaces in Coding Agents](https://www.alphaxiv.org/abs/2608.11727) | [Harness 工程](18_harness_engineering.md) |
 | 2608.13552 | [PlayWorld: Benchmarking World Models with Agent Players over Long-Horizon Objectives](https://www.alphaxiv.org/abs/2608.13552) | [世界模型与规划](10_world_models.md) |
 | 2608.16747 | [Would this change your answer? Evaluating Explanations of LLM Behavior In The Wild with Counterfactual Experiments](https://www.alphaxiv.org/abs/2608.16747) | — |
 | 2608.27456 | [UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City](https://www.alphaxiv.org/abs/2608.27456) | — |
@@ -133,7 +129,6 @@
 | 2608.20492 | [Annotations as Rollouts: Efficient and Scalable Reinforcement Learning for Video MLLMs](https://www.alphaxiv.org/abs/2608.20492) | — |
 | 2607.19321 | [ResearchArena: Evaluating Sabotage and Monitoring in Automated AI R&amp;D](https://www.alphaxiv.org/abs/2607.19321) | — |
 | 2608.02603 | [WorldExam: Benchmarking World Models from Apparent Appearance to Inherent Reactivity](https://www.alphaxiv.org/abs/2608.02603) | [世界模型与规划](10_world_models.md) |
-| 2608.17597 | [HarnessRisk: A Lifecycle-Oriented Benchmark for Agent Harness Safety](https://www.alphaxiv.org/abs/2608.17597) | [Agent 基础与系统框架](01_basics.md) |
 | 2608.28833 | [Evaluating the Hidden Costs of Personalization in Large Language Models](https://www.alphaxiv.org/abs/2608.28833) | — |
 | 2609.15478 | [BVB: Benchmarking Agentic Video Understanding via Programmatic Reconstruction in Blender](https://www.alphaxiv.org/abs/2609.15478) | [多模态与 GUI Agent](09_multimodal_gui.md) |
 | 2609.18323 | [Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model](https://www.alphaxiv.org/abs/2609.18323) | — |
@@ -159,7 +154,6 @@
 | 2607.24407 | [Mixture-of-Thought-Tokens: Unifying Perception and Reasoning for Free-form Multimodal Grounding](https://www.alphaxiv.org/abs/2607.24407) | — |
 | 2607.25398 | [HANDBOOK.md: A Benchmark for Long-Context Agentic Instruction Following](https://www.alphaxiv.org/abs/2607.25398) | — |
 | 2608.06329 | [Benchmarking the Benchmarks: Evaluating Benchmarks for Conversational Agents](https://www.alphaxiv.org/abs/2608.06329) | — |
-| 2608.13867 | [Engineering Reliable Coding Agents: Evaluating and Operating the System Around the Model](https://www.alphaxiv.org/abs/2608.13867) | — |
 | 2608.19741 | [One Success Isn't Reliability: Thinkingbox, a Sandbox and Benchmark for Agents in Stateful Business Workflows](https://www.alphaxiv.org/abs/2608.19741) | — |
 | 2608.21170 | [Is Visual Prompting All You Need? Studying VLM Spatial Reasoning under Progressive Visual Scaffolds](https://www.alphaxiv.org/abs/2608.21170) | — |
 | 2608.21244 | [A VLM Answer Is Not an Anomaly Score: Rank Compression Across Image and Video Anomaly Detection](https://www.alphaxiv.org/abs/2608.21244) | — |

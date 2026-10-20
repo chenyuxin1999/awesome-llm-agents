@@ -14,7 +14,7 @@ Agent 团队、通信、协调与人机协作；科学应用不自动覆盖协�
 | 2608.10218 | [Mind Viruses: Self-Propagating Ideas in Multi-Agent LLM Systems](https://www.alphaxiv.org/abs/2608.10218) | — |
 | 2608.04205 | [MatrAIx: Simulating the World with 8.3 Billion Persona Agents](https://www.alphaxiv.org/abs/2608.04205) | — |
 | 2609.22682 | [Self-Organizing Agent Teams Learn to Reason Together](https://www.alphaxiv.org/abs/2609.22682) | — |
-| 2607.05369 | [GaP: A Graph-as-Policy Multi-Agent Self-Learning Harness For Variational Automation Tasks](https://www.alphaxiv.org/abs/2607.05369) | — |
+| 2607.05369 | [GaP: A Graph-as-Policy Multi-Agent Self-Learning Harness For Variational Automation Tasks](https://www.alphaxiv.org/abs/2607.05369) | [Harness 工程](18_harness_engineering.md) |
 | 2609.04141 | [Efficient Test-Time Adaptation through Human-AI Interaction](https://www.alphaxiv.org/abs/2609.04141) | — |
 | 2609.21032 | [Scaling Discovery through Test-Time Communication](https://www.alphaxiv.org/abs/2609.21032) | [科学与数学 Agent](12_science.md) |
 | 2608.12253 | [One Frozen Simulator Is Not Enough: Simulator Collapse in Multi-Agent RL](https://www.alphaxiv.org/abs/2608.12253) | — |

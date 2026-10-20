@@ -44,7 +44,7 @@
 | 2609.34044 | [SCOPD: Sparse-Context On-Policy Self-Distillation for Efficient Vision-Language Models](https://www.alphaxiv.org/abs/2609.34044) | — |
 | 2608.20319 | [Inducing Task Models from Computer-Use Traces](https://www.alphaxiv.org/abs/2608.20319) | — |
 | 2609.03438 | [Do GUI Agents Know When Not to Act? Enabling Conflict-Aware Termination for Multimodal GUI Agents](https://www.alphaxiv.org/abs/2609.03438) | — |
-| 2609.12818 | [Online Video Agent Harness for Long Video Understanding](https://www.alphaxiv.org/abs/2609.12818) | [Agent 基础与系统框架](01_basics.md) |
+| 2609.12818 | [Online Video Agent Harness for Long Video Understanding](https://www.alphaxiv.org/abs/2609.12818) | [Agent 基础与系统框架](01_basics.md) · [Harness 工程](18_harness_engineering.md) |
 | 2609.05374 | [CUA-Universe: A Scalable and Dynamic Environment for Hybrid GUI+CLI Agents](https://www.alphaxiv.org/abs/2609.05374) | — |
 | 2609.38597 | [PixelUMM: Encoder-Free Unified Image and Video Understanding and Generation](https://www.alphaxiv.org/abs/2609.38597) | — |
 | 2609.10321 | [On-Policy Distillation for Vision-Language Model Adaptation, an Effective Paradigm on Low-Quality Multimodal Data](https://www.alphaxiv.org/abs/2609.10321) | — |

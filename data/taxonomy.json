@@ -6,7 +6,7 @@
       "key": "01_basics",
       "name": "Agent 基础与系统框架",
       "chapter": "chapters/01_basics.md",
-      "scope": "Agent 定义、控制循环、工具调用、harness 与系统组织；JEV判断、验证及低置信度升级归06，不因系统框架用语吸入基础。"
+      "scope": "Agent 定义、控制循环、工具调用与系统组织的入门概念；以 harness 本身为研究对象的设计、优化、演化与评测归18；JEV判断、验证及低置信度升级归06，不因系统框架用语吸入基础。"
     },
     {
       "key": "02_memory",
@@ -18,7 +18,7 @@
       "key": "03_skills_and_self_improvement",
       "name": "自我改进（RSI）",
       "chapter": "chapters/03_skills_and_self_improvement.md",
-      "scope": "递归自我改进：参数、上下文、记忆、技能与 harness 代码的进化，技能库与技能复用是其中一环；机器人执行优先具身。"
+      "scope": "递归自我改进：参数、上下文、记忆、技能与改进器自身的进化，技能库与技能复用是其中一环；以 harness 为核心对象的设计、优化与演化归18，本类保留以自我改进机制为主的工作；机器人执行优先具身。"
     },
     {
       "key": "04_training_data",
@@ -97,6 +97,12 @@
       "name": "多模态生成",
       "chapter": "chapters/16_generation.md",
       "scope": "图像、视频、音频生成与编辑及其专用蒸馏方法。"
+    },
+    {
+      "key": "18_harness_engineering",
+      "name": "Harness 工程",
+      "chapter": "chapters/18_harness_engineering.md",
+      "scope": "以 harness（模型权重与环境之间的循环、上下文、工具与技能、子 agent、执行环境与运行时控制）为研究对象的设计、自动优化与演化、harness 与权重的联合优化与迁移、长程任务 harness、harness 安全，以及 harness 的评测与失败归因。Agent 定义与控制循环的入门概念归01；以递归自我改进机制本身为核心的工作归03；只把 harness 用作机器人、推荐、领域应用或记忆评测载体的工作留在原类，以副标签关联18。"
     },
     {
       "key": "90_adjacent",
@@ -220,6 +226,16 @@
       ],
       "pattern": "\\bJEV-as-a-Judge\\b|\\bJEV vs\\.|\\bJev in the Wild\\b|\\bVisual Jev\\b|\\bREFLEX with Jev\\b|\\bconfidence-based cascades?\\b|\\b(?:selective|confidence-based) escalation\\b",
       "reason": "标题明确指向JEV判断、验证或不确定时升级；按第06章处理，优先于通用Agent框架规则，但不泛匹配JEV记忆等应用。"
+    },
+    {
+      "id": "harness_core",
+      "target": "18_harness_engineering",
+      "priority": 116,
+      "fields": [
+        "title"
+      ],
+      "pattern": "(?s)^(?!.*(?:robot|embodied|\\bVLAs?\\b|world action|variational automation|data pipelines|openforgerl|lego-rl|harnessed agentic rl|black-box rl|search agents|financ|memory is reconstructed|recommender|instruction following|memory substrates|visual worlds|static worlds|routing harness|video|mathematics|physical ai|physical intelligence|creative agents)).*?(?:harness(?!ing|ed)|system around the model|agent auditing engine)",
+      "reason": "标题以 agent harness（或模型周围的执行系统）为核心研究对象，涉及其设计、优化、演化或评测；标题含机器人、具身、推荐、领域应用、记忆评测或 RL 训练框架等应用信号时不触发。优先于通用评测规则，使以 harness 为对象的基准归入18。"
     },
     {
       "id": "evaluation_explicit",
@@ -390,6 +406,16 @@
       ],
       "pattern": "teams of (?:language models|ai agents)|multi-agent coordination|multiagent coordination",
       "reason": "one_line 明确描述语言模型团队或多 Agent 协作。"
+    },
+    {
+      "id": "harness_related",
+      "target": "18_harness_engineering",
+      "priority": 50,
+      "fields": [
+        "title"
+      ],
+      "pattern": "harness(?!ing|ed)",
+      "reason": "标题提到 harness，但主类由更具体的规则决定；仅作为通向 Harness 工程的副标签。"
     }
   ]
 }

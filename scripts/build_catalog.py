@@ -18,7 +18,7 @@ EXPECTED_KEYS = (
     "04_training_data", "05_rl_and_distillation", "06_evaluation", "07_safety",
     "08_collaboration", "09_multimodal_gui", "10_world_models", "11_embodied",
     "12_science", "13_efficiency", "14_model_science", "15_frontier_reports",
-    "16_generation", "90_adjacent", "99_review",
+    "16_generation", "18_harness_engineering", "90_adjacent", "99_review",
 )
 BASE_FIELDS = ("title", "id", "url", "abstract", "one_line", "source_dates", "likes", "old")
 EVIDENCE_FIELDS = {"local_title": "title", "local_one_line": "one_line", "local_abstract": "abstract"}
@@ -47,9 +47,9 @@ def load_config(taxonomy_path, overrides_path):
     taxonomy = read_json(taxonomy_path)
     overrides = read_json(overrides_path)
     keys = [category["key"] for category in taxonomy["categories"]]
-    require(keys == list(EXPECTED_KEYS), "taxonomy 必须按约定保留全部18个固定键")
+    require(keys == list(EXPECTED_KEYS), "taxonomy 必须按约定保留全部19个固定键")
     for index, category in enumerate(taxonomy["categories"]):
-        expected = "chapters/" + category["key"] + ".md" if index < 16 else None
+        expected = "chapters/" + category["key"] + ".md" if index < 17 else None
         require(category["chapter"] == expected, "chapter 路径不符合固定键: " + category["key"])
     mapping = taxonomy["legacy_mapping"]
     require(len(mapping) == 23 and "18_Unassigned" in mapping, "必须保留23个旧映射键")
@@ -260,7 +260,7 @@ def render(papers, results, taxonomy, overrides):
         "首次阅读可从[综述导读](../chapters/00_surveys.md)或[专题索引](../README.md#topics)开始，再使用本目录查找具体文献。", "",
         "[Hot Words](../chapters/17_hot_words.md)解释JEV、harness、Agent Skills等概念的来源与研究联系，作为跨专题入口，不另设文献主类。", "",
         "## 分类索引", "",
-        "前 16 类对应研究专题；相邻方向与待复核条目单列，便于区分研究范围与分类不确定性。",
+        "前 17 类对应研究专题；相邻方向与待复核条目单列，便于区分研究范围与分类不确定性。",
         "类内按文献记录中的平台关注度排序，同分按 ID 排序；关联方向提供跨主题入口。", "",
         "| 研究方向 | 文献数 | 专题导读 |", "| --- | ---: | --- |",
     ]

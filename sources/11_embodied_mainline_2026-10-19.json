@@ -190,5 +190,325 @@
     "status": "fetch_failed",
     "title": "Real-Time Action Chunking with Large Models",
     "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/1504.00702",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "End-to-End Training of Deep Visuomotor Policies",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/1703.06907",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/1806.10293",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "QT-Opt: Scalable Deep Reinforcement Learning for Vision-Based Robotic Manipulation",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/1910.07113",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Solving Rubik's Cube with a Robot Hand",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2109.11978",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Learning to Walk in Minutes Using Massively Parallel Deep Reinforcement Learning",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2403.12945",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.18647",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Data Scaling Laws in Imitation Learning for Robotic Manipulation",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2503.06669",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalable and Intelligent Embodied Systems",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2505.03233",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "GraspVLA: a Grasping Foundation Model Pre-trained on Billion-scale Synthetic Action Data",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2608.16590",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.22364",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "T2-z: Test-Time Optimization of Environment Latents for Robotic World Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.22471",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Has GPT-6-Astra Achieved Embodied Intelligence?",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.22496",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Scaling Online Exploration for Robot Agents",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.23334",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "LAW: Unifying Language, Action, and World Modeling for Agentic Physical Intelligence",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.25632",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "SteerAct: Unlocking Action Models through Few-Shot Temporal Steering",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.25736",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Learning from Fleet Experience: A Collective Learning Paradigm for Robots",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.26549",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Holi-World: Building Holistic World Intelligence from Human-Ego Experience",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.26625",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.28259",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Large Multimodal Models for Direct Robot Control: GPT-6 as a Beginning",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.28480",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.28594",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Learning the 4D World through Point Trajectory Forecasting",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.30136",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Agentic World Action Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2/",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Introducing Gemini Robotics ER 2",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://evjang.com/2020/11/28/moravec-bots.html",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Software and Hardware for General Robots",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://evjang.com/2022/07/23/robotics-generative.html",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "How Can We Make Robotics More like Generative Modeling?",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://figure.ai/news/helix-02",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Helix 02: Full-Body Autonomy",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://generalistai.com/blog/gen-1",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "GEN-1: Scaling Embodied Foundation Models to Mastery",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://itcanthink.substack.com/p/how-much-is-robot-deployment-data",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "How Much Is Robot Deployment Data Worth?",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://itcanthink.substack.com/p/robot-hands-are-getting-better",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Robot Hands Are Getting Better",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://itcanthink.substack.com/p/what-do-robotics-leaderboards-tell",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "What Do Robotics Leaderboards Tell Us About The State of Robot Learning?",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://lilianweng.github.io/posts/2019-05-05-domain-randomization/",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Domain Randomization for Sim2Real Transfer",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://sergeylevine.substack.com/p/general-purpose-pre-trained-models",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "General-Purpose Pre-Trained Models in Robotics",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://sergeylevine.substack.com/p/how-robots-can-learn-end-to-end-from-data-3d879b0a2ba1",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "How Robots Can Learn End-to-End From Data",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://sergeylevine.substack.com/p/self-improving-robots-and-the-importance",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Self-Improving Robots and the Importance of Data",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://sergeylevine.substack.com/p/understanding-the-world-through-action-rl-as-a-foundation-for-scalable-self-supervised-learning-636e4e243001",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Understanding the World Through Action: RL as a Foundation for Scalable Self-Supervised Learning",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://techcrunch.com/2026/04/16/physical-intelligence-a-hot-robotics-startup-says-its-new-robot-brain-can-figure-out-tasks-it-was-never-taught/",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Physical Intelligence, a hot robotics startup, says its new robot brain can figure out tasks it was never taught",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://www.pi.website/blog/api-beta",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Frontier Models for Every Robot: Announcing our API beta",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://www.pi.website/blog/olympics",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Moravec's Paradox and the Robot Olympics",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://www.pi.website/research/fast",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "FAST: Efficient Robot Action Tokenization",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://www.pi.website/research/rlt",
+    "checked_at": "2026-10-23T10:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Precise Manipulation with Efficient Online RL",
+    "notes": "脚本访问被网络代理拦截；2026-10-23 经网页阅读服务人工打开并核对题名"
   }
 ]

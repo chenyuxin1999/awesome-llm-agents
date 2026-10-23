@@ -16,7 +16,7 @@ Agent 记忆、经验存储、上下文管理；KV cache 工程优先效率。
 | 2608.08888 | [Full-bandwidth transformer](https://www.alphaxiv.org/abs/2608.08888) | — |
 | 2607.05378 | [CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents](https://www.alphaxiv.org/abs/2607.05378) | — |
 | 2609.02737 | [Language Models Can Control Their Own Attention](https://www.alphaxiv.org/abs/2609.02737) | — |
-| 2607.28272 | [MemHarness: Memory Is Reconstructed, Not Replayed](https://www.alphaxiv.org/abs/2607.28272) | — |
+| 2607.28272 | [MemHarness: Memory Is Reconstructed, Not Replayed](https://www.alphaxiv.org/abs/2607.28272) | [Harness 工程](18_harness_engineering.md) |
 | 2608.27351 | [Understanding Evolution Strategies for LLM Reasoning: Broader Reasoning Coverage than GRPO](https://www.alphaxiv.org/abs/2608.27351) | — |
 | 2608.08226 | [High-Capacity Generalized Hopfield Networks](https://www.alphaxiv.org/abs/2608.08226) | — |
 | 2608.26070 | [Prefix Sliding for efficient test-time scaling](https://www.alphaxiv.org/abs/2608.26070) | — |

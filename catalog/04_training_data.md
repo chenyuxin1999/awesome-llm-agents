@@ -10,7 +10,7 @@ Agent 训练数据、合成数据、训练环境与轨迹构建。
 
 | ID | 文献 | 相关方向 |
 | --- | --- | --- |
-| 2609.reinforcing-agents-collective-skills | [Skill2Env: Reinforcing Agents with Collective Skills](https://www.alphaxiv.org/abs/2609.reinforcing-agents-collective-skills) | [技能与自我改进](03_skills_and_self_improvement.md) · [强化学习与蒸馏](05_rl_and_distillation.md) |
+| 2609.reinforcing-agents-collective-skills | [Skill2Env: Reinforcing Agents with Collective Skills](https://www.alphaxiv.org/abs/2609.reinforcing-agents-collective-skills) | [自我改进（RSI）](03_skills_and_self_improvement.md) · [强化学习与蒸馏](05_rl_and_distillation.md) |
 | 2609.30063 | [Self-Play Pretraining with Zero Data](https://www.alphaxiv.org/abs/2609.30063) | — |
 | 2608.19197 | [SPADE: Self-Play in Adaptive Synthetic Executable Environments](https://www.alphaxiv.org/abs/2608.19197) | — |
 | 2609.15818 | [Atria Dawn: The Dawn of Agentic Superintelligence](https://www.alphaxiv.org/abs/2609.15818) | — |

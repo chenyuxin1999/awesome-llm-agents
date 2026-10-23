@@ -7,17 +7,17 @@
 
 ## 分类索引
 
-前 16 类对应研究专题；相邻方向与待复核条目单列，便于区分研究范围与分类不确定性。
+前 17 类对应研究专题；相邻方向与待复核条目单列，便于区分研究范围与分类不确定性。
 类内按文献记录中的平台关注度排序，同分按 ID 排序；关联方向提供跨主题入口。
 
 | 研究方向 | 文献数 | 专题导读 |
 | --- | ---: | --- |
-| [Agent 基础与系统框架](01_basics.md) | 12 | [阅读](../chapters/01_basics.md) |
+| [Agent 基础与系统框架](01_basics.md) | 4 | [阅读](../chapters/01_basics.md) |
 | [记忆与上下文](02_memory.md) | 147 | [阅读](../chapters/02_memory.md) |
-| [技能与自我改进](03_skills_and_self_improvement.md) | 191 | [阅读](../chapters/03_skills_and_self_improvement.md) |
+| [自我改进（RSI）](03_skills_and_self_improvement.md) | 149 | [阅读](../chapters/03_skills_and_self_improvement.md) |
 | [训练数据与环境](04_training_data.md) | 25 | [阅读](../chapters/04_training_data.md) |
 | [强化学习与蒸馏](05_rl_and_distillation.md) | 159 | [阅读](../chapters/05_rl_and_distillation.md) |
-| [评测与能力基准](06_evaluation.md) | 249 | [阅读](../chapters/06_evaluation.md) |
+| [评测与能力基准](06_evaluation.md) | 243 | [阅读](../chapters/06_evaluation.md) |
 | [安全与对齐](07_safety.md) | 58 | [阅读](../chapters/07_safety.md) |
 | [多 Agent 与人机协作](08_collaboration.md) | 22 | [阅读](../chapters/08_collaboration.md) |
 | [多模态与 GUI Agent](09_multimodal_gui.md) | 38 | [阅读](../chapters/09_multimodal_gui.md) |
@@ -28,6 +28,7 @@
 | [模型科学与可解释性](14_model_science.md) | 75 | [阅读](../chapters/14_model_science.md) |
 | [前沿模型报告](15_frontier_reports.md) | 43 | [阅读](../chapters/15_frontier_reports.md) |
 | [多模态生成](16_generation.md) | 120 | [阅读](../chapters/16_generation.md) |
+| [Harness 工程](18_harness_engineering.md) | 56 | [阅读](../chapters/18_harness_engineering.md) |
 | [相邻方向与非 Agent 研究](90_adjacent.md) | 94 | — |
 | [待复核](99_review.md) | 198 | — |
 | **合计** | **2050** | |

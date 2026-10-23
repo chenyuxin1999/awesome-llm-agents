@@ -4,7 +4,7 @@
 
 **理解一个领域，不只是知道有哪些论文，更要知道问题从何而来、已有方法走到了哪里，以及下一步值得研究什么。**
 
-本仓库面向正在进入 LLM 与 Agent 研究的读者，以关键问题为线索，连接领域综述、经典工作、前沿方法与研究机会。内容覆盖 **16 个研究专题、综述导读、Hot Words 和 2050 条文献记录**，希望为建立个人研究框架、比较技术路线和形成研究想法提供起点。
+本仓库面向正在进入 LLM 与 Agent 研究的读者，以关键问题为线索，连接领域综述、经典工作、前沿方法与研究机会。内容覆盖 **17 个研究专题、综述导读、Hot Words 和 2050 条文献记录**，希望为建立个人研究框架、比较技术路线和形成研究想法提供起点。
 
 **本仓库是探索研究问题的起点，而不是理解一个领域的终点。** 它的价值在于帮助发现问题、建立联系，并引向更深入的阅读与实践。希望读者从这里走向原始论文、代码和实验，在补充、质疑与修订中逐步建立自己的科研地图，而不是把仓库中的分类、概括或研究机会当作最终答案。
 
@@ -16,7 +16,7 @@
 
 ```text
 README.md       项目思路与入口
-chapters/       综述、16 个研究方向与 Hot Words
+chapters/       综述、17 个研究方向与 Hot Words
 catalog/        全量分类论文目录
 scripts/        目录生成、来源检查、覆盖审计与文档验证（human not in the loop
 
@@ -125,7 +125,8 @@ sources/        引用来源与版本记录（human not in the loop
 | --- | --- | --- |
 | **01 · 基础、规划与工具使用** | Agent 工作循环、任务分解、工具接口、观察与证据选择 | [章节](chapters/01_basics.md) · [论文](catalog/01_basics.md) |
 | **02 · 记忆与上下文** | 工作记忆、长期记忆、检索、压缩、写入与遗忘 | [章节](chapters/02_memory.md) · [论文](catalog/02_memory.md) |
-| **03 · 技能库与自改进** | 经验复用、技能发现、反馈学习、自动修改与能力积累 | [章节](chapters/03_skills_and_self_improvement.md) · [论文](catalog/03_skills_and_self_improvement.md) |
+| **03 · 自我改进（RSI）** | 参数、上下文、记忆、技能与 harness 代码的进化，改进器自身的递归更新，以及怎样验证改进是真的 | [章节](chapters/03_skills_and_self_improvement.md) · [论文](catalog/03_skills_and_self_improvement.md) |
+| **18 · Harness 工程** | 模型权重与世界之间的循环、上下文、工具与技能、子 agent 和执行环境；harness 的设计、自动优化、与权重的联合优化、安全，以及怎样评测 harness | [章节](chapters/18_harness_engineering.md) · [论文](catalog/18_harness_engineering.md) |
 | **06 · 评测与能力基准** | 更长的任务链、更复杂的能力组合，以及跨领域场景覆盖 | [章节](chapters/06_evaluation.md) · [论文](catalog/06_evaluation.md) |
 | **07 · 安全与对齐** | 提示注入、工具权限、欺骗、奖励漏洞与人工监督 | [章节](chapters/07_safety.md) · [论文](catalog/07_safety.md) |
 | **08 · 多智能体与人机协作** | 角色分工、通信与协调、协作成本、人工接管 | [章节](chapters/08_collaboration.md) · [论文](catalog/08_collaboration.md) |
@@ -167,9 +168,9 @@ sources/        引用来源与版本记录（human not in the loop
 
 | 想先了解的方向 | 推荐起点 | 接下来读 |
 | --- | --- | --- |
-| **Agent 系统与执行框架** | [Agent System and Harness Design](https://arxiv.org/abs/2606.20683v1) | [基础与工具](chapters/01_basics.md) |
+| **Agent 系统与执行框架** | [Agent System and Harness Design](https://arxiv.org/abs/2606.20683v1) | [基础与工具](chapters/01_basics.md) · [Harness 工程](chapters/18_harness_engineering.md) |
 | **Long-horizon：长程任务** | [Towards Long-Horizon Agents: A Survey](https://long-horizon-agents.github.io/) | [记忆](chapters/02_memory.md) · [评测](chapters/06_evaluation.md) |
-| **Self-evolving：自演化** | [Self-Improvements in Modern Agentic Systems](https://arxiv.org/abs/2607.13104v1) | [技能与自改进](chapters/03_skills_and_self_improvement.md) |
+| **Self-evolving：自演化** | [Self-Improvements in Modern Agentic Systems](https://arxiv.org/abs/2607.13104v1) | [自我改进（RSI）](chapters/03_skills_and_self_improvement.md) |
 | **RSI：递归自改进** | [Recursive Self-Improvement in AI](https://arxiv.org/abs/2607.07663v2) · [The Last AI Built by Humans](https://arxiv.org/abs/2609.11873v3) | [综述章的概念区分](chapters/00_surveys.md) · [自改进方法](chapters/03_skills_and_self_improvement.md) |
 | **编码 Agent 的持续改进** | [Self-Evolving Coding Agents](https://arxiv.org/abs/2608.03392v4) | [训练数据](chapters/04_training_data.md) · [评测](chapters/06_evaluation.md) |
 

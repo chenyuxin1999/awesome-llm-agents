@@ -14,7 +14,7 @@
 
 主动发现问题、长期维持目标、协调异质工具和持续积累经验，都需要从愿景转化为可观察行为。关键是设计必须使用目标能力才能完成的任务，并排除扩大上下文、额外采样或固定流程等替代解释。能力定义应允许构造不同难度和不同表面条件，而不是绑定到某一个演示。
 
-这一方向连接[基础与规划](../chapters/01_basics.md)、[记忆](../chapters/02_memory.md)、[技能与自改进](../chapters/03_skills_and_self_improvement.md)及[评测](../chapters/06_evaluation.md)。对于递归改进，还要区分执行策略变化与改进机制变化，相关框架见[综述导读](../chapters/00_surveys.md)。
+这一方向连接[基础与规划](../chapters/01_basics.md)、[记忆](../chapters/02_memory.md)、[自我改进（RSI）](../chapters/03_skills_and_self_improvement.md)及[评测](../chapters/06_evaluation.md)。对于递归改进，还要区分执行策略变化与改进机制变化，相关框架见[综述导读](../chapters/00_surveys.md)。
 
 ## 3. 如何持续构造挑战前沿系统的复杂任务，同时保持可解性与可信反馈？
 
@@ -26,7 +26,7 @@
 
 持续运行的系统会修改记忆、技能、参数和工作流程，新经验可能有用，也可能过时或污染未来决策。研究需要明确更新对象、接纳条件与撤销传播，并用独立任务流观察新能力和旧能力。可靠增长不仅要有更高分数，还要知道变化来自哪里、何时失效以及如何恢复。
 
-这一方向连接[记忆](../chapters/02_memory.md)、[自我改进](../chapters/03_skills_and_self_improvement.md)、[强化学习与蒸馏](../chapters/05_rl_and_distillation.md)、[安全](../chapters/07_safety.md)及[模型科学](../chapters/14_model_science.md)。
+这一方向连接[记忆](../chapters/02_memory.md)、[自我改进](../chapters/03_skills_and_self_improvement.md)、[Harness 工程](../chapters/18_harness_engineering.md)、[强化学习与蒸馏](../chapters/05_rl_and_distillation.md)、[安全](../chapters/07_safety.md)及[模型科学](../chapters/14_model_science.md)。
 
 ## 5. 如何让多模态预测、行动与科学探索在闭环中协同？
 

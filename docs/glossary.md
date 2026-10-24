@@ -2,7 +2,7 @@
 
 [返回首页](../README.md)
 
-概念的来源、背景及相关研究见 [Hot Words](../chapters/17_hot_words.md)；本页用于快速查阅定义。Harness 的设计、优化与评测见 [Harness 工程](../chapters/18_harness_engineering.md)。
+概念的来源、背景及相关研究见 [Hot Words](../chapters/17_hot_words.md)；本页用于快速查阅定义。Harness 的设计、优化与评测见 [Harness 工程](../chapters/18_harness_engineering.md)。GUI agent、看图思考与视觉工具调用见 [多模态 agent](../chapters/19_multimodal_agent.md)。
 
 术语按系统交互、学习方法和评价等主题组织。同名方法的具体含义可结合其研究对象、训练方式与实验设置理解。
 

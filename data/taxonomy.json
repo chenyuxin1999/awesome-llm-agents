@@ -52,9 +52,9 @@
     },
     {
       "key": "09_multimodal_gui",
-      "name": "多模态与 GUI Agent",
+      "name": "多模态理解",
       "chapter": "chapters/09_multimodal_gui.md",
-      "scope": "多模态推理、视觉语言理解、GUI 与计算机使用；纯视觉重建归相邻方向。"
+      "scope": "多模态理解：视觉语言对齐与接入、高分辨率与文档界面感知、空间与视频理解、流式视频、视觉模型的适配与压缩；以 GUI、网页与电脑操作、视觉工具调用和看图思考为核心的行动类工作归19；纯视觉重建归相邻方向。"
     },
     {
       "key": "10_world_models",
@@ -103,6 +103,12 @@
       "name": "Harness 工程",
       "chapter": "chapters/18_harness_engineering.md",
       "scope": "以 harness（模型权重与环境之间的循环、上下文、工具与技能、子 agent、执行环境与运行时控制）为研究对象的设计、自动优化与演化、harness 与权重的联合优化与迁移、长程任务 harness、harness 安全，以及 harness 的评测与失败归因。Agent 定义与控制循环的入门概念归01；以递归自我改进机制本身为核心的工作归03；只把 harness 用作机器人、推荐、领域应用或记忆评测载体的工作留在原类，以副标签关联18。"
+    },
+    {
+      "key": "19_multimodal_agent",
+      "name": "多模态 agent",
+      "chapter": "chapters/19_multimodal_agent.md",
+      "scope": "以视觉完成任务的 agent：调用视觉工具与视觉程序、在推理中操作图像（看图思考）、网页与操作系统中的 GUI/电脑操作 agent 及其环境、轨迹数据、在线强化学习、奖励与停止、动作接口与安全，闭环创作中的看图检查，以及长程视觉记忆。静态视觉理解归09；以 harness 本身为研究对象的工作归18；生成模型内部的 agent 编排归16；世界模型归10；机器人与 VLA 归11。"
     },
     {
       "key": "90_adjacent",
@@ -228,6 +234,16 @@
       "reason": "标题明确指向JEV判断、验证或不确定时升级；按第06章处理，优先于通用Agent框架规则，但不泛匹配JEV记忆等应用。"
     },
     {
+      "id": "multimodal_agent_core",
+      "target": "19_multimodal_agent",
+      "priority": 118,
+      "fields": [
+        "title"
+      ],
+      "pattern": "\\bGUI\\b|computer[ -]use|\\bCUA\\b|thinking with tools|thinking with long audio-video|video[ -]deep ?research|open-world video agents",
+      "reason": "标题明确以 GUI、网页或电脑操作 agent，或在推理中调用视觉工具、看图检索证据的视觉 agent 为对象；优先于通用评测与训练资源规则，使以电脑操作为对象的基准、奖励模型与环境归入19。"
+    },
+    {
       "id": "harness_core",
       "target": "18_harness_engineering",
       "priority": 116,
@@ -304,8 +320,8 @@
       "fields": [
         "title"
       ],
-      "pattern": "\\bGUI\\b|computer[ -]use|visual agents?|visual on-policy|visual evidence distillation|video understanding|video reasoning|vision[ -]language models?|vision encoder|just-in-time interfaces|optical character grounded",
-      "reason": "标题明确指向多模态理解、视觉语言或 GUI 交互。"
+      "pattern": "visual agents?|visual on-policy|visual evidence distillation|video understanding|video reasoning|vision[ -]language models?|vision encoder|optical character grounded",
+      "reason": "标题明确指向多模态理解或视觉语言模型；GUI、电脑操作与视觉工具调用由 multimodal_agent_core 优先归19。"
     },
     {
       "id": "science_application",

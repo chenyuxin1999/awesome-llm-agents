@@ -64,7 +64,7 @@
 | 2608.17587 | [Write, Execute, Refine: From Skill Followers to Skill Optimizers via Reinforcement Learning from Execution Feedback](https://www.alphaxiv.org/abs/2608.17587) | — |
 | 2608.20055 | [EchoCoT: Extracting Hidden Chain-of-Thought from Large Reasoning Models](https://www.alphaxiv.org/abs/2608.20055) | — |
 | 2608.30726 | [Multimodal Adaptive Expert Selection with Text Routing and Ordinal Prototype Optimization for Sentiment Analysis](https://www.alphaxiv.org/abs/2608.30726) | — |
-| 2609.32808 | [Mind the Spike: Mechanisms and Brittleness of Visual Massive Activations in Large Vision-Language Models](https://www.alphaxiv.org/abs/2609.32808) | [多模态与 GUI Agent](09_multimodal_gui.md) |
+| 2609.32808 | [Mind the Spike: Mechanisms and Brittleness of Visual Massive Activations in Large Vision-Language Models](https://www.alphaxiv.org/abs/2609.32808) | [多模态理解](09_multimodal_gui.md) |
 | 2607.27760 | [Hierarchical Latent Reasoning for LLM-based Recommendation](https://www.alphaxiv.org/abs/2607.27760) | — |
 | 2609.01924 | [Looped Transformers under the Jacobian Lens: Does the Global Workspace Survive Recurrence?](https://www.alphaxiv.org/abs/2609.01924) | [效率与循环计算架构](13_efficiency.md) |
 | 2609.02734 | [LoRA-TSD: Tangent-Space Spectral Descent for LoRA via Muon-Style Updates](https://www.alphaxiv.org/abs/2609.02734) | — |

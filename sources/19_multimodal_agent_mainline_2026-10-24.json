@@ -1,0 +1,338 @@
+[
+ {
+  "url": "https://arxiv.org/abs/2211.11559",
+  "checked_at": "2026-10-24T11:00:00+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Visual Programming: Compositional visual reasoning without training",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2303.04671",
+  "checked_at": "2026-10-24T11:00:00.000001+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2303.08128",
+  "checked_at": "2026-10-24T11:00:00.000002+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "ViperGPT: Visual Inference via Python Execution for Reasoning",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2303.17580",
+  "checked_at": "2026-10-24T11:00:00.000003+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2310.11441",
+  "checked_at": "2026-10-24T11:00:00.000004+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2312.08914",
+  "checked_at": "2026-10-24T11:00:00.000005+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "CogAgent: A Visual Language Model for GUI Agents",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2312.14135",
+  "checked_at": "2026-10-24T11:00:00.000006+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "V*: Guided Visual Search as a Core Mechanism in Multimodal LLMs",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2401.01614",
+  "checked_at": "2026-10-24T11:00:00.000007+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "GPT-4V(ision) is a Generalist Web Agent, if Grounded",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2401.13919",
+  "checked_at": "2026-10-24T11:00:00.000008+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2403.01248",
+  "checked_at": "2026-10-24T11:00:00.000009+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "SceneCraft: An LLM Agent for Synthesizing 3D Scene as Blender Code",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2404.17672",
+  "checked_at": "2026-10-24T11:00:00.000010+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "BlenderAlchemy: Editing 3D Graphics with Vision-Language Models",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2405.14573",
+  "checked_at": "2026-10-24T11:00:00.000011+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2406.09403",
+  "checked_at": "2026-10-24T11:00:00.000012+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Visual Sketchpad: Sketching as a Visual Chain of Thought for Multimodal Language Models",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2410.05243",
+  "checked_at": "2026-10-24T11:00:00.000013+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2412.04454",
+  "checked_at": "2026-10-24T11:00:00.000014+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Aguvis: Unified Pure Vision Agents for Autonomous GUI Interaction",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2501.12326",
+  "checked_at": "2026-10-24T11:00:00.000015+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "UI-TARS: Pioneering Automated GUI Interaction with Native Agents",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2505.15966",
+  "checked_at": "2026-10-24T11:00:00.000016+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Pixel Reasoner: Incentivizing Pixel-Space Reasoning with Curiosity-Driven Reinforcement Learning",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2508.09123",
+  "checked_at": "2026-10-24T11:00:00.000017+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "OpenCUA: Open Foundations for Computer-Use Agents",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2509.02544",
+  "checked_at": "2026-10-24T11:00:00.000018+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.29537",
+  "checked_at": "2026-10-24T11:00:00.000019+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "OSWorld 2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.03979",
+  "checked_at": "2026-10-24T11:00:00.000020+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.11942",
+  "checked_at": "2026-10-24T11:00:00.000021+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Right Screen, Wrong Transition: World Models as Verifiers for GUI Agents",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.22200",
+  "checked_at": "2026-10-24T11:00:00.000022+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.26659",
+  "checked_at": "2026-10-24T11:00:00.000023+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.26828",
+  "checked_at": "2026-10-24T11:00:00.000024+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Agent World Model in the Wild: Computer-Use Agent Environment Synthesis",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.26860",
+  "checked_at": "2026-10-24T11:00:00.000025+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.28354",
+  "checked_at": "2026-10-24T11:00:00.000026+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "S-Agent 2.0: Spatial Reasoning with a General Coding Agent",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.31494",
+  "checked_at": "2026-10-24T11:00:00.000027+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "AgentVQA: A Unified Benchmark for Agentic Visual Understanding",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://epoch.ai/blog/what-does-osworld-tell-us-about-ais-ability-to-use-computers",
+  "checked_at": "2026-10-24T11:00:00.000028+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "What does OSWorld tell us about AI's ability to use computers? (Epoch AI, Florian Brand & Greg Burnham, 2025-10-30)",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://huggingface.co/blog/screensuite",
+  "checked_at": "2026-10-24T11:00:00.000029+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "ScreenSuite - The most comprehensive evaluation suite for GUI Agents! (Hugging Face, 2025-06-06)",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://huggingface.co/blog/smol2operator",
+  "checked_at": "2026-10-24T11:00:00.000030+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Smol2Operator: Post-Training GUI Agents for Computer Use (Hugging Face, 2025-09-23)",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://huyenchip.com/2025/01/07/agents.html",
+  "checked_at": "2026-10-24T11:00:00.000031+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Agents (Chip Huyen, 2025-01-07)",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://openai.com/index/computer-using-agent/",
+  "checked_at": "2026-10-24T11:00:00.000032+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Computer-Using Agent (OpenAI, 2025-01-23)",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://openai.com/index/thinking-with-images/",
+  "checked_at": "2026-10-24T11:00:00.000033+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Thinking with images (OpenAI, 2025-04-16)",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://simonwillison.net/2024/Oct/22/computer-use",
+  "checked_at": "2026-10-24T11:00:00.000034+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Initial explorations of Anthropic's new Computer Use capability (Simon Willison, 2024-10-22)",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://simonwillison.net/2025/Apr/26/o3-photo-locations/",
+  "checked_at": "2026-10-24T11:00:00.000035+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Watching o3 guess a photo's location is surreal, dystopian and wildly entertaining (Simon Willison, 2025-04-26)",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://vista-research.github.io/",
+  "checked_at": "2026-10-24T11:00:00.000036+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "VISTA: A Visual Harness for Reasoning in an Interactive World (project page, MIT)",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://www.alphaxiv.org/abs/2607.23588",
+  "checked_at": "2026-10-24T11:00:00.000037+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "JarvisHub: An Open Harness for Canvas-Native Multimodal Creative Agents",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://www.alphaxiv.org/abs/2607.echoverse",
+  "checked_at": "2026-10-24T11:00:00.000038+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Echoverse: Deep, Evolving Environments for Training Computer-Use Agents at Scale",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+  "checked_at": "2026-10-24T11:00:00.000039+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku (Anthropic, 2024-10-22)",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://www.anthropic.com/news/developing-computer-use",
+  "checked_at": "2026-10-24T11:00:00.000040+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Developing a computer use model (Anthropic, 2024-10-22)",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://xlang.ai/blog/osworld-verified",
+  "checked_at": "2026-10-24T11:00:00.000041+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Introducing OSWorld-Verified (XLANG Lab, 2025-07-28)",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ }
+]

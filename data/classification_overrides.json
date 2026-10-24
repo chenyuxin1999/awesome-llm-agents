@@ -403,9 +403,9 @@
       "id": "2609.06770",
       "expected_old": "14_AI4Science_and_Math_Agents",
       "expected_title": "The Interface of Theseus: The Rise of Just-In-Time Interfaces",
-      "new": "09_multimodal_gui",
-      "secondary_tags": [],
-      "reason": "研究按需即时生成交互界面，属于界面/交互方向而非科学或数学Agent。",
+      "new": "19_multimodal_agent",
+      "secondary_tags": ["09_multimodal_gui"],
+      "reason": "研究按需即时生成交互界面，讨论的是 agent 与软件之间的行动接口，归多模态 agent；视觉理解作为副标签；不属于科学或数学Agent。",
       "reviewer": "coding_assistant_local_review",
       "evidence_basis": [
         {
@@ -1015,6 +1015,36 @@
         {
           "source": "local_title",
           "quote": "HarnessPAI: An Evolving Harness for Physical AI"
+        }
+      ]
+    },
+    {
+      "id": "2607.27180",
+      "expected_old": "02_Recursive_Self-Improvement",
+      "expected_title": "HumanCLAW: Can Vision-Language Models Act Through a Body?",
+      "new": "19_multimodal_agent",
+      "secondary_tags": ["11_embodied", "09_multimodal_gui"],
+      "reason": "HumanCLAW 评测视觉语言模型能否通过身体行动，核心是把行动决策与低层执行解耦后诊断 agent 的动作选择，归多模态 agent；具身执行与视觉理解作为副标签；不属于自我改进。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_abstract",
+          "quote": "we introduce HumanCLAW, an evaluation framework that decouples action decision-making from low-level execution"
+        }
+      ]
+    },
+    {
+      "id": "2609.19664",
+      "expected_old": "02_Recursive_Self-Improvement",
+      "expected_title": "VideoResearcher: Self-Improving Tool Design for Long-Video Understanding",
+      "new": "19_multimodal_agent",
+      "secondary_tags": ["09_multimodal_gui", "03_skills_and_self_improvement"],
+      "reason": "VideoResearcher 让视频 agent 诊断证据缺口并设计、验证、复用可执行的视频工具，核心是视觉工具调用，归多模态 agent；长视频理解与自我改进作为副标签。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_one_line",
+          "quote": "Agents can diagnose missing video evidence, build and test new tools"
         }
       ]
     }

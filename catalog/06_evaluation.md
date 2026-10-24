@@ -6,7 +6,7 @@
 
 [阅读专题导读](../chapters/06_evaluation.md)
 
-本方向收录 **243 条记录**。相关方向用于交叉检索，不重复计入各类数量。
+本方向收录 **240 条记录**。相关方向用于交叉检索，不重复计入各类数量。
 
 | ID | 文献 | 相关方向 |
 | --- | --- | --- |
@@ -93,7 +93,6 @@
 | 2607.19228 | [IGGT4D: Streaming 4D Instance-Grounded Geometry Transformer](https://www.alphaxiv.org/abs/2607.19228) | — |
 | 2608.15008 | [Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents](https://www.alphaxiv.org/abs/2608.15008) | [Harness 工程](18_harness_engineering.md) |
 | 2609.05416 | [WorldSculpt: Generating Compositional Worlds from Grounded Videos](https://www.alphaxiv.org/abs/2609.05416) | — |
-| 2607.19339 | [OmniReasoner: Thinking with Long Audio-Video via Native Tool Use](https://www.alphaxiv.org/abs/2607.19339) | — |
 | 2608.05806 | [Hierarchical Latent Prediction for Language Models](https://www.alphaxiv.org/abs/2608.05806) | — |
 | 2608.13940 | [AI Research Preference Models](https://www.alphaxiv.org/abs/2608.13940) | — |
 | 2607.27194 | [VidMap: Exploiting Temporal Structure for Video-Based Structure-from-Motion](https://www.alphaxiv.org/abs/2607.27194) | — |
@@ -112,14 +111,13 @@
 | 2607.16107 | [Audio-Visual Flamingo: Open Audio-Visual Intelligence for Long and Complex Videos](https://www.alphaxiv.org/abs/2607.16107) | — |
 | 2608.15984 | [A Plug-and-Play 2D Motion Interface for Real-World Motion Language Models](https://www.alphaxiv.org/abs/2608.15984) | — |
 | 2609.32534 | [DepthBench: Measuring How Residual Connections Enable More Computational Depth](https://www.alphaxiv.org/abs/2609.32534) | — |
-| 2609.drivingbench-vlm-driving-toyota | [DrivingBench: Can Vision-Language Models Drive a Toyota Corolla?](https://www.alphaxiv.org/abs/2609.drivingbench-vlm-driving-toyota) | [多模态与 GUI Agent](09_multimodal_gui.md) |
+| 2609.drivingbench-vlm-driving-toyota | [DrivingBench: Can Vision-Language Models Drive a Toyota Corolla?](https://www.alphaxiv.org/abs/2609.drivingbench-vlm-driving-toyota) | [多模态理解](09_multimodal_gui.md) |
 | 2606.gene-bench-pro | [GeneBench-Pro: Evaluating Multistage Statistical Reasoning in Genomics, Quantitative Biology, and Translational Biomedicine](https://www.alphaxiv.org/abs/2606.gene-bench-pro) | — |
 | 2607.12477 | [Self in Space: Benchmarking Self-Awareness and Spatial Cognition in UAV Embodied Intelligence](https://www.alphaxiv.org/abs/2607.12477) | [具身智能与 VLA](11_embodied.md) |
 | 2607.16401 | [Apple- 𝜋 π: Benchmarking Thinking with Video Towards Law-Grounded Physical Intelligence](https://www.alphaxiv.org/abs/2607.16401) | — |
 | 2609.02783 | [EarlyEval: Cheaper Agent Evaluation via Early Outcome Prediction](https://www.alphaxiv.org/abs/2609.02783) | — |
 | 2609.23980 | [MobileCybench: Evaluating Agent Vulnerability Discovery via Executable Probes](https://www.alphaxiv.org/abs/2609.23980) | — |
 | 2607.22531 | [Twins: Learn to Predict Unified Representations with Focal Loss](https://www.alphaxiv.org/abs/2607.22531) | — |
-| 2607.28609 | [OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models](https://www.alphaxiv.org/abs/2607.28609) | [多模态与 GUI Agent](09_multimodal_gui.md) |
 | 2608.11727 | [Harness-IF: Evaluating Instruction Following Across Instruction Surfaces in Coding Agents](https://www.alphaxiv.org/abs/2608.11727) | [Harness 工程](18_harness_engineering.md) |
 | 2608.13552 | [PlayWorld: Benchmarking World Models with Agent Players over Long-Horizon Objectives](https://www.alphaxiv.org/abs/2608.13552) | [世界模型与规划](10_world_models.md) |
 | 2608.16747 | [Would this change your answer? Evaluating Explanations of LLM Behavior In The Wild with Counterfactual Experiments](https://www.alphaxiv.org/abs/2608.16747) | — |
@@ -130,7 +128,7 @@
 | 2607.19321 | [ResearchArena: Evaluating Sabotage and Monitoring in Automated AI R&amp;D](https://www.alphaxiv.org/abs/2607.19321) | — |
 | 2608.02603 | [WorldExam: Benchmarking World Models from Apparent Appearance to Inherent Reactivity](https://www.alphaxiv.org/abs/2608.02603) | [世界模型与规划](10_world_models.md) |
 | 2608.28833 | [Evaluating the Hidden Costs of Personalization in Large Language Models](https://www.alphaxiv.org/abs/2608.28833) | — |
-| 2609.15478 | [BVB: Benchmarking Agentic Video Understanding via Programmatic Reconstruction in Blender](https://www.alphaxiv.org/abs/2609.15478) | [多模态与 GUI Agent](09_multimodal_gui.md) |
+| 2609.15478 | [BVB: Benchmarking Agentic Video Understanding via Programmatic Reconstruction in Blender](https://www.alphaxiv.org/abs/2609.15478) | [多模态理解](09_multimodal_gui.md) |
 | 2609.18323 | [Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model](https://www.alphaxiv.org/abs/2609.18323) | — |
 | 2609.23064 | [FireWorldBench: Benchmarking Complex Physical World Intelligence through Coupled-Field Fire Dynamics](https://www.alphaxiv.org/abs/2609.23064) | — |
 | 2609.33295 | [TraceDance: An Automated System for Building Agent Behavior Benchmarks from Real-World Agent Deployment Traces](https://www.alphaxiv.org/abs/2609.33295) | — |
@@ -207,7 +205,6 @@
 | 2607.25672 | [AI's Capability in Assisting Scientific Research in Physics, Astrophysics, and Cosmology I: Literature Review](https://www.alphaxiv.org/abs/2607.25672) | — |
 | 2607.29363 | [Stable Autoregressive Speech Generation with Low-Frame-Rate High-Dimensional Continuous Tokens](https://www.alphaxiv.org/abs/2607.29363) | — |
 | 2608.02163 | [From Simple QA to Deep Research: A Verifiable Benchmark Constructed through Iterative Task Evolution](https://www.alphaxiv.org/abs/2608.02163) | — |
-| 2608.09682 | [Thinking With Tools, Not With Pixels: Tool Calls as Text Scaffolds for Visual Reasoning](https://www.alphaxiv.org/abs/2608.09682) | — |
 | 2608.19598 | [PEA-DPO: Perception-Enhanced Alignment Direct Preference Optimization for MLLMs Alignment](https://www.alphaxiv.org/abs/2608.19598) | — |
 | 2608.27449 | [SWE-Prime: Fewer Trajectories, Better Performance](https://www.alphaxiv.org/abs/2608.27449) | — |
 | 2608.30165 | [Science sandboxes measure the scientific capability of AI agents](https://www.alphaxiv.org/abs/2608.30165) | — |
@@ -250,6 +247,6 @@
 | 2609.30467 | [Where Does Retrieval-Based Open-Ended Evaluation Fail? Automatic Taxonomy Induction from Long-Form Medical Answer Factuality Verification](https://www.alphaxiv.org/abs/2609.30467) | — |
 | 2609.can-jev-be-used-as-a-confident-classifier-a-calibration-study-on-conflict-type-classification-in-rag | [Can JEV Be Used as a Confident Classifier? A Calibration Study on Conflict-Type Classification in RAG](https://www.alphaxiv.org/abs/2609.can-jev-be-used-as-a-confident-classifier-a-calibration-study-on-conflict-type-classification-in-rag) | — |
 | 2609.10539 | [IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications](https://www.alphaxiv.org/abs/2609.10539) | — |
-| 2609.11242 | [From Evaluation to Enhancement: Benchmarking and Improving Think-with-Video Reasoning for Video Generative Models](https://www.alphaxiv.org/abs/2609.11242) | [多模态与 GUI Agent](09_multimodal_gui.md) |
+| 2609.11242 | [From Evaluation to Enhancement: Benchmarking and Improving Think-with-Video Reasoning for Video Generative Models](https://www.alphaxiv.org/abs/2609.11242) | [多模态理解](09_multimodal_gui.md) |
 | 2609.20116 | [How Far Can GPT-6-Astra Go? Evaluating Capabilities in Zero-Shot Vision-and-Language Navigation](https://www.alphaxiv.org/abs/2609.20116) | — |
 | 2609.31590 | [AgentWorld: Benchmarking Long-Horizon Collaboration of Multi-agent LLMs](https://www.alphaxiv.org/abs/2609.31590) | [多 Agent 与人机协作](08_collaboration.md) |

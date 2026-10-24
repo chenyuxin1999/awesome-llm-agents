@@ -272,7 +272,7 @@
 | 2607.26148 | [Embodied Agents Take Control: Minimal-Interface Zero-Shot Agents Rival Industrial-Scale Policies in Vision-and-Language Navigation](https://www.alphaxiv.org/abs/2607.26148) | — |
 | 2607.28198 | [UniCross: Unified Cross-Skill Dexterous Manipulation Synthesis](https://www.alphaxiv.org/abs/2607.28198) | — |
 | 2608.04720 | [YOLOv14: Adaptive Real-Time Object Detection for Diverse Imaging Conditions](https://www.alphaxiv.org/abs/2608.04720) | — |
-| 2608.06756 | [Capek 0.5: An Execution-Centric Vision-Language Model for Embodied Intelligence](https://www.alphaxiv.org/abs/2608.06756) | [多模态与 GUI Agent](09_multimodal_gui.md) |
+| 2608.06756 | [Capek 0.5: An Execution-Centric Vision-Language Model for Embodied Intelligence](https://www.alphaxiv.org/abs/2608.06756) | [多模态理解](09_multimodal_gui.md) |
 | 2608.07558 | [Learning Physical Interaction: A Survey of Tactile- and Force-aware Robot Learning](https://www.alphaxiv.org/abs/2608.07558) | — |
 | 2608.09410 | [Skills in Weights, Memory in Code: Hybrid Learning for Memory-Dependent Robot Manipulation](https://www.alphaxiv.org/abs/2608.09410) | — |
 | 2608.09762 | [Efficient Real-World Online Reinforcement Learning for Robot Manipulation via Centralized Training and Critic Decomposition](https://www.alphaxiv.org/abs/2608.09762) | — |

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="900" height="380" role="img" aria-label="评测 harness：协议与归因" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><rect x="0" y="0" width="900" height="380" fill="#ffffff"/><defs><marker id="ah_fig_b7_eval" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs>
+<rect x="16" y="16" width="420" height="350" rx="8" fill="#F3F5F8" stroke="#D5DBE4" stroke-width="1.5"/>
+<text x="32" y="40" text-anchor="start" font-size="12.5" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">协议：选版本和报分数用不同的数据</text>
+<rect x="32" y="56" width="388" height="50" rx="5" fill="#FFFFFF" stroke="#B83560" stroke-width="1.5"/>
+<text x="226" y="77.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">常见做法：同一个基准既给搜索信号，又报最终分数</text>
+<text x="226" y="91.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">相当于训练集和测试集没分开</text>
+<text x="408" y="76" text-anchor="end" font-size="16" font-weight="700" fill="#B83560" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">✕</text>
+<rect x="32" y="130" width="180" height="54" rx="5" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1.5"/>
+<text x="122" y="152.929" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">搜索集</text>
+<text x="122" y="167.833" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">只用来演化 harness</text>
+<rect x="240" y="130" width="180" height="54" rx="5" fill="#FCE4EC" stroke="#B83560" stroke-width="1.5"/>
+<text x="330" y="152.929" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">留出测试</text>
+<text x="330" y="167.833" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">搜索全程看不到</text>
+<path d="M212,157 L238,157" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b7_eval)"/>
+<text x="225" y="124" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" style="paint-order:stroke;stroke-width:4px;stroke-linejoin:round" stroke="#ffffff">选好后测一次</text>
+<rect x="32" y="206" width="388" height="50" rx="5" fill="#E9EDF3" stroke="#47546A" stroke-width="1.5"/>
+<text x="226" y="226.929" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">对照组：同样的反馈和预算</text>
+<text x="226" y="241.833" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">花在简单的任务级搜索、测试时扩展上</text>
+<rect x="32" y="278" width="388" height="72" rx="5" fill="#FFFFFF" stroke="#5A6577" stroke-width="1.5"/>
+<text x="226" y="302.684" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">按修正协议重做（Rethinking the Evaluation）</text>
+<text x="226" y="317.588" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Terminal-Bench 2.1：自动演化没能胜过简单的测试时扩展</text>
+<text x="226" y="332.078" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">长程游戏：ARC-AGI-3 上比搜索基线高 80.0%</text>
+<rect x="452" y="16" width="432" height="350" rx="8" fill="#F3F5F8" stroke="#D5DBE4" stroke-width="1.5"/>
+<text x="468" y="40" text-anchor="start" font-size="12.5" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">归因：失败出在哪条边上（Model or Harness?）</text>
+<path d="M520,96 L668,96" fill="none" stroke="#5A6577" stroke-width="1.4"/>
+<path d="M668,96 L668,196" fill="none" stroke="#5A6577" stroke-width="1.4"/>
+<path d="M668,196 L816,140" fill="none" stroke="#5A6577" stroke-width="1.4"/>
+<path d="M668,196 L816,230" fill="none" stroke="#5A6577" stroke-width="1.4"/>
+<path d="M668,196 L520,196" fill="none" stroke="#5A6577" stroke-width="1.4"/>
+<path d="M520,196 L520,280" fill="none" stroke="#5A6577" stroke-width="1.4"/>
+<rect x="478" y="79" width="84" height="34" rx="5" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1.5"/>
+<text x="520" y="99.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">用户</text>
+<rect x="626" y="79" width="84" height="34" rx="5" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.5"/>
+<text x="668" y="99.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">模型</text>
+<rect x="626" y="179" width="84" height="34" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5"/>
+<text x="668" y="199.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">harness</text>
+<rect x="774" y="123" width="84" height="34" rx="5" fill="#DDF3E8" stroke="#26805A" stroke-width="1.5"/>
+<text x="816" y="143.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">工具</text>
+<rect x="774" y="213" width="84" height="34" rx="5" fill="#E9EDF3" stroke="#47546A" stroke-width="1.5"/>
+<text x="816" y="233.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">记忆</text>
+<rect x="478" y="179" width="84" height="34" rx="5" fill="#DDF3E8" stroke="#26805A" stroke-width="1.5"/>
+<text x="520" y="199.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">环境</text>
+<rect x="478" y="263" width="84" height="34" rx="5" fill="#FCE4EC" stroke="#B83560" stroke-width="1.5"/>
+<text x="520" y="283.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">评分器</text>
+<text x="468" y="60" text-anchor="start" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">一条边代表两个组件之间的一种交互</text>
+<text x="668" y="286" text-anchor="start" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">41 种失败模式，各落在一条边上</text>
+<text x="668" y="302" text-anchor="start" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">再标出错在哪一侧</text>
+<text x="468" y="322" text-anchor="start" font-size="10.5" font-weight="500" fill="#5B45B0" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">· 模型一侧 → 后训练</text>
+<text x="468" y="337" text-anchor="start" font-size="10.5" font-weight="500" fill="#B86E00" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">· harness 一侧 → 脚手架与工具集成</text>
+<text x="468" y="352" text-anchor="start" font-size="10.5" font-weight="500" fill="#B83560" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">· 环境或评分器一侧 → 重新设计评测条件</text>
+<text x="876" y="358" text-anchor="end" font-size="9.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-style="italic">边为示意</text>
+</svg>

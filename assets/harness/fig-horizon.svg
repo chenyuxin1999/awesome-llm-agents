@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 300" width="780" height="300" role="img" aria-label="METR 的 50% 任务完成时间跨度怎样读" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><rect x="0" y="0" width="780" height="300" fill="#ffffff"/><defs><marker id="ah_fig_horizon" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs>
+<path d="M70,250 L500,250" fill="none" stroke="#5A6577" stroke-width="1"/>
+<path d="M70,250 L70,40" fill="none" stroke="#5A6577" stroke-width="1"/>
+<path d="M90,250 L90,254" fill="none" stroke="#5A6577" stroke-width="1"/>
+<text x="90" y="268" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">1 分钟</text>
+<path d="M190,250 L190,254" fill="none" stroke="#5A6577" stroke-width="1"/>
+<text x="190" y="268" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">10 分钟</text>
+<path d="M290,250 L290,254" fill="none" stroke="#5A6577" stroke-width="1"/>
+<text x="290" y="268" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">1 小时</text>
+<path d="M390,250 L390,254" fill="none" stroke="#5A6577" stroke-width="1"/>
+<text x="390" y="268" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">4 小时</text>
+<path d="M490,250 L490,254" fill="none" stroke="#5A6577" stroke-width="1"/>
+<text x="490" y="268" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">1 天</text>
+<text x="64" y="64" text-anchor="end" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">100%</text>
+<text x="64" y="154" text-anchor="end" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">50%</text>
+<text x="64" y="244" text-anchor="end" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">0%</text>
+<path d="M74.0,61.3 L78.2,61.5 L82.4,61.7 L86.6,61.9 L90.8,62.1 L95.0,62.3 L99.2,62.6 L103.4,62.9 L107.6,63.2 L111.8,63.6 L116.0,64.0 L120.2,64.4 L124.4,64.9 L128.6,65.5 L132.8,66.1 L137.0,66.8 L141.2,67.6 L145.4,68.4 L149.6,69.3 L153.8,70.4 L158.0,71.5 L162.2,72.8 L166.4,74.1 L170.6,75.6 L174.8,77.3 L179.0,79.1 L183.2,81.1 L187.4,83.2 L191.6,85.5 L195.8,88.1 L200.0,90.8 L204.2,93.7 L208.4,96.8 L212.6,100.2 L216.8,103.7 L221.0,107.5 L225.2,111.4 L229.4,115.6 L233.6,119.9 L237.8,124.4 L242.0,129.1 L246.2,133.8 L250.4,138.7 L254.6,143.6 L258.8,148.6 L263.0,153.6 L267.2,158.5 L271.4,163.4 L275.6,168.2 L279.8,172.9 L284.0,177.5 L288.2,181.9 L292.4,186.2 L296.6,190.3 L300.8,194.2 L305.0,197.8 L309.2,201.3 L313.4,204.5 L317.6,207.6 L321.8,210.4 L326.0,213.1 L330.2,215.5 L334.4,217.7 L338.6,219.8 L342.8,221.7 L347.0,223.4 L351.2,225.0 L355.4,226.5 L359.6,227.8 L363.8,229.0 L368.0,230.1 L372.2,231.1 L376.4,232.0 L380.6,232.8 L384.8,233.5 L389.0,234.2 L393.2,234.8 L397.4,235.3 L401.6,235.8 L405.8,236.2 L410.0,236.6 L414.2,236.9 L418.4,237.3 L422.6,237.5 L426.8,237.8 L431.0,238.0 L435.2,238.2 L439.4,238.4 L443.6,238.6 L447.8,238.7 L452.0,238.9 L456.2,239.0 L460.4,239.1 L464.6,239.2 L468.8,239.3 L473.0,239.3 L477.2,239.4 L481.4,239.5 L485.6,239.5 L489.8,239.6 L494.0,239.6" fill="none" stroke="#5B45B0" stroke-width="2.2"/>
+<path d="M70,150 L260,150" fill="none" stroke="#B83560" stroke-width="1" stroke-dasharray="4 3"/>
+<path d="M260,150 L260,250" fill="none" stroke="#B83560" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="260" cy="150" r="5" fill="#B83560"/>
+<text x="268" y="140" text-anchor="start" font-size="10.5" font-weight="500" fill="#B83560" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">AI 有一半把握做成的那类任务</text>
+<text x="254" y="242" text-anchor="end" font-size="10.5" font-weight="700" fill="#B83560" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" style="paint-order:stroke;stroke-width:4px;stroke-linejoin:round" stroke="#ffffff">50% 时间跨度</text>
+<text x="285" y="284" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">横轴：人类专家完成任务的用时（对数刻度）</text>
+<text x="24" y="30" text-anchor="start" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">AI 成功率</text>
+<text x="470" y="70" text-anchor="end" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-style="italic">示意曲线，不是论文数据</text>
+<rect x="540" y="46" width="220" height="92" rx="5" fill="#FCE4EC" stroke="#B83560" stroke-width="1.5"/>
+<text x="650" y="80.822" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">论文报告</text>
+<text x="650" y="95.933" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">当时前沿模型约 50 分钟</text>
+<text x="650" y="110.423" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">2019 年以来约每七个月翻一番</text>
+<rect x="540" y="156" width="220" height="92" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5"/>
+<text x="650" y="190.822" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">拿它量 harness</text>
+<text x="650" y="205.933" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">换了 harness 之后</text>
+<text x="650" y="220.423" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">这个跨度有没有变长</text>
+</svg>

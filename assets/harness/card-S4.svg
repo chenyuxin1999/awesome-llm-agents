@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 136" width="560" height="136" role="img" aria-label="S4 代码即动作结构图" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><rect x="0" y="0" width="560" height="136" fill="#ffffff"/><defs><marker id="ah_card_S4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs>
+<text x="16" y="24" text-anchor="start" font-size="12" font-weight="700" fill="#0E6E7E" font-family="JetBrains Mono, Menlo, Consolas, monospace">S4</text>
+<text x="48" y="24" text-anchor="start" font-size="12.5" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">代码即动作（InterCode）</text>
+<text x="544" y="24" text-anchor="end" font-size="11" font-weight="400" fill="#5A6577" font-family="JetBrains Mono, Menlo, Consolas, monospace">2023</text>
+<rect x="16" y="46" width="158.667" height="44" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5"/>
+<text x="95.3333" y="71.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">模型写一段代码</text>
+<rect x="200.667" y="46" width="158.667" height="44" rx="5" fill="#DDF3E8" stroke="#26805A" stroke-width="1.5"/>
+<text x="280" y="71.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">环境执行</text>
+<path d="M175.667,68 L198.667,68" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_card_S4)"/>
+<rect x="385.333" y="46" width="158.667" height="44" rx="5" fill="#E9EDF3" stroke="#47546A" stroke-width="1.5"/>
+<text x="464.667" y="71.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">输出与报错</text>
+<path d="M360.333,68 L383.333,68" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_card_S4)"/>
+<path d="M464.667,90 L464.667,112 L95.3333,112 L95.3333,92" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_card_S4)"/>
+<text x="280" y="107" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" style="paint-order:stroke;stroke-width:4px;stroke-linejoin:round" stroke="#ffffff">读报错，再改代码</text>
+</svg>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="900" height="480" role="img" aria-label="全章总对照：改的是什么，什么时候、由谁来改" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><rect x="0" y="0" width="900" height="480" fill="#ffffff"/><defs><marker id="ah_fig_overview" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs>
+<text x="515" y="24" text-anchor="middle" font-size="11.5" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">改的是什么 →</text>
+<text x="20" y="34" text-anchor="start" font-size="11.5" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">什么时候、</text>
+<text x="20" y="50" text-anchor="start" font-size="11.5" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">由谁改 ↓</text>
+<rect x="143" y="36" width="144" height="24" rx="5" fill="#F3F5F8" stroke="#D5DBE4" stroke-width="1.5"/>
+<text x="215" y="51.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">提示</text>
+<rect x="293" y="36" width="144" height="24" rx="5" fill="#F3F5F8" stroke="#D5DBE4" stroke-width="1.5"/>
+<text x="365" y="51.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">上下文与记忆</text>
+<rect x="443" y="36" width="144" height="24" rx="5" fill="#F3F5F8" stroke="#D5DBE4" stroke-width="1.5"/>
+<text x="515" y="51.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">部件与工作流</text>
+<rect x="593" y="36" width="144" height="24" rx="5" fill="#F3F5F8" stroke="#D5DBE4" stroke-width="1.5"/>
+<text x="665" y="51.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">harness 代码</text>
+<rect x="743" y="36" width="144" height="24" rx="5" fill="#F3F5F8" stroke="#D5DBE4" stroke-width="1.5"/>
+<text x="815" y="51.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">模型权重</text>
+<rect x="16" y="72" width="116" height="74" rx="5" fill="#E9EDF3" stroke="#47546A" stroke-width="1.5"/>
+<text x="74" y="105.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">人手设计</text>
+<text x="74" y="120.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">部署后不变</text>
+<rect x="143" y="72" width="144" height="74" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="293" y="72" width="144" height="74" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="443" y="72" width="144" height="74" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="593" y="72" width="144" height="74" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="743" y="72" width="144" height="74" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="16" y="154" width="116" height="74" rx="5" fill="#E9EDF3" stroke="#47546A" stroke-width="1.5"/>
+<text x="74" y="187.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">离线搜索</text>
+<text x="74" y="202.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">部署之前</text>
+<rect x="143" y="154" width="144" height="74" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="293" y="154" width="144" height="74" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="443" y="154" width="144" height="74" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="593" y="154" width="144" height="74" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="743" y="154" width="144" height="74" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="16" y="236" width="116" height="74" rx="5" fill="#E9EDF3" stroke="#47546A" stroke-width="1.5"/>
+<text x="74" y="269.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">运行中在线</text>
+<text x="74" y="284.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">部署之后</text>
+<rect x="143" y="236" width="144" height="74" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="293" y="236" width="144" height="74" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="443" y="236" width="144" height="74" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="593" y="236" width="144" height="74" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="743" y="236" width="144" height="74" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="16" y="318" width="116" height="74" rx="5" fill="#E9EDF3" stroke="#47546A" stroke-width="1.5"/>
+<text x="74" y="351.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">训练</text>
+<text x="74" y="366.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">改动进权重</text>
+<rect x="143" y="318" width="144" height="74" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="293" y="318" width="144" height="74" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="443" y="318" width="144" height="74" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="593" y="318" width="144" height="74" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="743" y="318" width="144" height="74" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="147" y="76" width="136" height="66" rx="4" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="215" y="105.5" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">GPT-3 少样本</text>
+<text x="215" y="120.5" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">思维链</text>
+<rect x="297" y="76" width="136" height="66" rx="4" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="365" y="105.5" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">MemGPT</text>
+<text x="365" y="120.5" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Manus 的上下文经验</text>
+<rect x="447" y="76" width="136" height="66" rx="4" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="515" y="98" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">ReAct · 工具调用</text>
+<text x="515" y="113" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">InterCode · Voyager</text>
+<text x="515" y="128" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">三.1 部件研究</text>
+<rect x="597" y="76" width="136" height="66" rx="4" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="665" y="98" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Prime Agent · StateM</text>
+<text x="665" y="113" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">openJiuwen · Raven</text>
+<text x="665" y="128" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">三.2 长程 harness</text>
+<rect x="147" y="158" width="136" height="66" rx="4" fill="#FDE8DD" stroke="#C2501A" stroke-width="1"/>
+<text x="215" y="195" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">DSPy · GEPA</text>
+<rect x="447" y="158" width="136" height="66" rx="4" fill="#FDE8DD" stroke="#C2501A" stroke-width="1"/>
+<text x="515" y="180" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">OpenJarvis（整份规格）</text>
+<text x="515" y="195" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">HarnessCompass</text>
+<text x="515" y="210" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">ModularRSI</text>
+<rect x="597" y="158" width="136" height="66" rx="4" fill="#FDE8DD" stroke="#C2501A" stroke-width="1"/>
+<text x="665" y="180" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">DGM · Meta-Harness</text>
+<text x="665" y="195" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">HarnessBank · RRSI 等</text>
+<text x="665" y="210" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">三.3 · 三.6 安全 harness</text>
+<rect x="297" y="240" width="136" height="66" rx="4" fill="#FDE8DD" stroke="#C2501A" stroke-width="1"/>
+<text x="365" y="269.5" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Living-Harness</text>
+<text x="365" y="284.5" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Recuris</text>
+<rect x="447" y="240" width="136" height="66" rx="4" fill="#FDE8DD" stroke="#C2501A" stroke-width="1"/>
+<text x="515" y="262" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">MemoHarness</text>
+<text x="515" y="277" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Evo-Harness</text>
+<text x="515" y="292" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Harness CL</text>
+<rect x="597" y="240" width="136" height="66" rx="4" fill="#FDE8DD" stroke="#C2501A" stroke-width="1"/>
+<text x="665" y="262" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">TTHE · Harness-R1</text>
+<text x="665" y="277" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">JIT-Agent</text>
+<text x="665" y="292" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Harness Learning</text>
+<rect x="747" y="322" width="136" height="66" rx="4" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1"/>
+<text x="815" y="336.5" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Harness-Zero</text>
+<text x="815" y="351.5" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">EvoHarness-RL</text>
+<text x="815" y="366.5" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Co-Evolving · SafeEvolve</text>
+<text x="815" y="381.5" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Continual Harness 协同</text>
+<rect x="147" y="242" width="136" height="62" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="215" y="262.098" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Continual Harness</text>
+<text x="215" y="276.105" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">提示、子 agent、</text>
+<text x="215" y="289.905" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">技能、记忆一起改</text>
+<rect x="597" y="322" width="136" height="66" rx="5" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="665" y="344.098" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">WHALE · HELIX</text>
+<text x="665" y="358.105" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">harness 与权重</text>
+<text x="665" y="371.905" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">交替或协同演化</text>
+<rect x="16" y="404" width="864" height="46" rx="5" fill="#FCE4EC" stroke="#B83560" stroke-width="1.5"/>
+<text x="448" y="423.136" text-anchor="middle" font-size="11" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">横跨所有格子的评测（三.7）：Rethinking · Automated Discovery · HarnessOpt-Bench · Evo-Bench · HarnessDev · Model or Harness · A²E</text>
+<text x="448" y="437.35" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">衡量尺子来自 METR 的任务时间跨度</text>
+</svg>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 340" width="860" height="340" role="img" aria-label="静态 harness、会学习的 harness 与自我改进：谁在改哪一块" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><rect x="0" y="0" width="860" height="340" fill="#ffffff"/><defs><marker id="ah_fig_who_edits" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs>
+<rect x="20" y="16" width="260" height="312" rx="8" fill="#F3F5F8" stroke="#D5DBE4" stroke-width="1.5"/>
+<text x="150" y="40" text-anchor="middle" font-size="12.5" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">静态 harness</text>
+<rect x="50" y="54" width="200" height="40" rx="5" fill="#E9EDF3" stroke="#47546A" stroke-width="1.5"/>
+<text x="150" y="77.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">人（设计时写好）</text>
+<rect x="70" y="118" width="160" height="30" rx="5" fill="#FFFFFF" stroke="#B86E00" stroke-width="1.5"/>
+<text x="150" y="136.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">提示词</text>
+<rect x="70" y="156" width="160" height="30" rx="5" fill="#FFFFFF" stroke="#B86E00" stroke-width="1.5"/>
+<text x="150" y="174.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">上下文与记忆</text>
+<rect x="70" y="194" width="160" height="30" rx="5" fill="#FFFFFF" stroke="#B86E00" stroke-width="1.5"/>
+<text x="150" y="212.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">工作流与部件</text>
+<rect x="70" y="232" width="160" height="30" rx="5" fill="#FFFFFF" stroke="#B86E00" stroke-width="1.5"/>
+<text x="150" y="250.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">harness 代码</text>
+<path d="M150,94 L150,116" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_who_edits)"/>
+<text x="150" y="316" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">部署后不再改变</text>
+<rect x="300" y="16" width="260" height="312" rx="8" fill="#F3F5F8" stroke="#D5DBE4" stroke-width="1.5"/>
+<text x="430" y="40" text-anchor="middle" font-size="12.5" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">会学习的 harness</text>
+<rect x="330" y="54" width="200" height="40" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5"/>
+<text x="430" y="77.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">优化器（离线搜索或运行中更新）</text>
+<rect x="350" y="118" width="160" height="30" rx="5" fill="#FDE8DD" stroke="#B86E00" stroke-width="1.5"/>
+<text x="430" y="136.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">提示词</text>
+<rect x="350" y="156" width="160" height="30" rx="5" fill="#FDE8DD" stroke="#B86E00" stroke-width="1.5"/>
+<text x="430" y="174.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">上下文与记忆</text>
+<rect x="350" y="194" width="160" height="30" rx="5" fill="#FDE8DD" stroke="#B86E00" stroke-width="1.5"/>
+<text x="430" y="212.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">工作流与部件</text>
+<rect x="350" y="232" width="160" height="30" rx="5" fill="#FDE8DD" stroke="#B86E00" stroke-width="1.5"/>
+<text x="430" y="250.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">harness 代码</text>
+<path d="M430,94 L430,116" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_who_edits)"/>
+<text x="430" y="316" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">DSPy · GEPA · Meta-Harness · Continual Harness</text>
+<rect x="580" y="16" width="260" height="312" rx="8" fill="#F3F5F8" stroke="#D5DBE4" stroke-width="1.5"/>
+<text x="710" y="40" text-anchor="middle" font-size="12.5" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">自我改进</text>
+<rect x="610" y="54" width="200" height="40" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5"/>
+<text x="710" y="77.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">agent 自己</text>
+<rect x="630" y="118" width="160" height="30" rx="5" fill="#FDE8DD" stroke="#B86E00" stroke-width="1.5"/>
+<text x="710" y="136.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">提示词</text>
+<rect x="630" y="156" width="160" height="30" rx="5" fill="#FDE8DD" stroke="#B86E00" stroke-width="1.5"/>
+<text x="710" y="174.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">上下文与记忆</text>
+<rect x="630" y="194" width="160" height="30" rx="5" fill="#FDE8DD" stroke="#B86E00" stroke-width="1.5"/>
+<text x="710" y="212.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">工作流与部件</text>
+<rect x="630" y="232" width="160" height="30" rx="5" fill="#FDE8DD" stroke="#B86E00" stroke-width="1.5"/>
+<text x="710" y="250.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">harness 代码</text>
+<path d="M710,94 L710,116" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_who_edits)"/>
+<text x="710" y="316" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Darwin Gödel Machine 等，见第 03 章</text>
+<rect x="630" y="270" width="160" height="30" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="710" y="288.036" text-anchor="middle" font-size="11" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">提出与筛选改动的机制</text>
+<path d="M790,285 L826,285 L826,74 L812,74" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_who_edits)"/>
+<text x="430" y="290" text-anchor="middle" font-size="10.5" font-weight="500" fill="#C2501A" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">橙红色＝可以被改动的部分</text>
+</svg>

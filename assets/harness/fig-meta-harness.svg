@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 380" width="860" height="380" role="img" aria-label="Meta-Harness 的外循环" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><rect x="0" y="0" width="860" height="380" fill="#ffffff"/><defs><marker id="ah_fig_meta_harness" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs>
+<rect x="20" y="40" width="240" height="230" rx="8" fill="#F4F6F9" stroke="#47546A" stroke-width="1.5"/>
+<text x="36" y="62" text-anchor="start" font-size="12.5" font-weight="700" fill="#47546A" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">文件系统：所有旧候选</text>
+<text x="140" y="190" text-anchor="middle" font-size="14" font-weight="700" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">⋮</text>
+<rect x="36" y="76" width="208" height="38" rx="5" fill="#FFFFFF" stroke="#47546A" stroke-width="1.5"/>
+<text x="140" y="91.136" text-anchor="middle" font-size="11" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">候选 001/</text>
+<text x="140" y="105.35" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">harness.py · 分数 · 执行轨迹</text>
+<rect x="36" y="122" width="208" height="38" rx="5" fill="#FFFFFF" stroke="#47546A" stroke-width="1.5"/>
+<text x="140" y="137.136" text-anchor="middle" font-size="11" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">候选 002/</text>
+<text x="140" y="151.35" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">harness.py · 分数 · 执行轨迹</text>
+<rect x="36" y="214" width="208" height="38" rx="5" fill="#FFFFFF" stroke="#47546A" stroke-width="1.5"/>
+<text x="140" y="229.136" text-anchor="middle" font-size="11" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">候选 0NN/</text>
+<text x="140" y="243.35" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">harness.py · 分数 · 执行轨迹</text>
+<rect x="320" y="50" width="210" height="64" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5"/>
+<text x="425" y="78.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">提议者：编码 agent</text>
+<text x="425" y="93.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">用 grep、cat 按需翻看历史</text>
+<rect x="320" y="160" width="210" height="64" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5"/>
+<text x="425" y="188.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">诊断失败，写出新 harness</text>
+<text x="425" y="203.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">一个单文件 Python 程序</text>
+<rect x="600" y="50" width="230" height="64" rx="5" fill="#FCE4EC" stroke="#B83560" stroke-width="1.5"/>
+<text x="715" y="78.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">接口校验</text>
+<text x="715" y="93.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">不合规的候选直接丢掉</text>
+<rect x="600" y="160" width="230" height="64" rx="5" fill="#FCE4EC" stroke="#B83560" stroke-width="1.5"/>
+<text x="715" y="188.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">在搜索任务上评测</text>
+<text x="715" y="203.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">得到分数和执行轨迹</text>
+<path d="M260,82 L318,82" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_meta_harness)"/>
+<text x="289" y="76" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" style="paint-order:stroke;stroke-width:4px;stroke-linejoin:round" stroke="#ffffff">读</text>
+<path d="M425,114 L425,158" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_meta_harness)"/>
+<path d="M530,192 L560,192 L560,82 L598,82" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_meta_harness)"/>
+<path d="M715,114 L715,158" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_meta_harness)"/>
+<path d="M715,224 L715,300 L140,300 L140,272" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_meta_harness)"/>
+<text x="430" y="294" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" style="paint-order:stroke;stroke-width:4px;stroke-linejoin:round" stroke="#ffffff">代码、推理轨迹、分数存进一个新目录，进入下一轮</text>
+<rect x="240" y="320" width="560" height="44" rx="5" fill="#FFF6F9" stroke="#B83560" stroke-width="1.5" stroke-dasharray="5 3"/>
+<text x="520" y="338.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">搜索结束：只对帕累托前沿上的候选做一次测试集评测</text>
+<text x="520" y="353.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">提议者在搜索中始终看不到测试结果；没有固定的父代选择规则</text>
+</svg>

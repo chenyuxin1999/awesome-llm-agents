@@ -494,5 +494,13 @@
   "status": "fetch_failed",
   "title": "MOSS-Image Technical Report",
   "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名与摘要，来自 2026-10 前沿雷达日报，用于前沿分支"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.06339",
+  "checked_at": "2026-10-24T12:00:00.000001+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Evolution of Video Generative Foundations",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名、作者、日期（2026-04-07）与摘要和正文结构，2026 年综述，用于先读表与第 4 阶段"
  }
 ]

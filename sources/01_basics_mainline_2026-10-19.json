@@ -110,5 +110,13 @@
     "status": "fetch_failed",
     "title": "Executable Code Actions Elicit Better LLM Agents",
     "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.20683",
+    "checked_at": "2026-10-24T11:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "From Question Answering to Task Completion: A Survey on Agent System and Harness Design",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开 arXiv 摘要页与 HTML 正文，核对题名、作者、日期与内容"
   }
 ]

@@ -14,7 +14,7 @@
 
 ## 先读这几篇
 
-这一章的主线借自几篇写得很好的长文。模型科学横跨两个很少互相对话的圈子，一边做训练和缩放，一边做可解释性，很多论文只在自己那一边讲故事。下面几篇文章的作者各自站在一边，却都在认真思考"这些现象背后有没有可检验的规律"，把它们放在一起读，两条线就能接上。建议按顺序读，读完再回来看各分支的新论文。
+这一章的主线借自几篇写得很好的长文。模型科学横跨两个很少互相对话的圈子，一边做训练和缩放，一边做可解释性，很多论文只在自己那一边讲故事。下面几篇文章的作者各自站在一边，却都在认真思考"这些现象背后有没有可检验的规律"，把它们放在一起读，两条线就能接上。建议按顺序读，读完再回来看各分支的新论文。最后两篇来自 2026 年，一篇把回路研究推进到“模型能说出口的那部分表示”，一篇把几年来的 SAE 研究放在一起做批判性的清点。
 
 | 顺序 | 文章 | 为什么读 |
 |---|---|---|
@@ -23,6 +23,8 @@
 | 3 | Jeremy Bernstein，[Modular Manifolds](https://thinkingmachines.ai/blog/modular-manifolds/)（Thinking Machines，2025-09） | 训练动力学这一段的骨架。Bernstein 从一个朴素的要求出发：网络里的权重、激活和梯度都不应该变得太大或太小。激活早就有了各种归一化，Muon 可以看作是对更新做谱归一化，权重本身却很少被约束。他把权重约束在流形上，让学习率直接对应真实的步长，推出了一个把权重限制在 Stiefel 流形上的 manifold Muon，并进一步提出模块化流形，用来在各层之间分配学习率预算。读完会明白，为什么本章反复强调名义学习率和实际更新是两回事。 |
 | 4 | Jack Lindsey 等（Anthropic），[On the Biology of a Large Language Model](https://transformer-circuits.pub/2025/attribution-graphs/biology.html)（2025-03） | 微观那一端走到今天的代表作。作者把研究语言模型比作研究生物：先要有显微镜，特征就是显微镜下的"细胞"，归因图（attribution graph）则用来追踪这些特征怎样一步步相互作用得出答案。他们在 Claude 3.5 Haiku 上做了多步推理、写诗时提前规划、算术、幻觉、拒答、思维链是否忠实等一系列案例。这篇文章同样坦率地报告了边界：归因图大约只在四分之一的提示上能给出令人满意的解释，案例只是存在性证明，还有相当一部分计算落在无法解释的误差节点里。 |
 | 5 | Google DeepMind 机制可解释性团队，[Negative Results for SAEs On Downstream Tasks and Deprioritising SAE Research](https://www.greaterwrong.com/posts/4uXCAJNuPKtKBsi28/)（LessWrong，2025-03） | 一篇难得的负面结果报告。团队拿稀疏自编码器（SAE）去做一件实际任务：检测有害意图，并且要在分布外也成立。结果直接在残差流上训练的稠密线性探针几乎完美，基于 SAE 特征的探针在分布外明显更差，在 SAE 重构上训练的探针也不如原始残差流，说明 SAE 丢掉了任务相关的信息。团队因此决定暂时降低基础 SAE 研究的优先级，并直言整个领域可能在 SAE 上投入过多。适合在读完前几篇的乐观叙事之后用来校准预期。 |
+| 6 | Wes Gurnee、Jack Lindsey 等（Anthropic），[Verbalizable Representations Form a Global Workspace in Language Models](https://transformer-circuits.pub/2026/workspace/)（Transformer Circuits Thread，2026-07） | 这是第四阶段走到 2026 年的一篇代表作，可以接在 Biology 和内省研究后面读。作者借用神经科学里“全局工作空间”的说法，指一个让信息变得可以被报告、被有意调控、被拿来推理并广播给许多过程的共享空间，并为它列出五条可检验的功能性质：能口头报告、能被定向调控、能参与内部推理、能灵活泛化、具有选择性。为了找到这样的表示，他们提出了 Jacobian lens，在大约一千个提示上平均一个激活对输出词元概率的线性化影响，可以看作对 logit lens 的改进，并把它找到的这一小块空间称为 J-space。主要在 Claude Sonnet 4.5 上，他们发现替换 J-space 里的方向会改变模型说出的内容，模型能按指令把一个概念“记在心里”，多跳推理中没说出口的中间结果也落在这里；消融 J-space 之后，解析、续写这类自动化任务大体不受影响，多步推理和一些需要灵活性的任务却明显变差；它主要活跃在中间偏后的一段层里，只占激活方差的一小部分。作者同样把边界写得很清楚：这个透镜并不完美，只能近似、不完整地抓住工作空间，只能识别对应单个词元的概念，模型也没有重现全局工作空间理论描述的完整结构，文章更不讨论这些性质是否意味着主观体验。 |
+| 7 | Salima Lamsiyah、Adelaide Danilov、Oleksandr Marchenko Breneur、Aria Nourbakhsh，[Sparse Autoencoders for Mechanistic Interpretability in NLP: A Critical Survey of Recoverability, Interpretability, and Utility](https://arxiv.org/abs/2610.20139)（arXiv，2026-10） | 读完前面几篇，再用这篇 2026 年 10 月的批判性综述把 SAE 这条线的现状一次看清。作者梳理了 138 项研究，认为不同论文的设计假设、评测目标和实验设置差别太大，结论很难直接比较，于是把 SAE 的成果拆成四个彼此独立的终点：特征能否被恢复、语义上是否可解释、机制上是否忠实、行为上是否有用，并强调在其中一个终点上的证据推不出另一个。恢复这一面，他们指出表示的几何、稀疏容量的分配、训练数据的覆盖和推断方式各自都可能成为瓶颈；忠实这一面，他们提醒特征在分类器或控制器里好用，并不说明原模型真的用它来计算。和简单基线的比较也很说明问题：在一个转向评测里，直接在残差空间里取均值差的方向得分明显高于基于 SAE 特征的同类方法（作者也提醒两者选的层不同，差距不能全部归到 SAE 头上），稠密探针一旦构造得当，SAE 探针的优势也会缩小。最后他们给出一套更严格的评测建议，包括匹配稀疏度和数据、为干预加上对照、和稠密探针及直接方向一起比较，并建议先试探针和直接方向，只有当可复用的细粒度特征词表真正带来好处时才选 SAE。它和第 5 篇 DeepMind 的负面结果正好前后呼应，也是本章三.5、三.6 两个分支最好的地图。 |
 
 如果还想多读一点，Thinking Machines 的 [Defeating Nondeterminism in LLM Inference](https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/)（Horace He 等，2025-09）把"同样的输入为什么得到不同输出"一路追到核函数在批大小变化时会改变归约顺序，开篇第一句就是"可复现性是科学进步的基石"，很适合作为所有模型实验的前置课。Cerebras 的 [The Practitioner's Guide to the Maximal Update Parameterization](https://cerebras.ai/blog/the-practitioners-guide-to-the-maximal-update-parameterization)（2024-09）用一张坐标检查图讲清了标准参数化下超参数为什么会随宽度漂移。中文读者可以读苏剑林在科学空间写的 [Muon优化器赏析](https://kexue.fm/archives/10592)（2024-12），它从"向量和矩阵的地位不对等"这个角度解释 Muon，推导干净。Anthropic 的 [Emergent Introspective Awareness in Large Language Models](https://transformer-circuits.pub/2025/introspection/index.html)（Jack Lindsey，2025-10）则和本章三.7 的内省论文正好对照着读。
 
@@ -52,8 +54,8 @@
 | 第一阶段 | 宏观曲线：规模、数据和计算怎样换成损失 | Kaplan 缩放律、Chinchilla、Chinchilla 复现 | 三.1、三.3 |
 | 第二阶段 | 训练动力学：每一步实际走多远、往哪走 | Adam、AdamW、Shampoo、μP、Muon、Modular Manifolds | 三.2、三.4 |
 | 第三阶段 | 表示：叠加与字典学习 | Transformer Circuits 框架、Toy Models of Superposition、Towards Monosemanticity、Scaling Monosemanticity | 三.5、三.6 |
-| 第四阶段 | 回路与行为：从特征走到推理、内省和知识使用 | On the Biology of a Large Language Model、内省研究 | 三.7、三.8 |
-| 边界 | 测量本身也要经得起检验 | SAE 负面结果、Chinchilla 复现、推理非确定性 | 三.6、第五节 |
+| 第四阶段 | 回路与行为：从特征走到推理、内省和知识使用 | On the Biology of a Large Language Model、内省研究、全局工作空间 | 三.7、三.8 |
+| 边界 | 测量本身也要经得起检验 | SAE 负面结果、SAE 批判性综述、Chinchilla 复现、推理非确定性 | 三.6、第五节 |
 
 ### 起点：望远镜和显微镜
 
@@ -103,11 +105,13 @@ Bernstein 的《Modular Manifolds》把这条线索整理成一个更一般的�
 
 同年 10 月，Jack Lindsey 的 [Emergent Introspective Awareness in Large Language Models](https://transformer-circuits.pub/2025/introspection/index.html) 把显微镜对准了一个更敏感的问题：模型能否觉察到自己内部的状态。研究者往模型的激活里注入与某个概念相关的模式，再看模型的自我报告是否反映了这一注入。表现最好的 Claude Opus 4.1 和 4，在合适的层和注入强度下，大约有 20% 的时候能察觉到被注入的概念。作者反复强调这种能力高度不可靠，失败才是常态，也明确表示不讨论模型是否具有类似人类的自我意识。
 
+到了 2026 年 7 月，Anthropic 的 Wes Gurnee、Jack Lindsey 等人在 [Verbalizable Representations Form a Global Workspace in Language Models](https://transformer-circuits.pub/2026/workspace/) 里把这个问题又往前推了一步。他们用一种叫 Jacobian lens 的工具，在 Claude Sonnet 4.5 里找出一小块“可以被说出口”的表示，称为 J-space，并检验它是否具备全局工作空间的几条功能性质：替换其中的方向会改变模型说出的内容，多跳推理里没写出来的中间结果落在这里，消融它之后自动化的解析和续写大体完好，多步推理却明显受损。作者也说明这个透镜只能近似地抓住工作空间，只认得对应单个词元的概念。从特征到回路，再到“哪些表示能被报告和调用”，显微镜看的对象正在从零件变成功能。
+
 本章三.7 和三.8 的新论文接的就是这一段：内省怎样被拆成可检验的门控与路由，知识存进参数之后为什么还用不出来，以及不写出来的"潜在推理"内部究竟发生了什么。
 
 ### 边界：测量本身也要经得起检验
 
-显微镜越做越精细，有人开始问一个更朴素的问题：这些工具在实际任务上到底有没有用？2025 年 3 月，Google DeepMind 机制可解释性团队发表了一篇罕见的负面结果报告。他们用 SAE 特征训练有害意图检测器，结果在分布外，直接在残差流上训练的线性探针几乎完美，SAE 探针明显更差；即使在对话数据上微调 SAE，也只缩小了一半左右的差距。团队据此暂停了基础 SAE 研究，并认为这个领域可能在 SAE 上投入过多。他们也指出了一个亮点：SAE 特征帮他们发现并清理了数据集里的虚假相关。
+显微镜越做越精细，有人开始问一个更朴素的问题：这些工具在实际任务上到底有没有用？2025 年 3 月，Google DeepMind 机制可解释性团队发表了一篇罕见的负面结果报告。他们用 SAE 特征训练有害意图检测器，结果在分布外，直接在残差流上训练的线性探针几乎完美，SAE 探针明显更差；即使在对话数据上微调 SAE，也只缩小了一半左右的差距。团队据此暂停了基础 SAE 研究，并认为这个领域可能在 SAE 上投入过多。他们也指出了一个亮点：SAE 特征帮他们发现并清理了数据集里的虚假相关。一年半之后，2026 年 10 月的一篇[批判性综述](https://arxiv.org/abs/2610.20139)梳理了 138 项 SAE 研究，给这场争论做了一次清点：作者把特征能否恢复、是否可解释、机制上是否忠实、行为上是否有用分成四个独立的终点，认为文献里的许多分歧来自目标、基线、提示和干预流程的差别，并建议先试探针和直接方向，只有当可复用的细粒度特征词表真正带来好处时才选 SAE。
 
 宏观那一侧也有类似的提醒。前面的 Chinchilla 复现已经说明，拟合细节能改变配比结论。Thinking Machines 的 Horace He 等人则追问了一个更底层的问题：为什么温度设为 0，同样的输入还是会得到不同输出？常见的解释是并行计算加浮点误差，他们发现真正的原因是核函数在批大小变化时会改变归约顺序，而服务器上的批大小取决于同时有多少人在用。他们在 Qwen3-235B 上用温度 0 生成 1000 次，得到 80 种不同的结果；换上批不变的核函数之后，1000 次结果完全一致。对于做模型科学的人，这意味着连"同一个模型的输出"都需要先被定义清楚。
 

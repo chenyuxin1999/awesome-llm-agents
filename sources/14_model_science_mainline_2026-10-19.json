@@ -110,5 +110,21 @@
     "status": "fetch_failed",
     "title": "Scaling Laws for Neural Language Models",
     "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://transformer-circuits.pub/2026/workspace/",
+    "checked_at": "2026-10-24T12:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Verbalizable Representations Form a Global Workspace in Language Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开并核对题名、作者与日期（Wes Gurnee、Jack Lindsey 等，Anthropic，Transformer Circuits Thread，2026-07-06；Jacobian lens 与 J-space）"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.20139",
+    "checked_at": "2026-10-24T12:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Sparse Autoencoders for Mechanistic Interpretability in NLP: A Critical Survey of Recoverability, Interpretability, and Utility",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页与 HTML 全文核对题名、作者与日期（Salima Lamsiyah 等，2026-10-14 提交 v1；138 项研究的 SAE 批判性综述）"
   }
 ]

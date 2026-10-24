@@ -158,5 +158,21 @@
     "status": "fetch_failed",
     "title": "DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",
     "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.08057",
+    "checked_at": "2026-10-24T12:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Towards Efficient Large Language Model Serving: A Survey on System-Aware KV Cache Optimization",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页与 HTML 全文核对题名、作者与日期（Jiantong Jiang 等，2026-07-09 提交 v1；执行与调度、放置与迁移、表示与保留三维分类）"
+  },
+  {
+    "url": "https://arxiv.org/abs/2601.14192",
+    "checked_at": "2026-10-24T12:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Toward Efficient Agents: Memory, Tool learning, and Planning",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页与 alphaXiv 页面核对题名、作者与日期（Xiaofang Yang 等，2026-01-20 提交 v1，2026-07-03 修订 v2；按记忆、工具学习、规划组织的 agent 效率综述）"
   }
 ]

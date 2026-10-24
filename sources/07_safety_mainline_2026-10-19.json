@@ -206,5 +206,21 @@
     "status": "fetch_failed",
     "title": "The Cyber Risk Discourse is Broken",
     "notes": "脚本访问被网络代理拦截；2026-10-19 由项目「Interconnects 半年总结」线程整理，标题取自该线程资料（/mnt/project-files/interconnects/）"
+  },
+  {
+    "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
+    "checked_at": "2026-10-24T11:50:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "International AI Safety Report 2026 (chaired by Yoshua Bengio, 2026-02-03)",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开报告页，核对题名、日期、作者构成、章节结构与关键结论"
+  },
+  {
+    "url": "https://arxiv.org/abs/2608.14590",
+    "checked_at": "2026-10-24T11:50:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Toward Safe LLM Agents: A Survey of Specification, Verification, and Enforcement (Pierre Dantas, Lucas Cordeiro, Ehsan Nowroozi, Norbert Tihanyi, arXiv 2608.14590, v3 2026-10-20)",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开 arXiv 摘要页，核对题名、作者、版本日期与摘要中的数字"
   }
 ]

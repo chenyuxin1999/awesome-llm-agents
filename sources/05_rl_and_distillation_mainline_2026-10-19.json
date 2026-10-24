@@ -166,5 +166,21 @@
     "status": "fetch_failed",
     "title": "What comes next with reinforcement learning (Nathan Lambert, Interconnects, 2025-06-09)",
     "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2604.07941",
+    "checked_at": "2026-10-24T11:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Large Language Model Post-Training: A Unified View of Off-Policy and On-Policy Learning (Shiwan Zhao et al., arXiv 2604.07941, submitted 2026-04-09, v2 2026-04-16)",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开 arXiv 摘要页和 HTML 全文，核对题名、作者、日期与框架内容"
+  },
+  {
+    "url": "https://www.interconnects.ai/p/frontier-post-training-recipe-review",
+    "checked_at": "2026-10-24T11:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Frontier post-training recipe review with Finbarr Timbers (Nathan Lambert, Interconnects, 2026-06-16)",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名、日期与访谈内容"
   }
 ]

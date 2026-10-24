@@ -190,5 +190,13 @@
     "status": "fetch_failed",
     "title": "The Batch issue 370",
     "notes": "脚本访问被网络代理拦截；2026-10-20 由项目「Interconnects 半年总结」线程对照 arXiv 摘要与正文核对"
+  },
+  {
+    "url": "https://arxiv.org/abs/2602.06052",
+    "checked_at": "2026-10-24T11:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "A Survey of Agent Memory in the Second Half: Towards Self-Evolving and Long-Horizon Agents",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开 arXiv 摘要页与 HTML 正文，核对题名、作者、日期与内容"
   }
 ]

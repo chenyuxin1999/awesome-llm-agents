@@ -1,0 +1,202 @@
+[
+ {
+  "url": "https://ai.meta.com/blog/system-cards-a-new-resource-for-understanding-how-ai-systems-work/",
+  "checked_at": "2026-10-19T07:15:15.158422+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "System Cards, a new resource for understanding how AI systems work (Meta AI, 2022-02-23)",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2005.14165",
+  "checked_at": "2026-10-19T07:15:15.158422+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Language Models are Few-Shot Learners",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2303.08774",
+  "checked_at": "2026-10-19T07:15:15.158422+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "GPT-4 Technical Report",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2402.00838",
+  "checked_at": "2026-10-19T07:15:15.158422+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "OLMo: Accelerating the Science of Language Models",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2412.19437",
+  "checked_at": "2026-10-19T07:15:15.158422+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "DeepSeek-V3 Technical Report",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2501.12948",
+  "checked_at": "2026-10-19T07:15:15.158422+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://epoch.ai/data-insights/open-closed-eci-gap",
+  "checked_at": "2026-10-19T07:15:15.158422+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Open models lag state-of-the-art closed models by 4 months (Epoch AI, 2026-05-29)",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://epoch.ai/data-insights/open-weights-vs-closed-weights-models",
+  "checked_at": "2026-10-19T07:15:15.158422+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Open-weight models lag state-of-the-art by around 3 months on average (Epoch AI, 2025-10-30)",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://interconnects.ai/p/open-source-ai-reading-list",
+  "checked_at": "2026-10-19T07:15:15.158422+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Open-Source AI & Open Models Reading List (Nathan Lambert, 2026-09)",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://magazine.sebastianraschka.com/p/state-of-llms-2025",
+  "checked_at": "2026-10-19T07:15:15.158422+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "The State Of LLMs 2025: Progress, Problems, and Predictions (Sebastian Raschka, 2025-12-30)",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://magazine.sebastianraschka.com/p/technical-deepseek",
+  "checked_at": "2026-10-19T07:15:15.158422+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "From DeepSeek V3 to V3.2: Architecture, Sparse Attention, and RL Updates (Sebastian Raschka, 2025-12-03)",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison",
+  "checked_at": "2026-10-19T07:15:15.158422+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "The Big LLM Architecture Comparison (Sebastian Raschka, 2025-07-19, updated 2026-04-02)",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
+  "checked_at": "2026-10-19T07:15:15.158422+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "GLM-5.3: How Chinese labs keep stride with the frontier (Nathan Lambert, 2026-08-14)",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation",
+  "checked_at": "2026-10-19T07:15:15.158422+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Kimi K3: The open-weights escalation (Nathan Lambert, 2026-07-20)",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://www.interconnects.ai/p/open-and-closed-models-are-on-different",
+  "checked_at": "2026-10-19T07:15:15.158422+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Open and closed models are on different exponentials (Nathan Lambert, 2026-06-01)",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://huggingface.co/blog/deepseekv4",
+  "checked_at": "2026-10-20T06:40:00+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "DeepSeek-V4: a million-token context that agents can actually use (Hugging Face, 2026-04-24)",
+  "notes": "脚本访问被网络代理拦截；2026-10-20 经网页阅读服务人工打开并核对题名与正文数字"
+ },
+ {
+  "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
+  "checked_at": "2026-10-20T06:40:00+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "GLM-5.2: Built for Long-Horizon Tasks (Z.ai on Hugging Face, 2026-06-17)",
+  "notes": "脚本访问被网络代理拦截；2026-10-20 经网页阅读服务人工打开并核对题名与正文数字"
+ },
+ {
+  "url": "https://huggingface.co/blog/thinkingmachines-inkling",
+  "checked_at": "2026-10-20T06:40:00+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Welcome Inkling by Thinking Machines (Hugging Face, 2026-07-15)",
+  "notes": "脚本访问被网络代理拦截；2026-10-20 经网页阅读服务人工打开并核对题名与正文数字"
+ },
+ {
+  "url": "https://huggingface.co/blog/muse-glimmer",
+  "checked_at": "2026-10-20T06:40:00+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source! (Hugging Face, 2026-08-10)",
+  "notes": "脚本访问被网络代理拦截；2026-10-20 经网页阅读服务人工打开并核对题名与正文数字"
+ },
+ {
+  "url": "https://huggingface.co/blog/meta-muse-spark-open",
+  "checked_at": "2026-10-20T06:40:00+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta (Hugging Face, 2026-10-15)",
+  "notes": "脚本访问被网络代理拦截；2026-10-20 经网页阅读服务人工打开并核对题名与正文数字"
+ },
+ {
+  "url": "https://huggingface.co/blog/reflection-beam",
+  "checked_at": "2026-10-20T06:40:00+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Welcome Beam: a 501B open model you can own, customize, and scale (Hugging Face, 2026-10-16)",
+  "notes": "脚本访问被网络代理拦截；2026-10-20 经网页阅读服务人工打开并核对题名与正文数字"
+ },
+ {
+  "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+  "checked_at": "2026-10-20T06:40:00+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "State of Open Models: Summer 2026 Observations (Hugging Face, 2026-08-14)",
+  "notes": "脚本访问被网络代理拦截；2026-10-20 经网页阅读服务人工打开并核对题名与正文数字"
+ },
+ {
+  "url": "https://x.com/jietang/status/2089941544581403107",
+  "checked_at": "2026-10-20T08:30:00+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Jie Tang, Thoughts About Scaling Law (X post, 2026-08-19)",
+  "notes": "脚本访问被网络代理拦截；2026-10-20 经 Latent Space AINews 的转载核对出处与日期，正文依据 Yuxin 提供的全文"
+ },
+ {
+  "url": "https://arxiv.org/abs/2001.08361",
+  "checked_at": "2026-10-20T08:30:00+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Scaling Laws for Neural Language Models",
+  "notes": "脚本访问被网络代理拦截；arXiv 经典论文，题名人工核对"
+ },
+ {
+  "url": "https://arxiv.org/abs/2203.15556",
+  "checked_at": "2026-10-20T08:30:00+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Training Compute-Optimal Large Language Models",
+  "notes": "脚本访问被网络代理拦截；arXiv 经典论文，题名人工核对"
+ }
+]

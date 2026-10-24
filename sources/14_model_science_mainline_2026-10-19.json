@@ -1,0 +1,130 @@
+[
+  {
+    "url": "https://www.transformer-circuits.pub/2023/interpretability-dreams/index.html",
+    "checked_at": "2026-10-19T15:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Interpretability Dreams",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://cameronrwolfe.substack.com/p/llm-scaling-laws",
+    "checked_at": "2026-10-19T15:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Scaling Laws for LLMs: From GPT-3 to o3",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://thinkingmachines.ai/blog/modular-manifolds/",
+    "checked_at": "2026-10-19T15:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Modular Manifolds",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://transformer-circuits.pub/2025/attribution-graphs/biology.html",
+    "checked_at": "2026-10-19T15:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "On the Biology of a Large Language Model",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://www.greaterwrong.com/posts/4uXCAJNuPKtKBsi28/",
+    "checked_at": "2026-10-19T15:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Negative Results for SAEs On Downstream Tasks and Deprioritising SAE Research (GDM Mech Interp Team Progress Update #2)",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/",
+    "checked_at": "2026-10-19T15:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Defeating Nondeterminism in LLM Inference",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://cerebras.ai/blog/the-practitioners-guide-to-the-maximal-update-parameterization",
+    "checked_at": "2026-10-19T15:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "The Practitioner's Guide to the Maximal Update Parameterization",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://kexue.fm/archives/10592",
+    "checked_at": "2026-10-19T15:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Muon优化器赏析：向量与矩阵有何本质区别？",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://transformer-circuits.pub/2025/introspection/index.html",
+    "checked_at": "2026-10-19T15:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Emergent Introspective Awareness in Large Language Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://transformer-circuits.pub/2024/scaling-monosemanticity/",
+    "checked_at": "2026-10-19T15:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2203.03466",
+    "checked_at": "2026-10-19T15:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2209.11895",
+    "checked_at": "2026-10-19T15:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "In-context Learning and Induction Heads",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.10102",
+    "checked_at": "2026-10-19T15:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Chinchilla Scaling: A replication attempt",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2001.08361",
+    "checked_at": "2026-10-19T15:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Scaling Laws for Neural Language Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://transformer-circuits.pub/2026/workspace/",
+    "checked_at": "2026-10-24T12:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Verbalizable Representations Form a Global Workspace in Language Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开并核对题名、作者与日期（Wes Gurnee、Jack Lindsey 等，Anthropic，Transformer Circuits Thread，2026-07-06；Jacobian lens 与 J-space）"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.20139",
+    "checked_at": "2026-10-24T12:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Sparse Autoencoders for Mechanistic Interpretability in NLP: A Critical Survey of Recoverability, Interpretability, and Utility",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页与 HTML 全文核对题名、作者与日期（Salima Lamsiyah 等，2026-10-14 提交 v1；138 项研究的 SAE 批判性综述）"
+  }
+]

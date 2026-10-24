@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" role="img" aria-label="边界：权限、评测与日志放在自我修改循环之外" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><rect x="0" y="0" width="800" height="300" fill="#ffffff"/><defs><marker id="ah_fig_outside" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs>
+<rect x="20" y="30" width="470" height="250" rx="12" fill="#FFF8F4" stroke="#C2501A" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="36" y="54" text-anchor="start" font-size="12.5" font-weight="700" fill="#C2501A" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">agent 可以改动的范围</text>
+<rect x="60" y="76" width="170" height="54" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5"/>
+<text x="145" y="98.929" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">提出对 harness 的修改</text>
+<text x="145" y="113.833" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">提示、工具、代码</text>
+<rect x="290" y="76" width="170" height="54" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5"/>
+<text x="375" y="98.929" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">应用修改</text>
+<text x="375" y="113.833" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">得到新版本</text>
+<rect x="290" y="196" width="170" height="54" rx="5" fill="#DDF3E8" stroke="#26805A" stroke-width="1.5"/>
+<text x="375" y="218.929" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">跑任务</text>
+<text x="375" y="233.833" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">在沙盒里执行</text>
+<rect x="60" y="196" width="170" height="54" rx="5" fill="#E9EDF3" stroke="#47546A" stroke-width="1.5"/>
+<text x="145" y="218.929" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">读结果</text>
+<text x="145" y="233.833" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">成败、轨迹、报错</text>
+<path d="M230,103 L288,103" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_outside)"/>
+<path d="M375,130 L375,194" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_outside)"/>
+<path d="M290,223 L232,223" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_outside)"/>
+<path d="M145,196 L145,132" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_outside)"/>
+<text x="520" y="54" text-anchor="start" font-size="12.5" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">放在圈外，agent 改不到</text>
+<rect x="520" y="70" width="260" height="54" rx="5" fill="#FCE4EC" stroke="#B83560" stroke-width="1.5"/>
+<text x="650" y="92.929" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">权限与安全层</text>
+<text x="650" y="107.833" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">能碰哪些文件、调哪些工具</text>
+<rect x="520" y="140" width="260" height="54" rx="5" fill="#FCE4EC" stroke="#B83560" stroke-width="1.5"/>
+<text x="650" y="162.929" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">独立评测与留出测试</text>
+<text x="650" y="177.833" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">打分的人不是被打分的系统</text>
+<rect x="520" y="210" width="260" height="54" rx="5" fill="#E9EDF3" stroke="#47546A" stroke-width="1.5"/>
+<text x="650" y="232.929" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">日志与回滚</text>
+<text x="650" y="247.833" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">每一次修改都能追溯、能撤销</text>
+<path d="M518,97 L462,97" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_outside)"/>
+<text x="490" y="90" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" style="paint-order:stroke;stroke-width:4px;stroke-linejoin:round" stroke="#ffffff">约束</text>
+<path d="M462,223 L518,172" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_outside)"/>
+<text x="500" y="210" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" style="paint-order:stroke;stroke-width:4px;stroke-linejoin:round" stroke="#ffffff">结果交给它</text>
+<path d="M518,240 L462,240" fill="none" stroke="#5A6577" stroke-width="1.4" stroke-dasharray="3 3" marker-end="url(#ah_fig_outside)"/>
+<text x="490" y="256" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">记录</text>
+</svg>

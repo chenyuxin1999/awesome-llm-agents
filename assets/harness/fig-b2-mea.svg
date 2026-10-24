@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 340" width="860" height="340" role="img" aria-label="LongHorizon-Harness 的管理、执行、审计循环" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><rect x="0" y="0" width="860" height="340" fill="#ffffff"/><defs><marker id="ah_fig_b2_mea" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs>
+<rect x="300" y="22" width="260" height="66" rx="5" fill="#E9EDF3" stroke="#47546A" stroke-width="2"/>
+<text x="430" y="51.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">任务状态（放在执行之外）</text>
+<text x="430" y="66.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">已完成什么、还剩什么、哪些事实已核实</text>
+<rect x="30" y="140" width="200" height="66" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5"/>
+<text x="130" y="169.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">管理者</text>
+<text x="130" y="184.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">读状态，决定下一个子任务</text>
+<rect x="330" y="240" width="200" height="66" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5"/>
+<text x="430" y="269.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">执行者</text>
+<text x="430" y="284.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">全新上下文，只做这一个子任务</text>
+<rect x="630" y="240" width="200" height="66" rx="5" fill="#DDF3E8" stroke="#26805A" stroke-width="1.5"/>
+<text x="730" y="269.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">环境</text>
+<text x="730" y="284.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">文件、终端、网页……</text>
+<rect x="630" y="140" width="200" height="66" rx="5" fill="#FCE4EC" stroke="#B83560" stroke-width="1.5"/>
+<text x="730" y="169.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">审计者</text>
+<text x="730" y="184.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">只读，核查环境的真实状态</text>
+<path d="M300,55 L130,55 L130,138" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b2_mea)"/>
+<text x="210" y="49" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" style="paint-order:stroke;stroke-width:4px;stroke-linejoin:round" stroke="#ffffff">读状态</text>
+<path d="M130,206 L130,273 L328,273" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b2_mea)"/>
+<text x="230" y="267" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" style="paint-order:stroke;stroke-width:4px;stroke-linejoin:round" stroke="#ffffff">下一个子任务</text>
+<path d="M530,273 L628,273" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b2_mea)"/>
+<text x="579" y="266" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" style="paint-order:stroke;stroke-width:4px;stroke-linejoin:round" stroke="#ffffff">动手</text>
+<path d="M730,206 L730,238" fill="none" stroke="#5A6577" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#ah_fig_b2_mea)"/>
+<text x="778" y="226" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" style="paint-order:stroke;stroke-width:4px;stroke-linejoin:round" stroke="#ffffff">只读检查</text>
+<path d="M730,140 L730,55 L562,55" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b2_mea)"/>
+<text x="650" y="49" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" style="paint-order:stroke;stroke-width:4px;stroke-linejoin:round" stroke="#ffffff">只写入核实过的事实</text>
+<text x="430" y="330" text-anchor="middle" font-size="10.5" font-weight="500" fill="#C2501A" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">执行者自己说的“做完了”不直接写进任务状态</text>
+</svg>

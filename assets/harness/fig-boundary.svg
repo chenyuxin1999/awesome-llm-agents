@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 370" width="880" height="370" role="img" aria-label="2026 年的两个成型系统：harness 的边界划在哪里" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><rect x="0" y="0" width="880" height="370" fill="#ffffff"/><defs><marker id="ah_fig_boundary" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs>
+<rect x="16" y="16" width="416" height="340" rx="8" fill="#F3F5F8" stroke="#D5DBE4" stroke-width="1.5"/>
+<text x="32" y="40" text-anchor="start" font-size="12.5" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Prime Agent：执行归 harness，策略归模型</text>
+<rect x="124" y="56" width="200" height="44" rx="5" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.5"/>
+<text x="224" y="74.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">模型</text>
+<text x="224" y="89.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">负责构造策略</text>
+<rect x="36" y="124" width="376" height="46" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5"/>
+<text x="224" y="143.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">harness 标准化的部分</text>
+<text x="224" y="158.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">执行 · 恢复 · 验证 · 资源核算</text>
+<path d="M224,100 L224,122" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_boundary)" marker-start="url(#ah_fig_boundary)"/>
+<rect x="36" y="194" width="182" height="58" rx="5" fill="#DDF3E8" stroke="#26805A" stroke-width="1.5"/>
+<text x="127" y="218.929" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">常驻 IPython 解释器</text>
+<text x="127" y="233.833" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">沿用 RLM，用程序处理上下文</text>
+<rect x="230" y="194" width="182" height="58" rx="5" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.5"/>
+<text x="321" y="218.929" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">递归子 agent</text>
+<text x="321" y="233.833" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">彼此直接发消息</text>
+<rect x="36" y="266" width="182" height="74" rx="5" fill="#E9EDF3" stroke="#47546A" stroke-width="1.5"/>
+<text x="127" y="291.684" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Continual Harness</text>
+<text x="127" y="306.588" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">跨运行保存历史、记忆、</text>
+<text x="127" y="321.078" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">技能、提示、子 agent 规格</text>
+<rect x="230" y="266" width="182" height="74" rx="5" fill="#E9EDF3" stroke="#47546A" stroke-width="1.5"/>
+<text x="321" y="291.684" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Agents View</text>
+<text x="321" y="306.588" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">人查看、管理</text>
+<text x="321" y="321.078" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">后台常驻的会话</text>
+<rect x="448" y="16" width="416" height="340" rx="8" fill="#F3F5F8" stroke="#D5DBE4" stroke-width="1.5"/>
+<text x="464" y="40" text-anchor="start" font-size="12.5" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">OpenJarvis：整套系统写成可搜索的规格</text>
+<rect x="464" y="56" width="384" height="86" rx="6" fill="#FFF7EA" stroke="#B86E00" stroke-width="1.5"/>
+<text x="476" y="76" text-anchor="start" font-size="11.5" font-weight="700" fill="#B86E00" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">类型化规格：五个可以单独编辑的原语</text>
+<rect x="476" y="100" width="39" height="24" rx="12" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="495.5" y="116.14" text-anchor="middle" font-size="11.5" font-weight="500" fill="#B86E00" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">智能</text>
+<rect x="523" y="100" width="39" height="24" rx="12" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="542.5" y="116.14" text-anchor="middle" font-size="11.5" font-weight="500" fill="#B86E00" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">引擎</text>
+<rect x="570" y="100" width="48.2" height="24" rx="12" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="594.1" y="116.14" text-anchor="middle" font-size="11.5" font-weight="500" fill="#B86E00" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">agent</text>
+<rect x="626.2" y="100" width="73.5" height="24" rx="12" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="662.95" y="116.14" text-anchor="middle" font-size="11.5" font-weight="500" fill="#B86E00" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">工具与记忆</text>
+<rect x="707.7" y="100" width="39" height="24" rx="12" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="727.2" y="116.14" text-anchor="middle" font-size="11.5" font-weight="500" fill="#B86E00" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">学习</text>
+<rect x="464" y="170" width="180" height="58" rx="5" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.5"/>
+<text x="554" y="194.929" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">云端前沿模型</text>
+<text x="554" y="209.833" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">搜索时提出修改</text>
+<rect x="668" y="170" width="180" height="58" rx="5" fill="#FCE4EC" stroke="#B83560" stroke-width="1.5"/>
+<text x="758" y="194.929" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">接受规则</text>
+<text x="758" y="209.833" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">只留下不降低性能的修改</text>
+<path d="M644,199 L666,199" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_boundary)"/>
+<path d="M758,170 L758,144" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_boundary)"/>
+<text x="790" y="160" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" style="paint-order:stroke;stroke-width:4px;stroke-linejoin:round" stroke="#ffffff">写回规格</text>
+<rect x="464" y="256" width="384" height="58" rx="5" fill="#DDF3E8" stroke="#26805A" stroke-width="1.5"/>
+<text x="656" y="280.929" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">最终规格完全在本地运行</text>
+<text x="656" y="295.833" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">8 个基准中 4 个追平或超过云端；边际 API 成本约降到 1/800</text>
+<path d="M656,142 L656,150 L554,150 L554,168" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_boundary)"/>
+<text x="656" y="340" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">harness 为模型量身定做：换了模型，就要重新搜</text>
+<path d="M554,228 L554,254" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_boundary)"/>
+</svg>

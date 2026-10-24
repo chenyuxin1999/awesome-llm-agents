@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 136" width="560" height="136" role="img" aria-label="L5 运行中在线改结构图" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><rect x="0" y="0" width="560" height="136" fill="#ffffff"/><defs><marker id="ah_card_L5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs>
+<text x="16" y="24" text-anchor="start" font-size="12" font-weight="700" fill="#0E6E7E" font-family="JetBrains Mono, Menlo, Consolas, monospace">L5</text>
+<text x="48" y="24" text-anchor="start" font-size="12.5" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">运行中在线改（Continual Harness）</text>
+<text x="544" y="24" text-anchor="end" font-size="11" font-weight="400" fill="#5A6577" font-family="JetBrains Mono, Menlo, Consolas, monospace">2026</text>
+<rect x="16" y="46" width="150" height="50" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5"/>
+<text x="91" y="67.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">在环境里行动</text>
+<text x="91" y="81.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">不重置环境</text>
+<rect x="206" y="46" width="200" height="50" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5"/>
+<text x="306" y="67.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">改自己的 harness</text>
+<text x="306" y="81.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">提示、子 agent、技能、记忆</text>
+<path d="M166,64 L204,64" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_card_L5)"/>
+<path d="M204,82 L168,82" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_card_L5)"/>
+<rect x="426" y="46" width="118" height="50" rx="5" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.5"/>
+<text x="485" y="67.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">协同学习</text>
+<text x="485" y="81.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">更新开源模型</text>
+<path d="M406,71 L424,71" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_card_L5)"/>
+<text x="280" y="120" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">前沿教师模型重标轨迹，用来在线更新开源 agent 的权重</text>
+</svg>

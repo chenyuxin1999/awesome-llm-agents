@@ -86,5 +86,21 @@
     "status": "fetch_failed",
     "title": "RE-Bench: Evaluating frontier AI R&D capabilities of language model agents against human experts",
     "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://link.springer.com/article/10.1007/s10462-026-11571-0",
+    "checked_at": "2026-10-24T11:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "From benchmarks to deployment: a comprehensive review of agentic AI evaluation (Tanzila Kehkashan et al., Artificial Intelligence Review, published 2026-04-24)",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开期刊页，核对题名、作者、日期与摘要中的统计"
+  },
+  {
+    "url": "https://arxiv.org/abs/2608.06663",
+    "checked_at": "2026-10-24T11:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "The Horizon Gap: Planning, Memory, Execution, Training, and Evaluation for Long-Horizon LLM Agents (Mingguang Chen, Licheng Wang, Bo Qu, arXiv 2608.06663, 2026-08-07)",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开 arXiv 与 alphaXiv 摘要页，核对题名、作者、日期与摘要内容"
   }
 ]

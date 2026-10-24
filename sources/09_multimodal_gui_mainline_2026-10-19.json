@@ -582,5 +582,21 @@
     "status": "fetch_failed",
     "title": "OCG: Optical Character Grounded Visual Reasoning with Flow Matching",
     "notes": "本地语料条目（alphaXiv 页面）；2026-10-24 核对本地摘要与题名"
+  },
+  {
+    "url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
+    "checked_at": "2026-10-24T12:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开并核对题名、作者与日期（NVIDIA，Hugging Face 博客，2026-04-28；编码器加两层 MLP 投影器、原生长宽比动态分辨率、Conv3D tubelet 与 EVS、合成文档问答约 1140 万条）"
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.26196",
+    "checked_at": "2026-10-24T12:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "From Structure to Synergy: A Survey of Vision-Language Perception Paradigm Evolution in Multimodal Large Language Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页与 HTML 全文核对题名、作者与日期（Haoxiang Sun 等，2026-06-24 提交 v1；五阶段感知范式分类综述）"
   }
 ]

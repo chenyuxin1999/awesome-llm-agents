@@ -334,5 +334,21 @@
   "status": "fetch_failed",
   "title": "Introducing OSWorld-Verified (XLANG Lab, 2025-07-28)",
   "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.20379",
+  "checked_at": "2026-10-24T12:00:00.000001+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名、作者、日期（v1 页眉 2026-06-28）与摘要和正文结构，2026 年综述，用于先读表与“两个出口”一段"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.30108",
+  "checked_at": "2026-10-24T12:00:00.000002+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名、作者、日期（2026-10-21）与摘要，2026 年综述，用于先读表与“两个出口”一段"
  }
 ]

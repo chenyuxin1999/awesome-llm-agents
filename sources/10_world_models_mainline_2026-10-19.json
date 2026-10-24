@@ -1,0 +1,218 @@
+[
+  {
+    "url": "https://chefrobotics.ai/post/world-models-and-world-action-models-an-accessible-and-comprehensive-survey",
+    "checked_at": "2026-10-19T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "World Models and World-Action Models: An Accessible and Comprehensive Survey",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://worldmodels.github.io/",
+    "checked_at": "2026-10-19T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "World Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://www.research.google/blog/introducing-dreamer-scalable-reinforcement-learning-using-world-models/",
+    "checked_at": "2026-10-19T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Introducing Dreamer: Scalable Reinforcement Learning Using World Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/",
+    "checked_at": "2026-10-19T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Genie 3: A new frontier for world models",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/",
+    "checked_at": "2026-10-19T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Introducing the V-JEPA 2 world model and new benchmarks for physical reasoning",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://openai.com/index/video-generation-models-as-world-simulators/",
+    "checked_at": "2026-10-19T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Video generation models as world simulators",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://www.eventual.ai/blog/vlas-are-dead-long-live-world-action-models",
+    "checked_at": "2026-10-19T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "VLAs are dead, long live World Action Models - a summary of Jim Fan's Robotics End Game talk",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://danijar.com/project/dreamerv3/",
+    "checked_at": "2026-10-19T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Mastering Diverse Control Tasks through World Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://openreview.net/forum?id=BZ5a1r-kVsf",
+    "checked_at": "2026-10-19T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "A Path Towards Autonomous Machine Intelligence",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2510.20668",
+    "checked_at": "2026-10-19T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "From Masks to Worlds: A Hitchhiker's Guide to World Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.00836",
+    "checked_at": "2026-10-19T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "From World Models to World Action Models: A Concise Tutorial for Robotics",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2010.02193",
+    "checked_at": "2026-10-19T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Mastering Atari with Discrete World Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2501.03575",
+    "checked_at": "2026-10-19T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Cosmos World Foundation Model Platform for Physical AI",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2506.09985",
+    "checked_at": "2026-10-19T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.14992",
+    "checked_at": "2026-10-24T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "verified_title_and_abstract",
+    "title": "Reasoning with Language Model is Planning with World Model",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开，核对题名与摘要；RAP：语言模型同时充当世界模型与推理 agent，用蒙特卡洛树搜索规划；文本岔路起点"
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.06485",
+    "checked_at": "2026-10-24T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "verified_title_and_abstract",
+    "title": "Can Language Models Serve as Text-Based World Simulators?",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开，核对题名与摘要；ByteSized32-State-Prediction 基准，结论为 GPT-4 尚不是可靠的文本世界模拟器"
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.13232",
+    "checked_at": "2026-10-24T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "verified_title_and_abstract",
+    "title": "Web Agents with World Models: Learning and Leveraging Environment Dynamics in Web Navigation",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开，核对题名与摘要；WMA：转移导向的观察抽象，用世界模型帮助网页 agent 选动作"
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.06559",
+    "checked_at": "2026-10-24T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "verified_title_and_abstract",
+    "title": "Is Your LLM Secretly a World Model of the Internet? Model-Based Planning for Web Agents",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开，核对题名与摘要；WebDreamer 与 Dreamer-7B；一步想象最好，更长视野因幻想动作而变差"
+  },
+  {
+    "url": "https://arxiv.org/abs/2510.08558",
+    "checked_at": "2026-10-24T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "verified_title_and_abstract",
+    "title": "Agent Learning via Early Experience",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开，核对题名与摘要；Meta 与俄亥俄州立大学；隐式世界建模与自我反思，引言引用 Silver 与 Sutton 的经验时代；数字为作者自报"
+  },
+  {
+    "url": "https://arxiv.org/abs/2511.03773",
+    "checked_at": "2026-10-24T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "verified_title_and_abstract",
+    "title": "Scaling Agent Learning via Experience Synthesis",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开，核对题名与摘要；DreamGym：推理式经验模型合成状态转移与反馈，用于在线强化学习；数字为作者自报"
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.09032",
+    "checked_at": "2026-10-24T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "verified_title_and_abstract",
+    "title": "Bridging the Agent-World Gap: Text World Models for LLM-based Agents",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开，核对题名与摘要；2026-06 文本世界模型综述，先读表第 6 行与三.9 使用"
+  },
+  {
+    "url": "https://arxiv.org/abs/2512.18832",
+    "checked_at": "2026-10-24T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "verified_title_and_abstract",
+    "title": "From Word to World: Can Large Language Models be Implicit Text-based World Models?",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开，核对题名与摘要；五个文字环境上的下一状态预测评测，题名经 PDF 首页核对"
+  },
+  {
+    "url": "https://arxiv.org/abs/2510.11892",
+    "checked_at": "2026-10-24T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "verified_title_and_abstract",
+    "title": "R-WoM: Retrieval-augmented World Model For Computer-use Agents",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开，核对题名与摘要；检索教程支撑语言模型模拟；ICLR 2026"
+  },
+  {
+    "url": "https://arxiv.org/abs/2602.14721",
+    "checked_at": "2026-10-24T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "verified_title_and_abstract",
+    "title": "WebWorld: A Large-Scale World Model for Web Agent Training",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开，核对题名与摘要；百万级开放网页交互训练的网页模拟器；数字为作者自报"
+  },
+  {
+    "url": "https://arxiv.org/abs/2602.10090",
+    "checked_at": "2026-10-24T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "verified_title_and_abstract",
+    "title": "Agent World Model: Infinity Synthetic Environments for Agentic Reinforcement Learning",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开，核对题名与摘要；代码驱动、数据库后端的合成工具环境，作为语言模型模拟的对照"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.11942",
+    "checked_at": "2026-10-24T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "verified_title_and_abstract",
+    "title": "Right Screen, Wrong Transition: World Models as Verifiers for GUI Agents",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开，核对题名与摘要；LGWM：表示空间预测下一屏，用于 GUI 转移验证；经 alphaXiv 摘要页核对"
+  },
+  {
+    "url": "https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf",
+    "checked_at": "2026-10-24T12:00:00+08:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "title_verified",
+    "title": "Welcome to the Era of Experience",
+    "notes": "2026-10-24 经网页阅读服务人工打开，核对题名、作者 David Silver 与 Richard S. Sutton 及世界模型相关段落；文本岔路主线引用"
+  }
+]

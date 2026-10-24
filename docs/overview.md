@@ -46,7 +46,7 @@ ReAct 把“想下一步”和“执行下一步”串起来；Toolformer 探索
 
 一个模型可能同时承担计划、执行和审查；也可以把工作分给多个角色。但拆分会增加沟通、状态同步和整合成本。AutoGen 是理解对话式多智能体组织的一手入口；不能仅凭角色数量推断效果更好。[AutoGen](https://arxiv.org/abs/2308.08155)
 
-行动空间也从文本 API 扩展到屏幕和物理世界。此时，看懂图片、点击正确位置、控制机器人动作、预测环境变化是不同问题。[GUI](../chapters/09_multimodal_gui.md)、[世界模型](../chapters/10_world_models.md)、[具身智能](../chapters/11_embodied.md)分别讨论这些问题；[多模态生成](../chapters/16_generation.md)则研究内容合成及其作为工具或环境组件的作用。
+行动空间也从文本 API 扩展到屏幕和物理世界。此时，看懂图片、点击正确位置、控制机器人动作、预测环境变化是不同问题。[多模态理解](../chapters/09_multimodal_gui.md)、[多模态 agent](../chapters/19_multimodal_agent.md)、[世界模型](../chapters/10_world_models.md)、[具身智能](../chapters/11_embodied.md)分别讨论这些问题；[多模态生成](../chapters/16_generation.md)则研究内容合成及其作为工具或环境组件的作用。
 
 ## 5. 怎样理解 2026-10-08 这一版中的“当前状态”
 

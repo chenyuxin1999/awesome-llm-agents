@@ -6,7 +6,7 @@ Agent 记忆、经验存储、上下文管理；KV cache 工程优先效率。
 
 [阅读专题导读](../chapters/02_memory.md)
 
-本方向收录 **147 条记录**。相关方向用于交叉检索，不重复计入各类数量。
+本方向收录 **145 条记录**。相关方向用于交叉检索，不重复计入各类数量。
 
 | ID | 文献 | 相关方向 |
 | --- | --- | --- |
@@ -41,7 +41,6 @@ Agent 记忆、经验存储、上下文管理；KV cache 工程优先效率。
 | 2607.11487 | [LightMem-Ego: Your AI Memory for Everyday Life](https://www.alphaxiv.org/abs/2607.11487) | — |
 | 2607.23809 | [ACM: Agentic Context Management for Long Horizon Tasks](https://www.alphaxiv.org/abs/2607.23809) | — |
 | 2607.26497 | [BM25 Wins at Scale: A Scaling Study of Retrieval-Augmented Generation Paradigms](https://www.alphaxiv.org/abs/2607.26497) | — |
-| 2608.03979 | [Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent](https://www.alphaxiv.org/abs/2608.03979) | — |
 | 2607.18213 | [SWE-Pruner Pro: The Coder LLM Already Knows What to Prune](https://www.alphaxiv.org/abs/2607.18213) | — |
 | 2609.07557 | [Heat Kernel Textures: the Geodesic Gaussians That Do Not Splat](https://www.alphaxiv.org/abs/2609.07557) | — |
 | 2609.31093 | [Block Sparse Attention with Log-Linear Complexity](https://www.alphaxiv.org/abs/2609.31093) | — |
@@ -132,7 +131,6 @@ Agent 记忆、经验存储、上下文管理；KV cache 工程优先效率。
 | 2608.07051 | [YOLO-PEFT: Parameter-Efficient Fine-Tuning on YOLO Family](https://www.alphaxiv.org/abs/2608.07051) | — |
 | 2608.13200 | [GEM: A Generative Embedding Model Bridging Reasoning and Retrieval](https://www.alphaxiv.org/abs/2608.13200) | — |
 | 2608.13606 | [MobileMem: Learning from a Year of Mobile Experiences](https://www.alphaxiv.org/abs/2608.13606) | — |
-| 2608.25559 | [AdaVDR: Adaptive Tool Use and Reflection for Video Deep Research](https://www.alphaxiv.org/abs/2608.25559) | — |
 | 2609.14016 | [TF-IDF and BM25 Are Exact KL Divergences](https://www.alphaxiv.org/abs/2609.14016) | — |
 | 2607.14051 | [Hindcast: Replaying Prediction Markets to Evaluate LLM Forecasters](https://www.alphaxiv.org/abs/2607.14051) | — |
 | 2607.28109 | [Beyond Rephrasing: Book-Level Organization Improves Synthetic Textbook Data for Mid-Training](https://www.alphaxiv.org/abs/2607.28109) | — |

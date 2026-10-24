@@ -166,5 +166,333 @@
   "status": "fetch_failed",
   "title": "Generative Modeling by Estimating Gradients of the Data Distribution (Yang Song blog)",
   "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://lilianweng.github.io/posts/2017-08-20-gan/",
+  "checked_at": "2026-10-24T11:00:00.000000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "From GAN to WGAN",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名与作者、日期，用作本章主线博客"
+ },
+ {
+  "url": "https://mlg.eng.cam.ac.uk/blog/2024/01/20/flow-matching.html",
+  "checked_at": "2026-10-24T11:00:00.001000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "An introduction to Flow Matching",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名与作者、日期，用作本章主线博客"
+ },
+ {
+  "url": "https://www.salesforce.com/blog/blip3/",
+  "checked_at": "2026-10-24T11:00:00.002000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Introducing BLIP3-o: A Family of Fully Open Unified Multimodal Models",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名与作者、日期，用作本章主线博客"
+ },
+ {
+  "url": "https://sesame.com/research",
+  "checked_at": "2026-10-24T11:00:00.003000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Crossing the uncanny valley of conversational voice",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名与作者、日期，用作本章主线博客"
+ },
+ {
+  "url": "https://sander.ai/2024/09/02/spectral-autoregression.html",
+  "checked_at": "2026-10-24T11:00:00.004000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Diffusion is spectral autoregression",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名与作者、日期，用作本章主线博客"
+ },
+ {
+  "url": "https://sander.ai/2020/03/24/audio-generation.html",
+  "checked_at": "2026-10-24T11:00:00.005000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Generating music in the waveform domain",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名与作者、日期，用作本章主线博客"
+ },
+ {
+  "url": "https://huggingface.co/blog/flux-3",
+  "checked_at": "2026-10-24T11:00:00.006000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Welcome FLUX.3 Image Klein in Diffusers: The latest open image generation model from Black Forest Labs",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名与作者、日期，用作本章主线博客"
+ },
+ {
+  "url": "https://arxiv.org/abs/1812.04948",
+  "checked_at": "2026-10-24T11:00:00.007000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "A Style-Based Generator Architecture for Generative Adversarial Networks",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名，作为发展主线中的经典工作"
+ },
+ {
+  "url": "https://arxiv.org/abs/1701.07875",
+  "checked_at": "2026-10-24T11:00:00.008000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Wasserstein GAN",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名，作为发展主线中的经典工作"
+ },
+ {
+  "url": "https://arxiv.org/abs/2105.05233",
+  "checked_at": "2026-10-24T11:00:00.009000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Diffusion Models Beat GANs on Image Synthesis",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名，作为发展主线中的经典工作"
+ },
+ {
+  "url": "https://arxiv.org/abs/2102.12092",
+  "checked_at": "2026-10-24T11:00:00.010000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Zero-Shot Text-to-Image Generation",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名，作为发展主线中的经典工作"
+ },
+ {
+  "url": "https://arxiv.org/abs/2202.04200",
+  "checked_at": "2026-10-24T11:00:00.011000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "MaskGIT: Masked Generative Image Transformer",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名，作为发展主线中的经典工作"
+ },
+ {
+  "url": "https://arxiv.org/abs/2404.02905",
+  "checked_at": "2026-10-24T11:00:00.012000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名，作为发展主线中的经典工作"
+ },
+ {
+  "url": "https://arxiv.org/abs/2209.03003",
+  "checked_at": "2026-10-24T11:00:00.013000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名，作为发展主线中的经典工作"
+ },
+ {
+  "url": "https://arxiv.org/abs/2403.03206",
+  "checked_at": "2026-10-24T11:00:00.014000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Scaling Rectified Flow Transformers for High-Resolution Image Synthesis",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名，作为发展主线中的经典工作"
+ },
+ {
+  "url": "https://arxiv.org/abs/2412.03603",
+  "checked_at": "2026-10-24T11:00:00.015000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "HunyuanVideo: A Systematic Framework For Large Video Generative Models",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名，作为发展主线中的经典工作"
+ },
+ {
+  "url": "https://arxiv.org/abs/2503.20314",
+  "checked_at": "2026-10-24T11:00:00.016000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Wan: Open and Advanced Large-Scale Video Generative Models",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名，作为发展主线中的经典工作"
+ },
+ {
+  "url": "https://arxiv.org/abs/2503.20215",
+  "checked_at": "2026-10-24T11:00:00.017000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Qwen2.5-Omni Technical Report",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名，作为发展主线中的经典工作"
+ },
+ {
+  "url": "https://arxiv.org/abs/2410.00037",
+  "checked_at": "2026-10-24T11:00:00.018000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Moshi: a speech-text foundation model for real-time dialogue",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名，作为发展主线中的经典工作"
+ },
+ {
+  "url": "https://arxiv.org/abs/2409.18869",
+  "checked_at": "2026-10-24T11:00:00.019000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Emu3: Next-Token Prediction is All You Need",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名，作为发展主线中的经典工作"
+ },
+ {
+  "url": "https://arxiv.org/abs/2408.11039",
+  "checked_at": "2026-10-24T11:00:00.020000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Transfusion: Predict the Next Token and Diffuse Images with One Multi-Modal Model",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名，作为发展主线中的经典工作"
+ },
+ {
+  "url": "https://arxiv.org/abs/2410.13848",
+  "checked_at": "2026-10-24T11:00:00.021000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Janus: Decoupling Visual Encoding for Unified Multimodal Understanding and Generation",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名，作为发展主线中的经典工作"
+ },
+ {
+  "url": "https://arxiv.org/abs/2504.06256",
+  "checked_at": "2026-10-24T11:00:00.022000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Transfer between Modalities with MetaQueries",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名，作为发展主线中的经典工作"
+ },
+ {
+  "url": "https://arxiv.org/abs/2505.09568",
+  "checked_at": "2026-10-24T11:00:00.023000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "BLIP3-o: A Family of Fully Open Unified Multimodal Models-Architecture, Training and Dataset",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名，作为发展主线中的经典工作"
+ },
+ {
+  "url": "https://arxiv.org/abs/2505.14683",
+  "checked_at": "2026-10-24T11:00:00.024000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Emerging Properties in Unified Multimodal Pretraining",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名，作为发展主线中的经典工作"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.20533",
+  "checked_at": "2026-10-24T11:00:00.025000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Generative Representation Learning for Scalable Latent Tokenization",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名与摘要，来自 2026-10 前沿雷达日报，用于前沿分支"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.15515",
+  "checked_at": "2026-10-24T11:00:00.026000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Semantically Steerable Image Tokenization",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名与摘要，来自 2026-10 前沿雷达日报，用于前沿分支"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.23653",
+  "checked_at": "2026-10-24T11:00:00.027000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "A Language-Informed Loss for Visual Generation",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名与摘要，来自 2026-10 前沿雷达日报，用于前沿分支"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.21459",
+  "checked_at": "2026-10-24T11:00:00.028000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Can Visual Generation Expand What Unified Multimodal Models Know?",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名与摘要，来自 2026-10 前沿雷达日报，用于前沿分支"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.23987",
+  "checked_at": "2026-10-24T11:00:00.029000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "What Generation Knows: Unlocking Fine-Grained Understanding in Unified Multimodal Models",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名与摘要，来自 2026-10 前沿雷达日报，用于前沿分支"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.26863",
+  "checked_at": "2026-10-24T11:00:00.030000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Text-to-Image Generative Modeling Without Language Pretraining",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名与摘要，来自 2026-10 前沿雷达日报，用于前沿分支"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.30926",
+  "checked_at": "2026-10-24T11:00:00.031000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名与摘要，来自 2026-10 前沿雷达日报，用于前沿分支"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.20331",
+  "checked_at": "2026-10-24T11:00:00.032000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Are We Overthinking One-Step Generation?",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名与摘要，来自 2026-10 前沿雷达日报，用于前沿分支"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.28630",
+  "checked_at": "2026-10-24T11:00:00.033000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "SolarRenderer: Few-Step Generative Reference Rendering",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名与摘要，来自 2026-10 前沿雷达日报，用于前沿分支"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.12572",
+  "checked_at": "2026-10-24T11:00:00.034000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "DiffusionART: Efficient, Stable and Scalable Reinforcement of Diffusion Models",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名与摘要，来自 2026-10 前沿雷达日报，用于前沿分支"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.29989",
+  "checked_at": "2026-10-24T11:00:00.035000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名与摘要，来自 2026-10 前沿雷达日报，用于前沿分支"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.28402",
+  "checked_at": "2026-10-24T11:00:00.036000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "StreamEval: Evaluating Interactive Streaming Video Generation Models",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名与摘要，来自 2026-10 前沿雷达日报，用于前沿分支"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.31668",
+  "checked_at": "2026-10-24T11:00:00.037000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名与摘要，来自 2026-10 前沿雷达日报，用于前沿分支"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.26233",
+  "checked_at": "2026-10-24T11:00:00.038000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Heartbeat Thinking: Speculative Reasoning and Tool Execution While Listening in Realtime Voice Agents",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名与摘要，来自 2026-10 前沿雷达日报，用于前沿分支"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.25404",
+  "checked_at": "2026-10-24T11:00:00.039000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "MT Forcing: Towards Stable and Consistent Multi-Turn Image Editing with Autoregressive Diffusion",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名与摘要，来自 2026-10 前沿雷达日报，用于前沿分支"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.23374",
+  "checked_at": "2026-10-24T11:00:00.040000+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "MOSS-Image Technical Report",
+  "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开并核对题名与摘要，来自 2026-10 前沿雷达日报，用于前沿分支"
  }
 ]

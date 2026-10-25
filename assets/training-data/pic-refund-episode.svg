@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 520" width="880" height="520" role="img" aria-label="一次退款练习里的任务、环境、轨迹和验证器" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><defs><marker id="ah-picrefundepisode" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs><rect x="0" y="0" width="880" height="520" fill="#ffffff"/><text x="20.0" y="26.0" font-size="13" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">示意：一道退款题从头到尾留下了什么（订单号、金额和接口名都是为说明编的）</text>
+<rect x="24.0" y="44.0" width="836.0" height="40.0" rx="6" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1.4"/>
+<text x="36.0" y="69.0" font-size="12.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">任务：给订单 1024 办理退款，金额不得超过实付；超过 30 天的订单要拒绝并转主管。</text>
+<text x="24.0" y="112.0" font-size="12.5" fill="#0E6E7E" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">环境：重置后的后台（开始时）</text>
+<text x="24.0" y="134.0" font-size="11.5" fill="#0E6E7E" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">orders</text>
+<rect x="24.0" y="140.0" width="56.0" height="22.0" rx="0" fill="#DCEFF1" stroke="#0E6E7E" stroke-width="1"/>
+<text x="30.0" y="155.0" font-size="10.5" fill="#0E6E7E" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">订单</text>
+<rect x="80.0" y="140.0" width="56.0" height="22.0" rx="0" fill="#DCEFF1" stroke="#0E6E7E" stroke-width="1"/>
+<text x="86.0" y="155.0" font-size="10.5" fill="#0E6E7E" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">实付</text>
+<rect x="136.0" y="140.0" width="64.0" height="22.0" rx="0" fill="#DCEFF1" stroke="#0E6E7E" stroke-width="1"/>
+<text x="142.0" y="155.0" font-size="10.5" fill="#0E6E7E" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">状态</text>
+<rect x="200.0" y="140.0" width="70.0" height="22.0" rx="0" fill="#DCEFF1" stroke="#0E6E7E" stroke-width="1"/>
+<text x="206.0" y="155.0" font-size="10.5" fill="#0E6E7E" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">下单天数</text>
+<rect x="24.0" y="162.0" width="56.0" height="22.0" rx="0" fill="#FFFFFF" stroke="#0E6E7E" stroke-width="1"/>
+<text x="30.0" y="177.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">1024</text>
+<rect x="80.0" y="162.0" width="56.0" height="22.0" rx="0" fill="#FFFFFF" stroke="#0E6E7E" stroke-width="1"/>
+<text x="86.0" y="177.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">¥259</text>
+<rect x="136.0" y="162.0" width="64.0" height="22.0" rx="0" fill="#FFFFFF" stroke="#0E6E7E" stroke-width="1"/>
+<text x="142.0" y="177.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">已签收</text>
+<rect x="200.0" y="162.0" width="70.0" height="22.0" rx="0" fill="#FFFFFF" stroke="#0E6E7E" stroke-width="1"/>
+<text x="206.0" y="177.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">12</text>
+<text x="300.0" y="134.0" font-size="11.5" fill="#0E6E7E" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">accounts</text>
+<rect x="300.0" y="140.0" width="56.0" height="22.0" rx="0" fill="#DCEFF1" stroke="#0E6E7E" stroke-width="1"/>
+<text x="306.0" y="155.0" font-size="10.5" fill="#0E6E7E" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">用户</text>
+<rect x="356.0" y="140.0" width="70.0" height="22.0" rx="0" fill="#DCEFF1" stroke="#0E6E7E" stroke-width="1"/>
+<text x="362.0" y="155.0" font-size="10.5" fill="#0E6E7E" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">余额</text>
+<rect x="300.0" y="162.0" width="56.0" height="22.0" rx="0" fill="#FFFFFF" stroke="#0E6E7E" stroke-width="1"/>
+<text x="306.0" y="177.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">u77</text>
+<rect x="356.0" y="162.0" width="70.0" height="22.0" rx="0" fill="#FFFFFF" stroke="#0E6E7E" stroke-width="1"/>
+<text x="362.0" y="177.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">¥40</text>
+<text x="456.0" y="134.0" font-size="11.5" fill="#0E6E7E" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">inventory</text>
+<rect x="456.0" y="140.0" width="60.0" height="22.0" rx="0" fill="#DCEFF1" stroke="#0E6E7E" stroke-width="1"/>
+<text x="462.0" y="155.0" font-size="10.5" fill="#0E6E7E" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">SKU</text>
+<rect x="516.0" y="140.0" width="56.0" height="22.0" rx="0" fill="#DCEFF1" stroke="#0E6E7E" stroke-width="1"/>
+<text x="522.0" y="155.0" font-size="10.5" fill="#0E6E7E" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">库存</text>
+<rect x="456.0" y="162.0" width="60.0" height="22.0" rx="0" fill="#FFFFFF" stroke="#0E6E7E" stroke-width="1"/>
+<text x="462.0" y="177.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">K-87</text>
+<rect x="516.0" y="162.0" width="56.0" height="22.0" rx="0" fill="#FFFFFF" stroke="#0E6E7E" stroke-width="1"/>
+<text x="522.0" y="177.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">12</text>
+<text x="24.0" y="222.0" font-size="12.5" fill="#B86E00" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">轨迹：智能体一路上的动作和看到的返回</text>
+<rect x="24.0" y="232.0" width="836.0" height="24.0" rx="3" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="36.0" y="249.0" font-size="11" fill="#B86E00" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">1</text>
+<text x="56.0" y="249.0" font-size="11" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">get_order(1024)</text>
+<text x="420.0" y="249.0" font-size="10.5" fill="#5A6577" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">→ {实付: 259, 状态: 已签收, 下单天数: 12, sku: K-87}</text>
+<rect x="24.0" y="262.0" width="836.0" height="24.0" rx="3" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="36.0" y="279.0" font-size="11" fill="#B86E00" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">2</text>
+<text x="56.0" y="279.0" font-size="11" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">refund(order=1024, amount=259)</text>
+<text x="420.0" y="279.0" font-size="10.5" fill="#5A6577" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">→ ok，退款单 R-5531</text>
+<rect x="24.0" y="292.0" width="836.0" height="24.0" rx="3" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="36.0" y="309.0" font-size="11" fill="#B86E00" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">3</text>
+<text x="56.0" y="309.0" font-size="11" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">restock(sku=&quot;K-87&quot;, qty=1)</text>
+<text x="420.0" y="309.0" font-size="10.5" fill="#5A6577" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">→ ok，库存 13</text>
+<rect x="24.0" y="322.0" width="836.0" height="24.0" rx="3" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="36.0" y="339.0" font-size="11" fill="#B86E00" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">4</text>
+<text x="56.0" y="339.0" font-size="11" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">reply(&quot;已为您退款 ¥259，1～3 个工作日到账&quot;)</text>
+<text x="420.0" y="339.0" font-size="10.5" fill="#5A6577" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">→ 已发送</text>
+<text x="24.0" y="368.0" font-size="12.5" fill="#0E6E7E" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">环境：结束时</text>
+<text x="24.0" y="386.0" font-size="11.5" fill="#0E6E7E" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">orders</text>
+<rect x="24.0" y="392.0" width="56.0" height="22.0" rx="0" fill="#DCEFF1" stroke="#0E6E7E" stroke-width="1"/>
+<text x="30.0" y="407.0" font-size="10.5" fill="#0E6E7E" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">订单</text>
+<rect x="80.0" y="392.0" width="56.0" height="22.0" rx="0" fill="#DCEFF1" stroke="#0E6E7E" stroke-width="1"/>
+<text x="86.0" y="407.0" font-size="10.5" fill="#0E6E7E" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">实付</text>
+<rect x="136.0" y="392.0" width="64.0" height="22.0" rx="0" fill="#DCEFF1" stroke="#0E6E7E" stroke-width="1"/>
+<text x="142.0" y="407.0" font-size="10.5" fill="#0E6E7E" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">状态</text>
+<rect x="24.0" y="414.0" width="56.0" height="22.0" rx="0" fill="#FFFFFF" stroke="#0E6E7E" stroke-width="1"/>
+<text x="30.0" y="429.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">1024</text>
+<rect x="80.0" y="414.0" width="56.0" height="22.0" rx="0" fill="#FFFFFF" stroke="#0E6E7E" stroke-width="1"/>
+<text x="86.0" y="429.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">¥259</text>
+<rect x="136.0" y="414.0" width="64.0" height="22.0" rx="0" fill="#FDE8DD" stroke="#0E6E7E" stroke-width="1"/>
+<text x="142.0" y="429.0" font-size="10.5" fill="#C2501A" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">已退款</text>
+<text x="230.0" y="386.0" font-size="11.5" fill="#0E6E7E" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">accounts</text>
+<rect x="230.0" y="392.0" width="56.0" height="22.0" rx="0" fill="#DCEFF1" stroke="#0E6E7E" stroke-width="1"/>
+<text x="236.0" y="407.0" font-size="10.5" fill="#0E6E7E" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">用户</text>
+<rect x="286.0" y="392.0" width="70.0" height="22.0" rx="0" fill="#DCEFF1" stroke="#0E6E7E" stroke-width="1"/>
+<text x="292.0" y="407.0" font-size="10.5" fill="#0E6E7E" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">余额</text>
+<rect x="230.0" y="414.0" width="56.0" height="22.0" rx="0" fill="#FFFFFF" stroke="#0E6E7E" stroke-width="1"/>
+<text x="236.0" y="429.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">u77</text>
+<rect x="286.0" y="414.0" width="70.0" height="22.0" rx="0" fill="#FDE8DD" stroke="#0E6E7E" stroke-width="1"/>
+<text x="292.0" y="429.0" font-size="10.5" fill="#C2501A" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">¥299</text>
+<text x="386.0" y="386.0" font-size="11.5" fill="#0E6E7E" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">inventory</text>
+<rect x="386.0" y="392.0" width="60.0" height="22.0" rx="0" fill="#DCEFF1" stroke="#0E6E7E" stroke-width="1"/>
+<text x="392.0" y="407.0" font-size="10.5" fill="#0E6E7E" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">SKU</text>
+<rect x="446.0" y="392.0" width="56.0" height="22.0" rx="0" fill="#DCEFF1" stroke="#0E6E7E" stroke-width="1"/>
+<text x="452.0" y="407.0" font-size="10.5" fill="#0E6E7E" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">库存</text>
+<rect x="386.0" y="414.0" width="60.0" height="22.0" rx="0" fill="#FFFFFF" stroke="#0E6E7E" stroke-width="1"/>
+<text x="392.0" y="429.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">K-87</text>
+<rect x="446.0" y="414.0" width="56.0" height="22.0" rx="0" fill="#FDE8DD" stroke="#0E6E7E" stroke-width="1"/>
+<text x="452.0" y="429.0" font-size="10.5" fill="#C2501A" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">13</text>
+<rect x="560.0" y="370.0" width="300.0" height="130.0" rx="6" fill="#DDF3E8" stroke="#26805A" stroke-width="1.4"/>
+<text x="572.0" y="392.0" font-size="12.5" fill="#26805A" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">验证器看终态，也翻轨迹</text>
+<text x="572.0" y="416.0" font-size="11.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">✓  退款金额 259 ≤ 实付 259</text>
+<text x="572.0" y="438.0" font-size="11.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">✓  余额 40 → 299，正好加了 259</text>
+<text x="572.0" y="460.0" font-size="11.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">✓  库存 12 → 13</text>
+<text x="572.0" y="482.0" font-size="11.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">✓  没有重复退款，没有越权调用</text>
+<text x="24.0" y="470.0" font-size="11.5" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">只留下轨迹、没有能重置的后台，模型只能照着模仿；</text>
+<text x="24.0" y="490.0" font-size="11.5" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">有后台、没有验证器，模型试完也不知道退得对不对。</text></svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" width="880" height="420" role="img" aria-label="同一个模型写出的四份材料一起犯同一个错" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><defs><marker id="ah-picsamesource" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs><rect x="0" y="0" width="880" height="420" fill="#ffffff"/><text x="20.0" y="26.0" font-size="13" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">示意：一道有歧义的题，四份材料都按同一种理解来写（代码是为说明编的）</text>
+<rect x="24.0" y="44.0" width="836.0" height="40.0" rx="6" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1.4"/>
+<text x="36.0" y="62.0" font-size="12.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">任务说明：“把顾客的订单按金额排一下，方便客服先处理。”</text>
+<text x="36.0" y="78.0" font-size="11" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">客服的本意是先处理大额订单，也就是从大到小；模型读成了从小到大</text>
+<rect x="24.0" y="104.0" width="268.0" height="110.0" rx="6" fill="#DCEFF1" stroke="#0E6E7E" stroke-width="1.4"/>
+<text x="36.0" y="126.0" font-size="12.5" fill="#0E6E7E" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">环境代码</text>
+<text x="36.0" y="150.0" font-size="11" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">orders = [259, 40, 1299, 88]</text>
+<text x="36.0" y="169.0" font-size="11" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">def list_orders(): …</text>
+<rect x="308.0" y="104.0" width="268.0" height="110.0" rx="6" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.4"/>
+<text x="320.0" y="126.0" font-size="12.5" fill="#B86E00" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">参考解</text>
+<text x="320.0" y="150.0" font-size="11" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">def solve(orders):</text>
+<text x="320.0" y="169.0" font-size="11" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">    return sorted(orders)</text>
+<text x="320.0" y="188.0" font-size="11" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace"># → [40, 88, 259, 1299]</text>
+<rect x="592.0" y="104.0" width="268.0" height="110.0" rx="6" fill="#DDF3E8" stroke="#26805A" stroke-width="1.4"/>
+<text x="604.0" y="126.0" font-size="12.5" fill="#26805A" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">测试</text>
+<text x="604.0" y="150.0" font-size="11" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">assert solve([259,40,1299,88])</text>
+<text x="604.0" y="169.0" font-size="11" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">   == [40, 88, 259, 1299]</text>
+<rect x="24.0" y="232.0" width="836.0" height="46.0" rx="6" fill="#DDF3E8" stroke="#26805A" stroke-width="1.4"/>
+<text x="442.0" y="260.0" font-size="13" fill="#26805A" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">内部检查全是绿灯：环境能跑，参考解通过测试，验证器也通过</text>
+<rect x="24.0" y="294.0" width="836.0" height="46.0" rx="6" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.4"/>
+<text x="442.0" y="322.0" font-size="13" fill="#C2501A" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">可模型学到的是“从小到大”，客服要的是 [1299, 259, 88, 40]</text>
+<text x="24.0" y="372.0" font-size="12" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">能发现这种错的只有循环外面的检查：换一个模型出测试，请人抽查题意，</text>
+<text x="24.0" y="394.0" font-size="12" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">或者拿一批生成器从没见过的冻结任务检验迁移。</text></svg>

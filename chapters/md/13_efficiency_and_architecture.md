@@ -1,6 +1,6 @@
 # 13｜效率与循环架构：少算一些，真的会更快吗？
 
-[首页](../README.md) · [专题索引](../README.md#topics) · [文献目录](../catalog/13_efficiency_and_architecture.md)
+[首页](../../README.md) · [专题索引](../../README.md#topics) · [文献目录](../../catalog/13_efficiency_and_architecture.md)
 
 ## 方向背景：为什么效率必须按完整任务衡量
 
@@ -34,13 +34,13 @@ agent 干活时，模型大部分时间在“读”，很少在“写”，中�
 
 放到编程 agent 里，每一步都要把越来越长的输入从头读一遍，却只写出一小段调用，下图用一个修日期解析 bug 的 agent 画出了这样的一步。第 t 步交给模型的输入有 31,200 个 token：开头是 2,000 个 token 的系统提示和 3,000 个 token 的工具说明，每一步都一样；后面是 25,000 个 token 的历史，里面有读过的 dateparse.py、上一次的测试输出和之前的调用；最后是刚追加的 1,200 个 token 的新观察。模型先预填充，把这一大段读一遍，其中上一步已经读过的 30,000 个 token 可以从缓存里直接复用；再解码，连思考在内写出约 300 个 token，最后是一段调用 run_tests 的 JSON；然后 pytest 跑 8 秒，这段时间模型只能空等；报错信息被追加到历史末尾，下一步再从头读一遍。底下那根长条是这一步的读写比例，约 100 比 1，和 Manus 报告的比例相当。
 
-![编程 agent 一步里的时间花在哪里](../assets/efficiency/overview-task-real.svg)
+![编程 agent 一步里的时间花在哪里](../../assets/efficiency/overview-task-real.svg)
 
 *图：编程 agent 修一个 bug 的第 t 步。上排是交给模型的输入，下排是一步里依次发生的四件事，每格里是这一步实际流过的东西，右上角的层号对应第二节的五层划分；底部长条是读写比例。文件名、报错和数字为示意，100 比 1 取自 Manus。*
 
 既然每一步都从头读，开头不变的那部分就可以复用，这是全章最实用的一个观察，写在图的左上角：系统提示和工具说明只要一个字不改，这一步的开头就和上一步一模一样，它们的 KV 缓存可以直接拿来用，省掉这一段的预填充，这叫前缀缓存。在读远多于写的 agent 里，这份复用省下的比解码快一点要多得多，Manus 的整套上下文工程几乎都在围绕这一点做取舍。下图把同一个 agent 连续三步的输入按长度画了出来：第 2、3 步只有末尾新追加的一小段要预填充；可只要系统提示开头放一个每步都变的时间戳，第 3 步就得把六千多个 token 从头读一遍。
 
-![编程 agent 连续三步的输入与前缀缓存](../assets/efficiency/pic-context-steps.svg)
+![编程 agent 连续三步的输入与前缀缓存](../../assets/efficiency/pic-context-steps.svg)
 
 *图：同一个修 bug 的 agent 连续三步的输入，绿色是能直接复用缓存的前缀，琥珀色是新追加、要预填充的部分；最后一行开头多了一个每步都变的时间戳，复用全部落空。token 数为示意。*
 
@@ -67,13 +67,13 @@ agent 干活时，模型大部分时间在“读”，很少在“写”，中�
 
 第 4 层和前三层的问法不同：前三层问的是给定一个模型怎样把它跑快，第 4 层改模型本身。下图把五层叠成梯子，每一层右端标出本章对应的前沿分支，最底下那条橙色的边界，说的就是局部节省兑现失败的地方。
 
-![效率研究的五层梯子](../assets/efficiency/ladder.svg)
+![效率研究的五层梯子](../../assets/efficiency/ladder.svg)
 
 *图：效率研究的五层梯子。每一层右端标出本章对应的前沿分支；第 4 层从架构切入，和前三层“给定模型怎样跑快”的思路互相补充。*
 
 这几层的研究节奏很不一样。下图每一行是梯子上的一层，点的位置按 arXiv 编号或发布时间排开：第 4 层的源头最早，自适应计算时间和 Universal Transformers 都早于今天的大模型；第 2 层的工作在 2023 年最密集；第 3 层的服务系统集中在 2023 年下半年到 2024 年初；第 5 层直到 2025 年才有成体系的工程复盘。本章第三节收的新论文都在 2026 年下半年，画在右下角那段青色的带子上。
 
-![效率研究主线时间轴](../assets/efficiency/timeline.svg)
+![效率研究主线时间轴](../../assets/efficiency/timeline.svg)
 
 *图：主线代表工作按梯子分行排开。2016 到 2021 年的工作压在“更早”一栏；Horace He 的文章只知道年份，没有画进来。*
 
@@ -85,13 +85,13 @@ agent 干活时，模型大部分时间在“读”，很少在“写”，中�
 
 卡在带宽上时，最有效的对策是算子融合，下图下半部分是他的例子。对同一个张量连做两次余弦，不融合时，第一次余弦要从显存读进来、把中间结果写回去，第二次再读进来、再写回去，一共四次显存读写；融合成一个内核以后，中间结果留在片上，只需要读一次输入、写一次输出。两次余弦的运算量一点没少，省下的全是搬运。这类操作在运算量里占比很小，在运行时间里却不小：他举的 BERT 例子里，非矩阵乘法的操作只占约 0.2% 的浮点运算，实际算力利用率却远低于矩阵乘法。
 
-![三种耗时与算子融合](../assets/efficiency/l1-bottlenecks.svg)
+![三种耗时与算子融合](../../assets/efficiency/l1-bottlenecks.svg)
 
 *图：Horace He 的三种耗时和对策；下方是两次余弦的融合示例，显存读写从四次降到两次。*
 
 2022 年的 [FlashAttention](https://arxiv.org/abs/2205.14135)（`2205.14135`）把省搬运的思路用到了注意力上：公式一个字不改，只改数据流动的路线，速度和能处理的序列长度就都上了一个台阶。标准实现要先算出整张序列长度乘序列长度的分数矩阵写回显存，再读回来做 softmax，再写回去，再读回来乘上值矩阵；序列越长，这张中间矩阵越大，来回搬运也越重。FlashAttention 把输入切成小块，一次只把一块搬进片上存储，在块内算分数、边算边更新 softmax 需要的统计量、把结果累加到输出上，完整的分数矩阵从头到尾没有落回显存。下图用一个查询对 4 个键演示两种算法。标准实现算出 4 个分数，写回显存，读回来做 softmax，再写回、再读回乘上值，得到 2.502。FlashAttention 先搬进前两个键，记下当前最大值 2、分母 1.368 和分子 1.736；第二块里出现了更大的分数 3，就把旧的分母和分子都乘上 e⁻¹ 再加上新的项，最后 3.967 除以 1.585，同样得到 2.502。序列长到 4096 时，那张被省掉的分数表每个头、每层约有 32 MB。
 
-![标准注意力与 FlashAttention 的数据流](../assets/efficiency/l1-flash-real.svg)
+![标准注意力与 FlashAttention 的数据流](../../assets/efficiency/l1-flash-real.svg)
 
 *图：同一行注意力的两种算法。上：标准实现，橙色框是分数写回显存的两次；下：FlashAttention 分两块计算，靠最大值、分母和分子三个数把结果接起来。分数和值为示意，32 MB 按 4096 × 4096 个 16 位数算出。*
 
@@ -99,15 +99,15 @@ agent 干活时，模型大部分时间在“读”，很少在“写”，中�
 
 离群值为什么致命，用一行数字就能看清。8 位量化要拿整行里绝对值最大的数来定刻度，一个 60 混进来，刻度就粗到 0.47 一格，其余零点几的数几乎全被压成 0；LLM.int8() 把这一维单独拿出去走 16 位，剩下的数换上自己的细刻度，误差就降到千分之几。
 
-![一个离群值怎样拖垮 8 位量化](../assets/efficiency/pic-int8-outlier.svg)
+![一个离群值怎样拖垮 8 位量化](../../assets/efficiency/pic-int8-outlier.svg)
 
 *图：同一行激活的三种样子：原始 16 位，整行一起压成 8 位再变回小数，以及 LLM.int8() 把离群维度分出去之后的结果。数值为示意，量化按最大绝对值缩放到 ±127 计算。*
 
 **速查：第 1 层的四种做法。** 四张卡都在缩短数据从显存到计算单元的那段路，差别在怎么缩短：前两张让数据少往返几趟，后两张让每个数占的位数更少。
 
-![O1 算子融合](../assets/efficiency/card-O1.svg) ![O2 FlashAttention](../assets/efficiency/card-O2.svg)
+![O1 算子融合](../../assets/efficiency/card-O1.svg) ![O2 FlashAttention](../../assets/efficiency/card-O2.svg)
 
-![O3 LLM.int8()](../assets/efficiency/card-O3.svg) ![O4 GPTQ](../assets/efficiency/card-O4.svg)
+![O3 LLM.int8()](../../assets/efficiency/card-O3.svg) ![O4 GPTQ](../../assets/efficiency/card-O4.svg)
 
 *图：第 1 层四种做法的结构卡，每张卡对应下表的一行。*
 
@@ -126,19 +126,19 @@ agent 干活时，模型大部分时间在“读”，很少在“写”，中�
 
 agent 恰好两头都占：每一步都要预填充一段很长的输入，再解码一段很短的输出，下图把这两个阶段并排画了出来。左边的预填充让提示里的 8 个 token 一起进入同一次前向，顺手把每个位置的键和值写进 KV 缓存；右边的解码每一步只有一个新 token，却要把全部权重和 KV 缓存读一遍，并且每走一步，缓存就多一格。
 
-![预填充与解码](../assets/efficiency/prefill-decode.svg)
+![预填充与解码](../../assets/efficiency/prefill-decode.svg)
 
 *图：预填充与解码。左边一次前向处理整段提示，受算力限制；右边每步只出一个 token，却要重读权重和不断变长的 KV 缓存，受显存带宽限制。*
 
 既然解码的时间花在“读”上，就有两条路：要么让每一步读的东西变少，要么让一次读进来的东西多干点活。先看第一条路。权重的大小是固定的，KV 缓存却随历史变长、随并发变多，所以压缩的目标落在缓存上。缓存里装的是实打实的数：每个 token 在每一层各留下一列键和一列值，预填充一次写下整段提示的列，解码每步再添一列，并把已有的列全部读一遍。设一个示意配置：32 层，每层 8 组键值，每组 128 维，每个数 16 位；按下图下半部分的乘式算，一个 token 就要占 128 KB，编程 agent 的上下文到两万个 token 时，每生成一个 token 都要读约 2.4 GB。
 
-![KV 缓存随 token 一列列变长](../assets/efficiency/pic-kv-rows.svg)
+![KV 缓存随 token 一列列变长](../../assets/efficiency/pic-kv-rows.svg)
 
 *图：KV 缓存的样子。左边预填充一次算出提示里 5 个 token 的键值列，右边解码第 1 步新增一列，同时读一遍已有的 5 列；下方按示意配置算出一列的大小。数值为示意。*
 
 那个乘式里的每一项，都是一个可以压的因子。下图把缓存的大小拆开：同时处理多少条序列，每条保留多长的历史，有多少层，每层有多少组键值，每组多大维度，每个数用几个字节。压住任何一个因子，缓存都会变小。
 
-![KV 缓存的大小由什么决定](../assets/efficiency/l2-kv-levers.svg)
+![KV 缓存的大小由什么决定](../../assets/efficiency/l2-kv-levers.svg)
 
 *图：KV 缓存大小由几个因子相乘而来，下排是各自压住某个因子的经典做法；右侧的分页分配改的是实际分配效率。*
 
@@ -146,19 +146,19 @@ agent 恰好两头都占：每一步都要预填充一段很长的输入，再�
 
 上面这些办法让每个 token 存得更少，可历史一长，缓存终究装不下，另一组工作于是考虑压住“历史长度”，只保留一部分 token。2023 年的 [H2O](https://arxiv.org/abs/2306.14048)（`2306.14048`，Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models）观察到少数 token 贡献了大部分注意力分数，于是只保留最近的 token 和这些“重击手”。这里的分数就是模型解码时本来就要算的注意力权重，按每个 token 累计收到多少来排；挑选规则是人定的，没有为它另外训练任何东西。同年的 [StreamingLLM](https://arxiv.org/abs/2309.17453)（`2309.17453`，Efficient Streaming Language Models with Attention Sinks）发现模型会把大量注意力投向开头几个 token，哪怕它们在语义上并不重要；如果把它们丢掉，长输入就处理不稳，保住这几个“注意力汇”再加一个只看最近一段的滑动窗口，就能稳定地处理很长的输入流。下图在同一段 agent 上下文上比较两种规则：预算都是 8 个 token，H2O 按分数挑，StreamingLLM 按位置挑，结果都丢掉了指出 bug 所在的“第 42 行”。它们为后来的缓存裁剪研究立下了基线，也留下一个问题：被丢掉的那部分，在哪些任务上其实是关键证据？
 
-![H2O 与 StreamingLLM 各留下哪些 token](../assets/efficiency/pic-evict.svg)
+![H2O 与 StreamingLLM 各留下哪些 token](../../assets/efficiency/pic-evict.svg)
 
 *图：同一段 20 个 token 的上下文，缓存预算 8 个。H2O 留下累计注意力最高的 4 个加最近 4 个，StreamingLLM 留下开头 4 个加最近 4 个；虚线框里的“42”两种规则都没留下。注意力分数为示意。*
 
 第二条路是让一次读进来的东西多干点活。解码慢，是因为大模型每次读一遍权重只产出一个 token；如果能让它读一遍权重就确认好几个 token，等待就短了。2022 年底 Google 的 [Speculative Decoding](https://arxiv.org/abs/2211.17192)（`2211.17192`）和 2023 年初 DeepMind 的 [Accelerating Large Language Model Decoding with Speculative Sampling](https://arxiv.org/abs/2302.01318)（`2302.01318`）几乎同时提出了这个想法：先让一个便宜的草稿模型猜几个 token，再让要加速的那个大模型一次性检查。下文把后者叫作目标模型，它是现成的模型，推测解码不改它的参数；草稿模型是另外准备的小模型，只负责猜。下图是一轮的四步。草稿模型逐个猜出 4 个 token；目标模型对这几个位置做一次前向，只读一遍权重就把它们的概率一起算出来；然后从左往右逐个检查，目标模型给这个 token 的概率不低于草稿模型就直接收下，否则按两者之比的概率收下，一旦某个位置被拒绝，就在这里按修正后的分布重新采一个 token，后面的草稿全部作废。这套接受规则保证了输出的分布和直接用目标模型采样完全一致，后者报告在 70B 的 Chinchilla 上取得了 2 到 2.5 倍的解码加速。
 
-![推测解码的一轮](../assets/efficiency/l2-specdec.svg)
+![推测解码的一轮](../../assets/efficiency/l2-specdec.svg)
 
 *图：推测解码的一轮。被拒绝的位置之后，草稿全部作废；绿色框里的接受规则保证输出分布不变。*
 
 放到具体的 token 上，接受规则就是逐个比两个概率：目标模型给的概率不低于草稿给的，就收下；低于草稿给的，就按两者之比抛一次硬币。下图里第三个草稿 token 被拒，后面的草稿随之作废，可这一轮仍然只花一次目标模型前向，就拿到了三个 token。
 
-![推测解码一轮的真实 token 与接受判定](../assets/efficiency/pic-specdec-tokens.svg)
+![推测解码一轮的真实 token 与接受判定](../../assets/efficiency/pic-specdec-tokens.svg)
 
 *图：推测解码在一段代码上的一轮。表中逐行写出草稿概率 q、目标模型概率 p 和判定；被拒的位置从修正分布里重采一个 token。概率为示意。*
 
@@ -166,11 +166,11 @@ agent 恰好两头都占：每一步都要预填充一段很长的输入，再�
 
 **速查：缩小 KV 缓存的五种做法。** 五张卡都让解码每一步少读一些缓存，差别在压的是哪个因子：前三张压每个 token 存多少，后两张压保留多少个 token。
 
-![K1 MQA](../assets/efficiency/card-K1.svg) ![K2 GQA](../assets/efficiency/card-K2.svg)
+![K1 MQA](../../assets/efficiency/card-K1.svg) ![K2 GQA](../../assets/efficiency/card-K2.svg)
 
-![K3 MLA](../assets/efficiency/card-K3.svg) ![K4 H2O](../assets/efficiency/card-K4.svg)
+![K3 MLA](../../assets/efficiency/card-K3.svg) ![K4 H2O](../../assets/efficiency/card-K4.svg)
 
-![K5 StreamingLLM](../assets/efficiency/card-K5.svg)
+![K5 StreamingLLM](../../assets/efficiency/card-K5.svg)
 
 *图：缩小 KV 缓存的五张结构卡，每张卡对应下表的一行。*
 
@@ -184,9 +184,9 @@ agent 恰好两头都占：每一步都要预填充一段很长的输入，再�
 
 **速查：让一次读入多干活的三种做法。** 三张卡的流程几乎一样，差别在草稿从哪里来：一个独立的草稿模型，还是目标模型自己的特征。卡片顶上一行写着这一轮要达成的目标，虚线上写着交给下一轮的东西。
 
-![S1 Speculative Decoding](../assets/efficiency/card-S1.svg) ![S2 Speculative Sampling](../assets/efficiency/card-S2.svg)
+![S1 Speculative Decoding](../../assets/efficiency/card-S1.svg) ![S2 Speculative Sampling](../../assets/efficiency/card-S2.svg)
 
-![S3 EAGLE](../assets/efficiency/card-S3.svg)
+![S3 EAGLE](../../assets/efficiency/card-S3.svg)
 
 *图：推测解码的三张结构卡，每张卡对应下表的一行。*
 
@@ -202,7 +202,7 @@ agent 恰好两头都占：每一步都要预填充一段很长的输入，再�
 
 许多请求一起服务时，批处理会让吞吐和延迟互相拉扯。真实的服务里，几十上百个请求同时到达，长短不一，有的刚开始预填充，有的已经生成到一半。下图用一个 70 亿参数的模型算了一笔示意账：一次只服务一个请求，每一步要读 14 GB 权重和 2.4 GB 缓存，只写出 1 个 token；把 8 个请求拼成一批，读一遍权重就能服务 8 个请求，吞吐从每秒约 120 个 token 涨到约 480 个。代价也在图上：KV 缓存随批量线性增长到约 19 GB，每一步慢了一倍，新到的请求还要等下一批。《How To Scale Your Model》把这个两难放在推理一章的中心：同一套硬件，追求低延迟和追求低成本会走向完全不同的配置。
 
-![一次服务一个请求和八个请求拼成一批](../assets/efficiency/pic-batching.svg)
+![一次服务一个请求和八个请求拼成一批](../../assets/efficiency/pic-batching.svg)
 
 *图：同一个 70 亿参数的模型，一次服务 1 个请求和把 8 个请求拼成一批。时间按约 2 TB/s 的显存带宽估算，数字为示意。*
 
@@ -210,13 +210,13 @@ agent 恰好两头都占：每一步都要预填充一段很长的输入，再�
 
 同年的 [SGLang](https://arxiv.org/abs/2312.07104)（`2312.07104`）把这种共享推广成一棵基数树（RadixAttention）：根节点是所有请求共用的系统提示和工具说明，往下分出各段对话的历史，每来一个新请求，就沿树找到最长的公共开头，只有末端那段新输入需要重新预填充。这正是 Manus 那句“KV 缓存命中率最重要”在系统一侧的落脚点：agent 的系统提示、工具说明和对话历史大段重复，复用得好，预填充就能省掉一大半；可开头里改动一个字，这棵树就要从那里断开，后面的缓存全部作废。
 
-![PagedAttention 的块表与前缀复用](../assets/efficiency/l3-paged.svg)
+![PagedAttention 的块表与前缀复用](../../assets/efficiency/l3-paged.svg)
 
 *图：左边是 PagedAttention 的块表与物理块（编号示意），相同的前缀共用一个物理块；右边是 RadixAttention 的前缀树。*
 
 预填充和解码混在一起调度，又会互相干扰。一个带着长提示的新请求进来，它的预填充会占满一整批，正在解码的请求只能停下来等，用户看到的就是输出突然卡住。2024 年的 [Sarathi-Serve](https://arxiv.org/abs/2403.02310)（`2403.02310`）把长预填充切成大小相近的块，每一块和正在进行的解码拼在同一批里执行，解码就一直在往前走。同年的 [DistServe](https://arxiv.org/abs/2401.09670)（`2401.09670`）干脆把两个阶段放到不同的 GPU 上，前一组算完把 KV 缓存传给后一组，两组分别按首 token 延迟和每 token 延迟配置资源，代价是中间多了一次缓存搬运：一段长提示的 KV 缓存按前面的估算可达几个 GB，要整段从一组 GPU 传到另一组。下图把三种调度方式画在同一条时间轴上：A、B、C 三个请求正在逐 token 输出，新请求 D 带着 8,000 个 token 的提示进来。混在一起时，D 的整段预填充占满一批，A、B、C 一个字也出不来；Sarathi-Serve 把 D 切成 4 块、每块 2,000 个 token，每一批里 A、B、C 照样各出一个 token；DistServe 让第一组 GPU 做 D 的预填充，把约 1 GB 的 KV 缓存传给第二组，第二组只做解码，A、B、C 完全不受打扰。
 
-![预填充与解码的三种调度](../assets/efficiency/l3-sched-real.svg)
+![预填充与解码的三种调度](../../assets/efficiency/l3-sched-real.svg)
 
 *图：一个 8,000 token 的新请求到来时的三种调度。横向是时间，每格是一批；第二行切块混跑，第三行分到两组 GPU。请求、块大小与格子长度为示意，1 GB 按前面每 token 128 KB 的示意配置算出。*
 
@@ -224,9 +224,9 @@ agent 恰好两头都占：每一步都要预填充一段很长的输入，再�
 
 **速查：第 3 层的四种做法。** 四张卡都让同样的硬件服务更多请求，差别在管的是哪件事：前两张管缓存放在哪里、能不能复用，后两张管预填充和解码谁先谁后。
 
-![V1 PagedAttention](../assets/efficiency/card-V1.svg) ![V2 SGLang](../assets/efficiency/card-V2.svg)
+![V1 PagedAttention](../../assets/efficiency/card-V1.svg) ![V2 SGLang](../../assets/efficiency/card-V2.svg)
 
-![V3 Sarathi-Serve](../assets/efficiency/card-V3.svg) ![V4 DistServe](../assets/efficiency/card-V4.svg)
+![V3 Sarathi-Serve](../../assets/efficiency/card-V3.svg) ![V4 DistServe](../../assets/efficiency/card-V4.svg)
 
 *图：第 3 层四种做法的结构卡，每张卡对应下表的一行。*
 
@@ -251,17 +251,17 @@ agent 恰好两头都占：每一步都要预填充一段很长的输入，再�
 
 第四种改法从信息怎样保存入手。2023 年的 [Mamba](https://arxiv.org/abs/2312.00752)（`2312.00752`）则从信息怎样保存入手：注意力要为每个历史 token 都存键和值，Mamba 用选择性状态空间模型替代注意力，生成时只维护一个固定大小的状态，从一个 token 传给下一个，缓存因此不再随历史变长。下图把这四种分配方式和普通的层堆叠并排画出。
 
-![每个 token 分到多少计算](../assets/efficiency/l4-compute.svg)
+![每个 token 分到多少计算](../../assets/efficiency/l4-compute.svg)
 
 *图：每个 token 分到多少计算的四种方式。第二栏的虚线是停止器说“否”时绕回去再转一轮的路。*
 
 2025 年，这条线迎来了转折：测试时让循环块多转几圈，推理表现就随之上升。Geiping 等人的 [Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach](https://arxiv.org/abs/2502.05171)（`2502.05171`）训练了一个 35 亿参数、用 8000 亿 token 训练的模型，在标准 Transformer 里放一个可以反复调用的循环块，某些情况下的计算负载相当于一个 500 亿参数的模型。下图上半部分是它的一次前向：开头几层（论文叫 Prelude）把输入变成向量，循环块从一个随机初始化的状态出发，每一轮读入上一轮的状态和重新注入的输入向量，转若干轮之后，由末尾几层（Coda）把状态变回下一个 token 的概率。下半部分是训练方式：训练信号是语料里真实的下一个 token，每个序列随机抽一个循环次数，平均 32 轮；为了让显存不随轮数增长，只对最后 8 轮做反向传播，这叫截断反传。
 
-![循环深度模型的结构与训练](../assets/efficiency/l4-recurrent-depth.svg)
+![循环深度模型的结构与训练](../../assets/efficiency/l4-recurrent-depth.svg)
 
 *图：循环深度模型的结构与训练方式。随机抽取的循环次数、只反传最后 8 轮等训练细节取自原论文。*
 
-![第 4 层四种做法的对比](../assets/efficiency/l4-compare.svg)
+![第 4 层四种做法的对比](../../assets/efficiency/l4-compare.svg)
 
 *图：第 4 层四种做法的对比。每一列是一种做法，四行依次是改了什么、训练信号从哪来、怎么用和代价。*
 
@@ -271,17 +271,17 @@ agent 恰好两头都占：每一步都要预填充一段很长的输入，再�
 
 “循环”这个词在本章还有另外两种用法，读论文时要分清。下图左边是上面说的跨深度循环，同一个 token 的表示反复经过同一个共享块；中间是跨时间递归，状态从前一个位置传给后一个，Mamba 属于这一类；右边是工具循环，也就是开头那个 agent 与外部环境之间一轮轮的往返。三者的缓存方式、训练方法和验证要求各不相同。
 
-![三种循环](../assets/efficiency/three-loops.svg)
+![三种循环](../../assets/efficiency/three-loops.svg)
 
 *图：三种循环。跨深度循环在同一个 token 上反复加工，跨时间递归把状态带到后面的 token，工具循环是模型和外部环境之间的往返。*
 
 **速查：第 4 层的五种做法。** 五张卡都在决定每个 token 用多少计算，差别在调的是哪一项：ACT 调步数，Universal Transformers 和循环深度模型复用同一组层，Switch Transformers 调用到的参数，Mamba 调历史的保存方式。ACT 和 Universal Transformers 两张卡里那条回绕的虚线是“再走一步”的路，Mamba 卡里的虚线则把状态带到下一个 token。
 
-![A1 ACT](../assets/efficiency/card-A1.svg) ![A2 Universal Transformers](../assets/efficiency/card-A2.svg)
+![A1 ACT](../../assets/efficiency/card-A1.svg) ![A2 Universal Transformers](../../assets/efficiency/card-A2.svg)
 
-![A3 Switch Transformers](../assets/efficiency/card-A3.svg) ![A4 Mamba](../assets/efficiency/card-A4.svg)
+![A3 Switch Transformers](../../assets/efficiency/card-A3.svg) ![A4 Mamba](../../assets/efficiency/card-A4.svg)
 
-![A5 循环深度模型](../assets/efficiency/card-A5.svg)
+![A5 循环深度模型](../../assets/efficiency/card-A5.svg)
 
 *图：第 4 层五种做法的结构卡，每张卡对应下表的一行。*
 
@@ -301,7 +301,7 @@ agent 恰好两头都占：每一步都要预填充一段很长的输入，再�
 
 前缀保得再稳，上下文终究会变得太长，Manus 的第五条做法因此是把文件系统当作外部记忆：网页正文可以从上下文里丢掉，只要留下 URL，需要时就能重新打开。这是一种可以恢复的压缩，和第 2 层那些丢了就找不回来的缓存驱逐正好互补。下图把这五条做法放到同一个修 bug 的 agent 上，每一行左边是会让缓存断开的写法，右边是 Manus 的写法。开头写一个精确到秒的时间，整段缓存每一步都从第一个 token 起失效；回头删掉第 3 步的输出，第 3 步之后的缓存全部作废；同一个调用今天先写 path、明天先写 line，token 就对不上；为了这一步只用浏览器而删掉其余 11 个工具，开头就变了，所以改为在解码时把那些工具名的概率压到零；一张 8,000 token 的网页存进文件，上下文里只留 URL 和路径。
 
-![agent 层面的效率取舍](../assets/efficiency/l5-agent-real.svg)
+![agent 层面的效率取舍](../../assets/efficiency/l5-agent-real.svg)
 
 *图：Manus 的五条做法，放在同一个修 bug 的 agent 上，左边是会让缓存断开的写法，右边是 Manus 的写法；底部是 Anthropic 多 agent 系统在时间和 token 上的取舍。具体内容为示意。*
 
@@ -311,9 +311,9 @@ agent 恰好两头都占：每一步都要预填充一段很长的输入，再�
 
 **速查：第 5 层的三份经验。** 三张卡都在降低完整任务的成本，差别在出处和成熟度：两张来自工程复盘，一张来自综述，它们给出的更多是工作方式，离成套的方法还有距离。
 
-![G1 Manus 上下文工程](../assets/efficiency/card-G1.svg) ![G2 Anthropic 多 agent](../assets/efficiency/card-G2.svg)
+![G1 Manus 上下文工程](../../assets/efficiency/card-G1.svg) ![G2 Anthropic 多 agent](../../assets/efficiency/card-G2.svg)
 
-![G3 Toward Efficient Agents](../assets/efficiency/card-G3.svg)
+![G3 Toward Efficient Agents](../../assets/efficiency/card-G3.svg)
 
 *图：第 5 层三份经验的结构卡，每张卡对应下表的一行。*
 
@@ -329,7 +329,7 @@ agent 恰好两头都占：每一步都要预填充一段很长的输入，再�
 
 局部的节省在梯子的每一层都可能兑现失败，就连最底层的估算也会落空。kipply 用纸笔估出 13B 模型单卡延迟约 16.8 毫秒，实测是 22.0 毫秒，差了约三成，原因是带宽达不到标称值、中间操作有额外开销、内核启动也要时间。往外走，到了服务层，排队和批处理会改变每个请求的实际延迟；到了任务层，工具等待和上下文重读又可能把模型层面的加速吞掉。已有研究里有不少负结果，比如门控循环省了内存却增加了延迟、跳层脱离服务引擎后反而变慢、复杂的缓存选择器输给了保护提示后的随机裁剪，它们的价值就在于准确地标出了这些兑现失败的位置。下图把它们按层排开。
 
-![省下的资源在哪里没能兑现](../assets/efficiency/boundary.svg)
+![省下的资源在哪里没能兑现](../../assets/efficiency/boundary.svg)
 
 *图：省下的资源在梯子的每一层可能怎样漏掉。橙色框里的例子分别来自 kipply 的博客和 2026 年的论文。*
 
@@ -352,13 +352,13 @@ agent 恰好两头都占：每一步都要预填充一段很长的输入，再�
 
 同一个改动在几种预算上常常是有省有费。下图每一行是一种做法，每一列是一种预算，绿色表示这一项省了，橙色表示多花了或者带来风险，灰色表示基本不变，虚线表示要看具体实现。循环复用省下了权重，却多花了运算和串行等待；MoE 用很大的总参数换来不变的激活计算；量化省下存储，风险落在误差上；推测解码多养一个草稿器来换更短的串行等待；缓存裁剪省下存储和读取，却可能丢掉关键证据。没有哪一行是全绿的。
 
-![同一个改动在不同预算上的升降](../assets/efficiency/budgets.svg)
+![同一个改动在不同预算上的升降](../../assets/efficiency/budgets.svg)
 
 *图：五种做法在五种预算上的升降（示意）。每格第二行写出原因；“质量风险”一列是这条路线最常见的失效方式。*
 
 把六族方法和第三节的八个分支放进同一个格子，会看到第 4 层那一列最拥挤，这正是循环架构的争议所在。下图横轴是梯子的五层，纵轴是主要省下的资源，青色的标签是第二节的方法家族，灰色的是第三节的分支。第 4 层那一列里，前四个分支都挤在“运算量”和“权重存储”两行上，这正是循环架构的争议所在：省下权重和多花运算往往同时发生。
 
-![方法家族与前沿分支在两条轴上的位置](../assets/efficiency/summary-matrix.svg)
+![方法家族与前沿分支在两条轴上的位置](../../assets/efficiency/summary-matrix.svg)
 
 *图：方法家族与前沿分支在两条轴上的位置。一个分支可以出现在好几格里，表示它同时动了几种资源。*
 
@@ -378,7 +378,7 @@ agent 恰好两头都占：每一步都要预填充一段很长的输入，再�
 
 比较条件选得不同，结论就不同：只有运算、参数和 KV 缓存几项同时接近相等，剩下的差别才有较大把握归给结构。下图上排是同一个循环模型在三种比较条件下的样子。按参数相同来比，循环模型每个 token 的运算明显多出一截，分数高了也说不清是结构好还是多算了；按每 token 运算相同来比，参数这一项又对不齐了；三项同时对齐，才是第三种、也是最有说服力的条件。
 
-![循环模型的三种比较条件](../assets/efficiency/b1-fair.svg)
+![循环模型的三种比较条件](../../assets/efficiency/b1-fair.svg)
 
 *图：上排是循环模型的三种比较条件（柱高示意），下排是 SMELT 的中间层循环和 Hidden Decoding 的沿序列扩展。*
 
@@ -398,7 +398,7 @@ agent 恰好两头都占：每一步都要预填充一段很长的输入，再�
 
 > **要点：** 同一组参数被反复使用，训练怎样才能稳？这组论文从三处下手：调各层输出叠加回去时的缩放，用门控限制每一轮改动多少，或者改训练信号，让每一轮都有自己的学习目标。
 
-![循环模型怎样训得稳](../assets/efficiency/b2-stable.svg)
+![循环模型怎样训得稳](../../assets/efficiency/b2-stable.svg)
 
 *图：稳定循环的三种思路。左栏的对照来自 DeepLoop，中栏的数字来自 Gated Recurrent Transformers 摘要中的大规模设置，右栏是三篇改训练信号的工作。*
 
@@ -418,7 +418,7 @@ agent 恰好两头都占：每一步都要预填充一段很长的输入，再�
 
 多转几轮并非对所有任务都有用，**What Makes Recurrence Effective（`2609.36636`）** 在知识类和推理类任务上比较了训练范围内外的循环次数。[论文](https://arxiv.org/abs/2609.36636)报告，推理任务可以从更多循环中受益，知识任务的表现却会下降，难题也不总是能从更多轮计算中获益；输入输出层的布局、历史状态如何注入、是否告诉模型当前是第几轮，都会影响结果。所以循环次数没法当作普遍有效的“思考预算”来用，困难样本也不会自动地值得多算。
 
-![深度诊断与按 token 分配循环](../assets/efficiency/b3-adaptive.svg)
+![深度诊断与按 token 分配循环](../../assets/efficiency/b3-adaptive.svg)
 
 *图：左边是深度截断同时改变的三件事，右边是 TaH2 按 token 分配循环次数（每个 token 的轮数为示意，数字取自论文摘要）。*
 
@@ -428,7 +428,7 @@ agent 恰好两头都占：每一步都要预填充一段很长的输入，再�
 
 曲线更陡、起点更低的方法在相同计算下仍会落后，所以一份可信的报告要同时给出相同预算下谁做得更好、达到相同质量时谁花得更少，下图是 TaH2 指出的这个现象的示意。方法 B 的曲线更陡，投入越多涨得越快，可它的起点低得多，在竖虚线标出的实际可用预算处，它的质量仍然落后于方法 A；横虚线代表一个质量门槛，A 用更少的计算就跨了过去。单凭斜率来概括测试时多算的能力，很容易得出误导性的结论。
 
-![质量与成本曲线的两种读法](../assets/efficiency/quality-cost.svg)
+![质量与成本曲线的两种读法](../../assets/efficiency/quality-cost.svg)
 
 *图：质量与成本曲线的两种读法（示意）。竖线是同预算比质量，横线是同质量比成本；两条曲线要到很右边才相交。*
 
@@ -440,7 +440,7 @@ agent 恰好两头都占：每一步都要预填充一段很长的输入，再�
 
 > **要点：** 已经训练好的模型，能不能不重训也循环起来？这组工作把深层的信号送回浅层，省掉从头训练的成本，差别在送什么、送到哪里：只送两层之间新增的信息，送给下一个 token，或者在推理时送回较早的层，最后一种的代价落在预填充上。还有一篇把循环模型拿到多步工具调用上检验。
 
-![在现成模型上让计算回流](../assets/efficiency/b4-recirc.svg)
+![在现成模型上让计算回流](../../assets/efficiency/b4-recirc.svg)
 
 *图：几种回流把信号送到了哪里（示意）。每列一个 token，自下而上是层；右侧是每篇工作的要点与代价。*
 
@@ -458,7 +458,7 @@ agent 恰好两头都占：每一步都要预填充一段很长的输入，再�
 
 推测解码的收益要把草稿成本、验证成本、每轮收下的 token 数和并发条件放在一起算，它的账只是看起来简单，下图按示意成本算了两种情形。草稿每轮猜 4 个，接受率 0.8 时平均每轮收下约 3.4 个 token，每个 token 只花不用推测解码时的四成多；接受率掉到 0.3，平均每轮只收下约 1.4 个，被拒之后的草稿全部作废，花在它们身上的计算白费，账几乎打平。接受率又会随着领域、草稿中的位置和上下文变化，固定的草稿长度不一定适合所有任务。《How To Scale Your Model》提醒过，推测解码是用额外运算换延迟，在批量小时最划算，批量一大、算力不再闲置，验证那一步也不再便宜，账就可能算不过来。这个分支的论文都按这本总账来算，单单比较一次生成了多少候选 token 说明不了什么。
 
-![推测解码的账：接受率高和低时](../assets/efficiency/pic-spec-accounting.svg)
+![推测解码的账：接受率高和低时](../../assets/efficiency/pic-spec-accounting.svg)
 
 *图：同样每轮猜 4 个草稿，接受率 0.8 和 0.3 时平均每个 token 的花费。成本为示意，期望收下的 token 数按推测采样的接受规则计算。*
 
@@ -466,7 +466,7 @@ agent 恰好两头都占：每一步都要预填充一段很长的输入，再�
 
 > **要点：** 推测解码的收益还能从哪里挖？这组论文各改流水线上的一环：草稿从哪里来，草稿侧要存多少状态，验证怎么排，以及目标模型本身在变时怎么办。改动越深，越要分清它还能不能保证输出分布不变。
 
-![推测解码流水线上的介入点](../assets/efficiency/b5-spec.svg)
+![推测解码流水线上的介入点](../../assets/efficiency/b5-spec.svg)
 
 *图：推测解码流水线上的四个环节和改动各环节的论文；LoopSpec 和 AngelSpec 同时动了两环。*
 
@@ -486,7 +486,7 @@ agent 恰好两头都占：每一步都要预填充一段很长的输入，再�
 
 > **要点：** 上下文越来越长，成本该从哪一块压？这组方法各压一块：只留一部分缓存，同时省存储和读取；把缓存挪到主机内存，只省显存；用固定大小的状态代替逐 token 的缓存；复用别处做好的预填充。“读得少”和“存得少”要分开评估。
 
-![长上下文的三块成本与四类做法](../assets/efficiency/b6-kv.svg)
+![长上下文的三块成本与四类做法](../../assets/efficiency/b6-kv.svg)
 
 *图：长上下文的三块成本与四类做法，标签表示每类主要压住的成本；底部是 Random Attention 的发现。*
 
@@ -506,13 +506,13 @@ agent 恰好两头都占：每一步都要预填充一段很长的输入，再�
 
 > **要点：** 位数砍一半，为什么显存和速度未必跟着省一半？收益要一关一关地兑现：存储的格式、运算前的格式转换、算子是否真的支持低精度、单层的误差、跨层累积的误差。这组论文各自负责其中一段，同一篇论文里算子的加速和整段生成的加速也可能差得不小。
 
-![低精度的收益要过几道关](../assets/efficiency/b7-precision.svg)
+![低精度的收益要过几道关](../../assets/efficiency/b7-precision.svg)
 
 *图：低精度收益要过的六道关，以及本分支论文各自负责的那一段；数字取自各论文摘要。*
 
 最前面一关是存储。**Breaking the 1.58-bit Barrier（[`2609.16338`](https://arxiv.org/abs/2609.16338)）** 研究三值权重，也就是每个权重只取负一、零、正一三个值的模型，下图演示它要处理的格式问题。常用的部署格式把五个三值权重当成一个五位的三进制数，3 的 5 次方是 243 种组合，装得进一个字节，折合每个权重约 1.6 位；这种格式默认三个值出现得一样多。作者测了 29 个三值模型，发现零最多能占到 51.5%，于是按实际分布来编码，在最稀疏的模型上降到每个权重 1.485 位。它提醒我们，平均存储位数和直接参与运算的格式是两个概念，存得少了，运算前还要解包。
 
-![五个三值权重怎样塞进一个字节](../assets/efficiency/pic-ternary-pack.svg)
+![五个三值权重怎样塞进一个字节](../../assets/efficiency/pic-ternary-pack.svg)
 
 *图：上：常用格式把 5 个三值权重凑成一个三进制数，存进一个字节；下：零占一半以上时，按实际分布编码还能更省。−1 与 +1 的比例为示意。*
 
@@ -530,7 +530,7 @@ agent 恰好两头都占：每一步都要预填充一段很长的输入，再�
 
 > **要点：** 一个请求从到达到完成，还有哪些环节能省？这组论文各落在一个环节：分词决定有多少 token，图像和视频的预处理与预填充决定第一个 token 多快出来，跳层和少用几个专家动的是解码和路由，部署研究看的是底下整套软硬件。迁移和维护的成本也算在效率里。
 
-![一个请求从到达到完成](../assets/efficiency/b8-serving.svg)
+![一个请求从到达到完成](../../assets/efficiency/b8-serving.svg)
 
 *图：请求生命周期上的各个环节与本分支论文；底部是 Ascend 部署实地研究揭示的软硬件栈成本。*
 
@@ -579,4 +579,4 @@ agent 恰好两头都占：每一步都要预填充一段很长的输入，再�
 
 ## 六、可靠资源
 
-架构方面，可以从 Transformer、Universal Transformers 和 Switch Transformers 读起；系统方面，可以从 FlashAttention、PagedAttention 和 [vLLM 官方仓库](https://github.com/vllm-project/vllm)读起，配合本章“先读这几篇”里的几篇长文建立估算的直觉。token、Transformer、训练与推理等基础概念可以查阅 [LLM 前置知识](../docs/llm_primer.md)。做循环计算或草稿扩展的对比实验时，记得固定实现版本，并把模型计算、缓存管理和服务调度三方面的变化分别记录下来。相关章节：[基础与工具](01_basics.md)、[模型科学](14_model_science.md)、[技术报告](15_frontier_reports.md)。
+架构方面，可以从 Transformer、Universal Transformers 和 Switch Transformers 读起；系统方面，可以从 FlashAttention、PagedAttention 和 [vLLM 官方仓库](https://github.com/vllm-project/vllm)读起，配合本章“先读这几篇”里的几篇长文建立估算的直觉。token、Transformer、训练与推理等基础概念可以查阅 [LLM 前置知识](../../docs/llm_primer.md)。做循环计算或草稿扩展的对比实验时，记得固定实现版本，并把模型计算、缓存管理和服务调度三方面的变化分别记录下来。相关章节：[基础与工具](01_basics.md)、[模型科学](14_model_science.md)、[技术报告](15_frontier_reports.md)。

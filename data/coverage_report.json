@@ -30,25 +30,25 @@
   "source_sha256": {
     "data/taxonomy.json": "925b3af10a353f588edadec900688e93ab3aaf8732b768bbb79f150e0d46514b",
     "data/papers.jsonl": "15a3fe461116a9bc7aea81e246d7b60078de4b954356193035c82caae5446a8e",
-    "chapters/01_basics.md": "4c6967e15b2c9cec04447210015b8921b324c6599ad276a2f8503857c97aa279",
-    "chapters/02_memory.md": "34a0a136ecb353f5831ee70ed7c2bcc6b4f58e86671ba2a2c04389a86a1475e3",
-    "chapters/03_self_improvement.md": "d88baed182db970a258a6d57ed6ee4176b9a41dc278a6e5368a43eda174fcdae",
-    "chapters/04_data_and_environments.md": "be60809a5f41b50d0c7f9fc3d2699acea32507c5bc1556090cca28a1f729dca8",
-    "chapters/05_rl_and_distillation.md": "2a18550165edabe137bfd9948ce14767c299b928aed2c5039ce20a04aa1006c3",
-    "chapters/06_evaluation.md": "1126f7deefefb0b4a7f97b362c31d7e002d54e95b009798625c56b24a5300092",
-    "chapters/07_safety_and_alignment.md": "878ccd105c128510f0e394ca7ade2220b659443a900b477e712668d9e7e97baf",
-    "chapters/08_collaboration.md": "d6812a24d48a5ed649b6e0a01136dd8af269e886748f9e10d44164e7e986c230",
-    "chapters/09_multimodal_understanding.md": "03d6a6a4617e6b0bce2643a765172e931b95c5b2acaa442a716ead2f5e0ae22d",
-    "chapters/10_world_models.md": "e8235209da4db8fc0284faf562ccf08efad9f9cc05d8e0da35bb80e6f903f21a",
-    "chapters/11_embodied.md": "92013bcd9100e9ddb0de00330498ef4f203dad3e4114086c447838e58cb18b9d",
-    "chapters/12_science.md": "87549847a07d4e3689c6889c253f7cd955a5e1036bed5d1e90587df5d1634989",
-    "chapters/13_efficiency_and_architecture.md": "d1e9560dd68d7212720d69ab39cc69c984cd30d90750a38644b5003cce710e93",
-    "chapters/14_model_science.md": "04cc8580b692b94f070b78dafb6c54640070b6f1f03d583c265e9bc3e75c20d3",
-    "chapters/15_frontier_reports.md": "e9655c44786375e1e285f321d0f1c5083e5b4d6c08657050df2405c6bb15181c",
-    "chapters/16_multimodal_generation.md": "5f0808623760d4a98a953141f6287153e07faf9500acda016008916492c4113a",
-    "chapters/18_harness_engineering.md": "abe27d4e282370f3c56f6d8f382bd1c97e2783591614f2c90e75edefab417b29",
-    "chapters/00_surveys.md": "d7d51ff0d852355371dd050a04297b1e386fe3f33f417b0e4ebff9763b63cabd",
-    "chapters/17_hot_words.md": "47135a86c0638d1aaab98437dd89691c0e2c8c154569a0fb3e59fb6e7a56c49a"
+    "chapters/md/01_basics.md": "4c6967e15b2c9cec04447210015b8921b324c6599ad276a2f8503857c97aa279",
+    "chapters/md/02_memory.md": "34a0a136ecb353f5831ee70ed7c2bcc6b4f58e86671ba2a2c04389a86a1475e3",
+    "chapters/md/03_self_improvement.md": "d88baed182db970a258a6d57ed6ee4176b9a41dc278a6e5368a43eda174fcdae",
+    "chapters/md/04_data_and_environments.md": "be60809a5f41b50d0c7f9fc3d2699acea32507c5bc1556090cca28a1f729dca8",
+    "chapters/md/05_rl_and_distillation.md": "2a18550165edabe137bfd9948ce14767c299b928aed2c5039ce20a04aa1006c3",
+    "chapters/md/06_evaluation.md": "1126f7deefefb0b4a7f97b362c31d7e002d54e95b009798625c56b24a5300092",
+    "chapters/md/07_safety_and_alignment.md": "878ccd105c128510f0e394ca7ade2220b659443a900b477e712668d9e7e97baf",
+    "chapters/md/08_collaboration.md": "d6812a24d48a5ed649b6e0a01136dd8af269e886748f9e10d44164e7e986c230",
+    "chapters/md/09_multimodal_understanding.md": "03d6a6a4617e6b0bce2643a765172e931b95c5b2acaa442a716ead2f5e0ae22d",
+    "chapters/md/10_world_models.md": "e8235209da4db8fc0284faf562ccf08efad9f9cc05d8e0da35bb80e6f903f21a",
+    "chapters/md/11_embodied.md": "92013bcd9100e9ddb0de00330498ef4f203dad3e4114086c447838e58cb18b9d",
+    "chapters/md/12_science.md": "87549847a07d4e3689c6889c253f7cd955a5e1036bed5d1e90587df5d1634989",
+    "chapters/md/13_efficiency_and_architecture.md": "d1e9560dd68d7212720d69ab39cc69c984cd30d90750a38644b5003cce710e93",
+    "chapters/md/14_model_science.md": "04cc8580b692b94f070b78dafb6c54640070b6f1f03d583c265e9bc3e75c20d3",
+    "chapters/md/15_frontier_reports.md": "e9655c44786375e1e285f321d0f1c5083e5b4d6c08657050df2405c6bb15181c",
+    "chapters/md/16_multimodal_generation.md": "5f0808623760d4a98a953141f6287153e07faf9500acda016008916492c4113a",
+    "chapters/md/18_harness_engineering.md": "abe27d4e282370f3c56f6d8f382bd1c97e2783591614f2c90e75edefab417b29",
+    "chapters/md/00_surveys.md": "d7d51ff0d852355371dd050a04297b1e386fe3f33f417b0e4ebff9763b63cabd",
+    "chapters/md/17_hot_words.md": "47135a86c0638d1aaab98437dd89691c0e2c8c154569a0fb3e59fb6e7a56c49a"
   },
   "summary": {
     "catalog_records": 2050,
@@ -2499,7 +2499,7 @@
       ],
       "key": "01_basics",
       "name": "Agent 基础与系统框架",
-      "path": "chapters/01_basics.md",
+      "path": "chapters/md/01_basics.md",
       "exists": true,
       "local_citation_ids": [
         "2607.05378",
@@ -2881,7 +2881,7 @@
       ],
       "key": "02_memory",
       "name": "记忆与上下文",
-      "path": "chapters/02_memory.md",
+      "path": "chapters/md/02_memory.md",
       "exists": true,
       "local_citation_ids": [
         "2607.05378",
@@ -3658,7 +3658,7 @@
       ],
       "key": "03_self_improvement",
       "name": "自我改进（RSI）",
-      "path": "chapters/03_self_improvement.md",
+      "path": "chapters/md/03_self_improvement.md",
       "exists": true,
       "local_citation_ids": [
         "2607.05297",
@@ -4266,7 +4266,7 @@
       ],
       "key": "04_data_and_environments",
       "name": "训练数据与环境",
-      "path": "chapters/04_data_and_environments.md",
+      "path": "chapters/md/04_data_and_environments.md",
       "exists": true,
       "local_citation_ids": [
         "2607.05339",
@@ -4648,7 +4648,7 @@
       ],
       "key": "05_rl_and_distillation",
       "name": "强化学习与蒸馏",
-      "path": "chapters/05_rl_and_distillation.md",
+      "path": "chapters/md/05_rl_and_distillation.md",
       "exists": true,
       "local_citation_ids": [
         "2607.05804",
@@ -5397,7 +5397,7 @@
       ],
       "key": "06_evaluation",
       "name": "评测与能力基准",
-      "path": "chapters/06_evaluation.md",
+      "path": "chapters/md/06_evaluation.md",
       "exists": true,
       "local_citation_ids": [
         "2607.05391",
@@ -6203,7 +6203,7 @@
       ],
       "key": "07_safety_and_alignment",
       "name": "安全与对齐",
-      "path": "chapters/07_safety_and_alignment.md",
+      "path": "chapters/md/07_safety_and_alignment.md",
       "exists": true,
       "local_citation_ids": [
         "2607.08046",
@@ -6619,7 +6619,7 @@
       ],
       "key": "08_collaboration",
       "name": "多 Agent 与人机协作",
-      "path": "chapters/08_collaboration.md",
+      "path": "chapters/md/08_collaboration.md",
       "exists": true,
       "local_citation_ids": [
         "2607.05369",
@@ -6973,7 +6973,7 @@
       ],
       "key": "09_multimodal_understanding",
       "name": "多模态与 GUI Agent",
-      "path": "chapters/09_multimodal_understanding.md",
+      "path": "chapters/md/09_multimodal_understanding.md",
       "exists": true,
       "local_citation_ids": [
         "2607.08093",
@@ -7413,7 +7413,7 @@
       ],
       "key": "10_world_models",
       "name": "世界模型与规划",
-      "path": "chapters/10_world_models.md",
+      "path": "chapters/md/10_world_models.md",
       "exists": true,
       "local_citation_ids": [
         "2607.06216",
@@ -8213,7 +8213,7 @@
       ],
       "key": "11_embodied",
       "name": "具身智能与 VLA",
-      "path": "chapters/11_embodied.md",
+      "path": "chapters/md/11_embodied.md",
       "exists": true,
       "local_citation_ids": [
         "2607.06370",
@@ -9085,7 +9085,7 @@
       ],
       "key": "12_science",
       "name": "科学与数学 Agent",
-      "path": "chapters/12_science.md",
+      "path": "chapters/md/12_science.md",
       "exists": true,
       "local_citation_ids": [
         "2607.07708",
@@ -9448,7 +9448,7 @@
       ],
       "key": "13_efficiency_and_architecture",
       "name": "效率与循环计算架构",
-      "path": "chapters/13_efficiency_and_architecture.md",
+      "path": "chapters/md/13_efficiency_and_architecture.md",
       "exists": true,
       "local_citation_ids": [
         "2607.07386",
@@ -9948,7 +9948,7 @@
       ],
       "key": "14_model_science",
       "name": "模型科学与可解释性",
-      "path": "chapters/14_model_science.md",
+      "path": "chapters/md/14_model_science.md",
       "exists": true,
       "local_citation_ids": [
         "2607.08393",
@@ -10459,7 +10459,7 @@
       ],
       "key": "15_frontier_reports",
       "name": "前沿模型报告",
-      "path": "chapters/15_frontier_reports.md",
+      "path": "chapters/md/15_frontier_reports.md",
       "exists": true,
       "local_citation_ids": [
         "2607.07370",
@@ -10905,7 +10905,7 @@
       ],
       "key": "16_multimodal_generation",
       "name": "多模态生成",
-      "path": "chapters/16_multimodal_generation.md",
+      "path": "chapters/md/16_multimodal_generation.md",
       "exists": true,
       "local_citation_ids": [
         "2607.05373",
@@ -11637,7 +11637,7 @@
       ],
       "key": "18_harness_engineering",
       "name": "Harness 工程",
-      "path": "chapters/18_harness_engineering.md",
+      "path": "chapters/md/18_harness_engineering.md",
       "exists": true,
       "local_citation_ids": [
         "2607.06906",
@@ -12013,7 +12013,7 @@
         "https://long-horizon-agents.github.io/"
       ],
       "key": "00_surveys",
-      "path": "chapters/00_surveys.md",
+      "path": "chapters/md/00_surveys.md",
       "reference_count": 23,
       "web_reference_count": 1,
       "thresholds": {
@@ -12141,7 +12141,7 @@
         "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills"
       ],
       "key": "17_hot_words",
-      "path": "chapters/17_hot_words.md",
+      "path": "chapters/md/17_hot_words.md",
       "reference_count": 25,
       "web_reference_count": 3,
       "thresholds": {

@@ -175,7 +175,7 @@ def validate(root):
     if len(rows) != taxonomy["expected_paper_count"] or len(identifiers) != len(set(identifiers)):
         errors.append("论文总数或唯一性不符合快照约定")
     thematic_chapters = {category["chapter"] for category in taxonomy["categories"] if category.get("chapter")}
-    required_chapters = thematic_chapters | {"chapters/00_surveys.md", "chapters/17_hot_words.md"}
+    required_chapters = thematic_chapters | {"chapters/md/00_surveys.md", "chapters/md/17_hot_words.md"}
     for chapter in sorted(required_chapters):
         path = root / chapter
         if not path.exists():

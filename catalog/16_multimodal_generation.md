@@ -4,7 +4,7 @@
 
 [文献目录](README.md) · [分类方法](../docs/classification_audit.md)
 
-[阅读专题导读](../chapters/16_multimodal_generation.md)
+[阅读专题导读](../chapters/md/16_multimodal_generation.md)
 
 本方向收录 **120 条记录**。相关方向用于交叉检索，不重复计入各类数量。
 

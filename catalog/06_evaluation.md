@@ -4,7 +4,7 @@
 
 [文献目录](README.md) · [分类方法](../docs/classification_audit.md)
 
-[阅读专题导读](../chapters/06_evaluation.md)
+[阅读专题导读](../chapters/md/06_evaluation.md)
 
 本方向收录 **240 条记录**。相关方向用于交叉检索，不重复计入各类数量。
 

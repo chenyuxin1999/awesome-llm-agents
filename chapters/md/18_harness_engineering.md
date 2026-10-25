@@ -1,6 +1,6 @@
 # 18｜Harness 工程：模型权重与世界之间的一切
 
-[首页](../README.md) · [专题索引](../README.md#topics) · [文献目录](../catalog/18_harness_engineering.md)
+[首页](../../README.md) · [专题索引](../../README.md#topics) · [文献目录](../../catalog/18_harness_engineering.md)
 
 ## 方向背景：同一套权重，为什么分数能差出三倍
 
@@ -34,13 +34,13 @@ harness 就像替一位关在房间里的专家跑腿的助手，模型就是那
 
 下图把这个助手拆开画了出来。
 
-![一个 harness 的解剖](../assets/harness/fig-anatomy.svg)
+![一个 harness 的解剖](../../assets/harness/fig-anatomy.svg)
 
 *图：一个 harness 的解剖，框里的例子是修一个 bug（示意）。紫色是模型权重，蓝色是上下文，橙色是 harness 的各个部件，绿色是外部世界，粉色是权限与日志；带编号的箭头是一步循环的顺序。*
 
 中间紫色方框是模型权重，围着它的橙色虚线框就是 harness。每一步开始时，左边的“上下文组装”从提示、检索结果、压缩过的历史和记忆里挑出内容，拼成这一步的输入交给模型（箭头①）。模型的输出里往往包含一个调用，比如读某个文件、跑一条命令、打开一个网页（箭头②）；模型自己没有手，真正去执行的是右边的“工具与技能接口”，它把调用翻译成对外部世界的操作（箭头③）。外部世界的结果，可能是文件内容、命令输出，也可能是一条报错，被写回上下文（箭头④），下一步模型就能看到上一步的后果。顶上的“循环与控制流”根据模型的输出判断任务是否完成、要不要继续、出错时怎样恢复（箭头⑤）。
 
-![修一个 bug 时 harness 循环的三步](../assets/harness/pic-loop-trace.svg)
+![修一个 bug 时 harness 循环的三步](../../assets/harness/pic-loop-trace.svg)
 
 *图：修一个 bug 时循环转的三步（示意）。每一行是一步，左边是这一步拼给模型的上下文，中间是模型写出的调用，右边是 harness 执行后写回的结果。*
 
@@ -67,7 +67,7 @@ harness 就像替一位关在房间里的专家跑腿的助手，模型就是那
 
 按年份排开以后，能看出这些工作是一棒接一棒的。下面的时间轴前五行对应 DAIR.AI 的五段，第六行是本章借用的工程长文。路线的接力是这样的：2023 年各种新动作几乎同时出现，它们都长在 2022 年 ReAct 定下的那个循环形状上；“让 harness 学习”一行在 2023 年只有 DSPy 一个点，到 2025 和 2026 年才密集起来，从 Meta-Harness 开始，harness 代码本身成了机器搜索的对象；工程长文几乎全部落在 2025 年以后，说明“harness 工程”这个说法是工程实践先走、论文很快跟上的结果。
 
-![Harness 工程演进时间轴](../assets/harness/tl.svg)
+![Harness 工程演进时间轴](../../assets/harness/tl.svg)
 
 *图：Harness 工程的演进时间轴。前五行对应上表的五个阶段，最下面一行是本章主线借用的工程长文；两条青色虚线标出两个转折点，分别在 ReAct 和 Meta-Harness。年份按 arXiv 或发布时间，精确到季度左右。*
 
@@ -77,7 +77,7 @@ harness 就像替一位关在房间里的专家跑腿的助手，模型就是那
 
 在 harness 这个词被用到语言模型上之前，所谓 harness 就是一个最朴素的循环：给模型一段文字，按 top-p 采样一个词，接到末尾，再采样下一个，直到停下。2019 年的 GPT-2 论文 *Language Models are Unsupervised Multitask Learners* 就是这样被使用的，没有工具，没有记忆，也没有任何外部状态。DAIR.AI 把它放在合集的第一位，给后来的一切立一个基线。
 
-![V0 阶段的 harness](../assets/harness/fig-v0.svg)
+![V0 阶段的 harness](../../assets/harness/fig-v0.svg)
 
 *图：V0 阶段的 harness，窗口里的应用题是示意。左边是上下文窗口，蓝色的两行是 GPT-3 和思维链带来的新内容；循环本身只有“采样一个 token、接到末尾”这一个动作。*
 
@@ -91,7 +91,7 @@ harness 就像替一位关在房间里的专家跑腿的助手，模型就是那
 
 接下来的几年，harness 的循环代码基本保持不变，变的是模型在循环里能做的事，因为 V0 的模型只能写字，写出来的字不会对世界产生任何作用。新的做法是：模型在输出里写出某种调用，harness 负责执行掉，再把结果写回上下文。DAIR.AI 把这一段叫作“扩张动作空间”。下图中间是始终没变的循环，两侧绿色方框是先后加进来的动作。
 
-![静态 harness 阶段的动作空间扩张](../assets/harness/fig-action-space.svg)
+![静态 harness 阶段的动作空间扩张](../../assets/harness/fig-action-space.svg)
 
 *图：静态 harness 阶段。中间的循环保持 ReAct 的“想、做、看”形状不变，两侧绿色方框是先后加进动作空间的能力，标注了代表工作和年份。*
 
@@ -105,13 +105,13 @@ harness 就像替一位关在房间里的专家跑腿的助手，模型就是那
 
 最后一类动作作用于上下文本身。窗口有限，长对话和大量文档放不下，[MemGPT](https://arxiv.org/abs/2310.08560) 借用操作系统的比喻，让模型对一部分上下文拥有增删改查的权限，像管理内存和磁盘一样，在有限的主上下文和外部存储之间调入调出。这一段的终点是 2025 年底 Alex Zhang、Tim Kraska 和 Omar Khattab 的 [Recursive Language Models](https://arxiv.org/abs/2512.24601)（RLM），它把读取上下文本身也变成了模型写代码完成的动作。2026 年的 Prime Agent 和 JAZ 都建在它的抽象上，所以值得画一张图。
 
-![RLM 的工作方式](../assets/harness/fig-rlm.svg)
+![RLM 的工作方式](../../assets/harness/fig-rlm.svg)
 
 *图：Recursive Language Models 的工作方式，框里的例子（示意）和下一张图是同一本小说。超长输入被存成 REPL 里的一个变量，根模型一轮轮写代码去查看和切分它，对片段递归调用 sub_RLM，最后把答案写进变量 Final。*
 
 RLM 把超长输入留在窗口外面、让模型写代码去读，于是输入长度不再受窗口限制。图左边是一段远远超出上下文窗口的输入，比如一整本书或一个仓库。RLM 没有把它塞进窗口，而是在一个 Python REPL 里把它存成一个变量。根模型在 REPL 里一轮轮地写代码：先打印开头看看结构，再按章节切开，或者搜索关键词定位相关段落。REPL 里还提供了对子模型的调用，于是根模型可以对切出来的每个片段调用 sub_RLM，让另一个 RLM 去处理这一小段，返回值又成为 REPL 里的新变量。根模型认为答案已经得到时，就把它赋给一个叫 Final 的变量，迭代随即停止。
 
-![RLM 在 REPL 里读一本长书](../assets/harness/pic-rlm-repl.svg)
+![RLM 在 REPL 里读一本长书](../../assets/harness/pic-rlm-repl.svg)
 
 *图：RLM 回答“老宅最后归了谁”时写下的几行代码（示意）。左边是根模型在 REPL 里输入的代码和得到的输出，右边是每一行在做什么。*
 
@@ -121,7 +121,7 @@ RLM 把超长输入留在窗口外面、让模型写代码去读，于是输入�
 
 动作越加越多，需要设计的东西也从一段提示扩大到了整个运行时，这个方向的名字跟着变了两次，下图把它们画成一层套一层。
 
-![提示工程、上下文工程与 harness 工程](../assets/harness/fig-layers.svg)
+![提示工程、上下文工程与 harness 工程](../../assets/harness/fig-layers.svg)
 
 *图：三个词一层套一层。提示工程管最里面那段话，上下文工程管每一步让模型看到的全部内容，harness 工程再把工具接口、控制流、子 agent、执行环境和日志都包进来。*
 
@@ -142,13 +142,13 @@ RLM 把超长输入留在窗口外面、让模型写代码去读，于是输入�
 | S7 | 分页管理记忆 | 2023 | MemGPT | 借操作系统的比喻，模型用增删改查操作在有限的主上下文和外部存储之间调入调出 | 上下文窗口有限，长对话和大量文档放不下；由模型自己决定调入什么，有限的窗口就能处理远超其容量的信息 | 记忆操作本身占用步数和注意力，调入调出判断失误时会丢掉关键信息 |
 | S8 | 可编程上下文 | 2025 | RLM | 长输入存成 REPL 变量，模型写代码查看、切分，对片段递归调用自己，最后设置 Final 返回 | 超长输入塞进窗口会超限或稀释注意力；放进外部环境由代码按需读取，输入长度就不再受窗口限制 | 依赖模型写代码和分解任务的能力；递归调用的次数随任务变化，成本不容易预先估计 |
 
-![S1 想做交替](../assets/harness/card-S1.svg) ![S2 工具调用](../assets/harness/card-S2.svg)
+![S1 想做交替](../../assets/harness/card-S1.svg) ![S2 工具调用](../../assets/harness/card-S2.svg)
 
-![S3 反思写回](../assets/harness/card-S3.svg) ![S4 代码即动作](../assets/harness/card-S4.svg)
+![S3 反思写回](../../assets/harness/card-S3.svg) ![S4 代码即动作](../../assets/harness/card-S4.svg)
 
-![S5 派生 agent](../assets/harness/card-S5.svg) ![S6 技能库](../assets/harness/card-S6.svg)
+![S5 派生 agent](../../assets/harness/card-S5.svg) ![S6 技能库](../../assets/harness/card-S6.svg)
 
-![S7 分页管理记忆](../assets/harness/card-S7.svg) ![S8 可编程上下文](../assets/harness/card-S8.svg)
+![S7 分页管理记忆](../../assets/harness/card-S7.svg) ![S8 可编程上下文](../../assets/harness/card-S8.svg)
 
 *图：八种扩张动作空间的做法的结构示意，每张卡对应上表的一行，颜色含义与第一节的解剖图相同。*
 
@@ -158,13 +158,13 @@ RLM 把超长输入留在窗口外面、让模型写代码去读，于是输入�
 
 这一阶段有四种做法，下图按同样四个问题把它们并排比较：改出什么，信号从哪来，改完怎么用，代价是什么。从左到右，被改的对象从提示词变成 agent 自己的代码，再变成任意的 harness 程序，最后改动挪进了运行之中；判断好坏的信号也从一个指标分数，变成文字诊断和完整的执行轨迹。
 
-![让 harness 学习的四种做法](../assets/harness/fig-learn-compare.svg)
+![让 harness 学习的四种做法](../../assets/harness/fig-learn-compare.svg)
 
 *图：让 harness 学习的四种做法的范式对比。每列一种做法，四行依次是改出什么、信号从哪来、改完怎么用和代价；只有最右一列另有一条线在训练模型权重。*
 
 人写的 harness 有两个毛病，所以接下来的问题是能不能让机器来改。前一段里，无论动作空间怎样扩张，harness 的每一行代码、每一段提示都是人写的；可设计空间太大，人试不过来；为一个模型调好的 harness 换个模型又要重调。下图用同样四个部件比较了三种 harness：人写好不再变的，由优化器去改的，以及由 agent 改自己、连“怎样提出和筛选改动”的机制也能改的。
 
-![静态、会学习与自我改进的 harness](../assets/harness/fig-who-edits.svg)
+![静态、会学习与自我改进的 harness](../../assets/harness/fig-who-edits.svg)
 
 *图：同样四个部件，三种 harness 的差别在于由谁来改、改到哪一层。橙红色表示可以被改动的部分。*
 
@@ -172,7 +172,7 @@ RLM 把超长输入留在窗口外面、让模型写代码去读，于是输入�
 
 中列的优化器改的东西有大有小。Lilian Weng 把被优化的对象排成一架梯子，DAIR.AI 的第三段几乎就是沿着这架梯子往上走的。
 
-![被优化对象的梯子](../assets/harness/fig-ladder.svg)
+![被优化对象的梯子](../../assets/harness/fig-ladder.svg)
 
 *图：被优化对象的梯子。五级来自 Lilian Weng 的长文，橙红色的两级是本章主线上有代表作的地方；底部的虚线框表示 Continual Harness 在同一次运行里横跨多级同时改动。*
 
@@ -184,7 +184,7 @@ RLM 把超长输入留在窗口外面、让模型写代码去读，于是输入�
 
 2026 年的 [Meta-Harness](https://arxiv.org/abs/2603.28052) 把这件事做成了一个通用方法。作者 Yoonho Lee、Omar Khattab、Chelsea Finn 等人的出发点是：harness 决定了哪些信息被存储、检索和展示给模型，可它至今大多仍靠手写，而现有的文本优化器会把执行情况压缩成几句话或一个分数，丢掉太多反馈，搜不好 harness。Meta-Harness 的办法是让提议者直接读原始记录，下图是它的外循环。
 
-![Meta-Harness 的外循环](../assets/harness/fig-meta-harness.svg)
+![Meta-Harness 的外循环](../../assets/harness/fig-meta-harness.svg)
 
 *图：Meta-Harness 的外循环，框里的候选编号、分数和改动是示意。左边的文件系统保存了所有旧候选的源代码、分数和执行轨迹；提议者读完它们写出新 harness，经过接口校验和搜索集评测，结果存成新目录，进入下一轮。*
 
@@ -208,11 +208,11 @@ Meta-Harness 在模型权重不变的前提下，只靠搜 harness 就在三类�
 | L4 | 读全史写代码 | 2026 | Meta-Harness | 编码 agent 通过文件系统读取全部旧候选的代码、分数和轨迹，写出新的 harness 程序 | 已有的文本优化器把反馈压缩得太狠，搜不好 harness；保留原始轨迹，提议者就能像程序员一样排查 | 提议者本身要很强，每轮都要跑完整的搜索任务；搜索集上的提升能否迁移，见三.7 |
 | L5 | 运行中在线改 | 2026 | Continual Harness | 从极简接口出发，agent 在同一次运行里交替行动和修改自己的提示、子 agent、技能、记忆，还可以用教师重标轨迹更新开源模型 | 提示优化方法通常要重置回合，长程环境里做不到；在一次运行里在线修改，就不需要重置 | 改动发生在运行之中，旧行为可能被破坏，见三.4 的遗忘问题；收益依赖模型能力 |
 
-![L1 提示编译](../assets/harness/card-L1.svg) ![L2 反思演化](../assets/harness/card-L2.svg)
+![L1 提示编译](../../assets/harness/card-L1.svg) ![L2 反思演化](../../assets/harness/card-L2.svg)
 
-![L3 档案式自改](../assets/harness/card-L3.svg) ![L4 读全史写代码](../assets/harness/card-L4.svg)
+![L3 档案式自改](../../assets/harness/card-L3.svg) ![L4 读全史写代码](../../assets/harness/card-L4.svg)
 
-![L5 运行中在线改](../assets/harness/card-L5.svg)
+![L5 运行中在线改](../../assets/harness/card-L5.svg)
 
 *图：五种让 harness 学习的做法的结构示意，每张卡对应上表的一行。*
 
@@ -222,7 +222,7 @@ Meta-Harness 在模型权重不变的前提下，只靠搜 harness 就在三类�
 
 harness 做得越多，越要想清楚哪些事该由它接管。接管太少，模型要在一堆杂务里分心，杂务出错还会被记成模型的失败；接管太多，又会替模型做了它本来能做得更好的决定。DAIR.AI 的第四段收了两个 2026 年在那次 Paper Club 上展示的开源系统，它们对这个问题给出了旗帜鲜明的回答。
 
-![Prime Agent 与 OpenJarvis 的边界](../assets/harness/fig-boundary.svg)
+![Prime Agent 与 OpenJarvis 的边界](../../assets/harness/fig-boundary.svg)
 
 *图：2026 年两个成型系统对边界的不同回答。左边 Prime Agent 由 harness 统一负责执行层面的事情，右边 OpenJarvis 把系统写成五个原语组成的规格，由云端模型在搜索时修改。*
 
@@ -238,7 +238,7 @@ Prime Agent 对应图的左栏，它把边界画在执行和策略之间。[Prim
 
 衡量 harness 的进步，METR 换了一把尺子：50% 任务完成时间跨度，因为一个 harness 让某个基准涨了几个点，可能只是让短任务的分数好看一些。DAIR.AI 合集的最后一段只放了这一篇论文，METR 的 [Measuring AI Ability to Complete Long Software Tasks](https://arxiv.org/abs/2503.14499)。下图说明这把尺子怎么读。
 
-![50% 任务完成时间跨度](../assets/harness/fig-horizon.svg)
+![50% 任务完成时间跨度](../../assets/harness/fig-horizon.svg)
 
 *图：50% 时间跨度的读法。横轴是人类专家完成一类任务的用时，纵轴是 AI 的成功率；曲线只是示意，取成功率为一半的那一点对应的人类用时。*
 
@@ -252,7 +252,7 @@ harness 的进步只有在任务时长增长时才算数，DAIR.AI 用这句话�
 
 harness 一旦开始改写自己，评测和权限就不能交给它自己管，这是 DAIR.AI 的合集到 METR 结束以后，主线上还绕不开的一条边界。harness 握着工具权限、执行环境和日志，它越能干，出问题时的破坏面越大；评测和权限若由它自己管，它可以通过修改评分器或删掉日志来给自己打高分。Lilian Weng 在长文末尾列出了七个卡住进展的问题：评分器太弱、上下文和记忆的生命周期难以管理、负面结果很少被报告、搜索中候选越来越单一、系统会钻评价规则的空子、沙盒里的短期奖励不代表长期效果、人在回路里的位置不清楚，其中大半都直接落在 harness 上。她的建议是把权限和安全层放在自我修改的循环之外。
 
-![自我修改循环与圈外的权限、评测和日志](../assets/harness/fig-outside.svg)
+![自我修改循环与圈外的权限、评测和日志](../../assets/harness/fig-outside.svg)
 
 *图：自我修改的边界，框里的例子是示意。左边虚线框里是 agent 可以改动的循环，右边三个方框放在圈外，由它们约束、打分和记录这个循环。*
 
@@ -280,7 +280,7 @@ harness 自己也需要一套持续运转的质量控制，OpenAI 的复盘从�
 
 知道了整体有用，下一步是拆开看部件，下图是两种方向相反的拆法。
 
-![拆解 harness 的两种办法](../assets/harness/fig-b1-two-ways.svg)
+![拆解 harness 的两种办法](../../assets/harness/fig-b1-two-ways.svg)
 
 *图：拆解 harness 的两种办法。左边固定执行循环，只换规划、动作空间和上下文管理三个部件；右边只保留一个由模型现写实现的 invoke 原语，一切都是代码环境里的变量。*
 
@@ -306,7 +306,7 @@ harness 的思路也正在被搬进其他方向，只是在那些论文里 harne
 
 > **要点：** 长程任务需要什么样的 harness？任务一长，目标、已完成的部分和尚未核实的部分都在越来越长的上下文里漂移。这一组论文都把这些状态搬到执行之外，只用核实过的事实去更新，差别在于状态放在哪里：一份独立的任务记录，带版本的操作手册，项目的提交历史，或者分开记进度和经验的两份记忆。
 
-![长程 harness 在会话之间传递的三样文件](../assets/harness/pic-feature-list.svg)
+![长程 harness 在会话之间传递的三样文件](../../assets/harness/pic-feature-list.svg)
 
 *图：Anthropic 长程 harness 的会话接力（示意）。上排是一个接一个的会话，下面是它们之间传递的功能清单、进度日志和 git 历史。*
 
@@ -314,7 +314,7 @@ harness 的思路也正在被搬进其他方向，只是在那些论文里 harne
 
 LongHorizon-Harness 把同一个思路说得最直白，它把三样文件换成了一份显式的任务状态，下图是它的循环。
 
-![LongHorizon-Harness 的管理、执行、审计循环](../assets/harness/fig-b2-mea.svg)
+![LongHorizon-Harness 的管理、执行、审计循环](../../assets/harness/fig-b2-mea.svg)
 
 *图：LongHorizon-Harness 的管理、执行、审计循环，例子是把一个仓库从 Python 3.8 升到 3.12（示意）。任务状态放在执行之外，只接受审计者核实过的事实。*
 
@@ -355,7 +355,7 @@ harness 越来越重要，手工设计它的代价也越来越高：一个生产
 
 下图上排五个方框是这个循环，下面每一列是在这一环动手的论文。
 
-![自动优化 harness 的通用循环](../assets/harness/fig-b3-search.svg)
+![自动优化 harness 的通用循环](../../assets/harness/fig-b3-search.svg)
 
 *图：自动优化 harness 的通用循环。上排五个方框带着一个修 bug harness 的例子（示意），是循环的五个环节，下面每一列是在这一环动手的论文；最下面一排是把这套方法用在具体目标上的工作。*
 
@@ -405,7 +405,7 @@ harness 越来越重要，手工设计它的代价也越来越高：一个生产
 
 下图上排是这一分支共同的设定：任务一个接一个到来，harness 在两次任务之间从 v0 变成 v1、v2，模型权重始终冻结。下面三栏是两次任务之间可以发生的三种事。
 
-![harness 在运行中持续学习的三种做法](../assets/harness/fig-b4-online.svg)
+![harness 在运行中持续学习的三种做法](../../assets/harness/fig-b4-online.svg)
 
 *图：harness 在运行中持续学习的三种做法，框里的例子是示意。上排是一条任务流，harness 在两次任务之间更新；下面三栏分别是 TTHE 的候选群体加评审、受守护的提交，以及训练一个专门会改 harness 的模型。*
 
@@ -442,7 +442,7 @@ harness 和模型之间存在一种需要维护的契合，这个分支要问两
 
 > **要点：** harness 和权重怎样一起优化，能力又怎样在两边搬动？有三种走法：两边轮流更新；把 harness 带来的好行为训进权重，部署时去掉 harness；让强模型造一个 harness，弱模型在里面做题。三种走法都要保证模型和 harness 还配得上。
 
-![harness 与权重之间的三条通道](../assets/harness/fig-b5-flows.svg)
+![harness 与权重之间的三条通道](../../assets/harness/fig-b5-flows.svg)
 
 *图：harness 与权重之间的三条通道。左栏交替优化，中栏把 harness 的行为蒸馏进权重，右栏让强模型在测试时通过 harness 把能力传给弱模型。*
 
@@ -450,7 +450,7 @@ harness 和模型之间存在一种需要维护的契合，这个分支要问两
 
 交替并不总是顺利，契合可能在两边之间被打破。**[Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails](https://arxiv.org/abs/2609.09134)**（`2609.09134`） 在七个企业 agent 任务上先用弱模型演化出一个 harness，发现强模型往往能更好地利用它，于是想用强模型的示范来训练弱模型。两种示范方式的差别全在训练标签里，下图用一个工单分派任务把两者并排画出来。
 
-![照抄专家整条轨迹和只改出错的一步](../assets/harness/pic-imitate-correct.svg)
+![照抄专家整条轨迹和只改出错的一步](../../assets/harness/pic-imitate-correct.svg)
 
 *图：照抄专家整条轨迹，和只改出错的那一步（示意）。紫色是弱模型自己写的步骤，橙色是专家写的步骤；中间和右边分别是两种做法拿去训练弱模型的标签。*
 
@@ -490,7 +490,7 @@ harness 决定了模型能调用什么工具、能改什么文件、看到哪些
 
 下图上排是 HarnessRisk 划分的运行阶段，下排是 SHE 的演化循环和 EvoUndo 的可恢复性检查。
 
-![harness 安全的运行阶段与可演化的安全层](../assets/harness/fig-b6-safety.svg)
+![harness 安全的运行阶段与可演化的安全层](../../assets/harness/fig-b6-safety.svg)
 
 *图：harness 安全的两个视角。上排是 HarnessRisk 划分的六个运行阶段，恶意指令藏在不可信的工作流产物里，第一个阶段最脆弱；下排是 SHE 的四组件演化循环，以及 EvoUndo 提出的可恢复性检查。*
 
@@ -514,13 +514,13 @@ SHE 解决了归因，“一刀切”的问题还在：模型不同，需要的�
 
 下图左栏是修正后的评测协议，右栏是一种把失败归到具体交互上的办法。
 
-![评测 harness 的协议与归因](../assets/harness/fig-b7-eval.svg)
+![评测 harness 的协议与归因](../../assets/harness/fig-b7-eval.svg)
 
 *图：评测 harness 的协议与归因。左边是修正后的评测协议，右边是 Model or Harness 的交互边归因，边的具体划分以论文为准。*
 
 按修正后的协议重测，自动 harness 演化在 Terminal-Bench 2.1 上没能胜过简单的测试时扩展。左栏最上面打叉的是常见做法：同一个基准既为搜索提供验证信号，又用来报最终分数，等于训练集和测试集没有分开。**[Rethinking the Evaluation of Harness Evolution for Agents](https://arxiv.org/abs/2607.12227)**（`2607.12227`） 指出了这个问题，还指出了另一个：没有在相同的反馈和推理预算下与简单的任务级搜索基线比较。修正后的协议把数据切成两份，搜索集只用来演化 harness，留出测试在搜索全程看不到、选定版本后只测一次，对照组拿同样的反馈和预算去做简单搜索或测试时扩展。按这个协议重做实验，无论有没有测试用例，结果都是如此，泛化也很有限。作者并没有就此否定这条路：在长程游戏这类难度够高、依赖对陌生动态的适应、反馈又天然细致的场景里，针对任务的 harness 演化在相同预算下比搜索基线在 ARC-AGI-3 上提升 80.0%，在 EdgeBench 上提升 10.9%。三.3 介绍的 RRSI 在演化所用的数据上最多提升 14.1 个点，到分布外基准上最多只剩 4.7 个点，这个差距也可以放在这个框架里理解。
 
-![搜索集上的提升和留出测试上的提升](../assets/harness/pic-eval-split.svg)
+![搜索集上的提升和留出测试上的提升](../../assets/harness/pic-eval-split.svg)
 
 *图：同一次 harness 搜索，在两份数据上读出的提升（示意）。*
 
@@ -558,7 +558,7 @@ harness 这个词也出现在别的评测里，只是研究对象不同，例如
 
 上面的表按困难组织。下面换一个角度，把全章的工作放到两根共享的轴上，用一张格子图看清每篇论文的位置。
 
-![全章总对照](../assets/harness/fig-overview.svg)
+![全章总对照](../../assets/harness/fig-overview.svg)
 
 *图：全章总对照。横轴是改动的对象，从提示一直到模型权重；纵轴是改动发生的时间和执行者，从人手设计到训练；最下面的评测横跨所有格子。*
 

@@ -50,7 +50,7 @@ def load_config(taxonomy_path, overrides_path):
     keys = [category["key"] for category in taxonomy["categories"]]
     require(keys == list(EXPECTED_KEYS), "taxonomy 必须按约定保留全部20个固定键")
     for index, category in enumerate(taxonomy["categories"]):
-        expected = "chapters/" + category["key"] + ".md" if index < 18 else None
+        expected = "chapters/md/" + category["key"] + ".md" if index < 18 else None
         require(category["chapter"] == expected, "chapter 路径不符合固定键: " + category["key"])
     mapping = taxonomy["legacy_mapping"]
     require(len(mapping) == 23 and "18_Unassigned" in mapping, "必须保留23个旧映射键")
@@ -258,8 +258,8 @@ def render(papers, results, taxonomy, overrides):
     readme = [
         "# 文献目录", "",
         "按研究主题浏览 **" + str(len(results)) + " 条文献记录**。每条记录保留一个主归属，相关方向提供交叉阅读入口。",
-        "首次阅读可从[综述导读](../chapters/00_surveys.md)或[专题索引](../README.md#topics)开始，再使用本目录查找具体文献。", "",
-        "[Hot Words](../chapters/17_hot_words.md)解释JEV、harness、Agent Skills等概念的来源与研究联系，作为跨专题入口，不另设文献主类。", "",
+        "首次阅读可从[综述导读](../chapters/md/00_surveys.md)或[专题索引](../README.md#topics)开始，再使用本目录查找具体文献。", "",
+        "[Hot Words](../chapters/md/17_hot_words.md)解释JEV、harness、Agent Skills等概念的来源与研究联系，作为跨专题入口，不另设文献主类。", "",
         "## 分类索引", "",
         "前 18 类对应研究专题；相邻方向与待复核条目单列，便于区分研究范围与分类不确定性。",
         "类内按文献记录中的平台关注度排序，同分按 ID 排序；关联方向提供跨主题入口。", "",

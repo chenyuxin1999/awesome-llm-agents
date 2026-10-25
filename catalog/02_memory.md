@@ -4,7 +4,7 @@ Agent 记忆、经验存储、上下文管理；KV cache 工程优先效率。
 
 [文献目录](README.md) · [分类方法](../docs/classification_audit.md)
 
-[阅读专题导读](../chapters/02_memory.md)
+[阅读专题导读](../chapters/md/02_memory.md)
 
 本方向收录 **145 条记录**。相关方向用于交叉检索，不重复计入各类数量。
 

@@ -4,7 +4,7 @@ Agent 定义、控制循环、工具调用与系统组织的入门概念；以 h
 
 [文献目录](README.md) · [分类方法](../docs/classification_audit.md)
 
-[阅读专题导读](../chapters/01_basics.md)
+[阅读专题导读](../chapters/md/01_basics.md)
 
 本方向收录 **4 条记录**。相关方向用于交叉检索，不重复计入各类数量。
 

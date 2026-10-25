@@ -4,7 +4,7 @@ Agent 团队、通信、协调与人机协作；科学应用不自动覆盖协�
 
 [文献目录](README.md) · [分类方法](../docs/classification_audit.md)
 
-[阅读专题导读](../chapters/08_collaboration.md)
+[阅读专题导读](../chapters/md/08_collaboration.md)
 
 本方向收录 **22 条记录**。相关方向用于交叉检索，不重复计入各类数量。
 

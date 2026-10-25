@@ -1,0 +1,178 @@
+[
+  {
+    "url": "https://horace.io/brrr_intro.html",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Making Deep Learning Go Brrrr From First Principles",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://jax-ml.github.io/scaling-book/inference/",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "All About Transformer Inference (How To Scale Your Model, Part 7)",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://kipp.ly/transformer-inference-arithmetic/",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Transformer Inference Arithmetic",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://lilianweng.github.io/posts/2025-05-01-thinking/",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Why We Think",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://manus.im/en/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Context Engineering for AI Agents: Lessons from Building Manus",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/multi-agent-research-system",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "How we built our multi-agent research system",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/1603.08983",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Adaptive Computation Time for Recurrent Neural Networks",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2502.05171",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/1911.02150",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Fast Transformer Decoding: One Write-Head is All You Need",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.13245",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.01318",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Accelerating Large Language Model Decoding with Speculative Sampling",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2401.15077",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.07104",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "SGLang: Efficient Execution of Structured Language Model Programs",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2401.09670",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2403.02310",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.17323",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2208.07339",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2309.17453",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Efficient Streaming Language Models with Attention Sinks",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2306.14048",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "H2O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2405.04434",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.08057",
+    "checked_at": "2026-10-24T12:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Towards Efficient Large Language Model Serving: A Survey on System-Aware KV Cache Optimization",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页与 HTML 全文核对题名、作者与日期（Jiantong Jiang 等，2026-07-09 提交 v1；执行与调度、放置与迁移、表示与保留三维分类）"
+  },
+  {
+    "url": "https://arxiv.org/abs/2601.14192",
+    "checked_at": "2026-10-24T12:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Toward Efficient Agents: Memory, Tool learning, and Planning",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页与 alphaXiv 页面核对题名、作者与日期（Xiaofang Yang 等，2026-01-20 提交 v1，2026-07-03 修订 v2；按记忆、工具学习、规划组织的 agent 效率综述）"
+  }
+]

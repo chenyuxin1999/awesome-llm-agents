@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" width="900" height="450" role="img" aria-label="旧画面去哪儿了" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">
+<rect x="0" y="0" width="900" height="450" fill="#ffffff"/>
+<defs><marker id="hisa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker><marker id="hisr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C2501A"/></marker><marker id="hisg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#26805A"/></marker><marker id="hisp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5B45B0"/></marker></defs>
+<text x="20" y="26" font-size="14" fill="#18202C" text-anchor="start" font-weight="700">第 8 步要填发票号，号码只在第 2 步的小票照片里出现过（示意）</text>
+<text x="20" y="60" font-size="12.5" fill="#47546A" text-anchor="start" font-weight="700">只留最近几张（如 Qwen-CUA 的做法）</text>
+<rect x="20" y="70" width="84" height="60" fill="#E9EDF3" stroke="#9AA3B2" stroke-width="0.8" rx="3" stroke-dasharray="3 2"/>
+<text x="62" y="104" font-size="10" fill="#5A6577" text-anchor="middle">已折叠</text>
+<text x="62" y="146" font-size="9.5" fill="#5A6577" text-anchor="middle">第 1 回合</text>
+<rect x="124" y="70" width="84" height="60" fill="#E9EDF3" stroke="#9AA3B2" stroke-width="0.8" rx="3" stroke-dasharray="3 2"/>
+<text x="166" y="104" font-size="10" fill="#5A6577" text-anchor="middle">已折叠</text>
+<text x="166" y="146" font-size="9.5" fill="#5A6577" text-anchor="middle">第 2 回合</text>
+<rect x="228" y="70" width="84" height="60" fill="#E9EDF3" stroke="#9AA3B2" stroke-width="0.8" rx="3" stroke-dasharray="3 2"/>
+<text x="270" y="104" font-size="10" fill="#5A6577" text-anchor="middle">已折叠</text>
+<text x="270" y="146" font-size="9.5" fill="#5A6577" text-anchor="middle">第 3 回合</text>
+<rect x="332" y="70" width="84" height="60" fill="#E9EDF3" stroke="#9AA3B2" stroke-width="0.8" rx="3" stroke-dasharray="3 2"/>
+<text x="374" y="104" font-size="10" fill="#5A6577" text-anchor="middle">已折叠</text>
+<text x="374" y="146" font-size="9.5" fill="#5A6577" text-anchor="middle">第 4 回合</text>
+<rect x="436" y="70" width="84" height="60" fill="#E9EDF3" stroke="#9AA3B2" stroke-width="0.8" rx="3" stroke-dasharray="3 2"/>
+<text x="478" y="104" font-size="10" fill="#5A6577" text-anchor="middle">已折叠</text>
+<text x="478" y="146" font-size="9.5" fill="#5A6577" text-anchor="middle">第 5 回合</text>
+<rect x="540" y="70" width="84" height="60" fill="#fff" stroke="#9AA3B2" stroke-width="0.8" rx="3"/>
+<rect x="540" y="70" width="84" height="10" fill="#E9EDF3"/>
+<text x="582" y="106" font-size="10" fill="#18202C" text-anchor="middle">新建表单</text>
+<text x="582" y="146" font-size="9.5" fill="#5A6577" text-anchor="middle">第 6 回合</text>
+<rect x="644" y="70" width="84" height="60" fill="#fff" stroke="#9AA3B2" stroke-width="0.8" rx="3"/>
+<rect x="644" y="70" width="84" height="10" fill="#E9EDF3"/>
+<text x="686" y="106" font-size="10" fill="#18202C" text-anchor="middle">填总额</text>
+<text x="686" y="146" font-size="9.5" fill="#5A6577" text-anchor="middle">第 7 回合</text>
+<rect x="748" y="70" width="84" height="60" fill="#fff" stroke="#9AA3B2" stroke-width="0.8" rx="3"/>
+<rect x="748" y="70" width="84" height="10" fill="#E9EDF3"/>
+<text x="790" y="106" font-size="10" fill="#18202C" text-anchor="middle">填发票号？</text>
+<text x="790" y="146" font-size="9.5" fill="#5A6577" text-anchor="middle">第 8 回合</text>
+<text x="20" y="226" font-size="12.5" fill="#5B45B0" text-anchor="start" font-weight="700">每一帧原样存档（VISTA 的做法）</text>
+<rect x="20" y="236" width="84" height="60" fill="#fff" stroke="#9AA3B2" stroke-width="0.8" rx="3"/>
+<rect x="20" y="236" width="84" height="10" fill="#E9EDF3"/>
+<text x="62" y="272" font-size="10" fill="#18202C" text-anchor="middle">邮箱</text>
+<text x="62" y="312" font-size="9.5" fill="#5A6577" text-anchor="middle">第 1 回合</text>
+<rect x="124" y="236" width="84" height="60" fill="#fff" stroke="#9AA3B2" stroke-width="0.8" rx="3"/>
+<rect x="124" y="236" width="84" height="10" fill="#E9EDF3"/>
+<text x="166" y="272" font-size="10" fill="#18202C" text-anchor="middle">小票照片</text>
+<rect x="174" y="278" width="30" height="12" fill="#FFF1DC" stroke="#B86E00" stroke-width="0.8"/>
+<text x="189" y="287" font-size="7" fill="#B86E00" text-anchor="middle">No.</text>
+<text x="166" y="312" font-size="9.5" fill="#5A6577" text-anchor="middle">第 2 回合</text>
+<rect x="228" y="236" width="84" height="60" fill="#fff" stroke="#9AA3B2" stroke-width="0.8" rx="3"/>
+<rect x="228" y="236" width="84" height="10" fill="#E9EDF3"/>
+<text x="270" y="272" font-size="10" fill="#18202C" text-anchor="middle">PDF 发票</text>
+<text x="270" y="312" font-size="9.5" fill="#5A6577" text-anchor="middle">第 3 回合</text>
+<rect x="332" y="236" width="84" height="60" fill="#fff" stroke="#9AA3B2" stroke-width="0.8" rx="3"/>
+<rect x="332" y="236" width="84" height="10" fill="#E9EDF3"/>
+<text x="374" y="272" font-size="10" fill="#18202C" text-anchor="middle">订单页</text>
+<text x="374" y="312" font-size="9.5" fill="#5A6577" text-anchor="middle">第 4 回合</text>
+<rect x="436" y="236" width="84" height="60" fill="#fff" stroke="#9AA3B2" stroke-width="0.8" rx="3"/>
+<rect x="436" y="236" width="84" height="10" fill="#E9EDF3"/>
+<text x="478" y="272" font-size="10" fill="#18202C" text-anchor="middle">报销首页</text>
+<text x="478" y="312" font-size="9.5" fill="#5A6577" text-anchor="middle">第 5 回合</text>
+<rect x="540" y="236" width="84" height="60" fill="#fff" stroke="#9AA3B2" stroke-width="0.8" rx="3"/>
+<rect x="540" y="236" width="84" height="10" fill="#E9EDF3"/>
+<text x="582" y="272" font-size="10" fill="#18202C" text-anchor="middle">新建表单</text>
+<text x="582" y="312" font-size="9.5" fill="#5A6577" text-anchor="middle">第 6 回合</text>
+<rect x="644" y="236" width="84" height="60" fill="#fff" stroke="#9AA3B2" stroke-width="0.8" rx="3"/>
+<rect x="644" y="236" width="84" height="10" fill="#E9EDF3"/>
+<text x="686" y="272" font-size="10" fill="#18202C" text-anchor="middle">填总额</text>
+<text x="686" y="312" font-size="9.5" fill="#5A6577" text-anchor="middle">第 7 回合</text>
+<rect x="748" y="236" width="84" height="60" fill="#fff" stroke="#9AA3B2" stroke-width="0.8" rx="3"/>
+<rect x="748" y="236" width="84" height="10" fill="#E9EDF3"/>
+<text x="790" y="272" font-size="10" fill="#18202C" text-anchor="middle">填发票号？</text>
+<text x="790" y="312" font-size="9.5" fill="#5A6577" text-anchor="middle">第 8 回合</text>
+<rect x="20" y="160" width="860" height="24" fill="#FBE3E3" rx="4"/>
+<text x="30" y="177" font-size="11.5" fill="#C23A3A" text-anchor="start">第 8 步回头找发票号：第 2 回合的画面已经不在上下文里，只能凭印象猜，或者重新去翻邮箱。</text>
+<path d="M790,322 C780,380 260,380 166,330" fill="none" stroke="#5B45B0" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#hisp)"/>
+<text x="300" y="392" font-size="11" fill="#5B45B0" text-anchor="middle" font-weight="600">调出第 2 回合，裁剪右下角</text>
+<rect x="640" y="352" width="220" height="50" fill="#fff" stroke="#B86E00" stroke-width="1.4" rx="4"/>
+<text x="750" y="384" font-size="18" fill="#B86E00" text-anchor="middle" font-weight="700" font-family="Menlo, Consolas, monospace">No. 04571832</text>
+<line x1="560" y1="377" x2="636" y2="377" stroke="#5B45B0" stroke-width="1.4" marker-end="url(#hisp)"/>
+<rect x="20" y="416" width="860" height="24" fill="#E3F4EA" rx="4"/>
+<text x="30" y="433" font-size="11.5" fill="#26805A" text-anchor="start">按回合号取回原图、放大来读，号码一位不差；代价是所有画面都要存在模型外面的系统里。</text>
+</svg>

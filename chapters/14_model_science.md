@@ -198,7 +198,7 @@ Bernstein 的《Modular Manifolds》再往前一步，连权重本身也约束�
 
 ### 第三阶段：打开表示，先解决叠加
 
-> **要点：** 打开模型的某一层，能直接读懂里面的东西吗？先要有一套描述内部计算的语言；可单个神经元往往同时对好几种不相干的东西有反应，没法命名。这一阶段找到了第一个可行的拆法，把挤在一起的特征重新拆开，也让“特征究竟怎么定义”变成了绕不开的问题。
+> **要点：** 打开模型的某一层，能直接读懂里面的东西吗？先要有一套描述内部计算的语言；可单个神经元往往同时对好几种不相干的东西有反应，没法命名。这一阶段找到了一个可行的拆法，把挤在一起的特征重新拆开，也让“特征究竟怎么定义”变成了绕不开的问题。
 
 要打开模型看，先得有一套描述它内部计算的语言。2021 年的 [A Mathematical Framework for Transformer Circuits](https://transformer-circuits.pub/2021/framework/index.html) 把 Transformer 的计算看成在一条贯穿各层的残差流上读写：每个注意力头从残差流里读出信息，决定看哪里、搬运什么，再把结果写回去。"注意力头在做什么"第一次有了可以精确讨论的语言，诱导头就是在这个框架里被认出来的。
 
@@ -208,7 +208,7 @@ Bernstein 的《Modular Manifolds》再往前一步，连权重本身也约束�
 
 *图：叠加的五边形。左边每个箭头是一个特征在两个神经元上的方向，右表是每个特征单独出现时两个神经元的读数。五边形的排法取自 Toy Models of Superposition，特征名为示意。*
 
-2023 年的 [Towards Monosemanticity](https://transformer-circuits.pub/2023/monosemantic-features/index.html) 给出了第一个可行的拆法：字典学习。它先把大量文本送进模型、收集某一层的激活，再训练一个稀疏自编码器（SAE），把激活翻译成一份数量比维度多得多、每次只亮少数几个的特征清单，再从清单重构回原来的激活；训练时原来的激活就是答案，目标同时要求重构得准和亮的特征尽量少。训练完以后，研究者看每个特征在哪些文本上亮起，再给它命名。2024 年的 [Scaling Monosemanticity](https://transformer-circuits.pub/2024/scaling-monosemanticity/) 把这件事推到了 Claude 3 Sonnet 上，最大的字典有大约 3400 万个特征。其中最出名的是"金门大桥"特征：把它钳制到最大激活的 10 倍，模型就会自称是金门大桥。作者也找到了与不安全代码、偏见、谄媚、欺骗等相关的特征，并且通过操控其中一些特征改变了模型行为。下图用几个数演示稀疏自编码器对一组激活做了什么：8 个激活数被翻成一份 24 格的清单，其中只有 3 格不为 0，再从这 3 格几乎原样拼回那 8 个数。
+2023 年的 [Towards Monosemanticity](https://transformer-circuits.pub/2023/monosemantic-features/index.html) 给出了一个可行的拆法：字典学习。它先把大量文本送进模型、收集某一层的激活，再训练一个稀疏自编码器（SAE），把激活翻译成一份数量比维度多得多、每次只亮少数几个的特征清单，再从清单重构回原来的激活；训练时原来的激活就是答案，目标同时要求重构得准和亮的特征尽量少。训练完以后，研究者看每个特征在哪些文本上亮起，再给它命名。用稀疏自编码器拆语言模型激活的还有别人：在它发布前几周，Cunningham 等人的 [Sparse Autoencoders Find Highly Interpretable Features in Language Models](https://arxiv.org/abs/2309.08600) 也这样做，自动评估显示拆出的特征比其他拆法更好解释。Towards Monosemanticity 的不同在于，它在一个单层模型上把字典从 512 个特征一路放大到约 13 万个，再对拆出的特征逐个细看。2024 年的 [Scaling Monosemanticity](https://transformer-circuits.pub/2024/scaling-monosemanticity/) 把这件事推到了 Claude 3 Sonnet 上，最大的字典有大约 3400 万个特征。其中最出名的是"金门大桥"特征：把它钳制到最大激活的 10 倍，模型就会自称是金门大桥。作者也找到了与不安全代码、偏见、谄媚、欺骗等相关的特征，并且通过操控其中一些特征改变了模型行为。下图用几个数演示稀疏自编码器对一组激活做了什么：8 个激活数被翻成一份 24 格的清单，其中只有 3 格不为 0，再从这 3 格几乎原样拼回那 8 个数。
 
 ![稀疏自编码器把一组激活翻成少数几个特征](../assets/model-science/pic-sae.svg)
 
@@ -232,7 +232,7 @@ Bernstein 的《Modular Manifolds》再往前一步，连权重本身也约束�
 |---|---|---|---|---|---|---|
 | F1 | 电路框架 | 2021 | [A Mathematical Framework for Transformer Circuits](https://transformer-circuits.pub/2021/framework/index.html) | 把计算拆成残差流上的读写，每个注意力头分成决定看哪里的 QK 部分和决定搬运什么的 OV 部分 | “注意力头在做什么”第一次有了可以精确讨论的语言，诱导头就是在这个框架里被认出来的 | 分析对象是只含注意力层、两层以内的小模型，MLP 层没有纳入 |
 | F2 | 叠加的玩具模型 | 2022 | [Toy Models of Superposition](https://transformer-circuits.pub/2022/toy_model/index.html) | 在玩具模型里改变特征数量和稀疏程度，观察网络怎样把多个特征放进同一组维度 | 解释了单个神经元为什么同时对几种不相干的东西有反应，并把叠加确立为需要解决的核心障碍 | 结论来自玩具模型，搬到真实语言模型上需要另外的证据 |
-| F3 | 稀疏字典 | 2023 | [Towards Monosemanticity](https://transformer-circuits.pub/2023/monosemantic-features/index.html) | 在单层模型 512 个神经元的 MLP 激活上训练稀疏自编码器，字典从 512 个特征一直放大到约 13 万个 | 给出第一个可行的拆解叠加的办法，拆出的特征比单个神经元更容易解释 | 只在单层小模型上做；重构并不完整，作者也提醒低激活处可能还留着多义性 |
+| F3 | 稀疏字典 | 2023 | [Towards Monosemanticity](https://transformer-circuits.pub/2023/monosemantic-features/index.html) | 在单层模型 512 个神经元的 MLP 激活上训练稀疏自编码器，字典从 512 个特征一直放大到约 13 万个 | 给出一个可行的拆解叠加的办法，拆出的特征比单个神经元更容易解释 | 只在单层小模型上做；重构并不完整，作者也提醒低激活处可能还留着多义性 |
 | F4 | 字典的规模化 | 2024 | [Scaling Monosemanticity](https://transformer-circuits.pub/2024/scaling-monosemanticity/) | 把稀疏自编码器推到 Claude 3 Sonnet 上，最大字典约 3400 万个特征，并通过钳制特征检验它们的作用 | 在生产级模型里找到与不安全代码、偏见、谄媚、欺骗等相关的特征，操控其中一些特征改变了模型行为 | 约 65% 的特征几乎从不激活，覆盖也不完整；作者提醒不要对“某个特征存在”解读过度 |
 
 ### 第四阶段：从特征走到回路和行为

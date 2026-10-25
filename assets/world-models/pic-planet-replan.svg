@@ -1,0 +1,395 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 430" width="860" height="430" role="img" aria-label="PlaNet 每走一步前在内部状态里推演候选动作序列" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><defs><marker id="ah-picplanetreplan" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs><rect x="0" y="0" width="860" height="430" fill="#ffffff"/><text x="20.0" y="26.0" font-size="13" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">示意：PlaNet 每次要动之前做的事（得分为示意数字）</text>
+<rect x="24.0" y="60.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="30.0" y="60.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="36.0" y="60.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="42.0" y="60.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="48.0" y="60.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="54.0" y="60.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="60.0" y="60.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="66.0" y="60.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="72.0" y="60.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="78.0" y="60.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="84.0" y="60.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="90.0" y="60.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="96.0" y="60.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="102.0" y="60.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="108.0" y="60.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="114.0" y="60.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="24.0" y="66.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="30.0" y="66.0" width="6.3" height="6.3" fill="#9CCBF0"/>
+<rect x="36.0" y="66.0" width="6.3" height="6.3" fill="#9CCBF0"/>
+<rect x="42.0" y="66.0" width="6.3" height="6.3" fill="#9CCBF0"/>
+<rect x="48.0" y="66.0" width="6.3" height="6.3" fill="#9CCBF0"/>
+<rect x="54.0" y="66.0" width="6.3" height="6.3" fill="#9CCBF0"/>
+<rect x="60.0" y="66.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="66.0" y="66.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="72.0" y="66.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="78.0" y="66.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="84.0" y="66.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="90.0" y="66.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="96.0" y="66.0" width="6.3" height="6.3" fill="#8C5A2B"/>
+<rect x="102.0" y="66.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="108.0" y="66.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="114.0" y="66.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="24.0" y="72.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="30.0" y="72.0" width="6.3" height="6.3" fill="#9CCBF0"/>
+<rect x="36.0" y="72.0" width="6.3" height="6.3" fill="#4E9A4E"/>
+<rect x="42.0" y="72.0" width="6.3" height="6.3" fill="#4E9A4E"/>
+<rect x="48.0" y="72.0" width="6.3" height="6.3" fill="#4E9A4E"/>
+<rect x="54.0" y="72.0" width="6.3" height="6.3" fill="#7FC07F"/>
+<rect x="60.0" y="72.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="66.0" y="72.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="72.0" y="72.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="78.0" y="72.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="84.0" y="72.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="90.0" y="72.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="96.0" y="72.0" width="6.3" height="6.3" fill="#8C5A2B"/>
+<rect x="102.0" y="72.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="108.0" y="72.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="114.0" y="72.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="24.0" y="78.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="30.0" y="78.0" width="6.3" height="6.3" fill="#7FC07F"/>
+<rect x="36.0" y="78.0" width="6.3" height="6.3" fill="#9CCBF0"/>
+<rect x="42.0" y="78.0" width="6.3" height="6.3" fill="#4E9A4E"/>
+<rect x="48.0" y="78.0" width="6.3" height="6.3" fill="#9CCBF0"/>
+<rect x="54.0" y="78.0" width="6.3" height="6.3" fill="#9CCBF0"/>
+<rect x="60.0" y="78.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="66.0" y="78.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="72.0" y="78.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="78.0" y="78.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="84.0" y="78.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="90.0" y="78.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="96.0" y="78.0" width="6.3" height="6.3" fill="#8C5A2B"/>
+<rect x="102.0" y="78.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="108.0" y="78.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="114.0" y="78.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="24.0" y="84.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="30.0" y="84.0" width="6.3" height="6.3" fill="#9CCBF0"/>
+<rect x="36.0" y="84.0" width="6.3" height="6.3" fill="#4E9A4E"/>
+<rect x="42.0" y="84.0" width="6.3" height="6.3" fill="#7FC07F"/>
+<rect x="48.0" y="84.0" width="6.3" height="6.3" fill="#4E9A4E"/>
+<rect x="54.0" y="84.0" width="6.3" height="6.3" fill="#9CCBF0"/>
+<rect x="60.0" y="84.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="66.0" y="84.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="72.0" y="84.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="78.0" y="84.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="84.0" y="84.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="90.0" y="84.0" width="6.3" height="6.3" fill="#E8D9B0"/>
+<rect x="96.0" y="84.0" width="6.3" height="6.3" fill="#8C5A2B"/>
+<rect x="102.0" y="84.0" width="6.3" height="6.3" fill="#E8D9B0"/>
+<rect x="108.0" y="84.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="114.0" y="84.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="24.0" y="90.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="30.0" y="90.0" width="6.3" height="6.3" fill="#9CCBF0"/>
+<rect x="36.0" y="90.0" width="6.3" height="6.3" fill="#7FC07F"/>
+<rect x="42.0" y="90.0" width="6.3" height="6.3" fill="#9CCBF0"/>
+<rect x="48.0" y="90.0" width="6.3" height="6.3" fill="#9CCBF0"/>
+<rect x="54.0" y="90.0" width="6.3" height="6.3" fill="#9CCBF0"/>
+<rect x="60.0" y="90.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="66.0" y="90.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="72.0" y="90.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="78.0" y="90.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="84.0" y="90.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="90.0" y="90.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="96.0" y="90.0" width="6.3" height="6.3" fill="#8C5A2B"/>
+<rect x="102.0" y="90.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="108.0" y="90.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="114.0" y="90.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="24.0" y="96.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="30.0" y="96.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="36.0" y="96.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="42.0" y="96.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="48.0" y="96.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="54.0" y="96.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="60.0" y="96.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="66.0" y="96.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="72.0" y="96.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="78.0" y="96.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="84.0" y="96.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="90.0" y="96.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="96.0" y="96.0" width="6.3" height="6.3" fill="#8C5A2B"/>
+<rect x="102.0" y="96.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="108.0" y="96.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="114.0" y="96.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="24.0" y="102.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="30.0" y="102.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="36.0" y="102.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="42.0" y="102.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="48.0" y="102.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="54.0" y="102.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="60.0" y="102.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="66.0" y="102.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="72.0" y="102.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="78.0" y="102.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="84.0" y="102.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="90.0" y="102.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="96.0" y="102.0" width="6.3" height="6.3" fill="#8C5A2B"/>
+<rect x="102.0" y="102.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="108.0" y="102.0" width="6.3" height="6.3" fill="#B9824A"/>
+<rect x="114.0" y="102.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="24.0" y="108.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="30.0" y="108.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="36.0" y="108.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="42.0" y="108.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="48.0" y="108.0" width="6.3" height="6.3" fill="#5AA9E6"/>
+<rect x="54.0" y="108.0" width="6.3" height="6.3" fill="#5AA9E6"/>
+<rect x="60.0" y="108.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="66.0" y="108.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="72.0" y="108.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="78.0" y="108.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="84.0" y="108.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="90.0" y="108.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="96.0" y="108.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="102.0" y="108.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="108.0" y="108.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="114.0" y="108.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="24.0" y="114.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="30.0" y="114.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="36.0" y="114.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="42.0" y="114.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="48.0" y="114.0" width="6.3" height="6.3" fill="#5AA9E6"/>
+<rect x="54.0" y="114.0" width="6.3" height="6.3" fill="#5AA9E6"/>
+<rect x="60.0" y="114.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="66.0" y="114.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="72.0" y="114.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="78.0" y="114.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="84.0" y="114.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="90.0" y="114.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="96.0" y="114.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="102.0" y="114.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="108.0" y="114.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="114.0" y="114.0" width="6.3" height="6.3" fill="#F2E6D0"/>
+<rect x="24.0" y="120.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="30.0" y="120.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="36.0" y="120.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="42.0" y="120.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="48.0" y="120.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="54.0" y="120.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="60.0" y="120.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="66.0" y="120.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="72.0" y="120.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="78.0" y="120.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="84.0" y="120.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="90.0" y="120.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="96.0" y="120.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="102.0" y="120.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="108.0" y="120.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="114.0" y="120.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="24.0" y="126.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="30.0" y="126.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="36.0" y="126.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="42.0" y="126.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="48.0" y="126.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="54.0" y="126.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="60.0" y="126.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="66.0" y="126.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="72.0" y="126.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="78.0" y="126.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="84.0" y="126.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="90.0" y="126.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="96.0" y="126.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="102.0" y="126.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="108.0" y="126.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="114.0" y="126.0" width="6.3" height="6.3" fill="#7A6A5A"/>
+<rect x="24.0" y="132.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="30.0" y="132.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="36.0" y="132.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="42.0" y="132.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="48.0" y="132.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="54.0" y="132.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="60.0" y="132.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="66.0" y="132.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="72.0" y="132.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="78.0" y="132.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="84.0" y="132.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="90.0" y="132.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="96.0" y="132.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="102.0" y="132.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="108.0" y="132.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="114.0" y="132.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="24.0" y="138.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="30.0" y="138.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="36.0" y="138.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="42.0" y="138.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="48.0" y="138.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="54.0" y="138.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="60.0" y="138.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="66.0" y="138.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="72.0" y="138.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="78.0" y="138.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="84.0" y="138.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="90.0" y="138.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="96.0" y="138.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="102.0" y="138.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="108.0" y="138.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="114.0" y="138.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="24.0" y="144.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="30.0" y="144.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="36.0" y="144.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="42.0" y="144.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="48.0" y="144.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="54.0" y="144.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="60.0" y="144.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="66.0" y="144.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="72.0" y="144.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="78.0" y="144.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="84.0" y="144.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="90.0" y="144.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="96.0" y="144.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="102.0" y="144.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="108.0" y="144.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="114.0" y="144.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="24.0" y="150.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="30.0" y="150.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="36.0" y="150.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="42.0" y="150.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="48.0" y="150.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="54.0" y="150.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="60.0" y="150.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="66.0" y="150.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="72.0" y="150.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="78.0" y="150.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="84.0" y="150.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="90.0" y="150.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="96.0" y="150.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="102.0" y="150.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="108.0" y="150.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="114.0" y="150.0" width="6.3" height="6.3" fill="#C9BBA5"/>
+<rect x="24.0" y="60.0" width="96.0" height="96.0" rx="0" fill="none" stroke="#D5DBE4" stroke-width="1.2"/>
+<text x="72.0" y="174.0" font-size="11" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">现在看到的画面</text>
+<line x1="124.0" y1="108.0" x2="150.0" y2="108.0" stroke="#5A6577" stroke-width="1.5" marker-end="url(#ah-picplanetreplan)"/>
+<text x="186.0" y="56.0" font-size="12" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">内部状态</text>
+<rect x="160.0" y="66.0" width="26.0" height="22.0" rx="0" fill="#DCEFF1" stroke="#0E6E7E" stroke-width="1"/>
+<text x="173.0" y="80.6" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">0.4</text>
+<rect x="160.0" y="88.0" width="26.0" height="22.0" rx="0" fill="#DCEFF1" stroke="#0E6E7E" stroke-width="1"/>
+<text x="173.0" y="102.6" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">1.1</text>
+<rect x="160.0" y="110.0" width="26.0" height="22.0" rx="0" fill="#DCEFF1" stroke="#0E6E7E" stroke-width="1"/>
+<text x="173.0" y="124.6" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">-0.6</text>
+<rect x="186.0" y="66.0" width="26.0" height="22.0" rx="0" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="199.0" y="80.6" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">0.2</text>
+<rect x="186.0" y="88.0" width="26.0" height="22.0" rx="0" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="199.0" y="102.6" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">-0.9</text>
+<rect x="186.0" y="110.0" width="26.0" height="22.0" rx="0" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="199.0" y="124.6" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">1.3</text>
+<text x="173.0" y="150.0" font-size="10" fill="#0E6E7E" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">确定</text>
+<text x="199.0" y="150.0" font-size="10" fill="#B86E00" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">随机</text>
+<text x="186.0" y="170.0" font-size="10" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">带着过去的信息</text>
+<text x="186.0" y="184.0" font-size="10" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">也留着几种可能</text>
+<text x="240.0" y="56.0" font-size="12" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">① 抽一批候选动作序列</text>
+<text x="470.0" y="56.0" font-size="12" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">② 在内部状态里一步步推演</text>
+<text x="700.0" y="56.0" font-size="12" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">③ 预计总得分</text>
+<line x1="214.0" y1="100.0" x2="236.0" y2="81.0" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="240.0" y="70.0" width="44.0" height="22.0" rx="0" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="262.0" y="84.6" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">+0.3</text>
+<rect x="284.0" y="70.0" width="44.0" height="22.0" rx="0" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="306.0" y="84.6" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">+0.1</text>
+<rect x="328.0" y="70.0" width="44.0" height="22.0" rx="0" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="350.0" y="84.6" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">-0.2</text>
+<rect x="372.0" y="70.0" width="44.0" height="22.0" rx="0" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="394.0" y="84.6" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">0.0</text>
+<line x1="420.0" y1="81.0" x2="450.0" y2="81.0" stroke="#5A6577" stroke-width="1.5" marker-end="url(#ah-picplanetreplan)"/>
+<rect x="456.0" y="73.0" width="30.0" height="16.0" rx="3" fill="#E9EDF3" stroke="#47546A" stroke-width="1"/>
+<line x1="486.0" y1="81.0" x2="498.0" y2="81.0" stroke="#5A6577" stroke-width="1" marker-end="url(#ah-picplanetreplan)"/>
+<rect x="500.0" y="73.0" width="30.0" height="16.0" rx="3" fill="#E9EDF3" stroke="#47546A" stroke-width="1"/>
+<line x1="530.0" y1="81.0" x2="542.0" y2="81.0" stroke="#5A6577" stroke-width="1" marker-end="url(#ah-picplanetreplan)"/>
+<rect x="544.0" y="73.0" width="30.0" height="16.0" rx="3" fill="#E9EDF3" stroke="#47546A" stroke-width="1"/>
+<line x1="574.0" y1="81.0" x2="586.0" y2="81.0" stroke="#5A6577" stroke-width="1" marker-end="url(#ah-picplanetreplan)"/>
+<rect x="588.0" y="73.0" width="30.0" height="16.0" rx="3" fill="#E9EDF3" stroke="#47546A" stroke-width="1"/>
+<line x1="632.0" y1="81.0" x2="690.0" y2="81.0" stroke="#D5DBE4" stroke-width="1"/>
+<text x="720.0" y="86.0" font-size="14" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">3.1</text>
+<line x1="214.0" y1="100.0" x2="236.0" y2="121.0" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="240.0" y="110.0" width="44.0" height="22.0" rx="0" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="262.0" y="124.6" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">-0.5</text>
+<rect x="284.0" y="110.0" width="44.0" height="22.0" rx="0" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="306.0" y="124.6" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">-0.4</text>
+<rect x="328.0" y="110.0" width="44.0" height="22.0" rx="0" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="350.0" y="124.6" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">+0.2</text>
+<rect x="372.0" y="110.0" width="44.0" height="22.0" rx="0" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="394.0" y="124.6" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">+0.1</text>
+<line x1="420.0" y1="121.0" x2="450.0" y2="121.0" stroke="#5A6577" stroke-width="1.5" marker-end="url(#ah-picplanetreplan)"/>
+<rect x="456.0" y="113.0" width="30.0" height="16.0" rx="3" fill="#E9EDF3" stroke="#47546A" stroke-width="1"/>
+<line x1="486.0" y1="121.0" x2="498.0" y2="121.0" stroke="#5A6577" stroke-width="1" marker-end="url(#ah-picplanetreplan)"/>
+<rect x="500.0" y="113.0" width="30.0" height="16.0" rx="3" fill="#E9EDF3" stroke="#47546A" stroke-width="1"/>
+<line x1="530.0" y1="121.0" x2="542.0" y2="121.0" stroke="#5A6577" stroke-width="1" marker-end="url(#ah-picplanetreplan)"/>
+<rect x="544.0" y="113.0" width="30.0" height="16.0" rx="3" fill="#E9EDF3" stroke="#47546A" stroke-width="1"/>
+<line x1="574.0" y1="121.0" x2="586.0" y2="121.0" stroke="#5A6577" stroke-width="1" marker-end="url(#ah-picplanetreplan)"/>
+<rect x="588.0" y="113.0" width="30.0" height="16.0" rx="3" fill="#E9EDF3" stroke="#47546A" stroke-width="1"/>
+<line x1="632.0" y1="121.0" x2="690.0" y2="121.0" stroke="#D5DBE4" stroke-width="1"/>
+<text x="720.0" y="126.0" font-size="14" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">0.4</text>
+<line x1="214.0" y1="100.0" x2="236.0" y2="161.0" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="240.0" y="150.0" width="44.0" height="22.0" rx="0" fill="#DDF3E8" stroke="#26805A" stroke-width="1"/>
+<text x="262.0" y="164.6" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">+0.2</text>
+<rect x="284.0" y="150.0" width="44.0" height="22.0" rx="0" fill="#DDF3E8" stroke="#26805A" stroke-width="1"/>
+<text x="306.0" y="164.6" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">+0.4</text>
+<rect x="328.0" y="150.0" width="44.0" height="22.0" rx="0" fill="#DDF3E8" stroke="#26805A" stroke-width="1"/>
+<text x="350.0" y="164.6" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">+0.3</text>
+<rect x="372.0" y="150.0" width="44.0" height="22.0" rx="0" fill="#DDF3E8" stroke="#26805A" stroke-width="1"/>
+<text x="394.0" y="164.6" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">+0.1</text>
+<rect x="240.0" y="150.0" width="44.0" height="22.0" rx="0" fill="none" stroke="#26805A" stroke-width="2.6"/>
+<line x1="420.0" y1="161.0" x2="450.0" y2="161.0" stroke="#5A6577" stroke-width="1.5" marker-end="url(#ah-picplanetreplan)"/>
+<rect x="456.0" y="153.0" width="30.0" height="16.0" rx="3" fill="#E9EDF3" stroke="#47546A" stroke-width="1"/>
+<line x1="486.0" y1="161.0" x2="498.0" y2="161.0" stroke="#5A6577" stroke-width="1" marker-end="url(#ah-picplanetreplan)"/>
+<rect x="500.0" y="153.0" width="30.0" height="16.0" rx="3" fill="#E9EDF3" stroke="#47546A" stroke-width="1"/>
+<line x1="530.0" y1="161.0" x2="542.0" y2="161.0" stroke="#5A6577" stroke-width="1" marker-end="url(#ah-picplanetreplan)"/>
+<rect x="544.0" y="153.0" width="30.0" height="16.0" rx="3" fill="#E9EDF3" stroke="#47546A" stroke-width="1"/>
+<line x1="574.0" y1="161.0" x2="586.0" y2="161.0" stroke="#5A6577" stroke-width="1" marker-end="url(#ah-picplanetreplan)"/>
+<rect x="588.0" y="153.0" width="30.0" height="16.0" rx="3" fill="#E9EDF3" stroke="#47546A" stroke-width="1"/>
+<line x1="632.0" y1="161.0" x2="690.0" y2="161.0" stroke="#D5DBE4" stroke-width="1"/>
+<text x="720.0" y="166.0" font-size="14" fill="#26805A" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">5.6</text>
+<line x1="214.0" y1="100.0" x2="236.0" y2="201.0" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="240.0" y="190.0" width="44.0" height="22.0" rx="0" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="262.0" y="204.6" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">0.0</text>
+<rect x="284.0" y="190.0" width="44.0" height="22.0" rx="0" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="306.0" y="204.6" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">-0.1</text>
+<rect x="328.0" y="190.0" width="44.0" height="22.0" rx="0" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="350.0" y="204.6" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">+0.5</text>
+<rect x="372.0" y="190.0" width="44.0" height="22.0" rx="0" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="394.0" y="204.6" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">-0.3</text>
+<line x1="420.0" y1="201.0" x2="450.0" y2="201.0" stroke="#5A6577" stroke-width="1.5" marker-end="url(#ah-picplanetreplan)"/>
+<rect x="456.0" y="193.0" width="30.0" height="16.0" rx="3" fill="#E9EDF3" stroke="#47546A" stroke-width="1"/>
+<line x1="486.0" y1="201.0" x2="498.0" y2="201.0" stroke="#5A6577" stroke-width="1" marker-end="url(#ah-picplanetreplan)"/>
+<rect x="500.0" y="193.0" width="30.0" height="16.0" rx="3" fill="#E9EDF3" stroke="#47546A" stroke-width="1"/>
+<line x1="530.0" y1="201.0" x2="542.0" y2="201.0" stroke="#5A6577" stroke-width="1" marker-end="url(#ah-picplanetreplan)"/>
+<rect x="544.0" y="193.0" width="30.0" height="16.0" rx="3" fill="#E9EDF3" stroke="#47546A" stroke-width="1"/>
+<line x1="574.0" y1="201.0" x2="586.0" y2="201.0" stroke="#5A6577" stroke-width="1" marker-end="url(#ah-picplanetreplan)"/>
+<rect x="588.0" y="193.0" width="30.0" height="16.0" rx="3" fill="#E9EDF3" stroke="#47546A" stroke-width="1"/>
+<line x1="632.0" y1="201.0" x2="690.0" y2="201.0" stroke="#D5DBE4" stroke-width="1"/>
+<text x="720.0" y="206.0" font-size="14" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">2.2</text>
+<line x1="214.0" y1="100.0" x2="236.0" y2="241.0" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="240.0" y="230.0" width="44.0" height="22.0" rx="0" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="262.0" y="244.6" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">+0.6</text>
+<rect x="284.0" y="230.0" width="44.0" height="22.0" rx="0" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="306.0" y="244.6" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">-0.2</text>
+<rect x="328.0" y="230.0" width="44.0" height="22.0" rx="0" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="350.0" y="244.6" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">-0.4</text>
+<rect x="372.0" y="230.0" width="44.0" height="22.0" rx="0" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="394.0" y="244.6" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">+0.2</text>
+<line x1="420.0" y1="241.0" x2="450.0" y2="241.0" stroke="#5A6577" stroke-width="1.5" marker-end="url(#ah-picplanetreplan)"/>
+<rect x="456.0" y="233.0" width="30.0" height="16.0" rx="3" fill="#E9EDF3" stroke="#47546A" stroke-width="1"/>
+<line x1="486.0" y1="241.0" x2="498.0" y2="241.0" stroke="#5A6577" stroke-width="1" marker-end="url(#ah-picplanetreplan)"/>
+<rect x="500.0" y="233.0" width="30.0" height="16.0" rx="3" fill="#E9EDF3" stroke="#47546A" stroke-width="1"/>
+<line x1="530.0" y1="241.0" x2="542.0" y2="241.0" stroke="#5A6577" stroke-width="1" marker-end="url(#ah-picplanetreplan)"/>
+<rect x="544.0" y="233.0" width="30.0" height="16.0" rx="3" fill="#E9EDF3" stroke="#47546A" stroke-width="1"/>
+<line x1="574.0" y1="241.0" x2="586.0" y2="241.0" stroke="#5A6577" stroke-width="1" marker-end="url(#ah-picplanetreplan)"/>
+<rect x="588.0" y="233.0" width="30.0" height="16.0" rx="3" fill="#E9EDF3" stroke="#47546A" stroke-width="1"/>
+<line x1="632.0" y1="241.0" x2="690.0" y2="241.0" stroke="#D5DBE4" stroke-width="1"/>
+<text x="720.0" y="246.0" font-size="14" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">1.7</text>
+<text x="244.0" y="282.0" font-size="10" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">往右每一格是下一步的动作</text>
+<text x="456.0" y="282.0" font-size="10" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">每个小框是推演出的下一个内部状态</text>
+<rect x="760.0" y="148.0" width="88.0" height="52.0" rx="8" fill="#DDF3E8" stroke="#26805A" stroke-width="1.4"/>
+<text x="804.0" y="170.0" font-size="12" fill="#26805A" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">得分最高</text>
+<text x="804.0" y="188.0" font-size="11" fill="#26805A" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">第 3 组</text>
+<line x1="742.0" y1="159.0" x2="758.0" y2="166.0" stroke="#26805A" stroke-width="1.2" marker-end="url(#ah-picplanetreplan)"/>
+<line x1="20.0" y1="300.0" x2="840.0" y2="300.0" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="30.0" y="316.0" width="250.0" height="54.0" rx="8" fill="#DDF3E8" stroke="#26805A" stroke-width="1.4"/>
+<text x="155.0" y="338.0" font-size="12" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">④ 只执行第 3 组的第一个动作 +0.2</text>
+<text x="155.0" y="358.0" font-size="11" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">后面三个动作先不管</text>
+<line x1="282.0" y1="343.0" x2="320.0" y2="343.0" stroke="#5A6577" stroke-width="1.5" marker-end="url(#ah-picplanetreplan)"/>
+<rect x="324.0" y="316.0" width="200.0" height="54.0" rx="8" fill="#E9EDF3" stroke="#47546A" stroke-width="1.4"/>
+<text x="424.0" y="338.0" font-size="12" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">⑤ 看到新的画面</text>
+<text x="424.0" y="358.0" font-size="11" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">更新内部状态</text>
+<line x1="526.0" y1="343.0" x2="564.0" y2="343.0" stroke="#5A6577" stroke-width="1.5" marker-end="url(#ah-picplanetreplan)"/>
+<rect x="568.0" y="316.0" width="270.0" height="54.0" rx="8" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1.4"/>
+<text x="703.0" y="338.0" font-size="12" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">⑥ 回到 ①，从头再推演一遍</text>
+<text x="703.0" y="358.0" font-size="11" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">每走一步都要重来，所以很慢</text>
+<text x="430.0" y="402.0" font-size="11.5" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">论文设置：每次抽 1000 条候选，往前推 12 步；挑出最好的 100 条照着重抽，反复 10 轮再选</text></svg>

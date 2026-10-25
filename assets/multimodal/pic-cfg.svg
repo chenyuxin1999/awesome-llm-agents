@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400" role="img" aria-label="无分类器引导" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">
+<rect x="0" y="0" width="900" height="400" fill="#ffffff"/>
+<defs><marker id="cfga" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker><marker id="cfgr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C2501A"/></marker><marker id="cfgg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#26805A"/></marker><marker id="cfgp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5B45B0"/></marker></defs>
+<text x="20" y="26" font-size="14" fill="#18202C" text-anchor="start" font-weight="700">无分类器引导：同一张带噪图跑两次网络，把“有文字”和“没文字”两次预测的差别放大（数字为示意）</text>
+<rect x="20" y="60" width="120" height="120" fill="#F6F7F9" stroke="#E2E6EC" stroke-width="1" rx="6"/>
+<rect x="28" y="68" width="13" height="13" fill="#5c5c5c"/>
+<rect x="41" y="68" width="13" height="13" fill="#919191"/>
+<rect x="54" y="68" width="13" height="13" fill="#737373"/>
+<rect x="67" y="68" width="13" height="13" fill="#9b9b9b"/>
+<rect x="80" y="68" width="13" height="13" fill="#9f9f9f"/>
+<rect x="93" y="68" width="13" height="13" fill="#3e3e3e"/>
+<rect x="106" y="68" width="13" height="13" fill="#353535"/>
+<rect x="119" y="68" width="13" height="13" fill="#c3c3c3"/>
+<rect x="28" y="81" width="13" height="13" fill="#606060"/>
+<rect x="41" y="81" width="13" height="13" fill="#5b5b5b"/>
+<rect x="54" y="81" width="13" height="13" fill="#dedede"/>
+<rect x="67" y="81" width="13" height="13" fill="#848484"/>
+<rect x="80" y="81" width="13" height="13" fill="#c3c3c3"/>
+<rect x="93" y="81" width="13" height="13" fill="#858585"/>
+<rect x="106" y="81" width="13" height="13" fill="#a1a1a1"/>
+<rect x="119" y="81" width="13" height="13" fill="#4d4d4d"/>
+<rect x="28" y="94" width="13" height="13" fill="#a0a0a0"/>
+<rect x="41" y="94" width="13" height="13" fill="#c8c8c8"/>
+<rect x="54" y="94" width="13" height="13" fill="#8d8d8d"/>
+<rect x="67" y="94" width="13" height="13" fill="#b2b2b2"/>
+<rect x="80" y="94" width="13" height="13" fill="#a6a6a6"/>
+<rect x="93" y="94" width="13" height="13" fill="#3e3e3e"/>
+<rect x="106" y="94" width="13" height="13" fill="#b5b5b5"/>
+<rect x="119" y="94" width="13" height="13" fill="#999999"/>
+<rect x="28" y="107" width="13" height="13" fill="#676767"/>
+<rect x="41" y="107" width="13" height="13" fill="#383838"/>
+<rect x="54" y="107" width="13" height="13" fill="#c8c8c8"/>
+<rect x="67" y="107" width="13" height="13" fill="#848484"/>
+<rect x="80" y="107" width="13" height="13" fill="#afafaf"/>
+<rect x="93" y="107" width="13" height="13" fill="#cacaca"/>
+<rect x="106" y="107" width="13" height="13" fill="#aeaeae"/>
+<rect x="119" y="107" width="13" height="13" fill="#d1d1d1"/>
+<rect x="28" y="120" width="13" height="13" fill="#777777"/>
+<rect x="41" y="120" width="13" height="13" fill="#bdbdbd"/>
+<rect x="54" y="120" width="13" height="13" fill="#7f7f7f"/>
+<rect x="67" y="120" width="13" height="13" fill="#d4d4d4"/>
+<rect x="80" y="120" width="13" height="13" fill="#cacaca"/>
+<rect x="93" y="120" width="13" height="13" fill="#444444"/>
+<rect x="106" y="120" width="13" height="13" fill="#4a4a4a"/>
+<rect x="119" y="120" width="13" height="13" fill="#585858"/>
+<rect x="28" y="133" width="13" height="13" fill="#d9d9d9"/>
+<rect x="41" y="133" width="13" height="13" fill="#7e7e7e"/>
+<rect x="54" y="133" width="13" height="13" fill="#9f9f9f"/>
+<rect x="67" y="133" width="13" height="13" fill="#676767"/>
+<rect x="80" y="133" width="13" height="13" fill="#8a8a8a"/>
+<rect x="93" y="133" width="13" height="13" fill="#757575"/>
+<rect x="106" y="133" width="13" height="13" fill="#6f6f6f"/>
+<rect x="119" y="133" width="13" height="13" fill="#989898"/>
+<rect x="28" y="146" width="13" height="13" fill="#979797"/>
+<rect x="41" y="146" width="13" height="13" fill="#cfcfcf"/>
+<rect x="54" y="146" width="13" height="13" fill="#a8a8a8"/>
+<rect x="67" y="146" width="13" height="13" fill="#d3d3d3"/>
+<rect x="80" y="146" width="13" height="13" fill="#c6c6c6"/>
+<rect x="93" y="146" width="13" height="13" fill="#dddddd"/>
+<rect x="106" y="146" width="13" height="13" fill="#a6a6a6"/>
+<rect x="119" y="146" width="13" height="13" fill="#4f4f4f"/>
+<rect x="28" y="159" width="13" height="13" fill="#c7c7c7"/>
+<rect x="41" y="159" width="13" height="13" fill="#d9d9d9"/>
+<rect x="54" y="159" width="13" height="13" fill="#cfcfcf"/>
+<rect x="67" y="159" width="13" height="13" fill="#959595"/>
+<rect x="80" y="159" width="13" height="13" fill="#aeaeae"/>
+<rect x="93" y="159" width="13" height="13" fill="#575757"/>
+<rect x="106" y="159" width="13" height="13" fill="#c2c2c2"/>
+<rect x="119" y="159" width="13" height="13" fill="#969696"/>
+<text x="80" y="200" font-size="11" fill="#5A6577" text-anchor="middle">当前这一步的带噪图</text>
+<line x1="142" y1="100" x2="196" y2="82" stroke="#5A6577" stroke-width="1.4" marker-end="url(#cfga)"/>
+<line x1="142" y1="140" x2="196" y2="236" stroke="#5A6577" stroke-width="1.4" marker-end="url(#cfga)"/>
+<rect x="200" y="52" width="104" height="44" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.2" rx="6"/>
+<text x="252" y="72" font-size="12" fill="#5B45B0" text-anchor="middle" font-weight="700">网络</text>
+<text x="252" y="88" font-size="10" fill="#5B45B0" text-anchor="middle">条件：“一只猫”</text>
+<rect x="200" y="214" width="104" height="44" fill="#E9EDF3" stroke="#47546A" stroke-width="1.2" rx="6"/>
+<text x="252" y="234" font-size="12" fill="#47546A" text-anchor="middle" font-weight="700">同一个网络</text>
+<text x="252" y="250" font-size="10" fill="#47546A" text-anchor="middle">条件：空</text>
+<line x1="306" y1="74" x2="330" y2="74" stroke="#5A6577" stroke-width="1.4" marker-end="url(#cfga)"/>
+<line x1="306" y1="236" x2="330" y2="236" stroke="#5A6577" stroke-width="1.4" marker-end="url(#cfga)"/>
+<text x="334" y="44" font-size="11.5" fill="#5B45B0" text-anchor="start" font-weight="600">有条件的预测</text>
+<rect x="334" y="52" width="34" height="34" fill="#ffe7d9" stroke="#ffffff" stroke-width="1.5"/>
+<text x="351.0" y="73.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.40</text>
+<rect x="368" y="52" width="34" height="34" fill="#f5f9ff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="385.0" y="73.0" font-size="10.5" fill="#18202C" text-anchor="middle">−0.10</text>
+<rect x="402" y="52" width="34" height="34" fill="#fff0e7" stroke="#ffffff" stroke-width="1.5"/>
+<text x="419.0" y="73.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.25</text>
+<rect x="334" y="86" width="34" height="34" fill="#fffcfa" stroke="#ffffff" stroke-width="1.5"/>
+<text x="351.0" y="107.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.05</text>
+<rect x="368" y="86" width="34" height="34" fill="#ffdbc6" stroke="#ffffff" stroke-width="1.5"/>
+<text x="385.0" y="107.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.60</text>
+<rect x="402" y="86" width="34" height="34" fill="#ebf3ff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="419.0" y="107.0" font-size="10.5" fill="#18202C" text-anchor="middle">−0.20</text>
+<rect x="334" y="120" width="34" height="34" fill="#ffede2" stroke="#ffffff" stroke-width="1.5"/>
+<text x="351.0" y="141.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.30</text>
+<rect x="368" y="120" width="34" height="34" fill="#fff9f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="385.0" y="141.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.10</text>
+<rect x="402" y="120" width="34" height="34" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="419.0" y="141.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.00</text>
+<text x="334" y="206" font-size="11.5" fill="#47546A" text-anchor="start" font-weight="600">无条件的预测</text>
+<rect x="334" y="214" width="34" height="34" fill="#ffede2" stroke="#ffffff" stroke-width="1.5"/>
+<text x="351.0" y="235.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.30</text>
+<rect x="368" y="214" width="34" height="34" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="385.0" y="235.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.00</text>
+<rect x="402" y="214" width="34" height="34" fill="#fff3ec" stroke="#ffffff" stroke-width="1.5"/>
+<text x="419.0" y="235.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.20</text>
+<rect x="334" y="248" width="34" height="34" fill="#fff9f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="351.0" y="269.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.10</text>
+<rect x="368" y="248" width="34" height="34" fill="#ffede2" stroke="#ffffff" stroke-width="1.5"/>
+<text x="385.0" y="269.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.30</text>
+<rect x="402" y="248" width="34" height="34" fill="#f5f9ff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="419.0" y="269.0" font-size="10.5" fill="#18202C" text-anchor="middle">−0.10</text>
+<rect x="334" y="282" width="34" height="34" fill="#fff0e7" stroke="#ffffff" stroke-width="1.5"/>
+<text x="351.0" y="303.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.25</text>
+<rect x="368" y="282" width="34" height="34" fill="#fff9f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="385.0" y="303.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.10</text>
+<rect x="402" y="282" width="34" height="34" fill="#fffcfa" stroke="#ffffff" stroke-width="1.5"/>
+<text x="419.0" y="303.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.05</text>
+<line x1="444" y1="104" x2="520" y2="140" stroke="#5A6577" stroke-width="1.4" marker-end="url(#cfga)"/>
+<line x1="444" y1="266" x2="520" y2="190" stroke="#5A6577" stroke-width="1.4" marker-end="url(#cfga)"/>
+<text x="530" y="120" font-size="11.5" fill="#C2501A" text-anchor="start" font-weight="600">两者之差：文字带来的方向</text>
+<rect x="530" y="128" width="34" height="34" fill="#fff9f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="547.0" y="149.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.10</text>
+<rect x="564" y="128" width="34" height="34" fill="#f5f9ff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="581.0" y="149.0" font-size="10.5" fill="#18202C" text-anchor="middle">−0.10</text>
+<rect x="598" y="128" width="34" height="34" fill="#fffcfa" stroke="#ffffff" stroke-width="1.5"/>
+<text x="615.0" y="149.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.05</text>
+<rect x="530" y="162" width="34" height="34" fill="#fafcff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="547.0" y="183.0" font-size="10.5" fill="#18202C" text-anchor="middle">−0.05</text>
+<rect x="564" y="162" width="34" height="34" fill="#ffede2" stroke="#ffffff" stroke-width="1.5"/>
+<text x="581.0" y="183.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.30</text>
+<rect x="598" y="162" width="34" height="34" fill="#f5f9ff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="615.0" y="183.0" font-size="10.5" fill="#18202C" text-anchor="middle">−0.10</text>
+<rect x="530" y="196" width="34" height="34" fill="#fffcfa" stroke="#ffffff" stroke-width="1.5"/>
+<text x="547.0" y="217.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.05</text>
+<rect x="564" y="196" width="34" height="34" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="581.0" y="217.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.00</text>
+<rect x="598" y="196" width="34" height="34" fill="#fafcff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="615.0" y="217.0" font-size="10.5" fill="#18202C" text-anchor="middle">−0.05</text>
+<line x1="636" y1="178" x2="690" y2="178" stroke="#5A6577" stroke-width="1.4" marker-end="url(#cfga)"/>
+<text x="663" y="166" font-size="10.5" fill="#5A6577" text-anchor="middle">放大 3 倍</text>
+<text x="694" y="120" font-size="11.5" fill="#26805A" text-anchor="start" font-weight="600">引导后的预测</text>
+<rect x="694" y="128" width="34" height="34" fill="#ffdbc6" stroke="#ffffff" stroke-width="1.5"/>
+<text x="711.0" y="149.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.60</text>
+<rect x="728" y="128" width="34" height="34" fill="#e1edff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="745.0" y="149.0" font-size="10.5" fill="#18202C" text-anchor="middle">−0.30</text>
+<rect x="762" y="128" width="34" height="34" fill="#ffeadd" stroke="#ffffff" stroke-width="1.5"/>
+<text x="779.0" y="149.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.35</text>
+<rect x="694" y="162" width="34" height="34" fill="#fafcff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="711.0" y="183.0" font-size="10.5" fill="#18202C" text-anchor="middle">−0.05</text>
+<rect x="728" y="162" width="34" height="34" fill="#ffb78d" stroke="#ffffff" stroke-width="1.5"/>
+<text x="745.0" y="183.0" font-size="10.5" fill="#18202C" text-anchor="middle">1.20</text>
+<rect x="762" y="162" width="34" height="34" fill="#d7e7ff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="779.0" y="183.0" font-size="10.5" fill="#18202C" text-anchor="middle">−0.40</text>
+<rect x="694" y="196" width="34" height="34" fill="#ffe7d9" stroke="#ffffff" stroke-width="1.5"/>
+<text x="711.0" y="217.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.40</text>
+<rect x="728" y="196" width="34" height="34" fill="#fff9f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="745.0" y="217.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.10</text>
+<rect x="762" y="196" width="34" height="34" fill="#f5f9ff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="779.0" y="217.0" font-size="10.5" fill="#18202C" text-anchor="middle">−0.10</text>
+<text x="694" y="250" font-size="11" fill="#5A6577" text-anchor="start">= 无条件 + 3 × 差</text>
+<rect x="20" y="332" width="860" height="56" fill="#F6F7F9" stroke="#E2E6EC" stroke-width="1" rx="8"/>
+<text x="36" y="355" font-size="12.5" fill="#18202C" text-anchor="start">系数越大，生成越贴着文字走，多样性也越低；每一步都要把网络跑两遍，这是它多出来的计算。</text>
+<text x="36" y="377" font-size="12.5" fill="#5A6577" text-anchor="start">去噪时用引导后的预测代替有条件的预测，其余步骤不变。</text>
+</svg>

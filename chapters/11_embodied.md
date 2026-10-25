@@ -299,7 +299,7 @@ RT-2 把动作切成离散 token，这在慢速的抓放任务上够用，遇到
 
 > **要点：** 模仿学到的上限是示范者，部署时的小错误还会层层累积，机器人怎样从自己的经历里继续学？这一段的反馈来自人的纠正、对每一步好坏的打分、真机上的反复尝试和一整队机器人的共享经验；人做家务的视频在机器人数据打好底子之后重新派上用场；动作一段段无缝接上、记住做过什么，则撑住了真实部署的时间尺度。
 
-从自主经验中学习，其实是 Levine 早就预告的事。他在 2021 年的 [Understanding the World Through Action](https://sergeylevine.substack.com/p/understanding-the-world-through-action-rl-as-a-foundation-for-scalable-self-supervised-learning-636e4e243001) 里主张让智能体去追求一切可能达成的结果，再用离线强化学习吸收所有收集到的经验，让强化学习成为一种可扩展的自监督学习；2022 年又断言机器人学习最终要靠机器人自己在真实世界里攒下的经验；2024 年的 The Promise of Generalist Robotic Policies 里，他又举了两类反馈：人用自然语言给出的纠正，以及机器人根据自己的结果做的强化学习。2024 年的 [HIL-SERL](https://arxiv.org/abs/2410.21845)（Precise and Dexterous Robotic Manipulation via Human-in-the-Loop Reinforcement Learning）在真实机器人上结合人工介入和强化学习，学会了一批精密而灵巧的操作任务。它的奖励来自每个任务单独训练的一个判别器，用遥操作时收集的成功和失败样例训练，只在任务完成时给正奖励；人的示范和中途接管的数据也放进训练用的经验池。Levine 在文中提到，在线缆布置、电路板装配这类任务上，强化学习训练出的机器人达到了 100% 的成功率，节拍也比模仿学习快两到三倍。
+从自主经验中学习，其实是 Levine 早就预告的事。他在 2021 年的 [Understanding the World Through Action](https://sergeylevine.substack.com/p/understanding-the-world-through-action-rl-as-a-foundation-for-scalable-self-supervised-learning-636e4e243001) 里主张让智能体去追求一切可能达成的结果，再用离线强化学习吸收所有收集到的经验，让强化学习成为一种可扩展的自监督学习；2022 年又断言机器人学习最终要靠机器人自己在真实世界里攒下的经验；2024 年的 The Promise of Generalist Robotic Policies 里，他又举了两类反馈：人用自然语言给出的纠正，以及机器人根据自己的结果做的强化学习。2024 年的 [HIL-SERL](https://arxiv.org/abs/2410.21845)（Precise and Dexterous Robotic Manipulation via Human-in-the-Loop Reinforcement Learning）在真实机器人上结合人工介入和强化学习，学会了一批精密而灵巧的操作任务。它的奖励来自每个任务单独训练的一个成功检测器，也就是判断任务是否完成的二分类网络，用遥操作时收集的成功和失败样例训练，只在任务完成时给正奖励；人的示范和中途接管的数据也放进训练用的经验池。Levine 在文中提到，在线缆布置、电路板装配这类任务上，强化学习训练出的机器人达到了 100% 的成功率，节拍也比模仿学习快两到三倍。
 
 2025 年 11 月的 [π\*0.6](https://arxiv.org/abs/2511.14759)（π\*0.6: a VLA That Learns From Experience）把这条路线带到了大规模 VLA 上。[π\*0.6 博客](https://www.pi.website/blog/pistar06)先解释了为什么模仿不够：控制策略在连续的物理环境里运行，小错误会把机器人带离训练分布，错误再层层累积，这是只输出一次结果的语言模型不太会遇到的。可让策略在自己的失败上反复练习，如果只是照抄过去的行为，又只会把错误强化。他们的 Recap 方法分三步：先用示范教会基本动作，再让人在机器人出错时接管，演示在它实际会到达的状态上该怎么恢复，最后用机器人自己的经历训练一个价值函数，估计每个局面离完成任务还差多少步，用价值的变化（也就是优势）给每段动作打上好或坏的标注；好坏两类数据都拿来训练，策略以这些标注为条件，执行时就可以被引导到高优势的动作上。博客报告，用自主经验训练之后，最难任务的吞吐量提高了一倍以上，失败率降低一半以上；机器人可以从早上五点半一直做咖啡到晚上十一点半。2026 年 3 月的 [Precise Manipulation with Efficient Online RL](https://www.pi.website/research/rlt) 又往前走了一步：从 VLA 内部抽出一个"RL token"，只在它上面训练一个小的演员和评论家，让任务里最精细的那一段在真机上做在线强化学习：评论家给动作打分，演员拿 VLA 原本给出的动作当参考，在它附近修改，训练数据就是这几分钟到几小时的真机经历，人也可以在机器人卡住时介入。博客没有写明奖励怎样给出。博客报告，拧螺丝、插网线这类任务的关键阶段最多快了 3 倍，插网线只用了大约 15 分钟的机器人数据。
 
@@ -534,7 +534,7 @@ Recap 的第二步补的，正是 DAgger 当年补的那块区域：示范里没
 
 > 主线位置：第五段，撑住真实部署的时间尺度。接 Physical Intelligence 的实时动作分块，它首先把“动作块之间的停顿和跳变”当成一个独立的研究问题提了出来，办法是冻结推理期间必然执行的那几步、只补全其余部分。
 
-> **要点：** 实时看的是从看到新画面到做出新决策的整条链路。有的论文压缩编码和动作头，有的复用计算，有的让小策略在大模型的动作块上快速修改，有的把等待期间仍在发生的控制写进学习状态；省下来的时间，都要拿"状态是否已经过时"来检验。
+> **要点：** 实时看的是从看到新画面到做出新决策的整条链路。有的论文压缩编码和动作头（骨干之后专门输出动作的那一块网络，π0 的动作专家就是一种动作头），有的复用计算，有的让小策略在大模型的动作块上快速修改，有的把等待期间仍在发生的控制写进学习状态；省下来的时间，都要拿"状态是否已经过时"来检验。
 
 下图把从感知到动作的链路拆成五段：看到新画面、视觉编码、骨干推理、动作生成和执行，中间几行列出本节各篇论文主要缩短的是哪一段。TurboVLA 换了更轻的编码和动作生成组合，ActionCache、FlashVLA 和动作头设计那篇都在动作生成这一段做文章，Reflex 则在执行端专测对时延敏感的任务。下方三个框是另一条思路：两篇强化学习论文不去压缩链路，改为让系统学会在延迟存在的情况下照样做对；最右边那个橙色框，是所有加速办法共同要面对的代价。
 
@@ -554,7 +554,7 @@ Recap 的第二步补的，正是 DAgger 当年补的那块区域：示范里没
 
 加速只有在缩短了"看到新画面到做出新决策"的等待时，才可能改善闭环表现。[TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM](https://arxiv.org/abs/2607.27205) 绕开了"所有动作都要经过大型语言模型"这条必经之路，探索更轻的视觉语言编码和动作生成组合。[FlashVLA: Streaming Action Decoding for Fast and Asynchronous VLA Inference](https://arxiv.org/abs/2608.27384) 让动作被持续地解码出来，告别孤立地生成整块，为异步执行提供了更平滑的更新接口。
 
-还有两篇从任务和设计空间两头补充。[Reflex: Enabling Fast and Predictive Vision-Language-Action Models for Reaction-Critical Manipulation](https://arxiv.org/abs/2608.14379) 把预测能力和快速控制结合起来，并专门用对时延敏感的任务测试动态反应。[What Makes an Efficient VLA? Navigating Action-Head Design, Scaling, and Latency](https://arxiv.org/abs/2609.13984) 固定骨干，系统比较各种动作头设计，指出初始化和表示对齐可能比新增生成结构更重要，这和知识隔离那篇博客关心的"骨干与动作专家怎样相处"是同一类问题，那篇博客发现动作专家回传的梯度会侵蚀视觉语言骨干，于是切断了这部分梯度。
+还有两篇从任务和设计空间两头补充。[Reflex: Enabling Fast and Predictive Vision-Language-Action Models for Reaction-Critical Manipulation](https://arxiv.org/abs/2608.14379) 把预测能力和快速控制结合起来，并专门用对时延敏感的任务测试动态反应。[What Makes an Efficient VLA? Navigating Action-Head Design, Scaling, and Latency](https://arxiv.org/abs/2609.13984) 固定骨干，系统比较各种动作头设计，指出初始化和表示对齐可能比新增生成结构更重要，这和知识隔离那篇博客关心的"骨干与动作专家怎样相处"是同一类问题（动作专家就是 π0 那一类模型的动作头），那篇博客发现动作专家回传的梯度会侵蚀视觉语言骨干，于是切断了这部分梯度。
 
 ### 4. 空间、语言与跨身体泛化：究竟换了什么
 

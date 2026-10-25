@@ -1,0 +1,602 @@
+[
+  {
+    "url": "https://huyenchip.com/2023/10/10/multimodal.html",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Multimodality and Large Multimodal Models (LMMs)",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://magazine.sebastianraschka.com/p/understanding-multimodal-llms",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Understanding Multimodal LLMs",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://huggingface.co/blog/vlms-2025",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Vision Language Models (Better, faster, stronger)",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://www.anthropic.com/news/developing-computer-use",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Developing a computer use model",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://xlang.ai/blog/osworld-verified",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Introducing OSWorld-Verified",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://lilianweng.github.io/posts/2022-06-09-vlm/",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Generalized Visual Language Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://huggingface.co/blog/vlms",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Vision Language Models Explained",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://openai.com/index/computer-using-agent/",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Computer-Using Agent",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://epoch.ai/blog/what-does-osworld-tell-us-about-ais-ability-to-use-computers",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "What does OSWorld tell us about AI's ability to use computers?",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://huggingface.co/blog/smol2operator",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Smol2Operator: Post-Training GUI Agents for Computer Use",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2204.14198",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Flamingo: a Visual Language Model for Few-Shot Learning",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2301.12597",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.12191",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.08914",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "CogAgent: A Visual Language Model for GUI Agents",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2310.11441",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.05243",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2306.06070",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Mind2Web: Towards a Generalist Agent for the Web",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2401.01614",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "GPT-4V(ision) is a Generalist Web Agent, if Grounded",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.04454",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Aguvis: Unified Pure Vision Agents for Autonomous GUI Interaction",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2501.12326",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "UI-TARS: Pioneering Automated GUI Interaction with Native Agents",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2405.09818",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Chameleon: Mixed-Modal Early-Fusion Foundation Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.29537",
+    "checked_at": "2026-10-19T06:40:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "OSWorld 2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/1908.02265",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/1909.11740",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "UNITER: UNiversal Image-TExt Representation Learning",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2010.11929",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.15343",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Sigmoid Loss for Language Image Pre-Training",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2307.06304",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Patch n' Pack: NaViT, a Vision Transformer for any Aspect Ratio and Resolution",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2310.03744",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Improved Baselines with Visual Instruction Tuning",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2311.10122",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Video-LLaVA: Learning United Visual Representation by Alignment Before Projection",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.17434",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "LongVU: Spatiotemporal Adaptive Compression for Long Video-Language Understanding",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2502.13923",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Qwen2.5-VL Technical Report",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2502.14786",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "SigLIP 2: Multilingual Vision-Language Encoders with Improved Semantic Understanding, Localization, and Dense Features",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2510.18234",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "DeepSeek-OCR: Contexts Optical Compression",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.23050",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Unlimited OCR Works",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.07033",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "AnchorPrune: Relevance-Anchored Contextual Expansion for Visual Token Pruning",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.09544",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "The Count Is There, but Misaligned: Understanding and Correcting Counting Failures in VLMs",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.09657",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Scalable Visual Pretraining for Language Intelligence",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.14228",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "SeeSE3: Emergence of 3D Space in Vision Features",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.15054",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Beyond Single Expert: Harmonizing Diverse Visual Priors in MLLMs for Spatial Understanding",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.16107",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Audio-Visual Flamingo: Open Audio-Visual Intelligence for Long and Complex Videos",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.17423",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "TimeLens2: Generalist Video Temporal Grounding with Multimodal LLMs",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.18839",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "HPD-Parsing: Hierarchical Parallel Document Parsing",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.21595",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "3D-Aware VLMs with Implicit and Explicit Geometries",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2608.05747",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "GST-Bench: Can VLMs Develop Global Spatial Awareness from Video?",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2608.07302",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Same Attention, Different Truths: Put Logit-Lens over Visual Attention to Detect and Mitigate LVLM Object Hallucination",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2608.12209",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Generation as Auxiliary Supervision: Enhancing Visual Understanding at Zero Inference Overhead via Decoupled Embedding Prediction",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2608.16316",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Deep Thought Alignment: Trajectory-Level Latent Distillation for Video Reasoning",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2608.17402",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2608.18881",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Falcon Perception-HD: High Density Perception via Reinforcement Learning",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2608.21134",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Llama-Mobile: Efficient 2.7-Bit Quantization of VLMs",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2608.22174",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "When Does Visual Generation Help Visual Understanding in Unified Multimodal Models?",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2608.27065",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Video-OPSD: Exploiting Privileged Visual Evidence for On-Policy Self-Distillation in Video Large Language Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2608.27417",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Retrieval Heads Meet Vision: Uncovering How VLMs Locate and Extract Visual Information",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.11929",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "SenseNova-U1.5: Towards Native Unified Visual Intelligence",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.15478",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "BVB: Benchmarking Agentic Video Understanding via Programmatic Reconstruction in Blender",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.19745",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Region-Level Policy Optimization for Fine-grained MLLM Perception",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.31193",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Who Says What: Symbolic Trimodal Binding Mechanisms in Audio-Visual LLMs",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.32808",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Mind the Spike: Mechanisms and Brittleness of Visual Massive Activations in Large Vision-Language Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.35457",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "How Far Are We from Removing the Visual Encoder? Scaling Laws for Encoder-Free Multimodal Pretraining",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.38426",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "LoopVL: Recurrent Visual Intelligence",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.18615",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "VideoJev: System One Model for Video Understanding and Interaction",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.18829",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.21459",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Can Visual Generation Expand What Unified Multimodal Models Know?",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.22276",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.23987",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "What Generation Knows: Unlocking Fine-Grained Understanding in Unified Multimodal Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.26549",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Holi-World: Building Holistic World Intelligence from Human-Ego Experience",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.31329",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.31668",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页并核对题名与摘要"
+  },
+  {
+    "url": "https://huggingface.co/blog/ocr-open-models",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Supercharge your OCR Pipelines with Open Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开并核对题名、作者与日期（Hugging Face 博客，2025-10-21，作者 merve 等）"
+  },
+  {
+    "url": "https://huggingface.co/blog/smolvlm2",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "SmolVLM2: Bringing Video Understanding to Every Device",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开并核对题名、作者与日期（Hugging Face 博客，2025-02-20）"
+  },
+  {
+    "url": "https://llava-vl.github.io/blog/2024-01-30-llava-next/",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "LLaVA-NeXT: Improved reasoning, OCR, and world knowledge",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开并核对题名、作者与日期（LLaVA 团队博客，2024-01-30，AnyRes 高分辨率）"
+  },
+  {
+    "url": "https://qwenlm.github.io/blog/qwen2-vl/",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Qwen2-VL: To See the World More Clearly",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开并核对题名、作者与日期（通义千问团队博客，2024-08-29，朴素动态分辨率与 M-RoPE）"
+  },
+  {
+    "url": "https://www.alphaxiv.org/abs/2608.ocg-optical-character-grounded-reasoning",
+    "checked_at": "2026-10-24T11:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "OCG: Optical Character Grounded Visual Reasoning with Flow Matching",
+    "notes": "本地语料条目（alphaXiv 页面）；2026-10-24 核对本地摘要与题名"
+  },
+  {
+    "url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
+    "checked_at": "2026-10-24T12:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开并核对题名、作者与日期（NVIDIA，Hugging Face 博客，2026-04-28；编码器加两层 MLP 投影器、原生长宽比动态分辨率、Conv3D tubelet 与 EVS、合成文档问答约 1140 万条）"
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.26196",
+    "checked_at": "2026-10-24T12:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "From Structure to Synergy: A Survey of Vision-Language Perception Paradigm Evolution in Multimodal Large Language Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经 WebFetch 人工打开 arXiv 摘要页与 HTML 全文核对题名、作者与日期（Haoxiang Sun 等，2026-06-24 提交 v1；五阶段感知范式分类综述）"
+  }
+]

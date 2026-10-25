@@ -179,7 +179,7 @@ GAN 快，却训练不稳、难以控制。它一步出图，后来的 [StyleGAN
 
 *示意：码率、失真与可建模性的三方权衡，以及潜表示从“什么都不编码”到“什么都编码”的光谱。*
 
-表示这条线之外，网络骨干和训练目标两条线也在各自换代，三条线彼此正交。早期扩散模型的网络是 U-Net，一种先把图逐层缩小、提取整体结构，再逐层放大、补回细节的卷积网络；它在图像上很好用，可往大了堆参数时，收益不如 Transformer 那样稳定。[DiT](https://arxiv.org/abs/2212.09748) 把骨干换成 Transformer，做法和 ViT 读图一样，把潜变量网格切成小块，每块当成一个 token，生成模型从此也能像语言模型一样，靠加大模型和数据稳定地变强。[Flow Matching](https://arxiv.org/abs/2210.02747) 和 [rectified flow](https://arxiv.org/abs/2209.03003)（Flow Straight and Fast）则给连续生成提供了另一种训练表述，也就是第一节对照表里流匹配那一栏：在噪声和照片之间连一条直线，让网络预测沿直线走的速度。两条线在 [Scaling Rectified Flow Transformers for High-Resolution Image Synthesis](https://arxiv.org/abs/2403.03206)（Stable Diffusion 3）里汇合：它的 MMDiT 让文字 token 和图像块 token 在同一个注意力里互相看，训练目标换成了 rectified flow。它们分别改变的是结构和学习目标，和潜空间设计是彼此正交的三件事。理解这种分层，才能在读近期论文时看清：它究竟在减少表示损失，在改善优化，还是在增加模型容量。
+表示这条线之外，网络骨干和训练目标两条线也在各自换代，三条线彼此正交。早期扩散模型的网络是 U-Net，一种先把图逐层缩小、提取整体结构，再逐层放大、补回细节的卷积网络；它在图像上很好用，可往大了堆参数时，收益不如 Transformer 那样稳定。[DiT](https://arxiv.org/abs/2212.09748) 把骨干换成 Transformer，做法和 ViT 读图一样，把潜变量网格切成小块，每块当成一个 token。拿 Transformer 生成图像并不新鲜，2021 年的 DALL-E 就是用 Transformer 接在文字后面一个编号一个编号地写；DiT 的不同在于把它用作扩散模型的去噪网络，扩散模型从此也能像语言模型一样，靠加大模型和数据稳定地变强。[Flow Matching](https://arxiv.org/abs/2210.02747) 和 [rectified flow](https://arxiv.org/abs/2209.03003)（Flow Straight and Fast）则给连续生成提供了另一种训练表述，也就是第一节对照表里流匹配那一栏：在噪声和照片之间连一条直线，让网络预测沿直线走的速度。两条线在 [Scaling Rectified Flow Transformers for High-Resolution Image Synthesis](https://arxiv.org/abs/2403.03206)（Stable Diffusion 3）里汇合：它的 MMDiT 让文字 token 和图像块 token 在同一个注意力里互相看，训练目标换成了 rectified flow。它们分别改变的是结构和学习目标，和潜空间设计是彼此正交的三件事。理解这种分层，才能在读近期论文时看清：它究竟在减少表示损失，在改善优化，还是在增加模型容量。
 
 ![U-Net 先缩小再放大，DiT 把潜变量切块交给 Transformer](../assets/multimodal/fig-unet.svg)
 

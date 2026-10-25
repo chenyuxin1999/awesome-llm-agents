@@ -4,7 +4,7 @@ Agent 训练数据、合成数据、训练环境与轨迹构建。
 
 [文献目录](README.md) · [分类方法](../docs/classification_audit.md)
 
-[阅读专题导读](../chapters/md/04_data_and_environments.md)
+[阅读专题导读](../main/md/04_data_and_environments.md)
 
 本方向收录 **25 条记录**。相关方向用于交叉检索，不重复计入各类数量。
 

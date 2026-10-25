@@ -4,7 +4,7 @@ AI 科学发现、生物化学、数学发现与形式验证；纯数学结论�
 
 [文献目录](README.md) · [分类方法](../docs/classification_audit.md)
 
-[阅读专题导读](../chapters/md/12_science.md)
+[阅读专题导读](../main/md/12_science.md)
 
 本方向收录 **15 条记录**。相关方向用于交叉检索，不重复计入各类数量。
 

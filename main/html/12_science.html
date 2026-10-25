@@ -114,7 +114,7 @@ footer{margin-top:64px;color:var(--muted);font-size:13px;border-top:1px solid va
 <div class="eyebrow">LLM / AGENT 科研地图 · 第 12 章 · 图解版</div>
 <h1>12｜让智能体参与科研</h1>
 <div class="subtitle">从提出猜想到检查证据</div>
-<div class="topnav"><a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/README.md">首页</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/README.md#topics">专题索引</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/catalog/12_science.md">文献目录</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/chapters/12_science.md">Markdown 版</a></div>
+<div class="topnav"><a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/README.md">首页</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/README.md#topics">专题索引</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/catalog/12_science.md">文献目录</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/main/md/12_science.md">Markdown 版</a></div>
 <div class="legend"><span class="k-task"><i class="sw"></i>研究问题与输入</span><span class="k-model"><i class="sw"></i>模型与智能体</span><span class="k-exp"><i class="sw"></i>数据、文献、证据</span><span class="k-upd"><i class="sw"></i>搜索、排序、更新</span><span class="k-check"><i class="sw"></i>验证与实验</span><span class="k-state"><i class="sw"></i>保存下来的产物</span><span class="k-human"><i class="sw"></i>人类研究者</span><span class="k-risk"><i class="sw"></i>风险与漏洞</span></div>
 <p><strong>阅读前置：</strong> 若尚不熟悉模型参数、上下文、监督微调与强化学习，先读 <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/docs/llm_primer.md">LLM 前置知识</a>。</p>
 <section id="s1"><h2>方向背景：为什么科研智能体需要证据闭环</h2>
@@ -327,9 +327,9 @@ footer{margin-top:64px;color:var(--muted);font-size:13px;border-top:1px solid va
 <p>评价发现能力，要把题意、计算、经验支持和价值分开测量，因为新的结果往往缺少即时的真值，形式上正确也保证不了研究对象和假设合理。周末那篇论文写得再漂亮，也要拆开来检查：题意对不对，计算对不对，经验支持够不够，价值有多大。研究机会在于设计分阶段、领域特定的验证，把这几项分别测量，并借助独立审查或后续实验来支撑；同时研究有限的验证预算怎样分配给最可能产生有效知识的候选。Tao 发现设计钻不了空子的评估器需要大量人力，这说明验证器本身就是一个值得研究的对象。</p>
 </section>
 <section id="s8"><h2>六、可靠资源</h2>
-<p>形式证明方面，<a href="https://lean-lang.org/theorem_proving_in_lean4/">Lean 官方教材</a>适合从头学习语言和证明规则，<a href="https://github.com/leanprover-community/mathlib4">Mathlib</a> 则用来检索定理库、检查依赖。研究流程方面，可以把 <a href="https://github.com/SakanaAI/AI-Scientist">AI Scientist 作者代码</a>和论文对照着读，比较候选生成、实验执行与成果验收之间的接口；想看演化搜索的最小可运行版本，可以从 <a href="https://github.com/google-deepmind/funsearch">FunSearch 仓库</a>入手，它让大模型写出候选程序，用打分函数评估，再把好的程序放回提示里继续演化。相关章节：<a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/chapters/06_evaluation.md">评测与验证</a>、<a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/chapters/14_model_science.md">模型科学</a>、<a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/chapters/15_frontier_reports.md">技术报告</a>。</p>
+<p>形式证明方面，<a href="https://lean-lang.org/theorem_proving_in_lean4/">Lean 官方教材</a>适合从头学习语言和证明规则，<a href="https://github.com/leanprover-community/mathlib4">Mathlib</a> 则用来检索定理库、检查依赖。研究流程方面，可以把 <a href="https://github.com/SakanaAI/AI-Scientist">AI Scientist 作者代码</a>和论文对照着读，比较候选生成、实验执行与成果验收之间的接口；想看演化搜索的最小可运行版本，可以从 <a href="https://github.com/google-deepmind/funsearch">FunSearch 仓库</a>入手，它让大模型写出候选程序，用打分函数评估，再把好的程序放回提示里继续演化。相关章节：<a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/main/md/06_evaluation.md">评测与验证</a>、<a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/main/md/14_model_science.md">模型科学</a>、<a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/main/md/15_frontier_reports.md">技术报告</a>。</p>
 </section>
-<footer>本页与仓库中 chapters/12_science.md 内容一致，图在 assets/science/ 下。图中颜色：蓝为研究问题与输入，紫为模型与智能体，琥珀为数据、文献与证据，粉为搜索与更新，绿为验证与实验，灰为保存下来的产物，深青为人类研究者，橙为风险。</footer>
+<footer>本页与仓库中 main/md/12_science.md 内容一致，图在 assets/science/ 下。图中颜色：蓝为研究问题与输入，紫为模型与智能体，琥珀为数据、文献与证据，粉为搜索与更新，绿为验证与实验，灰为保存下来的产物，深青为人类研究者，橙为风险。</footer>
 </main>
 </div>
 </body>

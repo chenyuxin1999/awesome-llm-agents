@@ -114,7 +114,7 @@ footer{margin-top:64px;color:var(--muted);font-size:13px;border-top:1px solid va
 <div class="eyebrow">LLM / AGENT 科研地图 · 第 13 章 · 图解版</div>
 <h1>13｜效率与循环架构</h1>
 <div class="subtitle">少算一些，真的会更快吗？</div>
-<div class="topnav"><a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/README.md">首页</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/README.md#topics">专题索引</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/catalog/13_efficiency_and_architecture.md">文献目录</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/chapters/13_efficiency_and_architecture.md">Markdown 版</a></div>
+<div class="topnav"><a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/README.md">首页</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/README.md#topics">专题索引</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/catalog/13_efficiency_and_architecture.md">文献目录</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/main/md/13_efficiency_and_architecture.md">Markdown 版</a></div>
 <div class="legend"><span class="k-task"><i class="sw"></i>请求、输入与 token</span><span class="k-model"><i class="sw"></i>模型计算</span><span class="k-exp"><i class="sw"></i>KV 缓存与被搬运的数据</span><span class="k-upd"><i class="sw"></i>调度、路由、草稿与停止</span><span class="k-check"><i class="sw"></i>验证与质量</span><span class="k-state"><i class="sw"></i>硬件、权重与存储</span><span class="k-risk"><i class="sw"></i>代价、瓶颈与负结果</span></div>
 <section id="s1"><h2>方向背景：为什么效率必须按完整任务衡量</h2>
 <p>agent 干活时，模型大部分时间在“读”，很少在“写”，中间还夹着大量等待工具的空档。设想让一个编程 agent 去修一个仓库里的 bug。它先读需求，再列目录、打开几个文件、跑一遍测试、看报错、改两行代码、再跑测试，前前后后五十来步才收工。每一步，它都要把系统提示、工具说明和到目前为止的全部历史重新交给模型，模型读完这一大段上下文，最后只吐出一小段函数调用，接着就是等工具返回。Manus 团队在一篇工程博客里给过一个很直观的数字：他们的 agent 平均每产出 1 个 token，要先读进去大约 100 个 token。</p>
@@ -347,9 +347,9 @@ footer{margin-top:64px;color:var(--muted);font-size:13px;border-top:1px solid va
 <p>低精度、稀疏化和参数复用的收益，都依赖具体的实现和硬件支持，理论计算量预测不了部署效果。vSkipper 发现跳层方法脱离服务引擎单独运行时反而变慢，非 GPU 部署的实地研究在 Ascend 软硬件栈上碰到了算子、数值正确性和维护上的一连串困难，都说明了这一点。研究机会在于联合设计模型结构、算子和服务策略，建立可以迁移的成本模型，就像 kipply 和《How To Scale Your Model》用纸笔估算那样，先给出一个可信的下界，再解释实测和下界之间的每一处偏差。报告时还应同时给出维护复杂度、数值正确性和完整任务的表现，只比较理想配置下的峰值速度意义有限。</p>
 </section>
 <section id="s8"><h2>六、可靠资源</h2>
-<p>架构方面，可以从 Transformer、Universal Transformers 和 Switch Transformers 读起；系统方面，可以从 FlashAttention、PagedAttention 和 <a href="https://github.com/vllm-project/vllm">vLLM 官方仓库</a>读起，配合本章“先读这几篇”里的几篇长文建立估算的直觉。token、Transformer、训练与推理等基础概念可以查阅 <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/docs/llm_primer.md">LLM 前置知识</a>。做循环计算或草稿扩展的对比实验时，记得固定实现版本，并把模型计算、缓存管理和服务调度三方面的变化分别记录下来。相关章节：<a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/chapters/01_basics.md">基础与工具</a>、<a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/chapters/14_model_science.md">模型科学</a>、<a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/chapters/15_frontier_reports.md">技术报告</a>。</p>
+<p>架构方面，可以从 Transformer、Universal Transformers 和 Switch Transformers 读起；系统方面，可以从 FlashAttention、PagedAttention 和 <a href="https://github.com/vllm-project/vllm">vLLM 官方仓库</a>读起，配合本章“先读这几篇”里的几篇长文建立估算的直觉。token、Transformer、训练与推理等基础概念可以查阅 <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/docs/llm_primer.md">LLM 前置知识</a>。做循环计算或草稿扩展的对比实验时，记得固定实现版本，并把模型计算、缓存管理和服务调度三方面的变化分别记录下来。相关章节：<a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/main/md/01_basics.md">基础与工具</a>、<a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/main/md/14_model_science.md">模型科学</a>、<a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/main/md/15_frontier_reports.md">技术报告</a>。</p>
 </section>
-<footer>本页与仓库中 chapters/13_efficiency_and_architecture.md 内容一致，图在 assets/efficiency/ 下。图中颜色：蓝为请求与输入，紫为模型计算，琥珀为 KV 缓存与数据，粉为调度与控制，绿为验证与质量，灰为硬件与存储，橙为代价与瓶颈。</footer>
+<footer>本页与仓库中 main/md/13_efficiency_and_architecture.md 内容一致，图在 assets/efficiency/ 下。图中颜色：蓝为请求与输入，紫为模型计算，琥珀为 KV 缓存与数据，粉为调度与控制，绿为验证与质量，灰为硬件与存储，橙为代价与瓶颈。</footer>
 </main>
 </div>
 </body>

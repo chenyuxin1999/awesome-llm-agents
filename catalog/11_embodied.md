@@ -4,7 +4,7 @@
 
 [文献目录](README.md) · [分类方法](../docs/classification_audit.md)
 
-[阅读专题导读](../chapters/md/11_embodied.md)
+[阅读专题导读](../main/md/11_embodied.md)
 
 本方向收录 **303 条记录**。相关方向用于交叉检索，不重复计入各类数量。
 

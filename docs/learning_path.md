@@ -8,34 +8,34 @@
 
 真实系统包含持久状态、多工具依赖、权限、参与者和异常流程。关键问题是怎样提取一个足够完整的环境边界，既支持重放与对照，又不丢失决定任务难度的真实约束。训练与评测应共享明确的状态和结果定义，但保留独立任务，避免系统只适应同一套环境生成规则。
 
-这一方向连接[训练数据与环境](../chapters/md/04_data_and_environments.md)、[评测](../chapters/md/06_evaluation.md)、[多模态 agent](../chapters/md/19_multimodal_agent.md)与[具身智能](../chapters/md/11_embodied.md)。研究产物可以是可执行环境、任务构造方法或现实表现与基准表现之间的有效性分析，而不仅是一批静态问答。
+这一方向连接[训练数据与环境](../main/md/04_data_and_environments.md)、[评测](../main/md/06_evaluation.md)、[多模态 agent](../main/md/19_multimodal_agent.md)与[具身智能](../main/md/11_embodied.md)。研究产物可以是可执行环境、任务构造方法或现实表现与基准表现之间的有效性分析，而不仅是一批静态问答。
 
 ## 2. 如何把未来期望的自主能力形式化为任务与学习目标？
 
 主动发现问题、长期维持目标、协调异质工具和持续积累经验，都需要从愿景转化为可观察行为。关键是设计必须使用目标能力才能完成的任务，并排除扩大上下文、额外采样或固定流程等替代解释。能力定义应允许构造不同难度和不同表面条件，而不是绑定到某一个演示。
 
-这一方向连接[基础与规划](../chapters/md/01_basics.md)、[记忆](../chapters/md/02_memory.md)、[自我改进（RSI）](../chapters/md/03_self_improvement.md)及[评测](../chapters/md/06_evaluation.md)。对于递归改进，还要区分执行策略变化与改进机制变化，相关框架见[综述导读](../chapters/md/00_surveys.md)。
+这一方向连接[基础与规划](../main/md/01_basics.md)、[记忆](../main/md/02_memory.md)、[自我改进（RSI）](../main/md/03_self_improvement.md)及[评测](../main/md/06_evaluation.md)。对于递归改进，还要区分执行策略变化与改进机制变化，相关框架见[综述导读](../main/md/00_surveys.md)。
 
 ## 3. 如何持续构造挑战前沿系统的复杂任务，同时保持可解性与可信反馈？
 
 复杂度可以来自依赖深度、部分可观察性、环境变化、跨领域组合和约束冲突。研究机会是学习这些因素如何影响系统能力边界，并建立可控任务生成与难度校准机制。困难应来自需要研究的能力，而不是歧义、工具缺陷或错误验收；独立验证需要与任务生成同步设计。
 
-这一方向连接[训练数据](../chapters/md/04_data_and_environments.md)、[强化学习](../chapters/md/05_rl_and_distillation.md)、[评测](../chapters/md/06_evaluation.md)与[协作](../chapters/md/08_collaboration.md)。关键产物可以是能够随着系统进步持续产生有效挑战的任务族，而不是一次性的低分榜单。
+这一方向连接[训练数据](../main/md/04_data_and_environments.md)、[强化学习](../main/md/05_rl_and_distillation.md)、[评测](../main/md/06_evaluation.md)与[协作](../main/md/08_collaboration.md)。关键产物可以是能够随着系统进步持续产生有效挑战的任务族，而不是一次性的低分榜单。
 
 ## 4. 如何让长期经验形成可迁移增长，同时保留纠错与安全边界？
 
 持续运行的系统会修改记忆、技能、参数和工作流程，新经验可能有用，也可能过时或污染未来决策。研究需要明确更新对象、接纳条件与撤销传播，并用独立任务流观察新能力和旧能力。可靠增长不仅要有更高分数，还要知道变化来自哪里、何时失效以及如何恢复。
 
-这一方向连接[记忆](../chapters/md/02_memory.md)、[自我改进](../chapters/md/03_self_improvement.md)、[Harness 工程](../chapters/md/18_harness_engineering.md)、[强化学习与蒸馏](../chapters/md/05_rl_and_distillation.md)、[安全](../chapters/md/07_safety_and_alignment.md)及[模型科学](../chapters/md/14_model_science.md)。
+这一方向连接[记忆](../main/md/02_memory.md)、[自我改进](../main/md/03_self_improvement.md)、[Harness 工程](../main/md/18_harness_engineering.md)、[强化学习与蒸馏](../main/md/05_rl_and_distillation.md)、[安全](../main/md/07_safety_and_alignment.md)及[模型科学](../main/md/14_model_science.md)。
 
 ## 5. 如何让多模态预测、行动与科学探索在闭环中协同？
 
 视觉理解、未来预测和内容生成可以支持行动，但不同能力的局部成绩不能直接相加为系统能力。研究机会是让表示、模型预测、工具执行与外部验证围绕同一目标协作，并追踪误差如何跨模块传播。科研与具身场景尤其需要区分候选生成、模型内判断和真实结果确认。
 
-这一方向连接[多模态理解](../chapters/md/09_multimodal_understanding.md)、[多模态 agent](../chapters/md/19_multimodal_agent.md)、[世界模型](../chapters/md/10_world_models.md)、[具身智能](../chapters/md/11_embodied.md)、[科研](../chapters/md/12_science.md)及[多模态生成](../chapters/md/16_multimodal_generation.md)。
+这一方向连接[多模态理解](../main/md/09_multimodal_understanding.md)、[多模态 agent](../main/md/19_multimodal_agent.md)、[世界模型](../main/md/10_world_models.md)、[具身智能](../main/md/11_embodied.md)、[科研](../main/md/12_science.md)及[多模态生成](../main/md/16_multimodal_generation.md)。
 
 ## 6. 如何在真实资源约束下解释并复现能力进步？
 
 更好的结果可能来自方法、数据、模型、计算预算或接口变化。研究机会是建立能够分离这些因素的实验，并把训练、推理、环境调用及人工检查放进一致的资源口径。跨版本与跨平台比较应保留质量边界和失效条件，使局部机制能够在新设置中受到检验。
 
-这一方向连接[效率](../chapters/md/13_efficiency_and_architecture.md)、[模型科学](../chapters/md/14_model_science.md)与[技术报告](../chapters/md/15_frontier_reports.md)。相关基础可按需查阅[前置知识](llm_primer.md)和[术语表](glossary.md)，实验与证据要求见[质量标准](quality_review.md)。
+这一方向连接[效率](../main/md/13_efficiency_and_architecture.md)、[模型科学](../main/md/14_model_science.md)与[技术报告](../main/md/15_frontier_reports.md)。相关基础可按需查阅[前置知识](llm_primer.md)和[术语表](glossary.md)，实验与证据要求见[质量标准](quality_review.md)。

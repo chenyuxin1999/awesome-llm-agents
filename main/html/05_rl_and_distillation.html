@@ -114,7 +114,7 @@ footer{margin-top:64px;color:var(--muted);font-size:13px;border-top:1px solid va
 <div class="eyebrow">LLM / AGENT 科研地图 · 第 05 章 · 图解版</div>
 <h1>05｜强化学习与蒸馏</h1>
 <div class="subtitle">从监督信号到长期行为的改变</div>
-<div class="topnav"><a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/README.md">首页</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/README.md#topics">专题索引</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/catalog/05_rl_and_distillation.md">文献目录</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/chapters/05_rl_and_distillation.md">Markdown 版</a></div>
+<div class="topnav"><a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/README.md">首页</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/README.md#topics">专题索引</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/catalog/05_rl_and_distillation.md">文献目录</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/main/md/05_rl_and_distillation.md">Markdown 版</a></div>
 <div class="legend"><span class="k-task"><i class="sw"></i>提示与任务</span><span class="k-model"><i class="sw"></i>策略（学生）</span><span class="k-exp"><i class="sw"></i>轨迹、示范、数据</span><span class="k-accent"><i class="sw"></i>教师信号</span><span class="k-check"><i class="sw"></i>奖励、验证器、环境</span><span class="k-upd"><i class="sw"></i>优势、损失、更新</span><span class="k-state"><i class="sw"></i>参考与价值等辅助模型</span><span class="k-risk"><i class="sw"></i>失效与风险</span></div>
 <section id="s1"><h2>方向背景：一个小模型怎样学会在仓库里修 bug</h2>
 <p>照着强模型的示范学，是训练小模型最省事的办法，可示范只照到这个强模型会走到的地方。下文把这个提供示范或打分的强模型叫作教师，它是现成训练好的模型，在蒸馏过程中参数不动，被训练的小模型叫作学生。设想我们想让一个七八十亿参数的小模型学会在真实代码仓库里修 bug，就请一个强模型先修几千个 bug，把它的每一步操作都记下来，再让小模型照着这些记录逐 token 模仿。训练完一跑，小模型在示范里见过的情形下学得有模有样；可只要某条命令报了一个示范里从没出现过的错，或者它自己早几步选错了文件，后面的路就再也没有人教过它怎么走，错误一步步累积，最后彻底跑偏。学生自己会走到的地方，恰恰是示范没有照到的盲区。</p>
@@ -355,7 +355,7 @@ footer{margin-top:64px;color:var(--muted);font-size:13px;border-top:1px solid va
 <p>长轨迹训练扩展到真实规模后，异步环境、策略滞后、上下文压缩和任务难度差异会共同影响训练分布。可以研究训练算法和执行系统的联合设计，让高吞吐不必以失真的监督和不稳定的更新为代价。Lambert 估算的那种百万 token 级别的回合一旦成为现实，这个问题只会更尖锐。评价时，应当把环境调用、模型计算和失败重试统一算进成本，并在没见过的任务上检查能力能否保持、能否长期泛化。</p>
 <p><strong>实验资源：</strong> <a href="https://github.com/volcengine/verl">verl官方仓库</a> · <a href="https://github.com/microsoft/agent-lightning">Agent Lightning官方仓库</a>。使用前核对任务、版本、数据与运行条件。</p>
 </section>
-<footer>本页与仓库中 chapters/05_rl_and_distillation.md 内容一致，图在 assets/rl/ 下。图中颜色：蓝为提示与任务，紫为正在训练的策略，琥珀为轨迹与示范，深青为教师信号，绿为奖励与验证器，粉为优势、损失与更新，灰为参考模型、价值模型等辅助模型，橙为失效与风险。</footer>
+<footer>本页与仓库中 main/md/05_rl_and_distillation.md 内容一致，图在 assets/rl/ 下。图中颜色：蓝为提示与任务，紫为正在训练的策略，琥珀为轨迹与示范，深青为教师信号，绿为奖励与验证器，粉为优势、损失与更新，灰为参考模型、价值模型等辅助模型，橙为失效与风险。</footer>
 </main>
 </div>
 </body>

@@ -222,5 +222,13 @@
     "status": "fetch_failed",
     "title": "Toward Safe LLM Agents: A Survey of Specification, Verification, and Enforcement (Pierre Dantas, Lucas Cordeiro, Ehsan Nowroozi, Norbert Tihanyi, arXiv 2608.14590, v3 2026-10-20)",
     "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开 arXiv 摘要页，核对题名、作者、版本日期与摘要中的数字"
+  },
+  {
+    "url": "https://arxiv.org/abs/2212.09251",
+    "checked_at": "2026-10-25T12:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "verified_title_and_abstract",
+    "title": "Discovering Language Model Behaviors with Model-Written Evaluations",
+    "notes": "2026-10-25 经网页阅读服务打开 arXiv 摘要页，核对题名与摘要；用于修正首创性表述"
   }
 ]

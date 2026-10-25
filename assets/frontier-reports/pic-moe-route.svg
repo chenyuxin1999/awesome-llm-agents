@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 410" width="880" height="410" role="img" aria-label="专家混合怎样为一个 token 挑专家" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">
+<rect x="0" y="0" width="880" height="410" fill="#ffffff"/>
+<defs><marker id="moea" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker><marker id="moer" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C2501A"/></marker><marker id="moeg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#26805A"/></marker><marker id="moep" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5B45B0"/></marker></defs>
+<text x="20" y="26" font-size="14" fill="#18202C" text-anchor="start" font-weight="700">专家混合：每个 token 只交给打分最高的两个专家（示意）</text>
+<rect x="20" y="90" width="44" height="44" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1.2" rx="6"/>
+<text x="42" y="119" font-size="20" fill="#18202C" text-anchor="middle" font-weight="700">猫</text>
+<rect x="78" y="78" width="18" height="10" fill="#a7a7a7" stroke="#9AA3B2" stroke-width="0.6"/>
+<rect x="78" y="89" width="18" height="10" fill="#dbdbdb" stroke="#9AA3B2" stroke-width="0.6"/>
+<rect x="78" y="100" width="18" height="10" fill="#808080" stroke="#9AA3B2" stroke-width="0.6"/>
+<rect x="78" y="111" width="18" height="10" fill="#c1c1c1" stroke="#9AA3B2" stroke-width="0.6"/>
+<rect x="78" y="122" width="18" height="10" fill="#9a9a9a" stroke="#9AA3B2" stroke-width="0.6"/>
+<rect x="78" y="133" width="18" height="10" fill="#cecece" stroke="#9AA3B2" stroke-width="0.6"/>
+<text x="87" y="156" font-size="10" fill="#5A6577" text-anchor="middle">隐藏向量</text>
+<line x1="100" y1="112" x2="128" y2="112" stroke="#5A6577" stroke-width="1.4" marker-end="url(#moea)"/>
+<rect x="132" y="92" width="64" height="40" fill="#E9EDF3" stroke="#47546A" stroke-width="1" rx="6"/>
+<text x="164" y="117" font-size="12" fill="#18202C" text-anchor="middle" font-weight="600">路由器</text>
+<line x1="198" y1="112" x2="226" y2="112" stroke="#5A6577" stroke-width="1.4" marker-end="url(#moea)"/>
+<rect x="232" y="146.1" width="20" height="3.9" fill="#C9CED8"/>
+<text x="242" y="142.1" font-size="9.5" fill="#5A6577" text-anchor="middle">0.03</text>
+<text x="242" y="165" font-size="10" fill="#5A6577" text-anchor="middle">E1</text>
+<rect x="262" y="96.7" width="20" height="53.3" fill="#5B45B0"/>
+<text x="272" y="92.7" font-size="9.5" fill="#5B45B0" text-anchor="middle">0.41</text>
+<text x="272" y="165" font-size="10" fill="#5A6577" text-anchor="middle">E2</text>
+<rect x="292" y="143.5" width="20" height="6.5" fill="#C9CED8"/>
+<text x="302" y="139.5" font-size="9.5" fill="#5A6577" text-anchor="middle">0.05</text>
+<text x="302" y="165" font-size="10" fill="#5A6577" text-anchor="middle">E3</text>
+<rect x="322" y="147.4" width="20" height="2.6" fill="#C9CED8"/>
+<text x="332" y="143.4" font-size="9.5" fill="#5A6577" text-anchor="middle">0.02</text>
+<text x="332" y="165" font-size="10" fill="#5A6577" text-anchor="middle">E4</text>
+<rect x="352" y="107.1" width="20" height="42.9" fill="#5B45B0"/>
+<text x="362" y="103.1" font-size="9.5" fill="#5B45B0" text-anchor="middle">0.33</text>
+<text x="362" y="165" font-size="10" fill="#5A6577" text-anchor="middle">E5</text>
+<rect x="382" y="142.2" width="20" height="7.8" fill="#C9CED8"/>
+<text x="392" y="138.2" font-size="9.5" fill="#5A6577" text-anchor="middle">0.06</text>
+<text x="392" y="165" font-size="10" fill="#5A6577" text-anchor="middle">E6</text>
+<rect x="412" y="144.8" width="20" height="5.2" fill="#C9CED8"/>
+<text x="422" y="140.8" font-size="9.5" fill="#5A6577" text-anchor="middle">0.04</text>
+<text x="422" y="165" font-size="10" fill="#5A6577" text-anchor="middle">E7</text>
+<rect x="442" y="142.2" width="20" height="7.8" fill="#C9CED8"/>
+<text x="452" y="138.2" font-size="9.5" fill="#5A6577" text-anchor="middle">0.06</text>
+<text x="452" y="165" font-size="10" fill="#5A6577" text-anchor="middle">E8</text>
+<line x1="228" y1="150" x2="470" y2="150" stroke="#9AA3B2" stroke-width="1"/>
+<rect x="560" y="72" width="62" height="38" fill="#F6F7F9" stroke="#E2E6EC" stroke-width="1" rx="5"/>
+<text x="591" y="89" font-size="11" fill="#A7AFBC" text-anchor="middle">专家 E1</text>
+<text x="591" y="103" font-size="10" fill="#A7AFBC" text-anchor="middle">不动</text>
+<rect x="632" y="72" width="62" height="38" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.6" rx="5"/>
+<text x="663" y="89" font-size="11" fill="#5B45B0" text-anchor="middle" font-weight="600">专家 E2</text>
+<text x="663" y="103" font-size="10" fill="#5B45B0" text-anchor="middle">计算</text>
+<rect x="704" y="72" width="62" height="38" fill="#F6F7F9" stroke="#E2E6EC" stroke-width="1" rx="5"/>
+<text x="735" y="89" font-size="11" fill="#A7AFBC" text-anchor="middle">专家 E3</text>
+<text x="735" y="103" font-size="10" fill="#A7AFBC" text-anchor="middle">不动</text>
+<rect x="776" y="72" width="62" height="38" fill="#F6F7F9" stroke="#E2E6EC" stroke-width="1" rx="5"/>
+<text x="807" y="89" font-size="11" fill="#A7AFBC" text-anchor="middle">专家 E4</text>
+<text x="807" y="103" font-size="10" fill="#A7AFBC" text-anchor="middle">不动</text>
+<rect x="560" y="118" width="62" height="38" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.6" rx="5"/>
+<text x="591" y="135" font-size="11" fill="#5B45B0" text-anchor="middle" font-weight="600">专家 E5</text>
+<text x="591" y="149" font-size="10" fill="#5B45B0" text-anchor="middle">计算</text>
+<rect x="632" y="118" width="62" height="38" fill="#F6F7F9" stroke="#E2E6EC" stroke-width="1" rx="5"/>
+<text x="663" y="135" font-size="11" fill="#A7AFBC" text-anchor="middle">专家 E6</text>
+<text x="663" y="149" font-size="10" fill="#A7AFBC" text-anchor="middle">不动</text>
+<rect x="704" y="118" width="62" height="38" fill="#F6F7F9" stroke="#E2E6EC" stroke-width="1" rx="5"/>
+<text x="735" y="135" font-size="11" fill="#A7AFBC" text-anchor="middle">专家 E7</text>
+<text x="735" y="149" font-size="10" fill="#A7AFBC" text-anchor="middle">不动</text>
+<rect x="776" y="118" width="62" height="38" fill="#F6F7F9" stroke="#E2E6EC" stroke-width="1" rx="5"/>
+<text x="807" y="135" font-size="11" fill="#A7AFBC" text-anchor="middle">专家 E8</text>
+<text x="807" y="149" font-size="10" fill="#A7AFBC" text-anchor="middle">不动</text>
+<path d="M472,110 C502,110 520,110 554,110" fill="none" stroke="#5B45B0" stroke-width="1.4" marker-end="url(#moep)"/>
+<text x="510" y="102" font-size="10" fill="#5B45B0" text-anchor="middle">取前两名</text>
+<text x="700" y="182" font-size="10.5" fill="#5A6577" text-anchor="middle">两名专家的输出按分数加权相加，作为这一层的结果</text>
+<rect x="20" y="240" width="44" height="44" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1.2" rx="6"/>
+<text x="42" y="269" font-size="20" fill="#18202C" text-anchor="middle" font-weight="700">跑</text>
+<rect x="78" y="228" width="18" height="10" fill="#a7a7a7" stroke="#9AA3B2" stroke-width="0.6"/>
+<rect x="78" y="239" width="18" height="10" fill="#dbdbdb" stroke="#9AA3B2" stroke-width="0.6"/>
+<rect x="78" y="250" width="18" height="10" fill="#808080" stroke="#9AA3B2" stroke-width="0.6"/>
+<rect x="78" y="261" width="18" height="10" fill="#c1c1c1" stroke="#9AA3B2" stroke-width="0.6"/>
+<rect x="78" y="272" width="18" height="10" fill="#9a9a9a" stroke="#9AA3B2" stroke-width="0.6"/>
+<rect x="78" y="283" width="18" height="10" fill="#cecece" stroke="#9AA3B2" stroke-width="0.6"/>
+<text x="87" y="306" font-size="10" fill="#5A6577" text-anchor="middle">隐藏向量</text>
+<line x1="100" y1="262" x2="128" y2="262" stroke="#5A6577" stroke-width="1.4" marker-end="url(#moea)"/>
+<rect x="132" y="242" width="64" height="40" fill="#E9EDF3" stroke="#47546A" stroke-width="1" rx="6"/>
+<text x="164" y="267" font-size="12" fill="#18202C" text-anchor="middle" font-weight="600">路由器</text>
+<line x1="198" y1="262" x2="226" y2="262" stroke="#5A6577" stroke-width="1.4" marker-end="url(#moea)"/>
+<rect x="232" y="253.2" width="20" height="46.8" fill="#5B45B0"/>
+<text x="242" y="249.2" font-size="9.5" fill="#5B45B0" text-anchor="middle">0.36</text>
+<text x="242" y="315" font-size="10" fill="#5A6577" text-anchor="middle">E1</text>
+<rect x="262" y="294.8" width="20" height="5.2" fill="#C9CED8"/>
+<text x="272" y="290.8" font-size="9.5" fill="#5A6577" text-anchor="middle">0.04</text>
+<text x="272" y="315" font-size="10" fill="#5A6577" text-anchor="middle">E2</text>
+<rect x="292" y="290.9" width="20" height="9.100000000000001" fill="#C9CED8"/>
+<text x="302" y="286.9" font-size="9.5" fill="#5A6577" text-anchor="middle">0.07</text>
+<text x="302" y="315" font-size="10" fill="#5A6577" text-anchor="middle">E3</text>
+<rect x="322" y="293.5" width="20" height="6.5" fill="#C9CED8"/>
+<text x="332" y="289.5" font-size="9.5" fill="#5A6577" text-anchor="middle">0.05</text>
+<text x="332" y="315" font-size="10" fill="#5A6577" text-anchor="middle">E4</text>
+<rect x="352" y="296.1" width="20" height="3.9" fill="#C9CED8"/>
+<text x="362" y="292.1" font-size="9.5" fill="#5A6577" text-anchor="middle">0.03</text>
+<text x="362" y="315" font-size="10" fill="#5A6577" text-anchor="middle">E5</text>
+<rect x="382" y="288.3" width="20" height="11.7" fill="#C9CED8"/>
+<text x="392" y="284.3" font-size="9.5" fill="#5A6577" text-anchor="middle">0.09</text>
+<text x="392" y="315" font-size="10" fill="#5A6577" text-anchor="middle">E6</text>
+<rect x="412" y="262.3" width="20" height="37.699999999999996" fill="#5B45B0"/>
+<text x="422" y="258.3" font-size="9.5" fill="#5B45B0" text-anchor="middle">0.29</text>
+<text x="422" y="315" font-size="10" fill="#5A6577" text-anchor="middle">E7</text>
+<rect x="442" y="290.9" width="20" height="9.100000000000001" fill="#C9CED8"/>
+<text x="452" y="286.9" font-size="9.5" fill="#5A6577" text-anchor="middle">0.07</text>
+<text x="452" y="315" font-size="10" fill="#5A6577" text-anchor="middle">E8</text>
+<line x1="228" y1="300" x2="470" y2="300" stroke="#9AA3B2" stroke-width="1"/>
+<rect x="560" y="222" width="62" height="38" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.6" rx="5"/>
+<text x="591" y="239" font-size="11" fill="#5B45B0" text-anchor="middle" font-weight="600">专家 E1</text>
+<text x="591" y="253" font-size="10" fill="#5B45B0" text-anchor="middle">计算</text>
+<rect x="632" y="222" width="62" height="38" fill="#F6F7F9" stroke="#E2E6EC" stroke-width="1" rx="5"/>
+<text x="663" y="239" font-size="11" fill="#A7AFBC" text-anchor="middle">专家 E2</text>
+<text x="663" y="253" font-size="10" fill="#A7AFBC" text-anchor="middle">不动</text>
+<rect x="704" y="222" width="62" height="38" fill="#F6F7F9" stroke="#E2E6EC" stroke-width="1" rx="5"/>
+<text x="735" y="239" font-size="11" fill="#A7AFBC" text-anchor="middle">专家 E3</text>
+<text x="735" y="253" font-size="10" fill="#A7AFBC" text-anchor="middle">不动</text>
+<rect x="776" y="222" width="62" height="38" fill="#F6F7F9" stroke="#E2E6EC" stroke-width="1" rx="5"/>
+<text x="807" y="239" font-size="11" fill="#A7AFBC" text-anchor="middle">专家 E4</text>
+<text x="807" y="253" font-size="10" fill="#A7AFBC" text-anchor="middle">不动</text>
+<rect x="560" y="268" width="62" height="38" fill="#F6F7F9" stroke="#E2E6EC" stroke-width="1" rx="5"/>
+<text x="591" y="285" font-size="11" fill="#A7AFBC" text-anchor="middle">专家 E5</text>
+<text x="591" y="299" font-size="10" fill="#A7AFBC" text-anchor="middle">不动</text>
+<rect x="632" y="268" width="62" height="38" fill="#F6F7F9" stroke="#E2E6EC" stroke-width="1" rx="5"/>
+<text x="663" y="285" font-size="11" fill="#A7AFBC" text-anchor="middle">专家 E6</text>
+<text x="663" y="299" font-size="10" fill="#A7AFBC" text-anchor="middle">不动</text>
+<rect x="704" y="268" width="62" height="38" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.6" rx="5"/>
+<text x="735" y="285" font-size="11" fill="#5B45B0" text-anchor="middle" font-weight="600">专家 E7</text>
+<text x="735" y="299" font-size="10" fill="#5B45B0" text-anchor="middle">计算</text>
+<rect x="776" y="268" width="62" height="38" fill="#F6F7F9" stroke="#E2E6EC" stroke-width="1" rx="5"/>
+<text x="807" y="285" font-size="11" fill="#A7AFBC" text-anchor="middle">专家 E8</text>
+<text x="807" y="299" font-size="10" fill="#A7AFBC" text-anchor="middle">不动</text>
+<path d="M472,260 C502,260 520,260 554,260" fill="none" stroke="#5B45B0" stroke-width="1.4" marker-end="url(#moep)"/>
+<text x="510" y="252" font-size="10" fill="#5B45B0" text-anchor="middle">取前两名</text>
+<text x="700" y="332" font-size="10.5" fill="#5A6577" text-anchor="middle">两名专家的输出按分数加权相加，作为这一层的结果</text>
+<line x1="20" y1="372" x2="860" y2="372" stroke="#E2E6EC" stroke-width="1"/>
+<text x="20" y="396" font-size="12" fill="#18202C" text-anchor="start">总参数：8 个专家全都算在内，决定模型能装下多少。激活参数：每个 token 实际只经过 2 个专家，决定每一步算多少。</text>
+</svg>

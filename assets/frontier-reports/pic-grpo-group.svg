@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" width="880" height="360" role="img" aria-label="一组回答的奖励与组内比较" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">
+<rect x="0" y="0" width="880" height="360" fill="#ffffff"/>
+<defs><marker id="grpa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker><marker id="grpr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C2501A"/></marker><marker id="grpg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#26805A"/></marker><marker id="grpp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5B45B0"/></marker></defs>
+<text x="20" y="26" font-size="14" fill="#18202C" text-anchor="start" font-weight="700">可验证奖励与组内比较：同一道题采样一组回答，对的加强，错的削弱（示意）</text>
+<rect x="20" y="42" width="190" height="56" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1.2" rx="8"/>
+<text x="36" y="64" font-size="11" fill="#2B57C9" text-anchor="start" font-weight="600">题目</text>
+<text x="36" y="87" font-size="16" fill="#18202C" text-anchor="start" font-weight="700" font-family="Menlo, Consolas, monospace">17 × 24 = ?</text>
+<path d="M210,70 C232,70 228,138 250,138" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#grpa)"/>
+<rect x="254" y="120" width="300" height="36" fill="#fff" stroke="#9AA3B2" stroke-width="1" rx="6"/>
+<text x="264" y="143" font-size="11.5" fill="#18202C" text-anchor="start">回答 1：17×20 + 17×4 = 340 + 68 = 408</text>
+<rect x="566" y="124" width="70" height="28" fill="#E3F4EA" stroke="#26805A" stroke-width="1" rx="5"/>
+<text x="601" y="143" font-size="11" fill="#26805A" text-anchor="middle" font-weight="600">对，奖励 1</text>
+<rect x="660" y="124" width="56" height="28" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1" rx="5"/>
+<text x="688" y="143" font-size="13" fill="#5B45B0" text-anchor="middle" font-weight="700">+1</text>
+<text x="730" y="143" font-size="11.5" fill="#26805A" text-anchor="start">加强这条回答</text>
+<path d="M210,70 C232,70 228,188 250,188" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#grpa)"/>
+<rect x="254" y="170" width="300" height="36" fill="#fff" stroke="#9AA3B2" stroke-width="1" rx="6"/>
+<text x="264" y="193" font-size="11.5" fill="#18202C" text-anchor="start">回答 2：17×25 − 17 = 425 − 17 = 408</text>
+<rect x="566" y="174" width="70" height="28" fill="#E3F4EA" stroke="#26805A" stroke-width="1" rx="5"/>
+<text x="601" y="193" font-size="11" fill="#26805A" text-anchor="middle" font-weight="600">对，奖励 1</text>
+<rect x="660" y="174" width="56" height="28" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1" rx="5"/>
+<text x="688" y="193" font-size="13" fill="#5B45B0" text-anchor="middle" font-weight="700">+1</text>
+<text x="730" y="193" font-size="11.5" fill="#26805A" text-anchor="start">加强这条回答</text>
+<path d="M210,70 C232,70 228,238 250,238" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#grpa)"/>
+<rect x="254" y="220" width="300" height="36" fill="#fff" stroke="#9AA3B2" stroke-width="1" rx="6"/>
+<text x="264" y="243" font-size="11.5" fill="#18202C" text-anchor="start">回答 3：17×20 + 4 = 344</text>
+<rect x="566" y="224" width="70" height="28" fill="#FBE3E3" stroke="#C23A3A" stroke-width="1" rx="5"/>
+<text x="601" y="243" font-size="11" fill="#C23A3A" text-anchor="middle" font-weight="600">错，奖励 0</text>
+<rect x="660" y="224" width="56" height="28" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1" rx="5"/>
+<text x="688" y="243" font-size="13" fill="#5B45B0" text-anchor="middle" font-weight="700">−1</text>
+<text x="730" y="243" font-size="11.5" fill="#C23A3A" text-anchor="start">削弱这条回答</text>
+<path d="M210,70 C232,70 228,288 250,288" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#grpa)"/>
+<rect x="254" y="270" width="300" height="36" fill="#fff" stroke="#9AA3B2" stroke-width="1" rx="6"/>
+<text x="264" y="293" font-size="11.5" fill="#18202C" text-anchor="start">回答 4：10×24 + 7×24 = 240 + 158 = 398</text>
+<rect x="566" y="274" width="70" height="28" fill="#FBE3E3" stroke="#C23A3A" stroke-width="1" rx="5"/>
+<text x="601" y="293" font-size="11" fill="#C23A3A" text-anchor="middle" font-weight="600">错，奖励 0</text>
+<rect x="660" y="274" width="56" height="28" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1" rx="5"/>
+<text x="688" y="293" font-size="13" fill="#5B45B0" text-anchor="middle" font-weight="700">−1</text>
+<text x="730" y="293" font-size="11.5" fill="#C23A3A" text-anchor="start">削弱这条回答</text>
+<text x="601" y="112" font-size="10.5" fill="#5A6577" text-anchor="middle">程序比对标准答案 408</text>
+<text x="688" y="112" font-size="10.5" fill="#5A6577" text-anchor="middle">优势</text>
+<rect x="20" y="120" width="190" height="180" fill="#F6F7F9" stroke="#E2E6EC" stroke-width="1" rx="8"/>
+<text x="30" y="145" font-size="12" fill="#18202C" text-anchor="start" font-weight="600">组内平均奖励：0.5</text>
+<text x="30" y="168" font-size="12" fill="#18202C" text-anchor="start" font-weight="600">组内标准差：0.5</text>
+<text x="30" y="196" font-size="11.5" fill="#5A6577" text-anchor="start">优势 = （奖励 − 平均）</text>
+<text x="30" y="216" font-size="11.5" fill="#5A6577" text-anchor="start">　　　÷ 标准差</text>
+<text x="30" y="244" font-size="11" fill="#5A6577" text-anchor="start">用同组回答的平均分当参照，</text>
+<text x="30" y="262" font-size="11" fill="#5A6577" text-anchor="start">省掉了另外训练一个</text>
+<text x="30" y="280" font-size="11" fill="#5A6577" text-anchor="start">估分网络（critic）。</text>
+<text x="20" y="340" font-size="12" fill="#18202C" text-anchor="start">奖励只看最终答案能不能被程序核对，用不着人写好的推理示范；一组里全对或全错时，优势都是 0，这道题这一轮学不到东西。</text>
+</svg>

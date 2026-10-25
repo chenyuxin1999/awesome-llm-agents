@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 470" width="880" height="470" role="img" aria-label="MemGPT 的窗口逐渐填满后发生了什么" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><defs><marker id="ah-picmemgptqueue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs><rect x="0" y="0" width="880" height="470" fill="#ffffff"/><text x="20.0" y="26.0" font-size="13" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">示意：论文助手的上下文窗口在三个时刻（消息内容为说明编的）</text>
+<text x="130.0" y="58.0" font-size="12.5" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">第 1 周</text>
+<rect x="20.0" y="68.0" width="220.0" height="300.0" rx="6" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1.4"/>
+<rect x="24.0" y="72.0" width="212.0" height="22.0" rx="3" fill="#E9EDF3" stroke="#47546A" stroke-width="1"/>
+<text x="32.0" y="87.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">系统指令（只读）</text>
+<rect x="24.0" y="97.0" width="212.0" height="36.0" rx="3" fill="#DCEFF1" stroke="#0E6E7E" stroke-width="1"/>
+<text x="32.0" y="112.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">工作区：坐标轴用英文；引用 ACL</text>
+<rect x="24.0" y="136.0" width="212.0" height="22.0" rx="3" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="32.0" y="151.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">用户：结果放在 results_v2</text>
+<rect x="24.0" y="161.0" width="212.0" height="22.0" rx="3" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="32.0" y="176.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">用户：先用柱状图凑合一下</text>
+<text x="130.0" y="388.0" font-size="12" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">占用 40%</text>
+<text x="430.0" y="58.0" font-size="12.5" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">第 3 周：到了警告线</text>
+<rect x="320.0" y="68.0" width="220.0" height="300.0" rx="6" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1.4"/>
+<rect x="324.0" y="72.0" width="212.0" height="22.0" rx="3" fill="#E9EDF3" stroke="#47546A" stroke-width="1"/>
+<text x="332.0" y="87.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">系统指令（只读）</text>
+<rect x="324.0" y="97.0" width="212.0" height="36.0" rx="3" fill="#DCEFF1" stroke="#0E6E7E" stroke-width="1"/>
+<text x="332.0" y="112.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">工作区：坐标轴用英文；引用 ACL；</text>
+<text x="332.0" y="127.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">结果放 results_v3</text>
+<rect x="324.0" y="136.0" width="212.0" height="22.0" rx="3" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="332.0" y="151.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">用户：结果放在 results_v2</text>
+<rect x="324.0" y="161.0" width="212.0" height="22.0" rx="3" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="332.0" y="176.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">用户：先用柱状图凑合一下</text>
+<rect x="324.0" y="186.0" width="212.0" height="60.0" rx="3" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="332.0" y="201.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">……第 2 周的几十条消息……</text>
+<rect x="324.0" y="249.0" width="212.0" height="22.0" rx="3" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="332.0" y="264.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">用户：v2 有组数据跑错，改放 v3</text>
+<rect x="324.0" y="274.0" width="212.0" height="22.0" rx="3" fill="#FDE8DD" stroke="#C2501A" stroke-width="1"/>
+<text x="332.0" y="289.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">系统：内存压力警告</text>
+<rect x="324.0" y="299.0" width="212.0" height="36.0" rx="3" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1"/>
+<text x="332.0" y="314.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">模型：core_memory_append(</text>
+<text x="332.0" y="329.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">&quot;结果放 results_v3&quot;)</text>
+<text x="430.0" y="388.0" font-size="12" fill="#C2501A" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">占用 70%</text>
+<text x="730.0" y="58.0" font-size="12.5" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">窗口满了：移出一半</text>
+<rect x="620.0" y="68.0" width="220.0" height="300.0" rx="6" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1.4"/>
+<rect x="624.0" y="72.0" width="212.0" height="22.0" rx="3" fill="#E9EDF3" stroke="#47546A" stroke-width="1"/>
+<text x="632.0" y="87.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">系统指令（只读）</text>
+<rect x="624.0" y="97.0" width="212.0" height="36.0" rx="3" fill="#DCEFF1" stroke="#0E6E7E" stroke-width="1"/>
+<text x="632.0" y="112.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">工作区：坐标轴用英文；引用 ACL；</text>
+<text x="632.0" y="127.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">结果放 results_v3</text>
+<rect x="624.0" y="136.0" width="212.0" height="36.0" rx="3" fill="#FCE4EC" stroke="#B83560" stroke-width="1"/>
+<text x="632.0" y="151.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">摘要：第 1～2 周定了坐标轴、</text>
+<text x="632.0" y="166.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">引用格式；结果先在 v2，后改 v3</text>
+<rect x="624.0" y="175.0" width="212.0" height="22.0" rx="3" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="632.0" y="190.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">用户：v2 有组数据跑错，改放 v3</text>
+<rect x="624.0" y="200.0" width="212.0" height="22.0" rx="3" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="632.0" y="215.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">模型：好的，以后从 v3 取</text>
+<text x="730.0" y="388.0" font-size="12" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">占用 50%</text>
+<line x1="244.0" y1="220.0" x2="316.0" y2="220.0" stroke="#5A6577" stroke-width="1.5" marker-end="url(#ah-picmemgptqueue)"/>
+<line x1="544.0" y1="220.0" x2="616.0" y2="220.0" stroke="#5A6577" stroke-width="1.5" marker-end="url(#ah-picmemgptqueue)"/>
+<rect x="330.0" y="404.0" width="520.0" height="52.0" rx="6" fill="#E9EDF3" stroke="#47546A" stroke-width="1.4"/>
+<text x="342.0" y="426.0" font-size="12" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">召回存储：被移出的消息原样留在这里，可以用函数搜回来</text>
+<text x="342.0" y="446.0" font-size="11" fill="#5A6577" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">conversation_search(&quot;results_v2&quot;) → 第 1 周那条原话</text>
+<path d="M 820 370 L 820 400" stroke="#47546A" stroke-width="1.4" fill="none" stroke-dasharray="4,3" marker-end="url(#ah-picmemgptqueue)"/>
+<text x="30.0" y="420.0" font-size="11" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">警告线和移出比例在论文里</text>
+<text x="30.0" y="438.0" font-size="11" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">举的例子是 70% 和 50%</text></svg>

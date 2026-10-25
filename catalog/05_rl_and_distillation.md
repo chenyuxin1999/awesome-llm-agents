@@ -167,5 +167,5 @@
 | 2609.10712 | [An Open Recipe for IMO Gold: Training Nemotron for Olympiad Mathematics](https://www.alphaxiv.org/abs/2609.10712) | — |
 | 2609.13058 | [Expert-Space Exploration in MoE Reinforcement Learning](https://www.alphaxiv.org/abs/2609.13058) | — |
 | 2609.16937 | [Beyond Token-Local Imitation: Reward-Compatible Temporal Credit Assignment for On-Policy Distillation](https://www.alphaxiv.org/abs/2609.16937) | — |
-| 2609.36838 | [On-Policy Visual Evidence Distillation](https://www.alphaxiv.org/abs/2609.36838) | [多模态与 GUI Agent](09_multimodal_gui.md) |
+| 2609.36838 | [On-Policy Visual Evidence Distillation](https://www.alphaxiv.org/abs/2609.36838) | [多模态理解](09_multimodal_gui.md) |
 | 2609.20457 | [Fingerprinting Multimodal Large Language Models](https://www.alphaxiv.org/abs/2609.20457) | — |

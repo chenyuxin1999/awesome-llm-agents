@@ -8,7 +8,7 @@
 
 真实系统包含持久状态、多工具依赖、权限、参与者和异常流程。关键问题是怎样提取一个足够完整的环境边界，既支持重放与对照，又不丢失决定任务难度的真实约束。训练与评测应共享明确的状态和结果定义，但保留独立任务，避免系统只适应同一套环境生成规则。
 
-这一方向连接[训练数据与环境](../chapters/04_training_data.md)、[评测](../chapters/06_evaluation.md)、[GUI](../chapters/09_multimodal_gui.md)与[具身智能](../chapters/11_embodied.md)。研究产物可以是可执行环境、任务构造方法或现实表现与基准表现之间的有效性分析，而不仅是一批静态问答。
+这一方向连接[训练数据与环境](../chapters/04_training_data.md)、[评测](../chapters/06_evaluation.md)、[多模态 agent](../chapters/19_multimodal_agent.md)与[具身智能](../chapters/11_embodied.md)。研究产物可以是可执行环境、任务构造方法或现实表现与基准表现之间的有效性分析，而不仅是一批静态问答。
 
 ## 2. 如何把未来期望的自主能力形式化为任务与学习目标？
 
@@ -32,7 +32,7 @@
 
 视觉理解、未来预测和内容生成可以支持行动，但不同能力的局部成绩不能直接相加为系统能力。研究机会是让表示、模型预测、工具执行与外部验证围绕同一目标协作，并追踪误差如何跨模块传播。科研与具身场景尤其需要区分候选生成、模型内判断和真实结果确认。
 
-这一方向连接[多模态 GUI](../chapters/09_multimodal_gui.md)、[世界模型](../chapters/10_world_models.md)、[具身智能](../chapters/11_embodied.md)、[科研](../chapters/12_science.md)及[多模态生成](../chapters/16_generation.md)。
+这一方向连接[多模态理解](../chapters/09_multimodal_gui.md)、[多模态 agent](../chapters/19_multimodal_agent.md)、[世界模型](../chapters/10_world_models.md)、[具身智能](../chapters/11_embodied.md)、[科研](../chapters/12_science.md)及[多模态生成](../chapters/16_generation.md)。
 
 ## 6. 如何在真实资源约束下解释并复现能力进步？
 

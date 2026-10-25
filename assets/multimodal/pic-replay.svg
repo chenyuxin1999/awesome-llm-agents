@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 390" width="900" height="390" role="img" aria-label="同一张凭证页，两种来历" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">
+<rect x="0" y="0" width="900" height="390" fill="#ffffff"/>
+<defs><marker id="rpla" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker><marker id="rplr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C2501A"/></marker><marker id="rplg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#26805A"/></marker><marker id="rplp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5B45B0"/></marker></defs>
+<text x="20" y="26" font-size="14" fill="#18202C" text-anchor="start" font-weight="700">同一张凭证输入页，两种来历：只看这一屏分不出来，看“前一屏加动作”就分得出（相似度为示意）</text>
+<rect x="20" y="60" width="150" height="110" fill="#ffffff" stroke="#9AA3B2" stroke-width="1.2" rx="5"/>
+<rect x="20" y="60" width="150" height="18" fill="#E9EDF3" rx="5"/>
+<rect x="20" y="72" width="150" height="6" fill="#E9EDF3"/>
+<circle cx="29" cy="69" r="3" fill="#E06C5A"/>
+<circle cx="38" cy="69" r="3" fill="#E8B84A"/>
+<circle cx="47" cy="69" r="3" fill="#6DBE6A"/>
+<text x="60" y="73" font-size="9.5" fill="#5A6577" text-anchor="start">邮箱 · 首页</text>
+<rect x="50" y="110" width="90" height="18" fill="#2B57C9" rx="3"/>
+<text x="95.0" y="123" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="600">登录</text>
+<circle cx="128" cy="119" r="6" fill="none" stroke="#C2501A" stroke-width="2"/>
+<circle cx="128" cy="119" r="2" fill="#C2501A"/>
+<line x1="176" y1="115" x2="236" y2="115" stroke="#5A6577" stroke-width="1.4" marker-end="url(#rpla)"/>
+<text x="208" y="105" font-size="9.5" fill="#C2501A" text-anchor="middle">点击“登录”</text>
+<rect x="240" y="60" width="150" height="110" fill="#ffffff" stroke="#9AA3B2" stroke-width="1.2" rx="5"/>
+<rect x="240" y="60" width="150" height="18" fill="#E9EDF3" rx="5"/>
+<rect x="240" y="72" width="150" height="6" fill="#E9EDF3"/>
+<circle cx="249" cy="69" r="3" fill="#E06C5A"/>
+<circle cx="258" cy="69" r="3" fill="#E8B84A"/>
+<circle cx="267" cy="69" r="3" fill="#6DBE6A"/>
+<text x="280" y="73" font-size="9.5" fill="#5A6577" text-anchor="start">登录 · 凭证</text>
+<text x="252" y="97" font-size="9.5" fill="#5A6577" text-anchor="start">用户名</text>
+<rect x="252" y="100" width="126" height="16" fill="#fff" stroke="#9AA3B2" stroke-width="0.8" rx="2"/>
+<text x="252" y="133" font-size="9.5" fill="#5A6577" text-anchor="start">密码</text>
+<rect x="252" y="136" width="126" height="16" fill="#fff" stroke="#9AA3B2" stroke-width="0.8" rx="2"/>
+<text x="315" y="188" font-size="10" fill="#5A6577" text-anchor="middle">实际出现的下一屏</text>
+<rect x="410" y="90" width="120" height="50" fill="#E9EDF3" stroke="#47546A" stroke-width="1" rx="6"/>
+<text x="470" y="110" font-size="10.5" fill="#47546A" text-anchor="middle" font-weight="600">只看这一屏的监控</text>
+<text x="470" y="128" font-size="10.5" fill="#47546A" text-anchor="middle">“看起来正常”</text>
+<line x1="392" y1="115" x2="408" y2="115" stroke="#5A6577" stroke-width="1.4" marker-end="url(#rpla)"/>
+<rect x="560" y="60" width="130" height="46" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.2" rx="6"/>
+<text x="625" y="79" font-size="11" fill="#5B45B0" text-anchor="middle" font-weight="700">世界模型</text>
+<text x="625" y="96" font-size="10" fill="#5B45B0" text-anchor="middle">读前一屏和动作</text>
+<rect x="710" y="68" width="12" height="12" fill="#8b8b8b" stroke="#9AA3B2" stroke-width="0.5"/>
+<rect x="710" y="120" width="12" height="12" fill="#8b8b8b" stroke="#9AA3B2" stroke-width="0.5"/>
+<rect x="724" y="68" width="12" height="12" fill="#d6d6d6" stroke="#9AA3B2" stroke-width="0.5"/>
+<rect x="724" y="120" width="12" height="12" fill="#cfcfcf" stroke="#9AA3B2" stroke-width="0.5"/>
+<rect x="738" y="68" width="12" height="12" fill="#7c7c7c" stroke="#9AA3B2" stroke-width="0.5"/>
+<rect x="738" y="120" width="12" height="12" fill="#848484" stroke="#9AA3B2" stroke-width="0.5"/>
+<rect x="752" y="68" width="12" height="12" fill="#b8b8b8" stroke="#9AA3B2" stroke-width="0.5"/>
+<rect x="752" y="120" width="12" height="12" fill="#b8b8b8" stroke="#9AA3B2" stroke-width="0.5"/>
+<rect x="766" y="68" width="12" height="12" fill="#9a9a9a" stroke="#9AA3B2" stroke-width="0.5"/>
+<rect x="766" y="120" width="12" height="12" fill="#939393" stroke="#9AA3B2" stroke-width="0.5"/>
+<rect x="780" y="68" width="12" height="12" fill="#c7c7c7" stroke="#9AA3B2" stroke-width="0.5"/>
+<rect x="780" y="120" width="12" height="12" fill="#c7c7c7" stroke="#9AA3B2" stroke-width="0.5"/>
+<text x="800" y="79" font-size="10" fill="#5B45B0" text-anchor="start">预测的下一屏</text>
+<text x="800" y="131" font-size="10" fill="#5A6577" text-anchor="start">实际下一屏</text>
+<line x1="625" y1="106" x2="625" y2="126" stroke="#5A6577" stroke-width="1.4"/>
+<line x1="625" y1="126" x2="706" y2="126" stroke="#5A6577" stroke-width="1.4" marker-end="url(#rpla)"/>
+<path d="M392,150 C460,170 600,150 706,128" fill="none" stroke="#9AA3B2" stroke-width="1.4" stroke-dasharray="3 3"/>
+<rect x="710" y="144" width="170" height="26" fill="#E3F4EA" stroke="#26805A" stroke-width="1" rx="5"/>
+<text x="795" y="161" font-size="11" fill="#26805A" text-anchor="middle" font-weight="700">相似度 0.94：合法转移</text>
+<rect x="20" y="210" width="150" height="110" fill="#ffffff" stroke="#9AA3B2" stroke-width="1.2" rx="5"/>
+<rect x="20" y="210" width="150" height="18" fill="#E9EDF3" rx="5"/>
+<rect x="20" y="222" width="150" height="6" fill="#E9EDF3"/>
+<circle cx="29" cy="219" r="3" fill="#E06C5A"/>
+<circle cx="38" cy="219" r="3" fill="#E8B84A"/>
+<circle cx="47" cy="219" r="3" fill="#6DBE6A"/>
+<text x="60" y="223" font-size="9.5" fill="#5A6577" text-anchor="start">天气小部件</text>
+<text x="36" y="260" font-size="11" fill="#18202C" text-anchor="start">北京 晴 18°C</text>
+<rect x="50" y="276" width="90" height="18" fill="#2B57C9" rx="3"/>
+<text x="95.0" y="289" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="600">查看天气</text>
+<circle cx="130" cy="285" r="6" fill="none" stroke="#C2501A" stroke-width="2"/>
+<circle cx="130" cy="285" r="2" fill="#C2501A"/>
+<line x1="176" y1="265" x2="236" y2="265" stroke="#5A6577" stroke-width="1.4" marker-end="url(#rpla)"/>
+<text x="208" y="255" font-size="9.5" fill="#C2501A" text-anchor="middle">点击“查看天气”</text>
+<rect x="240" y="210" width="150" height="110" fill="#ffffff" stroke="#9AA3B2" stroke-width="1.2" rx="5"/>
+<rect x="240" y="210" width="150" height="18" fill="#E9EDF3" rx="5"/>
+<rect x="240" y="222" width="150" height="6" fill="#E9EDF3"/>
+<circle cx="249" cy="219" r="3" fill="#E06C5A"/>
+<circle cx="258" cy="219" r="3" fill="#E8B84A"/>
+<circle cx="267" cy="219" r="3" fill="#6DBE6A"/>
+<text x="280" y="223" font-size="9.5" fill="#5A6577" text-anchor="start">登录 · 凭证</text>
+<text x="252" y="247" font-size="9.5" fill="#5A6577" text-anchor="start">用户名</text>
+<rect x="252" y="250" width="126" height="16" fill="#fff" stroke="#9AA3B2" stroke-width="0.8" rx="2"/>
+<text x="252" y="283" font-size="9.5" fill="#5A6577" text-anchor="start">密码</text>
+<rect x="252" y="286" width="126" height="16" fill="#fff" stroke="#9AA3B2" stroke-width="0.8" rx="2"/>
+<text x="315" y="338" font-size="10" fill="#5A6577" text-anchor="middle">实际出现的下一屏</text>
+<rect x="410" y="240" width="120" height="50" fill="#E9EDF3" stroke="#47546A" stroke-width="1" rx="6"/>
+<text x="470" y="260" font-size="10.5" fill="#47546A" text-anchor="middle" font-weight="600">只看这一屏的监控</text>
+<text x="470" y="278" font-size="10.5" fill="#47546A" text-anchor="middle">“看起来正常”</text>
+<line x1="392" y1="265" x2="408" y2="265" stroke="#5A6577" stroke-width="1.4" marker-end="url(#rpla)"/>
+<rect x="560" y="210" width="130" height="46" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.2" rx="6"/>
+<text x="625" y="229" font-size="11" fill="#5B45B0" text-anchor="middle" font-weight="700">世界模型</text>
+<text x="625" y="246" font-size="10" fill="#5B45B0" text-anchor="middle">读前一屏和动作</text>
+<rect x="710" y="218" width="12" height="12" fill="#d6d6d6" stroke="#9AA3B2" stroke-width="0.5"/>
+<rect x="710" y="270" width="12" height="12" fill="#8b8b8b" stroke="#9AA3B2" stroke-width="0.5"/>
+<rect x="724" y="218" width="12" height="12" fill="#6d6d6d" stroke="#9AA3B2" stroke-width="0.5"/>
+<rect x="724" y="270" width="12" height="12" fill="#cfcfcf" stroke="#9AA3B2" stroke-width="0.5"/>
+<rect x="738" y="218" width="12" height="12" fill="#e5e5e5" stroke="#9AA3B2" stroke-width="0.5"/>
+<rect x="738" y="270" width="12" height="12" fill="#848484" stroke="#9AA3B2" stroke-width="0.5"/>
+<rect x="752" y="218" width="12" height="12" fill="#8b8b8b" stroke="#9AA3B2" stroke-width="0.5"/>
+<rect x="752" y="270" width="12" height="12" fill="#b8b8b8" stroke="#9AA3B2" stroke-width="0.5"/>
+<rect x="766" y="218" width="12" height="12" fill="#c7c7c7" stroke="#9AA3B2" stroke-width="0.5"/>
+<rect x="766" y="270" width="12" height="12" fill="#939393" stroke="#9AA3B2" stroke-width="0.5"/>
+<rect x="780" y="218" width="12" height="12" fill="#7c7c7c" stroke="#9AA3B2" stroke-width="0.5"/>
+<rect x="780" y="270" width="12" height="12" fill="#c7c7c7" stroke="#9AA3B2" stroke-width="0.5"/>
+<text x="800" y="229" font-size="10" fill="#5B45B0" text-anchor="start">预测的下一屏</text>
+<text x="800" y="281" font-size="10" fill="#5A6577" text-anchor="start">实际下一屏</text>
+<line x1="625" y1="256" x2="625" y2="276" stroke="#5A6577" stroke-width="1.4"/>
+<line x1="625" y1="276" x2="706" y2="276" stroke="#5A6577" stroke-width="1.4" marker-end="url(#rpla)"/>
+<path d="M392,300 C460,320 600,300 706,278" fill="none" stroke="#9AA3B2" stroke-width="1.4" stroke-dasharray="3 3"/>
+<rect x="710" y="294" width="170" height="26" fill="#FBE3E3" stroke="#C23A3A" stroke-width="1" rx="5"/>
+<text x="795" y="311" font-size="11" fill="#C23A3A" text-anchor="middle" font-weight="700">相似度 0.21：报警</text>
+<rect x="20" y="350" width="860" height="30" fill="#F6F7F9" stroke="#E2E6EC" stroke-width="1" rx="6"/>
+<text x="34" y="370" font-size="11.5" fill="#18202C" text-anchor="start">检查的对象从一张屏幕变成一次转移：前一屏加上这个动作，下一屏本该是什么样，再和实际出现的那一屏比。</text>
+</svg>

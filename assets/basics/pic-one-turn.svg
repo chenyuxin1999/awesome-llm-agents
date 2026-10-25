@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 500" width="880" height="500" role="img" aria-label="周报任务里一轮循环的真实内容" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><defs><marker id="ah-piconeturn" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs><rect x="0" y="0" width="880" height="500" fill="#ffffff"/><text x="20.0" y="26.0" font-size="13" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">示意：周报任务第 3 轮，模型看到的是什么，执行框架又做了什么</text>
+<text x="24.0" y="56.0" font-size="13" fill="#2B57C9" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">① 这一轮模型读到的上下文（从上往下拼起来）</text>
+<rect x="24.0" y="66.0" width="500.0" height="38.0" rx="4" fill="#E9EDF3" stroke="#47546A" stroke-width="1"/>
+<text x="34.0" y="83.0" font-size="11" fill="#47546A" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">系统指令</text>
+<text x="150.0" y="83.0" font-size="11" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">你是实验助理。发邮件前必须先让用户确认。</text>
+<rect x="24.0" y="110.0" width="500.0" height="38.0" rx="4" fill="#E9EDF3" stroke="#47546A" stroke-width="1"/>
+<text x="34.0" y="127.0" font-size="11" fill="#47546A" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">工具说明</text>
+<text x="150.0" y="127.0" font-size="11" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">list_dir(path)   read_file(path)   send_email(to, body)</text>
+<rect x="24.0" y="154.0" width="500.0" height="56.0" rx="4" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="34.0" y="171.0" font-size="11" fill="#2B57C9" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">用户目标</text>
+<text x="150.0" y="171.0" font-size="11" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">把这周 runs/ 里的实验整理成周报表格，</text>
+<text x="150.0" y="189.0" font-size="11" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">标出崩溃的，和基线比，发给导师</text>
+<rect x="24.0" y="216.0" width="500.0" height="56.0" rx="4" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="34.0" y="233.0" font-size="11" fill="#B86E00" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">第 1 轮动作 / 观察</text>
+<text x="150.0" y="233.0" font-size="11" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">list_dir(&quot;runs/&quot;)</text>
+<text x="150.0" y="251.0" font-size="11" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">→ exp01/  exp02/  …  exp23/   baseline/</text>
+<rect x="24.0" y="278.0" width="500.0" height="56.0" rx="4" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="34.0" y="295.0" font-size="11" fill="#B86E00" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">第 2 轮动作 / 观察</text>
+<text x="150.0" y="295.0" font-size="11" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">read_file(&quot;runs/exp06/train.log&quot;)</text>
+<text x="150.0" y="313.0" font-size="11" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">→ epoch 30  val_acc=0.742  (完成)</text>
+<rect x="24.0" y="340.0" width="500.0" height="38.0" rx="4" fill="#F3F5F8" stroke="#D5DBE4" stroke-width="1"/>
+<text x="34.0" y="357.0" font-size="11" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">预算</text>
+<text x="150.0" y="357.0" font-size="11" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">已用 2 轮、5,840 token；还剩 28 轮</text>
+<text x="24.0" y="402.0" font-size="13" fill="#5B45B0" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">② 模型写出下一步动作（只是一段文字）</text>
+<rect x="24.0" y="412.0" width="500.0" height="34.0" rx="4" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.4"/>
+<text x="36.0" y="434.0" font-size="11" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">{&quot;tool&quot;: &quot;read_file&quot;, &quot;args&quot;: {&quot;path&quot;: &quot;runs/exp07/train.log&quot;}}</text>
+<text x="560.0" y="56.0" font-size="13" fill="#0E6E7E" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">③ 执行框架先检查，再真的去做</text>
+<rect x="560.0" y="70.0" width="300.0" height="32.0" rx="4" fill="#DCEFF1" stroke="#0E6E7E" stroke-width="1"/>
+<text x="572.0" y="91.0" font-size="12" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">工具 read_file 存在吗？</text>
+<text x="842.0" y="91.0" font-size="15" fill="#26805A" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">✓</text>
+<rect x="560.0" y="110.0" width="300.0" height="32.0" rx="4" fill="#DCEFF1" stroke="#0E6E7E" stroke-width="1"/>
+<text x="572.0" y="131.0" font-size="12" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">参数 path 是字符串吗？</text>
+<text x="842.0" y="131.0" font-size="15" fill="#26805A" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">✓</text>
+<rect x="560.0" y="150.0" width="300.0" height="32.0" rx="4" fill="#DCEFF1" stroke="#0E6E7E" stroke-width="1"/>
+<text x="572.0" y="171.0" font-size="12" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">runs/ 在允许读的目录里吗？</text>
+<text x="842.0" y="171.0" font-size="15" fill="#26805A" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">✓</text>
+<line x1="710.0" y1="192.0" x2="710.0" y2="214.0" stroke="#5A6577" stroke-width="1.5" marker-end="url(#ah-piconeturn)"/>
+<rect x="560.0" y="218.0" width="300.0" height="66.0" rx="4" fill="#DDF3E8" stroke="#26805A" stroke-width="1.4"/>
+<text x="572.0" y="240.0" font-size="12" fill="#26805A" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">真的读文件，得到观察：</text>
+<text x="572.0" y="262.0" font-size="11" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">epoch 11  val_acc=0.715</text>
+<text x="572.0" y="279.0" font-size="11" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">epoch 12  loss=nan  ← 崩了</text>
+<rect x="560.0" y="296.0" width="300.0" height="64.0" rx="4" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.4"/>
+<text x="572.0" y="317.0" font-size="12" fill="#C2501A" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">换成这一句会被拦下：</text>
+<text x="572.0" y="336.0" font-size="11" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">send_email(to=&quot;导师&quot;, …)</text>
+<text x="572.0" y="353.0" font-size="11" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">指令要求先确认 → 交还给用户</text>
+<text x="560.0" y="394.0" font-size="13" fill="#B86E00" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">④ 观察写进任务记录，变成下一轮上下文</text>
+<rect x="560.0" y="404.0" width="300.0" height="40.0" rx="4" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="572.0" y="428.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">read_file(&quot;runs/exp07/train.log&quot;) → …nan</text>
+<path d="M 524 429 L 540 429 L 540 100 L 556 100" stroke="#5A6577" stroke-width="1.5" fill="none" marker-end="url(#ah-piconeturn)"/>
+<text x="710.0" y="466.0" font-size="11.5" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">拼进 ① 的历史里，下一轮从这里继续</text></svg>

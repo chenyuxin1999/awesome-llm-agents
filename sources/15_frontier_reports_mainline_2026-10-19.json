@@ -198,5 +198,21 @@
   "status": "fetch_failed",
   "title": "Training Compute-Optimal Large Language Models",
   "notes": "脚本访问被网络代理拦截；arXiv 经典论文，题名人工核对"
+ },
+ {
+  "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+  "checked_at": "2026-10-25T03:00:00+00:00",
+  "scope": "full_text_read",
+  "status": "metadata_fetched",
+  "title": "Kimi K3.1 Pro (Moonshot AI blog, 2026-10-23)",
+  "notes": "经 WebFetch 读取全文；后训练版本、联合强化学习、攻防数据过滤、自报基准与 11 月 4 日前放出权重均出自此文"
+ },
+ {
+  "url": "https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart",
+  "checked_at": "2026-10-25T03:00:00+00:00",
+  "scope": "full_text_read",
+  "status": "metadata_fetched",
+  "title": "Kimi K3.1 Pro Quickstart (Kimi API docs)",
+  "notes": "经 WebFetch 读取；思考始终开启、三档推理强度、采样参数锁定、多轮需原样回传助手消息"
  }
 ]

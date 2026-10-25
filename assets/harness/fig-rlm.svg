@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 350" width="860" height="350" role="img" aria-label="Recursive Language Models：把长输入放进 REPL，由模型写代码递归处理" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><rect x="0" y="0" width="860" height="350" fill="#ffffff"/><defs><marker id="ah_fig_rlm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs>
+<text x="20" y="18" text-anchor="start" font-size="11.5" font-weight="600" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">例（示意）：问“老宅最后归了谁”，输入是一整本两百多万字的小说</text>
+<g transform="translate(0,16)">
+<rect x="20" y="70" width="140" height="190" rx="5" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1.5"/>
+<text x="90" y="146.922" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">很长的输入</text>
+<text x="90" y="162.033" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">远超上下文窗口</text>
+<text x="90" y="176.523" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">（整本书、整个仓库）</text>
+<text x="90" y="190.53" text-anchor="middle" font-size="10" font-weight="400" fill="#2B57C9" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">例：一本小说</text>
+<rect x="200" y="28" width="450" height="290" rx="10" fill="#F5FBF8" stroke="#26805A" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="216" y="50" text-anchor="start" font-size="12.5" font-weight="700" fill="#26805A" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Python REPL（外部环境）</text>
+<rect x="220" y="64" width="210" height="44" rx="5" fill="#E9EDF3" stroke="#47546A" stroke-width="1.5"/>
+<text x="325" y="89.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">context = 〈整段输入〉</text>
+<rect x="470" y="60" width="160" height="52" rx="5" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.5"/>
+<text x="550" y="82.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">根模型</text>
+<text x="550" y="97.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">在 REPL 里一轮轮写代码</text>
+<rect x="220" y="136" width="410" height="60" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5"/>
+<text x="425" y="155.167" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">根模型写的代码：查看开头、按章节切分、搜关键词</text>
+<text x="425" y="170.278" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">子模型调用以模块的形式在 REPL 里可用</text>
+<text x="425" y="184.285" text-anchor="middle" font-size="10" font-weight="400" fill="#C2501A" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">例：按章切成 38 段，搜“遗嘱”，剩第 7、21 章</text>
+<rect x="232" y="228" width="120" height="52" rx="5" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.5"/>
+<text x="292" y="242.891" text-anchor="middle" font-size="11" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">sub_RLM(片段 1)</text>
+<text x="292" y="257.588" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">对片段递归调用</text>
+<text x="292" y="271.595" text-anchor="middle" font-size="10" font-weight="400" fill="#5B45B0" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">例：第 7 章</text>
+<path d="M292,196 L292,226" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_rlm)"/>
+<rect x="367" y="228" width="120" height="52" rx="5" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.5"/>
+<text x="427" y="242.891" text-anchor="middle" font-size="11" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">sub_RLM(片段 2)</text>
+<text x="427" y="257.588" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">对片段递归调用</text>
+<text x="427" y="271.595" text-anchor="middle" font-size="10" font-weight="400" fill="#5B45B0" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">例：第 21 章</text>
+<path d="M427,196 L427,226" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_rlm)"/>
+<rect x="502" y="228" width="120" height="52" rx="5" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.5"/>
+<text x="562" y="242.891" text-anchor="middle" font-size="11" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">sub_RLM(片段 3)</text>
+<text x="562" y="257.588" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">对片段递归调用</text>
+<text x="562" y="271.595" text-anchor="middle" font-size="10" font-weight="400" fill="#5B45B0" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"></text>
+<path d="M562,196 L562,226" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_rlm)"/>
+<text x="425" y="302" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">子调用的返回值又成为 REPL 里的变量</text>
+<path d="M160,165 L218,92" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_rlm)"/>
+<text x="182" y="120" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" style="paint-order:stroke;stroke-width:4px;stroke-linejoin:round" stroke="#ffffff">存成变量</text>
+<path d="M550,112 L550,134" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_rlm)"/>
+<rect x="690" y="120" width="150" height="84" rx="5" fill="#FCE4EC" stroke="#B83560" stroke-width="1.5"/>
+<text x="765" y="143.922" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">设置变量 Final</text>
+<text x="765" y="159.033" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">迭代停止</text>
+<text x="765" y="173.523" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Final 的值就是答案</text>
+<text x="765" y="187.53" text-anchor="middle" font-size="10" font-weight="400" fill="#B83560" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">例：两章摘要合成答案</text>
+<path d="M630,166 L688,162" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_rlm)"/>
+</g>
+</svg>

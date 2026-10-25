@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" width="880" height="360" role="img" aria-label="拆解 harness 的两种办法：固定循环换部件，或只留一个原语" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><rect x="0" y="0" width="880" height="360" fill="#ffffff"/><defs><marker id="ah_fig_b1_two_ways" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs>
+<rect x="16" y="16" width="470" height="330" rx="8" fill="#F3F5F8" stroke="#D5DBE4" stroke-width="1.5"/>
+<text x="32" y="40" text-anchor="start" font-size="12.5" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">办法一：固定循环，只换三个部件</text>
+<text x="32" y="58" text-anchor="start" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">An Empirical Study of Harness Design（176 组匹配设置）</text>
+<rect x="150" y="72" width="200" height="40" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5" stroke-dasharray="5 3"/>
+<text x="250" y="95.312" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">固定的执行循环</text>
+<rect x="32" y="136" width="140" height="48" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5"/>
+<text x="102" y="156.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">规划</text>
+<text x="102" y="170.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">有 / 无</text>
+<path d="M250,112 L102,134" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b1_two_ways)"/>
+<rect x="182" y="136" width="140" height="48" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5"/>
+<text x="252" y="156.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">动作空间</text>
+<text x="252" y="170.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">预定义工具 / 只给 bash</text>
+<path d="M250,112 L252,134" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b1_two_ways)"/>
+<rect x="332" y="136" width="140" height="48" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5"/>
+<text x="402" y="156.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">上下文管理</text>
+<text x="402" y="170.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">5 种策略 × 4 种窗口预算</text>
+<path d="M250,112 L402,134" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b1_two_ways)"/>
+<rect x="32" y="206" width="216" height="74" rx="5" fill="#E9EDF3" stroke="#47546A" stroke-width="1.5"/>
+<text x="140" y="231.684" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">弱模型</text>
+<text x="140" y="246.588" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">规划提高准确率</text>
+<text x="140" y="261.078" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">预定义工具帮得上忙</text>
+<rect x="256" y="206" width="214" height="74" rx="5" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.5"/>
+<text x="363" y="231.684" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">强模型</text>
+<text x="363" y="246.588" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">规划主要用来省钱</text>
+<text x="363" y="261.078" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">只给 bash 就够，成本低得多</text>
+<rect x="32" y="290" width="438" height="44" rx="5" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1.5"/>
+<text x="251" y="308.136" text-anchor="middle" font-size="11" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">上下文管理：窗口预算越紧越重要，主要作用是防止溢出</text>
+<text x="251" y="322.35" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">先规则删减、再模型摘要，整体效率最好</text>
+<rect x="500" y="16" width="364" height="330" rx="8" fill="#F3F5F8" stroke="#D5DBE4" stroke-width="1.5"/>
+<text x="516" y="40" text-anchor="start" font-size="12.5" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">办法二：只留一个原语（JAZ）</text>
+<text x="516" y="58" text-anchor="start" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Harness as a Language</text>
+<rect x="516" y="74" width="332" height="176" rx="8" fill="#F5FBF8" stroke="#26805A" stroke-width="1.5" stroke-dasharray="5 3"/>
+<text x="530" y="94" text-anchor="start" font-size="11" font-weight="700" fill="#26805A" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">代码环境：输入、交互历史都是变量</text>
+<rect x="540" y="108" width="140" height="56" rx="5" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.5"/>
+<text x="610" y="132.412" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">invoke(…)</text>
+<text x="610" y="147.04" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">实现由模型现写</text>
+<rect x="700" y="108" width="132" height="56" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5"/>
+<text x="766" y="132.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">任意可执行代码</text>
+<text x="766" y="146.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">可再调 invoke</text>
+<path d="M680,136 L698,136" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b1_two_ways)"/>
+<path d="M766,164 L766,192 L610,192 L610,166" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b1_two_ways)"/>
+<text x="688" y="187" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" style="paint-order:stroke;stroke-width:4px;stroke-linejoin:round" stroke="#ffffff">递归</text>
+<rect x="540" y="206" width="292" height="34" rx="5" fill="#E9EDF3" stroke="#47546A" stroke-width="1.5"/>
+<text x="686" y="226.036" text-anchor="middle" font-size="11" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">变量：inputs、history、中间结果…</text>
+<rect x="516" y="262" width="332" height="40" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5"/>
+<text x="682" y="285.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">钩子：程序员施加约束、做监控</text>
+<text x="682" y="326" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">不配手工工具、记忆、文件系统</text>
+</svg>

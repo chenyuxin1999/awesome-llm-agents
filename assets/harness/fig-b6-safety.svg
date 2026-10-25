@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400" role="img" aria-label="harness 安全：六个运行阶段与可演化的安全层" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><rect x="0" y="0" width="900" height="400" fill="#ffffff"/><defs><marker id="ah_fig_b6_safety" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs>
+<text x="20" y="24" text-anchor="start" font-size="12" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">HarnessRisk：按 harness 的职责把安全问题分成六个运行阶段</text>
+<rect x="20" y="36" width="300" height="30" rx="5" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1.5"/>
+<text x="170" y="54.036" text-anchor="middle" font-size="11" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">正常的用户目标</text>
+<rect x="340" y="36" width="400" height="30" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5"/>
+<text x="540" y="54.036" text-anchor="middle" font-size="11" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">藏在不可信工作流产物里的恶意指令</text>
+<rect x="20" y="90" width="130" height="44" rx="5" fill="#FFF1DC" stroke="#B83560" stroke-width="2.6"/>
+<text x="85" y="115.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">1 harness 配置</text>
+<rect x="166" y="90" width="130" height="44" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5"/>
+<text x="231" y="115.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">2 能力扩展</text>
+<path d="M150,112 L164,112" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b6_safety)"/>
+<rect x="312" y="90" width="130" height="44" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5"/>
+<text x="377" y="115.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">3 运行时操作</text>
+<path d="M296,112 L310,112" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b6_safety)"/>
+<rect x="458" y="90" width="130" height="44" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5"/>
+<text x="523" y="115.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">4 状态持久化</text>
+<path d="M442,112 L456,112" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b6_safety)"/>
+<rect x="604" y="90" width="130" height="44" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5"/>
+<text x="669" y="115.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">5 动作控制</text>
+<path d="M588,112 L602,112" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b6_safety)"/>
+<rect x="750" y="90" width="130" height="44" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5"/>
+<text x="815" y="115.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">6 事故恢复</text>
+<path d="M734,112 L748,112" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b6_safety)"/>
+<path d="M170,66 L100,88" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b6_safety)"/>
+<path d="M540,66 L100,88" fill="none" stroke="#5A6577" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#ah_fig_b6_safety)"/>
+<text x="85" y="152" text-anchor="middle" font-size="10.5" font-weight="700" fill="#B83560" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">三个 harness 上都最脆弱</text>
+<text x="560" y="156" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">14 种配置：攻击成功率 12.6%–80.9%，效用 75.0%–97.6%</text>
+<path d="M20,176 L880,176" fill="none" stroke="#D5DBE4" stroke-width="1"/>
+<text x="20" y="200" text-anchor="start" font-size="12" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">SHE：把安全 harness 拆成四个组件，按轨迹归因来演化</text>
+<rect x="20" y="214" width="104" height="36" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5"/>
+<text x="72" y="235.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">系统提示</text>
+<rect x="132" y="214" width="104" height="36" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5"/>
+<text x="184" y="235.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">规则库</text>
+<rect x="20" y="258" width="104" height="36" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5"/>
+<text x="72" y="279.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">安全记忆</text>
+<rect x="132" y="258" width="104" height="36" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5"/>
+<text x="184" y="279.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">工具策略</text>
+<rect x="260" y="222" width="170" height="66" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5"/>
+<text x="345" y="244.374" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">轨迹里的失败</text>
+<text x="345" y="258.795" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">变成结构化诊断</text>
+<text x="345" y="272.595" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">归到具体组件</text>
+<rect x="456" y="222" width="140" height="66" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5"/>
+<text x="526" y="250.929" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">学习组件的</text>
+<text x="526" y="265.833" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">边界修正</text>
+<rect x="622" y="222" width="120" height="66" rx="5" fill="#FCE4EC" stroke="#B83560" stroke-width="1.5"/>
+<text x="682" y="250.929" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">双重验证</text>
+<text x="682" y="265.833" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">安全 + 效用</text>
+<path d="M236,255 L258,255" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b6_safety)"/>
+<path d="M430,255 L454,255" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b6_safety)"/>
+<path d="M596,255 L620,255" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b6_safety)"/>
+<path d="M682,288 L682,316 L126,316 L126,304" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b6_safety)"/>
+<text x="400" y="311" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" style="paint-order:stroke;stroke-width:4px;stroke-linejoin:round" stroke="#ffffff">通过的版本替换旧组件</text>
+<rect x="760" y="200" width="124" height="120" rx="5" fill="#FCE4EC" stroke="#B83560" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="822" y="228.674" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">EvoUndo</text>
+<text x="822" y="243.095" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">改动还能撤销吗？</text>
+<text x="822" y="256.895" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">600 个任务里</text>
+<text x="822" y="270.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">197 个提升能力的</text>
+<text x="822" y="284.495" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">修改通不过</text>
+<text x="822" y="298.295" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">可恢复性验证</text>
+<text x="450" y="352" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">同一思路：EvoSafeHarness 按模型和领域合成安全 harness，SafeEvolve 让策略与 harness 一起演化</text>
+<text x="450" y="380" text-anchor="middle" font-size="10.5" font-weight="500" fill="#B83560" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">识别出风险并不保证安全行动：有的配置九成以上的运行都察觉了风险，攻击仍大量得手</text>
+</svg>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 566" width="900" height="566" role="img" aria-label="自动优化 harness 的通用循环，以及各论文在哪一环动手" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><rect x="0" y="0" width="900" height="566" fill="#ffffff"/><defs><marker id="ah_fig_b3_search" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs>
+<text x="20" y="22" text-anchor="start" font-size="12" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">目标：让机器一轮轮改 harness，每一轮留下更好、换了任务也用得上的版本</text>
+<text x="880" y="22" text-anchor="end" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">例子（示意）：修 bug 的 harness</text>
+<g transform="translate(0,30)">
+<rect x="20" y="40" width="156" height="104" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5"/>
+<text x="98" y="68.54" text-anchor="middle" font-size="12.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">① 定位：找出错处</text>
+<text x="98" y="83.375" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">读失败轨迹和代码</text>
+<text x="98" y="97.175" text-anchor="middle" font-size="10" font-weight="500" fill="#C2501A" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">交出：出错的步骤或部件</text>
+<text x="98" y="110.492" text-anchor="middle" font-size="9.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">例：第 3 步读了五万字</text>
+<text x="98" y="123.602" text-anchor="middle" font-size="9.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">日志，窗口被挤满</text>
+<rect x="20" y="164" width="156" height="46" rx="5" fill="#FFFFFF" stroke="#C2501A" stroke-width="1.5"/>
+<text x="98" y="183.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Harness Handbook</text>
+<text x="98" y="197.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">生成以行为为中心的手册</text>
+<rect x="20" y="220" width="156" height="46" rx="5" fill="#FFFFFF" stroke="#C2501A" stroke-width="1.5"/>
+<text x="98" y="239.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">HarnessEvolve</text>
+<text x="98" y="253.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">对齐参考轨迹找出错步</text>
+<rect x="20" y="276" width="156" height="46" rx="5" fill="#FFFFFF" stroke="#C2501A" stroke-width="1.5"/>
+<text x="98" y="295.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">AutoSaddler</text>
+<text x="98" y="309.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">深入诊断失败轨迹</text>
+<rect x="196" y="40" width="156" height="104" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5"/>
+<text x="274" y="68.54" text-anchor="middle" font-size="12.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">② 提议：写出修改</text>
+<text x="274" y="83.375" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">改 harness 的代码或提示</text>
+<text x="274" y="97.175" text-anchor="middle" font-size="10" font-weight="500" fill="#C2501A" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">交出：一个新版本</text>
+<text x="274" y="110.492" text-anchor="middle" font-size="9.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">例：日志只留</text>
+<text x="274" y="123.602" text-anchor="middle" font-size="9.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">最后 200 行</text>
+<path d="M176,92 L194,92" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b3_search)"/>
+<rect x="196" y="164" width="156" height="46" rx="5" fill="#FFFFFF" stroke="#C2501A" stroke-width="1.5"/>
+<text x="274" y="183.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">HarnessCompass</text>
+<text x="274" y="197.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">只许通用修改，部件分开改</text>
+<rect x="196" y="220" width="156" height="46" rx="5" fill="#FFFFFF" stroke="#C2501A" stroke-width="1.5"/>
+<text x="274" y="239.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">ModularRSI</text>
+<text x="274" y="253.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">五个模块各自演化</text>
+<rect x="196" y="276" width="156" height="46" rx="5" fill="#FFFFFF" stroke="#C2501A" stroke-width="1.5"/>
+<text x="274" y="295.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">RRSI</text>
+<text x="274" y="309.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">允许的改动量逐轮减少</text>
+<rect x="196" y="332" width="156" height="46" rx="5" fill="#FFFFFF" stroke="#C2501A" stroke-width="1.5"/>
+<text x="274" y="351.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">DREvo</text>
+<text x="274" y="365.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">按当前代码重新核对旧经验</text>
+<rect x="372" y="40" width="156" height="104" rx="5" fill="#FCE4EC" stroke="#B83560" stroke-width="1.5"/>
+<text x="450" y="68.54" text-anchor="middle" font-size="12.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">③ 验证：值不值得留</text>
+<text x="450" y="83.375" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">在挑过的任务上跑分、过门</text>
+<text x="450" y="97.175" text-anchor="middle" font-size="10" font-weight="500" fill="#B83560" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">交出：通过的版本和分数</text>
+<text x="450" y="110.492" text-anchor="middle" font-size="9.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">例：20 个任务，</text>
+<text x="450" y="123.602" text-anchor="middle" font-size="9.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">测试判 11 → 14 个通过</text>
+<path d="M352,92 L370,92" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b3_search)"/>
+<rect x="372" y="164" width="156" height="46" rx="5" fill="#FFFFFF" stroke="#B83560" stroke-width="1.5"/>
+<text x="450" y="183.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Task-CoEvolve</text>
+<text x="450" y="197.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">挑候选间有分歧的任务</text>
+<rect x="372" y="220" width="156" height="46" rx="5" fill="#FFFFFF" stroke="#B83560" stroke-width="1.5"/>
+<text x="450" y="239.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">HarnessLens</text>
+<text x="450" y="253.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">按目标行为挑验证任务</text>
+<rect x="372" y="276" width="156" height="46" rx="5" fill="#FFFFFF" stroke="#B83560" stroke-width="1.5"/>
+<text x="450" y="295.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">HarnessBank</text>
+<text x="450" y="309.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">新版本先过一道门再进库</text>
+<rect x="372" y="332" width="156" height="46" rx="5" fill="#FFFFFF" stroke="#B83560" stroke-width="1.5"/>
+<text x="450" y="351.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">HarnessEvolve</text>
+<text x="450" y="365.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">防泄漏、防退步两道门</text>
+<rect x="548" y="40" width="156" height="104" rx="5" fill="#E9EDF3" stroke="#47546A" stroke-width="1.5"/>
+<text x="626" y="75.095" text-anchor="middle" font-size="12.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">④ 存档：存进历史</text>
+<text x="626" y="89.93" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">代码、分数、轨迹一起存</text>
+<text x="626" y="103.73" text-anchor="middle" font-size="10" font-weight="500" fill="#47546A" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">交出：全部候选的记录</text>
+<text x="626" y="117.047" text-anchor="middle" font-size="9.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">例：存为 v7</text>
+<path d="M528,92 L546,92" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b3_search)"/>
+<rect x="548" y="164" width="156" height="46" rx="5" fill="#FFFFFF" stroke="#47546A" stroke-width="1.5"/>
+<text x="626" y="183.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">HarnessBank</text>
+<text x="626" y="197.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">存一批做法各不相同的好版本</text>
+<rect x="548" y="220" width="156" height="46" rx="5" fill="#FFFFFF" stroke="#47546A" stroke-width="1.5"/>
+<text x="626" y="239.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Meta-Harness</text>
+<text x="626" y="253.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">文件系统里的全部历史</text>
+<rect x="724" y="40" width="156" height="104" rx="5" fill="#FCE4EC" stroke="#B83560" stroke-width="1.5"/>
+<text x="802" y="68.54" text-anchor="middle" font-size="12.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">⑤ 选择：挑下轮起点</text>
+<text x="802" y="83.375" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">从历史里选一个版本</text>
+<text x="802" y="97.175" text-anchor="middle" font-size="10" font-weight="500" fill="#B83560" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">交出：下一轮要改的版本</text>
+<text x="802" y="110.492" text-anchor="middle" font-size="9.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">例：下一轮</text>
+<text x="802" y="123.602" text-anchor="middle" font-size="9.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">从 v7 改起</text>
+<path d="M704,92 L722,92" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b3_search)"/>
+<rect x="724" y="164" width="156" height="46" rx="5" fill="#FFFFFF" stroke="#B83560" stroke-width="1.5"/>
+<text x="802" y="183.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">RRSI</text>
+<text x="802" y="197.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">评论员筛掉针对基准的改动</text>
+<rect x="724" y="220" width="156" height="46" rx="5" fill="#FFFFFF" stroke="#B83560" stroke-width="1.5"/>
+<text x="802" y="239.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">AutoSaddler</text>
+<text x="802" y="253.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">挑能泛化的更新</text>
+<path d="M802,40 L802,22 L98,22 L98,38" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b3_search)"/>
+<text x="450" y="18" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" style="paint-order:stroke;stroke-width:4px;stroke-linejoin:round" stroke="#ffffff">下一轮</text>
+<path d="M20,404 L880,404" fill="none" stroke="#D5DBE4" stroke-width="1"/>
+<text x="20" y="428" text-anchor="start" font-size="11.5" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">用在具体目标上</text>
+<rect x="20" y="442" width="204" height="50" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5"/>
+<text x="122" y="462.86" text-anchor="middle" font-size="10" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Better Harnesses, Smaller Models</text>
+<text x="122" y="476.66" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">给小模型自动适配 harness</text>
+<rect x="238" y="442" width="204" height="50" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5"/>
+<text x="340" y="462.86" text-anchor="middle" font-size="10" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Recursive Harness Self-Improvement</text>
+<text x="340" y="476.66" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">提示级规格，成对反馈</text>
+<rect x="456" y="442" width="204" height="50" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5"/>
+<text x="558" y="462.998" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">SoL-Pi</text>
+<text x="558" y="477.005" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">筛出四个能迁移的机制</text>
+<rect x="674" y="442" width="204" height="50" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5"/>
+<text x="776" y="462.998" text-anchor="middle" font-size="10.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">AutoDesign</text>
+<text x="776" y="477.005" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">论文转海报的长程设计</text>
+</g>
+</svg>

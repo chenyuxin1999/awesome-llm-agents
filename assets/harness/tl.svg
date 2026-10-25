@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500" role="img" aria-label="Harness 工程演进时间轴，2019 到 2026" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><rect x="0" y="0" width="900" height="500" fill="#ffffff"/><defs><marker id="ah_tl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs>
+<rect x="10" y="40" width="880" height="70" rx="0" fill="#F3F5F8" stroke="none" stroke-width="0"/>
+<text x="18" y="79" text-anchor="start" font-size="11.5" font-weight="700" fill="#2B57C9" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">V0 循环与提示</text>
+<path d="M150,75 L890,75" fill="none" stroke="#2B57C9" stroke-width="1"/>
+<text x="18" y="149" text-anchor="start" font-size="11.5" font-weight="700" fill="#26805A" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">静态 harness</text>
+<path d="M150,145 L890,145" fill="none" stroke="#26805A" stroke-width="1"/>
+<rect x="10" y="180" width="880" height="70" rx="0" fill="#F3F5F8" stroke="none" stroke-width="0"/>
+<text x="18" y="219" text-anchor="start" font-size="11.5" font-weight="700" fill="#C2501A" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">让 harness 学习</text>
+<path d="M150,215 L890,215" fill="none" stroke="#C2501A" stroke-width="1"/>
+<text x="18" y="289" text-anchor="start" font-size="11.5" font-weight="700" fill="#B86E00" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">2026 成型系统</text>
+<path d="M150,285 L890,285" fill="none" stroke="#B86E00" stroke-width="1"/>
+<rect x="10" y="320" width="880" height="70" rx="0" fill="#F3F5F8" stroke="none" stroke-width="0"/>
+<text x="18" y="359" text-anchor="start" font-size="11.5" font-weight="700" fill="#B83560" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">怎样知道有效</text>
+<path d="M150,355 L890,355" fill="none" stroke="#B83560" stroke-width="1"/>
+<text x="18" y="429" text-anchor="start" font-size="11.5" font-weight="700" fill="#47546A" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">工程长文</text>
+<path d="M150,425 L890,425" fill="none" stroke="#47546A" stroke-width="1"/>
+<path d="M150,34 L150,460" fill="none" stroke="#D5DBE4" stroke-width="0.8"/>
+<text x="153" y="28" text-anchor="start" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">2019</text>
+<path d="M205,34 L205,460" fill="none" stroke="#D5DBE4" stroke-width="0.8"/>
+<text x="208" y="28" text-anchor="start" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">2020</text>
+<path d="M255,34 L255,460" fill="none" stroke="#D5DBE4" stroke-width="0.8"/>
+<text x="258" y="28" text-anchor="start" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">2021</text>
+<path d="M310,34 L310,460" fill="none" stroke="#D5DBE4" stroke-width="0.8"/>
+<text x="313" y="28" text-anchor="start" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">2022</text>
+<path d="M380,34 L380,460" fill="none" stroke="#D5DBE4" stroke-width="0.8"/>
+<text x="383" y="28" text-anchor="start" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">2023</text>
+<path d="M590,34 L590,460" fill="none" stroke="#D5DBE4" stroke-width="0.8"/>
+<text x="593" y="28" text-anchor="start" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">2024</text>
+<path d="M660,34 L660,460" fill="none" stroke="#D5DBE4" stroke-width="0.8"/>
+<text x="663" y="28" text-anchor="start" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">2025</text>
+<path d="M770,34 L770,460" fill="none" stroke="#D5DBE4" stroke-width="0.8"/>
+<text x="773" y="28" text-anchor="start" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">2026</text>
+<circle cx="156.6" cy="75" r="4.5" fill="#ffffff" stroke="#2B57C9" stroke-width="2"/>
+<text x="156.6" y="66" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">GPT-2</text>
+<circle cx="225" cy="75" r="4.5" fill="#ffffff" stroke="#2B57C9" stroke-width="2"/>
+<text x="225" y="66" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">GPT-3 少样本</text>
+<circle cx="313.5" cy="75" r="4.5" fill="#ffffff" stroke="#2B57C9" stroke-width="2"/>
+<text x="313.5" y="66" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">思维链</text>
+<circle cx="307.25" cy="145" r="4.5" fill="#ffffff" stroke="#26805A" stroke-width="2"/>
+<text x="307.25" y="136" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">WebGPT</text>
+<circle cx="364.6" cy="145" r="4.5" fill="#ffffff" stroke="#26805A" stroke-width="2"/>
+<text x="364.6" y="136" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">ReAct</text>
+<circle cx="401" cy="145" r="4.5" fill="#ffffff" stroke="#26805A" stroke-width="2"/>
+<text x="401" y="163" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Toolformer</text>
+<circle cx="426.2" cy="145" r="4.5" fill="#ffffff" stroke="#26805A" stroke-width="2"/>
+<path d="M426.2,140 L426.2,127" fill="none" stroke="#26805A" stroke-width="0.8"/>
+<text x="426.2" y="123" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Self-Refine / Reflexion</text>
+<circle cx="459.8" cy="145" r="4.5" fill="#ffffff" stroke="#26805A" stroke-width="2"/>
+<text x="459.8" y="136" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Voyager</text>
+<circle cx="476.6" cy="145" r="4.5" fill="#ffffff" stroke="#26805A" stroke-width="2"/>
+<path d="M476.6,150 L476.6,166" fill="none" stroke="#26805A" stroke-width="0.8"/>
+<text x="476.6" y="176" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">InterCode / 多 agent</text>
+<circle cx="543.8" cy="145" r="4.5" fill="#ffffff" stroke="#26805A" stroke-width="2"/>
+<text x="543.8" y="136" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">MemGPT</text>
+<circle cx="768.9" cy="145" r="4.5" fill="#ffffff" stroke="#26805A" stroke-width="2"/>
+<text x="768.9" y="136" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">RLM</text>
+<circle cx="541.7" cy="215" r="4.5" fill="#ffffff" stroke="#C2501A" stroke-width="2"/>
+<text x="541.7" y="206" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">DSPy</text>
+<circle cx="701.8" cy="215" r="4.5" fill="#ffffff" stroke="#C2501A" stroke-width="2"/>
+<text x="701.8" y="206" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">DGM</text>
+<circle cx="720.5" cy="215" r="4.5" fill="#ffffff" stroke="#C2501A" stroke-width="2"/>
+<text x="720.5" y="233" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">GEPA</text>
+<circle cx="803.882" cy="215" r="4.5" fill="#ffffff" stroke="#C2501A" stroke-width="2"/>
+<text x="803.882" y="206" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Meta-Harness</text>
+<circle cx="820.824" cy="215" r="4.5" fill="#ffffff" stroke="#C2501A" stroke-width="2"/>
+<text x="820.824" y="233" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Continual Harness</text>
+<circle cx="822.235" cy="285" r="4.5" fill="#ffffff" stroke="#B86E00" stroke-width="2"/>
+<text x="822.235" y="276" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">OpenJarvis</text>
+<circle cx="863.176" cy="285" r="4.5" fill="#ffffff" stroke="#B86E00" stroke-width="2"/>
+<text x="863.176" y="303" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Prime Agent</text>
+<circle cx="683.1" cy="355" r="4.5" fill="#ffffff" stroke="#B83560" stroke-width="2"/>
+<text x="683.1" y="346" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">METR 时间跨度</text>
+<circle cx="657.9" cy="425" r="4.5" fill="#ffffff" stroke="#47546A" stroke-width="2"/>
+<text x="657.9" y="416" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Building effective agents</text>
+<circle cx="719.4" cy="425" r="4.5" fill="#ffffff" stroke="#47546A" stroke-width="2"/>
+<text x="719.4" y="443" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Manus</text>
+<circle cx="759" cy="425" r="4.5" fill="#ffffff" stroke="#47546A" stroke-width="2"/>
+<path d="M759,420 L759,407" fill="none" stroke="#47546A" stroke-width="0.8"/>
+<text x="759" y="403" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Anthropic 长程</text>
+<circle cx="785.529" cy="425" r="4.5" fill="#ffffff" stroke="#47546A" stroke-width="2"/>
+<text x="785.529" y="416" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">OpenAI</text>
+<circle cx="840.588" cy="425" r="4.5" fill="#ffffff" stroke="#47546A" stroke-width="2"/>
+<text x="840.588" y="416" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Lilian Weng</text>
+<circle cx="861.765" cy="425" r="4.5" fill="#ffffff" stroke="#47546A" stroke-width="2"/>
+<text x="860.72" y="443" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">DAIR.AI 合集</text>
+<path d="M364.6,34 L364.6,464" fill="none" stroke="#0E6E7E" stroke-width="1.2" stroke-dasharray="4 3"/>
+<path d="M803.882,34 L803.882,464" fill="none" stroke="#0E6E7E" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="368.6" y="478" text-anchor="start" font-size="10.5" font-weight="700" fill="#0E6E7E" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">ReAct：循环的形状定下来</text>
+<text x="799.882" y="478" text-anchor="end" font-size="10.5" font-weight="700" fill="#0E6E7E" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Meta-Harness：harness 代码交给机器搜</text>
+</svg>

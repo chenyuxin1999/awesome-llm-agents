@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340" role="img" aria-label="流匹配的一条训练样本" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">
+<rect x="0" y="0" width="900" height="340" fill="#ffffff"/>
+<defs><marker id="fmsa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker><marker id="fmsr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C2501A"/></marker><marker id="fmsg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#26805A"/></marker><marker id="fmsp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5B45B0"/></marker></defs>
+<text x="20" y="26" font-size="14" fill="#18202C" text-anchor="start" font-weight="700">流匹配的一条训练样本：把一张 3×3 的小“照片”和一份噪声混起来，让网络猜速度（数字为示意）</text>
+<text x="30" y="62" font-size="12" fill="#2B57C9" text-anchor="start" font-weight="700">① 照片 x（取自训练集）</text>
+<rect x="30" y="74" width="44" height="44" fill="#dfdfdf" stroke="#ffffff" stroke-width="1.5"/>
+<text x="52.0" y="100.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.90</text>
+<rect x="74" y="74" width="44" height="44" fill="#cacaca" stroke="#ffffff" stroke-width="1.5"/>
+<text x="96.0" y="100.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.80</text>
+<rect x="118" y="74" width="44" height="44" fill="#494949" stroke="#ffffff" stroke-width="1.5"/>
+<text x="140.0" y="100.0" font-size="10.5" fill="#ffffff" text-anchor="middle">0.20</text>
+<rect x="30" y="118" width="44" height="44" fill="#b4b4b4" stroke="#ffffff" stroke-width="1.5"/>
+<text x="52.0" y="144.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.70</text>
+<rect x="74" y="118" width="44" height="44" fill="#9f9f9f" stroke="#ffffff" stroke-width="1.5"/>
+<text x="96.0" y="144.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.60</text>
+<rect x="118" y="118" width="44" height="44" fill="#333333" stroke="#ffffff" stroke-width="1.5"/>
+<text x="140.0" y="144.0" font-size="10.5" fill="#ffffff" text-anchor="middle">0.10</text>
+<rect x="30" y="162" width="44" height="44" fill="#5e5e5e" stroke="#ffffff" stroke-width="1.5"/>
+<text x="52.0" y="188.0" font-size="10.5" fill="#ffffff" text-anchor="middle">0.30</text>
+<rect x="74" y="162" width="44" height="44" fill="#494949" stroke="#ffffff" stroke-width="1.5"/>
+<text x="96.0" y="188.0" font-size="10.5" fill="#ffffff" text-anchor="middle">0.20</text>
+<rect x="118" y="162" width="44" height="44" fill="#1e1e1e" stroke="#ffffff" stroke-width="1.5"/>
+<text x="140.0" y="188.0" font-size="10.5" fill="#ffffff" text-anchor="middle">0.00</text>
+<text x="220" y="62" font-size="12" fill="#47546A" text-anchor="start" font-weight="700">① 噪声 ε（随机抽的高斯数）</text>
+<rect x="220" y="74" width="44" height="44" fill="#87b7ff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="242.0" y="100.0" font-size="10.5" fill="#18202C" text-anchor="middle">−1.20</text>
+<rect x="264" y="74" width="44" height="44" fill="#ffe7d9" stroke="#ffffff" stroke-width="1.5"/>
+<text x="286.0" y="100.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.40</text>
+<rect x="308" y="74" width="44" height="44" fill="#ffc9a9" stroke="#ffffff" stroke-width="1.5"/>
+<text x="330.0" y="100.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.90</text>
+<rect x="220" y="118" width="44" height="44" fill="#ffede2" stroke="#ffffff" stroke-width="1.5"/>
+<text x="242.0" y="144.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.30</text>
+<rect x="264" y="118" width="44" height="44" fill="#afcfff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="286.0" y="144.0" font-size="10.5" fill="#18202C" text-anchor="middle">−0.80</text>
+<rect x="308" y="118" width="44" height="44" fill="#ffa570" stroke="#ffffff" stroke-width="1.5"/>
+<text x="330.0" y="144.0" font-size="10.5" fill="#18202C" text-anchor="middle">1.50</text>
+<rect x="220" y="162" width="44" height="44" fill="#cde1ff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="242.0" y="188.0" font-size="10.5" fill="#18202C" text-anchor="middle">−0.50</text>
+<rect x="264" y="162" width="44" height="44" fill="#ffbd96" stroke="#ffffff" stroke-width="1.5"/>
+<text x="286.0" y="188.0" font-size="10.5" fill="#18202C" text-anchor="middle">1.10</text>
+<rect x="308" y="162" width="44" height="44" fill="#e1edff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="330.0" y="188.0" font-size="10.5" fill="#18202C" text-anchor="middle">−0.30</text>
+<text x="470" y="62" font-size="12" fill="#5B45B0" text-anchor="start" font-weight="700">③ 网络的输入：t = 0.3</text>
+<rect x="470" y="74" width="44" height="44" fill="#c6dcff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="492.0" y="100.0" font-size="10.5" fill="#18202C" text-anchor="middle">−0.57</text>
+<rect x="514" y="74" width="44" height="44" fill="#ffdfcd" stroke="#ffffff" stroke-width="1.5"/>
+<text x="536.0" y="100.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.52</text>
+<rect x="558" y="74" width="44" height="44" fill="#ffd5bd" stroke="#ffffff" stroke-width="1.5"/>
+<text x="580.0" y="100.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.69</text>
+<rect x="470" y="118" width="44" height="44" fill="#ffe5d7" stroke="#ffffff" stroke-width="1.5"/>
+<text x="492.0" y="144.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.42</text>
+<rect x="514" y="118" width="44" height="44" fill="#d9e8ff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="536.0" y="144.0" font-size="10.5" fill="#18202C" text-anchor="middle">−0.38</text>
+<rect x="558" y="118" width="44" height="44" fill="#ffbe98" stroke="#ffffff" stroke-width="1.5"/>
+<text x="580.0" y="144.0" font-size="10.5" fill="#18202C" text-anchor="middle">1.08</text>
+<rect x="470" y="162" width="44" height="44" fill="#e5efff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="492.0" y="188.0" font-size="10.5" fill="#18202C" text-anchor="middle">−0.26</text>
+<rect x="514" y="162" width="44" height="44" fill="#ffcdb0" stroke="#ffffff" stroke-width="1.5"/>
+<text x="536.0" y="188.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.83</text>
+<rect x="558" y="162" width="44" height="44" fill="#eaf2ff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="580.0" y="188.0" font-size="10.5" fill="#18202C" text-anchor="middle">−0.21</text>
+<text x="690" y="62" font-size="12" fill="#26805A" text-anchor="start" font-weight="700">⑥ 标签：照片减噪声</text>
+<rect x="690" y="74" width="44" height="44" fill="#ff8741" stroke="#ffffff" stroke-width="1.5"/>
+<text x="712.0" y="100.0" font-size="10.5" fill="#18202C" text-anchor="middle">2.10</text>
+<rect x="734" y="74" width="44" height="44" fill="#ffe7d9" stroke="#ffffff" stroke-width="1.5"/>
+<text x="756.0" y="100.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.40</text>
+<rect x="778" y="74" width="44" height="44" fill="#b9d5ff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="800.0" y="100.0" font-size="10.5" fill="#18202C" text-anchor="middle">−0.70</text>
+<rect x="690" y="118" width="44" height="44" fill="#ffe7d9" stroke="#ffffff" stroke-width="1.5"/>
+<text x="712.0" y="144.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.40</text>
+<rect x="734" y="118" width="44" height="44" fill="#ffab7a" stroke="#ffffff" stroke-width="1.5"/>
+<text x="756.0" y="144.0" font-size="10.5" fill="#18202C" text-anchor="middle">1.40</text>
+<rect x="778" y="118" width="44" height="44" fill="#73abff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="800.0" y="144.0" font-size="10.5" fill="#18202C" text-anchor="middle">−1.40</text>
+<rect x="690" y="162" width="44" height="44" fill="#ffcfb3" stroke="#ffffff" stroke-width="1.5"/>
+<text x="712.0" y="188.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.80</text>
+<rect x="734" y="162" width="44" height="44" fill="#a5c9ff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="756.0" y="188.0" font-size="10.5" fill="#18202C" text-anchor="middle">−0.90</text>
+<rect x="778" y="162" width="44" height="44" fill="#ffede2" stroke="#ffffff" stroke-width="1.5"/>
+<text x="800.0" y="188.0" font-size="10.5" fill="#18202C" text-anchor="middle">0.30</text>
+<text x="200" y="146" font-size="20" fill="#5A6577" text-anchor="middle">+</text>
+<line x1="360" y1="140" x2="455" y2="140" stroke="#5A6577" stroke-width="1.4" marker-end="url(#fmsa)"/>
+<text x="408" y="128" font-size="11" fill="#5A6577" text-anchor="middle">三成照片</text>
+<text x="408" y="160" font-size="11" fill="#5A6577" text-anchor="middle">加七成噪声</text>
+<line x1="610" y1="140" x2="676" y2="140" stroke="#26805A" stroke-width="1.4" marker-end="url(#fmsg)"/>
+<text x="643" y="128" font-size="11" fill="#26805A" text-anchor="middle">答案</text>
+<text x="643" y="160" font-size="11" fill="#26805A" text-anchor="middle">现成的</text>
+<text x="470" y="228" font-size="11" fill="#5A6577" text-anchor="start">左上角这一格：0.3 × 0.9 + 0.7 ×（−1.2）= −0.57</text>
+<text x="690" y="246" font-size="11" fill="#5A6577" text-anchor="start">左上角：0.9 −（−1.2）= 2.10</text>
+<rect x="20" y="262" width="860" height="66" fill="#F6F7F9" stroke="#E2E6EC" stroke-width="1" rx="8"/>
+<text x="36" y="286" font-size="12.5" fill="#18202C" text-anchor="start">网络看到的是第三张小图、时间 t = 0.3 和文字“一只猫”，它要输出一张同样大小的“速度”图，和第四张越接近越好。</text>
+<text x="36" y="310" font-size="12.5" fill="#5A6577" text-anchor="start">从噪声沿直线走到照片，每一格每单位时间该变多少，正好就是照片减噪声；这个答案由我们自己构造，用不着人工标注。</text>
+</svg>

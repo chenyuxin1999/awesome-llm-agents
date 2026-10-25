@@ -1,0 +1,146 @@
+[
+  {
+    "url": "https://www.amacad.org/publication/daedalus/unlocking-scientific-intuition-reasoning-at-digital-speed",
+    "checked_at": "2026-10-19T08:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Unlocking Scientific Intuition & Reasoning at Digital Speed",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
+    "checked_at": "2026-10-19T08:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "AlphaEvolve: A Gemini-powered coding agent for designing advanced algorithms",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://terrytao.wordpress.com/2025/11/05/mathematical-exploration-and-discovery-at-scale/",
+    "checked_at": "2026-10-19T08:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Mathematical exploration and discovery at scale",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist",
+    "checked_at": "2026-10-19T08:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Accelerating scientific breakthroughs with an AI co-scientist",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://sakana.ai/ai-scientist-nature/",
+    "checked_at": "2026-10-19T08:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "The AI Scientist: Towards Fully Automated AI Research, Now Published in Nature",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://sakana.ai/ai-scientist-first-publication/",
+    "checked_at": "2026-10-19T08:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "The AI Scientist Generates its First Peer-Reviewed Scientific Publication",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://futurehouse.org/research-announcements/demonstrating-end-to-end-scientific-discovery-with-robin-a-multi-agent-system",
+    "checked_at": "2026-10-19T08:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Demonstrating end-to-end scientific discovery with Robin: a multi-agent system",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://edisonscientific.com/news/announcing-kosmos",
+    "checked_at": "2026-10-19T08:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Kosmos: An AI Scientist for Autonomous Discovery",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2506.13131",
+    "checked_at": "2026-10-19T08:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "AlphaEvolve: A coding agent for scientific and algorithmic discovery",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2511.02864",
+    "checked_at": "2026-10-19T08:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Mathematical exploration and discovery at scale",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2502.18864",
+    "checked_at": "2026-10-19T08:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Accelerating scientific discovery with Co-Scientist",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2505.13400",
+    "checked_at": "2026-10-19T08:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Robin: A multi-agent system for automating scientific discovery",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2511.02824",
+    "checked_at": "2026-10-19T08:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Kosmos: An AI Scientist for Autonomous Discovery",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2504.08066",
+    "checked_at": "2026-10-19T08:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2304.05332",
+    "checked_at": "2026-10-19T08:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Emergent autonomous scientific research capabilities of large language models",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2304.05376",
+    "checked_at": "2026-10-19T08:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "ChemCrow: Augmenting large-language models with chemistry tools",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.04109",
+    "checked_at": "2026-10-19T08:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2504.01848",
+    "checked_at": "2026-10-19T08:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "PaperBench: Evaluating AI's Ability to Replicate AI Research",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  }
+]

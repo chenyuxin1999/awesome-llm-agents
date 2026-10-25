@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" width="880" height="400" role="img" aria-label="同一次搜索的两种返回方式" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><defs><marker id="ah-pictooloutput" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs><rect x="0" y="0" width="880" height="400" fill="#ffffff"/><text x="20.0" y="26.0" font-size="13" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">示意：在 23 个日志里搜 nan，工具返回多少，就占掉多少上下文</text>
+<text x="24.0" y="58.0" font-size="13" fill="#C2501A" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">原样全部返回</text>
+<rect x="24.0" y="68.0" width="400.0" height="170.0" rx="4" fill="#FDE8DD" stroke="#C2501A" stroke-width="1"/>
+<text x="34.0" y="90.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">runs/exp03/train.log:412: step 9120 grad_norm=nan</text>
+<text x="34.0" y="109.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">runs/exp03/train.log:413: step 9121 loss=nan</text>
+<text x="34.0" y="128.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">runs/exp03/train.log:414: step 9122 loss=nan</text>
+<text x="34.0" y="147.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">runs/exp07/train.log:288: epoch 12 loss=nan</text>
+<text x="34.0" y="166.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">runs/exp07/train.log:289: epoch 12 loss=nan</text>
+<text x="34.0" y="185.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">runs/exp07/train.log:290: epoch 12 loss=nan</text>
+<text x="34.0" y="204.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">…（共 1,412 行匹配）</text>
+<text x="224.0" y="258.0" font-size="12" fill="#C2501A" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">约 38,000 token 涌进窗口</text>
+<text x="456.0" y="58.0" font-size="13" fill="#26805A" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">按文件汇总，再分页</text>
+<rect x="456.0" y="68.0" width="400.0" height="170.0" rx="4" fill="#DDF3E8" stroke="#26805A" stroke-width="1"/>
+<text x="466.0" y="90.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">匹配到 nan 的文件：2 个（共 23 个）</text>
+<text x="466.0" y="111.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">  runs/exp03/train.log  706 行，首次在 step 9120</text>
+<text x="466.0" y="132.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">  runs/exp07/train.log  706 行，首次在 epoch 12</text>
+<text x="466.0" y="153.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace"></text>
+<text x="466.0" y="174.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">要看原文：read_file(path, offset, limit)</text>
+<text x="466.0" y="195.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">第 1 页 / 共 1 页</text>
+<text x="656.0" y="258.0" font-size="12" fill="#26805A" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">约 120 token</text>
+<text x="24.0" y="300.0" font-size="12" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">上下文窗口（示意）</text>
+<text x="24.0" y="326.0" font-size="11" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">全部返回</text>
+<rect x="150.0" y="312.0" width="60.0" height="22.0" rx="0" fill="#E9EDF3"/>
+<text x="180.0" y="327.0" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">指令</text>
+<rect x="210.0" y="312.0" width="60.0" height="22.0" rx="0" fill="#E3EBFF"/>
+<text x="240.0" y="327.0" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">工具</text>
+<rect x="270.0" y="312.0" width="80.0" height="22.0" rx="0" fill="#FFF1DC"/>
+<text x="310.0" y="327.0" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">历史</text>
+<rect x="350.0" y="312.0" width="500.0" height="22.0" rx="0" fill="#FDE8DD"/>
+<text x="600.0" y="327.0" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">搜索结果</text>
+<rect x="150.0" y="312.0" width="700.0" height="22.0" rx="0" fill="none" stroke="#D5DBE4" stroke-width="1.2"/>
+<text x="24.0" y="362.0" font-size="11" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">汇总分页</text>
+<rect x="150.0" y="348.0" width="60.0" height="22.0" rx="0" fill="#E9EDF3"/>
+<text x="180.0" y="363.0" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">指令</text>
+<rect x="210.0" y="348.0" width="60.0" height="22.0" rx="0" fill="#E3EBFF"/>
+<text x="240.0" y="363.0" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">工具</text>
+<rect x="270.0" y="348.0" width="80.0" height="22.0" rx="0" fill="#FFF1DC"/>
+<text x="310.0" y="363.0" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">历史</text>
+<rect x="350.0" y="348.0" width="14.0" height="22.0" rx="0" fill="#DDF3E8"/>
+<rect x="364.0" y="348.0" width="486.0" height="22.0" rx="0" fill="#FFFFFF"/>
+<text x="607.0" y="363.0" font-size="10" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">还空着，留给后面的步骤</text>
+<rect x="150.0" y="348.0" width="700.0" height="22.0" rx="0" fill="none" stroke="#D5DBE4" stroke-width="1.2"/>
+<text x="440.0" y="394.0" font-size="11" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Anthropic 写工具的建议：用分页、过滤和截断控制返回量；Claude Code 默认把一次工具返回限制在 25,000 token 以内</text></svg>

@@ -7,7 +7,7 @@
       "expected_old": "18_Unassigned",
       "expected_title": "The Bitter Lesson of Tool Calling",
       "new": "01_basics",
-      "secondary_tags": ["06_evaluation", "13_efficiency"],
+      "secondary_tags": ["06_evaluation", "13_efficiency_and_architecture"],
       "reason": "逐条读取摘要后确认，核心比较程序式与原生JSON工具调用接口，属于工具使用与执行方式；不能因旧库未分配而继续留待复核。基准比较和执行成本作为副标签。",
       "reviewer": "coding_assistant_local_review",
       "evidence_basis": [
@@ -21,7 +21,7 @@
       "id": "2609.19969",
       "expected_old": "06_Frontier_Tech_Reports",
       "expected_title": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
-      "new": "13_efficiency",
+      "new": "13_efficiency_and_architecture",
       "secondary_tags": [
         "15_frontier_reports"
       ],
@@ -38,7 +38,7 @@
       "id": "2609.recurrent-looped-transformer",
       "expected_old": "06_Frontier_Tech_Reports",
       "expected_title": "Recurrent Looped Transformer",
-      "new": "13_efficiency",
+      "new": "13_efficiency_and_architecture",
       "secondary_tags": [],
       "reason": "研究对象是循环Transformer的计算组织与参数复用，按第13章循环计算架构归类，不是前沿发布或第14章表征科学。",
       "reviewer": "coding_assistant_local_review",
@@ -85,9 +85,9 @@
       "id": "2609.reinforcing-agents-collective-skills",
       "expected_old": "06_Frontier_Tech_Reports",
       "expected_title": "Skill2Env: Reinforcing Agents with Collective Skills",
-      "new": "04_training_data",
+      "new": "04_data_and_environments",
       "secondary_tags": [
-        "03_skills_and_self_improvement",
+        "03_self_improvement",
         "05_rl_and_distillation"
       ],
       "reason": "将专家工作流转为可验证训练环境是主要产出，技能与强化学习为交叉标签，不是模型报告。",
@@ -120,7 +120,7 @@
       "expected_title": "FlashREINFORCE: Critic-Free Single-Rollout Asynchronous RL for Agentic Language Models",
       "new": "05_rl_and_distillation",
       "secondary_tags": [
-        "13_efficiency"
+        "13_efficiency_and_architecture"
       ],
       "reason": "明确是 Agentic Language Models 的异步强化学习算法，非模型发布报告。",
       "reviewer": "coding_assistant_local_review",
@@ -135,7 +135,7 @@
       "id": "2610.looped-models-fixed-points",
       "expected_old": "06_Frontier_Tech_Reports",
       "expected_title": "Towards Looped Models Done Right Part II: Rethinking at Fixed Points",
-      "new": "13_efficiency",
+      "new": "13_efficiency_and_architecture",
       "secondary_tags": [],
       "reason": "固定点训练用于looped模型的终端注意力缓存共享与解码内存节约，主问题是循环架构及计算效率，按第13章归类。",
       "reviewer": "coding_assistant_local_review",
@@ -183,7 +183,7 @@
       "id": "2609.why-are-ai-agents-lying-cheating-and-coordinating",
       "expected_old": "06_Frontier_Tech_Reports",
       "expected_title": "Why are AI agents lying, cheating and coordinating?",
-      "new": "07_safety",
+      "new": "07_safety_and_alignment",
       "secondary_tags": [
         "08_collaboration"
       ],
@@ -217,7 +217,7 @@
       "expected_title": "Invent a Dataset: Measuring Dataset Generation Abilities with Zero Seed Data",
       "new": "06_evaluation",
       "secondary_tags": [
-        "04_training_data"
+        "04_data_and_environments"
       ],
       "reason": "标题明确 Measuring Dataset Generation Abilities，以数据生成能力测量为主；训练数据为副标签。",
       "reviewer": "coding_assistant_local_review",
@@ -234,7 +234,7 @@
       "expected_title": "1% of Tokens Can Be Enough: On Gradient Estimation in On-Policy Distillation",
       "new": "05_rl_and_distillation",
       "secondary_tags": [
-        "13_efficiency"
+        "13_efficiency_and_architecture"
       ],
       "reason": "一句话明确推理任务的 on-policy 蒸馏梯度估计与 token 节约，不是前沿模型发布。",
       "reviewer": "coding_assistant_local_review",
@@ -279,7 +279,7 @@
       "id": "2609.reagent-agent-training-scenario-design",
       "expected_old": "06_Frontier_Tech_Reports",
       "expected_title": "ReAgent: Rethinking Agent Training Through Scenario Co-Design",
-      "new": "04_training_data",
+      "new": "04_data_and_environments",
       "secondary_tags": [],
       "reason": "标题明确 Agent 训练场景共设计，应归训练数据与环境。",
       "reviewer": "coding_assistant_local_review",
@@ -294,7 +294,7 @@
       "id": "2609.recurrence-looped-transformer-evaluation",
       "expected_old": "06_Frontier_Tech_Reports",
       "expected_title": "Does Recurrence Pay? A Controlled Evaluation of the Recurrent Looped Transformer",
-      "new": "13_efficiency",
+      "new": "13_efficiency_and_architecture",
       "secondary_tags": [
         "06_evaluation"
       ],
@@ -341,9 +341,9 @@
       "id": "2607.language-model-harnesses",
       "expected_old": "06_Frontier_Tech_Reports",
       "expected_title": "Language model harnesses are compositional generalizers",
-      "new": "01_basics",
-      "secondary_tags": [],
-      "reason": "研究 harness 的组合泛化和调用组织，是 Agent 系统基础；非前沿模型发布。",
+      "new": "18_harness_engineering",
+      "secondary_tags": ["01_basics"],
+      "reason": "研究 harness 结构本身带来的组合泛化，以 harness 为核心研究对象，归 Harness 工程；系统基础作为副标签；非前沿模型发布。",
       "reviewer": "coding_assistant_local_review",
       "evidence_basis": [
         {
@@ -403,9 +403,9 @@
       "id": "2609.06770",
       "expected_old": "14_AI4Science_and_Math_Agents",
       "expected_title": "The Interface of Theseus: The Rise of Just-In-Time Interfaces",
-      "new": "09_multimodal_gui",
-      "secondary_tags": [],
-      "reason": "研究按需即时生成交互界面，属于界面/交互方向而非科学或数学Agent。",
+      "new": "19_multimodal_agent",
+      "secondary_tags": ["09_multimodal_understanding"],
+      "reason": "研究按需即时生成交互界面，讨论的是 agent 与软件之间的行动接口，归多模态 agent；视觉理解作为副标签；不属于科学或数学Agent。",
       "reviewer": "coding_assistant_local_review",
       "evidence_basis": [
         {
@@ -465,7 +465,7 @@
       "expected_title": "J-CoT: Chain-of-Thought in J-Space",
       "new": "14_model_science",
       "secondary_tags": [
-        "13_efficiency"
+        "13_efficiency_and_architecture"
       ],
       "reason": "表征科学例外：J-CoT的核心是J-space词表索引坐标与中间状态表征接口，不是泛化的looped架构分类；保留第14章表征科学，循环计算作为第13章副标签。",
       "reviewer": "coding_assistant_local_review",
@@ -497,7 +497,7 @@
       "expected_title": "Mind the Spike: Mechanisms and Brittleness of Visual Massive Activations in Large Vision-Language Models",
       "new": "14_model_science",
       "secondary_tags": [
-        "09_multimodal_gui"
+        "09_multimodal_understanding"
       ],
       "reason": "研究视觉语言模型 massive activations 的形成机制及脆弱性，属于机制研究，多模态为副标签。",
       "reviewer": "coding_assistant_local_review",
@@ -512,7 +512,7 @@
       "id": "2607.08803",
       "expected_old": "14_AI4Science_and_Math_Agents",
       "expected_title": "TheBioCollection: Unified Pre-Training Scale LLM Corpus for Biology",
-      "new": "04_training_data",
+      "new": "04_data_and_environments",
       "secondary_tags": [
         "12_science"
       ],
@@ -561,7 +561,7 @@
       "id": "2608.14144",
       "expected_old": "07_On-Policy_Distillation",
       "expected_title": "Self-Supervised Visual On-Policy Distillation",
-      "new": "09_multimodal_gui",
+      "new": "09_multimodal_understanding",
       "secondary_tags": [
         "05_rl_and_distillation"
       ],
@@ -595,7 +595,7 @@
       "id": "2607.08766",
       "expected_old": "07_On-Policy_Distillation",
       "expected_title": "OPSD-V: On-Policy Self-Distillation for Post-Training Few-Step Autoregressive Video Generators",
-      "new": "16_generation",
+      "new": "16_multimodal_generation",
       "secondary_tags": [
         "05_rl_and_distillation"
       ],
@@ -614,7 +614,7 @@
       "expected_title": "ZipDepth: Bringing Lightweight Zero-Shot Monocular Depth Anywhere, on Any Device",
       "new": "90_adjacent",
       "secondary_tags": [
-        "13_efficiency"
+        "13_efficiency_and_architecture"
       ],
       "reason": "ZipDepth 是轻量单目深度估计网络，知识蒸馏只是训练技术，主对象是纯视觉感知而非Agent。",
       "reviewer": "coding_assistant_local_review",
@@ -629,9 +629,9 @@
       "id": "2608.17402",
       "expected_old": "07_On-Policy_Distillation",
       "expected_title": "MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding",
-      "new": "09_multimodal_gui",
+      "new": "09_multimodal_understanding",
       "secondary_tags": [
-        "13_efficiency"
+        "13_efficiency_and_architecture"
       ],
       "reason": "核心对象为 CLIP-style vision encoder 的 MoE 扩展，按多模态编码器归类而非通用蒸馏；效率为副标签。",
       "reviewer": "coding_assistant_local_review",
@@ -648,7 +648,7 @@
       "expected_title": "On-Policy Visual Evidence Distillation",
       "new": "05_rl_and_distillation",
       "secondary_tags": [
-        "09_multimodal_gui"
+        "09_multimodal_understanding"
       ],
       "reason": "反例保留：摘要明确 visual agents 的学生交互轨迹与教师纠正，确属Agent蒸馏；不能将所有含 visual 的论文一律逐出RL，补多模态标签。",
       "reviewer": "coding_assistant_local_review",
@@ -663,7 +663,7 @@
       "id": "2607.19064",
       "expected_old": "07_On-Policy_Distillation",
       "expected_title": "Mage-Flow: An Efficient Native-Resolution Foundation Model for Image Generation and Editing",
-      "new": "16_generation",
+      "new": "16_multimodal_generation",
       "secondary_tags": [],
       "reason": "标题直接指向原生分辨率图像生成与编辑，不是Agent强化学习。",
       "reviewer": "coding_assistant_local_review",
@@ -681,7 +681,7 @@
       "new": "10_world_models",
       "secondary_tags": [
         "11_embodied",
-        "16_generation"
+        "16_multimodal_generation"
       ],
       "reason": "主对象是动作条件视频世界模型；机器人应用与视频生成保留为交叉标签，非通用蒸馏。",
       "reviewer": "coding_assistant_local_review",
@@ -696,7 +696,7 @@
       "id": "2608.31106",
       "expected_old": "07_On-Policy_Distillation",
       "expected_title": "DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution",
-      "new": "16_generation",
+      "new": "16_multimodal_generation",
       "secondary_tags": [],
       "reason": "标题明确原生音视频生成，应归生成而非Agent蒸馏。",
       "reviewer": "coding_assistant_local_review",
@@ -728,7 +728,7 @@
       "expected_title": "Jev-Mem: System-One-Controlled Agentic Memory for Efficient AI Agents",
       "new": "02_memory",
       "secondary_tags": [
-        "13_efficiency"
+        "13_efficiency_and_architecture"
       ],
       "reason": "JEV名称不是分类依据；研究结构化长期记忆的构建、查询和轻量控制，应归记忆。",
       "reviewer": "coding_assistant_local_review",
@@ -761,7 +761,7 @@
       "new": "10_world_models",
       "secondary_tags": [
         "12_science",
-        "13_efficiency"
+        "13_efficiency_and_architecture"
       ],
       "reason": "明确模拟数据科学环境转移的世界模型；科学任务和计算节约是副标签，不应冻结在JEV类。",
       "reviewer": "coding_assistant_local_review",
@@ -840,7 +840,7 @@
       "expected_title": "Looped Transformers under the Jacobian Lens: Does the Global Workspace Survive Recurrence?",
       "new": "14_model_science",
       "secondary_tags": [
-        "13_efficiency"
+        "13_efficiency_and_architecture"
       ],
       "reason": "表征与可解释性例外：Jacobian lens研究循环模型中global-workspace表征的可访问性及因果读写，不是提出高效循环架构；依据本地摘要保留第14章，循环架构为第13章副标签。",
       "reviewer": "coding_assistant_local_review",
@@ -857,7 +857,7 @@
       "expected_title": "REFLEX with Jev for Efficient Selective Control in LLM Agents",
       "new": "06_evaluation",
       "secondary_tags": [
-        "13_efficiency"
+        "13_efficiency_and_architecture"
       ],
       "reason": "REFLEX以Jev作快速类型化判断层，低置信度或需要生成时升级至强LLM；主问题对应第06章验证/升级，不能被通用agent architecture规则吸入01，计算节约作为13副标签。",
       "reviewer": "coding_assistant_local_review",
@@ -865,6 +865,186 @@
         {
           "source": "local_abstract",
           "quote": "We study REFLEX, an agent architecture that uses Jev as a fast, typed decision layer and calls a strong LLM when confidence is low, or generation is required."
+        }
+      ]
+    },
+    {
+      "id": "2607.28272",
+      "expected_old": "08_Memory_and_Context",
+      "expected_title": "MemHarness: Memory Is Reconstructed, Not Replayed",
+      "new": "02_memory",
+      "secondary_tags": ["18_harness_engineering"],
+      "reason": "MemHarness 的核心贡献是把检索到的经验按当前情境重构的记忆机制，harness 只是承载形式；主类保留记忆，副标签关联 Harness 工程。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_one_line",
+          "quote": "Agents that adapt retrieved experiences to the current situation"
+        }
+      ]
+    },
+    {
+      "id": "2607.29241",
+      "expected_old": "02_Recursive_Self-Improvement",
+      "expected_title": "RecHarness: A Bandit-Routed Agentic Harness for Self-Evolving Recommender Systems",
+      "new": "03_self_improvement",
+      "secondary_tags": ["18_harness_engineering"],
+      "reason": "RecHarness 面向推荐模型的自动优化，harness 是服务于推荐系统研发的工具；按领域应用保留原类，副标签关联 Harness 工程。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_abstract",
+          "quote": "a Bandit-Routed Agentic Harness for automated recommender model optimization"
+        }
+      ]
+    },
+    {
+      "id": "2609.02730",
+      "expected_old": "02_Recursive_Self-Improvement",
+      "expected_title": "CORAL: An LLM-Native Harness for Production Recommender Systems",
+      "new": "03_self_improvement",
+      "secondary_tags": ["18_harness_engineering"],
+      "reason": "CORAL 把 agent 放进线上推荐系统的持续调优闭环，研究对象是推荐系统运营；保留原类，副标签关联 Harness 工程。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_title",
+          "quote": "CORAL: An LLM-Native Harness for Production Recommender Systems"
+        }
+      ]
+    },
+    {
+      "id": "2607.27853",
+      "expected_old": "02_Recursive_Self-Improvement",
+      "expected_title": "FinanceHarness: Autonomous Financial Deep Research Framework",
+      "new": "03_self_improvement",
+      "secondary_tags": ["18_harness_engineering"],
+      "reason": "FinanceHarness 的贡献是金融深度研究系统与配套基准，harness 是领域应用的载体；保留原类，副标签关联 Harness 工程。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_title",
+          "quote": "FinanceHarness: Autonomous Financial Deep Research Framework"
+        }
+      ]
+    },
+    {
+      "id": "2607.16617",
+      "expected_old": "02_Recursive_Self-Improvement",
+      "expected_title": "DataFlow-Harness: A Grounded Code-Agent Platform for Constructing Editable LLM Data Pipelines",
+      "new": "03_self_improvement",
+      "secondary_tags": ["18_harness_engineering"],
+      "reason": "DataFlow-Harness 研究让 agent 构建可编辑数据流水线的平台，属于数据处理应用；保留原类，副标签关联 Harness 工程。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_abstract",
+          "quote": "a platform that guides an LLM agent to construct platform-native directed acyclic graphs (DAGs)"
+        }
+      ]
+    },
+    {
+      "id": "2607.23588",
+      "expected_old": "02_Recursive_Self-Improvement",
+      "expected_title": "JarvisHub: An Open Harness for Canvas-Native Multimodal Creative Agents",
+      "new": "03_self_improvement",
+      "secondary_tags": ["18_harness_engineering"],
+      "reason": "JarvisHub 是面向多模态创意生产的领域 harness，核心在创意项目状态管理；保留原类，副标签关联 Harness 工程。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_title",
+          "quote": "JarvisHub: An Open Harness for Canvas-Native Multimodal Creative Agents"
+        }
+      ]
+    },
+    {
+      "id": "2607.27652",
+      "expected_old": "02_Recursive_Self-Improvement",
+      "expected_title": "Harness-G: A Graph-Structured Harness for Search Agents",
+      "new": "03_self_improvement",
+      "secondary_tags": ["18_harness_engineering"],
+      "reason": "Harness-G 研究 RL 搜索 agent 的检索动作表述与信用分配，harness 指图结构动作接口；保留原类，副标签关联 Harness 工程。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_one_line",
+          "quote": "reformulates retrieval in reinforcement learning search agents from free-form query generation into graph-guided action selection"
+        }
+      ]
+    },
+    {
+      "id": "2607.21557",
+      "expected_old": "02_Recursive_Self-Improvement",
+      "expected_title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
+      "new": "03_self_improvement",
+      "secondary_tags": ["18_harness_engineering"],
+      "reason": "OpenForgeRL 是在现成 harness 内做端到端 RL 的训练框架，harness 是训练载体；保留原类，副标签关联 Harness 工程。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_one_line",
+          "quote": "Researchers can train agents inside their real tool-use and GUI harnesses"
+        }
+      ]
+    },
+    {
+      "id": "2608.19880",
+      "expected_old": "02_Recursive_Self-Improvement",
+      "expected_title": "EnvHarness: Awakening Static Worlds for Agent Learning",
+      "new": "03_self_improvement",
+      "secondary_tags": ["18_harness_engineering"],
+      "reason": "EnvHarness 包装的是训练环境而非 agent 自身的 harness，研究对象是环境构造；保留原类，副标签关联 Harness 工程。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_abstract",
+          "quote": "a programmable layer of plug-in components that wraps a static environment to reshape its behavior"
+        }
+      ]
+    },
+    {
+      "id": "2609.29166",
+      "expected_old": "02_Recursive_Self-Improvement",
+      "expected_title": "HarnessPAI: An Evolving Harness for Physical AI",
+      "new": "03_self_improvement",
+      "secondary_tags": ["18_harness_engineering"],
+      "reason": "HarnessPAI 面向物理 AI 与机器人动作模型，harness 服务于具身执行；按具身应用保留原类，副标签关联 Harness 工程。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_title",
+          "quote": "HarnessPAI: An Evolving Harness for Physical AI"
+        }
+      ]
+    },
+    {
+      "id": "2607.27180",
+      "expected_old": "02_Recursive_Self-Improvement",
+      "expected_title": "HumanCLAW: Can Vision-Language Models Act Through a Body?",
+      "new": "19_multimodal_agent",
+      "secondary_tags": ["11_embodied", "09_multimodal_understanding"],
+      "reason": "HumanCLAW 评测视觉语言模型能否通过身体行动，核心是把行动决策与低层执行解耦后诊断 agent 的动作选择，归多模态 agent；具身执行与视觉理解作为副标签；不属于自我改进。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_abstract",
+          "quote": "we introduce HumanCLAW, an evaluation framework that decouples action decision-making from low-level execution"
+        }
+      ]
+    },
+    {
+      "id": "2609.19664",
+      "expected_old": "02_Recursive_Self-Improvement",
+      "expected_title": "VideoResearcher: Self-Improving Tool Design for Long-Video Understanding",
+      "new": "19_multimodal_agent",
+      "secondary_tags": ["09_multimodal_understanding", "03_self_improvement"],
+      "reason": "VideoResearcher 让视频 agent 诊断证据缺口并设计、验证、复用可执行的视频工具，核心是视觉工具调用，归多模态 agent；长视频理解与自我改进作为副标签。",
+      "reviewer": "coding_assistant_local_review",
+      "evidence_basis": [
+        {
+          "source": "local_one_line",
+          "quote": "Agents can diagnose missing video evidence, build and test new tools"
         }
       ]
     }

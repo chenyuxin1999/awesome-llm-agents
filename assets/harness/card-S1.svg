@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 172" width="560" height="172" role="img" aria-label="S1 想做交替结构图" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><rect x="0" y="0" width="560" height="172" fill="#ffffff"/><defs><marker id="ah_card_S1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs>
+<text x="16" y="24" text-anchor="start" font-size="12" font-weight="700" fill="#0E6E7E" font-family="JetBrains Mono, Menlo, Consolas, monospace">S1</text>
+<text x="48" y="24" text-anchor="start" font-size="12.5" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">想做交替（ReAct）</text>
+<text x="544" y="24" text-anchor="end" font-size="11" font-weight="400" fill="#5A6577" font-family="JetBrains Mono, Menlo, Consolas, monospace">2022</text>
+<rect x="16" y="38" width="161.333" height="78" rx="5" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1.5"/>
+<text x="96.6667" y="66.374" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">写一段推理</text>
+<text x="96.6667" y="80.795" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">先想清楚还缺哪条信息、下一步</text>
+<text x="96.6667" y="94.595" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">做什么</text>
+<rect x="199.333" y="38" width="161.333" height="78" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5"/>
+<text x="280" y="73.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">发出一个动作</text>
+<text x="280" y="87.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">比如搜一个词条、打开一页</text>
+<path d="M178.333,77 L197.333,77" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_card_S1)"/>
+<rect x="382.667" y="38" width="161.333" height="78" rx="5" fill="#E9EDF3" stroke="#47546A" stroke-width="1.5"/>
+<text x="463.333" y="73.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">读回观察结果</text>
+<text x="463.333" y="87.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">环境返回的文字接到上下文末尾</text>
+<path d="M361.667,77 L380.667,77" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_card_S1)"/>
+<path d="M463.333,116 L463.333,138 L96.6667,138 L96.6667,119" fill="none" stroke="#5A6577" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#ah_card_S1)"/>
+<text x="280" y="133" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" style="paint-order:stroke;stroke-width:4px;stroke-linejoin:round" stroke="#ffffff">带着新观察再写下一段推理</text>
+<text x="280" y="162" text-anchor="middle" font-size="10.5" font-weight="500" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">推理能按真实观察修正，动作也有了理由；今天大多数 agent 循环仍是这个形状</text>
+</svg>

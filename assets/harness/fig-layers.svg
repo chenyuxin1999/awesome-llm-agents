@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 290" width="780" height="290" role="img" aria-label="提示工程、上下文工程与 harness 工程的嵌套关系" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><rect x="0" y="0" width="780" height="290" fill="#ffffff"/><defs><marker id="ah_fig_layers" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs>
+<rect x="20" y="20" width="740" height="250" rx="10" fill="#FFF7EA" stroke="#B86E00" stroke-width="1.5"/>
+<text x="40" y="46" text-anchor="start" font-size="12.5" font-weight="700" fill="#B86E00" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">harness 工程</text>
+<rect x="44" y="64" width="456" height="190" rx="8" fill="#EEF3FF" stroke="#2B57C9" stroke-width="1.5"/>
+<text x="62" y="88" text-anchor="start" font-size="12.5" font-weight="700" fill="#2B57C9" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">上下文工程</text>
+<rect x="66" y="126" width="190" height="100" rx="5" fill="#FFFFFF" stroke="#2B57C9" stroke-width="1.5"/>
+<text x="161" y="164.822" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">提示工程</text>
+<text x="161" y="179.933" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">写给模型的那段话</text>
+<text x="161" y="194.423" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">措辞、例题、格式要求</text>
+<text x="276" y="136" text-anchor="start" font-size="12" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">· 每一步让模型看到什么</text>
+<text x="276" y="162" text-anchor="start" font-size="12" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">· 检索什么、压缩什么</text>
+<text x="276" y="188" text-anchor="start" font-size="12" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">· 记忆怎样写入和删除</text>
+<text x="276" y="214" text-anchor="start" font-size="12" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">· 保持前缀稳定以命中缓存</text>
+<text x="522" y="110" text-anchor="start" font-size="12" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">· 工具接口与权限</text>
+<text x="522" y="140" text-anchor="start" font-size="12" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">· 循环、控制流与停止条件</text>
+<text x="522" y="170" text-anchor="start" font-size="12" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">· 子 agent 与执行环境</text>
+<text x="522" y="200" text-anchor="start" font-size="12" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">· 日志、恢复与回滚</text>
+<text x="522" y="236" text-anchor="start" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">再往外一圈，管的是整个运行时</text>
+</svg>

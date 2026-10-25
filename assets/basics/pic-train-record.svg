@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 500" width="880" height="500" role="img" aria-label="训练器看到的记录和模型当时看到的输入" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><defs><marker id="ah-pictrainrecord" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs><rect x="0" y="0" width="880" height="500" fill="#ffffff"/><text x="20.0" y="26.0" font-size="13" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">示意：周报任务第 12 轮，同一个输出，配上两份不同的输入</text>
+<text x="24.0" y="58.0" font-size="13" fill="#C2501A" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">训练器拿到的原始记录（框架加工前）</text>
+<rect x="24.0" y="68.0" width="400.0" height="210.0" rx="6" fill="#FDE8DD" stroke="#C2501A" stroke-width="1"/>
+<text x="36.0" y="92.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">[系统] 你是实验助理……</text>
+<text x="36.0" y="116.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">第 1 轮 list_dir(&quot;runs/&quot;) → 23 个目录</text>
+<text x="36.0" y="140.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">第 2–8 轮 read_file(exp01…exp05) 等</text>
+<text x="36.0" y="164.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">→ 每份日志全文，每份约 3,100 token</text>
+<text x="36.0" y="188.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">第 9 轮 grep(&quot;nan&quot;) → 1,412 行匹配</text>
+<text x="36.0" y="212.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">→ 约 38,000 token 原样留在这里</text>
+<text x="36.0" y="236.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">第 10 轮 read_file(exp06) → 全文</text>
+<text x="36.0" y="260.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">第 11 轮 read_file(exp07) → 全文</text>
+<text x="456.0" y="58.0" font-size="13" fill="#26805A" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">第 12 轮模型实际看到的（部署框架加工后）</text>
+<rect x="456.0" y="68.0" width="400.0" height="210.0" rx="6" fill="#DDF3E8" stroke="#26805A" stroke-width="1"/>
+<text x="468.0" y="92.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">[系统] 你是实验助理……</text>
+<text x="468.0" y="116.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">[摘要] 第 1–8 轮：列出 23 个目录，</text>
+<text x="468.0" y="140.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">读完 exp01–exp05，exp03 在 step 9120 出 nan</text>
+<text x="468.0" y="164.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">第 9 轮 grep(&quot;nan&quot;) → 按文件汇总：</text>
+<text x="468.0" y="188.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">exp03、exp07 两个文件有 nan</text>
+<text x="468.0" y="212.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">第 10 轮 read_file(exp06) → 全文</text>
+<text x="468.0" y="236.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">第 11 轮 read_file(exp07) → 全文</text>
+<text x="468.0" y="260.0" font-size="10.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace"></text>
+<rect x="24.0" y="310.0" width="832.0" height="40.0" rx="6" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.4"/>
+<text x="36.0" y="335.0" font-size="12" fill="#5B45B0" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">第 12 轮输出（两份输入后面接的是同一句）</text>
+<text x="330.0" y="335.0" font-size="11.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">read_file(&quot;runs/exp08/train.log&quot;)</text>
+<line x1="224.0" y1="280.0" x2="224.0" y2="306.0" stroke="#5A6577" stroke-width="1.5" marker-end="url(#ah-pictrainrecord)"/>
+<line x1="656.0" y1="280.0" x2="656.0" y2="306.0" stroke="#5A6577" stroke-width="1.5" marker-end="url(#ah-pictrainrecord)"/>
+<rect x="24.0" y="366.0" width="832.0" height="40.0" rx="6" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.4"/>
+<text x="36.0" y="391.0" font-size="12" fill="#B86E00" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">训练信号：任务结束时周报通过检查，结果奖励 = 1；目标：让拿到高奖励的输出更常出现</text>
+<rect x="24.0" y="420.0" width="408.0" height="64.0" rx="6" fill="#FDE8DD" stroke="#C2501A" stroke-width="1"/>
+<text x="36.0" y="442.0" font-size="12" fill="#C2501A" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">配左边的输入去训练</text>
+<text x="36.0" y="464.0" font-size="11.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">强化的是一份部署时永远不会出现的输入</text>
+<rect x="448.0" y="420.0" width="408.0" height="64.0" rx="6" fill="#DDF3E8" stroke="#26805A" stroke-width="1"/>
+<text x="460.0" y="442.0" font-size="12" fill="#26805A" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">配右边的输入去训练</text>
+<text x="460.0" y="464.0" font-size="11.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">强化的正是部署时会遇到的状态</text></svg>

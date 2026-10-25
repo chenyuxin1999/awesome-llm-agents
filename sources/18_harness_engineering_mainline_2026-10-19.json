@@ -1,0 +1,338 @@
+[
+ {
+  "url": "https://academy.dair.ai/papers/collections/harness-engineering",
+  "checked_at": "2026-10-19T11:04:09.132233+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Harness Engineering (DAIR.AI Academy paper collection)",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2112.09332",
+  "checked_at": "2026-10-19T11:04:09.132234+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "WebGPT: Browser-assisted question-answering with human feedback",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2201.11903",
+  "checked_at": "2026-10-19T11:04:09.132235+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2306.03314",
+  "checked_at": "2026-10-19T11:04:09.132236+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Multi-Agent Collaboration: Harnessing the Power of Intelligent LLM Agents",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2306.14898",
+  "checked_at": "2026-10-19T11:04:09.132237+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2310.03714",
+  "checked_at": "2026-10-19T11:04:09.132238+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2503.14499",
+  "checked_at": "2026-10-19T11:04:09.132239+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Measuring AI Ability to Complete Long Software Tasks",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2512.24601",
+  "checked_at": "2026-10-19T11:04:09.132240+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Recursive Language Models",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.28052",
+  "checked_at": "2026-10-19T11:04:09.132241+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Meta-Harness: End-to-End Optimization of Model Harnesses",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.09998",
+  "checked_at": "2026-10-19T11:04:09.132242+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Continual Harness: Online Adaptation for Self-Improving Foundation Agents",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.17172",
+  "checked_at": "2026-10-19T11:04:09.132243+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "OpenJarvis: Personal AI, On Personal Devices",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.15524",
+  "checked_at": "2026-10-19T11:04:09.132244+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Recursive Harness Self-Improvement",
+  "notes": "本地语料收录论文，题名取自 data/papers.jsonl；脚本访问被网络代理拦截，未单独在线核对"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.18235",
+  "checked_at": "2026-10-19T11:04:09.132245+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Automated Discovery Has No Universally Superior Harness",
+  "notes": "本地语料收录论文，题名取自 data/papers.jsonl；脚本访问被网络代理拦截，未单独在线核对"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.21557",
+  "checked_at": "2026-10-19T11:04:09.132246+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
+  "notes": "本地语料收录论文，题名取自 data/papers.jsonl；脚本访问被网络代理拦截，未单独在线核对"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.26598",
+  "checked_at": "2026-10-19T11:04:09.132247+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Living-Harness Is an Interactive-Agent Evolver",
+  "notes": "本地语料收录论文，题名取自 data/papers.jsonl；脚本访问被网络代理拦截，未单独在线核对"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.28802",
+  "checked_at": "2026-10-19T11:04:09.132248+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Model or Harness? An Interaction-Centric Taxonomy for Localizing Agent Failures",
+  "notes": "本地语料收录论文，题名取自 data/papers.jsonl；脚本访问被网络代理拦截，未单独在线核对"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.01964",
+  "checked_at": "2026-10-19T11:04:09.132249+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "LongHorizon-Harness: Advancing Long-Horizon Agents for Real-World Tasks",
+  "notes": "本地语料收录论文，题名取自 data/papers.jsonl；脚本访问被网络代理拦截，未单独在线核对"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.02276",
+  "checked_at": "2026-10-19T11:04:09.132250+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Harness-R1: Learning to Edit Executable Runtime Harnesses from Agent Failure Trajectories",
+  "notes": "本地语料收录论文，题名取自 data/papers.jsonl；脚本访问被网络代理拦截，未单独在线核对"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.05013",
+  "checked_at": "2026-10-19T11:04:09.132251+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "OneDayAgent: Towards a Long-Horizon Harness for Autonomous Agents",
+  "notes": "本地语料收录论文，题名取自 data/papers.jsonl；脚本访问被网络代理拦截，未单独在线核对"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.05446",
+  "checked_at": "2026-10-19T11:04:09.132252+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "EvoHarness-RL: Learning Self-Evolving Runtime Harness for Long-Horizon LLM Agents",
+  "notes": "本地语料收录论文，题名取自 data/papers.jsonl；脚本访问被网络代理拦截，未单独在线核对"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.09096",
+  "checked_at": "2026-10-19T11:04:09.132253+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Evo-Bench: Can Language Models Improve Agent Harness?",
+  "notes": "本地语料收录论文，题名取自 data/papers.jsonl；脚本访问被网络代理拦截，未单独在线核对"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.10178",
+  "checked_at": "2026-10-19T11:04:09.132254+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "One Recipe, Many Harnesses: What Self-Evolution Encodes Across Languages and Models",
+  "notes": "本地语料收录论文，题名取自 data/papers.jsonl；脚本访问被网络代理拦截，未单独在线核对"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.12307",
+  "checked_at": "2026-10-19T11:04:09.132255+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
+  "notes": "本地语料收录论文，题名取自 data/papers.jsonl；脚本访问被网络代理拦截，未单独在线核对"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.13560",
+  "checked_at": "2026-10-19T11:04:09.132256+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
+  "notes": "本地语料收录论文，题名取自 data/papers.jsonl；脚本访问被网络代理拦截，未单独在线核对"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.13867",
+  "checked_at": "2026-10-19T11:04:09.132257+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Engineering Reliable Coding Agents: Evaluating and Operating the System Around the Model",
+  "notes": "本地语料收录论文，题名取自 data/papers.jsonl；脚本访问被网络代理拦截，未单独在线核对"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.15008",
+  "checked_at": "2026-10-19T11:04:09.132258+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents",
+  "notes": "本地语料收录论文，题名取自 data/papers.jsonl；脚本访问被网络代理拦截，未单独在线核对"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.15089",
+  "checked_at": "2026-10-19T11:04:09.132259+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "StateM: Reaching 95.3% Raw Accuracy, or a $15 Frontier Run, on Terminal-Bench 2.1 via Harness Scaling",
+  "notes": "本地语料收录论文，题名取自 data/papers.jsonl；脚本访问被网络代理拦截，未单独在线核对"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.19013",
+  "checked_at": "2026-10-19T11:04:09.132260+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Harness Continual Learning: Continual Adaptation Beyond Model Parameters",
+  "notes": "本地语料收录论文，题名取自 data/papers.jsonl；脚本访问被网络代理拦截，未单独在线核对"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.20169",
+  "checked_at": "2026-10-19T11:04:09.132261+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Task-CoEvolve: Efficient Harness Optimization via Adaptive Validation Task Selection",
+  "notes": "本地语料收录论文，题名取自 data/papers.jsonl；脚本访问被网络代理拦截，未单独在线核对"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.23041",
+  "checked_at": "2026-10-19T11:04:09.132262+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "AutoSaddler: Automatic Harness Optimization with Durable Updates from Agent Execution Traces",
+  "notes": "本地语料收录论文，题名取自 data/papers.jsonl；脚本访问被网络代理拦截，未单独在线核对"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.23552",
+  "checked_at": "2026-10-19T11:04:09.132263+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Prime Agent: A Self-Improving RLM Harness",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.25593",
+  "checked_at": "2026-10-19T11:04:09.132264+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "JIT-Agent: Scaling Harness Intelligence via Just-in-Time Harness Evolution",
+  "notes": "本地语料收录论文，题名取自 data/papers.jsonl；脚本访问被网络代理拦截，未单独在线核对"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.27311",
+  "checked_at": "2026-10-19T11:04:09.132265+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Verify Smarter, Evolve Further: Efficient Harness Evolution through Behavior-Aware Verification",
+  "notes": "本地语料收录论文，题名取自 data/papers.jsonl；脚本访问被网络代理拦截，未单独在线核对"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.00829",
+  "checked_at": "2026-10-19T11:04:09.132266+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "HarnessEvolve: Learning from Reference Trajectories for Reliable Agent Self-Evolution",
+  "notes": "本地语料收录论文，题名取自 data/papers.jsonl；脚本访问被网络代理拦截，未单独在线核对"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.15195",
+  "checked_at": "2026-10-19T11:04:09.132267+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "HarnessVLN: Unifying Training-Free Embodied Navigation through an Agent Harness",
+  "notes": "本地语料收录论文，题名取自 data/papers.jsonl；脚本访问被网络代理拦截，未单独在线核对"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.35738",
+  "checked_at": "2026-10-19T11:04:09.132268+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Harness Learning Enables Generalizable Test-Time Adaptation",
+  "notes": "本地语料收录论文，题名取自 data/papers.jsonl；脚本访问被网络代理拦截，未单独在线核对"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.02200",
+  "checked_at": "2026-10-19T11:04:09.132269+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "VISTA: A Visual Harness for Reasoning in an Interactive World",
+  "notes": "本地语料收录论文，题名取自 data/papers.jsonl；脚本访问被网络代理拦截，未单独在线核对"
+ },
+ {
+  "url": "https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus",
+  "checked_at": "2026-10-19T11:04:09.132270+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Context Engineering for AI Agents: Lessons from Building Manus",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://openai.com/index/harness-engineering/",
+  "checked_at": "2026-10-19T11:04:09.132271+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Harness engineering: leveraging Codex in an agent-first world",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://www.alphaxiv.org/abs/2608.07346",
+  "checked_at": "2026-10-19T11:04:09.132272+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "𝐴 2 𝐸 A 2 E : An End-to-End Agent Auditing Engine",
+  "notes": "本地语料收录论文，题名取自 data/papers.jsonl；脚本访问被网络代理拦截，未单独在线核对"
+ },
+ {
+  "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents",
+  "checked_at": "2026-10-19T11:04:09.132273+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "fetch_failed",
+  "title": "Effective harnesses for long-running agents",
+  "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+ },
+ {
+  "url": "https://arxiv.org/abs/2211.01910",
+  "checked_at": "2026-10-25T12:00:00+00:00",
+  "scope": "metadata_and_reachability_only",
+  "status": "verified_title_and_abstract",
+  "title": "Large Language Models Are Human-Level Prompt Engineers",
+  "notes": "2026-10-25 经网页阅读服务打开 arXiv 摘要页，核对题名与摘要；用于修正首创性表述"
+ }
+]

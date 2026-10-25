@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 430" width="880" height="430" role="img" aria-label="只给整体奖励和把贡献分回每次写入" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><defs><marker id="ah-picattrimem" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs><rect x="0" y="0" width="880" height="430" fill="#ffffff"/><text x="20.0" y="26.0" font-size="13" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">示意：写毕业论文的助手第 1 周写下三条记忆，第 8 周回答一个问题</text>
+<rect x="24.0" y="40.0" width="832.0" height="74.0" rx="6" fill="#E9EDF3" stroke="#47546A" stroke-width="1"/>
+<text x="36.0" y="60.0" font-size="12" fill="#47546A" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">第 1 周写入的三条记忆</text>
+<rect x="36.0" y="70.0" width="258.0" height="32.0" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<text x="46.0" y="91.0" font-size="11" fill="#47546A" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace" font-weight="700">w1</text>
+<text x="74.0" y="91.0" font-size="11.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">导师要求图的坐标轴用英文</text>
+<rect x="310.0" y="70.0" width="258.0" height="32.0" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<text x="320.0" y="91.0" font-size="11" fill="#47546A" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace" font-weight="700">w2</text>
+<text x="348.0" y="91.0" font-size="11.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">实验结果统一放在 results_v2</text>
+<rect x="584.0" y="70.0" width="258.0" height="32.0" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<text x="594.0" y="91.0" font-size="11" fill="#47546A" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace" font-weight="700">w3</text>
+<text x="622.0" y="91.0" font-size="11.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">用户说今天下雨</text>
+<rect x="24.0" y="126.0" width="832.0" height="40.0" rx="6" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="36.0" y="151.0" font-size="12" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">第 8 周提问：“图 3 的数据在哪个文件夹？” 回答 results_v2，和标准答案比对一致，任务奖励 = 1</text>
+<text x="24.0" y="194.0" font-size="13" fill="#C2501A" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">只有整体任务奖励</text>
+<rect x="24.0" y="204.0" width="400.0" height="150.0" rx="6" fill="#FDE8DD" stroke="#C2501A" stroke-width="1"/>
+<text x="38.0" y="238.0" font-size="11.5" fill="#47546A" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace" font-weight="700">w1</text>
+<rect x="74.0" y="226.0" width="240.0" height="20.0" rx="2" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="74.0" y="226.0" width="240.0" height="20.0" rx="2" fill="#B86E00" opacity="0.8"/>
+<text x="324.0" y="241.0" font-size="11.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">1</text>
+<text x="38.0" y="274.0" font-size="11.5" fill="#47546A" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace" font-weight="700">w2</text>
+<rect x="74.0" y="262.0" width="240.0" height="20.0" rx="2" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="74.0" y="262.0" width="240.0" height="20.0" rx="2" fill="#B86E00" opacity="0.8"/>
+<text x="324.0" y="277.0" font-size="11.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">1</text>
+<text x="38.0" y="310.0" font-size="11.5" fill="#47546A" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace" font-weight="700">w3</text>
+<rect x="74.0" y="298.0" width="240.0" height="20.0" rx="2" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="74.0" y="298.0" width="240.0" height="20.0" rx="2" fill="#B86E00" opacity="0.8"/>
+<text x="324.0" y="313.0" font-size="11.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">1</text>
+<text x="38.0" y="340.0" font-size="11.5" fill="#C2501A" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">三次写入拿到一样的分，下雨那条也被奖励</text>
+<text x="24.0" y="378.0" font-size="11" fill="#B86E00" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">训练信号：每次写入都拿到同一个任务奖励 1</text>
+<text x="24.0" y="398.0" font-size="11" fill="#B86E00" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">答错时也不知道该改哪一次写入</text>
+<text x="456.0" y="194.0" font-size="13" fill="#26805A" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">AttriMem：把答案的贡献分回每次写入</text>
+<rect x="456.0" y="204.0" width="400.0" height="150.0" rx="6" fill="#DDF3E8" stroke="#26805A" stroke-width="1"/>
+<text x="470.0" y="238.0" font-size="11.5" fill="#47546A" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace" font-weight="700">w1</text>
+<rect x="506.0" y="226.0" width="240.0" height="20.0" rx="2" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="506.0" y="226.0" width="24.0" height="20.0" rx="2" fill="#B86E00" opacity="0.8"/>
+<text x="756.0" y="241.0" font-size="11.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">0.1</text>
+<text x="470.0" y="274.0" font-size="11.5" fill="#47546A" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace" font-weight="700">w2</text>
+<rect x="506.0" y="262.0" width="240.0" height="20.0" rx="2" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="506.0" y="262.0" width="204.0" height="20.0" rx="2" fill="#B86E00" opacity="0.8"/>
+<text x="756.0" y="277.0" font-size="11.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">0.85</text>
+<text x="470.0" y="310.0" font-size="11.5" fill="#47546A" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace" font-weight="700">w3</text>
+<rect x="506.0" y="298.0" width="240.0" height="20.0" rx="2" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<rect x="506.0" y="298.0" width="0.0" height="20.0" rx="2" fill="#B86E00" opacity="0.8"/>
+<text x="756.0" y="313.0" font-size="11.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">0</text>
+<text x="470.0" y="340.0" font-size="11.5" fill="#26805A" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">w2 撑起了答案，局部奖励最高</text>
+<text x="456.0" y="378.0" font-size="11" fill="#B86E00" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">训练信号：每次写入的局部奖励，再加上整体任务奖励</text>
+<text x="456.0" y="398.0" font-size="11" fill="#B86E00" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">目标：写入时多写以后真会用上的内容</text></svg>

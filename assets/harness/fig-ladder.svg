@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 340" width="860" height="340" role="img" aria-label="让 harness 学习：被优化对象的梯子与代表工作" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><rect x="0" y="0" width="860" height="340" fill="#ffffff"/><defs><marker id="ah_fig_ladder" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs>
+<rect x="20" y="226" width="156" height="48" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5"/>
+<text x="98" y="246.412" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">指令提示</text>
+<text x="98" y="261.04" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">DSPy 2023 · GEPA 2025</text>
+<path d="M176,250 L181,250 L181,204" fill="none" stroke="#5A6577" stroke-width="1"/>
+<rect x="186" y="180" width="156" height="48" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5"/>
+<text x="264" y="200.412" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">结构化上下文</text>
+<text x="264" y="215.04" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">上下文怎样组织</text>
+<path d="M342,204 L347,204 L347,158" fill="none" stroke="#5A6577" stroke-width="1"/>
+<rect x="352" y="134" width="156" height="48" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5"/>
+<text x="430" y="154.412" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">工作流</text>
+<text x="430" y="169.04" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">步骤怎样编排</text>
+<path d="M508,158 L513,158 L513,112" fill="none" stroke="#5A6577" stroke-width="1"/>
+<rect x="518" y="88" width="156" height="48" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5"/>
+<text x="596" y="108.412" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">harness 代码</text>
+<text x="596" y="123.04" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">DGM · Meta-Harness</text>
+<path d="M674,112 L679,112 L679,66" fill="none" stroke="#5A6577" stroke-width="1"/>
+<rect x="684" y="42" width="156" height="48" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5"/>
+<text x="762" y="62.412" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">优化器代码</text>
+<text x="762" y="77.04" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">改“怎样提改动”，见第 03 章</text>
+<path d="M40,40 L520,40" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_ladder)"/>
+<text x="30" y="30" text-anchor="start" font-size="11.5" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">越往上：被优化的对象越复杂，用的方法越通用（Lilian Weng 的梯子）</text>
+<rect x="20" y="292" width="650" height="34" rx="6" fill="#FFF8F4" stroke="#C2501A" stroke-width="1.5" stroke-dasharray="5 3"/>
+<text x="345" y="314" text-anchor="middle" font-size="11.5" font-weight="500" fill="#C2501A" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">在线适应（Continual Harness 2026）：同一次运行里，提示、子 agent、技能、记忆一起改</text>
+<text x="700" y="300" text-anchor="start" font-size="10.5" font-weight="400" fill="#C2501A" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">橙红：本章主线上</text>
+<text x="700" y="316" text-anchor="start" font-size="10.5" font-weight="400" fill="#C2501A" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">有代表作的一级</text>
+</svg>

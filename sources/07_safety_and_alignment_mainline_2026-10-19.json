@@ -1,0 +1,234 @@
+[
+  {
+    "url": "https://lilianweng.github.io/posts/2024-11-28-reward-hacking/",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Reward Hacking in Reinforcement Learning",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://www.anthropic.com/research/alignment-faking",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Alignment faking in large language models",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://www.anthropic.com/research/agentic-misalignment",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Agentic Misalignment: How LLMs could be insider threats",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "The lethal trifecta for AI agents: private data, untrusted content, and external communication",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://simonwillison.net/2025/Nov/2/new-prompt-injection-papers/",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "New prompt injection papers: Agents Rule of Two and The Attacker Moves Second",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://blog.redwoodresearch.org/p/the-case-for-ensuring-that-powerful",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "The case for ensuring that powerful AIs are controlled",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://openai.com/index/chain-of-thought-monitoring/",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Detecting misbehavior in frontier reasoning models",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection/",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Designing AI agents to resist prompt injection",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://alignment.anthropic.com/2025/recommended-directions/",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Recommendations for Technical AI Safety Research Directions",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.06627",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Feedback Loops With Language Models Drive In-Context Reward Hacking",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.10162",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Sycophancy to Subterfuge: Investigating Reward-Tampering in Large Language Models",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.14093",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Alignment faking in large language models",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.12173",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2506.08837",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Design Patterns for Securing LLM Agents against Prompt Injections",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2503.18813",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Defeating Prompt Injections by Design",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.13352",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2503.11926",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2507.11473",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://arxiv.org/abs/2510.09023",
+    "checked_at": "2026-10-19T07:30:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "The Attacker Moves Second: Stronger Adaptive Attacks Bypass Defenses Against LLM Jailbreaks and Prompt Injections",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 经网页阅读服务人工打开并核对题名"
+  },
+  {
+    "url": "https://www.anthropic.com/glasswing",
+    "checked_at": "2026-10-19T12:11:32.252356+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Project Glasswing",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 由项目「Interconnects 半年总结」线程整理，标题取自该线程资料（/mnt/project-files/interconnects/）"
+  },
+  {
+    "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+    "checked_at": "2026-10-19T12:11:32.252356+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "The Hugging Face incident and the road ahead",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 由项目「Interconnects 半年总结」线程整理，标题取自该线程资料（/mnt/project-files/interconnects/）"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
+    "checked_at": "2026-10-19T12:11:32.252356+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "OpenAI incident timeline (Simon Willison)",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 由项目「Interconnects 半年总结」线程整理，标题取自该线程资料（/mnt/project-files/interconnects/）"
+  },
+  {
+    "url": "https://epoch.ai/gradient-updates/openai-accidentally-hacked-hugging-face",
+    "checked_at": "2026-10-19T12:11:32.252356+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "OpenAI accidentally hacked Hugging Face (Epoch AI)",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 由项目「Interconnects 半年总结」线程整理，标题取自该线程资料（/mnt/project-files/interconnects/）"
+  },
+  {
+    "url": "https://www.interconnects.ai/p/lessons-from-the-hacks",
+    "checked_at": "2026-10-19T12:11:32.252356+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Lessons from the hacks",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 由项目「Interconnects 半年总结」线程整理，标题取自该线程资料（/mnt/project-files/interconnects/）"
+  },
+  {
+    "url": "https://www.interconnects.ai/p/claude-fable-5-and-new-ai-safety",
+    "checked_at": "2026-10-19T12:11:32.252356+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Claude Fable 5 and new AI safety fables",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 由项目「Interconnects 半年总结」线程整理，标题取自该线程资料（/mnt/project-files/interconnects/）"
+  },
+  {
+    "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
+    "checked_at": "2026-10-19T12:11:32.252356+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "The Cyber Risk Discourse is Broken",
+    "notes": "脚本访问被网络代理拦截；2026-10-19 由项目「Interconnects 半年总结」线程整理，标题取自该线程资料（/mnt/project-files/interconnects/）"
+  },
+  {
+    "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
+    "checked_at": "2026-10-24T11:50:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "International AI Safety Report 2026 (chaired by Yoshua Bengio, 2026-02-03)",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开报告页，核对题名、日期、作者构成、章节结构与关键结论"
+  },
+  {
+    "url": "https://arxiv.org/abs/2608.14590",
+    "checked_at": "2026-10-24T11:50:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "fetch_failed",
+    "title": "Toward Safe LLM Agents: A Survey of Specification, Verification, and Enforcement (Pierre Dantas, Lucas Cordeiro, Ehsan Nowroozi, Norbert Tihanyi, arXiv 2608.14590, v3 2026-10-20)",
+    "notes": "脚本访问被网络代理拦截；2026-10-24 经网页阅读服务人工打开 arXiv 摘要页，核对题名、作者、版本日期与摘要中的数字"
+  },
+  {
+    "url": "https://arxiv.org/abs/2212.09251",
+    "checked_at": "2026-10-25T12:00:00+00:00",
+    "scope": "metadata_and_reachability_only",
+    "status": "verified_title_and_abstract",
+    "title": "Discovering Language Model Behaviors with Model-Written Evaluations",
+    "notes": "2026-10-25 经网页阅读服务打开 arXiv 摘要页，核对题名与摘要；用于修正首创性表述"
+  }
+]

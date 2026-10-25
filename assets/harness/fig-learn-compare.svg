@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 388" width="900" height="388" role="img" aria-label="让 harness 学习：四种做法的范式对比" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><rect x="0" y="0" width="900" height="388" fill="#ffffff"/><defs><marker id="ah_fig_learn_compare" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs>
+<text x="20" y="26" text-anchor="start" font-size="12.5" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">同一个问题，四种回答：把 harness 交给机器去改，改出什么，凭什么信号判断好坏，改完怎么用</text>
+<rect x="120" y="40" width="185" height="32" rx="5" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1.5"/>
+<text x="212.5" y="61" text-anchor="middle" font-size="11" font-weight="700" fill="#2B57C9" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">提示词：DSPy、GEPA</text>
+<rect x="313" y="40" width="185" height="32" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5"/>
+<text x="405.5" y="61" text-anchor="middle" font-size="11" font-weight="700" fill="#C2501A" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">改自己：Darwin Gödel Machine</text>
+<rect x="506" y="40" width="185" height="32" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5"/>
+<text x="598.5" y="61" text-anchor="middle" font-size="11" font-weight="700" fill="#B86E00" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">任意 harness：Meta-Harness</text>
+<rect x="699" y="40" width="185" height="32" rx="5" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.5"/>
+<text x="791.5" y="61" text-anchor="middle" font-size="11" font-weight="700" fill="#5B45B0" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">运行中改：Continual Harness</text>
+<rect x="16" y="80" width="96" height="66" rx="4" fill="#F3F5F8" stroke="#D5DBE4" stroke-width="1"/>
+<text x="64" y="117" text-anchor="middle" font-size="11" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">改出什么</text>
+<rect x="120" y="80" width="185" height="66" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<text x="212.5" y="117" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">新的提示词和示例，模型权重不动</text>
+<rect x="313" y="80" width="185" height="66" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<text x="405.5" y="117" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">改写过的 agent 自己的代码</text>
+<rect x="506" y="80" width="185" height="66" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<text x="598.5" y="109" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">一个新的单文件 Python harness，</text>
+<text x="598.5" y="125" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">模型权重不动</text>
+<rect x="699" y="80" width="185" height="66" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<text x="791.5" y="101" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">运行中改过的提示、子 agent、技</text>
+<text x="791.5" y="117" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">能和记忆；另有一条线更新开源模</text>
+<text x="791.5" y="133" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">型的权重</text>
+<rect x="16" y="152" width="96" height="82" rx="4" fill="#F3F5F8" stroke="#D5DBE4" stroke-width="1"/>
+<text x="64" y="197" text-anchor="middle" font-size="11" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">信号从哪来</text>
+<rect x="120" y="152" width="185" height="82" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<text x="212.5" y="181" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">DSPy：评价指标在一小批训练题上</text>
+<text x="212.5" y="197" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">的得分；GEPA：读失败轨迹写出的</text>
+<text x="212.5" y="213" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">文字诊断</text>
+<rect x="313" y="152" width="185" height="82" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<text x="405.5" y="197" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">在编程基准上实测的分数</text>
+<rect x="506" y="152" width="185" height="82" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<text x="598.5" y="181" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">搜索任务上的分数和完整执行轨迹，</text>
+<text x="598.5" y="197" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">存成目录，提议者用 grep、cat 去</text>
+<text x="598.5" y="213" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">翻</text>
+<rect x="699" y="152" width="185" height="82" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<text x="791.5" y="173" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">harness 的改动由 agent 在同一次</text>
+<text x="791.5" y="189" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">运行里边做边提，判断依据本章未</text>
+<text x="791.5" y="205" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">展开；权重的训练信号是前沿教师</text>
+<text x="791.5" y="221" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">重标的轨迹</text>
+<rect x="16" y="240" width="96" height="50" rx="4" fill="#F3F5F8" stroke="#D5DBE4" stroke-width="1"/>
+<text x="64" y="269" text-anchor="middle" font-size="11" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">改完怎么用</text>
+<rect x="120" y="240" width="185" height="50" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<text x="212.5" y="269" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">留下得分更高的提示，部署时固定</text>
+<rect x="313" y="240" width="185" height="50" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<text x="405.5" y="261" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">新版本放回档案库，作为以后演化</text>
+<text x="405.5" y="277" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">的起点</text>
+<rect x="506" y="240" width="185" height="50" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<text x="598.5" y="261" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">离线搜完，挑出的 harness 部署时</text>
+<text x="598.5" y="277" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">固定</text>
+<rect x="699" y="240" width="185" height="50" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<text x="791.5" y="269" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">边用边改，环境不重置</text>
+<rect x="16" y="296" width="96" height="50" rx="4" fill="#F3F5F8" stroke="#D5DBE4" stroke-width="1"/>
+<text x="64" y="325" text-anchor="middle" font-size="11" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">代价</text>
+<rect x="120" y="296" width="185" height="50" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<text x="212.5" y="317" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">只改提示，流水线结构仍由人定；</text>
+<text x="212.5" y="333" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">要有可靠的评价指标</text>
+<rect x="313" y="296" width="185" height="50" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<text x="405.5" y="317" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">每个新版本都要实测，开销大；评</text>
+<text x="405.5" y="333" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">测和权限要放在循环之外</text>
+<rect x="506" y="296" width="185" height="50" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<text x="598.5" y="317" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">提议者本身要很强，每轮都要跑完</text>
+<text x="598.5" y="333" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">整的搜索任务</text>
+<rect x="699" y="296" width="185" height="50" rx="4" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<text x="791.5" y="317" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">改动发生在运行之中，旧行为可能</text>
+<text x="791.5" y="333" text-anchor="middle" font-size="10.5" font-weight="400" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">被破坏；收益依赖模型能力</text>
+<text x="450" y="374" text-anchor="middle" font-size="11" font-weight="700" fill="#C2501A" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">被改的对象越来越大，反馈从一个分数变成完整轨迹，改动的时间从部署前挪到运行之中</text>
+</svg>

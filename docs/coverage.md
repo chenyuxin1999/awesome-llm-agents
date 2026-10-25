@@ -22,28 +22,28 @@
 
 | 专题 | 正文汉字 | 引用记录 | 其中主类 | 其中跨类 | 主类文献数 | 主类覆盖率 | 检查 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| [01_basics](../chapters/md/01_basics.md) | 27857 | 40 | 4 | 36 | 4 | 100.0% | PASS |
-| [02_memory](../chapters/md/02_memory.md) | 27832 | 41 | 39 | 2 | 145 | 26.9% | PASS |
-| [03_self_improvement](../chapters/md/03_self_improvement.md) | 29134 | 47 | 32 | 15 | 149 | 21.5% | PASS |
-| [04_data_and_environments](../chapters/md/04_data_and_environments.md) | 26641 | 35 | 25 | 10 | 25 | 100.0% | PASS |
-| [05_rl_and_distillation](../chapters/md/05_rl_and_distillation.md) | 30061 | 48 | 41 | 7 | 159 | 25.8% | PASS |
-| [06_evaluation](../chapters/md/06_evaluation.md) | 28980 | 56 | 54 | 2 | 240 | 22.5% | PASS |
-| [07_safety_and_alignment](../chapters/md/07_safety_and_alignment.md) | 30332 | 41 | 25 | 16 | 58 | 43.1% | PASS |
-| [08_collaboration](../chapters/md/08_collaboration.md) | 28006 | 31 | 22 | 9 | 22 | 100.0% | PASS |
-| [09_multimodal_understanding](../chapters/md/09_multimodal_understanding.md) | 31352 | 55 | 22 | 33 | 23 | 95.7% | PASS |
-| [10_world_models](../chapters/md/10_world_models.md) | 37273 | 44 | 44 | 0 | 205 | 21.5% | PASS |
-| [11_embodied](../chapters/md/11_embodied.md) | 45217 | 59 | 59 | 0 | 303 | 19.5% | PASS |
-| [12_science](../chapters/md/12_science.md) | 26877 | 30 | 15 | 15 | 15 | 100.0% | PASS |
-| [13_efficiency_and_architecture](../chapters/md/13_efficiency_and_architecture.md) | 26603 | 42 | 42 | 0 | 96 | 43.8% | PASS |
-| [14_model_science](../chapters/md/14_model_science.md) | 26483 | 42 | 42 | 0 | 75 | 56.0% | PASS |
-| [15_frontier_reports](../chapters/md/15_frontier_reports.md) | 38570 | 48 | 43 | 5 | 43 | 100.0% | PASS |
-| [16_multimodal_generation](../chapters/md/16_multimodal_generation.md) | 41415 | 44 | 44 | 0 | 120 | 36.7% | PASS |
-| [18_harness_engineering](../chapters/md/18_harness_engineering.md) | 32811 | 65 | 56 | 9 | 56 | 100.0% | PASS |
-| [19_multimodal_agent](../chapters/md/19_multimodal_agent.md) | 31875 | 33 | 20 | 13 | 20 | 100.0% | PASS |
+| [01_basics](../main/md/01_basics.md) | 27857 | 40 | 4 | 36 | 4 | 100.0% | PASS |
+| [02_memory](../main/md/02_memory.md) | 27832 | 41 | 39 | 2 | 145 | 26.9% | PASS |
+| [03_self_improvement](../main/md/03_self_improvement.md) | 29134 | 47 | 32 | 15 | 149 | 21.5% | PASS |
+| [04_data_and_environments](../main/md/04_data_and_environments.md) | 26641 | 35 | 25 | 10 | 25 | 100.0% | PASS |
+| [05_rl_and_distillation](../main/md/05_rl_and_distillation.md) | 30061 | 48 | 41 | 7 | 159 | 25.8% | PASS |
+| [06_evaluation](../main/md/06_evaluation.md) | 28980 | 56 | 54 | 2 | 240 | 22.5% | PASS |
+| [07_safety_and_alignment](../main/md/07_safety_and_alignment.md) | 30332 | 41 | 25 | 16 | 58 | 43.1% | PASS |
+| [08_collaboration](../main/md/08_collaboration.md) | 28006 | 31 | 22 | 9 | 22 | 100.0% | PASS |
+| [09_multimodal_understanding](../main/md/09_multimodal_understanding.md) | 31352 | 55 | 22 | 33 | 23 | 95.7% | PASS |
+| [10_world_models](../main/md/10_world_models.md) | 37273 | 44 | 44 | 0 | 205 | 21.5% | PASS |
+| [11_embodied](../main/md/11_embodied.md) | 45217 | 59 | 59 | 0 | 303 | 19.5% | PASS |
+| [12_science](../main/md/12_science.md) | 26877 | 30 | 15 | 15 | 15 | 100.0% | PASS |
+| [13_efficiency_and_architecture](../main/md/13_efficiency_and_architecture.md) | 26603 | 42 | 42 | 0 | 96 | 43.8% | PASS |
+| [14_model_science](../main/md/14_model_science.md) | 26483 | 42 | 42 | 0 | 75 | 56.0% | PASS |
+| [15_frontier_reports](../main/md/15_frontier_reports.md) | 38570 | 48 | 43 | 5 | 43 | 100.0% | PASS |
+| [16_multimodal_generation](../main/md/16_multimodal_generation.md) | 41415 | 44 | 44 | 0 | 120 | 36.7% | PASS |
+| [18_harness_engineering](../main/md/18_harness_engineering.md) | 32811 | 65 | 56 | 9 | 56 | 100.0% | PASS |
+| [19_multimodal_agent](../main/md/19_multimodal_agent.md) | 31875 | 33 | 20 | 13 | 20 | 100.0% | PASS |
 
 ## 跨专题章节
 
-[综述导读](../chapters/md/00_surveys.md)与[Hot Words](../chapters/md/17_hot_words.md)连接多个方向，单独统计论文和一手网页引用。
+[综述导读](../main/md/00_surveys.md)与[Hot Words](../main/md/17_hot_words.md)连接多个方向，单独统计论文和一手网页引用。
 
 | 章节 | 正文汉字 | 引用数 | 检查 |
 | --- | ---: | ---: | --- |

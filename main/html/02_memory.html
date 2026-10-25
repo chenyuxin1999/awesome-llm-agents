@@ -114,7 +114,7 @@ footer{margin-top:64px;color:var(--muted);font-size:13px;border-top:1px solid va
 <div class="eyebrow">LLM / AGENT 科研地图 · 第 02 章 · 图解版</div>
 <h1>02｜记忆</h1>
 <div class="subtitle">怎样记得住、用得对，也忘得掉</div>
-<div class="topnav"><a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/README.md">首页</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/README.md#topics">专题索引</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/catalog/02_memory.md">文献目录</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/chapters/02_memory.md">Markdown 版</a></div>
+<div class="topnav"><a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/README.md">首页</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/README.md#topics">专题索引</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/catalog/02_memory.md">文献目录</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/main/md/02_memory.md">Markdown 版</a></div>
 <div class="legend"><span class="k-acc"><i class="sw"></i>上下文窗口</span><span class="k-task"><i class="sw"></i>任务与查询</span><span class="k-model"><i class="sw"></i>模型与 agent</span><span class="k-exp"><i class="sw"></i>原始经历与轨迹</span><span class="k-upd"><i class="sw"></i>读写操作</span><span class="k-state"><i class="sw"></i>记忆仓库</span><span class="k-check"><i class="sw"></i>检验与环境</span><span class="k-risk"><i class="sw"></i>风险与信息丢失</span></div>
 <section id="s1"><h2>方向背景：为什么智能体需要记忆</h2>
 <p>一个好的长期助手，要记得住约束、跟得上更新，也知道哪些话已经作废。设想你请一个助手陪你写毕业论文，前后要写好几个月。第一周你告诉它：导师要求所有图的坐标轴都用英文，实验结果统一放在 results_v2 文件夹里，引用格式用 ACL。第三周导师改了主意，结果改放 results_v3，因为 v2 里有一组数据跑错了。到了第六周，你让它帮你重画第四章的图。一个好的助手应当记得坐标轴要用英文，记得去 v3 里取数据，也记得 v2 那组数据为什么作废；它还应当知道你上个月随口说过的"先用柱状图凑合一下"只是权宜之计，早就不算数了。</p>
@@ -725,7 +725,7 @@ footer{margin-top:64px;color:var(--muted);font-size:13px;border-top:1px solid va
 <p>系统持续运行下去，会出现重复的条目、退化的索引、相互冲突的来源和逐渐漂移的检索成本。编码 agent 的指令文件 CLAUDE.md 里的规则只加不删、越写越长（见三.4），就是一个缩影。这里的研究机会是让系统主动合并、归档和修复记忆，同时保留可以回查的依据，Letta 设想的 sleep-time 后台整理是一条可能的路径。评测应当覆盖足够长的任务流，并一起报告存储增长、过期比例、冲突处理成本和任务表现。只有把维护动作本身也计入预算，才能判断紧凑的内部状态和外部可审计的记忆，分别适合哪些需求。</p>
 <p><strong>实验资源：</strong> <a href="https://arxiv.org/abs/2410.10813">LongMemEval 论文</a> · <a href="https://github.com/xiaowu0162/LongMemEval-V2/">LongMemEval-V2 官方仓库</a> · <a href="https://github.com/Tencent/ContextPilot">ContextPilot 官方仓库</a> · <a href="https://arxiv.org/abs/2502.12110">A-MEM</a> · <a href="https://arxiv.org/abs/2606.24775">2026 年记忆系统实证比较</a>。动手之前，请先核对各项目的任务设定、代码版本、数据和运行条件。</p>
 </section>
-<footer>本页与仓库中 chapters/02_memory.md 内容一致，图在 assets/memory/ 下。图中颜色：青为上下文窗口，蓝为任务与查询，紫为模型，琥珀为原始经历，粉为读写操作，灰为记忆仓库，绿为检验，橙为风险。</footer>
+<footer>本页与仓库中 main/md/02_memory.md 内容一致，图在 assets/memory/ 下。图中颜色：青为上下文窗口，蓝为任务与查询，紫为模型，琥珀为原始经历，粉为读写操作，灰为记忆仓库，绿为检验，橙为风险。</footer>
 </main>
 </div>
 </body>

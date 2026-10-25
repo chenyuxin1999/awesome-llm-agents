@@ -1,8 +1,8 @@
 # 全局总览：LLM Agent 到底在解决什么问题？
 
-[返回首页](../README.md) · [论文阅读第一站：综述导读](../chapters/md/00_surveys.md) · [下一步：基础与工具](../chapters/md/01_basics.md)
+[返回首页](../README.md) · [论文阅读第一站：综述导读](../main/md/00_surveys.md) · [下一步：基础与工具](../main/md/01_basics.md)
 
-[Hot Words](../chapters/md/17_hot_words.md)补充 JEV、harness、技能、自演化等名称的来源与研究联系。
+[Hot Words](../main/md/17_hot_words.md)补充 JEV、harness、技能、自演化等名称的来源与研究联系。
 
 ## 1. 从回答问题到完成任务
 
@@ -16,7 +16,7 @@ Agent 系统尝试把其中一部分循环交给机器：读取项目，选择�
 
 **模型**负责根据输入预测、推理或选择动作。**运行系统**负责工具定义、执行循环、存储、超时和权限；论文常称它为 *harness*，这里称“执行框架”。**环境**是被操作的对象，例如代码仓库、浏览器或机器人场景。**评测**规定任务、成功标准和计算预算。
 
-这个区分非常重要。换了记忆摘要方法，可能改善的是执行框架；增加训练轨迹，可能改变模型参数；使用更宽松的测试集，可能只改变测量结果。如果论文只给一个总分，却没有交代这些层次，你还不能知道增益来自哪里。以执行框架本身为研究对象的设计、自动优化与评测，见 [Harness 工程](../chapters/md/18_harness_engineering.md)。[AgentBench](https://arxiv.org/abs/2308.03688) 和 [SWE-bench](https://arxiv.org/abs/2310.06770) 分别提供跨环境任务与真实软件问题的评测入口，它们的分数也不能简单互换。
+这个区分非常重要。换了记忆摘要方法，可能改善的是执行框架；增加训练轨迹，可能改变模型参数；使用更宽松的测试集，可能只改变测量结果。如果论文只给一个总分，却没有交代这些层次，你还不能知道增益来自哪里。以执行框架本身为研究对象的设计、自动优化与评测，见 [Harness 工程](../main/md/18_harness_engineering.md)。[AgentBench](https://arxiv.org/abs/2308.03688) 和 [SWE-bench](https://arxiv.org/abs/2310.06770) 分别提供跨环境任务与真实软件问题的评测入口，它们的分数也不能简单互换。
 
 读任何新论文时，先写下四句话：它改了哪一层？输入输出是什么？在哪个环境里测试？成功如何判定？如果这四句写不出来，先别急着记住方法缩写。
 
@@ -34,19 +34,19 @@ Agent 系统尝试把其中一部分循环交给机器：读取项目，选择�
 
 ReAct 把“想下一步”和“执行下一步”串起来；Toolformer 探索工具调用如何成为学习目标。随后，Reflexion 把执行后的语言反馈用于后续尝试，Voyager 在 Minecraft 中积累可调用技能。它们分别说明：行动可以被组织、失败可以留下经验、成功程序可以复用；但并不意味着系统获得了无条件自我改进能力。[ReAct](https://arxiv.org/abs/2210.03629) · [Toolformer](https://arxiv.org/abs/2302.04761) · [Reflexion](https://arxiv.org/abs/2303.11366) · [Voyager](https://arxiv.org/abs/2305.16291)
 
-这条线引出[基础与工具](../chapters/md/01_basics.md)、[记忆](../chapters/md/02_memory.md)和[自我改进（RSI）](../chapters/md/03_self_improvement.md)。新手应先理解这三者：工具提供动作，记忆提供信息，技能提供可复用的过程，它们不是同义词。
+这条线引出[基础与工具](../main/md/01_basics.md)、[记忆](../main/md/02_memory.md)和[自我改进（RSI）](../main/md/03_self_improvement.md)。新手应先理解这三者：工具提供动作，记忆提供信息，技能提供可复用的过程，它们不是同义词。
 
 ### 主线二：从任务演示到明确的评测，再到针对反馈的训练
 
 一个成功视频很难告诉我们系统失败多少次、是否泄露了答案、用了多少次重试。AgentBench、WebArena、SWE-bench 把任务放进更具体的交互环境；τ-bench 则把用户交互、工具和规则约束一起纳入评估。环境越真实，越需要区分“最终输出看似正确”和“操作过程满足要求”。[AgentBench](https://arxiv.org/abs/2308.03688) · [WebArena](https://arxiv.org/abs/2307.13854) · [SWE-bench](https://arxiv.org/abs/2310.06770) · [τ-bench](https://arxiv.org/abs/2406.12045)
 
-有了可重复执行的任务，才能收集轨迹、定位错误，并进一步训练策略。这里引出[训练数据与环境](../chapters/md/04_data_and_environments.md)、[强化学习与蒸馏](../chapters/md/05_rl_and_distillation.md)、[评测与验证](../chapters/md/06_evaluation.md)。评测沿两条轴线扩展：更长的任务依赖与更广的应用场景，用分能力表现解释系统的适用范围。评价器质量与奖励可信度则是支撑这些比较的方法问题。
+有了可重复执行的任务，才能收集轨迹、定位错误，并进一步训练策略。这里引出[训练数据与环境](../main/md/04_data_and_environments.md)、[强化学习与蒸馏](../main/md/05_rl_and_distillation.md)、[评测与验证](../main/md/06_evaluation.md)。评测沿两条轴线扩展：更长的任务依赖与更广的应用场景，用分能力表现解释系统的适用范围。评价器质量与奖励可信度则是支撑这些比较的方法问题。
 
 ### 主线三：从一个智能体到更复杂的行动空间
 
 一个模型可能同时承担计划、执行和审查；也可以把工作分给多个角色。但拆分会增加沟通、状态同步和整合成本。AutoGen 是理解对话式多智能体组织的一手入口；不能仅凭角色数量推断效果更好。[AutoGen](https://arxiv.org/abs/2308.08155)
 
-行动空间也从文本 API 扩展到屏幕和物理世界。此时，看懂图片、点击正确位置、控制机器人动作、预测环境变化是不同问题。[多模态理解](../chapters/md/09_multimodal_understanding.md)、[多模态 agent](../chapters/md/19_multimodal_agent.md)、[世界模型](../chapters/md/10_world_models.md)、[具身智能](../chapters/md/11_embodied.md)分别讨论这些问题；[多模态生成](../chapters/md/16_multimodal_generation.md)则研究内容合成及其作为工具或环境组件的作用。
+行动空间也从文本 API 扩展到屏幕和物理世界。此时，看懂图片、点击正确位置、控制机器人动作、预测环境变化是不同问题。[多模态理解](../main/md/09_multimodal_understanding.md)、[多模态 agent](../main/md/19_multimodal_agent.md)、[世界模型](../main/md/10_world_models.md)、[具身智能](../main/md/11_embodied.md)分别讨论这些问题；[多模态生成](../main/md/16_multimodal_generation.md)则研究内容合成及其作为工具或环境组件的作用。
 
 ## 5. 怎样理解 2026-10-08 这一版中的“当前状态”
 
@@ -60,7 +60,7 @@ ReAct 把“想下一步”和“执行下一步”串起来；Toolformer 探索
 | 长任务评价更关注过程与恢复 | 测试是否检查中间状态、代价和越权？ | 最终答案正确就代表过程安全 |
 | 多智能体、GUI 和机器人扩大任务范围 | 收益是否足以抵消通信、感知和控制成本？ | Agent 越多、模态越多就一定越强 |
 
-模型和系统的比较需要同时考虑任务、预算和运行条件。同一方法可能在某类工作中提高质量，却在另一类工作中增加开销；技术路线的价值因此要结合具体目标判断。[前沿技术报告](../chapters/md/15_frontier_reports.md)进一步比较结构、训练、推理配置与工作能力。
+模型和系统的比较需要同时考虑任务、预算和运行条件。同一方法可能在某类工作中提高质量，却在另一类工作中增加开销；技术路线的价值因此要结合具体目标判断。[前沿技术报告](../main/md/15_frontier_reports.md)进一步比较结构、训练、推理配置与工作能力。
 
 ## 6. 研究与落地共用的五个检查问题
 
@@ -70,7 +70,7 @@ ReAct 把“想下一步”和“执行下一步”串起来；Toolformer 探索
 4. **失败会留下什么后果？** 修改文件、外发信息或控制设备之前，先确定权限、可回滚性和人工确认点。
 5. **结论能否迁移？** 在同一批任务反复改系统，很可能只是适应了测试集。保留未接触过的任务尤其重要。
 
-涉及高影响操作时，还需结合具体场景设置权限、验证和人工接管机制。[安全专题](../chapters/md/07_safety_and_alignment.md)
+涉及高影响操作时，还需结合具体场景设置权限、验证和人工接管机制。[安全专题](../main/md/07_safety_and_alignment.md)
 
 ## 7. 读完总览，怎样选择下一步？
 

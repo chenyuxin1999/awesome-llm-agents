@@ -29,28 +29,28 @@
     "min_global_unique_local_ids": 450
   },
   "source_sha256": {
-    "data/taxonomy.json": "f5ce3b5e259c3c7f3cbfe2c91cb96b5775990236b45829ea6e128f378f076457",
+    "data/taxonomy.json": "f7ca6217a876fa53290ed62fe7e04a2ba34ae9c7ee83eefecb391bfde2ea84e1",
     "data/papers.jsonl": "414c8d620886698114616b4d5aa953abae3c3c80f64522da4d227a96ffc6d45c",
-    "chapters/md/01_basics.md": "59837251f190cde89c39a3df56efc75246356d1129f52ee0304fe647123e6fc1",
-    "chapters/md/02_memory.md": "a6ccd9db495e26133d38cadda45579ba88592c1a01fbe74350c43855bf43b690",
-    "chapters/md/03_self_improvement.md": "ec62a831a527e93d2ff24114bea050ed7eee156cf1adbd5c91edbaee96c69661",
-    "chapters/md/04_data_and_environments.md": "d8388f1008090b691eb99a155bf7d083c792480dbbc30c019830ec576745b342",
-    "chapters/md/05_rl_and_distillation.md": "1626f57f62b011386536bf58e2917b5dab5d86231ca7771f00943c534d0552b3",
-    "chapters/md/06_evaluation.md": "4859f7a36ca79842b686e1c3d52bc2058a5ca4df93b8383993ffa0bf2cbf6202",
-    "chapters/md/07_safety_and_alignment.md": "9ddf12f1ab8f69d0e0dab886441a8b311ce0a13e9b502b6fe571d5ef82f7864b",
-    "chapters/md/08_collaboration.md": "c9e89fb7e528313e85100df9a5634fb45ce1358e634e37e432e57009c12cb184",
-    "chapters/md/09_multimodal_understanding.md": "08be6f2a5c1c551f62f5ed8c0e63d4b1effe90d232bd2a0d7757505a8c4f9a86",
-    "chapters/md/10_world_models.md": "ac0184d7880e2489e4c771f1ecd836790648a0bb1c0a950e6142f4dbfb4d0f60",
-    "chapters/md/11_embodied.md": "d01f3adb3d6f315df86b8c03169697958bf56fb2c9d233783e528a332747c677",
-    "chapters/md/12_science.md": "914efa4989ae44de828dfdbc006c0303c0859aeea6b67b92941909d036baffe5",
-    "chapters/md/13_efficiency_and_architecture.md": "aa354a48afb7d79dbf66bc7de7623d8b3b8002f5246a0f32aca613a7aa97b93d",
-    "chapters/md/14_model_science.md": "a1129c2fa0fc735fcf3514ab6fb5799ebedd2cce1fda13d0365b78be4c2f266e",
-    "chapters/md/15_frontier_reports.md": "e809585787813fdc84e965d9ccc59ec6cf73beea05d7d8374faa4f7d7fd03e90",
-    "chapters/md/16_multimodal_generation.md": "1999f38ae0329b9515e35c094f4fbd6e80e616a0df13b8214ee82c1c3ff65a9f",
-    "chapters/md/18_harness_engineering.md": "bb0dd3a19f0c9db081214f6ce81ed982468c89c424fa8a3c73e11e3929d39a29",
-    "chapters/md/19_multimodal_agent.md": "78545a8406d4a340c22784d64dc9ee3701f044d08d65a5d3cb3848b58ab580a1",
-    "chapters/md/00_surveys.md": "e838569d451a575d6f903f418026c77fdb00c19346bcc11f0f558a44b1e5f7c8",
-    "chapters/md/17_hot_words.md": "8c3c659e4b44bce431910b60f1f0aa0838cd810d777775b474890b1007a15221"
+    "main/md/01_basics.md": "59837251f190cde89c39a3df56efc75246356d1129f52ee0304fe647123e6fc1",
+    "main/md/02_memory.md": "a6ccd9db495e26133d38cadda45579ba88592c1a01fbe74350c43855bf43b690",
+    "main/md/03_self_improvement.md": "ec62a831a527e93d2ff24114bea050ed7eee156cf1adbd5c91edbaee96c69661",
+    "main/md/04_data_and_environments.md": "d8388f1008090b691eb99a155bf7d083c792480dbbc30c019830ec576745b342",
+    "main/md/05_rl_and_distillation.md": "1626f57f62b011386536bf58e2917b5dab5d86231ca7771f00943c534d0552b3",
+    "main/md/06_evaluation.md": "4859f7a36ca79842b686e1c3d52bc2058a5ca4df93b8383993ffa0bf2cbf6202",
+    "main/md/07_safety_and_alignment.md": "9ddf12f1ab8f69d0e0dab886441a8b311ce0a13e9b502b6fe571d5ef82f7864b",
+    "main/md/08_collaboration.md": "c9e89fb7e528313e85100df9a5634fb45ce1358e634e37e432e57009c12cb184",
+    "main/md/09_multimodal_understanding.md": "08be6f2a5c1c551f62f5ed8c0e63d4b1effe90d232bd2a0d7757505a8c4f9a86",
+    "main/md/10_world_models.md": "ac0184d7880e2489e4c771f1ecd836790648a0bb1c0a950e6142f4dbfb4d0f60",
+    "main/md/11_embodied.md": "d01f3adb3d6f315df86b8c03169697958bf56fb2c9d233783e528a332747c677",
+    "main/md/12_science.md": "914efa4989ae44de828dfdbc006c0303c0859aeea6b67b92941909d036baffe5",
+    "main/md/13_efficiency_and_architecture.md": "aa354a48afb7d79dbf66bc7de7623d8b3b8002f5246a0f32aca613a7aa97b93d",
+    "main/md/14_model_science.md": "a1129c2fa0fc735fcf3514ab6fb5799ebedd2cce1fda13d0365b78be4c2f266e",
+    "main/md/15_frontier_reports.md": "e809585787813fdc84e965d9ccc59ec6cf73beea05d7d8374faa4f7d7fd03e90",
+    "main/md/16_multimodal_generation.md": "1999f38ae0329b9515e35c094f4fbd6e80e616a0df13b8214ee82c1c3ff65a9f",
+    "main/md/18_harness_engineering.md": "bb0dd3a19f0c9db081214f6ce81ed982468c89c424fa8a3c73e11e3929d39a29",
+    "main/md/19_multimodal_agent.md": "78545a8406d4a340c22784d64dc9ee3701f044d08d65a5d3cb3848b58ab580a1",
+    "main/md/00_surveys.md": "e838569d451a575d6f903f418026c77fdb00c19346bcc11f0f558a44b1e5f7c8",
+    "main/md/17_hot_words.md": "8c3c659e4b44bce431910b60f1f0aa0838cd810d777775b474890b1007a15221"
   },
   "summary": {
     "catalog_records": 2050,
@@ -2574,7 +2574,7 @@
       ],
       "key": "01_basics",
       "name": "Agent 基础与系统框架",
-      "path": "chapters/md/01_basics.md",
+      "path": "main/md/01_basics.md",
       "exists": true,
       "local_citation_ids": [
         "2607.05378",
@@ -3057,7 +3057,7 @@
       ],
       "key": "02_memory",
       "name": "记忆与上下文",
-      "path": "chapters/md/02_memory.md",
+      "path": "main/md/02_memory.md",
       "exists": true,
       "local_citation_ids": [
         "2607.05378",
@@ -3840,7 +3840,7 @@
       ],
       "key": "03_self_improvement",
       "name": "自我改进（RSI）",
-      "path": "chapters/md/03_self_improvement.md",
+      "path": "main/md/03_self_improvement.md",
       "exists": true,
       "local_citation_ids": [
         "2607.05297",
@@ -4521,7 +4521,7 @@
       ],
       "key": "04_data_and_environments",
       "name": "训练数据与环境",
-      "path": "chapters/md/04_data_and_environments.md",
+      "path": "main/md/04_data_and_environments.md",
       "exists": true,
       "local_citation_ids": [
         "2607.05339",
@@ -4996,7 +4996,7 @@
       ],
       "key": "05_rl_and_distillation",
       "name": "强化学习与蒸馏",
-      "path": "chapters/md/05_rl_and_distillation.md",
+      "path": "main/md/05_rl_and_distillation.md",
       "exists": true,
       "local_citation_ids": [
         "2607.05804",
@@ -5787,7 +5787,7 @@
       ],
       "key": "06_evaluation",
       "name": "评测与能力基准",
-      "path": "chapters/md/06_evaluation.md",
+      "path": "main/md/06_evaluation.md",
       "exists": true,
       "local_citation_ids": [
         "2607.05391",
@@ -6674,7 +6674,7 @@
       ],
       "key": "07_safety_and_alignment",
       "name": "安全与对齐",
-      "path": "chapters/md/07_safety_and_alignment.md",
+      "path": "main/md/07_safety_and_alignment.md",
       "exists": true,
       "local_citation_ids": [
         "2607.08046",
@@ -7128,7 +7128,7 @@
       ],
       "key": "08_collaboration",
       "name": "多 Agent 与人机协作",
-      "path": "chapters/md/08_collaboration.md",
+      "path": "main/md/08_collaboration.md",
       "exists": true,
       "local_citation_ids": [
         "2607.05369",
@@ -7679,7 +7679,7 @@
       ],
       "key": "09_multimodal_understanding",
       "name": "多模态理解",
-      "path": "chapters/md/09_multimodal_understanding.md",
+      "path": "main/md/09_multimodal_understanding.md",
       "exists": true,
       "local_citation_ids": [
         "2607.07033",
@@ -8256,7 +8256,7 @@
       ],
       "key": "10_world_models",
       "name": "世界模型与规划",
-      "path": "chapters/md/10_world_models.md",
+      "path": "main/md/10_world_models.md",
       "exists": true,
       "local_citation_ids": [
         "2607.06216",
@@ -9287,7 +9287,7 @@
       ],
       "key": "11_embodied",
       "name": "具身智能与 VLA",
-      "path": "chapters/md/11_embodied.md",
+      "path": "main/md/11_embodied.md",
       "exists": true,
       "local_citation_ids": [
         "2607.06370",
@@ -10228,7 +10228,7 @@
       ],
       "key": "12_science",
       "name": "科学与数学 Agent",
-      "path": "chapters/md/12_science.md",
+      "path": "main/md/12_science.md",
       "exists": true,
       "local_citation_ids": [
         "2607.07708",
@@ -10692,7 +10692,7 @@
       ],
       "key": "13_efficiency_and_architecture",
       "name": "效率与循环计算架构",
-      "path": "chapters/md/13_efficiency_and_architecture.md",
+      "path": "main/md/13_efficiency_and_architecture.md",
       "exists": true,
       "local_citation_ids": [
         "2607.07386",
@@ -11229,7 +11229,7 @@
       ],
       "key": "14_model_science",
       "name": "模型科学与可解释性",
-      "path": "chapters/md/14_model_science.md",
+      "path": "main/md/14_model_science.md",
       "exists": true,
       "local_citation_ids": [
         "2607.08393",
@@ -11797,7 +11797,7 @@
       ],
       "key": "15_frontier_reports",
       "name": "前沿模型报告",
-      "path": "chapters/md/15_frontier_reports.md",
+      "path": "main/md/15_frontier_reports.md",
       "exists": true,
       "local_citation_ids": [
         "2607.07370",
@@ -12551,7 +12551,7 @@
       ],
       "key": "16_multimodal_generation",
       "name": "多模态生成",
-      "path": "chapters/md/16_multimodal_generation.md",
+      "path": "main/md/16_multimodal_generation.md",
       "exists": true,
       "local_citation_ids": [
         "2607.05373",
@@ -13288,7 +13288,7 @@
       ],
       "key": "18_harness_engineering",
       "name": "Harness 工程",
-      "path": "chapters/md/18_harness_engineering.md",
+      "path": "main/md/18_harness_engineering.md",
       "exists": true,
       "local_citation_ids": [
         "2607.06906",
@@ -13901,7 +13901,7 @@
       ],
       "key": "19_multimodal_agent",
       "name": "多模态 agent",
-      "path": "chapters/md/19_multimodal_agent.md",
+      "path": "main/md/19_multimodal_agent.md",
       "exists": true,
       "local_citation_ids": [
         "2607.08093",
@@ -14180,7 +14180,7 @@
         "https://ysymyth.github.io/The-Second-Half/"
       ],
       "key": "00_surveys",
-      "path": "chapters/md/00_surveys.md",
+      "path": "main/md/00_surveys.md",
       "reference_count": 23,
       "web_reference_count": 1,
       "thresholds": {
@@ -14339,7 +14339,7 @@
         "https://www.anthropic.com/institute/recursive-self-improvement"
       ],
       "key": "17_hot_words",
-      "path": "chapters/md/17_hot_words.md",
+      "path": "main/md/17_hot_words.md",
       "reference_count": 29,
       "web_reference_count": 3,
       "thresholds": {

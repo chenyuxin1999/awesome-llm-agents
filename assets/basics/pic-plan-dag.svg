@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 430" width="880" height="430" role="img" aria-label="逐个等待与按依赖图并行发出调用" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><defs><marker id="ah-picplandag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs><rect x="0" y="0" width="880" height="430" fill="#ffffff"/><text x="20.0" y="26.0" font-size="13" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">示意：周报里的四个调用，两种安排方式（时间为示意）</text>
+<text x="24.0" y="58.0" font-size="13" fill="#2B57C9" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">先写出的计划（后面要用的结果先用 $1、$2 占位）</text>
+<rect x="24.0" y="68.0" width="200.0" height="34.0" rx="4" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="36.0" y="90.0" font-size="12" fill="#2B57C9" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace" font-weight="700">$1</text>
+<text x="66.0" y="90.0" font-size="11.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">parse(&quot;exp06&quot;)</text>
+<rect x="236.0" y="68.0" width="200.0" height="34.0" rx="4" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="248.0" y="90.0" font-size="12" fill="#2B57C9" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace" font-weight="700">$2</text>
+<text x="278.0" y="90.0" font-size="11.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">parse(&quot;exp07&quot;)</text>
+<rect x="448.0" y="68.0" width="200.0" height="34.0" rx="4" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="460.0" y="90.0" font-size="12" fill="#2B57C9" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace" font-weight="700">$3</text>
+<text x="490.0" y="90.0" font-size="11.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">parse(&quot;baseline&quot;)</text>
+<rect x="660.0" y="68.0" width="200.0" height="34.0" rx="4" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="672.0" y="90.0" font-size="12" fill="#2B57C9" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace" font-weight="700">$4</text>
+<text x="702.0" y="90.0" font-size="11.5" fill="#18202C" text-anchor="start" font-family="Menlo, Consolas, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, monospace">compare($1, $2, $3)</text>
+<text x="24.0" y="140.0" font-size="13" fill="#B86E00" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">ReAct 式：一个一个来</text>
+<text x="24.0" y="158.0" font-size="11" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">每个调用都要等模型再想一轮</text>
+<rect x="130.0" y="176.0" width="50.0" height="24.0" rx="3" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1"/>
+<text x="155.0" y="192.0" font-size="10" fill="#5B45B0" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">想</text>
+<rect x="182.0" y="176.0" width="118.0" height="24.0" rx="3" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="241.0" y="192.0" font-size="10" fill="#B86E00" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">$1 执行</text>
+<rect x="302.0" y="176.0" width="50.0" height="24.0" rx="3" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1"/>
+<text x="327.0" y="192.0" font-size="10" fill="#5B45B0" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">想</text>
+<rect x="354.0" y="176.0" width="118.0" height="24.0" rx="3" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="413.0" y="192.0" font-size="10" fill="#B86E00" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">$2 执行</text>
+<rect x="474.0" y="176.0" width="50.0" height="24.0" rx="3" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1"/>
+<text x="499.0" y="192.0" font-size="10" fill="#5B45B0" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">想</text>
+<rect x="526.0" y="176.0" width="118.0" height="24.0" rx="3" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="585.0" y="192.0" font-size="10" fill="#B86E00" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">$3 执行</text>
+<rect x="646.0" y="176.0" width="50.0" height="24.0" rx="3" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1"/>
+<text x="671.0" y="192.0" font-size="10" fill="#5B45B0" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">想</text>
+<rect x="698.0" y="176.0" width="118.0" height="24.0" rx="3" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="757.0" y="192.0" font-size="10" fill="#B86E00" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">$4 执行</text>
+<text x="822.0" y="170.0" font-size="12" fill="#C2501A" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">约 7.6 秒</text>
+<line x1="130.0" y1="212.0" x2="860.0" y2="212.0" stroke="#D5DBE4" stroke-width="1"/>
+<text x="130.0" y="228.0" font-size="10" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">0 秒</text>
+<text x="220.0" y="228.0" font-size="10" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">1 秒</text>
+<text x="310.0" y="228.0" font-size="10" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">2 秒</text>
+<text x="400.0" y="228.0" font-size="10" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">3 秒</text>
+<text x="490.0" y="228.0" font-size="10" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">4 秒</text>
+<text x="580.0" y="228.0" font-size="10" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">5 秒</text>
+<text x="670.0" y="228.0" font-size="10" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">6 秒</text>
+<text x="760.0" y="228.0" font-size="10" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">7 秒</text>
+<text x="850.0" y="228.0" font-size="10" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">8 秒</text>
+<text x="24.0" y="258.0" font-size="13" fill="#26805A" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">依赖图：互不依赖的同时发</text>
+<text x="24.0" y="276.0" font-size="11" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">LLMCompiler 的做法</text>
+<rect x="130.0" y="286.0" width="50.0" height="24.0" rx="3" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1"/>
+<text x="155.0" y="302.0" font-size="10" fill="#5B45B0" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">想</text>
+<rect x="182.0" y="286.0" width="118.0" height="24.0" rx="3" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="241.0" y="302.0" font-size="10" fill="#B86E00" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">$1 执行</text>
+<line x1="300.0" y1="298.0" x2="328.0" y2="328.0" stroke="#5A6577" stroke-width="1" marker-end="url(#ah-picplandag)"/>
+<rect x="182.0" y="314.0" width="118.0" height="24.0" rx="3" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="241.0" y="330.0" font-size="10" fill="#B86E00" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">$2 执行</text>
+<line x1="300.0" y1="326.0" x2="328.0" y2="328.0" stroke="#5A6577" stroke-width="1" marker-end="url(#ah-picplandag)"/>
+<rect x="182.0" y="342.0" width="118.0" height="24.0" rx="3" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="241.0" y="358.0" font-size="10" fill="#B86E00" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">$3 执行</text>
+<line x1="300.0" y1="354.0" x2="328.0" y2="328.0" stroke="#5A6577" stroke-width="1" marker-end="url(#ah-picplandag)"/>
+<rect x="330.0" y="316.0" width="118.0" height="24.0" rx="3" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="389.0" y="332.0" font-size="10" fill="#B86E00" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">$4 执行</text>
+<text x="500.0" y="332.0" font-size="12" fill="#26805A" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">约 3.6 秒</text>
+<line x1="130.0" y1="376.0" x2="860.0" y2="376.0" stroke="#D5DBE4" stroke-width="1"/>
+<text x="130.0" y="392.0" font-size="10" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">0 秒</text>
+<text x="220.0" y="392.0" font-size="10" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">1 秒</text>
+<text x="310.0" y="392.0" font-size="10" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">2 秒</text>
+<text x="400.0" y="392.0" font-size="10" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">3 秒</text>
+<text x="490.0" y="392.0" font-size="10" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">4 秒</text>
+<text x="580.0" y="392.0" font-size="10" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">5 秒</text>
+<text x="670.0" y="392.0" font-size="10" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">6 秒</text>
+<text x="760.0" y="392.0" font-size="10" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">7 秒</text>
+<text x="850.0" y="392.0" font-size="10" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">8 秒</text>
+<text x="440.0" y="412.0" font-size="11.5" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">$4 要等 $1、$2、$3 都回来；前三个互不依赖，可以同时发出。真实的提速幅度取决于工具延迟和依赖结构</text></svg>

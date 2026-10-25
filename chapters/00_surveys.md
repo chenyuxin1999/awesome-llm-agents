@@ -28,10 +28,10 @@
 | --- | --- | --- |
 | Agent 系统究竟由哪些部分组成？ | Agent System and Harness Design | [基础与工具](01_basics.md) |
 | 为什么任务一长就不可靠？ | Towards Long-Horizon Agents: A Survey | [记忆](02_memory.md) + [评测](06_evaluation.md) |
-| “自演化”到底更新什么？ | What, When, How, and Where to Evolve | [自我改进（RSI）](03_skills_and_self_improvement.md) |
-| RSI 与普通自动优化有什么不同？ | Recursive Self-Improvement in AI | 本章第四节，再进入[自我改进（RSI）](03_skills_and_self_improvement.md) |
-| 技能库和收藏提示词有什么区别？ | Dynamic Agent Skills | [技能](03_skills_and_self_improvement.md) + [数据](04_training_data.md) |
-| 怎样判断新版本真的更好、更安全？ | Evaluation and Benchmarking，配合 Safety in Self-Evolving Agents | [评测](06_evaluation.md) + [安全](07_safety.md) |
+| “自演化”到底更新什么？ | What, When, How, and Where to Evolve | [自我改进（RSI）](03_self_improvement.md) |
+| RSI 与普通自动优化有什么不同？ | Recursive Self-Improvement in AI | 本章第四节，再进入[自我改进（RSI）](03_self_improvement.md) |
+| 技能库和收藏提示词有什么区别？ | Dynamic Agent Skills | [技能](03_self_improvement.md) + [数据](04_data_and_environments.md) |
+| 怎样判断新版本真的更好、更安全？ | Evaluation and Benchmarking，配合 Safety in Self-Evolving Agents | [评测](06_evaluation.md) + [安全](07_safety_and_alignment.md) |
 
 把本章要读的综述按方向和时间摆在一起，就得到下面这张领域地图。每一行是本章一节讨论的方向，每个点是一篇综述。
 
@@ -165,7 +165,7 @@
 
 *图：五篇自演化综述各自的切法，每格写的是它组织研究用的骨架。*
 
-这五篇大多落在 DAIR.AI 合集八段里的“自生成训练”和“从经验中学习”两段。具体方法见[自我改进（RSI）](03_skills_and_self_improvement.md)和[强化学习与蒸馏](05_rl_and_distillation.md)，比较时可以沿着更新对象、反馈来源和迁移效果三条线去追踪。
+这五篇大多落在 DAIR.AI 合集八段里的“自生成训练”和“从经验中学习”两段。具体方法见[自我改进（RSI）](03_self_improvement.md)和[强化学习与蒸馏](05_rl_and_distillation.md)，比较时可以沿着更新对象、反馈来源和迁移效果三条线去追踪。
 
 ## 四、RSI：连“怎样改进”也一起改进
 
@@ -201,7 +201,7 @@
 
 *图：第四节四篇材料的组织轴。左上是 RSI 综述的两条轴，右上是路线图的五级阶梯，下面两格是共同演化和编码综述。*
 
-读完这一组，可以进入[自改进章](03_skills_and_self_improvement.md)找方法论文，在每个系统里标出执行器、改进器、候选档案和评价器，看看哪些组件被修改了，哪些仍然由人固定，其中评价器是不是独立于被改进的部分，要单独记下来。对照阅读时，脑子里至少要放两个基线：一个改进规则始终固定的改进器，一个只是加大了搜索预算的系统。如果递归版本只在参与版本选择的那批任务上变好，就还谈不上迁移；如果评价器也在被修改的组件之列，改过之后打分变宽松了，分数上涨也说明不了任务能力提高。综述的作用是帮你提出这些问题，它并没有替具体论文提前判定它们都有缺陷。
+读完这一组，可以进入[自改进章](03_self_improvement.md)找方法论文，在每个系统里标出执行器、改进器、候选档案和评价器，看看哪些组件被修改了，哪些仍然由人固定，其中评价器是不是独立于被改进的部分，要单独记下来。对照阅读时，脑子里至少要放两个基线：一个改进规则始终固定的改进器，一个只是加大了搜索预算的系统。如果递归版本只在参与版本选择的那批任务上变好，就还谈不上迁移；如果评价器也在被修改的组件之列，改过之后打分变宽松了，分数上涨也说明不了任务能力提高。综述的作用是帮你提出这些问题，它并没有替具体论文提前判定它们都有缺陷。
 
 ## 五、技能与协作：把“会进化”拆成可管理的操作
 
@@ -211,7 +211,7 @@
 
 协作又给问题添了一层：失败的原因可能藏在分工和交接里。失败出现在最后的回答里，原因却可能埋在早期的分工、遗漏的信息或者不可靠的交接中，如果系统只让最后一个 Agent 去反思，很可能优化错了对象。所以失败归因要和结构修改联系起来，多智能体研究也因此要和记忆、技能、评测放在一起读。Anthropic 在《Building effective agents》里列出的编排者与执行者、评估者与优化者两种 workflow 模式，本身就是最朴素的多智能体结构；文章的提醒在这里同样适用：多加一个角色、多加一轮评审，只有在能测出收益时才值得。
 
-**[Dynamic Agent Skills: A Lifecycle Survey and Taxonomy of Evolving Skill Libraries](https://arxiv.org/abs/2607.10113v1)｜2026-07-11。** 它区分了不同形态的技能，并沿着证据获取、候选提出、验证接纳、存储、检索组合、维护、可迁移化与治理这条生命周期来组织研究。读它的重点在于沿着一个技能一路追踪下去：它从哪里来，凭什么入库，什么时候失效，怎样回滚；阶段数背下来倒没什么用。它特别适合作为[技能章](03_skills_and_self_improvement.md)的前读，让后面那些新增、合并、删除和路由技能的方法有一个共同的比较对象。
+**[Dynamic Agent Skills: A Lifecycle Survey and Taxonomy of Evolving Skill Libraries](https://arxiv.org/abs/2607.10113v1)｜2026-07-11。** 它区分了不同形态的技能，并沿着证据获取、候选提出、验证接纳、存储、检索组合、维护、可迁移化与治理这条生命周期来组织研究。读它的重点在于沿着一个技能一路追踪下去：它从哪里来，凭什么入库，什么时候失效，怎样回滚；阶段数背下来倒没什么用。它特别适合作为[技能章](03_self_improvement.md)的前读，让后面那些新增、合并、删除和路由技能的方法有一个共同的比较对象。
 
 **[A Systematic Survey of Agentic Skills: Architecture, Lifecycle, and Security](https://arxiv.org/abs/2608.29596v2)｜2026-08-30。** 上一篇侧重动态库怎样更新，这篇把技能的系统架构、生命周期和安全放在一起，还讨论了注册、分发和实际执行。可以重点比较两篇各自怎样定义技能、怎样划分生命周期，别因为名字相近就以为内容重复。放到真实系统里看，能下载并调用某个技能，只说明接口可用；来源是否可信、权限是否合适、环境是否兼容、执行是否经过检查，都还得一件件单独解决。
 
@@ -249,13 +249,13 @@
 
 通用框架能把各个方向连起来，但应用自身的约束抹不掉。GUI 执行要真实地等待界面刷新，机器人的动作会产生物理后果，视频生成则可能根本没有可执行的动作。把这些工作统统叫作 Agent，差异就被遮住了。更好的读法是先确定观察、动作、反馈和验收分别是什么，再讨论同一个概念怎样迁移过去。
 
-**[Efficient GUI Agents: A Systems Survey of Observation, Memory, Action, and Runtime Optimization](https://arxiv.org/abs/2609.02309v1)｜2026-09-02。** 它沿观察、上下文记忆、动作和运行时四条线组织效率问题，适合用来把“更少的 token”和“更短的任务时间”区分开。选择性读取可能省下上下文，却会带来定位与验证的成本；混合 GUI 和非 GUI 执行，也会改变任务接口本身。带着端到端的预算去读，再进入[GUI 章](09_multimodal_gui.md)和[效率章](13_efficiency.md)。
+**[Efficient GUI Agents: A Systems Survey of Observation, Memory, Action, and Runtime Optimization](https://arxiv.org/abs/2609.02309v1)｜2026-09-02。** 它沿观察、上下文记忆、动作和运行时四条线组织效率问题，适合用来把“更少的 token”和“更短的任务时间”区分开。选择性读取可能省下上下文，却会带来定位与验证的成本；混合 GUI 和非 GUI 执行，也会改变任务接口本身。带着端到端的预算去读，再进入[GUI 章](09_multimodal_understanding.md)和[效率章](13_efficiency_and_architecture.md)。
 
 **[World-Action Models for Robot Learning and Control: A Survey](https://arxiv.org/abs/2609.16074v1)｜2026-09-13。** 它围绕“预测未来世界”和“生成可执行动作”之间的耦合，区分了世界模型、基于模型的强化学习、动作条件视频和反应式 VLA。先读它，可以避免把“视频预测得像”直接理解成“机器人能控制得好”。读的时候沿着表征、动作接口、训练数据和闭环评测四项记下差异，再进入[世界模型](10_world_models.md)和[具身智能](11_embodied.md)。
 
 **[Weights or Skills? A Survey of Robot-Learning Techniques: from Action-Predicting Weights to Robots that Write their Own Skills](https://arxiv.org/abs/2608.01851v1)｜2026-08-03。** 这篇连接了两种实现思路：“能力存在参数里”和“能力存在可调用的技能里”。可以用它检查感知、动作和程序知识分别放在哪里，哪些部分可以检查，哪些仍然需要学习。权重和技能完全可以分工：参数负责感知和动作生成，外部技能负责组织任务流程和执行检查。第五节讲的技能生命周期，关心技能从哪里来、凭什么入库、什么时候失效、怎样回滚，在机器人上同样要回答。
 
-**[Video Generation Models: A Survey of Post-Training and Alignment](https://arxiv.org/abs/2610.00812v1)｜2026-09-30。** 它整理了监督微调、自训练与蒸馏、偏好与奖励、推理时方法几类工作，讨论时间一致性和可控性等问题。把它放在这里，是为了帮你理解世界模型相关的生成能力是怎样训练出来的，并没有把视频生成直接归入 Agent 的意思。后续可以进入[多模态生成](16_generation.md)，记住生成质量、物理一致性和行动有效性是三个不同的目标。
+**[Video Generation Models: A Survey of Post-Training and Alignment](https://arxiv.org/abs/2610.00812v1)｜2026-09-30。** 它整理了监督微调、自训练与蒸馏、偏好与奖励、推理时方法几类工作，讨论时间一致性和可控性等问题。把它放在这里，是为了帮你理解世界模型相关的生成能力是怎样训练出来的，并没有把视频生成直接归入 Agent 的意思。后续可以进入[多模态生成](16_multimodal_generation.md)，记住生成质量、物理一致性和行动有效性是三个不同的目标。
 
 下图把四个方向排成四行，每行左边是应用自身的约束，中间是综述的组织线索，右边是读时要分开的目标。
 

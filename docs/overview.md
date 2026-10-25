@@ -34,19 +34,19 @@ Agent 系统尝试把其中一部分循环交给机器：读取项目，选择�
 
 ReAct 把“想下一步”和“执行下一步”串起来；Toolformer 探索工具调用如何成为学习目标。随后，Reflexion 把执行后的语言反馈用于后续尝试，Voyager 在 Minecraft 中积累可调用技能。它们分别说明：行动可以被组织、失败可以留下经验、成功程序可以复用；但并不意味着系统获得了无条件自我改进能力。[ReAct](https://arxiv.org/abs/2210.03629) · [Toolformer](https://arxiv.org/abs/2302.04761) · [Reflexion](https://arxiv.org/abs/2303.11366) · [Voyager](https://arxiv.org/abs/2305.16291)
 
-这条线引出[基础与工具](../chapters/01_basics.md)、[记忆](../chapters/02_memory.md)和[自我改进（RSI）](../chapters/03_skills_and_self_improvement.md)。新手应先理解这三者：工具提供动作，记忆提供信息，技能提供可复用的过程，它们不是同义词。
+这条线引出[基础与工具](../chapters/01_basics.md)、[记忆](../chapters/02_memory.md)和[自我改进（RSI）](../chapters/03_self_improvement.md)。新手应先理解这三者：工具提供动作，记忆提供信息，技能提供可复用的过程，它们不是同义词。
 
 ### 主线二：从任务演示到明确的评测，再到针对反馈的训练
 
 一个成功视频很难告诉我们系统失败多少次、是否泄露了答案、用了多少次重试。AgentBench、WebArena、SWE-bench 把任务放进更具体的交互环境；τ-bench 则把用户交互、工具和规则约束一起纳入评估。环境越真实，越需要区分“最终输出看似正确”和“操作过程满足要求”。[AgentBench](https://arxiv.org/abs/2308.03688) · [WebArena](https://arxiv.org/abs/2307.13854) · [SWE-bench](https://arxiv.org/abs/2310.06770) · [τ-bench](https://arxiv.org/abs/2406.12045)
 
-有了可重复执行的任务，才能收集轨迹、定位错误，并进一步训练策略。这里引出[训练数据与环境](../chapters/04_training_data.md)、[强化学习与蒸馏](../chapters/05_rl_and_distillation.md)、[评测与验证](../chapters/06_evaluation.md)。评测沿两条轴线扩展：更长的任务依赖与更广的应用场景，用分能力表现解释系统的适用范围。评价器质量与奖励可信度则是支撑这些比较的方法问题。
+有了可重复执行的任务，才能收集轨迹、定位错误，并进一步训练策略。这里引出[训练数据与环境](../chapters/04_data_and_environments.md)、[强化学习与蒸馏](../chapters/05_rl_and_distillation.md)、[评测与验证](../chapters/06_evaluation.md)。评测沿两条轴线扩展：更长的任务依赖与更广的应用场景，用分能力表现解释系统的适用范围。评价器质量与奖励可信度则是支撑这些比较的方法问题。
 
 ### 主线三：从一个智能体到更复杂的行动空间
 
 一个模型可能同时承担计划、执行和审查；也可以把工作分给多个角色。但拆分会增加沟通、状态同步和整合成本。AutoGen 是理解对话式多智能体组织的一手入口；不能仅凭角色数量推断效果更好。[AutoGen](https://arxiv.org/abs/2308.08155)
 
-行动空间也从文本 API 扩展到屏幕和物理世界。此时，看懂图片、点击正确位置、控制机器人动作、预测环境变化是不同问题。[多模态理解](../chapters/09_multimodal_gui.md)、[多模态 agent](../chapters/19_multimodal_agent.md)、[世界模型](../chapters/10_world_models.md)、[具身智能](../chapters/11_embodied.md)分别讨论这些问题；[多模态生成](../chapters/16_generation.md)则研究内容合成及其作为工具或环境组件的作用。
+行动空间也从文本 API 扩展到屏幕和物理世界。此时，看懂图片、点击正确位置、控制机器人动作、预测环境变化是不同问题。[多模态理解](../chapters/09_multimodal_understanding.md)、[多模态 agent](../chapters/19_multimodal_agent.md)、[世界模型](../chapters/10_world_models.md)、[具身智能](../chapters/11_embodied.md)分别讨论这些问题；[多模态生成](../chapters/16_multimodal_generation.md)则研究内容合成及其作为工具或环境组件的作用。
 
 ## 5. 怎样理解 2026-10-08 这一版中的“当前状态”
 
@@ -70,7 +70,7 @@ ReAct 把“想下一步”和“执行下一步”串起来；Toolformer 探索
 4. **失败会留下什么后果？** 修改文件、外发信息或控制设备之前，先确定权限、可回滚性和人工确认点。
 5. **结论能否迁移？** 在同一批任务反复改系统，很可能只是适应了测试集。保留未接触过的任务尤其重要。
 
-涉及高影响操作时，还需结合具体场景设置权限、验证和人工接管机制。[安全专题](../chapters/07_safety.md)
+涉及高影响操作时，还需结合具体场景设置权限、验证和人工接管机制。[安全专题](../chapters/07_safety_and_alignment.md)
 
 ## 7. 读完总览，怎样选择下一步？
 

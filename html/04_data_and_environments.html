@@ -114,7 +114,7 @@ footer{margin-top:64px;color:var(--muted);font-size:13px;border-top:1px solid va
 <div class="eyebrow">LLM / AGENT 科研地图 · 第 04 章 · 图解版</div>
 <h1>04｜训练数据与环境</h1>
 <div class="subtitle">从“给答案”到“造出值得练习的世界”</div>
-<div class="topnav"><a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/README.md">首页</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/README.md#topics">专题索引</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/catalog/04_training_data.md">文献目录</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/chapters/04_training_data.md">Markdown 版</a></div>
+<div class="topnav"><a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/README.md">首页</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/README.md#topics">专题索引</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/catalog/04_data_and_environments.md">文献目录</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/chapters/04_data_and_environments.md">Markdown 版</a></div>
 <div class="legend"><span class="k-task"><i class="sw"></i>任务与出题</span><span class="k-model"><i class="sw"></i>模型与学习者</span><span class="k-exp"><i class="sw"></i>语料、轨迹、数据</span><span class="k-upd"><i class="sw"></i>生成、改写、训练</span><span class="k-check"><i class="sw"></i>验证器与反馈</span><span class="k-accent"><i class="sw"></i>环境</span><span class="k-state"><i class="sw"></i>记录与持久状态</span><span class="k-risk"><i class="sw"></i>风险与断点</span></div>
 <section id="s1"><h2>方向背景：为什么交互能力需要专门的数据与环境</h2>
 <p>读过海量网页的模型会说退款，却不会办退款。设想我们想教一个模型去做网店客服，具体到一件很普通的事：顾客申请退款。读过海量网页的模型，关于退款的说法几乎都见过，退款政策怎么写，客服话术怎么说，它张口就来。可真把它放进一个有订单库、有支付接口、有库存系统的后台，它很快就会露馅：先查订单还是先查支付记录？接口报错了要不要重试？退完钱以后，账单余额和库存是不是都对得上？顾客要退的东西其实超过了退货期限，这时该拒绝还是该找主管？这些问题的答案在网页上很少成段出现，因为它们藏在一个个具体的状态变化里，只有动手做、做错了、看到后果，才学得会。</p>
@@ -663,7 +663,7 @@ footer{margin-top:64px;color:var(--muted);font-size:13px;border-top:1px solid va
 <p>Silver 和 Sutton 设想的经验流，意味着智能体在真实岗位上的轨迹会源源不断地变成训练数据。这些轨迹里可能有私有的源码、访问令牌、个人信息和敏感的业务关系，只去掉姓名远远不够。研究机会在于建立来源、用途、保留和删除的全流程管理，并追踪一段原始经验怎样进入合成样本、又怎样进入后续的模型。采集、清洗、生成和训练应当各自保留不同的权限边界，合成出来的凭证也要和生产系统隔离开。评价时，要同时检查经验的学习价值和敏感信息的传播情况；安全处理应当贯穿整条管线，训练前一次性清洗是远远不够的。</p>
 <p><strong>实验资源：</strong> <a href="https://github.com/Farama-Foundation/Gymnasium">Gymnasium官方仓库</a> · <a href="https://github.com/aitofound/ScienceIDE">ScienceIDE作者仓库</a> · <a href="https://arxiv.org/abs/2406.17557">FineWeb 论文</a> · <a href="https://arxiv.org/abs/2412.21139">SWE-Gym</a> · <a href="https://arxiv.org/abs/2406.12045">τ-bench</a>。动手之前，请先核对各项目的任务设定、代码版本、数据和运行条件。</p>
 </section>
-<footer>本页与仓库中 chapters/04_training_data.md 内容一致，图在 assets/training-data/ 下。图中颜色：蓝为任务，紫为模型与学习者，琥珀为语料与轨迹，粉为生成与训练，绿为验证与反馈，青为环境，灰为记录与持久状态，橙为风险。</footer>
+<footer>本页与仓库中 chapters/04_data_and_environments.md 内容一致，图在 assets/training-data/ 下。图中颜色：蓝为任务，紫为模型与学习者，琥珀为语料与轨迹，粉为生成与训练，绿为验证与反馈，青为环境，灰为记录与持久状态，橙为风险。</footer>
 </main>
 </div>
 </body>

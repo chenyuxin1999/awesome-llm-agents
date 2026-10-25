@@ -1,6 +1,6 @@
 # 04｜训练数据与环境：从“给答案”到“造出值得练习的世界”
 
-[首页](../README.md) · [专题索引](../README.md#topics) · [文献目录](../catalog/04_training_data.md)
+[首页](../README.md) · [专题索引](../README.md#topics) · [文献目录](../catalog/04_data_and_environments.md)
 
 ## 方向背景：为什么交互能力需要专门的数据与环境
 

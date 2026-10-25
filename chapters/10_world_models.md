@@ -295,7 +295,7 @@ Meta 与俄亥俄州立大学 2025 年的 [Agent Learning via Early Experience](
 
 Meta 团队随后又把世界模型做成了合成的训练环境，让 agent 在里面做在线强化学习。2025 年底的 [DreamGym](https://arxiv.org/abs/2511.03773)（`2511.03773`，Scaling Agent Learning via Experience Synthesis）和 Early Experience 共享部分作者，它把环境的变化规律蒸馏成一个"经验模型"，这个模型逐步推理，生成状态转移和反馈，agent 在里面大量收集轨迹做在线强化学习。agent 学习用的奖励，由经验模型在生成每一步时一并给出，训练时用不上真实环境的奖励。为了不让模拟跑偏，它用真实的离线数据初始化经验回放池，再不断加入新的交互；它还按当前策略的水平自动生成更难的任务，形成一份随训练推进的课程。作者报告，在没法直接做强化学习的 WebArena 上，它比所有基线高出 30% 以上；在能做却很贵的环境里，只用合成交互就追平了 GRPO 和 PPO 这两种常用强化学习算法在真实环境里的成绩；先在合成经验里训练、再转到真实环境，所需的真实交互少了很多。这几乎是 Ha 与 Schmidhuber"在梦里学习"的文本版本，梦从赛车画面换成了网页和工具调用。
 
-画面世界里，状态要靠学出来的内部状态去近似；文字世界里，状态本身就能被语言模型直接读写，代价是幻觉和过时的知识会像像素漂移一样，在多步推演中越积越多。2026 年 6 月的综述 [Bridging the Agent-World Gap: Text World Models for LLM-based Agents](https://arxiv.org/abs/2606.09032)（`2606.09032`）给这条线做了第一次系统整理，它把用途分成训练期和推理期：训练期包括把模型内化进策略、充当模拟的训练环境，推理期包括前瞻搜索和动作验证，正好对应 Early Experience、DreamGym 和 WebDreamer 三种用法。这条线也把世界模型带进了 agent 训练，和[第 05 章](05_rl_and_distillation.md)讨论的强化学习、[第 04 章](04_training_data.md)讨论的训练环境与数据合成直接相连，GUI 一侧的屏幕状态预测可以对照[第 09 章](09_multimodal_gui.md)来读。
+画面世界里，状态要靠学出来的内部状态去近似；文字世界里，状态本身就能被语言模型直接读写，代价是幻觉和过时的知识会像像素漂移一样，在多步推演中越积越多。2026 年 6 月的综述 [Bridging the Agent-World Gap: Text World Models for LLM-based Agents](https://arxiv.org/abs/2606.09032)（`2606.09032`）给这条线做了第一次系统整理，它把用途分成训练期和推理期：训练期包括把模型内化进策略、充当模拟的训练环境，推理期包括前瞻搜索和动作验证，正好对应 Early Experience、DreamGym 和 WebDreamer 三种用法。这条线也把世界模型带进了 agent 训练，和[第 05 章](05_rl_and_distillation.md)讨论的强化学习、[第 04 章](04_data_and_environments.md)讨论的训练环境与数据合成直接相连，GUI 一侧的屏幕状态预测可以对照[第 09 章](09_multimodal_understanding.md)来读。
 
 **速查：文本岔路的六种做法。** 前四张卡把语言模型当作 agent 行动前可以随时询问的世界模型，后两张把它用在训练上。每张卡最右边的框说明世界模型的预测最后被用来做什么。
 

@@ -121,7 +121,7 @@ footer{margin-top:64px;color:var(--muted);font-size:13px;border-top:1px solid va
 <p>一条训练损失下降得更快的曲线，要先回答三个问题才算数。设想组里一位同学在组会上展示了一张漂亮的曲线图。他把一个一亿参数小模型的优化器从 AdamW 换成了某种新方法，训练损失明显下降得更快。台下的导师看完，问了三个问题。第一个问题是：把模型放大十倍、数据放大十倍，这条曲线还会领先吗？第二个问题是：你换优化器的同时，每一步参数实际被改动的幅度也变了，那么功劳究竟属于新方法，还是只是步长恰好落进了更好的区间？第三个问题最难：模型学得更快了，它内部学到的东西和原来一样吗，我们有没有办法看一眼？</p>
 <p>这三个问题几乎概括了模型科学这个方向。大模型的进步主要靠工程堆出来，性能一路上涨，可上涨本身不会顺带告诉我们能力是怎样产生的，也保证不了在一个规模上摸索出来的经验能搬到另一个规模。训练一个前沿模型的成本太高，没有人能对每个设计选择都在最大规模上做对照实验，于是大家只能在小规模上试，再靠某种规律外推。规律靠不靠得住、为什么靠得住，就成了一个实实在在关系到算力分配的问题。</p>
 <p>更麻烦的是，很多看起来像解释的东西其实只是相关性。某个内部特征能够预测模型的行为，模型的决策未必真的依赖它；换了优化器之后效果变好，收益也可能来自学习率和数据条件的连带变化。模型科学想做的，是把模型的表示、优化过程和行为机制当作研究对象本身，建立那种可以被检验、可以被干预、也可以被外推的解释。这些解释最终会回到很具体的地方：训练资源怎么分配，结构怎么设计，出了错怎么诊断，持续学习时怎样保住已经学会的东西。</p>
-<p>所以读这个方向的每一项结论，都要连同它的研究对象、训练条件和证据强弱一起记下来：在一个模型、一种设置里看到的规律，要经过检验才能推广成所有模型共有的机制。循环结构的计算成本与部署效率放在<a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/chapters/13_efficiency.md">效率章</a>里讨论。</p>
+<p>所以读这个方向的每一项结论，都要连同它的研究对象、训练条件和证据强弱一起记下来：在一个模型、一种设置里看到的规律，要经过检验才能推广成所有模型共有的机制。循环结构的计算成本与部署效率放在<a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/chapters/13_efficiency_and_architecture.md">效率章</a>里讨论。</p>
 </section>
 <section id="s2"><h2>先读这几篇</h2>
 <p>这一章的主线借自几篇写得很好的长文。模型科学横跨两个很少互相对话的圈子，一边做训练和缩放，一边做可解释性，很多论文只在自己那一边讲故事。下面几篇文章的作者各自站在一边，却都在认真思考"这些现象背后有没有可检验的规律"，把它们放在一起读，两条线就能接上。建议按顺序读，读完再回来看各分支的新论文。最后两篇来自 2026 年，一篇研究模型里能被说出口的那部分表示，一篇把几年来的稀疏自编码器研究放在一起做批判性的清点。</p>
@@ -325,7 +325,7 @@ footer{margin-top:64px;color:var(--muted);font-size:13px;border-top:1px solid va
 <p>这是导师的第二个问题往深处走的结果：训练更新、知识使用和推理计算需要一套统一的分析。参数里存着信息、推理时能读到信息、在实际行动中正确使用信息，是三种不同的现象；有效学习率又决定了每一步训练在多大程度上改写了这些信息。研究机会在于追踪数据和更新怎样形成可以调用的结构，并分析潜在推理、持续学习和控制接口怎样改变它们的使用条件。受控实验应当能够区分知识缺失、访问失败和决策错误，从而说清楚能力的增长或退化究竟发生在哪一层。诱导头的故事告诉我们，这种统一分析在原则上是可能的：这种注意力回路在训练中形成的时刻，正好对应上下文学习能力的一次跃升，在损失曲线上留下了一个鼓包。</p>
 </section>
 <section id="s8"><h2>六、可靠资源</h2>
-<p>训练方向建议先读 Adam、AdamW、Shampoo 与两篇经典缩放工作，再读 Wolfe 的缩放律长文和 Bernstein 的《Modular Manifolds》；解释方向建议先读 Transformer Circuits 的框架、玩具模型和字典学习材料，再读《On the Biology of a Large Language Model》，然后查看 <a href="https://github.com/TransformerLensOrg/TransformerLens">TransformerLens 官方仓库</a>动手。这个工具可以缓存激活、实施干预，但解释是否成立，仍然要靠实验设计来回答。做任何对比实验之前，也值得先读一遍 Horace He 那篇关于推理非确定性的文章，确认自己的"同一个输出"真的是同一个。相关章节：<a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/chapters/13_efficiency.md">效率与架构</a>、<a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/chapters/12_science.md">科研智能体</a>、<a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/chapters/15_frontier_reports.md">技术报告</a>。</p>
+<p>训练方向建议先读 Adam、AdamW、Shampoo 与两篇经典缩放工作，再读 Wolfe 的缩放律长文和 Bernstein 的《Modular Manifolds》；解释方向建议先读 Transformer Circuits 的框架、玩具模型和字典学习材料，再读《On the Biology of a Large Language Model》，然后查看 <a href="https://github.com/TransformerLensOrg/TransformerLens">TransformerLens 官方仓库</a>动手。这个工具可以缓存激活、实施干预，但解释是否成立，仍然要靠实验设计来回答。做任何对比实验之前，也值得先读一遍 Horace He 那篇关于推理非确定性的文章，确认自己的"同一个输出"真的是同一个。相关章节：<a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/chapters/13_efficiency_and_architecture.md">效率与架构</a>、<a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/chapters/12_science.md">科研智能体</a>、<a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/chapters/15_frontier_reports.md">技术报告</a>。</p>
 </section>
 <footer>本页与仓库中 chapters/14_model_science.md 内容一致，图在 assets/model-science/ 下。图中颜色：蓝为规模与输入，紫为模型内部，琥珀为观测结果，青为读出工具，粉为优化与干预，绿为检验，灰为权重，橙为越界与失效。</footer>
 </main>

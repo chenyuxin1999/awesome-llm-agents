@@ -12,5 +12,5 @@ Agent 定义、控制循环、工具调用与系统组织的入门概念；以 h
 | --- | --- | --- |
 | 2609.15983 | [Stellar Colosseum: A Many-Agent Harness for Long-Horizon Research in Mathematics and Theoretical Computer Science](https://www.alphaxiv.org/abs/2609.15983) | [Harness 工程](18_harness_engineering.md) |
 | 2608.16798 | [ClawGym II: Exploring Black-Box RL on Agent Harness](https://www.alphaxiv.org/abs/2608.16798) | [Harness 工程](18_harness_engineering.md) |
-| 2608.06370 | [The Bitter Lesson of Tool Calling](https://www.alphaxiv.org/abs/2608.06370) | [评测与能力基准](06_evaluation.md) · [效率与循环计算架构](13_efficiency.md) |
+| 2608.06370 | [The Bitter Lesson of Tool Calling](https://www.alphaxiv.org/abs/2608.06370) | [评测与能力基准](06_evaluation.md) · [效率与循环计算架构](13_efficiency_and_architecture.md) |
 | 2609.evolution-ai-office-agents | [The Evolution of AI Office: From Passive Assistants to Goal-Driven Agents](https://www.alphaxiv.org/abs/2609.evolution-ai-office-agents) | — |

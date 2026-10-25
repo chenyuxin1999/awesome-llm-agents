@@ -29,7 +29,7 @@ Agent 记忆、经验存储、上下文管理；KV cache 工程优先效率。
 | 2609.26368 | [HySparse2: Hybrid Sparse Attention with Two-Level KV Sharing](https://www.alphaxiv.org/abs/2609.26368) | — |
 | 2608.17896 | [Dynamic Compression in Recurrent Networks](https://www.alphaxiv.org/abs/2608.17896) | — |
 | 2609.22978 | [DeepSeek Elastic Compute (DSec): A Sandbox Infrastructure for Effective Agentic Training at Scale](https://www.alphaxiv.org/abs/2609.22978) | — |
-| 2609.23986 | [Jev-Mem: System-One-Controlled Agentic Memory for Efficient AI Agents](https://www.alphaxiv.org/abs/2609.23986) | [效率与循环计算架构](13_efficiency.md) |
+| 2609.23986 | [Jev-Mem: System-One-Controlled Agentic Memory for Efficient AI Agents](https://www.alphaxiv.org/abs/2609.23986) | [效率与循环计算架构](13_efficiency_and_architecture.md) |
 | 2608.27763 | [Fast Weight Attention for Continual Learning](https://www.alphaxiv.org/abs/2608.27763) | — |
 | 2609.10745 | [Think Before You Link: Rarity, Reasoning, and Retrieval in Multilingual Entity Linking](https://www.alphaxiv.org/abs/2609.10745) | — |
 | 2607.27919 | [Memory Decoder at Scale: A Pretrained, Parametric Long-Term Memory](https://www.alphaxiv.org/abs/2607.27919) | — |

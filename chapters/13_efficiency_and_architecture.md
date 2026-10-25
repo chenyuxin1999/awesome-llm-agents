@@ -1,6 +1,6 @@
 # 13｜效率与循环架构：少算一些，真的会更快吗？
 
-[首页](../README.md) · [专题索引](../README.md#topics) · [文献目录](../catalog/13_efficiency.md)
+[首页](../README.md) · [专题索引](../README.md#topics) · [文献目录](../catalog/13_efficiency_and_architecture.md)
 
 ## 方向背景：为什么效率必须按完整任务衡量
 

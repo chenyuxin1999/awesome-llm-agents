@@ -1,6 +1,6 @@
 # 16｜多模态生成：表示、采样、可控性与 agent 工作流
 
-[首页](../README.md) · [专题索引](../README.md#topics) · [文献目录](../catalog/16_generation.md)
+[首页](../README.md) · [专题索引](../README.md#topics) · [文献目录](../catalog/16_multimodal_generation.md)
 
 ## 方向背景：为什么多模态生成需要表示、控制与工作流
 

@@ -10,7 +10,7 @@
 
 更麻烦的是，很多看起来像解释的东西其实只是相关性。某个内部特征能够预测模型的行为，模型的决策未必真的依赖它；换了优化器之后效果变好，收益也可能来自学习率和数据条件的连带变化。模型科学想做的，是把模型的表示、优化过程和行为机制当作研究对象本身，建立那种可以被检验、可以被干预、也可以被外推的解释。这些解释最终会回到很具体的地方：训练资源怎么分配，结构怎么设计，出了错怎么诊断，持续学习时怎样保住已经学会的东西。
 
-所以读这个方向的每一项结论，都要连同它的研究对象、训练条件和证据强弱一起记下来：在一个模型、一种设置里看到的规律，要经过检验才能推广成所有模型共有的机制。循环结构的计算成本与部署效率放在[效率章](13_efficiency.md)里讨论。
+所以读这个方向的每一项结论，都要连同它的研究对象、训练条件和证据强弱一起记下来：在一个模型、一种设置里看到的规律，要经过检验才能推广成所有模型共有的机制。循环结构的计算成本与部署效率放在[效率章](13_efficiency_and_architecture.md)里讨论。
 
 ## 先读这几篇
 
@@ -503,4 +503,4 @@ GradCuit 在测试时优化，**Learn Your Own Thoughts: Abstract Token Curricul
 
 ## 六、可靠资源
 
-训练方向建议先读 Adam、AdamW、Shampoo 与两篇经典缩放工作，再读 Wolfe 的缩放律长文和 Bernstein 的《Modular Manifolds》；解释方向建议先读 Transformer Circuits 的框架、玩具模型和字典学习材料，再读《On the Biology of a Large Language Model》，然后查看 [TransformerLens 官方仓库](https://github.com/TransformerLensOrg/TransformerLens)动手。这个工具可以缓存激活、实施干预，但解释是否成立，仍然要靠实验设计来回答。做任何对比实验之前，也值得先读一遍 Horace He 那篇关于推理非确定性的文章，确认自己的"同一个输出"真的是同一个。相关章节：[效率与架构](13_efficiency.md)、[科研智能体](12_science.md)、[技术报告](15_frontier_reports.md)。
+训练方向建议先读 Adam、AdamW、Shampoo 与两篇经典缩放工作，再读 Wolfe 的缩放律长文和 Bernstein 的《Modular Manifolds》；解释方向建议先读 Transformer Circuits 的框架、玩具模型和字典学习材料，再读《On the Biology of a Large Language Model》，然后查看 [TransformerLens 官方仓库](https://github.com/TransformerLensOrg/TransformerLens)动手。这个工具可以缓存激活、实施干预，但解释是否成立，仍然要靠实验设计来回答。做任何对比实验之前，也值得先读一遍 Horace He 那篇关于推理非确定性的文章，确认自己的"同一个输出"真的是同一个。相关章节：[效率与架构](13_efficiency_and_architecture.md)、[科研智能体](12_science.md)、[技术报告](15_frontier_reports.md)。

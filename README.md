@@ -125,26 +125,26 @@ sources/        引用来源与版本记录（human not in the loop
 | --- | --- | --- |
 | **01 · 基础、规划与工具使用** | Agent 工作循环、任务分解、工具接口、观察与证据选择 | [章节](chapters/01_basics.md) · [论文](catalog/01_basics.md) |
 | **02 · 记忆与上下文** | 工作记忆、长期记忆、检索、压缩、写入与遗忘 | [章节](chapters/02_memory.md) · [论文](catalog/02_memory.md) |
-| **03 · 自我改进（RSI）** | 参数、上下文、记忆、技能与 harness 代码的进化，改进器自身的递归更新，以及怎样验证改进是真的 | [章节](chapters/03_skills_and_self_improvement.md) · [论文](catalog/03_skills_and_self_improvement.md) |
+| **03 · 自我改进（RSI）** | 参数、上下文、记忆、技能与 harness 代码的进化，改进器自身的递归更新，以及怎样验证改进是真的 | [章节](chapters/03_self_improvement.md) · [论文](catalog/03_self_improvement.md) |
 | **18 · Harness 工程** | 模型权重与世界之间的循环、上下文、工具与技能、子 agent 和执行环境；harness 的设计、自动优化、与权重的联合优化、安全，以及怎样评测 harness | [章节](chapters/18_harness_engineering.md) · [论文](catalog/18_harness_engineering.md) |
 | **06 · 评测与能力基准** | 更长的任务链、更复杂的能力组合，以及跨领域场景覆盖 | [章节](chapters/06_evaluation.md) · [论文](catalog/06_evaluation.md) |
-| **07 · 安全与对齐** | 提示注入、工具权限、欺骗、奖励漏洞与人工监督 | [章节](chapters/07_safety.md) · [论文](catalog/07_safety.md) |
+| **07 · 安全与对齐** | 提示注入、工具权限、欺骗、奖励漏洞与人工监督 | [章节](chapters/07_safety_and_alignment.md) · [论文](catalog/07_safety_and_alignment.md) |
 | **08 · 多智能体与人机协作** | 角色分工、通信与协调、协作成本、人工接管 | [章节](chapters/08_collaboration.md) · [论文](catalog/08_collaboration.md) |
 
 ### 训练与底层能力：Agent 如何学会做事
 
 | 方向 | 主要内容 | 阅读入口 |
 | --- | --- | --- |
-| **04 · 训练数据与交互环境** | 行动轨迹、合成数据、数据筛选、环境与任务课程 | [章节](chapters/04_training_data.md) · [论文](catalog/04_training_data.md) |
+| **04 · 训练数据与交互环境** | 行动轨迹、合成数据、数据筛选、环境与任务课程 | [章节](chapters/04_data_and_environments.md) · [论文](catalog/04_data_and_environments.md) |
 | **05 · 强化学习与蒸馏** | 结果反馈、信用分配、策略优化、教师与学生训练 | [章节](chapters/05_rl_and_distillation.md) · [论文](catalog/05_rl_and_distillation.md) |
-| **13 · 推理效率与模型架构** | 推理预算、缓存与压缩、循环计算、延迟与计算成本 | [章节](chapters/13_efficiency.md) · [论文](catalog/13_efficiency.md) |
+| **13 · 推理效率与模型架构** | 推理预算、缓存与压缩、循环计算、延迟与计算成本 | [章节](chapters/13_efficiency_and_architecture.md) · [论文](catalog/13_efficiency_and_architecture.md) |
 | **14 · 模型科学与可解释性** | 表征、优化、能力来源、机制解释与实验验证 | [章节](chapters/14_model_science.md) · [论文](catalog/14_model_science.md) |
 
 ### 交互与应用：从数字环境走向物理世界
 
 | 方向 | 主要内容 | 阅读入口 |
 | --- | --- | --- |
-| **09 · 多模态理解** | 视觉语言对齐与接入、高分辨率与文档界面感知、空间与视频理解、适配与压缩 | [章节](chapters/09_multimodal_gui.md) · [论文](catalog/09_multimodal_gui.md) |
+| **09 · 多模态理解** | 视觉语言对齐与接入、高分辨率与文档界面感知、空间与视频理解、适配与压缩 | [章节](chapters/09_multimodal_understanding.md) · [论文](catalog/09_multimodal_understanding.md) |
 | **19 · 多模态 agent** | 模型能不能看到自己行动的结果：视觉工具与看图思考、网页与电脑操作、原生 GUI 模型与在线强化学习、闭环创作、长程视觉记忆 | [章节](chapters/19_multimodal_agent.md) · [论文](catalog/19_multimodal_agent.md) |
 | **10 · 世界模型与规划** | 状态表征、动态预测、行动后果、基于模型的规划 | [章节](chapters/10_world_models.md) · [论文](catalog/10_world_models.md) |
 | **11 · 具身智能与 VLA** | 视觉—语言—动作模型、机器人操作、迁移与真实执行 | [章节](chapters/11_embodied.md) · [论文](catalog/11_embodied.md) |
@@ -155,7 +155,7 @@ sources/        引用来源与版本记录（human not in the loop
 | 方向 | 主要内容 | 阅读入口 |
 | --- | --- | --- |
 | **15 · 前沿模型技术报告** | 通用旗舰与专用模型的训练路线、能力、运行条件与技术贡献 | [章节](chapters/15_frontier_reports.md) · [论文](catalog/15_frontier_reports.md) |
-| **16 · 多模态生成** | 图像与视频生成、可控性、交互生成与 Agent 的区别 | [章节](chapters/16_generation.md) · [论文](catalog/16_generation.md) |
+| **16 · 多模态生成** | 图像与视频生成、可控性、交互生成与 Agent 的区别 | [章节](chapters/16_multimodal_generation.md) · [论文](catalog/16_multimodal_generation.md) |
 
 世界模型、模型科学和多模态生成分别连接环境预测、能力解释与内容合成，为理解 Agent 的技术基础及其与其他系统的组合方式提供背景。
 
@@ -171,9 +171,9 @@ sources/        引用来源与版本记录（human not in the loop
 | --- | --- | --- |
 | **Agent 系统与执行框架** | [Agent System and Harness Design](https://arxiv.org/abs/2606.20683v1) | [基础与工具](chapters/01_basics.md) · [Harness 工程](chapters/18_harness_engineering.md) |
 | **Long-horizon：长程任务** | [Towards Long-Horizon Agents: A Survey](https://long-horizon-agents.github.io/) | [记忆](chapters/02_memory.md) · [评测](chapters/06_evaluation.md) |
-| **Self-evolving：自演化** | [Self-Improvements in Modern Agentic Systems](https://arxiv.org/abs/2607.13104v1) | [自我改进（RSI）](chapters/03_skills_and_self_improvement.md) |
-| **RSI：递归自改进** | [Recursive Self-Improvement in AI](https://arxiv.org/abs/2607.07663v2) · [The Last AI Built by Humans](https://arxiv.org/abs/2609.11873v3) | [综述章的概念区分](chapters/00_surveys.md) · [自改进方法](chapters/03_skills_and_self_improvement.md) |
-| **编码 Agent 的持续改进** | [Self-Evolving Coding Agents](https://arxiv.org/abs/2608.03392v4) | [训练数据](chapters/04_training_data.md) · [评测](chapters/06_evaluation.md) |
+| **Self-evolving：自演化** | [Self-Improvements in Modern Agentic Systems](https://arxiv.org/abs/2607.13104v1) | [自我改进（RSI）](chapters/03_self_improvement.md) |
+| **RSI：递归自改进** | [Recursive Self-Improvement in AI](https://arxiv.org/abs/2607.07663v2) · [The Last AI Built by Humans](https://arxiv.org/abs/2609.11873v3) | [综述章的概念区分](chapters/00_surveys.md) · [自改进方法](chapters/03_self_improvement.md) |
+| **编码 Agent 的持续改进** | [Self-Evolving Coding Agents](https://arxiv.org/abs/2608.03392v4) | [训练数据](chapters/04_data_and_environments.md) · [评测](chapters/06_evaluation.md) |
 
 <a id="foundations"></a>
 

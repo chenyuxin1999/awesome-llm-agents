@@ -777,4 +777,4 @@ PILOT 示范了模型决策和运行约束之间的分工：语言模型可以�
 
 ## 六、可靠资源
 
-想弄清披露字段，可以读 [Model Cards](https://arxiv.org/abs/1810.03993) 和 [Hugging Face 模型卡文档](https://huggingface.co/docs/hub/model-cards)；想理解为什么性能测量要固定工作负载，可以看 [MLCommons Inference 政策仓库](https://github.com/mlcommons/inference_policies)，它的工作负载和测量方式可以当作设计性能实验的参照。相关章节：[评测](06_evaluation.md)、[安全](07_safety.md)、[效率](13_efficiency.md)、[模型科学](14_model_science.md)。
+想弄清披露字段，可以读 [Model Cards](https://arxiv.org/abs/1810.03993) 和 [Hugging Face 模型卡文档](https://huggingface.co/docs/hub/model-cards)；想理解为什么性能测量要固定工作负载，可以看 [MLCommons Inference 政策仓库](https://github.com/mlcommons/inference_policies)，它的工作负载和测量方式可以当作设计性能实验的参照。相关章节：[评测](06_evaluation.md)、[安全](07_safety_and_alignment.md)、[效率](13_efficiency_and_architecture.md)、[模型科学](14_model_science.md)。

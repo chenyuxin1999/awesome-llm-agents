@@ -4,7 +4,7 @@
 
 [文献目录](README.md) · [分类方法](../docs/classification_audit.md)
 
-[阅读专题导读](../chapters/07_safety.md)
+[阅读专题导读](../chapters/07_safety_and_alignment.md)
 
 本方向收录 **58 条记录**。相关方向用于交叉检索，不重复计入各类数量。
 
@@ -56,7 +56,7 @@
 | 2607.22148 | [dRAE: Representation Autoencoder with Hyper-Spherical Codes](https://www.alphaxiv.org/abs/2607.22148) | — |
 | 2609.01588 | [Designing Proactive Thought Partners for Writing](https://www.alphaxiv.org/abs/2609.01588) | — |
 | 2608.01835 | [Rewriting or Reweighting? A Geometric Account in Language Models](https://www.alphaxiv.org/abs/2608.01835) | — |
-| 2609.07216 | [The Price of Consistency: Exploiting Visual Anchors for Multimodal Jailbreaking in Video Generation](https://www.alphaxiv.org/abs/2609.07216) | [多模态生成](16_generation.md) |
+| 2609.07216 | [The Price of Consistency: Exploiting Visual Anchors for Multimodal Jailbreaking in Video Generation](https://www.alphaxiv.org/abs/2609.07216) | [多模态生成](16_multimodal_generation.md) |
 | 2609.09090 | [Measuring LLM Sycophancy under Sustained Multi-Turn Pressure](https://www.alphaxiv.org/abs/2609.09090) | — |
 | 2609.15029 | [Pick Your Poison: Learning to Select Poison Sets for Stronger LLM Backdoor Attacks](https://www.alphaxiv.org/abs/2609.15029) | — |
 | 2609.17376 | [Large Language Models Develop Belief State Geometry In-Context](https://www.alphaxiv.org/abs/2609.17376) | — |

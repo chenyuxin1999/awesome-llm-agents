@@ -14,11 +14,11 @@ from urllib.parse import quote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 EXPECTED_KEYS = (
-    "01_basics", "02_memory", "03_skills_and_self_improvement",
-    "04_training_data", "05_rl_and_distillation", "06_evaluation", "07_safety",
-    "08_collaboration", "09_multimodal_gui", "10_world_models", "11_embodied",
-    "12_science", "13_efficiency", "14_model_science", "15_frontier_reports",
-    "16_generation", "18_harness_engineering", "19_multimodal_agent",
+    "01_basics", "02_memory", "03_self_improvement",
+    "04_data_and_environments", "05_rl_and_distillation", "06_evaluation", "07_safety_and_alignment",
+    "08_collaboration", "09_multimodal_understanding", "10_world_models", "11_embodied",
+    "12_science", "13_efficiency_and_architecture", "14_model_science", "15_frontier_reports",
+    "16_multimodal_generation", "18_harness_engineering", "19_multimodal_agent",
     "90_adjacent", "99_review",
 )
 BASE_FIELDS = ("title", "id", "url", "abstract", "one_line", "source_dates", "likes", "old")

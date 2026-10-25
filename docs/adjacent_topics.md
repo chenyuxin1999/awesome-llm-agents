@@ -22,7 +22,7 @@ Agent 研究与数学、物理、计算机视觉和传统软件系统存在广�
 
 例如，*Exploration Matters for Escaping the Blur Trap in 3D Gaussian Splatting*（`2607.17965`）讨论场景重建中的优化问题，其核心是怎样获得更好的场景表示。它可以与感知模块的研究联系起来，而与自主提出问题、执行实验的科研 Agent 有不同的研究目标。
 
-对于图像与视频生成，本指南保留[第 16 章](../chapters/16_generation.md)，因为生成模型确实可以成为工具或环境组件；但只有加入目标、反馈与行动过程，才能讨论它在 Agent 系统里的角色。世界模型另见[第 10 章](../chapters/10_world_models.md)，不能仅因输出视频就直接归入。
+对于图像与视频生成，本指南保留[第 16 章](../chapters/16_multimodal_generation.md)，因为生成模型确实可以成为工具或环境组件；但只有加入目标、反馈与行动过程，才能讨论它在 Agent 系统里的角色。世界模型另见[第 10 章](../chapters/10_world_models.md)，不能仅因输出视频就直接归入。
 
 ## 3. 翻译、时间序列和传统系统：应用名称不决定机制
 

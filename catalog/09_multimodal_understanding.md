@@ -4,7 +4,7 @@
 
 [文献目录](README.md) · [分类方法](../docs/classification_audit.md)
 
-[阅读专题导读](../chapters/09_multimodal_gui.md)
+[阅读专题导读](../chapters/09_multimodal_understanding.md)
 
 本方向收录 **23 条记录**。相关方向用于交叉检索，不重复计入各类数量。
 
@@ -17,7 +17,7 @@
 | 2608.14144 | [Self-Supervised Visual On-Policy Distillation](https://www.alphaxiv.org/abs/2608.14144) | [强化学习与蒸馏](05_rl_and_distillation.md) |
 | 2608.05703 | [StreamArena: Toward Continuous, Interactive, and Long-Horizon Agentic Streaming Video Understanding](https://www.alphaxiv.org/abs/2608.05703) | — |
 | 2607.28627 | [ReToken: One Token to Improve Vision-Language Models for Visual Retrieval](https://www.alphaxiv.org/abs/2607.28627) | — |
-| 2608.17402 | [MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding](https://www.alphaxiv.org/abs/2608.17402) | [效率与循环计算架构](13_efficiency.md) |
+| 2608.17402 | [MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding](https://www.alphaxiv.org/abs/2608.17402) | [效率与循环计算架构](13_efficiency_and_architecture.md) |
 | 2608.25356 | [Where to Look Matters: On-Policy Self-Distillation for Long-Video Understanding](https://www.alphaxiv.org/abs/2608.25356) | — |
 | 2608.10949 | [StreamFlow: Dynamic Memory Flows for Streaming Video Understanding](https://www.alphaxiv.org/abs/2608.10949) | — |
 | 2608.16316 | [Deep Thought Alignment: Trajectory-Level Latent Distillation for Video Reasoning](https://www.alphaxiv.org/abs/2608.16316) | — |

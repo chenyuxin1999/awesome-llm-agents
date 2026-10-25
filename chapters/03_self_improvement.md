@@ -1,6 +1,6 @@
 # 03｜自我改进（RSI）：让经验留下来，再反过来改进系统本身
 
-[首页](../README.md) · [专题索引](../README.md#topics) · [文献目录](../catalog/03_skills_and_self_improvement.md)
+[首页](../README.md) · [专题索引](../README.md#topics) · [文献目录](../catalog/03_self_improvement.md)
 
 ## 方向背景：为什么要研究自我改进
 

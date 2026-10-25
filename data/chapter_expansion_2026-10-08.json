@@ -33,8 +33,8 @@
       "current_local_count": 39
     },
     {
-      "chapter": "03_skills_and_self_improvement",
-      "path": "chapters/03_skills_and_self_improvement.md",
+      "chapter": "03_self_improvement",
+      "path": "chapters/03_self_improvement.md",
       "added_chinese_characters": 1552,
       "added_local_ids": [
         "2607.05297",
@@ -46,8 +46,8 @@
       "current_local_count": 44
     },
     {
-      "chapter": "04_training_data",
-      "path": "chapters/04_training_data.md",
+      "chapter": "04_data_and_environments",
+      "path": "chapters/04_data_and_environments.md",
       "added_chinese_characters": 1423,
       "added_local_ids": [
         "2607.05339",
@@ -85,8 +85,8 @@
       "current_local_count": 56
     },
     {
-      "chapter": "07_safety",
-      "path": "chapters/07_safety.md",
+      "chapter": "07_safety_and_alignment",
+      "path": "chapters/07_safety_and_alignment.md",
       "added_chinese_characters": 1327,
       "added_local_ids": [
         "2608.06862",
@@ -111,8 +111,8 @@
       "current_local_count": 31
     },
     {
-      "chapter": "09_multimodal_gui",
-      "path": "chapters/09_multimodal_gui.md",
+      "chapter": "09_multimodal_understanding",
+      "path": "chapters/09_multimodal_understanding.md",
       "added_chinese_characters": 1276,
       "added_local_ids": [
         "2607.13027",
@@ -163,8 +163,8 @@
       "current_local_count": 30
     },
     {
-      "chapter": "13_efficiency",
-      "path": "chapters/13_efficiency.md",
+      "chapter": "13_efficiency_and_architecture",
+      "path": "chapters/13_efficiency_and_architecture.md",
       "added_chinese_characters": 1230,
       "added_local_ids": [
         "2607.08186",
@@ -202,8 +202,8 @@
       "current_local_count": 47
     },
     {
-      "chapter": "16_generation",
-      "path": "chapters/16_generation.md",
+      "chapter": "16_multimodal_generation",
+      "path": "chapters/16_multimodal_generation.md",
       "added_chinese_characters": 1146,
       "added_local_ids": [
         "2607.06173",

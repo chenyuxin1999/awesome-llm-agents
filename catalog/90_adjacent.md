@@ -71,7 +71,7 @@
 | 2607.23980 | [Sharp small-deviation inequalities for sums of independent nonnegative random variables](https://www.alphaxiv.org/abs/2607.23980) | — |
 | 2609.23763 | [Sharp Volume Bounds in Picard Rank One and Polynomial Bounds for Log Calabi-Yau Surfaces](https://www.alphaxiv.org/abs/2609.23763) | — |
 | 2609.29293 | [Zero-forward Kerker scattering via synthesized complex-frequency excitation](https://www.alphaxiv.org/abs/2609.29293) | — |
-| 2607.08771 | [ZipDepth: Bringing Lightweight Zero-Shot Monocular Depth Anywhere, on Any Device](https://www.alphaxiv.org/abs/2607.08771) | [效率与循环计算架构](13_efficiency.md) |
+| 2607.08771 | [ZipDepth: Bringing Lightweight Zero-Shot Monocular Depth Anywhere, on Any Device](https://www.alphaxiv.org/abs/2607.08771) | [效率与循环计算架构](13_efficiency_and_architecture.md) |
 | 2607.20936 | [Boundary Completion of Vacuum Persistence Probability](https://www.alphaxiv.org/abs/2607.20936) | — |
 | 2608.02743 | [Ramp, Plateau, and Wormholes without Averaging, and Hyper-non-perturbative Structures in Gravity](https://www.alphaxiv.org/abs/2608.02743) | — |
 | 2608.02859 | [The crisis of AI-generated mathematics](https://www.alphaxiv.org/abs/2608.02859) | — |

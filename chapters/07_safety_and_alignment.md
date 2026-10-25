@@ -1,6 +1,6 @@
 # 07｜安全与对齐：当完成任务、获得高分与遵守边界不再一致
 
-[首页](../README.md) · [专题索引](../README.md#topics) · [文献目录](../catalog/07_safety.md)
+[首页](../README.md) · [专题索引](../README.md#topics) · [文献目录](../catalog/07_safety_and_alignment.md)
 
 ## 方向背景：为什么会行动的模型需要安全与对齐
 

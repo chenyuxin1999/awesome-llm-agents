@@ -38,7 +38,7 @@
 | 2608.10492 | [INSIDE the Student's Mind: Jointly Modeling Latent Reasoning and Action in LLM Student Simulators](https://www.alphaxiv.org/abs/2608.10492) | — |
 | 2608.24814 | [Effective Learning Rate Governs Loss Dynamics in Language Model Pretraining](https://www.alphaxiv.org/abs/2608.24814) | — |
 | 2607.12474 | [From Observation to Insight: Mechanistic World Models and the Quest for Autonomous Discovery](https://www.alphaxiv.org/abs/2607.12474) | [世界模型与规划](10_world_models.md) |
-| 2607.21981 | [J-CoT: Chain-of-Thought in J-Space](https://www.alphaxiv.org/abs/2607.21981) | [效率与循环计算架构](13_efficiency.md) |
+| 2607.21981 | [J-CoT: Chain-of-Thought in J-Space](https://www.alphaxiv.org/abs/2607.21981) | [效率与循环计算架构](13_efficiency_and_architecture.md) |
 | 2609.26637 | [Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models](https://www.alphaxiv.org/abs/2609.26637) | — |
 | 2609.19717 | [Learn Your Own Thoughts: Abstract Token Curriculum](https://www.alphaxiv.org/abs/2609.19717) | — |
 | 2607.24645 | [Sparse Autoencoders Encode Both Concepts and Functions: The Downstream Geometry of Feature Effects](https://www.alphaxiv.org/abs/2607.24645) | — |
@@ -64,9 +64,9 @@
 | 2608.17587 | [Write, Execute, Refine: From Skill Followers to Skill Optimizers via Reinforcement Learning from Execution Feedback](https://www.alphaxiv.org/abs/2608.17587) | — |
 | 2608.20055 | [EchoCoT: Extracting Hidden Chain-of-Thought from Large Reasoning Models](https://www.alphaxiv.org/abs/2608.20055) | — |
 | 2608.30726 | [Multimodal Adaptive Expert Selection with Text Routing and Ordinal Prototype Optimization for Sentiment Analysis](https://www.alphaxiv.org/abs/2608.30726) | — |
-| 2609.32808 | [Mind the Spike: Mechanisms and Brittleness of Visual Massive Activations in Large Vision-Language Models](https://www.alphaxiv.org/abs/2609.32808) | [多模态理解](09_multimodal_gui.md) |
+| 2609.32808 | [Mind the Spike: Mechanisms and Brittleness of Visual Massive Activations in Large Vision-Language Models](https://www.alphaxiv.org/abs/2609.32808) | [多模态理解](09_multimodal_understanding.md) |
 | 2607.27760 | [Hierarchical Latent Reasoning for LLM-based Recommendation](https://www.alphaxiv.org/abs/2607.27760) | — |
-| 2609.01924 | [Looped Transformers under the Jacobian Lens: Does the Global Workspace Survive Recurrence?](https://www.alphaxiv.org/abs/2609.01924) | [效率与循环计算架构](13_efficiency.md) |
+| 2609.01924 | [Looped Transformers under the Jacobian Lens: Does the Global Workspace Survive Recurrence?](https://www.alphaxiv.org/abs/2609.01924) | [效率与循环计算架构](13_efficiency_and_architecture.md) |
 | 2609.02734 | [LoRA-TSD: Tangent-Space Spectral Descent for LoRA via Muon-Style Updates](https://www.alphaxiv.org/abs/2609.02734) | — |
 | 2609.04753 | [Beneath the Surface of Chains-of-Thought: A Mechanistic Interpretation of Reasoning Operations in LLMs](https://www.alphaxiv.org/abs/2609.04753) | — |
 | 2609.20408 | [Xeno-Interpretability: Investigating the Alien Minds of LLMs](https://www.alphaxiv.org/abs/2609.20408) | — |

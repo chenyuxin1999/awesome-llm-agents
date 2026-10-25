@@ -114,7 +114,7 @@ footer{margin-top:64px;color:var(--muted);font-size:13px;border-top:1px solid va
 <div class="eyebrow">LLM / AGENT 科研地图 · 第 16 章 · 图解版</div>
 <h1>16｜多模态生成</h1>
 <div class="subtitle">表示、采样、可控性与 agent 工作流</div>
-<div class="topnav"><a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/README.md">首页</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/README.md#topics">专题索引</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/catalog/16_generation.md">文献目录</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/chapters/16_generation.md">Markdown 版</a></div>
+<div class="topnav"><a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/README.md">首页</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/README.md#topics">专题索引</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/catalog/16_multimodal_generation.md">文献目录</a> · <a href="https://github.com/chenyuxin1999/awesome-llm-agents/blob/main/chapters/16_multimodal_generation.md">Markdown 版</a></div>
 <div class="legend"><span class="k-task"><i class="sw"></i>条件与输入</span><span class="k-model"><i class="sw"></i>生成网络</span><span class="k-exp"><i class="sw"></i>数据与样本</span><span class="k-upd"><i class="sw"></i>编码器、解码器、tokenizer</span><span class="k-state"><i class="sw"></i>噪声与潜变量</span><span class="k-check"><i class="sw"></i>评价、教师与验收</span><span class="k-risk"><i class="sw"></i>风险与代价</span></div>
 <section id="s1"><h2>方向背景：为什么多模态生成需要表示、控制与工作流</h2>
 <p>用今天的生成模型做一段一分钟的短片，看上去离成功很近，真做起来麻烦会一个接一个地冒出来。设想组里要为开放日做一段一分钟的短片。脚本很简单：一只橘猫趴在桌边，用爪子把一只玻璃杯慢慢推下去；镜头切到地面，杯子落地的那一刻，钢琴声进来；最后画面定格，变成一张海报，角落里印着实验室的名字。今天的生成模型看上去离这件事已经很近了，输入一句提示词，几十秒后就能拿到一段光影漂亮的视频。可真要把这一分钟做出来：第二个镜头里的猫换了花色；杯子没有摔碎，反倒穿过了桌面；钢琴在杯子落地之前就响了；海报上的小字糊成一团；导师看完说"把猫换成白猫，其他都别动"，结果整段视频只能推倒重来，之前满意的构图也跟着丢了。</p>
@@ -1904,7 +1904,7 @@ footer{margin-top:64px;color:var(--muted);font-size:13px;border-top:1px solid va
 <p>统一模型和多工具系统都有可能完成复合需求，可收益的来源可能是共享知识，可能是额外的计算，也可能只是更好的流程。研究机会在于建立可以拆分的模块和预算对照，学习什么时候该调用生成器、什么时候该调用验证器或编辑器。评价应当同时检查约束是否满足、错误能否被定位，以及端到端的成本，再判断这种协同是否真的优于一条简单的固定流程。</p>
 <p><strong>实验资源：</strong> <a href="https://github.com/yangtiming/RINO">RINO 官方代码</a>。使用前核对任务、版本、数据与运行条件。</p>
 </section>
-<footer>本页与仓库中 chapters/16_generation.md 内容一致，图在 assets/multimodal/ 下。图中颜色：蓝为条件与输入，紫为生成网络，琥珀为数据与样本，粉为编码器和解码器，灰为噪声与潜变量，绿为评价与验收，橙为风险与代价。</footer>
+<footer>本页与仓库中 chapters/16_multimodal_generation.md 内容一致，图在 assets/multimodal/ 下。图中颜色：蓝为条件与输入，紫为生成网络，琥珀为数据与样本，粉为编码器和解码器，灰为噪声与潜变量，绿为评价与验收，橙为风险与代价。</footer>
 </main>
 </div>
 </body>

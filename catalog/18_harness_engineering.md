@@ -12,7 +12,7 @@
 | --- | --- | --- |
 | 2607.language-model-harnesses | [Language model harnesses are compositional generalizers](https://www.alphaxiv.org/abs/2607.language-model-harnesses) | [Agent 基础与系统框架](01_basics.md) |
 | 2608.23552 | [Prime Agent: A Self-Improving RLM Harness](https://www.alphaxiv.org/abs/2608.23552) | — |
-| 2609.24972 | [RRSI: Regularized Recursive Self-Improvement of Agent Harnesses](https://www.alphaxiv.org/abs/2609.24972) | [Agent 基础与系统框架](01_basics.md) · [自我改进（RSI）](03_skills_and_self_improvement.md) |
+| 2609.24972 | [RRSI: Regularized Recursive Self-Improvement of Agent Harnesses](https://www.alphaxiv.org/abs/2609.24972) | [Agent 基础与系统框架](01_basics.md) · [自我改进（RSI）](03_self_improvement.md) |
 | 2609.33439 | [Raven: The Harness of Harnesses for Composable Agentic Intelligence](https://www.alphaxiv.org/abs/2609.33439) | — |
 | 2609.20519 | [SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness](https://www.alphaxiv.org/abs/2609.20519) | [Agent 基础与系统框架](01_basics.md) |
 | 2608.01964 | [LongHorizon-Harness: Advancing Long-Horizon Agents for Real-World Tasks](https://www.alphaxiv.org/abs/2608.01964) | — |
@@ -25,7 +25,7 @@
 | 2609.00196 | [WHALE: A Simple Recipe for Joint Harness-Weight Optimization](https://www.alphaxiv.org/abs/2609.00196) | — |
 | 2609.24974 | [Harness-Zero: Harness Distillation via Agent-as-Harness](https://www.alphaxiv.org/abs/2609.24974) | — |
 | 2608.25593 | [JIT-Agent: Scaling Harness Intelligence via Just-in-Time Harness Evolution](https://www.alphaxiv.org/abs/2608.25593) | — |
-| 2608.15071 | [Evo-Harness: Context-to-Harness Skill Compilation for Self-Evolving Agents](https://www.alphaxiv.org/abs/2608.15071) | [自我改进（RSI）](03_skills_and_self_improvement.md) |
+| 2608.15071 | [Evo-Harness: Context-to-Harness Skill Compilation for Self-Evolving Agents](https://www.alphaxiv.org/abs/2608.15071) | [自我改进（RSI）](03_self_improvement.md) |
 | 2607.12227 | [Rethinking the Evaluation of Harness Evolution for Agents](https://www.alphaxiv.org/abs/2607.12227) | [评测与能力基准](06_evaluation.md) |
 | 2608.05446 | [EvoHarness-RL: Learning Self-Evolving Runtime Harness for Long-Horizon LLM Agents](https://www.alphaxiv.org/abs/2608.05446) | — |
 | 2608.24876 | [Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses](https://www.alphaxiv.org/abs/2608.24876) | [Agent 基础与系统框架](01_basics.md) |
@@ -44,7 +44,7 @@
 | 2609.35738 | [Harness Learning Enables Generalizable Test-Time Adaptation](https://www.alphaxiv.org/abs/2609.35738) | — |
 | 2609.00829 | [HarnessEvolve: Learning from Reference Trajectories for Reliable Agent Self-Evolution](https://www.alphaxiv.org/abs/2609.00829) | — |
 | 2607.18235 | [Automated Discovery Has No Universally Superior Harness](https://www.alphaxiv.org/abs/2607.18235) | — |
-| 2608.13951 | [HELIX: Model-Harness Co-evolution for Recursive Self-Improvement](https://www.alphaxiv.org/abs/2608.13951) | [自我改进（RSI）](03_skills_and_self_improvement.md) |
+| 2608.13951 | [HELIX: Model-Harness Co-evolution for Recursive Self-Improvement](https://www.alphaxiv.org/abs/2608.13951) | [自我改进（RSI）](03_self_improvement.md) |
 | 2608.05013 | [OneDayAgent: Towards a Long-Horizon Harness for Autonomous Agents](https://www.alphaxiv.org/abs/2608.05013) | — |
 | 2609.14857 | [ModularRSI: Modular and Generalizable Recursive Harness Self-Improvement](https://www.alphaxiv.org/abs/2609.14857) | — |
 | 2610.02200 | [VISTA: A Visual Harness for Reasoning in an Interactive World](https://www.alphaxiv.org/abs/2610.02200) | — |

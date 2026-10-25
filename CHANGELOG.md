@@ -1,5 +1,13 @@
 # 更新记录
 
+## 图文版、章节改名与目录重组
+
+- 每章新增图文版（`chapters/html/`），配详细解说图和总结对比图；Markdown 源文件移到 `chapters/md/`，两套内容一一对应。
+- 多模态拆成三章：09 多模态理解、16 多模态生成、新增 19 多模态 agent；具身章按“机器人的经验从哪里来”重写主线。
+- 六个章节文件按现有内容改名：`03_self_improvement`、`04_data_and_environments`、`07_safety_and_alignment`、`09_multimodal_understanding`、`13_efficiency_and_architecture`、`16_multimodal_generation`；分类键、目录、来源记录、脚本与各处互链同步更新。
+- 全部章节按统一写作规则重写：每段先给中心句并和上一段衔接；概念在第一次需要时引入；讲训练时说清信号从哪来、目标是什么；岔路给范式对比图；框架图配上贯穿全图的具体示意数据；部件按用途命名；“首次”类说法对照前文核对。
+- 每张“先读这几篇”表格至少两篇 2026 年来源，其中至少一篇综述。
+
 ## 新增第 18 章「Harness 工程」
 
 - 新增专题 `18_harness_engineering`，以 DAIR.AI Harness Engineering 合集为主线（V0 循环、静态 harness 扩展动作空间、让 harness 学习、2026 年发布的 harness、怎样知道它有效），补充 Lilian Weng、Anthropic、OpenAI 与 Manus 的长文。

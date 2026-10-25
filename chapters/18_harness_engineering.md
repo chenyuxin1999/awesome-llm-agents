@@ -24,7 +24,7 @@ DAIR.AI 在整理这个方向的论文合集时，给 harness 下了一个干脆
 | 4 | OpenAI，Ryan Lopopolo，[Harness engineering: leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering/)（2026-02-11） | "harness engineering"这个说法流行开来，这篇文章功不可没。一个从三人扩到七人的小组，用大约五个月、约一千五百个合并请求，在一行代码都不手写的前提下让 Codex 写出了约一百万行代码。文章最有价值的是那些具体教训：一份巨大的 AGENTS.md 会挤占上下文、迅速过时，改成一百行左右的目录加一个结构化的 docs 目录就好得多；仓库里 agent 看不到的知识就等于不存在；架构规则要写成带修复建议的 linter，让 agent 自己读报错去改；agent 会复制坏模式，所以要有后台 agent 持续"垃圾回收"。作者的结论是，工程师的工作正从写代码转向设计代码周围的脚手架、反馈回路和控制系统。 |
 | 5 | Manus，季逸超（Peak Ji），[Context Engineering for AI Agents: Lessons from Building Manus](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus)（2025-07-18） | 从一个生产级 agent 产品里总结出的六条上下文经验，每一条都直接落在 harness 的设计上：围绕 KV cache 设计，保持提示前缀稳定、上下文只追加；需要限制可用工具时用 logit 屏蔽，避免在任务中途增删工具定义；把文件系统当作无限大的外部上下文，压缩时保留可以恢复的线索；让 agent 反复改写一份待办清单，把总目标"背诵"到上下文末尾；把失败的动作和报错留在上下文里，让模型有证据可学；在历史里加入一点受控的变化，防止模型陷入机械模仿。读完会发现，上下文工程是 harness 工程里最细致、也最影响成本的一块。 |
 
-如果还想多读一点，可以看 Anthropic 2024 年底的 [Building effective agents](https://www.anthropic.com/engineering/building-effective-agents)。它区分了由预设代码路径编排的 workflow 和由模型自己决定流程的 agent，列出了提示链、路由、并行、编排者与工作者、评估者与优化者几种常见模式，并且反复强调先用最简单的方案，再按需增加复杂度。它对"agent 与计算机之间的接口"的讨论，例如要求工具使用绝对路径就消除了一类错误，今天读来仍然是 harness 设计最好的入门。
+如果还想多读一点，可以看 Anthropic 2024 年底的 [Building effective agents](https://www.anthropic.com/engineering/building-effective-agents)。它区分了由预设代码路径编排的 workflow 和由模型自己决定流程的 agent，列出了提示链、路由、并行、编排者与工作者、评估者与优化者几种常见模式，并且反复强调先用最简单的方案，再按需增加复杂度。它对"agent 与计算机之间的接口"的讨论，例如他们发现，agent 离开根目录以后常常把相对路径用错，改成要求工具一律使用绝对路径，这类错误就消失了，今天读来仍然是 harness 设计最好的入门。
 
 ## 一、先看全景：harness 由哪些部分组成，几个概念怎样区分
 
@@ -109,7 +109,7 @@ DAIR.AI 在整理这个方向的论文合集时，给 harness 下了一个干脆
 
 2021 年 OpenAI 的 [WebGPT](https://arxiv.org/abs/2112.09332) 给模型配了一个文字版浏览器，模型可以自己决定搜什么、点开哪一页、摘录哪一段。检索从此成了模型主动选择的一个动作，不再是外部系统替它预先做好的步骤。2023 年 Meta 的 [Toolformer](https://arxiv.org/abs/2302.04761) 让模型自己学会在文本中插入 API 调用，由外部执行后把结果填回来。DAIR.AI 把它称作工具调用的起点：模型负责发出调用，harness 负责执行，这个分工后来成了所有 agent 系统的默认约定。2022 年的 [ReAct](https://arxiv.org/abs/2210.03629) 把"想"和"做"交替编排，先写一段推理，再执行一个动作，读到观察结果后再推理。今天绝大多数 agent 循环仍然是这个形状。
 
-同一时期，人们发现 harness 还可以让模型和自己的输出对话。[Self-Refine](https://arxiv.org/abs/2303.17651) 让模型批评并修改自己的答案，既不训练，也不需要外部环境；[Reflexion](https://arxiv.org/abs/2303.11366) 则把环境给出的失败反馈写成一段文字反思，放回下一次尝试的上下文里，让失败也能留下教训。这两篇工作在第 03 章里是自我改进梯子的起点，在这里则提醒我们，"把什么写回上下文"本身就是 harness 的一个设计决定。
+同一时期，人们发现 harness 还可以让模型和自己的输出对话。[Self-Refine](https://arxiv.org/abs/2303.17651) 让模型批评并修改自己的答案，既不训练，也不需要外部环境；[Reflexion](https://arxiv.org/abs/2303.11366) 则把环境给出的失败反馈写成一段文字反思，放回下一次尝试的上下文里，让失败也能留下教训。这两篇工作在第 03 章里是自我改进这条线的起点，在这里则提醒我们，"把什么写回上下文"本身就是 harness 的一个设计决定。
 
 然后是执行环境。2023 年的 [InterCode](https://arxiv.org/abs/2306.14898) 把交互式编程做成了一个标准化的环境，模型写一段代码，环境执行并返回结果。代码从此成了动作空间本身：与其为每件事设计一个专用工具，不如让模型直接写程序。同一年的 [Multi-Agent Collaboration](https://arxiv.org/abs/2306.03314) 把派生一个 agent 也当作一次工具调用，每个 agent 有持久、可寻址的角色，这是今天子 agent 设计的雏形。[Voyager](https://arxiv.org/abs/2305.16291) 在 Minecraft 里把验证过的成功程序存进技能库，以后检索复用，技能从此成为 harness 的一个标准部件。[MemGPT](https://arxiv.org/abs/2310.08560) 借用操作系统的比喻，让模型对一部分上下文拥有增删改查的权限，像管理内存和磁盘一样管理自己的记忆。
 
@@ -264,9 +264,9 @@ DAIR.AI 的第二段告诉我们，动作空间已经扩张到了浏览、工具
 
 知道了 harness 整体有用，下一步自然是拆开看部件。**[An Empirical Study of Harness Design for Coding Agents](https://arxiv.org/abs/2609.20804)**（`2609.20804`） 固定一个轻量编码 harness 的执行循环，只改变规划、动作空间和上下文管理三个部件，在 SWE-Bench Verified 和 Terminal-Bench 2.1 上用四个模型跑了 176 组匹配设置。它的发现很实用：上下文管理随着窗口预算收紧而越来越重要，主要作用是防止上下文溢出；先做基于规则的删减、再做基于模型的摘要，整体效率最好，而把删掉的内容做成可恢复的机制，模型却很少用，也没带来准确率提升；规划对弱模型是提高准确率的脚手架，对强模型则主要是省钱；预定义工具帮助不太会用 bash 的模型，而会用 bash 的模型只给一个 bash 接口就能做得很好，成本还低得多。这些结论提醒我们，harness 的部件没有绝对的好坏，它们的价值随模型能力和预算而变。
 
-有了这样的对照，就会有人反过来问：harness 能不能小到几乎只剩一个循环？**[Harness as a Language: A Minimalist Agent Framework With Maximal Expressivity](https://arxiv.org/abs/2609.26891)**（`2609.26891`） 搭了一个叫 JAZ 的框架，只暴露一个基于模型的原语 `invoke`，外加一组让程序员施加约束和监控的钩子。`invoke` 满足两个性质：模型可以写任意可执行的代码，代码里还能递归调用 `invoke`；模型能看到的一切，包括输入和与代码环境的交互历史，都是代码环境里的变量。这正是 RLM 思路的推广。不配任何手工工具、记忆或文件系统，它在 StuLife 需要大量回忆的部分上比 Letta（也就是 MemGPT）高 8%，成本只有一半；在 AppWorld 的持续自我改进上比 ACE 高 4%，成本也更低。与之呼应，**[Language model harnesses are compositional generalizers](https://www.alphaxiv.org/abs/2607.language-model-harnesses)**（`2607.language-model-harnesses`） 从训练 RLM 的过程中观察到一个现象：结构相似的任务会被视为同构的，harness 里每一次单独的模型调用都变成了分布内的问题。换句话说，好的 harness 结构本身就能带来组合泛化。这两篇工作合起来看，给出了一个和"堆部件"相反的方向：与其给模型准备越来越多的专用工具，不如给它一个表达力足够强的执行环境。
+有了这样的对照，就会有人反过来问：harness 能不能小到几乎只剩一个循环？**[Harness as a Language: A Minimalist Agent Framework With Maximal Expressivity](https://arxiv.org/abs/2609.26891)**（`2609.26891`） 搭了一个叫 JAZ 的框架，只暴露一个基于模型的原语 `invoke`，外加一组让程序员施加约束和监控的钩子。`invoke` 满足两个性质：模型可以写任意可执行的代码，代码里还能递归调用 `invoke`；模型能看到的一切，包括输入和与代码环境的交互历史，都是代码环境里的变量。前面讲过，RLM 把超长输入存成解释器里的变量，让模型写代码去读它、对片段递归调用自己，JAZ 正是这个思路的推广。不配任何手工工具、记忆或文件系统，它在 StuLife 需要大量回忆的部分上比 Letta（也就是 MemGPT）高 8%，成本只有一半；在 AppWorld 的持续自我改进上比 ACE 高 4%，成本也更低。与之呼应，**[Language model harnesses are compositional generalizers](https://www.alphaxiv.org/abs/2607.language-model-harnesses)**（`2607.language-model-harnesses`） 从训练 RLM 的过程中观察到一个现象：结构相似的任务会被视为同构的，harness 里每一次单独的模型调用都变成了分布内的问题。换句话说，好的 harness 结构本身就能带来组合泛化。这两篇工作合起来看，给出了一个和"堆部件"相反的方向：与其给模型准备越来越多的专用工具，不如给它一个表达力足够强的执行环境。
 
-部件之中，感知接口常常被忽视。**[VISTA: A Visual Harness for Reasoning in an Interactive World](https://arxiv.org/abs/2610.02200)**（`2610.02200`） 认为多模态模型本身已经有很强的推理能力，缺的是合适的 harness。它让模型直接通过视觉观察感知环境，并保留一份无损的视觉记忆，模型可以在推理时主动取回过去的画面并重新组织自己的视觉输入。在 ARC-AGI-3 上，它把 Claude Opus 5.0 的相对人类动作效率从 40.68 提到满分 100，25 个公开游戏全部完成，所用动作比第一次玩的人类少 57.4%。这和 Prime Agent 的数字放在一起看，几乎就是 DAIR.AI 核心论断的两个独立例证。
+部件之中，感知接口常常被忽视。**[VISTA: A Visual Harness for Reasoning in an Interactive World](https://arxiv.org/abs/2610.02200)**（`2610.02200`） 认为多模态模型本身已经有很强的推理能力，缺的是合适的 harness。它让模型直接通过视觉观察感知环境，并保留一份无损的视觉记忆，模型可以在推理时主动取回过去的画面并重新组织自己的视觉输入。在 ARC-AGI-3 上，它把 Claude Opus 5.0 的相对人类动作效率从 40.68 提到满分 100，25 个公开游戏全部完成，所用动作比第一次玩的人类少 57.4%。Prime Agent 在同一个基准上把同一个模型从 30% 提到 95.5%，两个结果放在一起看，几乎就是 DAIR.AI 那句“同一套权重的差别全在 harness”的两个独立例证。
 
 另一个常被忽视的部件是模型选择本身。**[Agentic Routing: The Harness-Native Data Flywheel](https://arxiv.org/abs/2607.11399)**（`2607.11399`） 指出，现在的模型越来越"偏科"，有的擅长改代码，有的擅长长上下文恢复，因此在 agent 内部选哪个模型是一个核心的系统问题。它提出在每一步根据完整的 harness 状态做路由，可以选一个最合适的模型省钱，也可以选几个互补的模型做集成。关键的洞察在于，每一次路由决策天然就产生一条结构化记录，包括查询、harness 状态、所选模型、执行轨迹、结果和成本，标签由环境给出，这些记录又能训练更好的路由器和模型，形成一个数据飞轮。作者报告在 PinchBench 上成本最多降到原来的十分之一左右，在 DRACO 上通过多模型集成提高了准确率。
 
@@ -288,15 +288,15 @@ DAIR.AI 的第二段告诉我们，动作空间已经扩张到了浏览、工具
 
 图的最上面是这一分支的核心概念：任务状态，记录已经完成了什么、还剩什么、哪些事实已经核实。它放在执行之外，不随着某一次执行的上下文一起变长。一轮循环从左边的管理者开始，它读取任务状态，决定下一个子任务；执行者用一个全新的上下文去完成这个子任务，动手改动环境；右边的审计者只有读权限，它去检查环境里真实发生了什么；只有它核实过的事实，才会沿着右上方的箭头写进任务状态。底部那行字是这个设计最要紧的地方：执行者自己说“做完了”，并不会直接进入状态，于是一次错误的自我评估就没法一路传到后面的决策里。下面几篇论文都可以对照这张图来读，看它们把状态放在哪里、用什么来核实。
 
-**[LongHorizon-Harness: Advancing Long-Horizon Agents for Real-World Tasks](https://arxiv.org/abs/2608.01964)**（`2608.01964`） 把这个思路说得最直白：现有 harness 把任务执行、任务状态和完成判断都放在一个不断增长的上下文里，于是状态难以追踪，错误的自我评估会一路传下去。它把长程执行重新表述为任务状态管理问题，在执行之外显式维护任务状态，并且只用从环境独立验证过的事实去更新它。具体是一个"管理、执行、审计"的循环：管理者维护状态并决定下一个子任务，一个使用全新上下文的执行者去完成，一个只读的审计者在下一轮之前核查环境状态。这几乎就是 Anthropic 初始化 agent 加编码 agent 那套设计的形式化版本。它把 Qwen 3.7-Plus 在 WeaveBench 上从 51.8% 提到 80.7%，在 Terminal-Bench 2.1 上从 69.7% 提到 77.2%，并且能接在不同的模型和 harness 后端上。
+**[LongHorizon-Harness: Advancing Long-Horizon Agents for Real-World Tasks](https://arxiv.org/abs/2608.01964)**（`2608.01964`） 把这个思路说得最直白：现有 harness 把任务执行、任务状态和完成判断都放在一个不断增长的上下文里，于是状态难以追踪，错误的自我评估会一路传下去。它把长程执行重新表述为任务状态管理问题，在执行之外显式维护任务状态，并且只用从环境独立验证过的事实去更新它。具体是一个"管理、执行、审计"的循环：管理者维护状态并决定下一个子任务，一个使用全新上下文的执行者去完成，一个只读的审计者在下一轮之前核查环境状态。Anthropic 那篇长程 harness 复盘里，初始化 agent 先写好功能清单和进度日志，编码 agent 每次只做一个功能、做完端到端测试再更新进度；LongHorizon-Harness 几乎就是这套设计的形式化版本。它把 Qwen 3.7-Plus 在 WeaveBench 上从 51.8% 提到 80.7%，在 Terminal-Bench 2.1 上从 69.7% 提到 77.2%，并且能接在不同的模型和 harness 后端上。
 
 **[OneDayAgent: Towards a Long-Horizon Harness for Autonomous Agents](https://arxiv.org/abs/2608.05013)**（`2608.05013`） 面对的是更日常的开放请求，横跨工作、学习和生活，涉及多种环境和附件。它关心的是，目标漂移、状态丢失、上下文溢出这些单独被研究过的问题，能不能在一个 harness 里一起管住。它把开放请求变成一个受管理的执行过程：分解成有边界的子任务，在上下文压力下维护执行记忆，最后验证并修复交付物。在 AgentIF-OneDay 的 104 个任务上，以 GLM-5.2 为后端得到 0.821 的总分，同一个 harness 不经调整就能跑在三个模型家族的五个后端上，只是不同模型在同一工作流下表现出不同的执行风格。
 
-再看把状态管理推到极致的一篇。**[StateM: Reaching 95.3% Raw Accuracy, or a $15 Frontier Run, on Terminal-Bench 2.1 via Harness Scaling](https://arxiv.org/abs/2608.15089)**（`2608.15089`） 的出发点是一个常见的观察：长程 agent 会失败，即使底层模型能解决其中每一步。它会忘掉可变状态，想不起以前的教训，跳过已知的流程，或者过早停下。作者押注"harness 扩展"，构建了一个以持久状态、阶段局部上下文、带检查的状态转移、可恢复的运行手册和带版本的程序性实践为中心的运行时。在 Terminal-Bench 2.1 上，它把 GPT-5.5 xhigh 提到 92.1%，换成 GPT-5.6 Sol xhigh 后在 445 次试验中达到 95.3% 的原始准确率；同一套运行时让更便宜的 DeepSeek-V4 Flash 从 82.7% 升到 88.1%，最终计分的 API 开销约 15 美元，对照的 GPT 参考配置约 575 美元。它把事后复盘里找到的教训变成持久的、可执行的前置条件和实践，这和 OpenAI 把"黄金原则"写进仓库的做法如出一辙。
+再看把状态管理推到极致的一篇。**[StateM: Reaching 95.3% Raw Accuracy, or a $15 Frontier Run, on Terminal-Bench 2.1 via Harness Scaling](https://arxiv.org/abs/2608.15089)**（`2608.15089`） 的出发点是一个常见的观察：长程 agent 会失败，即使底层模型能解决其中每一步。它会忘掉可变状态，想不起以前的教训，跳过已知的流程，或者过早停下。作者押注"harness 扩展"，构建了一个以持久状态、阶段局部上下文、带检查的状态转移、可恢复的运行手册和带版本的程序性实践为中心的运行时。在 Terminal-Bench 2.1 上，它把 GPT-5.5 xhigh 提到 92.1%，换成 GPT-5.6 Sol xhigh 后在 445 次试验中达到 95.3% 的原始准确率；同一套运行时让更便宜的 DeepSeek-V4 Flash 从 82.7% 升到 88.1%，最终计分的 API 开销约 15 美元，对照的 GPT 参考配置约 575 美元。它把事后复盘里找到的教训变成持久的、可执行的前置条件和实践，OpenAI 的 Codex 小组也是这样做的：他们把"黄金原则"写进仓库，再让后台 agent 持续扫描偏离、提交小的重构，两者如出一辙。
 
 任务再长一些，就到了以天计的软件开发。**[Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement](https://arxiv.org/abs/2609.01481)**（`2609.01481`） 架在现有的编码 harness 之上，把它们的执行组织成"计划、编码、测试"的迭代循环，并在循环之间平衡修复与能力增长：把开发切成小而可验证的增量，把实现时的测试和独立评估分开，约束可验证的输出而不规定 agent 的工作流程，同时维护带版本的项目历史。在 GameCraft-Bench、FrontierSWE 和 ProgramBench 上，三组 harness 与模型的组合迭代三轮后平均相对提升 52.25%；在一次超过 70 轮的多日部署中，它自主开发出了一个第一人称射击游戏。这和 Anthropic 文中"每次只做一个功能、保持可合并状态"的经验完全对得上。
 
-长程任务里还有一类状态是经验本身。**[Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses](https://arxiv.org/abs/2608.24876)**（`2608.24876`） 提出 Recuris 架构，用工作记忆追踪任务进度，并据此从经验记忆里挑选技能，让技能调用对准当下的需要，避免被越来越长的历史淹没。执行过程本身又成了结构化证据，可以把失败定位到具体的记忆组件，再由一个固定的元 agent 对技能记忆做局部、经验证的更新。在四个长程基准和十个模型上，它在 37 组已完成的组合里有 35 组提高了成功率，而且交互越长优势越大，在最长的任务上高出 32.2 个点。这篇工作在第 03 章的坐标表里也出现过，在那里它是"教师式更新"的例子，在这里它说明了长程 harness 的记忆应当怎样组织。
+长程任务里还有一类状态是经验本身。**[Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses](https://arxiv.org/abs/2608.24876)**（`2608.24876`） 提出 Recuris 架构，用工作记忆追踪任务进度，并据此从经验记忆里挑选技能，让技能调用对准当下的需要，避免被越来越长的历史淹没。执行过程本身又成了结构化证据，可以把失败定位到具体的记忆组件，再由一个固定的元 agent 对技能记忆做局部、经验证的更新。在四个长程基准和十个模型上，它在 37 组已完成的组合里有 35 组提高了成功率，而且交互越长优势越大，在最长的任务上高出 32.2 个点。这篇工作在第 03 章的坐标表里也出现过，在那里它是"教师式更新"的例子，也就是由另一个 agent 汇总多个任务的失败、决定往技能里写回什么，在这里它说明了长程 harness 的记忆应当怎样组织。
 
 最后，主线上的 Prime Agent 也属于这个分支：它的常驻解释器和 Continual Harness 本身就是为长程评测和编码工作流设计的，论文里 Factorio 的实验显示，持续的精炼让科技树能够不断推进，专门的子 agent 则让工作得以并行。把这一组论文放在一起看，长程 harness 的设计原则已经相当清楚：状态外置并只用验证过的事实更新，执行与审计分离，每次只推进一小步并保持可恢复，把教训写成可以强制执行的规则。
 
@@ -325,7 +325,7 @@ harness 越来越重要，手工设计它的代价也越来越高：一个生产
 
 上排五个方框是几乎所有 harness 搜索方法共有的骨架。第一环是定位：一个生产级 harness 有成千上万行代码，先得知道要改哪里。第二环是提议：根据诊断写出一个修改。第三环是验证：在一部分任务上跑一遍，判断这个修改值不值得留下。第四环是存档：留下哪些历史给后面的提议者参考。第五环是选择：下一轮从哪个版本出发。Meta-Harness 把这五环都交给一个编码 agent 和一个文件系统，后来的改进工作则各自加固其中一两环。每一列下面列的就是在这一环动手的论文，例如 Task-CoEvolve 和 HarnessLens 都在验证这一环省钱，HarnessCompass、ModularRSI 和 RRSI 都在提议这一环加约束；同一篇论文出现在两列，说明它同时改了两环。下面的文字先讲最下面一排的第一项应用，说明为什么值得自动优化，再按这些论文要应对的困难依次讲，其余三项应用放在本分支末尾。
 
-先看一个让人很有动力的应用场景。**[Better Harnesses, Smaller Models: Building 90% Cheaper Agents via Automated Harness Adaptation](https://arxiv.org/abs/2607.08938)**（`2607.08938`） 发现，小模型直接塞进为前沿大模型设计的 harness 里往往表现不佳，可如果给它配一个由元 agent 自动找到的适配 harness，在很多常规业务任务上就能接近大模型的水平。它的核心洞察是，许多任务难度是所有实例共有的，可以通过量身定制的指令、工具和编排循环，从模型那里"挪"到 harness 里。在七个业务任务和三个小模型家族上，优化后的 harness 在 21 组中的 16 组显著提升，最好的小模型 agent 以 4% 的成本恢复了大模型 89.7% 的表现。作者也坦白了适用条件：流程越重复、小模型的基础能力越够用，适配的效果越好。这与 OpenJarvis 的结论遥相呼应。
+先看一个让人很有动力的应用场景。**[Better Harnesses, Smaller Models: Building 90% Cheaper Agents via Automated Harness Adaptation](https://arxiv.org/abs/2607.08938)**（`2607.08938`） 发现，小模型直接塞进为前沿大模型设计的 harness 里往往表现不佳，可如果给它配一个由元 agent 自动找到的适配 harness，在很多常规业务任务上就能接近大模型的水平。它的核心洞察是，许多任务难度是所有实例共有的，可以通过量身定制的指令、工具和编排循环，从模型那里"挪"到 harness 里。在七个业务任务和三个小模型家族上，优化后的 harness 在 21 组中的 16 组显著提升，最好的小模型 agent 以 4% 的成本恢复了大模型 89.7% 的表现。作者也坦白了适用条件：流程越重复、小模型的基础能力越够用，适配的效果越好。这与 OpenJarvis 的结论遥相呼应：把云端大模型换成本地小模型时，整套系统也要为小模型重新搜一遍。
 
 搜索塌缩和噪声反馈是最先被正面处理的问题。**[HarnessBank: Semantic Gene-Bank Search with Gated Verification for Agent-Harness Self-Evolution](https://arxiv.org/abs/2607.13683)**（`2607.13683`） 指出，现有方法依赖贪心的候选选择和自己生成的嘈杂反馈，结果容易出现搜索塌缩、对特定任务过拟合和难以验证。它让任务 agent 和一个独立的演化 agent 配对，维护一个"harness 基因库"，里面是语义坐标各不相同的高表现 harness，可以重新发明、重组、筛选；再用一道门控筛选机制，降低评估大量后代的成本。在七个基准上提升 5.1% 到 15.4%，跨模型实验还表明，提升来自针对特定模型的演化过程，世界上并没有一个对所有模型都最优的 harness。
 
@@ -359,7 +359,7 @@ harness 越来越重要，手工设计它的代价也越来越高：一个生产
 
 前一个分支的方法大多是离线的：先在一批开发任务上搜好 harness，部署时冻结。可部署后的情况往往和开发时不一样，测试分布会变，失败模式会变，工具的行为也会变。Continual Harness 把适应搬进了同一次运行里，这个分支的论文沿着这条路继续走：harness 能不能在测试时、在部署中、在一个任务接一个任务的流里持续更新，同时又不把以前会做的事忘掉？
 
-> 主线位置："让 harness 学习"阶段的最后一步，在线适应。接 Reflexion 的语言反馈、Continual Harness 的免重置在线更新，以及第 03 章梯子上第 1、2 级之间的经验沉淀。
+> 主线位置："让 harness 学习"阶段的最后一步，在线适应。接 Reflexion 的语言反馈、Continual Harness 的免重置在线更新，以及第 03 章讨论的经验沉淀，也就是先把经验存在模型外面，再逐步写进 harness 代码。
 
 > **要点**：在线学习把 harness 的更新搬到部署之后。难点有两个：没有标签时用什么信号判断改得好不好，以及新的改动会不会破坏以前会做的事。
 
@@ -377,7 +377,7 @@ harness 越来越重要，手工设计它的代价也越来越高：一个生产
 
 在线学习一定会碰到遗忘问题。**[Harness Continual Learning: Continual Adaptation Beyond Model Parameters](https://arxiv.org/abs/2608.19013)**（`2608.19013`） 把它正式提了出来：持续学习过去一直以模型参数为中心，可现代 agent 也会通过提示、记忆、工具、技能和路由规则来适应，这些内容共同塑造后续执行，一次 harness 更新就可能破坏以前可靠的行为，即使模型完全冻结。作者把这种现象叫作"harness 层面的遗忘"，并提出受守护的 harness 演化：一个持续优化器根据执行后的反馈提出候选，一个持续评估器只有在检查了当前改进、历史保持和有效性之后，才提交这个候选。可控的保持率实验显示，这种遗忘是可以测量的，稳定性与可塑性之间的权衡也可以显式调节。
 
-**[Evo-Harness: Context-to-Harness Skill Compilation for Self-Evolving Agents](https://arxiv.org/abs/2608.15071)**（`2608.15071`） 处理的是一种更苛刻的情形：现实中 agent 不断遇到新任务，往往只有一次改进的机会，而执行留下的上下文虽然丰富却很嘈杂，普遍有用的教训和任务特有的细节缠在一起。它提出在线 harness 学习的设定，冻结的 agent 在一连串任务中持续更新一个结构化 harness，核心是把嘈杂的单次执行"编译"成可复用的技能 harness，在 TerminalBench2、SWE-bench、WebArena-Infinity 等五个基准上做了评估。它在第 03 章的坐标表里是"联合更新"的例子，在这里说明的是在线学习里"从上下文到 harness"的这一步该怎么走。
+**[Evo-Harness: Context-to-Harness Skill Compilation for Self-Evolving Agents](https://arxiv.org/abs/2608.15071)**（`2608.15071`） 处理的是一种更苛刻的情形：现实中 agent 不断遇到新任务，往往只有一次改进的机会，而执行留下的上下文虽然丰富却很嘈杂，普遍有用的教训和任务特有的细节缠在一起。它提出在线 harness 学习的设定，冻结的 agent 在一连串任务中持续更新一个结构化 harness，核心是把嘈杂的单次执行"编译"成可复用的技能 harness，在 TerminalBench2、SWE-bench、WebArena-Infinity 等五个基准上做了评估。它在第 03 章的坐标表里是"联合更新"的例子，那里的意思是由 Solver 提出候选经验、Evolver 筛选并编译，两者一起决定写回什么；在这里说明的是在线学习里"从上下文到 harness"的这一步该怎么走。
 
 上面几篇都靠提示一个通用模型来修改 harness，下一步自然是专门训练一个会改 harness 的模型。**[Harness Learning Enables Generalizable Test-Time Adaptation](https://arxiv.org/abs/2609.35738)**（`2609.35738`） 把这件事表述为在可执行程序上的元学习：harness 的修订扮演梯度更新中权重更新的角色，用强化学习训练一个提议者模型，奖励是修订后 harness 的任务表现；测试时，提议者根据一个新任务上连续执行的反馈修订 harness，不做任何参数更新。实验显示这种测试时适应的能力可以迁移到没见过的任务。**[Harness-R1: Learning to Edit Executable Runtime Harnesses from Agent Failure Trajectories](https://arxiv.org/abs/2608.02276)**（`2608.02276`） 用在线强化学习训练一个专门的 9B"harness 工程师"，把目标 agent 的一批失败转成经过验证的可执行补丁，奖励来自冻结目标重新运行的结果。它把 Qwen3.5-9B 在 WebShop、ALFWorld 和 DBBench 上的平均成功率从 44.3% 提到 53.6%；目标 agent 微调之后，一个针对它的工程师还能把平均分从 59.2% 再提到 64.2%。**[JIT-Agent: Scaling Harness Intelligence via Just-in-Time Harness Evolution](https://arxiv.org/abs/2608.25593)**（`2608.25593`） 更进一步，训练一个"harness 智能模型"，为任意现成的 agent 模型即时合成适配当前任务的 harness，并能修复 harness、从不断扩大的历史配置档案里自我演化。作为 harness 助手，它让 DeepSeek-V4-Flash 在 DeepSearchQA 和 OdysseyBench 上超过了 GPT-5.6，作者因此主张，harness 智能是一个可训练、可迁移、并与模型规模正交的能力维度。
 
@@ -396,7 +396,7 @@ harness 越来越重要，手工设计它的代价也越来越高：一个生产
 
 harness 是围着模型量身定做的，这一点在前面几个分支里反复出现：HarnessBank 发现提升来自针对特定模型的演化，OpenJarvis 发现换了模型就得重新搜规格。可模型本身也在变：harness 产生的轨迹可以拿来训练模型，模型一变，原来的 harness 又未必合适。Lilian Weng 把这称为 harness 与权重的联合优化，并直言证据还不够扎实。这个分支收录的论文分别从三个方向推进：怎样交替优化两者，怎样把 harness 带来的能力迁移到权重里或别的模型上，以及在 harness 里训练模型会遇到什么问题。
 
-> 主线位置："让 harness 学习"阶段与第 03 章梯子第 4 级的交汇处。接 Continual Harness 的模型协同学习和 OpenJarvis 的跨模型规格搜索。
+> 主线位置："让 harness 学习"阶段与第 03 章所说的"把经验写进权重"那一级的交汇处。接 Continual Harness 的模型协同学习和 OpenJarvis 的跨模型规格搜索。
 
 > **要点**：harness 和权重之间有三条通道：交替优化两者，把 harness 带来的行为蒸进权重，或者让强模型造一个 harness 给弱模型用。它们共同说明，harness 与模型之间存在一种需要维护的契合。
 
@@ -448,7 +448,7 @@ harness 决定了模型能调用什么工具、能改什么文件、看到哪些
 
 **[EvoSafeHarness: Evolving Model- and Domain-Specific Harnesses for Securing Agents](https://arxiv.org/abs/2609.05903)**（`2609.05903`） 抓住了"一刀切"的问题：模型不同，需要的约束强度不同；领域不同，需要管控的效果、状态和动作序列也不同。它为一个冻结模型在目标领域里合成可部署的安全 harness，同时搜索自然语言策略和可执行的代码逻辑，并用全新上下文的对抗审查来拒绝只针对基准的规则。在 DecodingTrust-Agent 上，它把平均攻击成功率从 45.6% 降到 10.0%，效用只损失 3.3 个点；在 AgentDojo 上以 0.0% 的攻击成功率达到 82.8% 的效用。作者的分析给出了一个很好的分工：领域语义决定需要哪些安全关系和轨迹状态，模型和运行时行为决定这些关系该在哪里、以什么方式强制执行。
 
-**[SafeEvolve: Harness-Policy Co-Evolution from Agent Experience for Safety Alignment](https://arxiv.org/abs/2609.02786)**（`2609.02786`） 把上一个分支的联合优化用在了安全上。harness 一侧，它把轨迹级的安全证据转成对安全提示和分层技能的有边界、组件级的更新，产物可审计、可撤销；策略一侧，先用 harness 使用的监督微调让模型学会主动利用演化出的 harness，再用 harness 增强的强化学习在多步探索中塑造自主的安全行为。对 Qwen3.5-4B，它在 AgentDojo 上把攻击成功率降到约三分之一，同时正常任务效用从 59.79% 微升到 61.86%。
+**[SafeEvolve: Harness-Policy Co-Evolution from Agent Experience for Safety Alignment](https://arxiv.org/abs/2609.02786)**（`2609.02786`） 把上一个分支讲的 harness 与权重联合优化用在了安全上。harness 一侧，它把轨迹级的安全证据转成对安全提示和分层技能的有边界、组件级的更新，产物可审计、可撤销；策略一侧，先用 harness 使用的监督微调让模型学会主动利用演化出的 harness，再用 harness 增强的强化学习在多步探索中塑造自主的安全行为。对 Qwen3.5-4B，它在 AgentDojo 上把攻击成功率降到约三分之一，同时正常任务效用从 59.79% 微升到 61.86%。
 
 评测也要跟上。**[HarnessRisk: A Lifecycle-Oriented Benchmark for Agent Harness Safety](https://arxiv.org/abs/2608.17597)**（`2608.17597`） 按 harness 的职责把安全问题分成六个运行阶段：harness 配置、能力扩展、运行时操作、状态持久化、动作控制和事故恢复，构造了 128 个沙盒案例，每个都把一个正常的用户目标和一条藏在不可信工作流产物里的恶意指令配在一起。在 14 种模型与 harness 的配置上，攻击成功率从 12.6% 到 80.9% 不等，而效用一直保持在 75.0% 到 97.6% 之间，也就是说"有用但不安全"的情况非常普遍。harness 配置阶段在三个 harness 上都是最脆弱的一环，攻击可以在授权的工作流里悄悄改掉安全敏感的参数。还有一个让人警惕的发现：明确识别出风险并不保证安全行动，有的配置在九成以上的运行里察觉了风险，攻击仍然大量得手。
 
@@ -468,7 +468,7 @@ DAIR.AI 用 METR 的长任务研究收尾，是在提醒一件事：harness 的�
 
 左栏讲协议。最上面打叉的是常见做法：同一个基准既为搜索提供验证信号，又用来报最终分数，等于训练集和测试集没有分开。修正后的做法是把数据切成两份，搜索集只用来演化 harness，留出测试在搜索全程都看不到，选定版本后只测一次；对照组则拿同样的反馈和预算去做简单的任务级搜索或测试时扩展。最下面的方框是 Rethinking the Evaluation 按这个协议重做的结果。右栏讲归因。Model or Harness? 把参与一次 agent 运行的组件画成节点，包括用户、模型、harness、工具、记忆、环境和评分器，每一条边代表两个组件之间的一种交互；41 种失败模式各自落在一条边上，并标出出错的是哪一侧：模型一侧指向后训练，harness 一侧指向脚手架和工具集成的修复，环境或评分器一侧说明评测条件需要重新设计。图里边的连法只是示意，论文给出的是失败模式到边的分配。
 
-最值得先读的是一篇泼冷水的论文。**[Rethinking the Evaluation of Harness Evolution for Agents](https://arxiv.org/abs/2607.12227)**（`2607.12227`） 指出现有评测协议有两个根本问题：没有在相同的反馈和推理预算下与简单的任务级搜索基线比较；用于搜索 harness 的验证信号，比如单元测试，又来自最终报告成绩的同一个基准，违背了训练集与测试集分开的基本规矩。按照修正后的协议重新做实验，在 Terminal-Bench 2.1 上，自动 harness 演化无论有没有测试用例，都没能胜过简单的测试时扩展方法，泛化也很有限。作者并没有就此否定这条路：在长程游戏这类难度够高、依赖对陌生动态的适应、反馈又天然细致的场景里，针对任务的 harness 演化在相同预算下比搜索基线在 ARC-AGI-3 上提升 80.0%，在 EdgeBench 上提升 10.9%。RRSI 在演化集和分布外基准上 14.1 与 4.7 的差距，也可以放在这篇论文的框架里理解。
+最值得先读的是一篇泼冷水的论文。**[Rethinking the Evaluation of Harness Evolution for Agents](https://arxiv.org/abs/2607.12227)**（`2607.12227`） 指出现有评测协议有两个根本问题：没有在相同的反馈和推理预算下与简单的任务级搜索基线比较；用于搜索 harness 的验证信号，比如单元测试，又来自最终报告成绩的同一个基准，违背了训练集与测试集分开的基本规矩。按照修正后的协议重新做实验，在 Terminal-Bench 2.1 上，自动 harness 演化无论有没有测试用例，都没能胜过简单的测试时扩展方法，泛化也很有限。作者并没有就此否定这条路：在长程游戏这类难度够高、依赖对陌生动态的适应、反馈又天然细致的场景里，针对任务的 harness 演化在相同预算下比搜索基线在 ARC-AGI-3 上提升 80.0%，在 EdgeBench 上提升 10.9%。三.3 介绍的 RRSI 在演化所用的数据上最多提升 14.1 个点，到了分布外基准上最多只剩 4.7 个点，这个差距也可以放在这篇论文的框架里理解。
 
 **[Automated Discovery Has No Universally Superior Harness](https://arxiv.org/abs/2607.18235)**（`2607.18235`） 用同样严格的态度审视了自动发现系统。OpenEvolve、TTT-Discover 这类系统常被当作通用 harness 使用，可它们其实把档案管理、父代选择、探索策略和预算分配等多种设计选择打包成了一个配方，而且常常只用很少的独立试验做比较，分不清方法改进和运行间的随机波动。作者把它们拆成组成部件，用超过 310 万次 rollout，在 12 组模型与问题的组合上系统评估了 30 个预算匹配的 harness。结论正如标题：没有一个固定的 harness 能在所有组合上稳定胜出，OpenEvolve 的变体通常还不如更简单的方案，harness 的选择更像一个超参数。好在早期进展能预测最终表现，于是先并行启动多个 harness、剪掉表现差的、把算力转给领先者的自适应分配策略，胜过了任何固定选择。
 
@@ -498,7 +498,7 @@ DAIR.AI 用 METR 的长任务研究收尾，是在提醒一件事：harness 的�
 
 ### 全章总对照：改什么，什么时候改
 
-上面这张表按困难来组织，适合审自己的实验设计。下面换一个角度，把全章的工作放到两根共享的轴上，像多模态那几章的读写矩阵一样，用一张格子图看清每篇论文的位置。
+上面这张表按困难来组织，适合审自己的实验设计。下面换一个角度，把全章的工作放到两根共享的轴上，就像多模态那几章把各种模型排进“怎样读图”和“怎样输出”两根轴组成的矩阵一样，用一张格子图看清每篇论文的位置。
 
 ![全章总对照](../assets/harness/fig-overview.svg)
 

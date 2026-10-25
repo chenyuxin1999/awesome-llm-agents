@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 440" width="880" height="440" role="img" aria-label="基准里的设定和现实里的设定" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><defs><marker id="ah-picsecondhalf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs><rect x="0" y="0" width="880" height="440" fill="#ffffff"/><text x="20.0" y="26.0" font-size="13" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">示意：同一个周报助手，在基准里和在现实里分别被怎样要求</text>
+<text x="24.0" y="58.0" font-size="13.5" fill="#47546A" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">基准里：独自做，每道题互不相关</text>
+<rect x="24.0" y="72.0" width="400.0" height="58.0" rx="6" fill="#F3F5F8" stroke="#D5DBE4" stroke-width="1"/>
+<text x="36.0" y="94.0" font-size="12" fill="#47546A" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">题 1</text>
+<text x="84.0" y="94.0" font-size="12" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">整理 runs/ 成表格</text>
+<text x="36.0" y="116.0" font-size="11" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">重置环境 → 独自运行，没人可问 → 判对错</text>
+<text x="400.0" y="108.0" font-size="18" fill="#26805A" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">✓</text>
+<rect x="24.0" y="142.0" width="400.0" height="58.0" rx="6" fill="#F3F5F8" stroke="#D5DBE4" stroke-width="1"/>
+<text x="36.0" y="164.0" font-size="12" fill="#47546A" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">题 2</text>
+<text x="84.0" y="164.0" font-size="12" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">标出崩溃的实验</text>
+<text x="36.0" y="186.0" font-size="11" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">重置环境 → 独自运行，没人可问 → 判对错</text>
+<text x="400.0" y="178.0" font-size="18" fill="#C2501A" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">✗</text>
+<rect x="24.0" y="212.0" width="400.0" height="58.0" rx="6" fill="#F3F5F8" stroke="#D5DBE4" stroke-width="1"/>
+<text x="36.0" y="234.0" font-size="12" fill="#47546A" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">题 3</text>
+<text x="84.0" y="234.0" font-size="12" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">和基线比较</text>
+<text x="36.0" y="256.0" font-size="11" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">重置环境 → 独自运行，没人可问 → 判对错</text>
+<text x="400.0" y="248.0" font-size="18" fill="#26805A" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">✓</text>
+<text x="24.0" y="300.0" font-size="12" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">每道题开始时什么都不记得；成绩 = 2 / 3</text>
+<text x="456.0" y="58.0" font-size="13.5" fill="#2B57C9" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">现实里：和人来回，经验接着用</text>
+<rect x="456.0" y="72.0" width="400.0" height="128.0" rx="6" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="468.0" y="92.0" font-size="12" fill="#2B57C9" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">第 1 周</text>
+<text x="468.0" y="114.0" font-size="11.5" fill="#2B57C9" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">用户：</text>
+<text x="510.0" y="114.0" font-size="11.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">把这周的实验整理成周报，发给导师</text>
+<text x="468.0" y="135.0" font-size="11.5" fill="#5B45B0" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">助手：</text>
+<text x="510.0" y="135.0" font-size="11.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">基线用 baseline/ 还是 exp01？</text>
+<text x="468.0" y="156.0" font-size="11.5" fill="#2B57C9" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">用户：</text>
+<text x="510.0" y="156.0" font-size="11.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">用 exp01；崩溃的标红</text>
+<text x="468.0" y="177.0" font-size="11.5" fill="#5B45B0" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">助手：</text>
+<text x="510.0" y="177.0" font-size="11.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">表格已发，请您过目</text>
+<line x1="656.0" y1="204.0" x2="656.0" y2="226.0" stroke="#5A6577" stroke-width="1.5" marker-end="url(#ah-picsecondhalf)"/>
+<rect x="456.0" y="230.0" width="400.0" height="62.0" rx="6" fill="#DDF3E8" stroke="#26805A" stroke-width="1"/>
+<text x="468.0" y="250.0" font-size="12" fill="#26805A" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">第 2 周</text>
+<text x="468.0" y="272.0" font-size="11.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">助手记得：基线用 exp01，崩溃的标红，直接开工</text>
+<text x="456.0" y="312.0" font-size="12" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">成败要看一连串任务，和人一起做完</text>
+<rect x="24.0" y="330.0" width="832.0" height="92.0" rx="6" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.4"/>
+<text x="36.0" y="354.0" font-size="12.5" fill="#B86E00" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">读任何一篇报告“成功率提升”的论文，都可以问：</text>
+<rect x="36.0" y="368.0" width="144.0" height="36.0" rx="6" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<text x="108.0" y="391.0" font-size="12.5" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">格式正确？</text>
+<rect x="192.0" y="368.0" width="144.0" height="36.0" rx="6" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<text x="264.0" y="391.0" font-size="12.5" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">调用正确？</text>
+<rect x="348.0" y="368.0" width="144.0" height="36.0" rx="6" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<text x="420.0" y="391.0" font-size="12.5" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">任务真正完成？</text>
+<rect x="504.0" y="368.0" width="144.0" height="36.0" rx="6" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<text x="576.0" y="391.0" font-size="12.5" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">代价是多少？</text>
+<text x="700.0" y="384.0" font-size="11" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">姚顺雨把基准和现实</text>
+<text x="700.0" y="402.0" font-size="11" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">之间的落差称为效用问题</text></svg>

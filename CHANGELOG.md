@@ -1,5 +1,29 @@
 # 更新记录
 
+## 图文版、章节改名与目录重组
+
+- 每章新增图文版（`chapters/html/`），配详细解说图和总结对比图；Markdown 源文件移到 `chapters/md/`，两套内容一一对应。
+- 多模态拆成三章：09 多模态理解、16 多模态生成、新增 19 多模态 agent；具身章按“机器人的经验从哪里来”重写主线。
+- 六个章节文件按现有内容改名：`03_self_improvement`、`04_data_and_environments`、`07_safety_and_alignment`、`09_multimodal_understanding`、`13_efficiency_and_architecture`、`16_multimodal_generation`；分类键、目录、来源记录、脚本与各处互链同步更新。
+- 全部章节按统一写作规则重写：每段先给中心句并和上一段衔接；概念在第一次需要时引入；讲训练时说清信号从哪来、目标是什么；岔路给范式对比图；框架图配上贯穿全图的具体示意数据；部件按用途命名；“首次”类说法对照前文核对。
+- 每张“先读这几篇”表格至少两篇 2026 年来源，其中至少一篇综述。
+
+## 新增第 18 章「Harness 工程」
+
+- 新增专题 `18_harness_engineering`，以 DAIR.AI Harness Engineering 合集为主线（V0 循环、静态 harness 扩展动作空间、让 harness 学习、2026 年发布的 harness、怎样知道它有效），补充 Lilian Weng、Anthropic、OpenAI 与 Manus 的长文。
+- 前沿部分按问题分为七个分支：部件设计、长程任务、自动优化、在线学习、harness 与权重、安全、评测与归因。
+- 分类：新增 `harness_core` 规则，把以 harness 为核心研究对象的 56 篇论文归入 18（原属 03、01、06）；把 harness 用作机器人、推荐、领域应用、记忆评测或 RL 训练载体的论文留在原类，并以副标签关联 18。
+- 同步 taxonomy、目录生成与覆盖审计脚本中的专题列表，首页专题表、总览、研究问题与术语表加入入口。
+- 补充来源记录 `sources/18_harness_engineering_mainline_2026-10-19.json`。
+
+## 全部章节：以 blog 叙事为主线
+
+- 按自我改进（RSI）章的样板，改写 00、01、02、04 至 17 各章：每章新增“先读这几篇”，选 3 至 5 篇人写的 blog 或长文作为阅读入口，并以其中的叙事作为发展主线的骨架，经典论文挂在各阶段之下。
+- 前沿各分支开头补充问题来由，并标注“主线位置”，说明它落在主线的哪一阶段、接哪些经典工作；分支标题、论文条目、链接与数字保持不变。
+- 00 综述导读与 17 热词保留原有结构，改为叙事体；热词逐条注明由哪篇文章推广开来。
+- 全部章节去掉“而不是 / 不是…而是 / 而非 / 不等于”等对冲句式，改为直接陈述，并补充问题来由、论文承接与通俗类比。
+- 新增经典论文均核对过 arXiv 题名；各章新增外链记录在 `sources/<章节>_mainline_2026-10-19.json`。
+
 ## 自我改进（RSI）章：以 blog 叙事为主线（样板）
 
 - 新增“先读这几篇”，以 DAIR.AI Self-Improving Agents 合集、知乎《万字长文带你读懂 RSI》、Lilian Weng《Harness Engineering for Self-Improvement》、Anthropic Agent Skills 与《When AI builds itself》作为阅读入口。
@@ -55,7 +79,7 @@
 
 ## 2026-10-08｜综述入口与研究子问题扩写
 
-- 新增 `chapters/00_surveys.md`，整理 21 篇综述，重点解释 long-horizon、self-evolving、RSI 的区别及阅读顺序。
+- 新增 `chapters/md/00_surveys.md`，整理 21 篇综述，重点解释 long-horizon、self-evolving、RSI 的区别及阅读顺序。
 - 对全部 16 个专题补充研究子问题的连贯说明，每章再从原语料引入 4 篇论文，新增可见汉字 21,372 个。
 - 专题去重引用从 594 条增至 651 条；保留 2050 条原始语料，新增综述单列，不混入原始总数。
 - 更新首页、学习路线、来源日志与检查脚本；综述章作为跨方向导读独立审计，不改变原来的主分类。

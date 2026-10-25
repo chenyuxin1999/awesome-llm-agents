@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 380" width="880" height="380" role="img" aria-label="Generative Agents 给三条记忆打分" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><defs><marker id="ah-picgascores" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs><rect x="0" y="0" width="880" height="380" fill="#ffffff"/><text x="20.0" y="26.0" font-size="12.5" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">示意：Isabella 被问“情人节派对准备得怎么样了？”，系统给记忆流里的候选记录打分（时间与分数为说明编的）</text>
+<text x="24.0" y="62.0" font-size="11.5" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">记忆流里的记录</text>
+<text x="300.0" y="62.0" font-size="11.5" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">距上次访问</text>
+<text x="400.0" y="62.0" font-size="11.5" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">新近分 0.995^小时</text>
+<text x="560.0" y="62.0" font-size="11.5" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">重要分（写入时打）</text>
+<text x="710.0" y="62.0" font-size="11.5" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">和问题的相似度</text>
+<rect x="24.0" y="74.0" width="836.0" height="30.0" rx="4" fill="#F3F5F8" stroke="#D5DBE4" stroke-width="1"/>
+<text x="34.0" y="94.0" font-size="12" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">08:00 打扫了房间</text>
+<text x="320.0" y="94.0" font-size="12" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">10 小时</text>
+<text x="460.0" y="94.0" font-size="12.5" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">0.951</text>
+<text x="620.0" y="94.0" font-size="12.5" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">2</text>
+<text x="770.0" y="94.0" font-size="12.5" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">0.12</text>
+<rect x="24.0" y="112.0" width="836.0" height="30.0" rx="4" fill="#F3F5F8" stroke="#D5DBE4" stroke-width="1"/>
+<text x="34.0" y="132.0" font-size="12" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">10:30 邀请 Maria 来情人节派对</text>
+<text x="320.0" y="132.0" font-size="12" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">3 小时</text>
+<text x="460.0" y="132.0" font-size="12.5" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">0.985</text>
+<text x="620.0" y="132.0" font-size="12.5" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">8</text>
+<text x="770.0" y="132.0" font-size="12.5" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">0.83</text>
+<rect x="24.0" y="150.0" width="836.0" height="30.0" rx="4" fill="#F3F5F8" stroke="#D5DBE4" stroke-width="1"/>
+<text x="34.0" y="170.0" font-size="12" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">13:00 在咖啡馆布置好了桌子</text>
+<text x="320.0" y="170.0" font-size="12" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">1 小时</text>
+<text x="460.0" y="170.0" font-size="12.5" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">0.995</text>
+<text x="620.0" y="170.0" font-size="12.5" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">5</text>
+<text x="770.0" y="170.0" font-size="12.5" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">0.61</text>
+<text x="24.0" y="212.0" font-size="12.5" fill="#5B45B0" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">三项各自缩放到 0～1（最小的记 0，最大的记 1），权重都取 1，相加</text>
+<text x="34.0" y="246.0" font-size="12" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">打扫房间</text>
+<rect x="150.0" y="228.0" width="70.0" height="26.0" rx="0" fill="#DCEFF1" stroke="#0E6E7E" stroke-width="1"/>
+<text x="185.0" y="245.0" font-size="11" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">0.00</text>
+<text x="232.0" y="246.0" font-size="14" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">+</text>
+<rect x="244.0" y="228.0" width="70.0" height="26.0" rx="0" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="279.0" y="245.0" font-size="11" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">0.00</text>
+<text x="326.0" y="246.0" font-size="14" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">+</text>
+<rect x="338.0" y="228.0" width="70.0" height="26.0" rx="0" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="373.0" y="245.0" font-size="11" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">0.00</text>
+<text x="420.0" y="246.0" font-size="14" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">=</text>
+<rect x="432.0" y="228.0" width="70.0" height="26.0" rx="0" fill="#FFFFFF" stroke="#D5DBE4" stroke-width="1"/>
+<text x="467.0" y="245.3" font-size="12" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">0.00</text>
+<text x="520.0" y="246.0" font-size="12" fill="#5A6577" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">留在记忆流里</text>
+<text x="34.0" y="280.0" font-size="12" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">邀请 Maria</text>
+<rect x="150.0" y="262.0" width="70.0" height="26.0" rx="0" fill="#DCEFF1" stroke="#0E6E7E" stroke-width="1"/>
+<text x="185.0" y="279.0" font-size="11" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">0.77</text>
+<text x="232.0" y="280.0" font-size="14" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">+</text>
+<rect x="244.0" y="262.0" width="70.0" height="26.0" rx="0" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="279.0" y="279.0" font-size="11" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">1.00</text>
+<text x="326.0" y="280.0" font-size="14" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">+</text>
+<rect x="338.0" y="262.0" width="70.0" height="26.0" rx="0" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="373.0" y="279.0" font-size="11" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">1.00</text>
+<text x="420.0" y="280.0" font-size="14" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">=</text>
+<rect x="432.0" y="262.0" width="70.0" height="26.0" rx="0" fill="#DDF3E8" stroke="#26805A" stroke-width="1"/>
+<text x="467.0" y="279.3" font-size="12" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">2.77</text>
+<text x="520.0" y="280.0" font-size="12" fill="#26805A" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">进入提示</text>
+<text x="34.0" y="314.0" font-size="12" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">布置桌子</text>
+<rect x="150.0" y="296.0" width="70.0" height="26.0" rx="0" fill="#DCEFF1" stroke="#0E6E7E" stroke-width="1"/>
+<text x="185.0" y="313.0" font-size="11" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">1.00</text>
+<text x="232.0" y="314.0" font-size="14" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">+</text>
+<rect x="244.0" y="296.0" width="70.0" height="26.0" rx="0" fill="#FFF1DC" stroke="#B86E00" stroke-width="1"/>
+<text x="279.0" y="313.0" font-size="11" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">0.50</text>
+<text x="326.0" y="314.0" font-size="14" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">+</text>
+<rect x="338.0" y="296.0" width="70.0" height="26.0" rx="0" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1"/>
+<text x="373.0" y="313.0" font-size="11" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">0.69</text>
+<text x="420.0" y="314.0" font-size="14" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">=</text>
+<rect x="432.0" y="296.0" width="70.0" height="26.0" rx="0" fill="#DDF3E8" stroke="#26805A" stroke-width="1"/>
+<text x="467.0" y="313.3" font-size="12" fill="#18202C" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">2.19</text>
+<text x="520.0" y="314.0" font-size="12" fill="#26805A" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-weight="700">进入提示</text>
+<text x="185.0" y="342.0" font-size="11" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">新近</text>
+<text x="279.0" y="342.0" font-size="11" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">重要</text>
+<text x="373.0" y="342.0" font-size="11" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">相关</text>
+<text x="467.0" y="342.0" font-size="11" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">总分</text>
+<rect x="640.0" y="226.0" width="220.0" height="96.0" rx="6" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.2"/>
+<text x="652.0" y="248.0" font-size="11.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">窗口放得下几条，就按总分</text>
+<text x="652.0" y="266.0" font-size="11.5" fill="#18202C" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">从高到低取几条。</text>
+<text x="652.0" y="290.0" font-size="11.5" fill="#5B45B0" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">重要分之和超过 150 时</text>
+<text x="652.0" y="308.0" font-size="11.5" fill="#5B45B0" text-anchor="start" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">还会触发一次反思</text>
+<text x="440.0" y="370.0" font-size="11" fill="#5A6577" text-anchor="middle" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">衰减系数 0.995、重要分 1～10、阈值 150 来自论文；其余数字为示意</text></svg>

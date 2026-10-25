@@ -4,7 +4,7 @@
 
 [文献目录](README.md) · [分类方法](../docs/classification_audit.md)
 
-[阅读专题导读](../chapters/10_world_models.md)
+[阅读专题导读](../chapters/md/10_world_models.md)
 
 本方向收录 **205 条记录**。相关方向用于交叉检索，不重复计入各类数量。
 
@@ -40,7 +40,7 @@
 | 2607.28624 | [PhiZero: A World Model Built Around Physical Language](https://www.alphaxiv.org/abs/2607.28624) | — |
 | 2607.15065 | [DriftWorld: Fast World Modeling through Drifting](https://www.alphaxiv.org/abs/2607.15065) | — |
 | 2609.01560 | [H3-World: Turning Language Understanding into World Control](https://www.alphaxiv.org/abs/2609.01560) | — |
-| 2608.13489 | [DreamX-Phi 1.0: Action-Conditioned Video World Model for Robotic Manipulation](https://www.alphaxiv.org/abs/2608.13489) | [具身智能与 VLA](11_embodied.md) · [多模态生成](16_generation.md) |
+| 2608.13489 | [DreamX-Phi 1.0: Action-Conditioned Video World Model for Robotic Manipulation](https://www.alphaxiv.org/abs/2608.13489) | [具身智能与 VLA](11_embodied.md) · [多模态生成](16_multimodal_generation.md) |
 | 2607.06988 | [WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time](https://www.alphaxiv.org/abs/2607.06988) | — |
 | 2608.10232 | [FACT: Failure-Aware Causal Training for World-Action Models](https://www.alphaxiv.org/abs/2608.10232) | — |
 | 2609.23881 | [MotionJEPA: Preventing Temporal Feature Collapse by Capturing Visual Changes in Latent Space](https://www.alphaxiv.org/abs/2609.23881) | — |
@@ -164,7 +164,7 @@
 | 2609.08162 | [WorldAgen: Unified State-Action Prediction with Test-Time World Model Training](https://www.alphaxiv.org/abs/2609.08162) | — |
 | 2609.26293 | [Dual-Frontier: When Can an Agent Trust Its World Model?](https://www.alphaxiv.org/abs/2609.26293) | — |
 | 2609.jepa-ttt | [JEPA-TTT: Persistent Test-Time Training of Latent World Models for Planning under Dynamics Shifts](https://www.alphaxiv.org/abs/2609.jepa-ttt) | — |
-| 2607.15901 | [DSWorld: A Data Science World Model for Efficient Autonomous Agents](https://www.alphaxiv.org/abs/2607.15901) | [科学与数学 Agent](12_science.md) · [效率与循环计算架构](13_efficiency.md) |
+| 2607.15901 | [DSWorld: A Data Science World Model for Efficient Autonomous Agents](https://www.alphaxiv.org/abs/2607.15901) | [科学与数学 Agent](12_science.md) · [效率与循环计算架构](13_efficiency_and_architecture.md) |
 | 2607.28391 | [TacWAM: Anchor-Guided World Action Model with Mechanics-Aware Tactile Prediction](https://www.alphaxiv.org/abs/2607.28391) | — |
 | 2608.06020 | [From Economic Agents to Agentic Economies: A Systems Blueprint for Economic World Models](https://www.alphaxiv.org/abs/2608.06020) | — |
 | 2608.14022 | [ForgeWM: Progressive Causal Training for Few-Step Action-Conditioned Video World Models](https://www.alphaxiv.org/abs/2608.14022) | — |
@@ -186,7 +186,7 @@
 | 2609.20377 | [MM-Future: Multi-Mode Joint World-Action Modeling for Autonomous Driving](https://www.alphaxiv.org/abs/2609.20377) | [具身智能与 VLA](11_embodied.md) |
 | 2607.19038 | [FilmWorld: Agentic Novel-to-Film Generation through Dynamic Cinematic World Modeling](https://www.alphaxiv.org/abs/2607.19038) | — |
 | 2607.22000 | [Music-JEPA: Learning a World Model of Sound from Action](https://www.alphaxiv.org/abs/2607.22000) | — |
-| 2608.08558 | [Vid2WAM: Distilling Video Diffusion Priors into World Action Models](https://www.alphaxiv.org/abs/2608.08558) | [多模态生成](16_generation.md) |
+| 2608.08558 | [Vid2WAM: Distilling Video Diffusion Priors into World Action Models](https://www.alphaxiv.org/abs/2608.08558) | [多模态生成](16_multimodal_generation.md) |
 | 2608.09492 | [Rethink Before You Execute: Adaptive Execution for World Action Models](https://www.alphaxiv.org/abs/2608.09492) | — |
 | 2609.11499 | [Recursive Code World Models: Building Complex Worlds through Recursive Scene Programs](https://www.alphaxiv.org/abs/2609.11499) | — |
 | 2609.21449 | [ME-Dex 1.0: Bringing Heterogeneous Tactile Sensing into World Action Modeling](https://www.alphaxiv.org/abs/2609.21449) | — |

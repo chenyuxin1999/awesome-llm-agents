@@ -34,21 +34,22 @@ SUPPLEMENTAL_CHAPTERS = {
 MIN_IDS = {
     "01_basics": 25,
     "02_memory": 35,
-    "03_skills_and_self_improvement": 40,
-    "04_training_data": 25,
+    "03_self_improvement": 40,
+    "04_data_and_environments": 25,
     "05_rl_and_distillation": 40,
     "06_evaluation": 50,
-    "07_safety": 35,
+    "07_safety_and_alignment": 35,
     "08_collaboration": 22,
-    "09_multimodal_gui": 35,
+    "09_multimodal_understanding": 35,
     "10_world_models": 40,
     "11_embodied": 50,
     "12_science": 25,
-    "13_efficiency": 35,
+    "13_efficiency_and_architecture": 35,
     "14_model_science": 35,
     "15_frontier_reports": 35,
-    "16_generation": 40,
+    "16_multimodal_generation": 40,
     "18_harness_engineering": 40,
+    "19_multimodal_agent": 30,
 }
 HAN = re.compile("[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff\U00020000-\U0002fa1f\U00030000-\U000323af]")
 TOKEN = re.compile(r"(?<![A-Za-z0-9_.-])\d{4}\.[A-Za-z0-9][A-Za-z0-9._-]*")
@@ -206,9 +207,9 @@ def load_inputs(root):
     keys = [category["key"] for category in categories]
     require(len(keys) == len(set(keys)), "taxonomy类别键重复")
     chapters = [category for category in categories if category.get("chapter")]
-    require([category["key"] for category in chapters] == list(MIN_IDS), "taxonomy的17章与阈值配置不一致")
+    require([category["key"] for category in chapters] == list(MIN_IDS), "taxonomy的18章与阈值配置不一致")
     for category in chapters:
-        require(category["chapter"] == "chapters/" + category["key"] + ".md", "非法章节路径")
+        require(category["chapter"] == "chapters/md/" + category["key"] + ".md", "非法章节路径")
     for record in records:
         require(isinstance(record["id"], str) and record["id"], "非法本地ID")
         require(record["new"] in keys, "记录主类不在taxonomy中: " + record["id"])
@@ -314,7 +315,7 @@ def audit(root):
     external_web = {url for chapter in chapter_results for url in chapter["external_web_urls"]}
     supplemental_results = []
     for key, thresholds in SUPPLEMENTAL_CHAPTERS.items():
-        relative_path = "chapters/" + key + ".md"
+        relative_path = "chapters/md/" + key + ".md"
         path = root / relative_path
         content = path.read_bytes() if path.is_file() else b""
         hashes[relative_path] = sha256(content) if path.is_file() else None
@@ -339,7 +340,7 @@ def audit(root):
                                          passed=not failures, failures=failures))
     return {
         "schema_version": 2,
-        "scope": "本地覆盖率只统计17个专题正文；综述导读与Hot Words单列，不增加原始语料覆盖率。不读取目录表作为正文，不等于精读、事实核验或结果复现。",
+        "scope": "本地覆盖率只统计18个专题正文；综述导读与Hot Words单列，不增加原始语料覆盖率。不读取目录表作为正文，不等于精读、事实核验或结果复现。",
         "matching_policy": "精确本地ID宇宙匹配numeric/slug；numeric版本号及pdf/html后缀规范化；排除注释、围栏/缩进代码、图片和未使用的链接定义；使用过的reference链接归到正文使用行。",
         "character_policy": "统计可见正文中的CJK汉字（含扩展区），保留标题/表格/引用标签/inline code内容；排除链接目标、HTML标签、注释、围栏/缩进代码及链接定义。",
         "external_policy": "本地/库外按data/papers.jsonl成员资格区分，不按年份推断。库外含历史文献，也可能是近期新条目或拼写错误；不计本地覆盖阈值，不联网核验年代。",
@@ -410,7 +411,7 @@ def render_markdown(report):
             "PASS" if chapter["passed"] else "FAIL"))
     lines.extend([
         "", "## 跨专题章节", "",
-        "[综述导读](../chapters/00_surveys.md)与[Hot Words](../chapters/17_hot_words.md)连接多个方向，单独统计论文和一手网页引用。", "",
+        "[综述导读](../chapters/md/00_surveys.md)与[Hot Words](../chapters/md/17_hot_words.md)连接多个方向，单独统计论文和一手网页引用。", "",
         "| 章节 | 正文汉字 | 引用数 | 检查 |", "| --- | ---: | ---: | --- |",
     ])
     for chapter in report["supplemental_chapters"]:

@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 370" width="900" height="370" role="img" aria-label="残差向量量化" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">
+<rect x="0" y="0" width="900" height="370" fill="#ffffff"/>
+<defs><marker id="rvqa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker><marker id="rvqr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C2501A"/></marker><marker id="rvqg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#26805A"/></marker><marker id="rvqp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5B45B0"/></marker></defs>
+<text x="20" y="26" font-size="14" fill="#18202C" text-anchor="start" font-weight="700">残差向量量化：用两本码本一层层逼近一帧声音的向量（只画 4 维、每本 4 个条目，数字为示意）</text>
+<path d="M20.0,90.0 L21.2,83.8 L22.4,90.5 L23.6,93.4 L24.8,83.7 L26.0,80.8 L27.2,89.1 L28.4,88.6 L29.6,80.5 L30.8,84.9 L32.0,95.4 L33.2,93.4 L34.4,89.6 L35.6,99.1 L36.8,106.6 L38.0,100.1 L39.2,97.2 L40.4,105.0 L41.6,103.5 L42.8,91.0 L44.0,88.1 L45.2,91.9 L46.4,83.6 L47.6,71.8 L48.8,74.4 L50.0,79.0 L51.2,71.7 L52.4,69.1 L53.6,80.7 L54.8,87.4 L56.0,83.7 L57.2,89.4 L58.4,103.6 L59.6,105.5 L60.8,100.3 L62.0,106.4 L63.2,113.3 L64.4,105.0 L65.6,96.2 L66.8,99.6 L68.0,98.1 L69.2,84.4 L70.4,78.7 L71.6,84.1 L72.8,80.6 L74.0,70.9 L75.2,74.7 L76.4,84.2 L77.6,81.5 L78.8,78.3 L80.0,88.8 L81.2,96.7 L82.4,91.2 L83.6,90.5 L84.8,100.4 L86.0,100.8 L87.2,91.1 L88.4,92.0 L89.6,98.9 L90.8,93.2 L92.0,84.7 L93.2,90.1 L94.4,95.7 L95.6,88.4 L96.8,85.4 L98.0,95.0 L99.2,97.5 L100.4,89.2 L101.6,90.1 L102.8,98.3 L104.0,94.0 L105.2,84.1 L106.4,86.7 L107.6,90.8 L108.8,81.4 L110.0,74.4 L111.2,81.3 L112.4,84.0 L113.6,76.3 L114.8,77.9 L116.0,90.3 L117.2,92.7 L118.4,88.6 L119.6,97.0 L120.8,108.3 L122.0,105.2 L123.2,100.5 L124.4,107.7 L125.6,109.9 L126.8,98.1 L128.0,91.6 L129.2,95.3 L130.4,89.4 L131.6,75.4 L132.8,73.8 L134.0,79.1 L135.2,73.1 L136.4,66.6 L137.6,75.4 L138.8,84.2 L140.0,80.9 L141.2,82.9 L142.4,96.8 L143.6,102.4 L144.8,97.1 L146.0,100.8 L147.2,110.3 L148.4,106.1 L149.6,96.4 L150.8,98.9 L152.0,101.6 L153.2,90.6 L154.4,82.5 L155.6,87.8 L156.8,88.0 L158.0,77.9 L159.2,77.8 L160.4,87.5 L161.6,86.6 L162.8,80.1 L164.0,86.4 L165.2,95.2 L166.4,90.1 L167.6,85.1 L168.8,92.9 L170.0,95.9 L171.2,86.5 L172.4,84.2 L173.6,92.5 L174.8,91.2 L176.0,82.7 L177.2,86.8 L178.4,96.3 L179.6,93.0 L180.8,88.7 L182.0,97.8 L183.2,104.4 L184.4,97.2 L185.6,94.6 L186.8,102.4 L188.0,100.6 L189.2,88.5 L190.4,86.6 L191.6,90.9 L192.8,82.7 L194.0,71.8 L195.2,75.4 L196.4,80.2 L197.6,73.1 L198.8,71.2 L200.0,83.2 L201.2,89.4 L202.4,85.7 L203.6,91.7 L204.8,105.5 L206.0,106.6 L207.2,101.2 L208.4,107.2 L209.6,113.3 L210.8,104.1 L212.0,95.2 L213.2,98.4 L214.4,96.0 L215.6,81.9 L216.8,76.5 L218.0,81.8 L219.2,78.0 L220.4,68.7 L221.6,73.4 L222.8,83.3 L224.0,80.8 L225.2,78.7 L226.4,90.2 L227.6,98.4 L228.8,93.2 L230.0,93.5 L231.2,103.7 L232.4,103.6 L233.6,93.8 L234.8,94.6 L236.0,100.8 L237.2,93.8 L238.4,84.7 L239.6,89.6 L240.8,94.0 L242.0,85.7 L243.2,82.6 L244.4,92.1 L245.6,94.0 L246.8,85.9 L248.0,87.7 L249.2,96.4 L250.4,92.5 L251.6,83.6 L252.8,87.5 L254.0,92.0 L255.2,83.1 L256.4,77.0 L257.6,84.4 L258.8,86.8" fill="none" stroke="#2B57C9" stroke-width="1.2"/>
+<line x1="50" y1="62" x2="50" y2="118" stroke="#E2E6EC" stroke-width="1"/>
+<line x1="80" y1="62" x2="80" y2="118" stroke="#E2E6EC" stroke-width="1"/>
+<line x1="110" y1="62" x2="110" y2="118" stroke="#E2E6EC" stroke-width="1"/>
+<line x1="140" y1="62" x2="140" y2="118" stroke="#E2E6EC" stroke-width="1"/>
+<line x1="170" y1="62" x2="170" y2="118" stroke="#E2E6EC" stroke-width="1"/>
+<line x1="200" y1="62" x2="200" y2="118" stroke="#E2E6EC" stroke-width="1"/>
+<line x1="230" y1="62" x2="230" y2="118" stroke="#E2E6EC" stroke-width="1"/>
+<rect x="110" y="60" width="30" height="60" fill="none" stroke="#C2501A" stroke-width="2"/>
+<text x="410" y="95" font-size="11" fill="#5A6577" text-anchor="start">一段音频切成一帧一帧，取出其中一帧（橙框）</text>
+<rect x="70" y="180" width="46" height="20" fill="#ff9c63" stroke="#fff" stroke-width="1"/>
+<text x="93.0" y="194" font-size="10.5" fill="#18202C" text-anchor="middle">+0.82</text>
+<rect x="70" y="202" width="46" height="20" fill="#c1d9ff" stroke="#fff" stroke-width="1"/>
+<text x="93.0" y="216" font-size="10.5" fill="#18202C" text-anchor="middle">−0.31</text>
+<rect x="70" y="224" width="46" height="20" fill="#ffc6a5" stroke="#fff" stroke-width="1"/>
+<text x="93.0" y="238" font-size="10.5" fill="#18202C" text-anchor="middle">+0.47</text>
+<rect x="70" y="246" width="46" height="20" fill="#fff3ec" stroke="#fff" stroke-width="1"/>
+<text x="93.0" y="260" font-size="10.5" fill="#18202C" text-anchor="middle">+0.10</text>
+<text x="93.0" y="174" font-size="10.5" fill="#2B57C9" text-anchor="middle" font-weight="600">这一帧的向量</text>
+<line x1="125" y1="122" x2="100" y2="150" stroke="#5A6577" stroke-width="1.4" marker-end="url(#rvqa)"/>
+<text x="200" y="160" font-size="12" fill="#5B45B0" text-anchor="start" font-weight="700">码本 1：找最接近的条目</text>
+<rect x="200" y="180" width="50" height="20" fill="#9bc3ff" stroke="#fff" stroke-width="1"/>
+<text x="225.0" y="194" font-size="10.5" fill="#18202C" text-anchor="middle">−0.50</text>
+<rect x="200" y="202" width="50" height="20" fill="#ffb78d" stroke="#fff" stroke-width="1"/>
+<text x="225.0" y="216" font-size="10.5" fill="#18202C" text-anchor="middle">+0.60</text>
+<rect x="200" y="224" width="50" height="20" fill="#fff3ec" stroke="#fff" stroke-width="1"/>
+<text x="225.0" y="238" font-size="10.5" fill="#18202C" text-anchor="middle">+0.10</text>
+<rect x="200" y="246" width="50" height="20" fill="#ffdbc6" stroke="#fff" stroke-width="1"/>
+<text x="225.0" y="260" font-size="10.5" fill="#18202C" text-anchor="middle">+0.30</text>
+<text x="225.0" y="174" font-size="10.5" fill="#5A6577" text-anchor="middle" font-weight="600">#0</text>
+<rect x="258" y="180" width="50" height="20" fill="#ffe7d9" stroke="#fff" stroke-width="1"/>
+<text x="283.0" y="194" font-size="10.5" fill="#18202C" text-anchor="middle">+0.20</text>
+<rect x="258" y="202" width="50" height="20" fill="#ff9354" stroke="#fff" stroke-width="1"/>
+<text x="283.0" y="216" font-size="10.5" fill="#18202C" text-anchor="middle">+0.90</text>
+<rect x="258" y="224" width="50" height="20" fill="#afcfff" stroke="#fff" stroke-width="1"/>
+<text x="283.0" y="238" font-size="10.5" fill="#18202C" text-anchor="middle">−0.40</text>
+<rect x="258" y="246" width="50" height="20" fill="#ffffff" stroke="#fff" stroke-width="1"/>
+<text x="283.0" y="260" font-size="10.5" fill="#18202C" text-anchor="middle">+0.00</text>
+<text x="283.0" y="174" font-size="10.5" fill="#5A6577" text-anchor="middle" font-weight="600">#1</text>
+<rect x="316" y="180" width="50" height="20" fill="#ff9f67" stroke="#fff" stroke-width="1"/>
+<text x="341.0" y="194" font-size="10.5" fill="#18202C" text-anchor="middle">+0.80</text>
+<rect x="316" y="202" width="50" height="20" fill="#c7ddff" stroke="#fff" stroke-width="1"/>
+<text x="341.0" y="216" font-size="10.5" fill="#18202C" text-anchor="middle">−0.28</text>
+<rect x="316" y="224" width="50" height="20" fill="#ffc3a0" stroke="#fff" stroke-width="1"/>
+<text x="341.0" y="238" font-size="10.5" fill="#18202C" text-anchor="middle">+0.50</text>
+<rect x="316" y="246" width="50" height="20" fill="#fff9f5" stroke="#fff" stroke-width="1"/>
+<text x="341.0" y="260" font-size="10.5" fill="#18202C" text-anchor="middle">+0.05</text>
+<text x="341.0" y="174" font-size="10.5" fill="#5B45B0" text-anchor="middle" font-weight="600">#2</text>
+<rect x="313" y="177" width="56" height="94" fill="none" stroke="#5B45B0" stroke-width="2" rx="4"/>
+<rect x="374" y="180" width="50" height="20" fill="#73abff" stroke="#fff" stroke-width="1"/>
+<text x="399.0" y="194" font-size="10.5" fill="#18202C" text-anchor="middle">−0.70</text>
+<rect x="374" y="202" width="50" height="20" fill="#87b7ff" stroke="#fff" stroke-width="1"/>
+<text x="399.0" y="216" font-size="10.5" fill="#18202C" text-anchor="middle">−0.60</text>
+<rect x="374" y="224" width="50" height="20" fill="#ffe7d9" stroke="#fff" stroke-width="1"/>
+<text x="399.0" y="238" font-size="10.5" fill="#18202C" text-anchor="middle">+0.20</text>
+<rect x="374" y="246" width="50" height="20" fill="#ff9f67" stroke="#fff" stroke-width="1"/>
+<text x="399.0" y="260" font-size="10.5" fill="#18202C" text-anchor="middle">+0.80</text>
+<text x="399.0" y="174" font-size="10.5" fill="#5A6577" text-anchor="middle" font-weight="600">#3</text>
+<line x1="434" y1="220" x2="470" y2="220" stroke="#5A6577" stroke-width="1.4" marker-end="url(#rvqa)"/>
+<text x="452" y="208" font-size="10" fill="#5A6577" text-anchor="middle">相减</text>
+<rect x="476" y="180" width="46" height="20" fill="#fffcfb" stroke="#fff" stroke-width="1"/>
+<text x="499.0" y="194" font-size="10.5" fill="#18202C" text-anchor="middle">+0.02</text>
+<rect x="476" y="202" width="46" height="20" fill="#f9fbff" stroke="#fff" stroke-width="1"/>
+<text x="499.0" y="216" font-size="10.5" fill="#18202C" text-anchor="middle">−0.03</text>
+<rect x="476" y="224" width="46" height="20" fill="#f9fbff" stroke="#fff" stroke-width="1"/>
+<text x="499.0" y="238" font-size="10.5" fill="#18202C" text-anchor="middle">−0.03</text>
+<rect x="476" y="246" width="46" height="20" fill="#fff9f5" stroke="#fff" stroke-width="1"/>
+<text x="499.0" y="260" font-size="10.5" fill="#18202C" text-anchor="middle">+0.05</text>
+<text x="499.0" y="174" font-size="10.5" fill="#C2501A" text-anchor="middle" font-weight="600">剩下的误差</text>
+<text x="560" y="160" font-size="12" fill="#0E6E7E" text-anchor="start" font-weight="700">码本 2：给误差找编号</text>
+<rect x="560" y="180" width="50" height="20" fill="#fff9f5" stroke="#fff" stroke-width="1"/>
+<text x="585.0" y="194" font-size="10.5" fill="#18202C" text-anchor="middle">+0.05</text>
+<rect x="560" y="202" width="50" height="20" fill="#fffaf7" stroke="#fff" stroke-width="1"/>
+<text x="585.0" y="216" font-size="10.5" fill="#18202C" text-anchor="middle">+0.04</text>
+<rect x="560" y="224" width="50" height="20" fill="#ffffff" stroke="#fff" stroke-width="1"/>
+<text x="585.0" y="238" font-size="10.5" fill="#18202C" text-anchor="middle">+0.00</text>
+<rect x="560" y="246" width="50" height="20" fill="#f9fbff" stroke="#fff" stroke-width="1"/>
+<text x="585.0" y="260" font-size="10.5" fill="#18202C" text-anchor="middle">−0.03</text>
+<text x="585.0" y="174" font-size="10.5" fill="#5A6577" text-anchor="middle" font-weight="600">#0</text>
+<rect x="618" y="180" width="50" height="20" fill="#fffcfb" stroke="#fff" stroke-width="1"/>
+<text x="643.0" y="194" font-size="10.5" fill="#18202C" text-anchor="middle">+0.02</text>
+<rect x="618" y="202" width="50" height="20" fill="#fbfcff" stroke="#fff" stroke-width="1"/>
+<text x="643.0" y="216" font-size="10.5" fill="#18202C" text-anchor="middle">−0.02</text>
+<rect x="618" y="224" width="50" height="20" fill="#f7faff" stroke="#fff" stroke-width="1"/>
+<text x="643.0" y="238" font-size="10.5" fill="#18202C" text-anchor="middle">−0.04</text>
+<rect x="618" y="246" width="50" height="20" fill="#fffaf7" stroke="#fff" stroke-width="1"/>
+<text x="643.0" y="260" font-size="10.5" fill="#18202C" text-anchor="middle">+0.04</text>
+<text x="643.0" y="174" font-size="10.5" fill="#0E6E7E" text-anchor="middle" font-weight="600">#1</text>
+<rect x="615" y="177" width="56" height="94" fill="none" stroke="#0E6E7E" stroke-width="2" rx="4"/>
+<rect x="676" y="180" width="50" height="20" fill="#f7faff" stroke="#fff" stroke-width="1"/>
+<text x="701.0" y="194" font-size="10.5" fill="#18202C" text-anchor="middle">−0.04</text>
+<rect x="676" y="202" width="50" height="20" fill="#fffbf9" stroke="#fff" stroke-width="1"/>
+<text x="701.0" y="216" font-size="10.5" fill="#18202C" text-anchor="middle">+0.03</text>
+<rect x="676" y="224" width="50" height="20" fill="#fffcfb" stroke="#fff" stroke-width="1"/>
+<text x="701.0" y="238" font-size="10.5" fill="#18202C" text-anchor="middle">+0.02</text>
+<rect x="676" y="246" width="50" height="20" fill="#fffdfd" stroke="#fff" stroke-width="1"/>
+<text x="701.0" y="260" font-size="10.5" fill="#18202C" text-anchor="middle">+0.01</text>
+<text x="701.0" y="174" font-size="10.5" fill="#5A6577" text-anchor="middle" font-weight="600">#2</text>
+<rect x="734" y="180" width="50" height="20" fill="#ffffff" stroke="#fff" stroke-width="1"/>
+<text x="759.0" y="194" font-size="10.5" fill="#18202C" text-anchor="middle">+0.00</text>
+<rect x="734" y="202" width="50" height="20" fill="#f5f9ff" stroke="#fff" stroke-width="1"/>
+<text x="759.0" y="216" font-size="10.5" fill="#18202C" text-anchor="middle">−0.05</text>
+<rect x="734" y="224" width="50" height="20" fill="#fff9f5" stroke="#fff" stroke-width="1"/>
+<text x="759.0" y="238" font-size="10.5" fill="#18202C" text-anchor="middle">+0.05</text>
+<rect x="734" y="246" width="50" height="20" fill="#ffffff" stroke="#fff" stroke-width="1"/>
+<text x="759.0" y="260" font-size="10.5" fill="#18202C" text-anchor="middle">+0.00</text>
+<text x="759.0" y="174" font-size="10.5" fill="#5A6577" text-anchor="middle" font-weight="600">#3</text>
+<rect x="20" y="290" width="860" height="66" fill="#F6F7F9" stroke="#E2E6EC" stroke-width="1" rx="8"/>
+<text x="36" y="314" font-size="12.5" fill="#18202C" text-anchor="start">这一帧于是记成一串编号：第 1 层是 2，第 2 层是 1……两个条目相加已经很接近原向量，层数越多越接近。</text>
+<text x="36" y="338" font-size="12.5" fill="#5A6577" text-anchor="start">Sesame 的 CSM 里，大主干只预测每一帧的第 1 层编号，其余各层交给一个小解码器补齐。</text>
+</svg>

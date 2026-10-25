@@ -9,12 +9,12 @@
 | 指标 | 数量 |
 | --- | ---: |
 | 文献记录 | 2050 |
-| 研究专题 | 17 |
+| 研究专题 | 18 |
 | 跨专题章节 | 2 |
-| 专题引用的文献记录（去重） | 682 |
-| 专题引用占文献库比例 | 33.3% |
-| 专题正文汉字 | 174857 |
-| 跨专题正文汉字 | 12158 |
+| 专题引用的文献记录（去重） | 713 |
+| 专题引用占文献库比例 | 34.8% |
+| 专题正文汉字 | 567319 |
+| 跨专题正文汉字 | 30934 |
 
 ## 各专题覆盖
 
@@ -22,32 +22,33 @@
 
 | 专题 | 正文汉字 | 引用记录 | 其中主类 | 其中跨类 | 主类文献数 | 主类覆盖率 | 检查 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| [01_basics](../chapters/01_basics.md) | 9094 | 40 | 4 | 36 | 4 | 100.0% | PASS |
-| [02_memory](../chapters/02_memory.md) | 8906 | 39 | 39 | 0 | 147 | 26.5% | PASS |
-| [03_skills_and_self_improvement](../chapters/03_skills_and_self_improvement.md) | 19263 | 47 | 32 | 15 | 149 | 21.5% | PASS |
-| [04_training_data](../chapters/04_training_data.md) | 7832 | 35 | 25 | 10 | 25 | 100.0% | PASS |
-| [05_rl_and_distillation](../chapters/05_rl_and_distillation.md) | 9186 | 48 | 41 | 7 | 159 | 25.8% | PASS |
-| [06_evaluation](../chapters/06_evaluation.md) | 10418 | 56 | 55 | 1 | 243 | 22.6% | PASS |
-| [07_safety](../chapters/07_safety.md) | 9011 | 41 | 25 | 16 | 58 | 43.1% | PASS |
-| [08_collaboration](../chapters/08_collaboration.md) | 8990 | 31 | 22 | 9 | 22 | 100.0% | PASS |
-| [09_multimodal_gui](../chapters/09_multimodal_gui.md) | 8544 | 44 | 33 | 11 | 38 | 86.8% | PASS |
-| [10_world_models](../chapters/10_world_models.md) | 8884 | 44 | 44 | 0 | 205 | 21.5% | PASS |
-| [11_embodied](../chapters/11_embodied.md) | 9336 | 58 | 58 | 0 | 303 | 19.1% | PASS |
-| [12_science](../chapters/12_science.md) | 7795 | 30 | 15 | 15 | 15 | 100.0% | PASS |
-| [13_efficiency](../chapters/13_efficiency.md) | 7856 | 42 | 42 | 0 | 96 | 43.8% | PASS |
-| [14_model_science](../chapters/14_model_science.md) | 8312 | 42 | 42 | 0 | 75 | 56.0% | PASS |
-| [15_frontier_reports](../chapters/15_frontier_reports.md) | 12397 | 48 | 43 | 5 | 43 | 100.0% | PASS |
-| [16_generation](../chapters/16_generation.md) | 8554 | 44 | 44 | 0 | 120 | 36.7% | PASS |
-| [18_harness_engineering](../chapters/18_harness_engineering.md) | 20479 | 65 | 56 | 9 | 56 | 100.0% | PASS |
+| [01_basics](../chapters/md/01_basics.md) | 27857 | 40 | 4 | 36 | 4 | 100.0% | PASS |
+| [02_memory](../chapters/md/02_memory.md) | 27832 | 41 | 39 | 2 | 145 | 26.9% | PASS |
+| [03_self_improvement](../chapters/md/03_self_improvement.md) | 29134 | 47 | 32 | 15 | 149 | 21.5% | PASS |
+| [04_data_and_environments](../chapters/md/04_data_and_environments.md) | 26641 | 35 | 25 | 10 | 25 | 100.0% | PASS |
+| [05_rl_and_distillation](../chapters/md/05_rl_and_distillation.md) | 30061 | 48 | 41 | 7 | 159 | 25.8% | PASS |
+| [06_evaluation](../chapters/md/06_evaluation.md) | 28980 | 56 | 54 | 2 | 240 | 22.5% | PASS |
+| [07_safety_and_alignment](../chapters/md/07_safety_and_alignment.md) | 30332 | 41 | 25 | 16 | 58 | 43.1% | PASS |
+| [08_collaboration](../chapters/md/08_collaboration.md) | 28006 | 31 | 22 | 9 | 22 | 100.0% | PASS |
+| [09_multimodal_understanding](../chapters/md/09_multimodal_understanding.md) | 31352 | 55 | 22 | 33 | 23 | 95.7% | PASS |
+| [10_world_models](../chapters/md/10_world_models.md) | 37273 | 44 | 44 | 0 | 205 | 21.5% | PASS |
+| [11_embodied](../chapters/md/11_embodied.md) | 45217 | 59 | 59 | 0 | 303 | 19.5% | PASS |
+| [12_science](../chapters/md/12_science.md) | 26877 | 30 | 15 | 15 | 15 | 100.0% | PASS |
+| [13_efficiency_and_architecture](../chapters/md/13_efficiency_and_architecture.md) | 26603 | 42 | 42 | 0 | 96 | 43.8% | PASS |
+| [14_model_science](../chapters/md/14_model_science.md) | 26483 | 42 | 42 | 0 | 75 | 56.0% | PASS |
+| [15_frontier_reports](../chapters/md/15_frontier_reports.md) | 38570 | 48 | 43 | 5 | 43 | 100.0% | PASS |
+| [16_multimodal_generation](../chapters/md/16_multimodal_generation.md) | 41415 | 44 | 44 | 0 | 120 | 36.7% | PASS |
+| [18_harness_engineering](../chapters/md/18_harness_engineering.md) | 32811 | 65 | 56 | 9 | 56 | 100.0% | PASS |
+| [19_multimodal_agent](../chapters/md/19_multimodal_agent.md) | 31875 | 33 | 20 | 13 | 20 | 100.0% | PASS |
 
 ## 跨专题章节
 
-[综述导读](../chapters/00_surveys.md)与[Hot Words](../chapters/17_hot_words.md)连接多个方向，单独统计论文和一手网页引用。
+[综述导读](../chapters/md/00_surveys.md)与[Hot Words](../chapters/md/17_hot_words.md)连接多个方向，单独统计论文和一手网页引用。
 
 | 章节 | 正文汉字 | 引用数 | 检查 |
 | --- | ---: | ---: | --- |
-| 00_surveys | 6423 | 23 | PASS |
-| 17_hot_words | 5735 | 25 | PASS |
+| 00_surveys | 15383 | 23 | PASS |
+| 17_hot_words | 15551 | 29 | PASS |
 
 ## 统计方法
 

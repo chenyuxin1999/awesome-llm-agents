@@ -4,7 +4,7 @@
 
 [文献目录](README.md) · [分类方法](../docs/classification_audit.md)
 
-[阅读专题导读](../chapters/05_rl_and_distillation.md)
+[阅读专题导读](../chapters/md/05_rl_and_distillation.md)
 
 本方向收录 **159 条记录**。相关方向用于交叉检索，不重复计入各类数量。
 
@@ -17,7 +17,7 @@
 | 2608.27448 | [TTPO: Test-Time Policy Optimization](https://www.alphaxiv.org/abs/2608.27448) | — |
 | 2609.20807 | [Score Centering Stabilizes Off-policy Reinforcement Learning](https://www.alphaxiv.org/abs/2609.20807) | — |
 | 2607.16097 | [Understanding Reasoning from Pretraining to Post-Training](https://www.alphaxiv.org/abs/2607.16097) | — |
-| 2609.flashreinforce-asynchronous-rl-agentic-models | [FlashREINFORCE: Critic-Free Single-Rollout Asynchronous RL for Agentic Language Models](https://www.alphaxiv.org/abs/2609.flashreinforce-asynchronous-rl-agentic-models) | [效率与循环计算架构](13_efficiency.md) |
+| 2609.flashreinforce-asynchronous-rl-agentic-models | [FlashREINFORCE: Critic-Free Single-Rollout Asynchronous RL for Agentic Language Models](https://www.alphaxiv.org/abs/2609.flashreinforce-asynchronous-rl-agentic-models) | [效率与循环计算架构](13_efficiency_and_architecture.md) |
 | 2608.05987 | [AgentOPSD: Recursive Self-Distillation for Agentic Reinforcement Learning](https://www.alphaxiv.org/abs/2608.05987) | — |
 | 2607.26246 | [Weak-to-Strong On-Policy Distillation](https://www.alphaxiv.org/abs/2607.26246) | — |
 | 2607.18110 | [LLM-as-a-Coach: Experiential Learning for Non-Verifiable Tasks](https://www.alphaxiv.org/abs/2607.18110) | — |
@@ -31,7 +31,7 @@
 | 2609.15903 | [Discrete Beckmann Transport Models for One-Step Language Modeling and Reasoning](https://www.alphaxiv.org/abs/2609.15903) | — |
 | 2608.19098 | [Open-MOPD: Diagnosing and Fixing Capability Imbalance in Multi-Teacher On-Policy Distillation](https://www.alphaxiv.org/abs/2608.19098) | — |
 | 2607.21556 | [Visual Contrastive Self-Distillation](https://www.alphaxiv.org/abs/2607.21556) | — |
-| 2609.ier-opd | [1% of Tokens Can Be Enough: On Gradient Estimation in On-Policy Distillation](https://www.alphaxiv.org/abs/2609.ier-opd) | [效率与循环计算架构](13_efficiency.md) |
+| 2609.ier-opd | [1% of Tokens Can Be Enough: On Gradient Estimation in On-Policy Distillation](https://www.alphaxiv.org/abs/2609.ier-opd) | [效率与循环计算架构](13_efficiency_and_architecture.md) |
 | 2607.11505 | [Proxy OPD: On-Policy Distillation with Transferable Relative Proxy Update](https://www.alphaxiv.org/abs/2607.11505) | — |
 | 2609.20784 | [RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning](https://www.alphaxiv.org/abs/2609.20784) | — |
 | 2607.07847 | [When Does Continual Learning Require Learning](https://www.alphaxiv.org/abs/2607.07847) | — |
@@ -167,5 +167,5 @@
 | 2609.10712 | [An Open Recipe for IMO Gold: Training Nemotron for Olympiad Mathematics](https://www.alphaxiv.org/abs/2609.10712) | — |
 | 2609.13058 | [Expert-Space Exploration in MoE Reinforcement Learning](https://www.alphaxiv.org/abs/2609.13058) | — |
 | 2609.16937 | [Beyond Token-Local Imitation: Reward-Compatible Temporal Credit Assignment for On-Policy Distillation](https://www.alphaxiv.org/abs/2609.16937) | — |
-| 2609.36838 | [On-Policy Visual Evidence Distillation](https://www.alphaxiv.org/abs/2609.36838) | [多模态与 GUI Agent](09_multimodal_gui.md) |
+| 2609.36838 | [On-Policy Visual Evidence Distillation](https://www.alphaxiv.org/abs/2609.36838) | [多模态理解](09_multimodal_understanding.md) |
 | 2609.20457 | [Fingerprinting Multimodal Large Language Models](https://www.alphaxiv.org/abs/2609.20457) | — |

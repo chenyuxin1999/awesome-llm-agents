@@ -4,7 +4,7 @@
 
 **理解一个领域，不只是知道有哪些论文，更要知道问题从何而来、已有方法走到了哪里，以及下一步值得研究什么。**
 
-本仓库面向正在进入 LLM 与 Agent 研究的读者，以关键问题为线索，连接领域综述、经典工作、前沿方法与研究机会。内容覆盖 **17 个研究专题、综述导读、Hot Words 和 2050 条文献记录**，希望为建立个人研究框架、比较技术路线和形成研究想法提供起点。
+本仓库面向正在进入 LLM 与 Agent 研究的读者，以关键问题为线索，连接领域综述、经典工作、前沿方法与研究机会。内容覆盖 **18 个研究专题、综述导读、Hot Words 和 2050 条文献记录**，希望为建立个人研究框架、比较技术路线和形成研究想法提供起点。
 
 **本仓库是探索研究问题的起点，而不是理解一个领域的终点。** 它的价值在于帮助发现问题、建立联系，并引向更深入的阅读与实践。希望读者从这里走向原始论文、代码和实验，在补充、质疑与修订中逐步建立自己的科研地图，而不是把仓库中的分类、概括或研究机会当作最终答案。
 
@@ -16,7 +16,9 @@
 
 ```text
 README.md       项目思路与入口
-chapters/       综述、17 个研究方向与 Hot Words
+chapters/       综述、18 个研究方向与 Hot Words
+  md/           各章 Markdown 版（编辑用的源文件）
+  html/         各章图文版（由 md 生成，下载后用浏览器打开）
 catalog/        全量分类论文目录
 scripts/        目录生成、来源检查、覆盖审计与文档验证（human not in the loop
 
@@ -56,7 +58,7 @@ sources/        引用来源与版本记录（human not in the loop
 
 ### 2. 综述与经典工作：理解问题为什么走到今天
 
-[综述导读](chapters/00_surveys.md)优先连接较新的领域综述与研究路线图，各专题的发展脉络则回到不限发表时间的经典工作，解释关键概念、技术转折与方法之间的继承关系。
+[综述导读](chapters/md/00_surveys.md)优先连接较新的领域综述与研究路线图，各专题的发展脉络则回到不限发表时间的经典工作，解释关键概念、技术转折与方法之间的继承关系。
 
 寻找重要工作时，可以留意它是否在多篇综述中反复出现、是否承担关键论证，以及是否改变了后续研究的任务、方法或评价方式。引用次数是线索之一，真正需要理解的是它解决了什么问题，又为后来的工作留下了什么。
 
@@ -68,13 +70,13 @@ sources/        引用来源与版本记录（human not in the loop
 
 ### 4. Hot Words：从新名字找到具体机制与机会
 
-[Hot Words](chapters/17_hot_words.md)整理 JEV、harness、Agent Skills、OPD、递归自改进与 long-horizon 等概念，追溯其来源、背景和相关工作。
+[Hot Words](chapters/md/17_hot_words.md)整理 JEV、harness、Agent Skills、OPD、递归自改进与 long-horizon 等概念，追溯其来源、背景和相关工作。
 
 新术语可以帮助发现正在聚集的研究问题，但名称本身并不构成技术贡献。本章重点区分模型名称、系统组件、训练方法与能力目标，让读者能够从一个热词继续追问：它改变了哪个环节，与已有方法有什么关系，还有哪些问题需要解决。
 
 ### 5. 技术报告：理解前沿模型的能力起点
 
-判断一个研究问题是否仍有价值，需要了解前沿模型已经能做什么，以及这些能力通过怎样的训练与系统设计获得。[前沿技术报告](chapters/15_frontier_reports.md)连接各家通用旗舰，以及语音、多模态、表格、推荐等专门系统的技术报告、模型卡与发布博客。
+判断一个研究问题是否仍有价值，需要了解前沿模型已经能做什么，以及这些能力通过怎样的训练与系统设计获得。[前沿技术报告](chapters/md/15_frontier_reports.md)连接各家通用旗舰，以及语音、多模态、表格、推荐等专门系统的技术报告、模型卡与发布博客。
 
 讨论围绕模型结构、数据与后训练、推理配置和任务能力展开，帮助区分底座模型已有的能力、执行框架带来的收益，以及仍值得单独研究的缺口。它为选题和基线选择提供背景，而不是把不同条件下的分数合并为一个总榜。
 
@@ -96,7 +98,7 @@ sources/        引用来源与版本记录（human not in the loop
 
 ### 入口二：从一篇 Survey 开始，先建立系统框架
 
-通过[综述导读](chapters/00_surveys.md)选择方向，先理解研究对象、关键问题和主要技术路线，再沿综述中的代表工作补充细节。重点不仅是记住分类，还要看不同路线为何形成、分别解决什么困难，以及哪些问题贯穿多代工作。[Agent 全局总览](docs/overview.md)也可用于理解系统各部分的关系；随后再回到近期论文，观察已有框架下出现了哪些新变化。
+通过[综述导读](chapters/md/00_surveys.md)选择方向，先理解研究对象、关键问题和主要技术路线，再沿综述中的代表工作补充细节。重点不仅是记住分类，还要看不同路线为何形成、分别解决什么困难，以及哪些问题贯穿多代工作。[Agent 全局总览](docs/overview.md)也可用于理解系统各部分的关系；随后再回到近期论文，观察已有框架下出现了哪些新变化。
 
 ### 入口三：从 Chapters 的叙事开始，直接进入正在被探索的问题
 
@@ -123,38 +125,39 @@ sources/        引用来源与版本记录（human not in the loop
 
 | 方向 | 主要内容 | 阅读入口 |
 | --- | --- | --- |
-| **01 · 基础、规划与工具使用** | Agent 工作循环、任务分解、工具接口、观察与证据选择 | [章节](chapters/01_basics.md) · [论文](catalog/01_basics.md) |
-| **02 · 记忆与上下文** | 工作记忆、长期记忆、检索、压缩、写入与遗忘 | [章节](chapters/02_memory.md) · [论文](catalog/02_memory.md) |
-| **03 · 自我改进（RSI）** | 参数、上下文、记忆、技能与 harness 代码的进化，改进器自身的递归更新，以及怎样验证改进是真的 | [章节](chapters/03_skills_and_self_improvement.md) · [论文](catalog/03_skills_and_self_improvement.md) |
-| **18 · Harness 工程** | 模型权重与世界之间的循环、上下文、工具与技能、子 agent 和执行环境；harness 的设计、自动优化、与权重的联合优化、安全，以及怎样评测 harness | [章节](chapters/18_harness_engineering.md) · [论文](catalog/18_harness_engineering.md) |
-| **06 · 评测与能力基准** | 更长的任务链、更复杂的能力组合，以及跨领域场景覆盖 | [章节](chapters/06_evaluation.md) · [论文](catalog/06_evaluation.md) |
-| **07 · 安全与对齐** | 提示注入、工具权限、欺骗、奖励漏洞与人工监督 | [章节](chapters/07_safety.md) · [论文](catalog/07_safety.md) |
-| **08 · 多智能体与人机协作** | 角色分工、通信与协调、协作成本、人工接管 | [章节](chapters/08_collaboration.md) · [论文](catalog/08_collaboration.md) |
+| **01 · 基础、规划与工具使用** | Agent 工作循环、任务分解、工具接口、观察与证据选择 | [章节](chapters/md/01_basics.md) · [论文](catalog/01_basics.md) |
+| **02 · 记忆与上下文** | 工作记忆、长期记忆、检索、压缩、写入与遗忘 | [章节](chapters/md/02_memory.md) · [论文](catalog/02_memory.md) |
+| **03 · 自我改进（RSI）** | 参数、上下文、记忆、技能与 harness 代码的进化，改进器自身的递归更新，以及怎样验证改进是真的 | [章节](chapters/md/03_self_improvement.md) · [论文](catalog/03_self_improvement.md) |
+| **18 · Harness 工程** | 模型权重与世界之间的循环、上下文、工具与技能、子 agent 和执行环境；harness 的设计、自动优化、与权重的联合优化、安全，以及怎样评测 harness | [章节](chapters/md/18_harness_engineering.md) · [论文](catalog/18_harness_engineering.md) |
+| **06 · 评测与能力基准** | 更长的任务链、更复杂的能力组合，以及跨领域场景覆盖 | [章节](chapters/md/06_evaluation.md) · [论文](catalog/06_evaluation.md) |
+| **07 · 安全与对齐** | 提示注入、工具权限、欺骗、奖励漏洞与人工监督 | [章节](chapters/md/07_safety_and_alignment.md) · [论文](catalog/07_safety_and_alignment.md) |
+| **08 · 多智能体与人机协作** | 角色分工、通信与协调、协作成本、人工接管 | [章节](chapters/md/08_collaboration.md) · [论文](catalog/08_collaboration.md) |
 
 ### 训练与底层能力：Agent 如何学会做事
 
 | 方向 | 主要内容 | 阅读入口 |
 | --- | --- | --- |
-| **04 · 训练数据与交互环境** | 行动轨迹、合成数据、数据筛选、环境与任务课程 | [章节](chapters/04_training_data.md) · [论文](catalog/04_training_data.md) |
-| **05 · 强化学习与蒸馏** | 结果反馈、信用分配、策略优化、教师与学生训练 | [章节](chapters/05_rl_and_distillation.md) · [论文](catalog/05_rl_and_distillation.md) |
-| **13 · 推理效率与模型架构** | 推理预算、缓存与压缩、循环计算、延迟与计算成本 | [章节](chapters/13_efficiency.md) · [论文](catalog/13_efficiency.md) |
-| **14 · 模型科学与可解释性** | 表征、优化、能力来源、机制解释与实验验证 | [章节](chapters/14_model_science.md) · [论文](catalog/14_model_science.md) |
+| **04 · 训练数据与交互环境** | 行动轨迹、合成数据、数据筛选、环境与任务课程 | [章节](chapters/md/04_data_and_environments.md) · [论文](catalog/04_data_and_environments.md) |
+| **05 · 强化学习与蒸馏** | 结果反馈、信用分配、策略优化、教师与学生训练 | [章节](chapters/md/05_rl_and_distillation.md) · [论文](catalog/05_rl_and_distillation.md) |
+| **13 · 推理效率与模型架构** | 推理预算、缓存与压缩、循环计算、延迟与计算成本 | [章节](chapters/md/13_efficiency_and_architecture.md) · [论文](catalog/13_efficiency_and_architecture.md) |
+| **14 · 模型科学与可解释性** | 表征、优化、能力来源、机制解释与实验验证 | [章节](chapters/md/14_model_science.md) · [论文](catalog/14_model_science.md) |
 
 ### 交互与应用：从数字环境走向物理世界
 
 | 方向 | 主要内容 | 阅读入口 |
 | --- | --- | --- |
-| **09 · 多模态理解与 GUI Agent** | 视觉理解、屏幕定位、网页与桌面操作、交互反馈 | [章节](chapters/09_multimodal_gui.md) · [论文](catalog/09_multimodal_gui.md) |
-| **10 · 世界模型与规划** | 状态表征、动态预测、行动后果、基于模型的规划 | [章节](chapters/10_world_models.md) · [论文](catalog/10_world_models.md) |
-| **11 · 具身智能与 VLA** | 视觉—语言—动作模型、机器人操作、迁移与真实执行 | [章节](chapters/11_embodied.md) · [论文](catalog/11_embodied.md) |
-| **12 · 科研与数学 Agent** | 科学假设、实验设计、程序与证明、可检验的研究产出 | [章节](chapters/12_science.md) · [论文](catalog/12_science.md) |
+| **09 · 多模态理解** | 视觉语言对齐与接入、高分辨率与文档界面感知、空间与视频理解、适配与压缩 | [章节](chapters/md/09_multimodal_understanding.md) · [论文](catalog/09_multimodal_understanding.md) |
+| **19 · 多模态 agent** | 模型能不能看到自己行动的结果：视觉工具与看图思考、网页与电脑操作、原生 GUI 模型与在线强化学习、闭环创作、长程视觉记忆 | [章节](chapters/md/19_multimodal_agent.md) · [论文](catalog/19_multimodal_agent.md) |
+| **10 · 世界模型与规划** | 状态表征、动态预测、行动后果、基于模型的规划 | [章节](chapters/md/10_world_models.md) · [论文](catalog/10_world_models.md) |
+| **11 · 具身智能与 VLA** | 视觉—语言—动作模型、机器人操作、迁移与真实执行 | [章节](chapters/md/11_embodied.md) · [论文](catalog/11_embodied.md) |
+| **12 · 科研与数学 Agent** | 科学假设、实验设计、程序与证明、可检验的研究产出 | [章节](chapters/md/12_science.md) · [论文](catalog/12_science.md) |
 
 ### 延伸阅读：理解相关能力与证据边界
 
 | 方向 | 主要内容 | 阅读入口 |
 | --- | --- | --- |
-| **15 · 前沿模型技术报告** | 通用旗舰与专用模型的训练路线、能力、运行条件与技术贡献 | [章节](chapters/15_frontier_reports.md) · [论文](catalog/15_frontier_reports.md) |
-| **16 · 多模态生成** | 图像与视频生成、可控性、交互生成与 Agent 的区别 | [章节](chapters/16_generation.md) · [论文](catalog/16_generation.md) |
+| **15 · 前沿模型技术报告** | 通用旗舰与专用模型的训练路线、能力、运行条件与技术贡献 | [章节](chapters/md/15_frontier_reports.md) · [论文](catalog/15_frontier_reports.md) |
+| **16 · 多模态生成** | 图像与视频生成、可控性、交互生成与 Agent 的区别 | [章节](chapters/md/16_multimodal_generation.md) · [论文](catalog/16_multimodal_generation.md) |
 
 世界模型、模型科学和多模态生成分别连接环境预测、能力解释与内容合成，为理解 Agent 的技术基础及其与其他系统的组合方式提供背景。
 
@@ -164,15 +167,15 @@ sources/        引用来源与版本记录（human not in the loop
 
 ## 综述入口：连接全局框架与具体专题
 
-[00｜综述导读](chapters/00_surveys.md)连接系统设计、长程任务、自演化与递归改进，再延伸到技能、协作、安全、GUI、世界模型和具身等方向。下面列出几个起点；各专题同时保留经典工作与前沿方法的直接引用。
+[00｜综述导读](chapters/md/00_surveys.md)连接系统设计、长程任务、自演化与递归改进，再延伸到技能、协作、安全、GUI、世界模型和具身等方向。下面列出几个起点；各专题同时保留经典工作与前沿方法的直接引用。
 
 | 想先了解的方向 | 推荐起点 | 接下来读 |
 | --- | --- | --- |
-| **Agent 系统与执行框架** | [Agent System and Harness Design](https://arxiv.org/abs/2606.20683v1) | [基础与工具](chapters/01_basics.md) · [Harness 工程](chapters/18_harness_engineering.md) |
-| **Long-horizon：长程任务** | [Towards Long-Horizon Agents: A Survey](https://long-horizon-agents.github.io/) | [记忆](chapters/02_memory.md) · [评测](chapters/06_evaluation.md) |
-| **Self-evolving：自演化** | [Self-Improvements in Modern Agentic Systems](https://arxiv.org/abs/2607.13104v1) | [自我改进（RSI）](chapters/03_skills_and_self_improvement.md) |
-| **RSI：递归自改进** | [Recursive Self-Improvement in AI](https://arxiv.org/abs/2607.07663v2) · [The Last AI Built by Humans](https://arxiv.org/abs/2609.11873v3) | [综述章的概念区分](chapters/00_surveys.md) · [自改进方法](chapters/03_skills_and_self_improvement.md) |
-| **编码 Agent 的持续改进** | [Self-Evolving Coding Agents](https://arxiv.org/abs/2608.03392v4) | [训练数据](chapters/04_training_data.md) · [评测](chapters/06_evaluation.md) |
+| **Agent 系统与执行框架** | [Agent System and Harness Design](https://arxiv.org/abs/2606.20683v1) | [基础与工具](chapters/md/01_basics.md) · [Harness 工程](chapters/md/18_harness_engineering.md) |
+| **Long-horizon：长程任务** | [Towards Long-Horizon Agents: A Survey](https://long-horizon-agents.github.io/) | [记忆](chapters/md/02_memory.md) · [评测](chapters/md/06_evaluation.md) |
+| **Self-evolving：自演化** | [Self-Improvements in Modern Agentic Systems](https://arxiv.org/abs/2607.13104v1) | [自我改进（RSI）](chapters/md/03_self_improvement.md) |
+| **RSI：递归自改进** | [Recursive Self-Improvement in AI](https://arxiv.org/abs/2607.07663v2) · [The Last AI Built by Humans](https://arxiv.org/abs/2609.11873v3) | [综述章的概念区分](chapters/md/00_surveys.md) · [自改进方法](chapters/md/03_self_improvement.md) |
+| **编码 Agent 的持续改进** | [Self-Evolving Coding Agents](https://arxiv.org/abs/2608.03392v4) | [训练数据](chapters/md/04_data_and_environments.md) · [评测](chapters/md/06_evaluation.md) |
 
 <a id="foundations"></a>
 

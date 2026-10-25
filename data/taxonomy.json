@@ -5,104 +5,110 @@
     {
       "key": "01_basics",
       "name": "Agent 基础与系统框架",
-      "chapter": "chapters/01_basics.md",
+      "chapter": "chapters/md/01_basics.md",
       "scope": "Agent 定义、控制循环、工具调用与系统组织的入门概念；以 harness 本身为研究对象的设计、优化、演化与评测归18；JEV判断、验证及低置信度升级归06，不因系统框架用语吸入基础。"
     },
     {
       "key": "02_memory",
       "name": "记忆与上下文",
-      "chapter": "chapters/02_memory.md",
+      "chapter": "chapters/md/02_memory.md",
       "scope": "Agent 记忆、经验存储、上下文管理；KV cache 工程优先效率。"
     },
     {
-      "key": "03_skills_and_self_improvement",
+      "key": "03_self_improvement",
       "name": "自我改进（RSI）",
-      "chapter": "chapters/03_skills_and_self_improvement.md",
+      "chapter": "chapters/md/03_self_improvement.md",
       "scope": "递归自我改进：参数、上下文、记忆、技能与改进器自身的进化，技能库与技能复用是其中一环；以 harness 为核心对象的设计、优化与演化归18，本类保留以自我改进机制为主的工作；机器人执行优先具身。"
     },
     {
-      "key": "04_training_data",
+      "key": "04_data_and_environments",
       "name": "训练数据与环境",
-      "chapter": "chapters/04_training_data.md",
+      "chapter": "chapters/md/04_data_and_environments.md",
       "scope": "Agent 训练数据、合成数据、训练环境与轨迹构建。"
     },
     {
       "key": "05_rl_and_distillation",
       "name": "强化学习与蒸馏",
-      "chapter": "chapters/05_rl_and_distillation.md",
+      "chapter": "chapters/md/05_rl_and_distillation.md",
       "scope": "语言模型或 Agent 的 RL、后训练与蒸馏；不因 distillation 一词吸收视觉生成和纯视觉模型。"
     },
     {
       "key": "06_evaluation",
       "name": "评测与能力基准",
-      "chapter": "chapters/06_evaluation.md",
+      "chapter": "chapters/md/06_evaluation.md",
       "scope": "围绕更长的任务链、更复杂的能力组合与更广的应用场景组织评测，覆盖软件、网页业务、多模态、科研与具身等方向。验证、评分、诊断与校准作为支撑方法。"
     },
     {
-      "key": "07_safety",
+      "key": "07_safety_and_alignment",
       "name": "安全与对齐",
-      "chapter": "chapters/07_safety.md",
+      "chapter": "chapters/md/07_safety_and_alignment.md",
       "scope": "欺骗、奖励投机、越狱、注入、对齐与失控风险。"
     },
     {
       "key": "08_collaboration",
       "name": "多 Agent 与人机协作",
-      "chapter": "chapters/08_collaboration.md",
+      "chapter": "chapters/md/08_collaboration.md",
       "scope": "Agent 团队、通信、协调与人机协作；科学应用不自动覆盖协作机制。"
     },
     {
-      "key": "09_multimodal_gui",
-      "name": "多模态与 GUI Agent",
-      "chapter": "chapters/09_multimodal_gui.md",
-      "scope": "多模态推理、视觉语言理解、GUI 与计算机使用；纯视觉重建归相邻方向。"
+      "key": "09_multimodal_understanding",
+      "name": "多模态理解",
+      "chapter": "chapters/md/09_multimodal_understanding.md",
+      "scope": "多模态理解：视觉语言对齐与接入、高分辨率与文档界面感知、空间与视频理解、流式视频、视觉模型的适配与压缩；以 GUI、网页与电脑操作、视觉工具调用和看图思考为核心的行动类工作归19；纯视觉重建归相邻方向。"
     },
     {
       "key": "10_world_models",
       "name": "世界模型与规划",
-      "chapter": "chapters/10_world_models.md",
+      "chapter": "chapters/md/10_world_models.md",
       "scope": "显式世界模型、动作条件动力学及基于模型的规划；非所有视频模型。"
     },
     {
       "key": "11_embodied",
       "name": "具身智能与 VLA",
-      "chapter": "chapters/11_embodied.md",
+      "chapter": "chapters/md/11_embodied.md",
       "scope": "机器人、视觉语言动作模型、自动驾驶、具身控制。"
     },
     {
       "key": "12_science",
       "name": "科学与数学 Agent",
-      "chapter": "chapters/12_science.md",
+      "chapter": "chapters/md/12_science.md",
       "scope": "AI 科学发现、生物化学、数学发现与形式验证；纯数学结论不等于 AI4Science。"
     },
     {
-      "key": "13_efficiency",
+      "key": "13_efficiency_and_architecture",
       "name": "效率与循环计算架构",
-      "chapter": "chapters/13_efficiency.md",
+      "chapter": "chapters/md/13_efficiency_and_architecture.md",
       "scope": "循环/递归 Transformer、共享参数的深度扩展、推理计算组织，以及缓存、量化、通信与部署加速；looped架构默认归13，不能仅因研究循环机制归14。"
     },
     {
       "key": "14_model_science",
       "name": "模型科学与可解释性",
-      "chapter": "chapters/14_model_science.md",
+      "chapter": "chapters/md/14_model_science.md",
       "scope": "优化器、表征、可解释性、机制解释与模型行为科学；循环架构及计算效率归13。以表征接口或因果解释为核心的个别循环论文，须在override中注明例外证据。"
     },
     {
       "key": "15_frontier_reports",
       "name": "前沿模型报告",
-      "chapter": "chapters/15_frontier_reports.md",
+      "chapter": "chapters/md/15_frontier_reports.md",
       "scope": "明确的模型发布、技术报告及系统卡；不根据来源域名、热度或非 arXiv ID 判断。"
     },
     {
-      "key": "16_generation",
+      "key": "16_multimodal_generation",
       "name": "多模态生成",
-      "chapter": "chapters/16_generation.md",
+      "chapter": "chapters/md/16_multimodal_generation.md",
       "scope": "图像、视频、音频生成与编辑及其专用蒸馏方法。"
     },
     {
       "key": "18_harness_engineering",
       "name": "Harness 工程",
-      "chapter": "chapters/18_harness_engineering.md",
+      "chapter": "chapters/md/18_harness_engineering.md",
       "scope": "以 harness（模型权重与环境之间的循环、上下文、工具与技能、子 agent、执行环境与运行时控制）为研究对象的设计、自动优化与演化、harness 与权重的联合优化与迁移、长程任务 harness、harness 安全，以及 harness 的评测与失败归因。Agent 定义与控制循环的入门概念归01；以递归自我改进机制本身为核心的工作归03；只把 harness 用作机器人、推荐、领域应用或记忆评测载体的工作留在原类，以副标签关联18。"
+    },
+    {
+      "key": "19_multimodal_agent",
+      "name": "多模态 agent",
+      "chapter": "chapters/md/19_multimodal_agent.md",
+      "scope": "以视觉完成任务的 agent：调用视觉工具与视觉程序、在推理中操作图像（看图思考）、网页与操作系统中的 GUI/电脑操作 agent 及其环境、轨迹数据、在线强化学习、奖励与停止、动作接口与安全，闭环创作中的看图检查，以及长程视觉记忆。静态视觉理解归09；以 harness 本身为研究对象的工作归18；生成模型内部的 agent 编排归16；世界模型归10；机器人与 VLA 归11。"
     },
     {
       "key": "90_adjacent",
@@ -119,20 +125,20 @@
   ],
   "legacy_mapping": {
     "01_JEV": "06_evaluation",
-    "02_Recursive_Self-Improvement": "03_skills_and_self_improvement",
-    "03_Agent_Training_Data_and_Environment": "04_training_data",
+    "02_Recursive_Self-Improvement": "03_self_improvement",
+    "03_Agent_Training_Data_and_Environment": "04_data_and_environments",
     "04_Long-Horizon_Agent_Benchmark": "06_evaluation",
     "05_Multimodal_Agent_Benchmark": "06_evaluation",
     "06_Frontier_Tech_Reports": "15_frontier_reports",
     "07_On-Policy_Distillation": "05_rl_and_distillation",
     "08_Memory_and_Context": "02_memory",
     "09_World_Models": "10_world_models",
-    "10_Looped_and_Recurrent_Transformers": "13_efficiency",
+    "10_Looped_and_Recurrent_Transformers": "13_efficiency_and_architecture",
     "11_Agentic_RL_PostTraining": "05_rl_and_distillation",
-    "12_Safety_Deception_RewardHacking": "07_safety",
-    "13_Efficiency_and_Architecture": "13_efficiency",
+    "12_Safety_Deception_RewardHacking": "07_safety_and_alignment",
+    "13_Efficiency_and_Architecture": "13_efficiency_and_architecture",
     "14_AI4Science_and_Math_Agents": "12_science",
-    "15_Multimodal_Generation": "16_generation",
+    "15_Multimodal_Generation": "16_multimodal_generation",
     "16_Non_AI_Science": "90_adjacent",
     "17_Embodied_and_VLA": "11_embodied",
     "18_Unassigned": "99_review",
@@ -140,7 +146,7 @@
     "20_Human_AI_Collaboration": "08_collaboration",
     "21_Model_Science_and_Optimization": "14_model_science",
     "22_Other_Areas": "99_review",
-    "23_Agent_Skill_Libraries": "03_skills_and_self_improvement"
+    "23_Agent_Skill_Libraries": "03_self_improvement"
   },
   "statuses": {
     "local_override_reviewed": "逐条定点校正：编码助手核对本地元数据，不代表人类专家审核或论文真实性核验。",
@@ -179,7 +185,7 @@
   "rules": [
     {
       "id": "safety_explicit",
-      "target": "07_safety",
+      "target": "07_safety_and_alignment",
       "priority": 130,
       "fields": [
         "title"
@@ -199,7 +205,7 @@
     },
     {
       "id": "looped_architecture",
-      "target": "13_efficiency",
+      "target": "13_efficiency_and_architecture",
       "priority": 121,
       "fields": [
         "title"
@@ -226,6 +232,16 @@
       ],
       "pattern": "\\bJEV-as-a-Judge\\b|\\bJEV vs\\.|\\bJev in the Wild\\b|\\bVisual Jev\\b|\\bREFLEX with Jev\\b|\\bconfidence-based cascades?\\b|\\b(?:selective|confidence-based) escalation\\b",
       "reason": "标题明确指向JEV判断、验证或不确定时升级；按第06章处理，优先于通用Agent框架规则，但不泛匹配JEV记忆等应用。"
+    },
+    {
+      "id": "multimodal_agent_core",
+      "target": "19_multimodal_agent",
+      "priority": 118,
+      "fields": [
+        "title"
+      ],
+      "pattern": "\\bGUI\\b|computer[ -]use|\\bCUA\\b|thinking with tools|thinking with long audio-video|video[ -]deep ?research|open-world video agents",
+      "reason": "标题明确以 GUI、网页或电脑操作 agent，或在推理中调用视觉工具、看图检索证据的视觉 agent 为对象；优先于通用评测与训练资源规则，使以电脑操作为对象的基准、奖励模型与环境归入19。"
     },
     {
       "id": "harness_core",
@@ -269,7 +285,7 @@
     },
     {
       "id": "visual_generation",
-      "target": "16_generation",
+      "target": "16_multimodal_generation",
       "priority": 100,
       "fields": [
         "title"
@@ -299,13 +315,13 @@
     },
     {
       "id": "multimodal_gui",
-      "target": "09_multimodal_gui",
+      "target": "09_multimodal_understanding",
       "priority": 90,
       "fields": [
         "title"
       ],
-      "pattern": "\\bGUI\\b|computer[ -]use|visual agents?|visual on-policy|visual evidence distillation|video understanding|video reasoning|vision[ -]language models?|vision encoder|just-in-time interfaces|optical character grounded",
-      "reason": "标题明确指向多模态理解、视觉语言或 GUI 交互。"
+      "pattern": "visual agents?|visual on-policy|visual evidence distillation|video understanding|video reasoning|vision[ -]language models?|vision encoder|optical character grounded",
+      "reason": "标题明确指向多模态理解或视觉语言模型；GUI、电脑操作与视觉工具调用由 multimodal_agent_core 优先归19。"
     },
     {
       "id": "science_application",
@@ -319,7 +335,7 @@
     },
     {
       "id": "efficiency_specific",
-      "target": "13_efficiency",
+      "target": "13_efficiency_and_architecture",
       "priority": 85,
       "fields": [
         "title"
@@ -329,7 +345,7 @@
     },
     {
       "id": "training_resources",
-      "target": "04_training_data",
+      "target": "04_data_and_environments",
       "priority": 80,
       "fields": [
         "title"
@@ -339,7 +355,7 @@
     },
     {
       "id": "skill_improvement",
-      "target": "03_skills_and_self_improvement",
+      "target": "03_self_improvement",
       "priority": 75,
       "fields": [
         "title"

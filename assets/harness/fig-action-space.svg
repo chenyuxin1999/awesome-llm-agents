@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 350" width="860" height="350" role="img" aria-label="静态 harness 阶段：循环不变，动作空间一路扩张" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><rect x="0" y="0" width="860" height="350" fill="#ffffff"/><defs><marker id="ah_fig_action_space" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs>
+<rect x="300" y="80" width="260" height="190" rx="10" fill="#FFFAF2" stroke="#B86E00" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="430" y="102" text-anchor="middle" font-size="11.5" font-weight="700" fill="#B86E00" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">不变的循环（ReAct 的形状）</text>
+<rect x="370" y="118" width="120" height="36" rx="5" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1.5"/>
+<text x="430" y="139.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">想：写推理</text>
+<rect x="318" y="200" width="104" height="36" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5"/>
+<text x="370" y="221.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">做：发动作</text>
+<rect x="438" y="200" width="104" height="36" rx="5" fill="#E9EDF3" stroke="#47546A" stroke-width="1.5"/>
+<text x="490" y="221.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">看：读观察</text>
+<path d="M400,154 L376,198" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_action_space)"/>
+<path d="M422,218 L436,218" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_action_space)"/>
+<path d="M488,198 L462,156" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_action_space)"/>
+<text x="430" y="258" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">动作是模型发出的，执行由 harness 负责</text>
+<rect x="20" y="30" width="210" height="54" rx="5" fill="#DDF3E8" stroke="#26805A" stroke-width="1.5"/>
+<text x="125" y="53.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">浏览网页</text>
+<text x="125" y="68.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">WebGPT · 2021</text>
+<path d="M230,57 L298,142" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_action_space)"/>
+<rect x="20" y="104" width="210" height="54" rx="5" fill="#DDF3E8" stroke="#26805A" stroke-width="1.5"/>
+<text x="125" y="127.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">调用 API</text>
+<text x="125" y="142.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Toolformer · 2023</text>
+<path d="M230,131 L298,164" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_action_space)"/>
+<rect x="20" y="178" width="210" height="54" rx="5" fill="#DDF3E8" stroke="#26805A" stroke-width="1.5"/>
+<text x="125" y="201.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">反思写回上下文</text>
+<text x="125" y="216.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Self-Refine、Reflexion · 2023</text>
+<path d="M230,205 L298,186" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_action_space)"/>
+<rect x="20" y="252" width="210" height="54" rx="5" fill="#DDF3E8" stroke="#26805A" stroke-width="1.5"/>
+<text x="125" y="275.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">写代码让环境执行</text>
+<text x="125" y="290.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">InterCode · 2023</text>
+<path d="M230,279 L298,208" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_action_space)"/>
+<rect x="630" y="30" width="210" height="54" rx="5" fill="#DDF3E8" stroke="#26805A" stroke-width="1.5"/>
+<text x="735" y="53.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">派生一个 agent</text>
+<text x="735" y="68.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">多 agent 协作 · 2023</text>
+<path d="M630,57 L562,142" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_action_space)"/>
+<rect x="630" y="104" width="210" height="54" rx="5" fill="#DDF3E8" stroke="#26805A" stroke-width="1.5"/>
+<text x="735" y="127.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">存取技能库</text>
+<text x="735" y="142.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">Voyager · 2023</text>
+<path d="M630,131 L562,164" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_action_space)"/>
+<rect x="630" y="178" width="210" height="54" rx="5" fill="#DDF3E8" stroke="#26805A" stroke-width="1.5"/>
+<text x="735" y="201.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">分页管理记忆</text>
+<text x="735" y="216.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">MemGPT · 2023</text>
+<path d="M630,205 L562,186" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_action_space)"/>
+<rect x="630" y="252" width="210" height="54" rx="5" fill="#DDF3E8" stroke="#26805A" stroke-width="1.5"/>
+<text x="735" y="275.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">把上下文当变量处理</text>
+<text x="735" y="290.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">RLM · 2025</text>
+<path d="M630,279 L562,208" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_action_space)"/>
+<text x="430" y="40" text-anchor="middle" font-size="12.5" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">工具箱一件件装满</text>
+<text x="430" y="60" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">每一件都是模型可以发出的一种动作</text>
+</svg>

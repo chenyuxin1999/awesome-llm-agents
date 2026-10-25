@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 250" width="780" height="250" role="img" aria-label="V0 阶段的 harness：一个采样循环加一段提示" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><rect x="0" y="0" width="780" height="250" fill="#ffffff"/><defs><marker id="ah_fig_v0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs>
-<rect x="20" y="24" width="270" height="180" rx="8" fill="#F4F7FF" stroke="#2B57C9" stroke-width="1.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 270" width="780" height="270" role="img" aria-label="V0 阶段的 harness：一个采样循环加一段提示" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><rect x="0" y="0" width="780" height="270" fill="#ffffff"/><defs><marker id="ah_fig_v0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs>
+<rect x="20" y="24" width="290" height="196" rx="8" fill="#F4F7FF" stroke="#2B57C9" stroke-width="1.5"/>
 <text x="36" y="46" text-anchor="start" font-size="12.5" font-weight="700" fill="#2B57C9" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">上下文窗口（第一次值得布置）</text>
-<rect x="36" y="58" width="238" height="28" rx="5" fill="#FFFFFF" stroke="#2B57C9" stroke-width="1.5"/>
-<text x="155" y="75.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">任务说明</text>
-<rect x="36" y="93" width="238" height="28" rx="5" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1.5"/>
-<text x="155" y="110.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">例题 1、例题 2（少样本，GPT-3）</text>
-<rect x="36" y="128" width="238" height="28" rx="5" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1.5"/>
-<text x="155" y="145.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">先写推理步骤（思维链）</text>
-<rect x="36" y="163" width="238" height="28" rx="5" fill="#FFFFFF" stroke="#2B57C9" stroke-width="1.5"/>
-<text x="155" y="180.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">要回答的问题</text>
-<rect x="340" y="84" width="120" height="64" rx="5" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.5"/>
-<text x="400" y="112.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">模型</text>
-<text x="400" y="127.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">GPT-2、GPT-3</text>
-<rect x="520" y="84" width="220" height="64" rx="5" fill="#E9EDF3" stroke="#47546A" stroke-width="1.5"/>
-<text x="630" y="112.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">按 top-p 采样一个 token</text>
-<text x="630" y="127.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">接到上下文末尾</text>
-<path d="M290,116 L338,116" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_v0)"/>
-<path d="M460,116 L518,116" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_v0)"/>
-<path d="M630,148 L630,228 L155,228 L155,206" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_v0)"/>
-<text x="400" y="222" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" style="paint-order:stroke;stroke-width:4px;stroke-linejoin:round" stroke="#ffffff">再采样下一个，直到停下</text>
-<text x="630" y="70" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">harness 只管两件事：放什么、采多少</text>
+<rect x="36" y="58" width="258" height="30" rx="5" fill="#FFFFFF" stroke="#2B57C9" stroke-width="1.5"/>
+<text x="165" y="76.036" text-anchor="middle" font-size="11" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">任务说明：做应用题</text>
+<rect x="36" y="96" width="258" height="30" rx="5" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1.5"/>
+<text x="165" y="114.036" text-anchor="middle" font-size="11" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">例题 1、例题 2（少样本，GPT-3）</text>
+<rect x="36" y="134" width="258" height="30" rx="5" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1.5"/>
+<text x="165" y="152.036" text-anchor="middle" font-size="11" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">先写推理步骤（思维链）</text>
+<rect x="36" y="172" width="258" height="30" rx="5" fill="#FFFFFF" stroke="#2B57C9" stroke-width="1.5"/>
+<text x="165" y="190.036" text-anchor="middle" font-size="11" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">问：5 个苹果吃掉 2 个，还剩几个？</text>
+<rect x="350" y="92" width="120" height="64" rx="5" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.5"/>
+<text x="410" y="120.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">模型</text>
+<text x="410" y="135.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">GPT-2、GPT-3</text>
+<rect x="520" y="92" width="240" height="64" rx="5" fill="#E9EDF3" stroke="#47546A" stroke-width="1.5"/>
+<text x="640" y="113.167" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">按 top-p 采样一个 token</text>
+<text x="640" y="128.278" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">接到上下文末尾</text>
+<text x="640" y="142.285" text-anchor="middle" font-size="10" font-weight="400" fill="#47546A" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">例：“5 − 2 = 3，答 3”逐个写出</text>
+<path d="M310,124 L348,124" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_v0)"/>
+<path d="M470,124 L518,124" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_v0)"/>
+<path d="M640,156 L640,244 L165,244 L165,222" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_v0)"/>
+<text x="400" y="238" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" style="paint-order:stroke;stroke-width:4px;stroke-linejoin:round" stroke="#ffffff">再采样下一个，直到停下</text>
+<text x="640" y="76" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">harness 只管两件事：放什么、采多少</text>
+<text x="760" y="262" text-anchor="end" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">题目是示意</text>
 </svg>

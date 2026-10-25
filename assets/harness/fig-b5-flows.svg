@@ -6,34 +6,37 @@
 <text x="452" y="40" text-anchor="middle" font-size="12.5" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">把 harness 蒸进权重（Harness-Zero）</text>
 <rect x="608" y="16" width="280" height="330" rx="8" fill="#F3F5F8" stroke="#D5DBE4" stroke-width="1.5"/>
 <text x="748" y="40" text-anchor="middle" font-size="12.5" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">强模型造 harness 给弱模型（AI4AI）</text>
-<rect x="36" y="62" width="240" height="56" rx="5" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.5"/>
-<text x="156" y="86.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">权重阶段</text>
-<text x="156" y="101.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">固定 harness，在线拒绝采样微调</text>
+<rect x="36" y="56" width="240" height="68" rx="5" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.5"/>
+<text x="156" y="79.512" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">权重阶段：在线拒绝采样微调</text>
+<text x="156" y="94.14" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">信号：模型在当前 harness 下做对的轨迹</text>
+<text x="156" y="107.94" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">目标：更常走出做对的轨迹</text>
 <rect x="36" y="176" width="240" height="56" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5"/>
 <text x="156" y="200.067" text-anchor="middle" font-size="12" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">harness 阶段</text>
-<text x="156" y="215.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">固定模型，用 Meta-Harness 搜索</text>
-<path d="M116,118 L116,174" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b5_flows)"/>
-<text x="116" y="150" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" style="paint-order:stroke;stroke-width:4px;stroke-linejoin:round" stroke="#ffffff">更新后的模型</text>
-<path d="M196,174 L196,120" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b5_flows)"/>
-<text x="196" y="150" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" style="paint-order:stroke;stroke-width:4px;stroke-linejoin:round" stroke="#ffffff">更好的 harness</text>
+<text x="156" y="215.178" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">权重不训练，用 Meta-Harness 搜代码</text>
+<path d="M116,124 L116,174" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b5_flows)"/>
+<text x="116" y="152" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" style="paint-order:stroke;stroke-width:4px;stroke-linejoin:round" stroke="#ffffff">更新后的模型</text>
+<path d="M196,174 L196,126" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b5_flows)"/>
+<text x="196" y="152" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" style="paint-order:stroke;stroke-width:4px;stroke-linejoin:round" stroke="#ffffff">更好的 harness</text>
 <text x="156" y="258" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">何时切换：固定阶段长度，</text>
 <text x="156" y="274" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">或按训练信号的自适应耐心规则</text>
-<text x="156" y="306" text-anchor="middle" font-size="10.5" font-weight="700" fill="#C2501A" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">两者都可能成为瓶颈</text>
+<text x="156" y="306" text-anchor="middle" font-size="10.5" font-weight="700" fill="#C2501A" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">两边都可能卡住进展</text>
 <text x="156" y="322" text-anchor="middle" font-size="10.5" font-weight="700" fill="#C2501A" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">少量交替好过先训完再搜</text>
 <text x="332" y="64" text-anchor="start" font-size="10.5" font-weight="700" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">训练时</text>
 <rect x="332" y="72" width="240" height="40" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5"/>
 <text x="452" y="95.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">优化过的专用 harness</text>
-<rect x="332" y="128" width="240" height="46" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5"/>
-<text x="452" y="147.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">充当 harness 的 agent</text>
-<text x="452" y="161.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">在执行前纠正学生的回答</text>
-<rect x="332" y="190" width="240" height="40" rx="5" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.5"/>
-<text x="452" y="213.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">纠正后的示范 → 微调学生权重</text>
-<path d="M452,112 L452,126" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b5_flows)"/>
-<path d="M452,174 L452,188" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b5_flows)"/>
+<rect x="332" y="124" width="240" height="46" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5"/>
+<text x="452" y="143.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">充当 harness 的 agent</text>
+<text x="452" y="157.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">在执行前纠正学生的回答（不训练）</text>
+<rect x="332" y="182" width="240" height="58" rx="5" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.5"/>
+<text x="452" y="200.374" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">微调学生权重</text>
+<text x="452" y="214.795" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">信号：纠正后的回答当示范</text>
+<text x="452" y="228.595" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">目标：不带专用 harness 也答成这样</text>
+<path d="M452,112 L452,122" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b5_flows)"/>
+<path d="M452,170 L452,180" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b5_flows)"/>
 <text x="332" y="254" text-anchor="start" font-size="10.5" font-weight="700" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">部署时</text>
 <rect x="332" y="262" width="240" height="40" rx="5" fill="#DDF3E8" stroke="#26805A" stroke-width="1.5"/>
 <text x="452" y="285.174" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">只用固定的通用 harness</text>
-<path d="M452,230 L452,260" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b5_flows)"/>
+<path d="M452,240 L452,260" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_fig_b5_flows)"/>
 <text x="452" y="326" text-anchor="middle" font-size="10.5" font-weight="700" fill="#C2501A" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">23.3% → 44.3%（带专用 harness 时 41.7%）</text>
 <rect x="628" y="62" width="240" height="50" rx="5" fill="#ECE7FB" stroke="#5B45B0" stroke-width="1.5"/>
 <text x="748" y="83.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">强的构建者模型</text>

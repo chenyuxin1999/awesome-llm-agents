@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 136" width="560" height="136" role="img" aria-label="S2 工具调用结构图" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><rect x="0" y="0" width="560" height="136" fill="#ffffff"/><defs><marker id="ah_card_S2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 142" width="560" height="142" role="img" aria-label="S2 工具调用结构图" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif"><rect x="0" y="0" width="560" height="142" fill="#ffffff"/><defs><marker id="ah_card_S2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6577"/></marker></defs>
 <text x="16" y="24" text-anchor="start" font-size="12" font-weight="700" fill="#0E6E7E" font-family="JetBrains Mono, Menlo, Consolas, monospace">S2</text>
 <text x="48" y="24" text-anchor="start" font-size="12.5" font-weight="700" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">工具调用（WebGPT、Toolformer）</text>
 <text x="544" y="24" text-anchor="end" font-size="11" font-weight="400" fill="#5A6577" font-family="JetBrains Mono, Menlo, Consolas, monospace">2021–2023</text>
-<rect x="16" y="46" width="158.667" height="44" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5"/>
-<text x="95.3333" y="64.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">模型写出调用</text>
-<text x="95.3333" y="78.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">搜索、点开、API</text>
-<rect x="200.667" y="46" width="158.667" height="44" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5"/>
-<text x="280" y="64.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">harness 执行</text>
-<text x="280" y="78.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">浏览器或 API</text>
-<path d="M175.667,68 L198.667,68" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_card_S2)"/>
-<rect x="385.333" y="46" width="158.667" height="44" rx="5" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1.5"/>
-<text x="464.667" y="64.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">结果填回文本</text>
-<text x="464.667" y="78.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">模型接着写</text>
-<path d="M360.333,68 L383.333,68" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_card_S2)"/>
-<text x="280" y="118" text-anchor="middle" font-size="10.5" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">分工从此固定：模型负责发出调用，harness 负责执行</text>
+<rect x="16" y="38" width="161.333" height="78" rx="5" fill="#FDE8DD" stroke="#C2501A" stroke-width="1.5"/>
+<text x="96.6667" y="66.374" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">模型写出调用</text>
+<text x="96.6667" y="80.795" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">搜什么、点开哪一页、调哪个</text>
+<text x="96.6667" y="94.595" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">API</text>
+<rect x="199.333" y="38" width="161.333" height="78" rx="5" fill="#FFF1DC" stroke="#B86E00" stroke-width="1.5"/>
+<text x="280" y="66.374" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">harness 去执行</text>
+<text x="280" y="80.795" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">文字版浏览器或外部 API 真的跑</text>
+<text x="280" y="94.595" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">这一步</text>
+<path d="M178.333,77 L197.333,77" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_card_S2)"/>
+<rect x="382.667" y="38" width="161.333" height="78" rx="5" fill="#E3EBFF" stroke="#2B57C9" stroke-width="1.5"/>
+<text x="463.333" y="73.274" text-anchor="middle" font-size="11.5" font-weight="500" fill="#18202C" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">结果填回文本</text>
+<text x="463.333" y="87.695" text-anchor="middle" font-size="10" font-weight="400" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">模型读到结果，接着往下写</text>
+<path d="M361.667,77 L380.667,77" fill="none" stroke="#5A6577" stroke-width="1.4" marker-end="url(#ah_card_S2)"/>
+<text x="280" y="132" text-anchor="middle" font-size="10.5" font-weight="500" fill="#5A6577" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">模型负责发出调用，harness 负责执行，这个分工成了 agent 系统的默认约定</text>
 </svg>
